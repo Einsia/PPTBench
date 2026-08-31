@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2202.01124",
+  "candidate_id": "2202-01124_pdf_b1894eadfa992c7c",
+  "caption": "Comparison of standard noise reduction pipeline known from the literature and the alternative presented in this paper. We omit other noise suppression steps, such as the removal of spacecraft jitters.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 0,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 65,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 65,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 65,
+    "text_count": 50,
+    "vector_drawing_count": 15,
+    "vector_primitive_count": 15
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 1070,
+    "full_pool_rank": 1914,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 945,
+    "second_pass_review_rank": 1070
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2202.01124v3",
+    "abstract": "Time-delay interferometry (TDI) is a data processing technique for LISA designed to suppress the otherwise overwhelming laser noise by several orders of magnitude. It is widely believed that TDI can only be applied once all phase or frequency measurements from each spacecraft have been synchronized to a common time frame. We demonstrate analytically, using as an example the commonly-used Michelson combination X, that TDI can be computed using the raw, unsynchronized data, thereby avoiding the need for an initial synchronization processing step and significantly simplifying the initial noise reduction pipeline. Furthermore, the raw data is free of any potential artifacts introduced by clock synchronization and reference frame transformation algorithms, which allows to operate directly on the MHz beatnotes. As a consequence, in-band clock noise is directly suppressed as part of TDI, in contrast to the approach previously proposed in the literature (in which large trends in the beatnotes are removed before the main laser-noise reduction step, and clock noise is suppressed in an extra processing step). We validate our algorithm with full-scale numerical simulations that use LISA Instrument and PyTDI and show that we reach the same performance levels as the previously proposed methods, ultimately limited by the clock sideband stability.",
+    "arxiv_id": "2202.01124",
+    "authors": [
+      "Olaf Hartwig",
+      "Jean-Baptiste Bayle",
+      "Martin Staab",
+      "Aur\u00e9lien Hees",
+      "Marc Lilley",
+      "Peter Wolf"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.IM"
+    ],
+    "doi": "10.1103/PhysRevD.105.122008",
+    "journal_ref": "Phys. Rev. D 105, 122008 (2022)",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2202.01124v3",
+    "primary_category": "gr-qc",
+    "published": "2022-02-02T16:32:34Z",
+    "query": "(cat:gr-qc AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2202.01124v3",
+    "title": "Time delay interferometry without clock synchronisation",
+    "updated": "2022-05-19T14:57:21Z",
+    "versioned_id": "2202.01124v3"
+  },
+  "reference_sha256": "8b83716b1457b324a051ab244087e202e447fc3dc97926a5094f638cfdb519ec",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 730,
+    "final_quality_rank": 958,
+    "final_quality_score": 0.424117,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.7564,
+      "category": "gr-qc",
+      "category_family": "gr-qc",
+      "color_bin": 5,
+      "colorfulness": 1.0,
+      "component_bin": 0,
+      "connector_bin": 0,
+      "difference_hash": "99929569b52bbbb7b52fe6292f346d2899c29921f2b9b1bc92add2310d78816c",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 875,
+    "style_selection_score": 0.425622
+  },
+  "source_filename": "pipelines.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "b1894eadfa992c7c4b1fb2b8204c14cc5586e826066e99cb2968aa769e74f677",
+  "task_id": "task_0729",
+  "task_index": 729
+}

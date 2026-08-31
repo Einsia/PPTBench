@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2410.03423",
+  "candidate_id": "2410-03423_pdf_f8986fef99b6f30d",
+  "caption": "40k-Sample 30 MHz CNN Autoencoder Architecture",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 185,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1431,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 256,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1431,
+    "text_count": 71,
+    "vector_drawing_count": 185,
+    "vector_primitive_count": 1360
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2410.03423v1",
+    "abstract": "Denoising autoencoders for signal processing applications have been shown to experience significant difficulty in learning to reconstruct radio frequency communication signals, particularly in the large sample regime. In communication systems, this challenge is primarily due to the need to reconstruct the modulated data stream which is generally highly stochastic in nature. In this work, we take advantage of this limitation by using the denoising autoencoder to instead remove interfering radio frequency communication signals while reconstructing highly structured FMCW radar signals. More specifically, in this work we show that a CNN-layer only autoencoder architecture can be utilized to improve the accuracy of a radar altimeter's ranging estimate even in severe interference environments consisting of a multitude of interference signals. This is demonstrated through comprehensive performance analysis of an end-to-end FMCW radar altimeter simulation with and without the convolutional layer-only autoencoder. The proposed approach significantly improves interference mitigation in the presence of both narrow-band tone interference as well as wideband QPSK interference in terms of range RMS error, number of false altitude reports, and the peak-to-sidelobe ratio of the resulting range profile. FMCW radar signals of up to 40,000 IQ samples can be reliably reconstructed.",
+    "arxiv_id": "2410.03423",
+    "authors": [
+      "Samuel B. Brown",
+      "Stephen Young",
+      "Adam Wagenknecht",
+      "Daniel Jakubisin",
+      "Charles E. Thornton",
+      "Aaron Orndorff",
+      "William C. Headley"
+    ],
+    "categories": [
+      "eess.SP",
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2410.03423v1",
+    "primary_category": "eess.SP",
+    "published": "2024-10-04T13:32:05Z",
+    "query": "(cat:eess.SP AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2410.03423v1",
+    "title": "Aircraft Radar Altimeter Interference Mitigation Through a CNN-Layer Only Denoising Autoencoder Architecture",
+    "updated": "2024-10-04T13:32:05Z",
+    "versioned_id": "2410.03423v1"
+  },
+  "reference_sha256": "252c2844ff2ba22f8c5559c77ea503b9c8a37863e29c5b4ee6a49ddfd3cbb9b0",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 278,
+    "final_quality_rank": 329,
+    "final_quality_score": 0.633032,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 6.0952,
+      "category": "eess.SP",
+      "category_family": "eess",
+      "color_bin": 2,
+      "colorfulness": 0.19001,
+      "component_bin": 3,
+      "connector_bin": 3,
+      "difference_hash": "ed48e968eabce2b8caacd4d0696ab55ad4d4e698eaa8eaa8eb68ab6aa01a810c",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 391,
+    "style_selection_score": 0.521716
+  },
+  "source_filename": "main_architecture_diagram.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "f8986fef99b6f30d0be5d71fa074babfdb440681edacd439aef784a4f438b5fb",
+  "task_id": "task_0277",
+  "task_index": 277
+}

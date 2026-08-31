@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2204.13571",
+  "candidate_id": "2204-13571_pdf_17d6c0170ce12c0f",
+  "caption": "Scheme for ARChemist. The overall reconfigurable system allows chemists to program their experiments through a chemical recipe, capturing the workflow state in terms of stations, robots, and sample progress. The chemical recipes represent the system input data, while the fully processed samples results represent its output data.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 48,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.993767,
+    "editable_component_count": 1435,
+    "embedded_image_count": 9,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.015927,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 87,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1444,
+    "text_count": 20,
+    "vector_drawing_count": 58,
+    "vector_primitive_count": 1415
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2204.13571v1",
+    "abstract": "Automated laboratory experiments have the potential to propel new discoveries, while increasing reproducibility and improving scientists' safety when handling dangerous materials. However, many automated laboratory workflows have not fully leveraged the remarkable advancements in robotics and digital lab equipment. As a result, most robotic systems used in the labs are programmed specifically for a single experiment, often relying on proprietary architectures or using unconventional hardware. In this work, we tackle this problem by proposing a novel robotic system architecture specifically designed with and for chemists, which allows the scientist to easily reconfigure their setup for new experiments. Specifically, the system's strength is its ability to combine together heterogeneous robotic platforms with standard laboratory equipment to create different experimental setups. Finally, we show how the architecture can be used for specific laboratory experiments through case studies such as solubility screening and crystallisation.",
+    "arxiv_id": "2204.13571",
+    "authors": [
+      "Hatem Fakhruldeen",
+      "Gabriella Pizzuto",
+      "Jakub Glowacki",
+      "Andrew Ian Cooper"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "doi": "10.1109/ICRA46639.2022.9811996",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2204.13571v1",
+    "primary_category": "cs.RO",
+    "published": "2022-04-28T15:34:09Z",
+    "query": "(cat:cs.RO AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2204.13571v1",
+    "title": "ARChemist: Autonomous Robotic Chemistry System Architecture",
+    "updated": "2022-04-28T15:34:09Z",
+    "versioned_id": "2204.13571v1"
+  },
+  "reference_sha256": "0dcae7c8804faa20753b570bde5bd46a43d833f4251632e7850110a0a6eb5732",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 766,
+    "final_quality_rank": 586,
+    "final_quality_score": 0.583916,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.5467,
+      "category": "cs.RO",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.145699,
+      "component_bin": 3,
+      "connector_bin": 1,
+      "difference_hash": "781998219821b0d198c689d64b39c694cb34cb36933e088e9676a612c6343631",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 600,
+    "style_selection_score": 0.480591
+  },
+  "source_filename": "archemist_workflow_problem.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "17d6c0170ce12c0f662dea340f109f037f509acb805ec3e855e536c0e3fefb01",
+  "task_id": "task_0765",
+  "task_index": 765
+}

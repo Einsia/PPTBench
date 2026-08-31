@@ -1,0 +1,9 @@
+[benchmark]
+# Run ``pptbench-materialize`` first.  These paths point to the local,
+# git-ignored materialized task tree and generated run outputs.
+tasks_manifest = "benchmark/materialization_manifest.jsonl"
+tasks_root = "data/pptbench-tasks"
+output_dir = "results/local"
+sample_count = 500
+canvas_width = 1600
+canvas_height = 900

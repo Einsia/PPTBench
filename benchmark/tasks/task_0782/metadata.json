@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2505.24348",
+  "candidate_id": "2505-24348_pdf_ad2030633cbbd918",
+  "caption": "Overview of the procedure for integrating point clouds collected by the 3D-MCS framework.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 222,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1092,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 267,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1092,
+    "text_count": 16,
+    "vector_drawing_count": 251,
+    "vector_primitive_count": 1076
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 773,
+    "full_pool_rank": 1325,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 675,
+    "second_pass_review_rank": 773
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2505.24348v1",
+    "abstract": "In this article, we propose a 3D mobile crowdsensing (3D-MCS) framework aimed at sustainable urban digital twins (UDTs). The framework comprises four key mechanisms: (1) the 3D-MCS mechanism, consisting of active and passive models; (2) the Geohash-based spatial information management mechanism; (3) the dynamic point cloud integration mechanism for UDTs; and (4) the web-based real-time visualizer for 3D-MCS and UDTs. The active sensing model features a gamified 3D-MCS approach, where participants collect point cloud data through an augmented reality territory coloring game. In contrast, the passive sensing model employs a wearable 3D-MCS approach, where participants wear smartphones around their necks without disrupting daily activities. The spatial information management mechanism efficiently partitions the space into regions using Geohash. The dynamic point cloud integration mechanism incorporates point clouds collected by 3D-MCS into UDTs through global and local point cloud registration. Finally, we evaluated the proposed framework through real-world experiments. We verified the effectiveness of the proposed 3D-MCS models from the perspectives of subjective evaluation and data collection and analysis. Furthermore, we analyzed the performance of the dynamic point cloud integration using a dataset.",
+    "arxiv_id": "2505.24348",
+    "authors": [
+      "Taku Yamazaki",
+      "Kaito Watanabe",
+      "Tatsuya Kase",
+      "Kenta Hasegawa",
+      "Koki Saida",
+      "Takumi Miyoshi"
+    ],
+    "categories": [
+      "cs.HC",
+      "cs.CY"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2505.24348v1",
+    "primary_category": "cs.HC",
+    "published": "2025-05-30T08:42:24Z",
+    "query": "(cat:cs.HC AND all:framework) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2505.24348v1",
+    "title": "A 3D Mobile Crowdsensing Framework for Sustainable Urban Digital Twins",
+    "updated": "2025-05-30T08:42:24Z",
+    "versioned_id": "2505.24348v1"
+  },
+  "reference_sha256": "af7e210d192d594835b2640cff9dfc7441029783162aa18585e575417b514b08",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 783,
+    "final_quality_rank": 610,
+    "final_quality_score": 0.578942,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.1595,
+      "category": "cs.HC",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.042388,
+      "component_bin": 3,
+      "connector_bin": 3,
+      "difference_hash": "83439d9c719c919a9b4c9215648c10c565b48d9cb344338d08cc5bcd4ac944c1",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 603,
+    "style_selection_score": 0.482323
+  },
+  "source_filename": "prop-concept-registration.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "ad2030633cbbd9188a0ae5229f2f211a46b9db7d076aec2f935937c21c8b2827",
+  "task_id": "task_0782",
+  "task_index": 782
+}

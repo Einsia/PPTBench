@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2311.16026",
+  "candidate_id": "2311-16026_pdf_e8e6f88db4fc5f05",
+  "caption": "Architecture of .",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 52,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.991444,
+    "editable_component_count": 927,
+    "embedded_image_count": 8,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.023532,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 78,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 935,
+    "text_count": 16,
+    "vector_drawing_count": 54,
+    "vector_primitive_count": 911
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 828,
+    "full_pool_rank": 1415,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 721,
+    "second_pass_review_rank": 828
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2311.16026v2",
+    "abstract": "Unobserved confounding is common in many applications, making causal inference from observational data challenging. As a remedy, causal sensitivity analysis is an important tool to draw causal conclusions under unobserved confounding with mathematical guarantees. In this paper, we propose NeuralCSA, a neural framework for generalized causal sensitivity analysis. Unlike previous work, our framework is compatible with (i) a large class of sensitivity models, including the marginal sensitivity model, f-sensitivity models, and Rosenbaum's sensitivity model; (ii) different treatment types (i.e., binary and continuous); and (iii) different causal queries, including (conditional) average treatment effects and simultaneous effects on multiple outcomes. The generality of NeuralCSA is achieved by learning a latent distribution shift that corresponds to a treatment intervention using two conditional normalizing flows. We provide theoretical guarantees that NeuralCSA is able to infer valid bounds on the causal query of interest and also demonstrate this empirically using both simulated and real-world data.",
+    "arxiv_id": "2311.16026",
+    "authors": [
+      "Dennis Frauen",
+      "Fergus Imrie",
+      "Alicia Curth",
+      "Valentyn Melnychuk",
+      "Stefan Feuerriegel",
+      "Mihaela van der Schaar"
+    ],
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2311.16026v2",
+    "primary_category": "cs.LG",
+    "published": "2023-11-27T17:40:02Z",
+    "query": "(cat:stat.ML AND all:framework) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2311.16026v2",
+    "title": "A Neural Framework for Generalized Causal Sensitivity Analysis",
+    "updated": "2024-04-09T17:08:55Z",
+    "versioned_id": "2311.16026v2"
+  },
+  "reference_sha256": "2a552d3b31f4e057c5a95fd4634d5d05a7161dec1116bd4165a2d4433edfad4f",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 788,
+    "final_quality_rank": 601,
+    "final_quality_score": 0.579872,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.8194,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.379833,
+      "component_bin": 3,
+      "connector_bin": 1,
+      "difference_hash": "dab6b349e329e224a761a361b34ca364a364b268b241c9c8cb0bc90dcb8dd8b6",
+      "raster_bin": 2
+    },
+    "style_selection_rank": 693,
+    "style_selection_score": 0.470613
+  },
+  "source_filename": "architecture.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "e8e6f88db4fc5f058b793618fd65d42eedd67a09c560004297c5a4bcb49b0903",
+  "task_id": "task_0787",
+  "task_index": 787
+}

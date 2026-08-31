@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2603.21439",
+  "candidate_id": "2603-21439_pdf_9473b36fa13f19d2",
+  "caption": "Iterative workflow optimization framework for vehicle API generation. The upper part illustrates graph-level optimization, depicting how the initial manual workflow undergoes three iterative refinements to achieve a highly automated workflow. The lower-right part illustrates the final deployed workflow, which comprises three server nodes. The lower-left part illustrates the detailed structure of each node.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 219,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 7478,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 500,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 7478,
+    "text_count": 224,
+    "vector_drawing_count": 276,
+    "vector_primitive_count": 7254
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 114,
+    "full_pool_rank": 148,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 101,
+    "second_pass_review_rank": 114
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2603.21439v4",
+    "abstract": "Multidisciplinary Software Development (MSD) requires domain experts and developers to collaborate across incompatible formalisms and separate artifact sets. Today, even with AI coding assistants like GitHub Copilot, this process remains inefficient; individual coding tasks are semi-automated, but the workflow connecting domain knowledge to implementation is not. Developers and experts still lack a shared view, resulting in repeated coordination, clarification rounds, and error-prone handoffs. We address this gap through a graph-based workflow optimization approach that progressively replaces manual coordination with LLM-powered services, enabling incremental adoption without disrupting established practices. We evaluate our approach on \\texttt{spapi}, a production in-vehicle API system at Volvo Group involving 192 endpoints, 420 properties, and 776 CAN signals across six functional domains. The automated workflow achieves 93.7\\% F1 score while reducing per-API development time from approximately 5 hours to under 7 minutes, saving an estimated 979 engineering hours. In production, the system received high satisfaction from both domain experts and developers, with all participants reporting full satisfaction with communication efficiency.",
+    "arxiv_id": "2603.21439",
+    "authors": [
+      "Shuai Wang",
+      "Yinan Yu",
+      "Earl Barr",
+      "Dhasarathy Parthasarathy"
+    ],
+    "categories": [
+      "cs.SE",
+      "cs.AI"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2603.21439v4",
+    "primary_category": "cs.SE",
+    "published": "2026-03-22T22:59:28Z",
+    "query": "(cat:cs.SE AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2603.21439v4",
+    "title": "LLM-Powered Workflow Optimization for Multidisciplinary Software Development: An Automotive Industry Case Study",
+    "updated": "2026-03-30T13:59:16Z",
+    "versioned_id": "2603.21439v4"
+  },
+  "reference_sha256": "aefeda1f03e39aeef5bd36eeb00c4429dfc6094f08cadb5e6fd1d9b3f0f8842a",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 189,
+    "final_quality_rank": 145,
+    "final_quality_score": 0.684837,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.6583,
+      "category": "cs.SE",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.118574,
+      "component_bin": 5,
+      "connector_bin": 3,
+      "difference_hash": "ce84aa9dcac4de46dc4cdc558a8c372cb46cb66c91ecda649e6c966c98cc98cc",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 230,
+    "style_selection_score": 0.548769
+  },
+  "source_filename": "section-4-fig-v4.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "9473b36fa13f19d285d4b12fae998612fb4ecf018ddf30f8b2317f2bdff44bb0",
+  "task_id": "task_0188",
+  "task_index": 188
+}

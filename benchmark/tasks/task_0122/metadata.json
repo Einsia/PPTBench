@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2106.13031",
+  "candidate_id": "2106-13031_pdf_36477016659c53bd",
+  "caption": "Comparison between layer architectures: fully connected (left), locally connected (middle) and convolutional (right). Locally connected layers have different weights for each neuron z_1 to z_4 (indicated by different colors), but have the same connectivity as convolutional layers.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 108,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 318,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 138,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 318,
+    "text_count": 30,
+    "vector_drawing_count": 108,
+    "vector_primitive_count": 288
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 1212,
+    "full_pool_rank": 2280,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 1070,
+    "second_pass_review_rank": 1212
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2106.13031v2",
+    "abstract": "Convolutional networks are ubiquitous in deep learning. They are particularly useful for images, as they reduce the number of parameters, reduce training time, and increase accuracy. However, as a model of the brain they are seriously problematic, since they require weight sharing - something real neurons simply cannot do. Consequently, while neurons in the brain can be locally connected (one of the features of convolutional networks), they cannot be convolutional. Locally connected but non-convolutional networks, however, significantly underperform convolutional ones. This is troublesome for studies that use convolutional networks to explain activity in the visual system. Here we study plausible alternatives to weight sharing that aim at the same regularization principle, which is to make each neuron within a pool react similarly to identical inputs. The most natural way to do that is by showing the network multiple translations of the same image, akin to saccades in animal vision. However, this approach requires many translations, and doesn't remove the performance gap. We propose instead to add lateral connectivity to a locally connected network, and allow learning via Hebbian plasticity. This requires the network to pause occasionally for a sleep-like phase of \"weight sharing\". This method enables locally connected networks to achieve nearly convolutional performance on ImageNet and improves their fit to the ventral stream data, thus supporting convolutional networks as a model of the visual stream.",
+    "arxiv_id": "2106.13031",
+    "authors": [
+      "Roman Pogodin",
+      "Yash Mehta",
+      "Timothy P. Lillicrap",
+      "Peter E. Latham"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.NE",
+      "q-bio.NC"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2106.13031v2",
+    "primary_category": "cs.LG",
+    "published": "2021-06-22T17:01:58Z",
+    "query": "(cat:q-bio.NC AND all:network) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2106.13031v2",
+    "title": "Towards Biologically Plausible Convolutional Networks",
+    "updated": "2022-01-15T18:03:40Z",
+    "versioned_id": "2106.13031v2"
+  },
+  "reference_sha256": "de2a946d2867d804d63cea40e2355b36a6f46d8cb164abda5970acb480991707",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 123,
+    "final_quality_rank": 885,
+    "final_quality_score": 0.480396,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.9302,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.122263,
+      "component_bin": 1,
+      "connector_bin": 2,
+      "difference_hash": "469cc4980410045024924596c492c492c492c592c492c5926596249265964596",
+      "raster_bin": 0
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "network_types.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "36477016659c53bd639ccd30fe2aab5e30f2917da2206140cfa3408bd467a858",
+  "task_id": "task_0122",
+  "task_index": 122
+}

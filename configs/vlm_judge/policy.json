@@ -1,0 +1,31 @@
+{
+  "schema": "pptbench-vlm-judge-policy",
+  "selected_judge": {
+    "id": "luna-high",
+    "model": "gpt-5.6-luna",
+    "reasoning_effort": "high"
+  },
+  "prompts": {
+    "semantic_gate": "configs/vlm_judge/semantic_gate.txt",
+    "render_gate": "configs/vlm_judge/render_gate.txt",
+    "issue_enumeration": "configs/vlm_judge/detail_findings.txt"
+  },
+  "ranker": {
+    "entrypoint": "pptbench-vlm-consensus-rank",
+    "judge_rounds": 3,
+    "hard_gate": "any hard gate in at least two rounds",
+    "finding_merge_key": [
+      "dimension",
+      "category",
+      "issue_type"
+    ],
+    "affected_ratio": "maximum across rounds",
+    "affected_count": "diagnostic only",
+    "maximum_score": 100,
+    "dimension_points": {
+      "layout_and_composition": 30,
+      "text_and_typography": 40,
+      "local_graphics_and_nodes": 30
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2108.02776",
+  "candidate_id": "2108-02776_pdf_d6addfdff4f048d5",
+  "caption": "Overview of the DNN-based SVS system, ``Sinsy.'' Our system consists of a score analyzer and four neural network-based models. Singing voice can be synthesized from a musical score via these modules. Proposed singing-specific techniques, pitch normalization, vibrato modeling, and automatic pitch correction are incorporated in the acoustic model.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 42,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 369,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 119,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 369,
+    "text_count": 49,
+    "vector_drawing_count": 70,
+    "vector_primitive_count": 320
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 511,
+    "full_pool_rank": 790,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 445,
+    "second_pass_review_rank": 511
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2108.02776v1",
+    "abstract": "This paper presents Sinsy, a deep neural network (DNN)-based singing voice synthesis (SVS) system. In recent years, DNNs have been utilized in statistical parametric SVS systems, and DNN-based SVS systems have demonstrated better performance than conventional hidden Markov model-based ones. SVS systems are required to synthesize a singing voice with pitch and timing that strictly follow a given musical score. Additionally, singing expressions that are not described on the musical score, such as vibrato and timing fluctuations, should be reproduced. The proposed system is composed of four modules: a time-lag model, a duration model, an acoustic model, and a vocoder, and singing voices can be synthesized taking these characteristics of singing voices into account. To better model a singing voice, the proposed system incorporates improved approaches to modeling pitch and vibrato and better training criteria into the acoustic model. In addition, we incorporated PeriodNet, a non-autoregressive neural vocoder with robustness for the pitch, into our systems to generate a high-fidelity singing voice waveform. Moreover, we propose automatic pitch correction techniques for DNN-based SVS to synthesize singing voices with correct pitch even if the training data has out-of-tune phrases. Experimental results show our system can synthesize a singing voice with better timing, more natural vibrato, and correct pitch, and it can achieve better mean opinion scores in subjective evaluation tests.",
+    "arxiv_id": "2108.02776",
+    "authors": [
+      "Yukiya Hono",
+      "Kei Hashimoto",
+      "Keiichiro Oura",
+      "Yoshihiko Nankaku",
+      "Keiichi Tokuda"
+    ],
+    "categories": [
+      "eess.AS",
+      "cs.CL",
+      "cs.LG",
+      "cs.SD"
+    ],
+    "doi": "10.1109/TASLP.2021.3104165",
+    "journal_ref": "IEEE/ACM Transactions on Audio, Speech, and Language Processing, vol. 29, pp. 2803-2815, 2021",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2108.02776v1",
+    "primary_category": "eess.AS",
+    "published": "2021-08-05T17:59:58Z",
+    "query": "(cat:eess.AS AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2108.02776v1",
+    "title": "Sinsy: A Deep Neural Network-Based Singing Voice Synthesis System",
+    "updated": "2021-08-05T17:59:58Z",
+    "versioned_id": "2108.02776v1"
+  },
+  "reference_sha256": "5760d442fe9183c4da3b3bf7c5f28046ae3837c95122f67eb48cdf2e4efb78d3",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 556,
+    "final_quality_rank": 713,
+    "final_quality_score": 0.554941,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.415,
+      "category": "eess.AS",
+      "category_family": "eess",
+      "color_bin": 2,
+      "colorfulness": 0.303691,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "a608d670c030872087208720b248b248b249924992499248924992486db088b8",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 797,
+    "style_selection_score": 0.467012
+  },
+  "source_filename": "svss.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "d6addfdff4f048d569685f0003e2df1006bbf9c96414925ddecb5d45b1c32e7a",
+  "task_id": "task_0555",
+  "task_index": 555
+}

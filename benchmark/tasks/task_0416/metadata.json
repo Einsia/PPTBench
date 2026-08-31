@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2506.15309",
+  "candidate_id": "2506-15309_pdf_b6c8b67680740a90",
+  "caption": "The multi-target generative workflow. The two-level AL workflow is illustrated with arrows of different colours: the first-level cycle, Chemical AL, is shown in orange, while the second-level cycle, Affinity AL, is shown in green. The specific training set stands for F: fixed, U: updated, and A: accumulated.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 83,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 6270,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 85,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 6270,
+    "text_count": 0,
+    "vector_drawing_count": 85,
+    "vector_primitive_count": 6270
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 911,
+    "full_pool_rank": 1560,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 799,
+    "second_pass_review_rank": 911
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2506.15309v1",
+    "abstract": "Simultaneously optimizing molecules against multiple therapeutic targets remains a profound challenge in drug discovery, particularly due to sparse rewards and conflicting design constraints. We propose a structured active learning (AL) paradigm integrating a sequence-to-sequence (Seq2Seq) variational autoencoder (VAE) into iterative loops designed to balance chemical diversity, molecular quality, and multi-target affinity. Our method alternates between expanding chemically feasible regions of latent space and progressively constraining molecules based on increasingly stringent multi-target docking thresholds. In a proof-of-concept study targeting three related coronavirus main proteases (SARS-CoV-2, SARS-CoV, MERS-CoV), our approach efficiently generated a structurally diverse set of pan-inhibitor candidates. We demonstrate that careful timing and strategic placement of chemical filters within this active learning pipeline markedly enhance exploration of beneficial chemical space, transforming the sparse-reward, multi-objective drug design problem into an accessible computational task. Our framework thus provides a generalizable roadmap for efficiently navigating complex polypharmacological landscapes.",
+    "arxiv_id": "2506.15309",
+    "authors": [
+      "J\u00falia Vilalta-Mor",
+      "Alexis Molina",
+      "Laura Ortega Varga",
+      "Isaac Filella-Merce",
+      "Victor Guallar"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "q-bio.BM"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2506.15309v1",
+    "primary_category": "cs.LG",
+    "published": "2025-06-18T09:39:51Z",
+    "query": "(cat:q-bio.BM AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2506.15309v1",
+    "title": "Active Learning-Guided Seq2Seq Variational Autoencoder for Multi-target Inhibitor Generation",
+    "updated": "2025-06-18T09:39:51Z",
+    "versioned_id": "2506.15309v1"
+  },
+  "reference_sha256": "97f3ceef11864661d184c773c638b75a54519dca02c9800db206740af7bd5ddf",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 417,
+    "final_quality_rank": 305,
+    "final_quality_score": 0.637544,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 3.5,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.142411,
+      "component_bin": 5,
+      "connector_bin": 2,
+      "difference_hash": "a000a400a4009440a460a463a473a673a663a660a660966090708e06c4368026",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 491,
+    "style_selection_score": 0.51023
+  },
+  "source_filename": "Figure_1.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "b6c8b67680740a907fa0369aeec9155cfb3b0ccc56fa1c4647d585a8c0410a07",
+  "task_id": "task_0416",
+  "task_index": 416
+}

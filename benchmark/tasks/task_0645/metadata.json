@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2502.10350",
+  "candidate_id": "2502-10350_pdf_50bc3239ede31f3f",
+  "caption": "Overview of the OptimOTU workflow A typical ASV-to-OTU workflow is shown on the left for comparison. The three phases of the OptimOTU pipeline are shown in more detail in Fig , Fig , and Fig .",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 43,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 191,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 98,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 191,
+    "text_count": 45,
+    "vector_drawing_count": 53,
+    "vector_primitive_count": 146
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 1089,
+    "full_pool_rank": 1962,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 962,
+    "second_pass_review_rank": 1089
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2502.10350v1",
+    "abstract": "To turn environmentally derived metabarcoding data into community matrices for ecological analysis, sequences must first be clustered into operational taxonomic units (OTUs). This task is particularly complex for data including large numbers of taxa with incomplete reference libraries. OptimOTU offers a taxonomically aware approach to OTU clustering. It uses a set of taxonomically identified reference sequences to choose optimal genetic distance thresholds for grouping each ancestor taxon into clusters which most closely match its descendant taxa. Then, query sequences are clustered according to preliminary taxonomic identifications and the optimized thresholds for their ancestor taxon. The process follows the taxonomic hierarchy, resulting in a full taxonomic classification of all the query sequences into named taxonomic groups as well as placeholder \"pseudotaxa\" which accommodate the sequences that could not be classified to a named taxon at the corresponding rank. The OptimOTU clustering algorithm is implemented as an R package, with computationally intensive steps implemented in C++ for speed, and incorporating open-source libraries for pairwise sequence alignment. Distances may also be calculated externally, and may be read from a UNIX pipe, allowing clustering of large datasets where the full distance matrix would be inconveniently large to store in memory. The OptimOTU bioinformatics pipeline includes a full workflow for paired-end Illumina sequencing data that incorporates quality filtering, denoising, artifact removal, taxonomic classification, and OTU clustering with OptimOTU. The OptimOTU pipeline is developed for use on high performance computing clusters, and scales to datasets with millions of reads per sample, and tens of thousands of samples.",
+    "arxiv_id": "2502.10350",
+    "authors": [
+      "Brendan Furneaux",
+      "Sten Anslan",
+      "Panu Somervuo",
+      "Jenni Hultman",
+      "Nerea Abrego",
+      "Tomas Roslin",
+      "Otso Ovaskainen"
+    ],
+    "categories": [
+      "q-bio.QM"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2502.10350v1",
+    "primary_category": "q-bio.QM",
+    "published": "2025-02-14T18:30:08Z",
+    "query": "(cat:q-bio.QM AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2502.10350v1",
+    "title": "OptimOTU: Taxonomically aware OTU clustering with optimized thresholds and a bioinformatics workflow for metabarcoding data",
+    "updated": "2025-02-14T18:30:08Z",
+    "versioned_id": "2502.10350v1"
+  },
+  "reference_sha256": "867d806724377f0405a419c7d08403172a3f7a243b1688306645121a67d43d36",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 646,
+    "final_quality_rank": 850,
+    "final_quality_score": 0.496835,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 2,
+      "aspect_ratio": 0.9315,
+      "category": "q-bio.QM",
+      "category_family": "q-bio",
+      "color_bin": 3,
+      "colorfulness": 0.344705,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "96cce0a8e0f0d0e0f0f0b0f0e8f0e0f0e0e0f0f072dcf0f0f0b094c4f0f0e2b2",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 917,
+    "style_selection_score": 0.442
+  },
+  "source_filename": "pipeline-overview-1.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "50bc3239ede31f3f1c1faac10ad9fa81075301ec42a6c0a67e5899cda9336af0",
+  "task_id": "task_0645",
+  "task_index": 645
+}

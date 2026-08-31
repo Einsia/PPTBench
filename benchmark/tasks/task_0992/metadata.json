@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2508.02373",
+  "candidate_id": "2508-02373_pdf_5e41ee69c086dfcc",
+  "caption": "Simplified architecture of the system. The NDT layer on top is composed of two main components: the Knowledge Base and the Graph Neural Network, and the related processes for data retrieval.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 5,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 88,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 58,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 88,
+    "text_count": 35,
+    "vector_drawing_count": 23,
+    "vector_primitive_count": 53
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 543,
+    "full_pool_rank": 849,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 471,
+    "second_pass_review_rank": 543
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2508.02373v1",
+    "abstract": "Future networks, such as 6G, will need to support a vast and diverse range of interconnected devices and applications, each with its own set of requirements. While traditional network management approaches will suffice, an automated solutions are becoming a must. However, network automation frameworks are prone to errors, and often they employ ML-based techniques that require training to learn how the network can be optimized. In this sense, network digital twins are a useful tool that allows for the simulation, testing, and training of AI models without affecting the real-world networks and users. This paper presents an AI-based Network Digital Twin (AI-NDT) that leverages a multi-layered knowledge graph architecture and graph neural networks to predict network metrics that directly affect the quality of experience of users. An evaluation of the four most prominent Graph Neural Networks (GNN) architectures was conducted to assess their effectiveness in developing network digital twins. We trained the digital twin on publicly available measurement data from RIPE Atlas, therefore obtaining results close to what is expected in real-world applications. The results show that among the four architectures evaluated, GraphTransformer presents the best performance. However, other architectures might fit better in scenarios where shorter training time is important, while also delivering acceptable results. The results of this work are indicative of what might become common practice for proactive network management, offering a scalable and accurate solution aligned with the requirements of the next-generation networks.",
+    "arxiv_id": "2508.02373",
+    "authors": [
+      "Iulisloi Zacarias",
+      "Oussama Ben Taarit",
+      "Admela Jukan"
+    ],
+    "categories": [
+      "cs.NI",
+      "cs.DC"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2508.02373v1",
+    "primary_category": "cs.NI",
+    "published": "2025-08-04T13:02:21Z",
+    "query": "(cat:cs.DC AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2508.02373v1",
+    "title": "On Effectiveness of Graph Neural Network Architectures for Network Digital Twins (NDTs)",
+    "updated": "2025-08-04T13:02:21Z",
+    "versioned_id": "2508.02373v1"
+  },
+  "reference_sha256": "00995ce231303388827e7d394f9c1daea9700746dc7b398c46624e16816423f3",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 993,
+    "final_quality_rank": 960,
+    "final_quality_score": 0.422146,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.0778,
+      "category": "cs.NI",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.228739,
+      "component_bin": 0,
+      "connector_bin": 0,
+      "difference_hash": "36170f3973e9b4d6b4d2948eb4d694d64b8e1961161036813681161122613922",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 976,
+    "style_selection_score": 0.389289
+  },
+  "source_filename": "general-architecture-simplified-v4.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "5e41ee69c086dfccd801a2bbca1bc5a0120f62fc4e8eb8b8302358cb8d1aa43b",
+  "task_id": "task_0992",
+  "task_index": 992
+}

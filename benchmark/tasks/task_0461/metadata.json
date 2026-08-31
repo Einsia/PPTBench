@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2607.02119",
+  "candidate_id": "2607-02119_pdf_668ca4bcfb6b6b63",
+  "caption": "Unified serving framework for SpeechLMs. (Left) Overall pipeline: The engine manages continuous batching, primary-auxiliary token generation, and fused on-GPU acoustic decoding for mixed-modality streaming. (Right) Paired co-scheduling for CFG: Conditional and unconditional requests share a batched forward pass, merging logits before sampling and synchronizing the sampled token for the next step.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 56,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 903,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 90,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 903,
+    "text_count": 27,
+    "vector_drawing_count": 63,
+    "vector_primitive_count": 876
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2607.02119v1",
+    "abstract": "While Large Multimodal Models excel in comprehension, high-throughput inference engines lack native support for multimodal generation. This is severe in Speech Language Models, where generating multi-layered audio tokens via decoupled AR+NAR or synchronous Multi-Token Prediction (MTP) with delay-pattern interleaving conflicts with standard single-stream loops. We present a vLLM-based inference pipeline for unified speech understanding and generation. We extend autoregressive decoding to natively execute delay-pattern de-interleaving and coordinated multi-stream sampling, integrating an on-GPU acoustic decoder for end-to-end waveform synthesis. Crucially, we overcome the shared intuition that Classifier-Free Guidance (CFG) halves throughput. By co-scheduling paired conditional and unconditional requests within a continuous batch, our CFG implementation sustains 80% of non-CFG throughput, absorbing dual-request and logit merging overheads. We open-source our framework.",
+    "arxiv_id": "2607.02119",
+    "authors": [
+      "Haoran Wang",
+      "Jinchuan Tian",
+      "Siddhant Arora",
+      "Shinji Watanabe"
+    ],
+    "categories": [
+      "eess.AS",
+      "cs.AI"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2607.02119v1",
+    "primary_category": "eess.AS",
+    "published": "2026-07-02T12:55:11Z",
+    "query": "(cat:cs.AI AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2607.02119v1",
+    "title": "An Efficient vLLM-Based Inference Pipeline for Unified Audio Understanding and Generation",
+    "updated": "2026-07-02T12:55:11Z",
+    "versioned_id": "2607.02119v1"
+  },
+  "reference_sha256": "96b61937db83d2617eccebc4b930ad5739c608e7ecb5eef2d17be11ffb1e7438",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 462,
+    "final_quality_rank": 569,
+    "final_quality_score": 0.586843,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 2,
+      "aspect_ratio": 1.1466,
+      "category": "eess.AS",
+      "category_family": "eess",
+      "color_bin": 2,
+      "colorfulness": 0.188524,
+      "component_bin": 3,
+      "connector_bin": 1,
+      "difference_hash": "00043138b038f33cf164f064f174f870ec64ec78f15870e430e400f000e00000",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 636,
+    "style_selection_score": 0.494978
+  },
+  "source_filename": "pipeline_all_v2.drawio.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "668ca4bcfb6b6b63f29ef2a9ea7018dfda4fe5703acea2200abd1625c2278fc0",
+  "task_id": "task_0461",
+  "task_index": 461
+}

@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2505.01314",
+  "candidate_id": "2505-01314_pdf_dda53cce8a287312",
+  "caption": "Schematic of the best model searched by the MO-Trans algorithm",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 48,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 477,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 457,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 477,
+    "text_count": 237,
+    "vector_drawing_count": 220,
+    "vector_primitive_count": 240
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 452,
+    "full_pool_rank": 671,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 396,
+    "second_pass_review_rank": 452
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2505.01314v1",
+    "abstract": "This paper presents a neural architecture search method based on Transformer architecture, searching cross multihead attention computation ways for different number of encoder and decoder combinations. In order to search for neural network structures with better translation results, we considered perplexity as an auxiliary evaluation metric for the algorithm in addition to BLEU scores and iteratively improved each individual neural network within the population by a multi-objective genetic algorithm. Experimental results show that the neural network structures searched by the algorithm outperform all the baseline models, and that the introduction of the auxiliary evaluation metric can find better models than considering only the BLEU score as an evaluation metric.",
+    "arxiv_id": "2505.01314",
+    "authors": [
+      "Shang Wang",
+      "Huanrong Tang",
+      "Jianquan Ouyang"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG",
+      "cs.NE"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2505.01314v1",
+    "primary_category": "cs.CL",
+    "published": "2025-05-02T14:40:16Z",
+    "query": "(cat:cs.CL AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2505.01314v1",
+    "title": "A Transformer-based Neural Architecture Search Method",
+    "updated": "2025-05-02T14:40:16Z",
+    "versioned_id": "2505.01314v1"
+  },
+  "reference_sha256": "6071d089ed9e092b62cd4ab48d2fbdc0ac1863d7a7db490bcd4062ff7d42dcfb",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 461,
+    "final_quality_rank": 823,
+    "final_quality_score": 0.510433,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 1,
+      "aspect_ratio": 0.798,
+      "category": "cs.CL",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.0,
+      "component_bin": 2,
+      "connector_bin": 1,
+      "difference_hash": "09ce01ce5cc61cc68cc69cce9cc69cce9cc68cc69cce9cce9cce9cce88c810ca",
+      "raster_bin": 0
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "final_arch.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "dda53cce8a287312951971ec8a1e2c02c4eb2a8260292dcda46635f9f44625ec",
+  "task_id": "task_0460",
+  "task_index": 460
+}

@@ -1,0 +1,87 @@
+{
+  "arxiv_id": "2504.19988",
+  "candidate_id": "2504-19988_pdf_cb97b1cb30e966d7",
+  "caption": "Schematic of a quantum SDN architecture (left) and SP MED protocol (right). T(A, B): signal propagation time from node A to B. CN: Central node. R: Repeater node. U: User node. T_x: time to execute operation x.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 307,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.997875,
+    "editable_component_count": 939,
+    "embedded_image_count": 2,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.00059,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 414,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 941,
+    "text_count": 72,
+    "vector_drawing_count": 340,
+    "vector_primitive_count": 867
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 425,
+    "full_pool_rank": 633,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 370,
+    "second_pass_review_rank": 425
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2504.19988v1",
+    "abstract": "We quantify the latency to distribute multipartite entanglement over a quantum SDN architecture. Results show that classical communication can account for more than 80% of the delay, highlighting the need for efficient control plane design.",
+    "arxiv_id": "2504.19988",
+    "authors": [
+      "Anuj Gore",
+      "Alejandra Beghelli"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2504.19988v1",
+    "primary_category": "quant-ph",
+    "published": "2025-04-28T17:05:02Z",
+    "query": "(cat:quant-ph AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2504.19988v1",
+    "title": "Latency of multipartite entanglement distribution in a quantum SDN architecture",
+    "updated": "2025-04-28T17:05:02Z",
+    "versioned_id": "2504.19988v1"
+  },
+  "reference_sha256": "7b71db5c7d7b3f75c0f2ccf142d970a76a6604c48ed2ab8414198280d89cd65b",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 156,
+    "final_quality_rank": 195,
+    "final_quality_score": 0.670244,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.4985,
+      "category": "quant-ph",
+      "category_family": "quant-ph",
+      "color_bin": 3,
+      "colorfulness": 0.34069,
+      "component_bin": 3,
+      "connector_bin": 3,
+      "difference_hash": "994a105a316119aa6ceab4ea35a2b5aa904a90ca952ab53910c9b8b4b4343465",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 271,
+    "style_selection_score": 0.542838
+  },
+  "source_filename": "protocol_diagram.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "cb97b1cb30e966d7d99557b284e53648539a38ab9396ce466348fb45e4f57724",
+  "task_id": "task_0155",
+  "task_index": 155
+}

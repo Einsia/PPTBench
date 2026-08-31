@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2507.06911",
+  "candidate_id": "2507-06911_pdf_5056fa8fae914ef6",
+  "caption": "Extension of the O-RAN smo to support AI-RAN orchestration. The components in light blue, together with the smos, are part of the O-RAN smo architecture. Components in dark blue represent extensions to accommodate AI-RAN requirements.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 15,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.990566,
+    "editable_component_count": 210,
+    "embedded_image_count": 2,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.012739,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 77,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 212,
+    "text_count": 42,
+    "vector_drawing_count": 33,
+    "vector_primitive_count": 168
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 507,
+    "full_pool_rank": 783,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 441,
+    "second_pass_review_rank": 507
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2507.06911v2",
+    "abstract": "Data-intensive Artificial Intelligence (AI) applications at the network edge demand a fundamental shift in Radio Access Network (RAN) design, from merely consuming AI for network optimization, to actively enabling distributed AI workloads. This presents a significant opportunity for network operators to monetize AI while leveraging existing infrastructure. To realize this vision, this article presents a novel converged O-RAN and AI-RAN architecture for unified orchestration and management of telecommunications and AI workloads on shared infrastructure. The proposed architecture extends the Open RAN principles of modularity, disaggregation, and cloud-nativeness to support heterogeneous AI deployments. We introduce two key architectural innovations: (i) the AI-RAN Orchestrator, which extends the O-RAN Service Management and Orchestration (SMO) to enable integrated resource and allocation across RAN and AI workloads; and (ii) AI-RAN sites that provide distributed edge AI platforms with real-time processing capabilities. The proposed architecture enables flexible orchestration, meeting requirements for managing heterogeneous workloads at different time scales while maintaining open, standardized interfaces and multi-vendor interoperability.",
+    "arxiv_id": "2507.06911",
+    "authors": [
+      "Michele Polese",
+      "Niloofar Mohamadi",
+      "Salvatore D'Oro",
+      "Leonardo Bonati",
+      "Tommaso Melodia"
+    ],
+    "categories": [
+      "cs.NI",
+      "cs.AI",
+      "eess.SP"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2507.06911v2",
+    "primary_category": "cs.NI",
+    "published": "2025-07-09T14:49:11Z",
+    "query": "(cat:eess.SP AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2507.06911v2",
+    "title": "Beyond Connectivity: An Open Architecture for AI-RAN Convergence in 6G",
+    "updated": "2025-12-02T13:51:37Z",
+    "versioned_id": "2507.06911v2"
+  },
+  "reference_sha256": "9fd6b55673be2ccdae1cfde437eb86fd6dae6a913e77b4a3e0ad1298a2b74d94",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 914,
+    "final_quality_rank": 797,
+    "final_quality_score": 0.524554,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.2841,
+      "category": "cs.NI",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.429262,
+      "component_bin": 1,
+      "connector_bin": 0,
+      "difference_hash": "c630c6b4adca9d4ad5deddceb5f8b2289326552c15269126c898c632c736c48c",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 786,
+    "style_selection_score": 0.460846
+  },
+  "source_filename": "ai-smo-v4.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "5056fa8fae914ef69ce586c6433f6923d883997da2f763f7173d9f640bb50a38",
+  "task_id": "task_0913",
+  "task_index": 913
+}

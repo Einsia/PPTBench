@@ -1,0 +1,88 @@
+{
+  "arxiv_id": "2202.07267",
+  "candidate_id": "2202-07267_pdf_f1de2a3e958d2746",
+  "caption": "Top-level architecture of proposed S-NBSCL decoder.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 42,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 148,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 100,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 148,
+    "text_count": 40,
+    "vector_drawing_count": 60,
+    "vector_primitive_count": 108
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2202.07267v1",
+    "abstract": "Nonbinary polar codes defined over Galois field GF(q) have shown improved error-correction performance than binary polar codes using successive-cancellation list (SCL) decoding. However, nonbinary operations are complex and a direct-mapped decoder results in a low throughput, representing difficulties for practical adoptions. In this work, we develop, to the best of our knowledge, the first hardware implementation for nonbinary SCL polar decoding. We present a high-throughput decoder architecture using a split-tree algorithm. The sub-trees are decoded in parallel by smaller sub-decoders with a reconciliation stage to maintain constraints between sub-trees. A skimming algorithm is proposed to reduce the reconciliation complexity for further improved throughput. The split-tree nonbinary SCL (S-NBSCL) polar decoder is prototyped using a 28nm CMOS technology for a (128,64) polar code over GF(256). The decoder delivers 26.1 Mb/s throughput, 11.65 Mb/s/mm$^2$ area efficiency and 28.8 nJ/b energy efficiency, outperforming the direct-mapped decoder by 10.3x, 4.4x and 2.7x, respectively, while achieving excellent error-correction performance.",
+    "arxiv_id": "2202.07267",
+    "authors": [
+      "Yaoyu Tao",
+      "Cedric Choi"
+    ],
+    "categories": [
+      "cs.IT",
+      "eess.SP"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2202.07267v1",
+    "primary_category": "cs.IT",
+    "published": "2022-02-15T09:23:25Z",
+    "query": "(cat:eess.SP AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2202.07267v1",
+    "title": "High-Throughput Split-Tree Architecture for Nonbinary SCL Polar Decoder",
+    "updated": "2022-02-15T09:23:25Z",
+    "versioned_id": "2202.07267v1"
+  },
+  "reference_sha256": "5ecf3ef58f009d31c5fdeefcf5ed5ddae36503a477dd3f746959ebf952c6ebc9",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 471,
+    "final_quality_rank": 970,
+    "final_quality_score": 0.396682,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.8711,
+      "category": "cs.IT",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.0,
+      "component_bin": 0,
+      "connector_bin": 1,
+      "difference_hash": "6588c756926524269a4c8222242992625ceb44aa9ca9926a2426d2579456c30c",
+      "raster_bin": 0
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "nbscl_decoder.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "f1de2a3e958d27466039243f4f5b4ac28d1d02d67c52afbdf14e7288ef60870d",
+  "task_id": "task_0470",
+  "task_index": 470
+}

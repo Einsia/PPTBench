@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2505.05380",
+  "candidate_id": "2505-05380_pdf_8d87958eb16d2b51",
+  "caption": "This figure illustrates the QAS framework. The process starts with preprocessing, using a native gate set and target Hamiltonian H to search circuits. The layer-wise search stage is guided by fluctuation of landscape and it explores candidate circuits at the layer level. Then, selected layer-wise circuits undergo gate-wise search and redundancy elimination. The final optimized circuit is evaluated to calculate metrics such as the ground-state energy-to-exact ratio.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 146,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.998764,
+    "editable_component_count": 808,
+    "embedded_image_count": 1,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.009898,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 313,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 809,
+    "text_count": 87,
+    "vector_drawing_count": 225,
+    "vector_primitive_count": 721
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2505.05380v1",
+    "abstract": "Balancing trainability and expressibility is a central challenge in variational quantum computing, and quantum architecture search (QAS) plays a pivotal role by automatically designing problem-specific parameterized circuits that address this trade-off. In this work, we introduce a scalable, training-free QAS framework that efficiently explores and evaluates quantum circuits through landscape fluctuation analysis. This analysis captures key characteristics of the cost function landscape, enabling accurate prediction of circuit learnability without costly training. By combining this metric with a streamlined two-level search strategy, our approach identifies high-performance, large-scale circuits with higher accuracy and fewer gates. We further demonstrate the practicality and scalability of our method, achieving significantly lower classical resource consumption compared to prior work. Notably, our framework attains robust performance on a challenging 50-qubit quantum many-body simulation, highlighting its potential for addressing complex quantum problems.",
+    "arxiv_id": "2505.05380",
+    "authors": [
+      "Chenghong Zhu",
+      "Xian Wu",
+      "Hao-Kai Zhang",
+      "Sixuan Wu",
+      "Guangxi Li",
+      "Xin Wang"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2505.05380v1",
+    "primary_category": "quant-ph",
+    "published": "2025-05-08T16:13:23Z",
+    "query": "(cat:quant-ph AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2505.05380v1",
+    "title": "Scalable Quantum Architecture Search via Landscape Analysis",
+    "updated": "2025-05-08T16:13:23Z",
+    "versioned_id": "2505.05380v1"
+  },
+  "reference_sha256": "6b918829d3d2087342c706a9af7b8af3a4209ae86bea7300a72ac1db72348e0a",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 304,
+    "final_quality_rank": 388,
+    "final_quality_score": 0.622067,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.1988,
+      "category": "quant-ph",
+      "category_family": "quant-ph",
+      "color_bin": 2,
+      "colorfulness": 0.296974,
+      "component_bin": 2,
+      "connector_bin": 2,
+      "difference_hash": "6b306b3276327232f316b3968d26adb2b646924f38c6b5b274a264a274b264b6",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 463,
+    "style_selection_score": 0.50678
+  },
+  "source_filename": "QAS_framework.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "8d87958eb16d2b51cb482715679476c8f7d977b63db9ac8320bc09d9846a9cd9",
+  "task_id": "task_0303",
+  "task_index": 303
+}

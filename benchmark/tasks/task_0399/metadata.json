@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2202.09609",
+  "candidate_id": "2202-09609_pdf_9e0b9bbd97439559",
+  "caption": "The overall structure of our proposed pipeline.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 159,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.989837,
+    "editable_component_count": 487,
+    "embedded_image_count": 5,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.016327,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 234,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 492,
+    "text_count": 32,
+    "vector_drawing_count": 197,
+    "vector_primitive_count": 455
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2202.09609v1",
+    "abstract": "Computed Tomography (CT) plays an essential role in clinical diagnosis. Due to the adverse effects of radiation on patients, the radiation dose is expected to be reduced as low as possible. Sparse sampling is an effective way, but it will lead to severe artifacts on the reconstructed CT image, thus sparse-view CT image reconstruction has been a prevailing and challenging research area. With the popularity of mobile devices, the requirements for lightweight and real-time networks are increasing rapidly. In this paper, we design a novel lightweight network called CAGAN, and propose a dual-domain reconstruction pipeline for parallel beam sparse-view CT. CAGAN is an adversarial auto-encoder, combining the Coordinate Attention unit, which preserves the spatial information of features. Also, the application of Shuffle Blocks reduces the parameters by a quarter without sacrificing its performance. In the Radon domain, the CAGAN learns the mapping between the interpolated data and fringe-free projection data. After the restored Radon data is reconstructed to an image, the image is sent into the second CAGAN trained for recovering the details, so that a high-quality image is obtained. Experiments indicate that the CAGAN strikes an excellent balance between model complexity and performance, and our pipeline outperforms the DD-Net and the DuDoNet.",
+    "arxiv_id": "2202.09609",
+    "authors": [
+      "Chang Sun",
+      "Ken Deng",
+      "Yitong Liu",
+      "Hongwen Yang"
+    ],
+    "categories": [
+      "eess.IV",
+      "cs.CV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2202.09609v1",
+    "primary_category": "eess.IV",
+    "published": "2022-02-19T14:04:59Z",
+    "query": "(cat:eess.IV AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2202.09609v1",
+    "title": "A Lightweight Dual-Domain Attention Framework for Sparse-View CT Reconstruction",
+    "updated": "2022-02-19T14:04:59Z",
+    "versioned_id": "2202.09609v1"
+  },
+  "reference_sha256": "71abe97a3690197bf93ca41782c379389ccd1913cd838ec29f88bbe4208f47cd",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 400,
+    "final_quality_rank": 490,
+    "final_quality_score": 0.599811,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.8433,
+      "category": "eess.IV",
+      "category_family": "eess",
+      "color_bin": 3,
+      "colorfulness": 0.332546,
+      "component_bin": 2,
+      "connector_bin": 3,
+      "difference_hash": "75a474b0e0e4698debc5e3e56895e9b137880c3c2c7c2d6d2d6d2c6c2cac0c7c",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 476,
+    "style_selection_score": 0.500524
+  },
+  "source_filename": "fig2.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "9e0b9bbd9743955917f8bb8653a64a5d5a507984e515185193783dd6630affb1",
+  "task_id": "task_0399",
+  "task_index": 399
+}

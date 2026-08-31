@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2606.00555",
+  "candidate_id": "2606-00555_pdf_6f5a5050076fe3b8",
+  "caption": "Overview of the PROBE. (a) Site Map Construction. (b) Pocket-Specific Edit Manual Induction. (c) Multi-Agent Optimization.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 86,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.998046,
+    "editable_component_count": 8173,
+    "embedded_image_count": 16,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.037273,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 191,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 8189,
+    "text_count": 80,
+    "vector_drawing_count": 95,
+    "vector_primitive_count": 8093
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 596,
+    "full_pool_rank": 951,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 520,
+    "second_pass_review_rank": 596
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2606.00555v2",
+    "abstract": "Structure-based drug design increasingly employs LLM agents to iteratively refine ligands against a target pocket, yet a viable ligand must satisfy two often-conflicting objectives -- binding affinity and druggability -- which single optimization steps rarely improve together. To quantify this difficulty, we introduce two diagnostic metrics: the first measures how often a single edit improves both objectives, and the second measures how often a gain on one objective comes with a loss on the other. Applying these diagnostics to current LLM-agent pipelines exposes a consistent failure mode: the agent performs molecular editing without knowing how the pocket-ligand complex responds to local modifications, thus rarely achieving joint improvement. Inspired by medicinal chemists, who probe the pocket-ligand complex with controlled analog edits before choosing an optimization direction, we propose \\textbf{PROBE}, an optimization framework built around edit-response probing. PROBE first decomposes the ligand into editable sites and builds a pocket-specific \\textbf{site map} that flags where joint gains are plausible, where the two objectives are likely in tension, and where liability substructures should be changed; it then performs controlled probe edits whose responses are distilled into an \\textbf{EditManual}. Guided by the site map and EditManual, PROBE runs an iterative multi-agent loop in which an affinity agent, a druggability agent, and a co-optimization agent jointly produce edits. On the CrossDocked2020 benchmark, PROBE achieves state-of-the-art performance and substantially mitigates the failure modes exposed by our diagnostics metrics.",
+    "arxiv_id": "2606.00555",
+    "authors": [
+      "Zaifei Yang",
+      "Weiyu Chen",
+      "Yaqing Wang",
+      "James Kwok"
+    ],
+    "categories": [
+      "cs.AI",
+      "q-bio.BM"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2606.00555v2",
+    "primary_category": "cs.AI",
+    "published": "2026-05-30T06:06:51Z",
+    "query": "(cat:q-bio.BM AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2606.00555v2",
+    "title": "Probe Before You Edit: Probing-Guided Molecular Optimization for LLM Agents in Structure-Based Drug Design",
+    "updated": "2026-06-02T07:09:41Z",
+    "versioned_id": "2606.00555v2"
+  },
+  "reference_sha256": "675b44ea77d98318afa46a79f811d7c0ae0be0f9188b20da689669fceaaa7914",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 431,
+    "final_quality_rank": 320,
+    "final_quality_score": 0.634717,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.9243,
+      "category": "cs.AI",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.174128,
+      "component_bin": 5,
+      "connector_bin": 2,
+      "difference_hash": "712dd27e965a724a7a4a3a427a3a3472f0ad31cc29cc5cf6535653564df2ed3e",
+      "raster_bin": 2
+    },
+    "style_selection_rank": 373,
+    "style_selection_score": 0.51804
+  },
+  "source_filename": "main_framework.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "6f5a5050076fe3b817f2561a8a1440c26ebf21bf44f2e8c11ac874608a55e1da",
+  "task_id": "task_0430",
+  "task_index": 430
+}

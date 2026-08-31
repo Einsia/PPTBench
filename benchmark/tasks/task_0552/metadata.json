@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2107.12425",
+  "candidate_id": "2107-12425_pdf_730fa8b4e299b4b6",
+  "caption": "Example for the interplay of LEMMA's intermediate model transformations and model processors based on its model processing framework.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 65,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.999148,
+    "editable_component_count": 7036,
+    "embedded_image_count": 6,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.005245,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 71,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 7042,
+    "text_count": 0,
+    "vector_drawing_count": 65,
+    "vector_primitive_count": 7036
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2107.12425v1",
+    "abstract": "Purpose: Microservice Architecture (MSA) denotes an increasingly popular architectural style in which business capabilities are wrapped into autonomously developable and deployable software components called microservices. Microservice applications are developed by multiple DevOps teams each owning one or more services. In this article, we explore the state of how DevOps teams in small and medium-sized organizations (SMOs) cope with MSA and how they can be supported. Methods: We show through a secondary analysis of an exploratory interview study comprising six cases, that the organizational and technological complexity resulting from MSA poses particular challenges for small and medium-sized organizations (SMOs). We apply Model-Driven Engineering to address these challenges. Results: As results of the second analysis, we identify the challenge areas of building and maintaining a common architectural understanding, and dealing with deployment technologies. To support DevOps teams of SMOs in coping with these challenges, we present a model-driven workflow based on LEMMA - the Language Ecosystem for Modeling Microservice Architecture. To implement the workflow, we extend LEMMA with the functionality to (i) generate models from API documentation; (ii) reference remote models owned by other teams; (iii) generate deployment specifications; and (iv) generate a visual representation of the overall architecture. Conclusion: We validate the model-driven workflow and our extensions to LEMMA through a case study showing that the added functionality to LEMMA can bring efficiency gains for DevOps teams. To develop best practices for applying our workflow to maximize efficiency in SMOs, we plan to conduct more empirical research in the field in the future.",
+    "arxiv_id": "2107.12425",
+    "authors": [
+      "Jonas Sorgalla",
+      "Philip Wizenty",
+      "Florian Rademacher",
+      "Sabine Sachweh",
+      "Albert Z\u00fcndorf"
+    ],
+    "categories": [
+      "cs.SE"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2107.12425v1",
+    "primary_category": "cs.SE",
+    "published": "2021-07-26T18:33:14Z",
+    "query": "(cat:cs.SE AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2107.12425v1",
+    "title": "Applying Model-Driven Engineering to Stimulate the Adoption of DevOps Processes in Small and Medium-Sized Development Organizations",
+    "updated": "2021-07-26T18:33:14Z",
+    "versioned_id": "2107.12425v1"
+  },
+  "reference_sha256": "c0311de2ae386c1aa39f6c5d84712623619c214b3c44b5614ec5d4f03e57c0d0",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 553,
+    "final_quality_rank": 397,
+    "final_quality_score": 0.619512,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.3644,
+      "category": "cs.SE",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.0,
+      "component_bin": 5,
+      "connector_bin": 2,
+      "difference_hash": "9883cb1dc71c431173c970e1c33ccf5c809c000d30ac3e9c0b5a1b5a1b5b8a59",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 443,
+    "style_selection_score": 0.507288
+  },
+  "source_filename": "model-processing.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "730fa8b4e299b4b6e7f73b93840c9a1adfe908d62cd51c052a3159a86ad9df39",
+  "task_id": "task_0552",
+  "task_index": 552
+}

@@ -1,0 +1,87 @@
+{
+  "arxiv_id": "2209.14329",
+  "candidate_id": "2209-14329_pdf_3b1459747e8fdeee",
+  "caption": "Here, quantum computing architectures where modules \\M_k\\ have a defined sparse inter-modular connectivity are considered. Each module contains a finite and equal number of qubits with the same connectivity constraints.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 38,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 109,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 65,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 109,
+    "text_count": 14,
+    "vector_drawing_count": 51,
+    "vector_primitive_count": 95
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2209.14329v3",
+    "abstract": "In efforts to scale the size of quantum computers, modularity plays a central role across most quantum computing technologies. In the light of fault tolerance, this necessitates designing quantum error-correcting codes that are compatible with the connectivity arising from the architectural layouts. In this paper, we aim to bridge this gap by giving a novel way to view and construct quantum LDPC codes tailored for modular architectures. We demonstrate that if the intra- and inter-modular qubit connectivity can be viewed as corresponding to some classical or quantum LDPC codes, then their hypergraph product code fully respects the architectural connectivity constraints. Finally, we show that relaxed connectivity constraints that allow twists of connections between modules pave a way to construct codes with better parameters.",
+    "arxiv_id": "2209.14329",
+    "authors": [
+      "Armands Strikis",
+      "Lucas Berent"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "doi": "10.1103/PRXQuantum.4.020321",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2209.14329v3",
+    "primary_category": "quant-ph",
+    "published": "2022-09-28T18:01:43Z",
+    "query": "(cat:quant-ph AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2209.14329v3",
+    "title": "Quantum LDPC Codes for Modular Architectures",
+    "updated": "2023-05-15T10:36:17Z",
+    "versioned_id": "2209.14329v3"
+  },
+  "reference_sha256": "2e39f01c6963f8d71fd85abbf4586ef89e435d728b5e3985b22a2cb21b7ffaa7",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 508,
+    "final_quality_rank": 676,
+    "final_quality_score": 0.565691,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.4719,
+      "category": "quant-ph",
+      "category_family": "quant-ph",
+      "color_bin": 4,
+      "colorfulness": 0.550748,
+      "component_bin": 0,
+      "connector_bin": 1,
+      "difference_hash": "cc80ccaccc9dcc2dcc8dd58db58db58db58d36cd322d36bd3659062d3600160d",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 624,
+    "style_selection_score": 0.480201
+  },
+  "source_filename": "ModArchitecture.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "3b1459747e8fdeee0b24e2fcd5b4e078a4382cc5e19ca55c248b52d3ebf25199",
+  "task_id": "task_0507",
+  "task_index": 507
+}

@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2310.05255",
+  "candidate_id": "2310-05255_pdf_ac06a0cece591cd5",
+  "caption": "The architecture of the image segmentation model includes the relationship of layers, the number of output filters in the convolution layers, and the type of other layers.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 526,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.998035,
+    "editable_component_count": 1016,
+    "embedded_image_count": 2,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.023749,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 574,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1018,
+    "text_count": 46,
+    "vector_drawing_count": 526,
+    "vector_primitive_count": 970
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 525,
+    "full_pool_rank": 813,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 456,
+    "second_pass_review_rank": 525
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2310.05255v2",
+    "abstract": "What happens if we encounter a suitable font for our design work but do not know its name? Visual Font Recognition (VFR) systems are used to identify the font typeface in an image. These systems can assist graphic designers in identifying fonts used in images. A VFR system also aids in improving the speed and accuracy of Optical Character Recognition (OCR) systems. In this paper, we introduce the first publicly available datasets in the field of Persian font recognition and employ Convolutional Neural Networks (CNN) to address this problem. The results show that the proposed pipeline obtained 78.0% top-1 accuracy on our new datasets, 89.1% on the IDPL-PFOD dataset, and 94.5% on the KAFD dataset. Furthermore, the average time spent in the entire pipeline for one sample of our proposed datasets is 0.54 and 0.017 seconds for CPU and GPU, respectively. We conclude that CNN methods can be used to recognize Persian fonts without the need for additional pre-processing steps such as feature extraction, binarization, normalization, etc.",
+    "arxiv_id": "2310.05255",
+    "authors": [
+      "Mehrdad Mohammadian",
+      "Neda Maleki",
+      "Tobias Olsson",
+      "Fredrik Ahlgren"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "doi": "10.1109/ICCKE57176.2022.9960037",
+    "journal_ref": "12th International Conference on Computer and Knowledge Engineering (ICCKE) (2022) 196-204",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2310.05255v2",
+    "primary_category": "cs.CV",
+    "published": "2023-10-08T18:07:15Z",
+    "query": "(cat:cs.AI AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2310.05255v2",
+    "title": "Persis: A Persian Font Recognition Pipeline Using Convolutional Neural Networks",
+    "updated": "2023-10-10T05:48:25Z",
+    "versioned_id": "2310.05255v2"
+  },
+  "reference_sha256": "ae7917c26e7a0c6f0b6a0df0b5b4a66058d834fc30175cb6861a8f8234f5da41",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 57,
+    "final_quality_rank": 48,
+    "final_quality_score": 0.739362,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.7564,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 4,
+      "colorfulness": 0.606238,
+      "component_bin": 3,
+      "connector_bin": 4,
+      "difference_hash": "db26c55ec33850f364c36b03698361e3c1fa80fc807c801c800c003200320034",
+      "raster_bin": 2
+    },
+    "style_selection_rank": 81,
+    "style_selection_score": 0.599009
+  },
+  "source_filename": "unet.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "ac06a0cece591cd5a158389dba4b0ef819fbbae2edab0753c5d9bc682735fe20",
+  "task_id": "task_0056",
+  "task_index": 56
+}

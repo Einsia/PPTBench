@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2508.04556",
+  "candidate_id": "2508-04556_pdf_97e442974863fb64",
+  "caption": "CONVERGE high-level architecture.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 15,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.988166,
+    "editable_component_count": 167,
+    "embedded_image_count": 2,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.034152,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 141,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 169,
+    "text_count": 98,
+    "vector_drawing_count": 41,
+    "vector_primitive_count": 69
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 336,
+    "full_pool_rank": 451,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 289,
+    "second_pass_review_rank": 336
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2508.04556v1",
+    "abstract": "Telecommunications and computer vision have evolved independently. With the emergence of high-frequency wireless links operating mostly in line-of-sight, visual data can help predict the channel dynamics by detecting obstacles and help overcoming them through beamforming or handover techniques. This paper proposes a novel architecture for delivering real-time radio and video sensing information to O-RAN xApps through a multi-agent approach, and introduces a new video function capable of generating blockage information for xApps, enabling Integrated Sensing and Communications. Experimental results show that the delay of sensing information remains under 1\\,ms and that an xApp can successfully use radio and video sensing information to control the 5G/6G RAN in real-time.",
+    "arxiv_id": "2508.04556",
+    "authors": [
+      "Filipe B. Teixeira",
+      "Carolina Sim\u00f5es",
+      "Paulo Fidalgo",
+      "Wagner Pedrosa",
+      "Andr\u00e9 Coelho",
+      "Manuel Ricardo",
+      "Luis M. Pessoa"
+    ],
+    "categories": [
+      "cs.NI",
+      "cs.CV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2508.04556v1",
+    "primary_category": "cs.NI",
+    "published": "2025-08-06T15:40:52Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2508.04556v1",
+    "title": "CONVERGE: A Multi-Agent Vision-Radio Architecture for xApps",
+    "updated": "2025-08-06T15:40:52Z",
+    "versioned_id": "2508.04556v1"
+  },
+  "reference_sha256": "65eb2dff4aaaac48d4430b241877fd0a96bacde7c3d3e34307f81595b2584992",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 979,
+    "final_quality_rank": 900,
+    "final_quality_score": 0.467742,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.8945,
+      "category": "cs.NI",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.134204,
+      "component_bin": 1,
+      "connector_bin": 0,
+      "difference_hash": "3d201b0423008f4c0c4465c966c695ce9966632667a6952662cee3ca958994c9",
+      "raster_bin": 2
+    },
+    "style_selection_rank": 893,
+    "style_selection_score": 0.420443
+  },
+  "source_filename": "CONVERGE_high-level_architecture.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "97e442974863fb640767aba344aae9218831680147a2d9d794f948b90f30afb2",
+  "task_id": "task_0978",
+  "task_index": 978
+}

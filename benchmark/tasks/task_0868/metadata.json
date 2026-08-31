@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2407.13143",
+  "candidate_id": "2407-13143_pdf_ce776daba6d27b4d",
+  "caption": "The workflow -- the graph extractor extracts layer and corresponding operator graphs, which are annotated with memory footprint and latency estimates. The solver iteratively explores each valid architecture configuration.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 25,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 213,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 99,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 213,
+    "text_count": 68,
+    "vector_drawing_count": 31,
+    "vector_primitive_count": 145
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 713,
+    "full_pool_rank": 1219,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 624,
+    "second_pass_review_rank": 713
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2407.13143v1",
+    "abstract": "Distributed execution of deep learning training involves a dynamic interplay between hardware accelerator architecture and device placement strategy. This is the first work to explore the co-optimization of determining the optimal architecture and device placement strategy through novel algorithms, improving the balance of computational resources, memory usage, and data distribution. Our architecture search leverages tensor and vector units, determining their quantity and dimensionality, and on-chip and off-chip memory configurations. It also determines the microbatch size and decides whether to recompute or stash activations, balancing the memory footprint of training and storage size. For each explored architecture configuration, we use an Integer Linear Program (ILP) to find the optimal schedule for executing operators on the accelerator. The ILP results then integrate with a dynamic programming solution to identify the most effective device placement strategy, combining data, pipeline, and tensor model parallelism across multiple accelerators. Our approach achieves higher throughput on large language models compared to the state-of-the-art TPUv4 and the Spotlight accelerator search framework. The entire source code of PHAZE is available at https://github.com/msr-fiddle/phaze.",
+    "arxiv_id": "2407.13143",
+    "authors": [
+      "Irene Wang",
+      "Jakub Tarnawski",
+      "Amar Phanishayee",
+      "Divya Mahajan"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AR",
+      "cs.DC"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2407.13143v1",
+    "primary_category": "cs.LG",
+    "published": "2024-07-18T04:02:35Z",
+    "query": "(cat:cs.DC AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2407.13143v1",
+    "title": "Integrated Hardware Architecture and Device Placement Search",
+    "updated": "2024-07-18T04:02:35Z",
+    "versioned_id": "2407.13143v1"
+  },
+  "reference_sha256": "ac730b2ddb0cad6eff59ae47ba84ac217ea2ee2bf25fbc8002f54dd00e7d7aec",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 869,
+    "final_quality_rank": 728,
+    "final_quality_score": 0.55029,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.4293,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 4,
+      "colorfulness": 0.526593,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "0c0006001e440e0036ccb2cc32cc3246363205308db2373632063036281e3214",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 846,
+    "style_selection_score": 0.452293
+  },
+  "source_filename": "phaze_flow.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "ce776daba6d27b4dad36c21d5b11c3945389b68a0069293f9bba9058d5d5b962",
+  "task_id": "task_0868",
+  "task_index": 868
+}

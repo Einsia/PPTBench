@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2312.02746",
+  "candidate_id": "2312-02746_pdf_7e744d002559a6a0",
+  "caption": "Components and abstractions of 4G and 5G cellular networks, with the limitations associated to the current cellular architecture and deployment models.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 13,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.9875,
+    "editable_component_count": 316,
+    "embedded_image_count": 4,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.097155,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 90,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 320,
+    "text_count": 29,
+    "vector_drawing_count": 57,
+    "vector_primitive_count": 287
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2312.02746v1",
+    "abstract": "Innovation and standardization in 5G have brought advancements to every facet of the cellular architecture. This ranges from the introduction of new frequency bands and signaling technologies for the radio access network (RAN), to a core network underpinned by micro-services and network function virtualization (NFV). However, like any emerging technology, the pace of real-world deployments does not instantly match the pace of innovation. To address this discrepancy, one of the key aspects under continuous development is the RAN with the aim of making it more open, adaptive, functional, and easy to manage. In this paper, we highlight the transformative potential of embracing novel cellular architectures by transitioning from conventional systems to the progressive principles of Open RAN. This promises to make 6G networks more agile, cost-effective, energy-efficient, and resilient. It opens up a plethora of novel use cases, ranging from ubiquitous support for autonomous devices to cost-effective expansions in regions previously underserved. The principles of Open RAN encompass: (i) a disaggregated architecture with modular and standardized interfaces; (ii) cloudification, programmability and orchestration; and (iii) AI-enabled data-centric closed-loop control and automation. We first discuss the transformative role Open RAN principles have played in the 5G era. Then, we adopt a system-level approach and describe how these Open RAN principles will support 6G RAN and architecture innovation. We qualitatively discuss potential performance gains that Open RAN principles yield for specific 6G use cases. For each principle, we outline the steps that research, development and standardization communities ought to take to make Open RAN principles central to next-generation cellular network designs.",
+    "arxiv_id": "2312.02746",
+    "authors": [
+      "Michele Polese",
+      "Mischa Dohler",
+      "Falko Dressler",
+      "Melike Erol-Kantarci",
+      "Rittwik Jana",
+      "Raymond Knopp",
+      "Tommaso Melodia"
+    ],
+    "categories": [
+      "cs.NI",
+      "eess.SP"
+    ],
+    "doi": "10.1109/JSAC.2023.3334610",
+    "journal_ref": "IEEE Journal on Selected Areas in Communications, 2024",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2312.02746v1",
+    "primary_category": "cs.NI",
+    "published": "2023-12-05T13:20:04Z",
+    "query": "(cat:eess.SP AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2312.02746v1",
+    "title": "Empowering the 6G Cellular Architecture with Open RAN",
+    "updated": "2023-12-05T13:20:04Z",
+    "versioned_id": "2312.02746v1"
+  },
+  "reference_sha256": "005519560f63c6b35f4d30cddce24a0df28b7c7494e74290c4d31b15a2a485bd",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 130,
+    "final_quality_rank": 988,
+    "final_quality_score": 0.366109,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 1,
+      "aspect_ratio": 0.8925,
+      "category": "cs.NI",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.0,
+      "component_bin": 1,
+      "connector_bin": 0,
+      "difference_hash": "ae89aca2bc26a0d9a8dbaaa2baa2b8e3b2e3b4a2b4e3bcf6b4f6ba86baa2b660",
+      "raster_bin": 3
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "4g-5g-limits-v3.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "7e744d002559a6a05b0f7fba344f8201e583de97a22048662911becede21c8ae",
+  "task_id": "task_0129",
+  "task_index": 129
+}

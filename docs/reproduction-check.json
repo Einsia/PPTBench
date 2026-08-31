@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-25",
+  "tasks": 500,
+  "resources": 286,
+  "empty_cache_online_materialization": true,
+  "offline_hash_verification": true,
+  "corrected_resource_address_tasks": [
+    "task_0429",
+    "task_0509",
+    "task_0692",
+    "task_0764"
+  ],
+  "source_and_target_hashes_unchanged": true,
+  "smoke": {
+    "task": "task_0004",
+    "model": "gpt-6-astra",
+    "effort": "low",
+    "codex_version": "0.157.0",
+    "platform": "WSL2 Ubuntu",
+    "python": "3.12.3",
+    "libreoffice": "24.2.7.2",
+    "complete_cases": 1,
+    "failed_cases": 0,
+    "editable_components": 63,
+    "picture_count": 0,
+    "official_judge_score": null
+  },
+  "note": "Local installation smoke uses distribution LibreOffice; official benchmark rendering requires 25.8. For task_0660, Linux reproduces the frozen original reference hash, while Windows reproduces the frozen renderer hash (19 pixels differ, maximum channel delta 3). Only these exact preexisting hashes are accepted.",
+  "clean_linux_full_replay": true,
+  "tests_passed": 6
+}

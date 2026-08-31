@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2606.12236",
+  "candidate_id": "2606-12236_pdf_628e5d1c01f1f5ab",
+  "caption": "DrivingAgent overview. DrivingAgent separates offline adapter construction from online scheduling through a structured Tool Profile. (a) The Design Agent discovers planner capability gaps, generates and verifies adapter code, trains candidate modules, and validates them before deployment. (b) The Agent-Tool Profile serves as the design--runtime contract, encoding attachment points, tensor/cache interfaces, runtime attributes, compute cost, and checkpoint evidence. (c) The Scheduling Agent uses these profiles to decide whether to reuse or refresh schedules, execute tools in parallel, and update memory from runtime outcomes. Episodic and dense rewards provide reinforcement signals for improving scheduling decisions.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 106,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.998544,
+    "editable_component_count": 15084,
+    "embedded_image_count": 22,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.004509,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 214,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 15106,
+    "text_count": 85,
+    "vector_drawing_count": 107,
+    "vector_primitive_count": 14999
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 610,
+    "full_pool_rank": 988,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 531,
+    "second_pass_review_rank": 610
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2606.12236v2",
+    "abstract": "Many autonomous driving systems are increasingly incorporating foundation models to improve generalization and handle long-tail scenarios. However, this trend introduces two key challenges: (i) the manual and labor-intensive process of designing and integrating new models, and (ii) the lack of intelligent, dynamic scheduling mechanisms to meet strict real-time constraints. While Large Language Model (LLM)-based agents offer a promising avenue for automation, existing frameworks are ill-suited for autonomous driving. Specifically, they fail to distinguish between the fundamentally different requirements of system design and real-time scheduling, treat modules as opaque black boxes, and are not designed for continuous operation. To address these limitations, we propose DrivingAgent, a novel agent framework tailored to the dual challenges of autonomous driving system design and scheduling. In the design phase, DrivingAgent automates module development by interpreting system architecture, generating code, and validating modules via super-network training. In the scheduling phase, it employs a lightweight LLM trained with reinforcement learning to dynamically orchestrate system modules in real time, supported by a structured memory that integrates long-term storage with timestamped short-term context. Experimental results demonstrate that DrivingAgent achieves a superior speed--accuracy trade-off on both the nuScenes and Bench2Drive benchmarks.",
+    "arxiv_id": "2606.12236",
+    "authors": [
+      "Zhongyu Xia",
+      "Wenhao Chen",
+      "Yongtao Wang",
+      "Ming-Hsuan Yang"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2606.12236v2",
+    "primary_category": "cs.RO",
+    "published": "2026-06-10T15:42:25Z",
+    "query": "(cat:cs.RO AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2606.12236v2",
+    "title": "DrivingAgent: Design and Scheduling Agents for Autonomous Driving Systems",
+    "updated": "2026-06-11T01:12:41Z",
+    "versioned_id": "2606.12236v2"
+  },
+  "reference_sha256": "05fd7ee5f44ae8c57ae9d0a2ce0354836a937b18363ed1bd597e4cc7aa679352",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 227,
+    "final_quality_rank": 160,
+    "final_quality_score": 0.68016,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.7596,
+      "category": "cs.RO",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.265174,
+      "component_bin": 6,
+      "connector_bin": 2,
+      "difference_hash": "b494a96aa96984169496e90c8d2dd92a5d90465556d25a0a6b19e24c9a6d9269",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 190,
+    "style_selection_score": 0.556604
+  },
+  "source_filename": "arch2.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "628e5d1c01f1f5abae19ff4b677729c56d216e5103029f6b301bffe731248abf",
+  "task_id": "task_0226",
+  "task_index": 226
+}

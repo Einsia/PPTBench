@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2312.14860",
+  "candidate_id": "2312-14860_pdf_a72922d885498925",
+  "caption": "Improved Model architectures used for semantic VAD",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 48,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 358,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 92,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 358,
+    "text_count": 27,
+    "vector_drawing_count": 65,
+    "vector_primitive_count": 331
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 1152,
+    "full_pool_rank": 2137,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 1020,
+    "second_pass_review_rank": 1152
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2312.14860v1",
+    "abstract": "In a speech recognition system, voice activity detection (VAD) is a crucial frontend module. Addressing the issues of poor noise robustness in traditional binary VAD systems based on DFSMN, the paper further proposes semantic VAD based on multi-task learning with improved models for real-time and offline systems, to meet specific application requirements. Evaluations on internal datasets show that, compared to the real-time VAD system based on DFSMN, the real-time semantic VAD system based on RWKV achieves relative decreases in CER of 7.0\\%, DCF of 26.1\\% and relative improvement in NRR of 19.2\\%. Similarly, when compared to the offline VAD system based on DFSMN, the offline VAD system based on SAN-M demonstrates relative decreases in CER of 4.4\\%, DCF of 18.6\\% and relative improvement in NRR of 3.5\\%.",
+    "arxiv_id": "2312.14860",
+    "authors": [
+      "Lingyun Zuo",
+      "Keyu An",
+      "Shiliang Zhang",
+      "Zhijie Yan"
+    ],
+    "categories": [
+      "cs.SD",
+      "eess.AS"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2312.14860v1",
+    "primary_category": "cs.SD",
+    "published": "2023-12-19T10:50:57Z",
+    "query": "(cat:eess.AS AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2312.14860v1",
+    "title": "Advancing VAD Systems Based on Multi-Task Learning with Improved Model Structures",
+    "updated": "2023-12-19T10:50:57Z",
+    "versioned_id": "2312.14860v1"
+  },
+  "reference_sha256": "08a6c4e4f78493cdc3ae536476c483feeec3ae12a658a4a2a5b7fb76c606bc66",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 951,
+    "final_quality_rank": 852,
+    "final_quality_score": 0.496289,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.954,
+      "category": "cs.SD",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.342004,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "dcc0d8d8dcd8cc92dcbbcd98c984d990c994cd94dccc1cccdcd4d8c43430b0b4",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 925,
+    "style_selection_score": 0.425225
+  },
+  "source_filename": "rwkv-sanm.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "a72922d8854989256814aae24e9ee0d459fe604e8faa49fd8016476582ac1176",
+  "task_id": "task_0950",
+  "task_index": 950
+}

@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2503.14084",
+  "candidate_id": "2503-14084_pdf_0d9658a31b4a383b",
+  "caption": "Proposed DPJSCCA model architecture (left) and detailed components: Swin Transformer Blocks, Aux Model, and Mask Creator (right).",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 285,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.993789,
+    "editable_component_count": 1280,
+    "embedded_image_count": 8,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.003486,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 439,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1288,
+    "text_count": 118,
+    "vector_drawing_count": 313,
+    "vector_primitive_count": 1162
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 252,
+    "full_pool_rank": 336,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 223,
+    "second_pass_review_rank": 252
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2503.14084v1",
+    "abstract": "Semantic communication is designed to tackle issues like bandwidth constraints and high latency in communication systems. However, in complex network topologies with multiple users, the enormous combinations of client data and channel state information (CSI) pose significant challenges for existing semantic communication architectures. To improve the generalization ability of semantic communication models in complex scenarios while meeting the personalized needs of each user in their local environments, we propose a novel personalized federated learning framework with dual-pipeline joint source-channel coding based on channel awareness model (PFL-DPJSCCA). Within this framework, we present a method that achieves zero optimization gap for non-convex loss functions. Experiments conducted under varying SNR distributions validate the outstanding performance of our framework across diverse datasets.",
+    "arxiv_id": "2503.14084",
+    "authors": [
+      "Xingrun Yan",
+      "Shiyuan Zuo",
+      "Yifeng Lyu",
+      "Rongfei Fan",
+      "Han Hu"
+    ],
+    "categories": [
+      "eess.IV",
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2503.14084v1",
+    "primary_category": "eess.IV",
+    "published": "2025-03-18T10:02:22Z",
+    "query": "(cat:eess.IV AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2503.14084v1",
+    "title": "Semantic Communication in Dynamic Channel Scenarios: Collaborative Optimization of Dual-Pipeline Joint Source-Channel Coding and Personalized Federated Learning",
+    "updated": "2025-03-18T10:02:22Z",
+    "versioned_id": "2503.14084v1"
+  },
+  "reference_sha256": "e7267325d6e1258269e67cfafb834ba51bc43c2ff5a7687ab61caea1483d1891",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 100,
+    "final_quality_rank": 122,
+    "final_quality_score": 0.69656,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.268,
+      "category": "eess.IV",
+      "category_family": "eess",
+      "color_bin": 3,
+      "colorfulness": 0.406231,
+      "component_bin": 3,
+      "connector_bin": 3,
+      "difference_hash": "c0aad6caea2aea2aeaaad2aac82a48eae8eaccaac3afc8ace82ae828cca8c1a8",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 157,
+    "style_selection_score": 0.570101
+  },
+  "source_filename": "model_pic.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "0d9658a31b4a383b19b7122e0ead4e3b3f60dcc5aa014a4919493270044d3dae",
+  "task_id": "task_0099",
+  "task_index": 99
+}

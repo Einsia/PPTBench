@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2203.05508",
+  "candidate_id": "2203-05508_pdf_5e102eafac07e611",
+  "caption": "Illustration of one iteration of LCMNAS. Architectures are represented with varying width and bar's length to illustrate their diversity. The process shows the sequential design of sampling one layer and associated hyper-parameters for an architecture. Designing and evaluating architectures happens several times in a generation. The whole search ends when the evolution reaches a final generation.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 38,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 346,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 121,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 346,
+    "text_count": 22,
+    "vector_drawing_count": 99,
+    "vector_primitive_count": 324
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 823,
+    "full_pool_rank": 1407,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 718,
+    "second_pass_review_rank": 823
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2203.05508v2",
+    "abstract": "Networks found with Neural Architecture Search (NAS) achieve state-of-the-art performance in a variety of tasks, out-performing human-designed networks. However, most NAS methods heavily rely on human-defined assumptions that constrain the search: architecture's outer-skeletons, number of layers, parameter heuristics and search spaces. Additionally, common search spaces consist of repeatable modules (cells) instead of fully exploring the architecture's search space by designing entire architectures (macro-search). Imposing such constraints requires deep human expertise and restricts the search to pre-defined settings. In this paper, we propose LCMNAS, a method that pushes NAS to less constrained search spaces by performing macro-search without relying on pre-defined heuristics or bounded search spaces. LCMNAS introduces three components for the NAS pipeline: i) a method that leverages information about well-known architectures to autonomously generate complex search spaces based on Weighted Directed Graphs with hidden properties, ii) an evolutionary search strategy that generates complete architectures from scratch, and iii) a mixed-performance estimation approach that combines information about architectures at initialization stage and lower fidelity estimates to infer their trainability and capacity to model complex functions. We present experiments in 13 different data sets showing that LCMNAS is capable of generating both cell and macro-based architectures with minimal GPU computation and state-of-the-art results. More, we conduct extensive studies on the importance of different NAS components in both cell and macro-based settings. Code for reproducibility is public at https://github.com/VascoLopes/LCMNAS.",
+    "arxiv_id": "2203.05508",
+    "authors": [
+      "Vasco Lopes",
+      "Lu\u00eds A. Alexandre"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.LG",
+      "cs.NE"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2203.05508v2",
+    "primary_category": "cs.CV",
+    "published": "2022-03-10T17:53:03Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2203.05508v2",
+    "title": "Towards Less Constrained Macro-Neural Architecture Search",
+    "updated": "2023-01-06T21:18:31Z",
+    "versioned_id": "2203.05508v2"
+  },
+  "reference_sha256": "b63c9c4b7e564d25db96279f5d682b252170031d1782fecb8ff4a65fcd670f65",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 894,
+    "final_quality_rank": 770,
+    "final_quality_score": 0.532646,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 4.9717,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.325273,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "d806235c415e51ce362e36a876a1d6a792a4d234500d92129618c498c6100308",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 873,
+    "style_selection_score": 0.434202
+  },
+  "source_filename": "umnas_diagram.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "5e102eafac07e6110c14728ca27a2bcf664cc26d6124774c7351bcb9c44cf790",
+  "task_id": "task_0893",
+  "task_index": 893
+}

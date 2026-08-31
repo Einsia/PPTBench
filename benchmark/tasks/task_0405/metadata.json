@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2205.05063",
+  "candidate_id": "2205-05063_pdf_09034b222a5d8071",
+  "caption": "This flowchart shows the transient detection pipeline for AST3-3. The pipeline is divided into four components. The left box shows the first concurrent group that contains the preparations for image subtractions. The middle part is the SFFT subtraction procedure, which calls the SFFT functions with a GPU resources scheduler. The right box shows the second concurrent group for candidate detection on the difference image. The bottom part shows the candidate classification and the data exchange of database.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 44,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 2727,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 92,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 2727,
+    "text_count": 32,
+    "vector_drawing_count": 60,
+    "vector_primitive_count": 2695
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 250,
+    "full_pool_rank": 334,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 221,
+    "second_pass_review_rank": 250
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2205.05063v1",
+    "abstract": "AST3-3 is the third robotic facility of the Antarctic Survey Telescopes (AST3) for transient surveys to be deployed at Dome A, Antarctica. Due to the current pandemic, the telescope has been currently deployed at the Yaoan Observation Station in China, starting the commissioning observation and a transient survey. This paper presents a fully automatic data processing system for AST3-3 observations. The transient detection pipeline uses state-of-the-art image subtraction techniques optimised for GPU devices. Image reduction and transient photometry are accelerated by concurrent task methods. Our Python-based system allows for transient detection from wide-field data in a real-time and accurate way. A ResNet-based rotational-invariant neural network was employed to classify the transient candidates. As a result, the system enables auto-generation of transients and their light curves.",
+    "arxiv_id": "2205.05063",
+    "authors": [
+      "Tianrui Sun",
+      "Lei Hu",
+      "Songbo Zhang",
+      "Xiaoyan Li",
+      "Kelai Meng",
+      "Xuefeng Wu",
+      "Lifan Wang",
+      "A. J. Castro-Tirado"
+    ],
+    "categories": [
+      "astro-ph.IM"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2205.05063v1",
+    "primary_category": "astro-ph.IM",
+    "published": "2022-05-10T17:42:31Z",
+    "query": "(cat:astro-ph.IM AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2205.05063v1",
+    "title": "Pipeline for Antarctic Survey Telescope 3-3 in Yaoan, Yunnan",
+    "updated": "2022-05-10T17:42:31Z",
+    "versioned_id": "2205.05063v1"
+  },
+  "reference_sha256": "01b03bbeb093ae402b8e104199518f0815b9224df8266c27f31e76a808f2f17e",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 406,
+    "final_quality_rank": 481,
+    "final_quality_score": 0.60119,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.2997,
+      "category": "astro-ph.IM",
+      "category_family": "astro-ph",
+      "color_bin": 2,
+      "colorfulness": 0.188373,
+      "component_bin": 4,
+      "connector_bin": 1,
+      "difference_hash": "06806e01c038c71cc71cc718c61cc698c69cc018c0bcc17cc71cc69c07000700",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 709,
+    "style_selection_score": 0.498316
+  },
+  "source_filename": "Figure06_ast3_3PipelineTransient.drawio.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "09034b222a5d807102edc12c807481f2532d8d78074ddb9691656ce4571df7b3",
+  "task_id": "task_0405",
+  "task_index": 405
+}

@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2510.17689",
+  "candidate_id": "2510-17689_pdf_9ef812b40d28fe7c",
+  "caption": "Stabilizer layout, ancilla\u2013data interaction structure, and optimal architecture synthesis for the 2D color code of distance d=3. The six data-qubit interactions associated with each stabilizer define an acyclic dependency graph suitable for the MILP-based Quantum Reverse Mapping framework.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 266,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 2124,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 345,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 2124,
+    "text_count": 57,
+    "vector_drawing_count": 288,
+    "vector_primitive_count": 2067
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2510.17689v2",
+    "abstract": "As quantum computers scale toward millions of physical qubits, it becomes essential to robustly encode individual logical qubits to ensure fault tolerance under realistic noise. A high-quality foundational encoding allows future compilation techniques and heuristics to build on optimal or near-optimal layouts, improving scalability and error resilience. In this work, we synthesize a one-dimensional shuttling bus architecture for the rotated surface code, leveraging coherent spin-qubit shuttling, following a novel methodology we name Quantum Reverse Mapping. We formulate a mixed-integer optimization model that yields optimal solutions with relatively low execution time for small code distances, and propose a scalable heuristic that matches optimal results while maintaining linear computational complexity. We evaluate the synthesized architecture using architectural metrics, such as shuttling distance and cycle time, and full quantum simulations under realistic noise models, showing that the proposed design can sustain logical error rates as low as $2\\times 10^{-10}$ per round at code distance 21, showcasing its feasibility for scalable quantum error correction in spin-based quantum processors.",
+    "arxiv_id": "2510.17689",
+    "authors": [
+      "Pau Escofet",
+      "Eduard Alarc\u00f3n",
+      "Sergi Abadal",
+      "Andrii Semenov",
+      "Niall Murphy",
+      "Elena Blokhina",
+      "Carmen G. Almud\u00e9ver"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "doi": "10.1103/4p4q-fm3y",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2510.17689v2",
+    "primary_category": "quant-ph",
+    "published": "2025-10-20T16:05:36Z",
+    "query": "(cat:quant-ph AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2510.17689v2",
+    "title": "Synthesizing an Optimal Spin Qubit Shuttling Bus Architecture for the Surface Code",
+    "updated": "2026-02-07T18:09:47Z",
+    "versioned_id": "2510.17689v2"
+  },
+  "reference_sha256": "459662c36c77c02ae42df552406fe8734ecc49f195edf6472a7197bf0c95bf82",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 302,
+    "final_quality_rank": 373,
+    "final_quality_score": 0.624372,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 7.3184,
+      "category": "quant-ph",
+      "category_family": "quant-ph",
+      "color_bin": 0,
+      "colorfulness": 0.066315,
+      "component_bin": 4,
+      "connector_bin": 3,
+      "difference_hash": "1b201a001930d930d030d9b0d0b0df30dd34db2ccf2cc80c1c2c900c1c001c00",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 494,
+    "style_selection_score": 0.512944
+  },
+  "source_filename": "color_code_3.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "9ef812b40d28fe7c006248d42a5ef895c9503f4a5a304a00c3f7d0413ea6c89e",
+  "task_id": "task_0301",
+  "task_index": 301
+}

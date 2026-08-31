@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2508.08396",
+  "candidate_id": "2508-08396_pdf_ff614fafb6bcfb24",
+  "caption": "The architecture of (a) and three selected sub-modules (b, c, d)",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 547,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.997839,
+    "editable_component_count": 5542,
+    "embedded_image_count": 12,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.006381,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 861,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 5554,
+    "text_count": 213,
+    "vector_drawing_count": 636,
+    "vector_primitive_count": 5329
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 236,
+    "full_pool_rank": 317,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 210,
+    "second_pass_review_rank": 236
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2508.08396v1",
+    "abstract": "As modern AI workloads increasingly rely on heterogeneous accelerators, ensuring high-bandwidth and layout-flexible data movements between accelerator memories has become a pressing challenge. Direct Memory Access (DMA) engines promise high bandwidth utilization for data movements but are typically optimal only for contiguous memory access, thus requiring additional software loops for data layout transformations. This, in turn, leads to excessive control overhead and underutilized on-chip interconnects. To overcome this inefficiency, we present XDMA, a distributed and extensible DMA architecture that enables layout-flexible data movements with high link utilization. We introduce three key innovations: (1) a data streaming engine as XDMA Frontend, replacing software address generators with hardware ones; (2) a distributed DMA architecture that maximizes link utilization and separates configuration from data transfer; (3) flexible plugins for XDMA enabling on-the-fly data manipulation during data transfers. XDMA demonstrates up to 151.2x/8.2x higher link utilization than software-based implementations in synthetic workloads and achieves 2.3x average speedup over accelerators with SoTA DMA in real-world applications. Our design incurs <2% area overhead over SoTA DMA solutions while consuming 17% of system power. XDMA proves that co-optimizing memory access, layout transformation, and interconnect protocols is key to unlocking heterogeneous multi-accelerator SoC performance.",
+    "arxiv_id": "2508.08396",
+    "authors": [
+      "Fanchen Kong",
+      "Yunhao Deng",
+      "Xiaoling Yi",
+      "Ryan Antonio",
+      "Marian Verhelst"
+    ],
+    "categories": [
+      "cs.AR",
+      "cs.DC"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2508.08396v1",
+    "primary_category": "cs.AR",
+    "published": "2025-08-11T18:38:50Z",
+    "query": "(cat:cs.DC AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2508.08396v1",
+    "title": "XDMA: A Distributed, Extensible DMA Architecture for Layout-Flexible Data Movements in Heterogeneous Multi-Accelerator SoCs",
+    "updated": "2025-08-11T18:38:50Z",
+    "versioned_id": "2508.08396v1"
+  },
+  "reference_sha256": "2781f8176329c8d72136b32515866ba307a754aa461c71a224cfac76fef703be",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 103,
+    "final_quality_rank": 70,
+    "final_quality_score": 0.721243,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.8851,
+      "category": "cs.AR",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.191962,
+      "component_bin": 5,
+      "connector_bin": 4,
+      "difference_hash": "871931aa712cb1cb652a592b59db598b614b8959a8dd89cd89cb89ce99cad9cc",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 105,
+    "style_selection_score": 0.587287
+  },
+  "source_filename": "main_figure_new.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "ff614fafb6bcfb244445b0a9d81ca66aea65942d83cd5b3e808fb1873426e284",
+  "task_id": "task_0102",
+  "task_index": 102
+}

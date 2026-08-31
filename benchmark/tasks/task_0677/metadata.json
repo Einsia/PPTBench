@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2507.03191",
+  "candidate_id": "2507-03191_pdf_1e4d3f56893b262c",
+  "caption": "Workflow to identify charge order (CO) ferroelectrics (FEs) with the relevant steps of the work and the number of materials considered in each step in parenthesis. The lines represent the conditions imposed between boxes. C-symmetry stands for centrosymmetric related to polar structure by a continuous symmetry distortion.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 30,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 127,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 76,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 127,
+    "text_count": 35,
+    "vector_drawing_count": 41,
+    "vector_primitive_count": 92
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2507.03191v1",
+    "abstract": "Charge-order-induced ferroelectrics display important technological applications in spintronics devices due to the possibility of magnetoelectric coupling and fast electronic switching. However, the list of known charge-order-induced ferroelectrics remains limited, hindering the fundamental understanding of the phenomena and the optimization of materials for real applications. In this work, we develop a high-throughput workflow to screen for charge-order-induced ferroelectrics in The Materials Project database. We use the local symmetry and bond valence sum to determine 147 materials displaying a coexistence of charge order and ferroelectric polarization. Then, ab initio simulations are used to identify 21 charge-order-induced ferroelectric candidates in which the ferroelectric polarization originates from or is structurally coupled to the charge order. For the final 21 candidates, we use symmetry-adapted modes and first-principles calculations to determine the structural coupling term between charge order and polar distortions and compute electronic properties, respectively.",
+    "arxiv_id": "2507.03191",
+    "authors": [
+      "Jose Cuevas-Medina",
+      "Yubo Qi",
+      "Natasa Stojic",
+      "Sebastian E. Reyes-Lillo"
+    ],
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2507.03191v1",
+    "primary_category": "cond-mat.mtrl-sci",
+    "published": "2025-07-03T21:52:10Z",
+    "query": "(cat:cond-mat.mtrl-sci AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2507.03191v1",
+    "title": "High-throughput screening of charge-order-induced ferroelectrics",
+    "updated": "2025-07-03T21:52:10Z",
+    "versioned_id": "2507.03191v1"
+  },
+  "reference_sha256": "d9e8c406213b1392ae6bda055316bb2d9f66aa3fe50033509063c678dd432d87",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 678,
+    "final_quality_rank": 979,
+    "final_quality_score": 0.379267,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 1,
+      "aspect_ratio": 0.8831,
+      "category": "cond-mat.mtrl-sci",
+      "category_family": "cond-mat",
+      "color_bin": 0,
+      "colorfulness": 0.0,
+      "component_bin": 0,
+      "connector_bin": 1,
+      "difference_hash": "d334e338a11802f880380f3803380d000f0461106338e338a864e078e038e038",
+      "raster_bin": 0
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "diagram.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "1e4d3f56893b262cd65e32380290754263b36aa292ec999f42748eab9efed7ba",
+  "task_id": "task_0677",
+  "task_index": 677
+}

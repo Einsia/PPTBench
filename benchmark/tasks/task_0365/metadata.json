@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2311.05559",
+  "candidate_id": "2311-05559_pdf_1a5d0ebeeadeafc0",
+  "caption": "Architecture of our approach, which consists of an encoder and a VQC parametrized with . The input data is given by X and the prediction targets by y. The VQC has n qubits and consists of entangling layers.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 165,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 841,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 243,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 841,
+    "text_count": 56,
+    "vector_drawing_count": 187,
+    "vector_primitive_count": 785
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2311.05559v2",
+    "abstract": "Quantum computing offers the potential for superior computational capabilities, particularly for data-intensive tasks. However, the current state of quantum hardware puts heavy restrictions on input size. To address this, hybrid transfer learning solutions have been developed, merging pre-trained classical models, capable of handling extensive inputs, with variational quantum circuits. Yet, it remains unclear how much each component -- classical and quantum -- contributes to the model's results. We propose a novel hybrid architecture: instead of utilizing a pre-trained network for compression, we employ an autoencoder to derive a compressed version of the input data. This compressed data is then channeled through the encoder part of the autoencoder to the quantum component. We assess our model's classification capabilities against two state-of-the-art hybrid transfer learning architectures, two purely classical architectures and one quantum architecture. Their accuracy is compared across four datasets: Banknote Authentication, Breast Cancer Wisconsin, MNIST digits, and AudioMNIST. Our research suggests that classical components significantly influence classification in hybrid transfer learning, a contribution often mistakenly ascribed to the quantum element. The performance of our model aligns with that of a variational quantum circuit using amplitude embedding, positioning it as a feasible alternative.",
+    "arxiv_id": "2311.05559",
+    "authors": [
+      "Michael K\u00f6lle",
+      "Jonas Maurer",
+      "Philipp Altmann",
+      "Leo S\u00fcnkel",
+      "Jonas Stein",
+      "Claudia Linnhoff-Popien"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2311.05559v2",
+    "primary_category": "quant-ph",
+    "published": "2023-11-09T18:13:50Z",
+    "query": "(cat:quant-ph AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2311.05559v2",
+    "title": "Disentangling Quantum and Classical Contributions in Hybrid Quantum Machine Learning Architectures",
+    "updated": "2024-01-13T11:02:53Z",
+    "versioned_id": "2311.05559v2"
+  },
+  "reference_sha256": "8708f7bf156f6bcbaaf655fd1adc0c8c43990fe802ec56175caa92a6e4336543",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 366,
+    "final_quality_rank": 452,
+    "final_quality_score": 0.608626,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.9337,
+      "category": "quant-ph",
+      "category_family": "quant-ph",
+      "color_bin": 2,
+      "colorfulness": 0.198285,
+      "component_bin": 2,
+      "connector_bin": 3,
+      "difference_hash": "2000a004a0009b8c898cc258c258c348cb3cc3589b5c8bbc80008200a0006000",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 662,
+    "style_selection_score": 0.496016
+  },
+  "source_filename": "Model_Architecture_FINAL-cropped.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "1a5d0ebeeadeafc0ec4cb76c6975f3ac9f2d5626fabbfbc6b4bf04fe025f1f0d",
+  "task_id": "task_0365",
+  "task_index": 365
+}

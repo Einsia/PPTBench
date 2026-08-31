@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2503.10404",
+  "candidate_id": "2503-10404_pdf_0b8b1f319391c34d",
+  "caption": "Example of a DARTS architecture and one of its radius-1 neighbor. The upper part shows the adjacency matrices of the DARTS architecture (left) and its radius-1 neighbor (right). The set of operations corresponding to the indexes of O are \\0: none, 1: max_pool3x3, 2: avg_pool3x3, 3: skip_connect, 4: sep_conv_3x3, 5: sep_conv5x5, 6: dil_conv_3x3, 7: dil_conv5x5\\ with dil_conv referring to dilated convolution and sep_conv referring to separable convolution. The two lower graphs represent the DARTS architecture (up) and its radius-1 neighbor (down) corresponding to their adjacency matrices. The neighbor architecture is obtained by removing the connection from intermediate node 0 to node 1 and adding a new connection from the input node c_k-2 to intermediate node 1. This corresponds to updating the elements in positions (1,1) and (1,2) in the matrix.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 67,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 275,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 200,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 275,
+    "text_count": 68,
+    "vector_drawing_count": 132,
+    "vector_primitive_count": 207
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 588,
+    "full_pool_rank": 941,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 513,
+    "second_pass_review_rank": 588
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2503.10404v3",
+    "abstract": "Neural Architecture Search (NAS) has become an essential tool for designing effective and efficient neural networks. In this paper, we investigate the geometric properties of neural architecture spaces commonly used in differentiable NAS methods, specifically NAS-Bench-201 and DARTS. By defining flatness metrics such as neighborhoods and loss barriers along paths in architecture space, we reveal locality and flatness characteristics analogous to the well-known properties of neural network loss landscapes in weight space. In particular, we find that highly accurate architectures cluster together in flat regions, while suboptimal architectures remain isolated, unveiling the detailed geometrical structure of the architecture search landscape. Building on these insights, we propose Architecture-Aware Minimization (A$^2$M), a novel analytically derived algorithmic framework that explicitly biases, for the first time, the gradient of differentiable NAS methods towards flat minima in architecture space. A$^2$M consistently improves generalization over state-of-the-art DARTS-based algorithms on benchmark datasets including CIFAR-10, CIFAR-100, and ImageNet16-120, across both NAS-Bench-201 and DARTS search spaces. Notably, A$^2$M is able to increase the test accuracy, on average across different differentiable NAS methods, by +3.60\\% on CIFAR-10, +4.60\\% on CIFAR-100, and +3.64\\% on ImageNet16-120, demonstrating its superior effectiveness in practice. A$^2$M can be easily integrated into existing differentiable NAS frameworks, offering a versatile tool for future research and applications in automated machine learning. We open-source our code at https://github.com/AI-Tech-Research-Lab/AsquaredM.",
+    "arxiv_id": "2503.10404",
+    "authors": [
+      "Matteo Gambella",
+      "Fabrizio Pittorino",
+      "Manuel Roveri"
+    ],
+    "categories": [
+      "cs.LG",
+      "cond-mat.dis-nn",
+      "cs.CV"
+    ],
+    "doi": "10.1088/2632-2153/adf02e",
+    "journal_ref": "2025 Mach. Learn.: Sci. Technol. 6 035016",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2503.10404v3",
+    "primary_category": "cs.LG",
+    "published": "2025-03-13T14:30:17Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2503.10404v3",
+    "title": "Architecture-Aware Minimization (A$^2$M): How to Find Flat Minima in Neural Architecture Search",
+    "updated": "2026-03-24T15:49:47Z",
+    "versioned_id": "2503.10404v3"
+  },
+  "reference_sha256": "58290265bf02a9872dff50db1c1214afca324bd8af35fb30a6e33bfd566dc69e",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 886,
+    "final_quality_rank": 752,
+    "final_quality_score": 0.541928,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 0,
+      "aspect_ratio": 0.7067,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.213751,
+      "component_bin": 1,
+      "connector_bin": 2,
+      "difference_hash": "6498e4e0e4e0e49864c89200f22ef2649260076292009200c66e926496600760",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 864,
+    "style_selection_score": 0.450479
+  },
+  "source_filename": "DARTSGraph.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "0b8b1f319391c34d2351f4e8427e6d2bac6acb4555b7efa728a61a0f4d5af30d",
+  "task_id": "task_0885",
+  "task_index": 885
+}

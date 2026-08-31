@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2508.11967",
+  "candidate_id": "2508-11967_pdf_a601fb836bf77ad0",
+  "caption": "Overview of the NINDEN architecture. The model consists of multiple parallel branches, each processing persistence images through deep feed-forward (FF) blocks. Each FF-block includes a linear layer, followed by normalization, activation, and dropout. Latent vectors from all branches are fused, via concatenation in this work, before being passed to the projection head, which comprises additional fully connected layres. The architecture incorporates batch normalization throughout and is designed to enhance expressiveness and generalization for SOFC electrode attribute prediction",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 95,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1145,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 106,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1145,
+    "text_count": 11,
+    "vector_drawing_count": 95,
+    "vector_primitive_count": 1134
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2508.11967v1",
+    "abstract": "The microstructure critically governs the properties of materials used in energy and chemical engineering technologies, from catalysts and filters to thermal insulators and sensors. Therefore, accurate design is based on quantitative descriptors of microstructural features. Here we show that eight key descriptors can be extracted by a single workflow that fuses computational topology with assembly-learning-based regression. First, 1312 synthetic three-dimensional microstructures were generated and evaluated using established algorithms, and a labeled data set of ground-truth parameters was built. Converting every structure into a persistence image allowed us to train a deep neural network that predicts the eight descriptors. In an independent test set, the model achieved on average R^2 ~ 0.84 and Pearson r ~ 0.92, demonstrating both precision and generality. The approach provides a unified and scalable tool for rapid characterization of functional porous materials.",
+    "arxiv_id": "2508.11967",
+    "authors": [
+      "Maksym Szemer",
+      "Szymon Buchaniec",
+      "Grzegorz Brus"
+    ],
+    "categories": [
+      "cs.CE",
+      "cond-mat.mtrl-sci"
+    ],
+    "doi": "10.1016/j.jpowsour.2025.238875",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2508.11967v1",
+    "primary_category": "cs.CE",
+    "published": "2025-08-16T08:07:12Z",
+    "query": "(cat:cond-mat.mtrl-sci AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2508.11967v1",
+    "title": "Persistence is All You Need -- A Topological Lens on Microstructural Characterization",
+    "updated": "2025-08-16T08:07:12Z",
+    "versioned_id": "2508.11967v1"
+  },
+  "reference_sha256": "280b1f0cd200c8ee3f862737066b9b389c5f1d1318ee8a5106e29851cef58725",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 737,
+    "final_quality_rank": 554,
+    "final_quality_score": 0.589283,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.1641,
+      "category": "cs.CE",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.239319,
+      "component_bin": 3,
+      "connector_bin": 2,
+      "difference_hash": "38123804b45cb89c343ccb1c999c999c991c202b9c20ba24a5a4ccc4d584d540",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 132,
+    "style_selection_score": 0.575994
+  },
+  "source_filename": "tamp_arch.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "a601fb836bf77ad0143e5c26160236a5cda78a6c44414f8010aed1cab872d71b",
+  "task_id": "task_0736",
+  "task_index": 736
+}

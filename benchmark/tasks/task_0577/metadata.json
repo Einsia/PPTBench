@@ -1,0 +1,88 @@
+{
+  "arxiv_id": "2201.02635",
+  "candidate_id": "2201-02635_pdf_4e9eb42ff135554f",
+  "caption": "",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 65,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 446,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 116,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 446,
+    "text_count": 37,
+    "vector_drawing_count": 79,
+    "vector_primitive_count": 409
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 390,
+    "full_pool_rank": 551,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 339,
+    "second_pass_review_rank": 390
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2201.02635v4",
+    "abstract": "We present the Automated Photometry Of Transients (AutoPhOT) package, a novel automated pipeline that is designed for rapid, publication-quality photometry of astronomical transients. AutoPhOT is built from the ground up using Python 3 - with no dependencies on legacy software. Capabilities of AutoPhOT include aperture and point-spread-function photometry, template subtraction, and calculation of limiting magnitudes through artificial source injection. AutoPhOT is also capable of calibrating photometry against either survey catalogues, or using a custom set of local photometric standards, and is designed primarily for ground-based optical and infrared images. We show that both aperture and point-spread-function photometry from AutoPhOT is consistent with commonly used software, for example DAOPHOT, and also demonstrate that AutoPhOT can reproduce published light curves for a selection of transients with minimal human intervention.",
+    "arxiv_id": "2201.02635",
+    "authors": [
+      "S. J. Brennan",
+      "M. Fraser"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.HE"
+    ],
+    "doi": "10.1051/0004-6361/202243067",
+    "journal_ref": "A&A 667, A62 (2022)",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2201.02635v4",
+    "primary_category": "astro-ph.IM",
+    "published": "2022-01-07T19:00:01Z",
+    "query": "(cat:astro-ph.IM AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2201.02635v4",
+    "title": "The Automated Photometry Of Transients (AutoPhOT) pipeline",
+    "updated": "2023-09-06T12:39:12Z",
+    "versioned_id": "2201.02635v4"
+  },
+  "reference_sha256": "2ea0171c528f1ef0f03d1014e61dd587e7c493068718ed948da43d702a31ca64",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 578,
+    "final_quality_rank": 748,
+    "final_quality_score": 0.543722,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.5946,
+      "category": "astro-ph.IM",
+      "category_family": "astro-ph",
+      "color_bin": 1,
+      "colorfulness": 0.081546,
+      "component_bin": 2,
+      "connector_bin": 2,
+      "difference_hash": "58829ca29cc58604272cd26be66ae624a01ca01ca551d664d666e256e2504a60",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 772,
+    "style_selection_score": 0.455758
+  },
+  "source_filename": "autophot_flowchart.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "4e9eb42ff135554fe5faa8f70c61e2d2a97a2303114dade9ff175107819d304b",
+  "task_id": "task_0577",
+  "task_index": 577
+}

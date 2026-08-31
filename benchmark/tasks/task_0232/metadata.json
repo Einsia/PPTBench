@@ -1,0 +1,88 @@
+{
+  "arxiv_id": "2409.15915",
+  "candidate_id": "2409-15915_pdf_7c298d87cdc93454",
+  "caption": "An overview of the proposed pipeline, it first constructs diverse action schema candidates to cover various interpretations of the natural language descriptions. Then, it filters out low-confidence candidates to ensure the generation candidates are semantically aligned with the descriptions. Lastly, it produces and ranks multiple plans using a symbolic planner. The filtering mechanism is grounded in the concept of semantic equivalence across different representations of the same content.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 210,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 2662,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 338,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 2662,
+    "text_count": 98,
+    "vector_drawing_count": 240,
+    "vector_primitive_count": 2564
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 97,
+    "full_pool_rank": 126,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 84,
+    "second_pass_review_rank": 97
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2409.15915v1",
+    "abstract": "Large Language Models (LLMs) have shown promise in solving natural language-described planning tasks, but their direct use often leads to inconsistent reasoning and hallucination. While hybrid LLM-symbolic planning pipelines have emerged as a more robust alternative, they typically require extensive expert intervention to refine and validate generated action schemas. It not only limits scalability but also introduces a potential for biased interpretation, as a single expert's interpretation of ambiguous natural language descriptions might not align with the user's actual intent. To address this, we propose a novel approach that constructs an action schema library to generate multiple candidates, accounting for the diverse possible interpretations of natural language descriptions. We further introduce a semantic validation and ranking module that automatically filter and rank the generated schemas and plans without expert-in-the-loop. The experiments showed our pipeline maintains superiority in planning over the direct LLM planning approach. These findings demonstrate the feasibility of a fully automated end-to-end LLM-symbolic planner that requires no expert intervention, opening up the possibility for a broader audience to engage with AI planning with less prerequisite of domain expertise.",
+    "arxiv_id": "2409.15915",
+    "authors": [
+      "Sukai Huang",
+      "Nir Lipovetzky",
+      "Trevor Cohn"
+    ],
+    "categories": [
+      "cs.AI"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2409.15915v1",
+    "primary_category": "cs.AI",
+    "published": "2024-09-24T09:33:12Z",
+    "query": "(cat:cs.AI AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2409.15915v1",
+    "title": "Planning in the Dark: LLM-Symbolic Planning Pipeline without Experts",
+    "updated": "2024-09-24T09:33:12Z",
+    "versioned_id": "2409.15915v1"
+  },
+  "reference_sha256": "8ccc0d63efbd5439fec3ad9d00d2f2fa1f52a0e7fa806b759244e022baf50a51",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 233,
+    "final_quality_rank": 162,
+    "final_quality_score": 0.679644,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.0834,
+      "category": "cs.AI",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.24652,
+      "component_bin": 4,
+      "connector_bin": 3,
+      "difference_hash": "53009200b251b3323672d9ecb8aca890ac92fa90011086794e904e944e8081c0",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 294,
+    "style_selection_score": 0.544516
+  },
+  "source_filename": "overview_of_our_pipeline.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "7c298d87cdc9345409778dc19785766689d43eeb5962bb25cc8b0ada503f76d6",
+  "task_id": "task_0232",
+  "task_index": 232
+}

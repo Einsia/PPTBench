@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2412.17297",
+  "candidate_id": "2412-17297_pdf_ac65b3439772b444",
+  "caption": "The overall framework of 3D-ADNAS, where the MFN architecture design is the core of this work, which is specified as a two-level search space: at the inter-module fusion level, the early fusion cell (EAFC), middle fusion cell (MIFC), and late fusion cell (LAFC) are configured to determine optimal combination of involved features and operations; at intra-module fusion level, it aims to seek best fusion strategy to combine those modules (MSMs).",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 142,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.991632,
+    "editable_component_count": 1422,
+    "embedded_image_count": 12,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.009189,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 272,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1434,
+    "text_count": 83,
+    "vector_drawing_count": 177,
+    "vector_primitive_count": 1339
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2412.17297v1",
+    "abstract": "Existing efforts to boost multimodal fusion of 3D anomaly detection (3D-AD) primarily concentrate on devising more effective multimodal fusion strategies. However, little attention was devoted to analyzing the role of multimodal fusion architecture (topology) design in contributing to 3D-AD. In this paper, we aim to bridge this gap and present a systematic study on the impact of multimodal fusion architecture design on 3D-AD. This work considers the multimodal fusion architecture design at the intra-module fusion level, i.e., independent modality-specific modules, involving early, middle or late multimodal features with specific fusion operations, and also at the inter-module fusion level, i.e., the strategies to fuse those modules. In both cases, we first derive insights through theoretically and experimentally exploring how architectural designs influence 3D-AD. Then, we extend SOTA neural architecture search (NAS) paradigm and propose 3D-ADNAS to simultaneously search across multimodal fusion strategies and modality-specific modules for the first time.Extensive experiments show that 3D-ADNAS obtains consistent improvements in 3D-AD across various model capacities in terms of accuracy, frame rate, and memory usage, and it exhibits great potential in dealing with few-shot 3D-AD tasks.",
+    "arxiv_id": "2412.17297",
+    "authors": [
+      "Kaifang Long",
+      "Guoyang Xie",
+      "Lianbo Ma",
+      "Jiaqi Liu",
+      "Zhichao Lu"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2412.17297v1",
+    "primary_category": "cs.CV",
+    "published": "2024-12-23T05:38:49Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2412.17297v1",
+    "title": "Revisiting Multimodal Fusion for 3D Anomaly Detection from an Architectural Perspective",
+    "updated": "2024-12-23T05:38:49Z",
+    "versioned_id": "2412.17297v1"
+  },
+  "reference_sha256": "62a1f9242c9a518c17d7f39370e2c17966daa5d4065d2a878c3076b9c94075fb",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 709,
+    "final_quality_rank": 517,
+    "final_quality_score": 0.594928,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.4181,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.156668,
+      "component_bin": 3,
+      "connector_bin": 2,
+      "difference_hash": "a724bcc01a329a4c9a229a489b9aba585ad3da769b1c9a449a6b1a6b1a6b5a56",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 634,
+    "style_selection_score": 0.479478
+  },
+  "source_filename": "entire.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "ac65b3439772b44401f9c298de3fb63a04487e988b7b37d18eb325a34042b69b",
+  "task_id": "task_0708",
+  "task_index": 708
+}

@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2510.23761",
+  "candidate_id": "2510-23761_pdf_629a8e6ff5f608b2",
+  "caption": "The workflow behind Test-Driven Flow (TDFlow). TDFlow is a purely test driven, agentic workflow for resolving repository scale issues. The entrypoint to TDFlow begins with either human-written reproduction tests or, optionally, to have TDFlow generate reproduction tests. Afterwards, the tests are run and provided to the Explore Files LLM sub-agent with the sole task of exploring the repository in order to propose a patch. The tests are run on the proposed patch before the Debug One sub-agent debugs each failing test individually with a dedicated debugger tool and generates reports. Those reports are used by the Explore Files sub-agent to propose another patch.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 78,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.975232,
+    "editable_component_count": 630,
+    "embedded_image_count": 16,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.004456,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 164,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 646,
+    "text_count": 56,
+    "vector_drawing_count": 92,
+    "vector_primitive_count": 574
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 426,
+    "full_pool_rank": 634,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 371,
+    "second_pass_review_rank": 426
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2510.23761v2",
+    "abstract": "We introduce TDFlow, a novel test-driven agentic workflow that frames repository-scale software engineering as a test-resolution task, specifically designed to solve human-written tests. Given a set of tests, TDFlow repeatedly proposes, revises, and debugs repository-scale patches using precisely engineered sub-agents and tightly constrained tools. The workflow decomposes software engineering program repair into four components governed by respective sub-agents. This simple, forced decoupling of patch proposing, debugging, patch revision, and optional test generation (1) reduces long-context burden on any individual sub-agent, (2) focuses each sub-agent on specific, pre-defined sub-tasks, and (3) allows for specialized performance improvement on specific sub-tasks. When provided human-written tests, TDFlow attains 88.8% pass rate on SWE-Bench Lite (an absolute improvement of 27.8% over the next best system) and 94.3% on SWE-Bench Verified. Manual inspection of the 800 TDFlow runs within SWE-Bench Lite and Verified uncover only 7 instances of test hacking, which were subsequently counted as failures. Furthermore, we show that the primary obstacle to human-level software engineering performance lies within writing successful reproduction tests. We envision a human-LLM interactive system powered by TDFlow where human developers write tests solved by LLM systems. Together, these results indicate that modern LLMs, when embedded in a narrowly engineered, test-driven workflow, already achieve human-level test resolution -- with the final frontier for fully autonomous repository repair being the accurate generation of valid reproduction tests.",
+    "arxiv_id": "2510.23761",
+    "authors": [
+      "Kevin Han",
+      "Siddharth Maddikayala",
+      "Tim Knappe",
+      "Om Patel",
+      "Austen Liao",
+      "Amir Barati Farimani"
+    ],
+    "categories": [
+      "cs.SE",
+      "cs.AI",
+      "cs.MA"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2510.23761v2",
+    "primary_category": "cs.SE",
+    "published": "2025-10-27T18:44:59Z",
+    "query": "(cat:cs.SE AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2510.23761v2",
+    "title": "TDFlow: Agentic Workflows for Test Driven Development",
+    "updated": "2026-01-22T16:50:52Z",
+    "versioned_id": "2510.23761v2"
+  },
+  "reference_sha256": "313de218377efe594f76376e1959039ac87f2001042c66b755815acce099cd03",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 527,
+    "final_quality_rank": 382,
+    "final_quality_score": 0.622578,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.2941,
+      "category": "cs.SE",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.432612,
+      "component_bin": 2,
+      "connector_bin": 2,
+      "difference_hash": "010880001328c348c9c6b2c6a688d919cb38a68ed998c8fecce60ce040020060",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 503,
+    "style_selection_score": 0.503306
+  },
+  "source_filename": "figure1.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "629a8e6ff5f608b2746b35c0c68998beff43f1663326d32d21f5565a7982650c",
+  "task_id": "task_0526",
+  "task_index": 526
+}

@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2105.00130",
+  "candidate_id": "2105-00130_pdf_dad86276b9592424",
+  "caption": "Method overview: Models for the hydrogen and the electricity system are linked through inputs and outputs",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 8,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 612,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 80,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 612,
+    "text_count": 58,
+    "vector_drawing_count": 22,
+    "vector_primitive_count": 554
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 304,
+    "full_pool_rank": 407,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 263,
+    "second_pass_review_rank": 304
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2105.00130v2",
+    "abstract": "Hydrogen can contribute substantially to the reduction of carbon emissions in industry and transportation. However, the production of hydrogen through electrolysis creates interdependencies between hydrogen supply chains and electricity systems. Therefore, as governments worldwide are planning considerable financial subsidies and new regulation to promote hydrogen infrastructure investments in the next years, energy policy research is needed to guide such policies with holistic analyses. In this study, we link a electrolytic hydrogen supply chain model with an electricity system dispatch model, for a cross-sectoral case study of Germany in 2030. We find that hydrogen infrastructure investments and their effects on the electricity system are strongly influenced by electricity prices. Given current uniform prices, hydrogen production increases congestion costs in the electricity grid by 17%. In contrast, passing spatially resolved electricity price signals leads to electrolyzers being placed at low-cost grid nodes and further away from consumption centers. This causes lower end-use costs for hydrogen. Moreover, congestion management costs decrease substantially, by up to 20% compared to the benchmark case without hydrogen. These savings could be transferred into according subsidies for hydrogen production. Thus, our study demonstrates the benefits of differentiating economic signals for hydrogen production based on spatial criteria.",
+    "arxiv_id": "2105.00130",
+    "authors": [
+      "Frederik vom Scheidt",
+      "Jingyi Qu",
+      "Philipp Staudt",
+      "Dharik S. Mallapragada",
+      "Christof Weinhardt"
+    ],
+    "categories": [
+      "econ.GN"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2105.00130v2",
+    "primary_category": "econ.GN",
+    "published": "2021-05-01T00:36:44Z",
+    "query": "(cat:econ.GN AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2105.00130v2",
+    "title": "Integrating Hydrogen in Single-Price Electricity Systems: The Effects of Spatial Economic Signals",
+    "updated": "2021-11-10T09:34:58Z",
+    "versioned_id": "2105.00130v2"
+  },
+  "reference_sha256": "fcf2f8a880a768839cd056b94e17982add8c2edd80a6c9d944cb612a50e687b8",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 638,
+    "final_quality_rank": 820,
+    "final_quality_score": 0.51113,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.7778,
+      "category": "econ.GN",
+      "category_family": "econ",
+      "color_bin": 2,
+      "colorfulness": 0.268146,
+      "component_bin": 2,
+      "connector_bin": 0,
+      "difference_hash": "0000868ec68c8c0e8e4c060c3070b162b172b0728685869d0d2c860e860e0000",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 508,
+    "style_selection_score": 0.502636
+  },
+  "source_filename": "figure_model_energy_policy_v3.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "dad86276b95924242ea44d0ad61e54fc08c9ea6fcbe14001a292b062f277a79a",
+  "task_id": "task_0637",
+  "task_index": 637
+}

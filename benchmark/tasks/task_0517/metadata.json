@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2603.18413",
+  "candidate_id": "2603-18413_pdf_f029fca5220ad590",
+  "caption": "Schematic diagram of the proposed line search method to identify the truncated region Z. The top part shows the DAG representation of the pipeline and its topological sorting (i). The lower left part shows the operations executed sequentially according to the update rules (ii). The lower right part shows how the truncated region Z is identified by taking the union of several intervals based on parametric-programming (iii).",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 115,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.988484,
+    "editable_component_count": 515,
+    "embedded_image_count": 6,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.030101,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 249,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 521,
+    "text_count": 127,
+    "vector_drawing_count": 116,
+    "vector_primitive_count": 388
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2603.18413v3",
+    "abstract": "A data analysis pipeline is a structured sequence of steps that transforms raw data into meaningful insights by integrating multiple analysis algorithms. In many practical applications, analytical findings are obtained only after data pass through several data-dependent procedures within such pipelines. In this study, we address the problem of quantifying the statistical reliability of results produced by data analysis pipelines. As a proof of concept, we focus on clustering pipelines that identify cluster structures from complex and heterogeneous data through procedures such as outlier detection, feature selection, and clustering. We propose a novel statistical testing framework to assess the significance of clustering results obtained through these pipelines. Our framework, based on selective inference, enables the systematic construction of valid statistical tests for clustering pipelines composed of predefined components. We prove that the proposed test controls the type I error rate at any nominal level and demonstrate its validity and effectiveness through experiments on synthetic and real datasets.",
+    "arxiv_id": "2603.18413",
+    "authors": [
+      "Yugo Miyata",
+      "Tomohiro Shiraishi",
+      "Shuichi Nishino",
+      "Ichiro Takeuchi"
+    ],
+    "categories": [
+      "stat.ML",
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2603.18413v3",
+    "primary_category": "stat.ML",
+    "published": "2026-03-19T02:20:35Z",
+    "query": "(cat:stat.ML AND all:framework) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2603.18413v3",
+    "title": "Statistical Testing Framework for Clustering Pipelines by Selective Inference",
+    "updated": "2026-05-01T04:51:02Z",
+    "versioned_id": "2603.18413v3"
+  },
+  "reference_sha256": "679e3bfc0ce5a67b9f454a2c24dd1c51ed2a68de017c5392ead15c31bf8324e9",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 518,
+    "final_quality_rank": 686,
+    "final_quality_score": 0.563332,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.3919,
+      "category": "stat.ML",
+      "category_family": "stat",
+      "color_bin": 0,
+      "colorfulness": 0.06974,
+      "component_bin": 2,
+      "connector_bin": 2,
+      "difference_hash": "0600662063a0798018022e126dd155cb552a50aa552a556a586a5daa5d2a4c34",
+      "raster_bin": 2
+    },
+    "style_selection_rank": 255,
+    "style_selection_score": 0.546261
+  },
+  "source_filename": "linear_search.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "f029fca5220ad590ee8b7c01b345829f6d9c7f49c67ec6c5b9489d8fb51f8d7a",
+  "task_id": "task_0517",
+  "task_index": 517
+}

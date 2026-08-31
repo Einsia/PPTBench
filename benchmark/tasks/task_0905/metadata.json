@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2308.08500",
+  "candidate_id": "2308-08500_pdf_6162f6c4f07e3ec8",
+  "caption": "A typical DLRM architecture . The model uses an embedding table to convert sparse categorical data to dense vectors that can then be merged with dense features in some overlaid DNN. Adapted from a similar illustration in prior art .",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 29,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 329,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 98,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 329,
+    "text_count": 68,
+    "vector_drawing_count": 30,
+    "vector_primitive_count": 261
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 273,
+    "full_pool_rank": 365,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 240,
+    "second_pass_review_rank": 273
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2308.08500v1",
+    "abstract": "Deep learning-based recommender models (DLRMs) have become an essential component of many modern recommender systems. Several companies are now building large compute clusters reserved only for DLRM training, driving new interest in cost- and time- saving optimizations. The systems challenges faced in this setting are unique; while typical deep learning training jobs are dominated by model execution, the most important factor in DLRM training performance is often online data ingestion. In this paper, we explore the unique characteristics of this data ingestion problem and provide insights into DLRM training pipeline bottlenecks and challenges. We study real-world DLRM data processing pipelines taken from our compute cluster at Netflix to observe the performance impacts of online ingestion and to identify shortfalls in existing pipeline optimizers. We find that current tooling either yields sub-optimal performance, frequent crashes, or else requires impractical cluster re-organization to adopt. Our studies lead us to design and build a new solution for data pipeline optimization, InTune. InTune employs a reinforcement learning (RL) agent to learn how to distribute the CPU resources of a trainer machine across a DLRM data pipeline to more effectively parallelize data loading and improve throughput. Our experiments show that InTune can build an optimized data pipeline configuration within only a few minutes, and can easily be integrated into existing training workflows. By exploiting the responsiveness and adaptability of RL, InTune achieves higher online data ingestion rates than existing optimizers, thus reducing idle times in model execution and increasing efficiency. We apply InTune to our real-world cluster, and find that it increases data ingestion throughput by as much as 2.29X versus state-of-the-art data pipeline optimizers while also improving both CPU & GPU utilization.",
+    "arxiv_id": "2308.08500",
+    "authors": [
+      "Kabir Nagrecha",
+      "Lingyi Liu",
+      "Pablo Delgado",
+      "Prasanna Padmanabhan"
+    ],
+    "categories": [
+      "cs.IR",
+      "cs.AI",
+      "cs.DC",
+      "cs.LG",
+      "cs.PF"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2308.08500v1",
+    "primary_category": "cs.IR",
+    "published": "2023-08-13T18:28:56Z",
+    "query": "(cat:cs.AI AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2308.08500v1",
+    "title": "InTune: Reinforcement Learning-based Data Pipeline Optimization for Deep Recommendation Models",
+    "updated": "2023-08-13T18:28:56Z",
+    "versioned_id": "2308.08500v1"
+  },
+  "reference_sha256": "599586ad028bb4d4bb9ecb86e2c7a35f4d9e063cd2313d5e97e0a80103fa1133",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 906,
+    "final_quality_rank": 807,
+    "final_quality_score": 0.517721,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 2,
+      "aspect_ratio": 1.1403,
+      "category": "cs.IR",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.140756,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "5e001b00da009a08d1e0c1d0cdc1cec44e6cc091a46a41e025c091c01b001e20",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 768,
+    "style_selection_score": 0.474455
+  },
+  "source_filename": "panel_figure.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "6162f6c4f07e3ec88c9750786efbf7f746f7f0348b2c9f3fae73b41eb3e58566",
+  "task_id": "task_0905",
+  "task_index": 905
+}

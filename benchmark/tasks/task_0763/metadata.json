@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2503.02152",
+  "candidate_id": "2503-02152_pdf_12745bc85b910a7c",
+  "caption": "An overview of the Tabby MH modifications that can occur inside the LLM transformer blocks. Left to right: an original, non-Tabby LLM, a Tabby LLM with MoE MLP block, a Tabby LLM with MoE attention block, and a Tabby LLM with both MoE MLP and attention blocks. Tabby is very flexible, so as to accommodate a wide variety of tabular datasets.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 167,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.977099,
+    "editable_component_count": 896,
+    "embedded_image_count": 21,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.000743,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 289,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 917,
+    "text_count": 41,
+    "vector_drawing_count": 227,
+    "vector_primitive_count": 855
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2503.02152v2",
+    "abstract": "While advances in large language models (LLMs) have greatly improved the quality of synthetic text data in recent years, synthesizing tabular data has received relatively less attention. We address this disparity with Tabby, a simple but powerful post-training modification to the standard Transformer language model architecture, enabling its use for tabular dataset synthesis. Tabby enables the representation of differences across columns using Gated Mixture-of-Experts, with column-specific sets of parameters. Empirically, Tabby results in data quality near or equal to that of real data. By pairing our novel LLM table training technique, Plain, with Tabby, we observe up to a 44% improvement in quality over previous methods. We also show that Tabby extends beyond tables to more general structured data, reaching parity with real data on a nested JSON dataset as well.",
+    "arxiv_id": "2503.02152",
+    "authors": [
+      "Sonia Cromp",
+      "Satya Sai Srinath Namburi GNVV",
+      "Mohammed Alkhudhayri",
+      "Catherine Cao",
+      "Samuel Guo",
+      "Nicholas Roberts",
+      "Frederic Sala"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CL"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2503.02152v2",
+    "primary_category": "cs.LG",
+    "published": "2025-03-04T00:32:15Z",
+    "query": "(cat:cs.CL AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2503.02152v2",
+    "title": "Tabby: A Language Model Architecture for Tabular and Structured Data Synthesis",
+    "updated": "2026-01-02T02:57:24Z",
+    "versioned_id": "2503.02152v2"
+  },
+  "reference_sha256": "c2ceccfb32a036db33ced97282a61c322b4494534a666ddb2a0760788d8e9dc7",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 764,
+    "final_quality_rank": 576,
+    "final_quality_score": 0.586084,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.6623,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.076087,
+      "component_bin": 3,
+      "connector_bin": 3,
+      "difference_hash": "8ccccccccccc88cccccccccccccccca4ccc4dd44dcc4caccccccccc888c8ccc8",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 884,
+    "style_selection_score": 0.473758
+  },
+  "source_filename": "methodtransformer.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "12745bc85b910a7c245ebad5991f5b5653972c137924bfeff5977010725201c2",
+  "task_id": "task_0763",
+  "task_index": 763
+}

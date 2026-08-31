@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2501.00331",
+  "candidate_id": "2501-00331_pdf_0e0d7badb03de871",
+  "caption": "Overview of Q3DE. The timeline of interactions between the qubit plane and the syndrome lattice is shown.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 1118,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.998989,
+    "editable_component_count": 3953,
+    "embedded_image_count": 4,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.023408,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 1163,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 3957,
+    "text_count": 25,
+    "vector_drawing_count": 1134,
+    "vector_primitive_count": 3928
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 11,
+    "full_pool_rank": 16,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 10,
+    "second_pass_review_rank": 11
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2501.00331v1",
+    "abstract": "Demonstrating small error rates by integrating quantum error correction (QEC) into an architecture of quantum computing is the next milestone towards scalable fault-tolerant quantum computing (FTQC). Encoding logical qubits with superconducting qubits and surface codes is considered a promising candidate for FTQC architectures. In this paper, we propose an FTQC architecture, which we call Q3DE, that enhances the tolerance to multi-bit burst errors (MBBEs) by cosmic rays with moderate changes and overhead. There are three core components in Q3DE: in-situ anomaly DEtection, dynamic code DEformation, and optimized error DEcoding. In this architecture, MBBEs are detected only from syndrome values for error correction. The effect of MBBEs is immediately mitigated by dynamically increasing the encoding level of logical qubits and re-estimating probable recovery operation with the rollback of the decoding process. We investigate the performance and overhead of the Q3DE architecture with quantum-error simulators and demonstrate that Q3DE effectively reduces the period of MBBEs by 1000 times and halves the size of their region. Therefore, Q3DE significantly relaxes the requirement of qubit density and qubit chip size to realize FTQC. Our scheme is versatile for mitigating MBBEs, i.e., temporal variations of error properties, on a wide range of physical devices and FTQC architectures since it relies only on the standard features of topological stabilizer codes.",
+    "arxiv_id": "2501.00331",
+    "authors": [
+      "Yasunari Suzuki",
+      "Takanori Sugiyama",
+      "Tomochika Arai",
+      "Wang Liao",
+      "Koji Inoue",
+      "Teruo Tanimoto"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.AR"
+    ],
+    "doi": "10.1109/MICRO56248.2022.00079",
+    "journal_ref": "2022 55th IEEE/ACM International Symposium on Microarchitecture (MICRO), Chicago, IL, USA, 2022, pp. 1110-1125",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2501.00331v1",
+    "primary_category": "quant-ph",
+    "published": "2024-12-31T08:04:58Z",
+    "query": "(cat:quant-ph AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2501.00331v1",
+    "title": "Q3DE: A fault-tolerant quantum computer architecture for multi-bit burst errors by cosmic rays",
+    "updated": "2024-12-31T08:04:58Z",
+    "versioned_id": "2501.00331v1"
+  },
+  "reference_sha256": "d7ce32bcf38a89e3ac5667de012adf89e4dce7301aac9cbf43a66e18b9ba33fc",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 32,
+    "final_quality_rank": 31,
+    "final_quality_score": 0.757516,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 3.0438,
+      "category": "quant-ph",
+      "category_family": "quant-ph",
+      "color_bin": 2,
+      "colorfulness": 0.22237,
+      "component_bin": 4,
+      "connector_bin": 5,
+      "difference_hash": "660c663c62346a1c6a8c29e8ad0c693a611a619ae1baeca65a349d069cca14c8",
+      "raster_bin": 2
+    },
+    "style_selection_rank": 52,
+    "style_selection_score": 0.627574
+  },
+  "source_filename": "fig_concept_overview.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "0e0d7badb03de87195ef4d6faae99b735e4b3f9cf2eafd568f3755cdf1c5df00",
+  "task_id": "task_0031",
+  "task_index": 31
+}

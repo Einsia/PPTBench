@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2511.04967",
+  "candidate_id": "2511-04967_pdf_455e2572de0aac73",
+  "caption": "Overview of the proposed HyRLQAS framework. A tensor-based circuit encoding summarizes the partially constructed circuit, which is fed into a hybrid policy network to generate discrete gate choices, continuous parameter initialization, and refinement actions. The environment executes the resulting circuit and provides feedback, and collected trajectories are used to update the policy.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 1041,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 6296,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 1491,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 6296,
+    "text_count": 75,
+    "vector_drawing_count": 1416,
+    "vector_primitive_count": 6221
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 246,
+    "full_pool_rank": 328,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 217,
+    "second_pass_review_rank": 246
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2511.04967v3",
+    "abstract": "Reinforcement learning-based Quantum Architecture Search (QAS) offers a promising avenue for automating the design of variational quantum circuits, but existing methods typically decouple discrete structure search from continuous parameter optimization, resulting in inefficient or brittle solutions. We propose HyRLQAS (Hybrid-Action Reinforcement Learning for Quantum Architecture Search), a unified reinforcement learning framework that jointly learns gate placement and parameter initialization within a hybrid discrete-continuous action space, while enabling dynamic refinement of previously placed gates. Trained in a variational quantum eigensolver setting, the agent constructs circuits that directly optimize molecular ground-state energies. Across multiple molecular benchmarks, HyRLQAS demonstrates strong and competitive performance against state-of-the-art QAS methods, achieving lower energy errors with fewer gates. Notably, HyRLQAS reaches chemical-accuracy-level convergence down to 1e-8 energy error after classical optimization, and policy-guided initialization reduces the iteration count of downstream classical optimizers. These results demonstrate that hybrid-action reinforcement learning provides a principled and effective mechanism for coupling circuit topology design with optimization-aware parameterization.",
+    "arxiv_id": "2511.04967",
+    "authors": [
+      "Jiayang Niu",
+      "Yan Wang",
+      "Jie Li",
+      "Ke Deng",
+      "Azadeh Alavi",
+      "Muhammad Usman",
+      "Yongli Ren"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2511.04967v3",
+    "primary_category": "quant-ph",
+    "published": "2025-11-07T04:00:24Z",
+    "query": "(cat:quant-ph AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2511.04967v3",
+    "title": "Hybrid Action Reinforcement Learning for Quantum Architecture Search",
+    "updated": "2026-01-29T09:51:58Z",
+    "versioned_id": "2511.04967v3"
+  },
+  "reference_sha256": "aa45766dbaec6e32e3cbcd966c55fc902ac64e9301507905134009b22e57b5e1",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 12,
+    "final_quality_rank": 12,
+    "final_quality_score": 0.793984,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.1824,
+      "category": "quant-ph",
+      "category_family": "quant-ph",
+      "color_bin": 3,
+      "colorfulness": 0.409028,
+      "component_bin": 5,
+      "connector_bin": 5,
+      "difference_hash": "a4c1e60ee486e527cd25c9d51bd5d18cf5c4e9242bb26732530e532a67722314",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 34,
+    "style_selection_score": 0.653694
+  },
+  "source_filename": "Overall_arch.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "455e2572de0aac7379ff5aa574456ae6e4e75fddd5fb6174da1787de9fad19a0",
+  "task_id": "task_0011",
+  "task_index": 11
+}

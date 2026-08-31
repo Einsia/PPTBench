@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2503.01590",
+  "candidate_id": "2503-01590_pdf_0b5b9c8bc47f319b",
+  "caption": "Schematic illustration of the aiida-hubbard plugin that automates the self-consistent calculation of the Hubbard U and V parameters. (a) The main Self\\-Consistent\\-Hubbard\\-Work\\-Chain workflow which automates the self-consistent calculation of U and V parameters. It iterates (optionally) structural optimizations via the PwRelaxWorkChain, ground-state calculations via the PwBaseWorkChain, and the DFPT calculations of Hubbard parameters via the HpWorkChain. In particular, the latter can be used to fully exploit the parallel capabilities of the HP code , i.e. by (optionally) first parallelizing the calculations over inequivalent Hubbard atoms to perturb, using the HpParallelAtomsWorkChain (panel (b)), and then (optionally) parallelizing over irreducible monochromatic perturbations (q points) via the HpParallelQpointsWorkChain (panel (c)). These nested calls are visualized by the different colored boxes.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 140,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1010,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 328,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1010,
+    "text_count": 150,
+    "vector_drawing_count": 178,
+    "vector_primitive_count": 860
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2503.01590v1",
+    "abstract": "We introduce an automated, flexible framework (aiida-hubbard) to self-consistently calculate Hubbard $U$ and $V$ parameters from first-principles. By leveraging density-functional perturbation theory, the computation of the Hubbard parameters is efficiently parallelized using multiple concurrent and inexpensive primitive cell calculations. Furthermore, the intersite $V$ parameters are defined on-the-fly during the iterative procedure to account for atomic relaxations and diverse coordination environments. We demonstrate the scalability and reliability of the framework by computing in high-throughput fashion the self-consistent onsite $U$ and intersite $V$ parameters for 115 Li-containing bulk solids. Our analysis of the Hubbard parameters calculated reveals a significant correlation of the onsite $U$ values on the oxidation state and coordination environment of the atom on which the Hubbard manifold is centered, while intersite $V$ values exhibit a general decay with increasing interatomic distance. We find, e.g., that the numerical values of $U$ for Fe and Mn 3d orbitals can vary up to 3 eV and 6 eV, respectively; their distribution is characterized by typical shifts of about 0.5 eV and 1.0 eV upon change in oxidation state, or local coordination environment. For the intersite $V$ a narrower spread is found, with values ranging between 0.2 eV and 1.6 eV when considering transition metal and oxygen interactions. This framework paves the way for the exploration of redox materials chemistry and high-throughput screening of $d$ and $f$ compounds across diverse research areas, including the discovery and design of novel energy storage materials, as well as other technologically-relevant applications.",
+    "arxiv_id": "2503.01590",
+    "authors": [
+      "Lorenzo Bastonero",
+      "Cristiano Malica",
+      "Eric Macke",
+      "Marnik Bercx",
+      "Sebastian P. Huber",
+      "Iurii Timrov",
+      "Nicola Marzari"
+    ],
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "physics.comp-ph"
+    ],
+    "doi": "10.1038/s41524-025-01685-4",
+    "journal_ref": "npj Comput Mater 11, 183 (2025)",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2503.01590v1",
+    "primary_category": "cond-mat.mtrl-sci",
+    "published": "2025-03-03T14:28:51Z",
+    "query": "(cat:cond-mat.mtrl-sci AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2503.01590v1",
+    "title": "First-principles Hubbard parameters with automated and reproducible workflows",
+    "updated": "2025-03-03T14:28:51Z",
+    "versioned_id": "2503.01590v1"
+  },
+  "reference_sha256": "918e292ba9ef72036190e5576d101835cfcb32af99308ac9d11c64c1c2f6ecf1",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 256,
+    "final_quality_rank": 313,
+    "final_quality_score": 0.63576,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.5722,
+      "category": "cond-mat.mtrl-sci",
+      "category_family": "cond-mat",
+      "color_bin": 2,
+      "colorfulness": 0.253227,
+      "component_bin": 3,
+      "connector_bin": 2,
+      "difference_hash": "cc61d0e2d0f0f87098b4b0d874b9948fb0cc78b279b679b2f5deb9b2a1b2ed18",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 290,
+    "style_selection_score": 0.53501
+  },
+  "source_filename": "workflow.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "0b5b9c8bc47f319b95e333998bd303f110d501e1caa74644ede147c0b69e62bc",
+  "task_id": "task_0255",
+  "task_index": 255
+}

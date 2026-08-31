@@ -1,0 +1,88 @@
+{
+  "arxiv_id": "2508.10618",
+  "candidate_id": "2508-10618_pdf_5487a4300e13ed74",
+  "caption": "The DEV closed-loop framework for risk-aware adaptive automation. At all SAE levels except level 5, the driver and the vehicle collaborate to perform the driving task. The operational automation level of the driving automation system can be dynamically adjusted to mitigate the risk by accounting for three core dimensions: the driver, the environment, and the vehicle. A driver involvement deficit ( ) is computed using a driver monitoring system, based on the driver state and fitness to drive. An environment complexity index ( ) is derived from an environment monitoring system using data such as traffic conditions, road type, and visibility. The vehicle engagement index ( ) reflects the extent to which the vehicle via the driving automation system is involved in the driving task. Risk is assessed based on , , and , and the system adjusts the operational level of automation accordingly.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 10,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.991304,
+    "editable_component_count": 114,
+    "embedded_image_count": 1,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.24333,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 47,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 115,
+    "text_count": 31,
+    "vector_drawing_count": 15,
+    "vector_primitive_count": 83
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 573,
+    "full_pool_rank": 908,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 499,
+    "second_pass_review_rank": 573
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2508.10618v1",
+    "abstract": "The increasing integration of automation in vehicles aims to enhance both safety and comfort, but it also introduces new risks, including driver disengagement, reduced situation awareness, and mode confusion. In this work, we propose the DEV framework, a closed-loop framework for risk-aware adaptive driving automation that captures the dynamic interplay between the driver, the environment, and the vehicle. The framework promotes to continuously adjusting the operational level of automation based on a risk management strategy. The real-time risk assessment supports smoother transitions and effective cooperation between the driver and the automation system. Furthermore, we introduce a nomenclature of indexes corresponding to each core component, namely driver involvement, environment complexity, and vehicle engagement, and discuss how their interaction influences driving risk. The DEV framework offers a comprehensive perspective to align multidisciplinary research efforts and guide the development of dynamic, risk-aware driving automation systems.",
+    "arxiv_id": "2508.10618",
+    "authors": [
+      "Ana\u00efs Halin",
+      "Christel Devue",
+      "Marc Van Droogenbroeck"
+    ],
+    "categories": [
+      "cs.HC"
+    ],
+    "doi": "10.1145/3744335.3758480",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2508.10618v1",
+    "primary_category": "cs.HC",
+    "published": "2025-08-14T13:15:48Z",
+    "query": "(cat:cs.HC AND all:framework) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2508.10618v1",
+    "title": "DEV: A Driver-Environment-Vehicle Closed-Loop Framework for Risk-Aware Adaptive Automation of Driving",
+    "updated": "2025-08-14T13:15:48Z",
+    "versioned_id": "2508.10618v1"
+  },
+  "reference_sha256": "11e3fddbabf724858236b67f2b4b6a83c3d29b398cc65439e3843db2af3a2ba2",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 972,
+    "final_quality_rank": 895,
+    "final_quality_score": 0.472437,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.6617,
+      "category": "cs.HC",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.427881,
+      "component_bin": 0,
+      "connector_bin": 0,
+      "difference_hash": "a060c6a087002560c710a2e0673aa3542555c710c2e5c32185652705273125b9",
+      "raster_bin": 4
+    },
+    "style_selection_rank": 882,
+    "style_selection_score": 0.436464
+  },
+  "source_filename": "DEV_v3.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "5487a4300e13ed745d0ae6f360a4074cc96d759133d4a371f094409f6e79bd5e",
+  "task_id": "task_0971",
+  "task_index": 971
+}

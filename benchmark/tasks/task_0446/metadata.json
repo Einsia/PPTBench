@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2110.15103",
+  "candidate_id": "2110-15103_pdf_f9aa09d217750652",
+  "caption": "Custom Workflow in Relation to ARP4754A/ARP4761",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 40,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.997196,
+    "editable_component_count": 2489,
+    "embedded_image_count": 7,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.078167,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 121,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 2496,
+    "text_count": 71,
+    "vector_drawing_count": 43,
+    "vector_primitive_count": 2418
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2110.15103v1",
+    "abstract": "An emerging service is moving the known aviation sector in terms of technology, paradigms, and key players - the Urban Air Mobility. The reason: new developments in non-aviation industries are driving technological progress in aviation. For instance electrical motors, modern sensor technologies and better energy storage expand the possibilities and enable novel vehicle concepts which require also novel system architectures for flight control systems. Their development is governed by aviation authority and industry recognized standards, guidelines and recommended practices. Comprehensive methods for Model-Based Systems Engineering exist which address these guidance materials but their setup and their application can be quite resource-demanding. Especially the new and rather small key players - start-ups and development teams in an educational environment - can be overwhelmed to setup such development processes. For these clients, the authors propose a custom workflow for the development of system architectures. It shall ensure development rigor, quality and consistency. The authors show how the custom workflow has been established based on the ARP4754A and its level of compliance to the standard's process objectives. Based on automation of life cycle activities, manual effort can be reduced to allow the application even in small teams. The custom workflow's activities are explained and demonstrated within a case study of an Experimental Autopilot system architecture.",
+    "arxiv_id": "2110.15103",
+    "authors": [
+      "Daniel Dollinger",
+      "Julian Rhein",
+      "Kevin Schmiechen",
+      "Florian Holzapfel"
+    ],
+    "categories": [
+      "cs.SE"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2110.15103v1",
+    "primary_category": "cs.SE",
+    "published": "2021-10-28T13:33:12Z",
+    "query": "(cat:cs.SE AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2110.15103v1",
+    "title": "Be Lean -- How to Fit a Model-Based System Architecture Development Process Based on ARP4754 Into an Agile Environment",
+    "updated": "2021-10-28T13:33:12Z",
+    "versioned_id": "2110.15103v1"
+  },
+  "reference_sha256": "63f4ed29070ed14d91819cdc072703e617797d1bd921ce503a89e8b1efa4e112",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 447,
+    "final_quality_rank": 325,
+    "final_quality_score": 0.634003,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.7567,
+      "category": "cs.SE",
+      "category_family": "cs",
+      "color_bin": 4,
+      "colorfulness": 0.523879,
+      "component_bin": 4,
+      "connector_bin": 1,
+      "difference_hash": "b032a59299c49182b66cb66cecc8acccb846aaaabb32a4d2b8f25709e906c820",
+      "raster_bin": 2
+    },
+    "style_selection_rank": 371,
+    "style_selection_score": 0.519399
+  },
+  "source_filename": "custom_workflow.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "f9aa09d217750652a6422e1c3e6a785b20c51b1d19772d56841fa5ed5ffd3b21",
+  "task_id": "task_0446",
+  "task_index": 446
+}

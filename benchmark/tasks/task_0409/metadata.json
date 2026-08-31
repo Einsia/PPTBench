@@ -1,0 +1,87 @@
+{
+  "arxiv_id": "2601.19823",
+  "candidate_id": "2601-19823_pdf_64ed1b4ccee84203",
+  "caption": "Schematic diagram illustrating how the computing region in a looped-pipeline architecture can be organized into layers with different connectivities. Four types of layers are shown, corresponding to memory, short-range gate, mid-range gate, and long-range gate operations. Blue and white code patches denote data and ancilla qubits, respectively.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 102,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 477,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 112,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 477,
+    "text_count": 10,
+    "vector_drawing_count": 102,
+    "vector_primitive_count": 467
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 1022,
+    "full_pool_rank": 1810,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 904,
+    "second_pass_review_rank": 1022
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2601.19823v2",
+    "abstract": "Qubit shuttling has become an indispensable ingredient for scaling leading quantum computing platforms, including semiconductor spin, neutral-atom, and trapped-ion qubits, enabling both crosstalk reduction and tighter integration of control hardware. Cai et al. (2023) proposed a scalable architecture that employs short-range shuttling to realize effective three-dimensional connectivity on a strictly two-dimensional device. Building on recent advances in quantum error correction, we show that this architecture enables the native implementation of folded surface codes on 2D hardware, reducing the runtime of all single-qubit logical Clifford gates and logical CNOTs within subsets of qubits from $\\mathcal{O}(d)$ in conventional surface code lattice surgery to constant time. We present explicit protocols for these operations and demonstrate that access to a transversal $S$ gate reduces the spacetime volume of 8T-to-CCZ magic-state distillation by more than an order of magnitude compared with standard 2D lattice surgery approaches. Finally, we introduce a new \"virtual-stack\" layout that more efficiently exploits the quasi-three-dimensional structure of the architecture, enabling efficient multilayer routing on these two-dimensional devices.",
+    "arxiv_id": "2601.19823",
+    "authors": [
+      "Zhu Sun",
+      "Zhenyu Cai"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2601.19823v2",
+    "primary_category": "quant-ph",
+    "published": "2026-01-27T17:29:16Z",
+    "query": "(cat:quant-ph AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2601.19823v2",
+    "title": "A Folded Surface Code Architecture for 2D Quantum Hardware",
+    "updated": "2026-03-12T18:34:23Z",
+    "versioned_id": "2601.19823v2"
+  },
+  "reference_sha256": "a201f1f51debd3e3a0e6450d5d4aba4acc4107a6a14a0c3cf4fef287861b32fc",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 410,
+    "final_quality_rank": 504,
+    "final_quality_score": 0.598041,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.7778,
+      "category": "quant-ph",
+      "category_family": "quant-ph",
+      "color_bin": 4,
+      "colorfulness": 0.560686,
+      "component_bin": 2,
+      "connector_bin": 2,
+      "difference_hash": "01c8039007260e4e0da0132466c6cc8c85c8932087a6cc8cc9d00ba09f441e88",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 562,
+    "style_selection_score": 0.494436
+  },
+  "source_filename": "Layers.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "64ed1b4ccee842039ae5a6b58f28fdc2b6072d6ad9c1555dad0d83252240d9dd",
+  "task_id": "task_0409",
+  "task_index": 409
+}

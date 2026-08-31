@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2211.12877",
+  "candidate_id": "2211-12877_pdf_fda719347a7a7dc0",
+  "caption": "A) Cluster architecture. B) Massively parallel system architecture. C) IMA subsystem. D) Router model.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 562,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 3464,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 734,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 3464,
+    "text_count": 92,
+    "vector_drawing_count": 642,
+    "vector_primitive_count": 3372
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2211.12877v1",
+    "abstract": "The demand for computation resources and energy efficiency of Convolutional Neural Networks (CNN) applications requires a new paradigm to overcome the \"Memory Wall\". Analog In-Memory Computing (AIMC) is a promising paradigm since it performs matrix-vector multiplications, the critical kernel of many ML applications, in-place in the analog domain within memory arrays structured as crossbars of memory cells. However, several factors limit the full exploitation of this technology, including the physical fabrication of the crossbar devices, which constrain the memory capacity of a single array. Multi-AIMC architectures have been proposed to overcome this limitation, but they have been demonstrated only for tiny and custom CNNs or performing some layers off-chip. In this work, we present the full inference of an end-to-end ResNet-18 DNN on a 512-cluster heterogeneous architecture coupling a mix of AIMC cores and digital RISC-V cores, achieving up to 20.2 TOPS. Moreover, we analyze the mapping of the network on the available non-volatile cells, compare it with state-of-the-art models, and derive guidelines for next-generation many-core architectures based on AIMC devices.",
+    "arxiv_id": "2211.12877",
+    "authors": [
+      "Nazareno Bruschi",
+      "Giuseppe Tagliavini",
+      "Angelo Garofalo",
+      "Francesco Conti",
+      "Irem Boybat",
+      "Luca Benini",
+      "Davide Rossi"
+    ],
+    "categories": [
+      "cs.DC"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2211.12877v1",
+    "primary_category": "cs.DC",
+    "published": "2022-11-23T11:32:07Z",
+    "query": "(cat:cs.DC AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2211.12877v1",
+    "title": "End-to-End DNN Inference on a Massively Parallel Analog In Memory Computing Architecture",
+    "updated": "2022-11-23T11:32:07Z",
+    "versioned_id": "2211.12877v1"
+  },
+  "reference_sha256": "28faefbdd030799e61f29c22571ebea049dd2fbe913fdda1ca8a3ede813f60c2",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 237,
+    "final_quality_rank": 164,
+    "final_quality_score": 0.678772,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.7227,
+      "category": "cs.DC",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.16336,
+      "component_bin": 4,
+      "connector_bin": 4,
+      "difference_hash": "3d3a5972783030dc53cc5aad92ce3d9e1cdb7e6c79ce704a3bb51c345d4d4e35",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 224,
+    "style_selection_score": 0.549339
+  },
+  "source_filename": "date22-architecture-new2.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "fda719347a7a7dc0a3f8c5d731836a75e16a90a0212879fab9b577ecf3ae385e",
+  "task_id": "task_0236",
+  "task_index": 236
+}

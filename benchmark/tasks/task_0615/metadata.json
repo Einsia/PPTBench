@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2309.06910",
+  "candidate_id": "2309-06910_pdf_2822e72c6640a982",
+  "caption": "Flowchart of the designed pipeline. The data analysis can be separated into three modules, namely, the search, estimation, and fast estimation modules. The search module routinely searches for indicators of upcoming MBHB mergers, the estimation module works if the MBHB merges after 1 week, and the fast estimation module works when a real-time downlink is enabled.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 53,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 434,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 82,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 434,
+    "text_count": 29,
+    "vector_drawing_count": 53,
+    "vector_primitive_count": 405
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 788,
+    "full_pool_rank": 1348,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 687,
+    "second_pass_review_rank": 788
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2309.06910v2",
+    "abstract": "Space-borne gravitational wave (GW) detectors can detect the merger of massive black holes. The early warning and localization of GW events before merging can be used to inform electromagnetic telescopes and conduct multimessenger observations. However, this requires real-time data transmission and analysis capabilities. The geocentric orbit of the space-borne GW detector TianQin makes it possible to conduct real-time data transmission. In this study, we develop a search and localization pipeline for massive black hole binaries (MBHBs) with TianQin under both regular and real-time data transmission modes. We demonstrate that, with real-time data transmission, MBHBs can be accurately localized on the fly. With the approaching merger, each analysis can be finished in only 40 min. For an MBHB system at a distance of 1 Gpc, if we receive data every hour, then we can pinpoint its location to within less than 1 deg$^2$ on the final day before the merger.",
+    "arxiv_id": "2309.06910",
+    "authors": [
+      "Hong-Yu Chen",
+      "Xiang-Yu Lyu",
+      "En-Kun Li",
+      "Yi-Ming Hu"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.GA",
+      "astro-ph.IM"
+    ],
+    "doi": "10.1007/s11433-023-2377-7",
+    "journal_ref": "Sci. China-Phys. Mech. Astron. 67, 279512 (2024)",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2309.06910v2",
+    "primary_category": "gr-qc",
+    "published": "2023-09-13T12:20:28Z",
+    "query": "(cat:gr-qc AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2309.06910v2",
+    "title": "Near Real-Time Gravitational Wave Data Analysis of the Massive Black Hole Binary with TianQin",
+    "updated": "2024-06-14T08:22:28Z",
+    "versioned_id": "2309.06910v2"
+  },
+  "reference_sha256": "fa8f8cd3f240d0c26b243e6e2d9d4123f8c6a70879c3c42283bcdd6490f6f12a",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 616,
+    "final_quality_rank": 805,
+    "final_quality_score": 0.519272,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 3.593,
+      "category": "gr-qc",
+      "category_family": "gr-qc",
+      "color_bin": 1,
+      "colorfulness": 0.151151,
+      "component_bin": 2,
+      "connector_bin": 1,
+      "difference_hash": "3633367326733633f670c844c6d0d2c06290f6d092dac0d8c084c5d0c1d001d2",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 743,
+    "style_selection_score": 0.468029
+  },
+  "source_filename": "pipeline.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "2822e72c6640a982aa4937f37984b7d0b1521e131b8915eb02b488786456c5ce",
+  "task_id": "task_0615",
+  "task_index": 615
+}

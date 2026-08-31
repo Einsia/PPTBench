@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2504.00831",
+  "candidate_id": "2504-00831_pdf_c0d2a05322ad7590",
+  "caption": "A use case diagram illustrating the operations of our framework and associated UI. Note that the radar database is outside the system. The numerics in black circles denote the functions of user interface. The detailed description is provided in Table .",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 88,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1697,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 153,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1697,
+    "text_count": 52,
+    "vector_drawing_count": 101,
+    "vector_primitive_count": 1645
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 168,
+    "full_pool_rank": 225,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 149,
+    "second_pass_review_rank": 168
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2504.00831v1",
+    "abstract": "To improve the trustworthiness of an AI model, finding consistent, understandable representations of its inference process is essential. This understanding is particularly important in high-stakes operations such as weather forecasting, where the identification of underlying meteorological mechanisms is as critical as the accuracy of the predictions. Despite the growing literature that addresses this issue through explainable AI, the applicability of their solutions is often limited due to their AI-centric development. To fill this gap, we follow a user-centric process to develop an example-based concept analysis framework, which identifies cases that follow a similar inference process as the target instance in a target model and presents them in a user-comprehensible format. Our framework provides the users with visually and conceptually analogous examples, including the probability of concept assignment to resolve ambiguities in weather mechanisms. To bridge the gap between vector representations identified from models and human-understandable explanations, we compile a human-annotated concept dataset and implement a user interface to assist domain experts involved in the the framework development.",
+    "arxiv_id": "2504.00831",
+    "authors": [
+      "Soyeon Kim",
+      "Junho Choi",
+      "Subeen Lee",
+      "Jaesik Choi"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.HC"
+    ],
+    "doi": "10.1175/AIES-D-24-0079.1",
+    "journal_ref": "Artificial Intelligence for the Earth System, 2025, volume 4, Online ISSN: 2769-7525",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2504.00831v1",
+    "primary_category": "cs.AI",
+    "published": "2025-04-01T14:22:41Z",
+    "query": "(cat:cs.HC AND all:framework) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2504.00831v1",
+    "title": "Example-Based Concept Analysis Framework for Deep Weather Forecast Models",
+    "updated": "2025-04-01T14:22:41Z",
+    "versioned_id": "2504.00831v1"
+  },
+  "reference_sha256": "e23f1e7aacf0f8b1ea360a82a133dfcc53e22d8c99b65d39a7765001d22228a8",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 275,
+    "final_quality_rank": 197,
+    "final_quality_score": 0.670131,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.7101,
+      "category": "cs.AI",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.447211,
+      "component_bin": 3,
+      "connector_bin": 2,
+      "difference_hash": "0006007c07b97b12b524b4a4d6b68d239189b1c998ccd9cc89cc92ccb2cc9488",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 285,
+    "style_selection_score": 0.536701
+  },
+  "source_filename": "usecase.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "c0d2a05322ad7590c889607e22038c5e5b909a1a3354fcb4614be44aa611f6bc",
+  "task_id": "task_0274",
+  "task_index": 274
+}

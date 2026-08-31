@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2401.12632",
+  "candidate_id": "2401-12632_pdf_951983ca72d5b596",
+  "caption": "Framework execution states.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 43,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 631,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 66,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 631,
+    "text_count": 19,
+    "vector_drawing_count": 47,
+    "vector_primitive_count": 612
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 701,
+    "full_pool_rank": 1200,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 612,
+    "second_pass_review_rank": 701
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2401.12632v1",
+    "abstract": "A Collaborative Artificial Intelligence System (CAIS) performs actions in collaboration with the human to achieve a common goal. CAISs can use a trained AI model to control human-system interaction, or they can use human interaction to dynamically learn from humans in an online fashion. In online learning with human feedback, the AI model evolves by monitoring human interaction through the system sensors in the learning state, and actuates the autonomous components of the CAIS based on the learning in the operational state. Therefore, any disruptive event affecting these sensors may affect the AI model's ability to make accurate decisions and degrade the CAIS performance. Consequently, it is of paramount importance for CAIS managers to be able to automatically track the system performance to understand the resilience of the CAIS upon such disruptive events. In this paper, we provide a new framework to model CAIS performance when the system experiences a disruptive event. With our framework, we introduce a model of performance evolution of CAIS. The model is equipped with a set of measures that aim to support CAIS managers in the decision process to achieve the required resilience of the system. We tested our framework on a real-world case study of a robot collaborating online with the human, when the system is experiencing a disruptive event. The case study shows that our framework can be adopted in CAIS and integrated into the online execution of the CAIS activities.",
+    "arxiv_id": "2401.12632",
+    "authors": [
+      "Diaeddin Rimawi",
+      "Antonio Liotta",
+      "Marco Todescato",
+      "Barbara Russo"
+    ],
+    "categories": [
+      "cs.SE",
+      "cs.AI",
+      "cs.RO"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2401.12632v1",
+    "primary_category": "cs.SE",
+    "published": "2024-01-23T10:28:33Z",
+    "query": "(cat:cs.RO AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2401.12632v1",
+    "title": "Modeling Resilience of Collaborative AI Systems",
+    "updated": "2024-01-23T10:28:33Z",
+    "versioned_id": "2401.12632v1"
+  },
+  "reference_sha256": "4223548f23c6c093ea011b9c14270d9be99d580bb479e3bdcaa10bbb5c1dae16",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 956,
+    "final_quality_rank": 849,
+    "final_quality_score": 0.497055,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.8669,
+      "category": "cs.SE",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.007709,
+      "component_bin": 2,
+      "connector_bin": 1,
+      "difference_hash": "c0848306860e8726866683128b1693764c742b35b31683109364872087008b00",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 959,
+    "style_selection_score": 0.411692
+  },
+  "source_filename": "onlinelearningstates.drawio.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "951983ca72d5b5965b80eb939879cba80c6abfc3ff401d1db6d1678b9d9a04ff",
+  "task_id": "task_0955",
+  "task_index": 955
+}

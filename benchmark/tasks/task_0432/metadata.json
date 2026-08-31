@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2103.16889",
+  "candidate_id": "2103-16889_pdf_f5d1286eb9bdd188",
+  "caption": "Comparison between (a) weight pretraining and finetuning (WP&F) and (b) the proposed framework of neural transfer and architecture adaptation (NTAA). In WP&F, only network weights are transferred to the downstream tasks, e.g., from w_ red1 in a source task to w_ red2,w_ red3,w_ red4 in the target tasks. While in our NTAA, both the network weights and architecture are transferred to the downstream tasks, e.g., from < 3x3 conv, w_ red1> in a source task to < 3x3 sepconv, w_ red2>, < 3x3 dilconv,w_ red3>, < 5x5 dilconv, w_ red4> in the target tasks.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 125,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 8735,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 155,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 8735,
+    "text_count": 30,
+    "vector_drawing_count": 125,
+    "vector_primitive_count": 8705
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 687,
+    "full_pool_rank": 1174,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 601,
+    "second_pass_review_rank": 687
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2103.16889v1",
+    "abstract": "Current state-of-the-art visual recognition systems usually rely on the following pipeline: (a) pretraining a neural network on a large-scale dataset (e.g., ImageNet) and (b) finetuning the network weights on a smaller, task-specific dataset. Such a pipeline assumes the sole weight adaptation is able to transfer the network capability from one domain to another domain, based on a strong assumption that a fixed architecture is appropriate for all domains. However, each domain with a distinct recognition target may need different levels/paths of feature hierarchy, where some neurons may become redundant, and some others are re-activated to form new network structures. In this work, we prove that dynamically adapting network architectures tailored for each domain task along with weight finetuning benefits in both efficiency and effectiveness, compared to the existing image recognition pipeline that only tunes the weights regardless of the architecture. Our method can be easily generalized to an unsupervised paradigm by replacing supernet training with self-supervised learning in the source domain tasks and performing linear evaluation in the downstream tasks. This further improves the search efficiency of our method. Moreover, we also provide principled and empirical analysis to explain why our approach works by investigating the ineffectiveness of existing neural architecture search. We find that preserving the joint distribution of the network architecture and weights is of importance. This analysis not only benefits image recognition but also provides insights for crafting neural networks. Experiments on five representative image recognition tasks such as person re-identification, age estimation, gender recognition, image classification, and unsupervised domain adaptation demonstrate the effectiveness of our method.",
+    "arxiv_id": "2103.16889",
+    "authors": [
+      "Guangrun Wang",
+      "Liang Lin",
+      "Rongcong Chen",
+      "Guangcong Wang",
+      "Jiqi Zhang"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2103.16889v1",
+    "primary_category": "cs.CV",
+    "published": "2021-03-31T08:15:17Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2103.16889v1",
+    "title": "Joint Learning of Neural Transfer and Architecture Adaptation for Image Recognition",
+    "updated": "2021-03-31T08:15:17Z",
+    "versioned_id": "2103.16889v1"
+  },
+  "reference_sha256": "8bf8425d10a737a0372a525a541d9052e8d732daf484de6a4701d212bf536274",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 433,
+    "final_quality_rank": 311,
+    "final_quality_score": 0.636155,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.9953,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.122348,
+      "component_bin": 5,
+      "connector_bin": 2,
+      "difference_hash": "2c06581a3a1bf456c4c24d26b2fad659c656d4d6341e9a1a2e0d160e2c342430",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 435,
+    "style_selection_score": 0.509957
+  },
+  "source_filename": "intro_naa.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "f5d1286eb9bdd18811568e6ac3b9de727239bb15b48732d45b74118b3bb11ddb",
+  "task_id": "task_0432",
+  "task_index": 432
+}

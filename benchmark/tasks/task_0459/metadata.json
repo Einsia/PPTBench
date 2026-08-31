@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2505.11384",
+  "candidate_id": "2505-11384_pdf_5f72b87a0e48b470",
+  "caption": "The MOSAIK workflow is divided into two parts: the visualisation component, which enables quality assessment of the immunofluorescence staining and verification of cell segmentation; and the data integration component, which leads to downstream analysis. 1: The MOSAIK visualisation is based on two visualisation strategies: On one hand, Napari with the CosMx plugin to visualise CosMx data; on the other hand, Xenium Explorer for Xenium data. 2: MOSAIK analysis takes the raw data and converts it into a Python object, making it easy to perform quality control and facilitate downstream analysis.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 137,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.998366,
+    "editable_component_count": 1222,
+    "embedded_image_count": 2,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.00815,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 216,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1224,
+    "text_count": 75,
+    "vector_drawing_count": 139,
+    "vector_primitive_count": 1147
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 983,
+    "full_pool_rank": 1738,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 867,
+    "second_pass_review_rank": 983
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2505.11384v1",
+    "abstract": "Spatial transcriptomics (ST) has revolutionised transcriptomics analysis by preserving tissue architecture, allowing researchers to study gene expression in its native spatial context. However, despite its potential, ST still faces significant technical challenges. Two major issues include: (1) the integration of raw data into coherent and reproducible analysis workflows, and (2) the accurate assignment of transcripts to individual cells. To address these challenges, we present MOSAIK, the first fully integrated, end-to-end workflow that supports raw data from both NanoString CosMx Spatial Molecular Imager (CosMx) and 10x Genomics Xenium In Situ (Xenium). MOSAIK (Multi-Origin Spatial Transcriptomics Analysis and Integration Kit) unifies transcriptomics and imaging data into a single Python object based on the spatialdata format. This unified structure ensures compatibility with a broad range of Python tools, enabling robust quality control and downstream analyses. With MOSAIK, users can perform advanced analyses such as re-segmentation (to more accurately assign transcripts to individual cells), cell typing, tissue domain identification, and cell-cell communication within a seamless and reproducible Python environment.",
+    "arxiv_id": "2505.11384",
+    "authors": [
+      "Anthony Baptista",
+      "Rosamond Nuamah",
+      "Ciro Chiappini",
+      "Anita Grigoriadis"
+    ],
+    "categories": [
+      "q-bio.QM"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2505.11384v1",
+    "primary_category": "q-bio.QM",
+    "published": "2025-05-16T15:46:55Z",
+    "query": "(cat:q-bio.QM AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2505.11384v1",
+    "title": "MOSAIK: Multi-Origin Spatial Transcriptomics Analysis and Integration Kit",
+    "updated": "2025-05-16T15:46:55Z",
+    "versioned_id": "2505.11384v1"
+  },
+  "reference_sha256": "863f0ce4acae81f2a09ddbf063e69329a12bd1129077af543b98e2ce556d84a7",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 460,
+    "final_quality_rank": 583,
+    "final_quality_score": 0.584709,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.7778,
+      "category": "q-bio.QM",
+      "category_family": "q-bio",
+      "color_bin": 2,
+      "colorfulness": 0.187602,
+      "component_bin": 3,
+      "connector_bin": 2,
+      "difference_hash": "19803e5cb99a7afa6bfa87448b0e82468246b0667866906680e6e226c42a8009",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 507,
+    "style_selection_score": 0.498495
+  },
+  "source_filename": "Figure1_JOSS.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "5f72b87a0e48b470c456f8aba5a7eecfefb1d62fb54a4b1c642a887c505eaa6b",
+  "task_id": "task_0459",
+  "task_index": 459
+}

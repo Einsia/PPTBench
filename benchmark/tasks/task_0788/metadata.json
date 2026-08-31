@@ -1,0 +1,87 @@
+{
+  "arxiv_id": "2512.10054",
+  "candidate_id": "2512-10054_pdf_6a8051ba2c69f322",
+  "caption": "High-level architecture of the Parallel Decoder Transformer. The frozen trunk (left) is augmented with trainable sidecar modules (green): stream adapters and SNC cross-attention injected into selected transformer blocks, plus planner, notes, coverage, agreement, and speculation heads. The Dynamic Notes Bus (right) serves as the shared latent coordination workspace. Snapshot 0 is seeded by the planner before any stream emits tokens.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 71,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 364,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 127,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 364,
+    "text_count": 56,
+    "vector_drawing_count": 71,
+    "vector_primitive_count": 308
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2512.10054v2",
+    "abstract": "Autoregressive language models can often identify parallel subproblems, but standard decoding exposes only a single left-to-right output interface. External orchestration methods can launch multiple prompts concurrently, yet they provide no model-internal state through which those generations can synchronize, resolve ownership, or wait for missing information. We present the Parallel Decoder Transformer (PDT), a frozen-trunk architecture that augments a decoder with a planner-seeded latent workspace and a synchronized multi-stream output protocol. Before any stream emits tokens, a mandatory prompt-time planner predicts fixed latent plan slots and projects them as snapshot 0 on an embeddings-only Dynamic Notes Bus. During decoding, each stream reads the visible notes window through Speculative Note Conditioning (SNC), emits provisional token blocks and latent summaries, and advances only when agreement logic determines that the current shared state is sufficient for continued parallel generation. Coverage heads track plan-item ownership, while rollback handles incoherent or premature commits. PDT therefore shifts parallel task decomposition from an external prompting strategy to a model-internal coordination mechanism over the output interface of a frozen language model.",
+    "arxiv_id": "2512.10054",
+    "authors": [
+      "Logan Robbins"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2512.10054v2",
+    "primary_category": "cs.AI",
+    "published": "2025-12-10T20:19:10Z",
+    "query": "(cat:cs.CL AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2512.10054v2",
+    "title": "Parallel Decoder Transformer: Planner-Seeded Latent Coordination for Synchronized Parallel Decoding",
+    "updated": "2026-03-09T14:35:35Z",
+    "versioned_id": "2512.10054v2"
+  },
+  "reference_sha256": "aedc23c42128cfd18393c6e42fb87e5badf6d254697ae5501705391ab8d326f5",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 789,
+    "final_quality_rank": 614,
+    "final_quality_score": 0.57783,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 1,
+      "aspect_ratio": 0.75,
+      "category": "cs.AI",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.254481,
+      "component_bin": 1,
+      "connector_bin": 2,
+      "difference_hash": "dca0e9530201c001ca48da4af408f1a8f1ccf1ccf1ccf39cf082f0007000e166",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 689,
+    "style_selection_score": 0.480206
+  },
+  "source_filename": "fig1_pdt_architecture.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "6a8051ba2c69f3226f590b11508eed49ba1bd1e34e98142400f758f59571586e",
+  "task_id": "task_0788",
+  "task_index": 788
+}

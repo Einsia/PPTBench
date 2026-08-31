@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2110.11501",
+  "candidate_id": "2110-11501_pdf_ce1404aacb8a9a45",
+  "caption": "Cerebellum as a cortical feedback prediction machine. (a) Learning in a given recurrent cortical area A is modelled as feedback-encoding gradients (red arrow) originating from a loss or error region L at the end of a task (time T). Meanwhile the cerebellum receives the current cortical activity h_t (black arrow) which projects onto granule cells (GC; orange) and Purkinje cells (PC; orange) and sends back the predicted cortical feedback _t (blue arrow). Cerebellar learning is mediated by the inferior olive, which compares estimated feedback _t with observed feedback _t, computing L_ C || _t- _t|| (see text for more details). (b) Example of cortico-cerebellar model unfolded across three time steps. Starting at t_3 the cortical network A receives feedback _3 (red), which is then transmitted to the cerebellar network as cortical feedback _3 (light blue). The cerebellum generates cortical feedback predictions _3 (blue) given cortical activity h_3 (black), and learns using inferior olive (diamond) error signals (red arrow). Before t_3, cortical feedback is not readily available, thus the cerebellum learns through bootstrapping. In this case the inferior olive (diamond) compares the old cerebellar prediction (e.g. _2) with the new one (e.g. _3) to generate cerebellar learning signals (red arrow; see main text for details).",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 177,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1789,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 188,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1789,
+    "text_count": 11,
+    "vector_drawing_count": 177,
+    "vector_primitive_count": 1778
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2110.11501v2",
+    "abstract": "The brain solves the credit assignment problem remarkably well. For credit to be assigned across neural networks they must, in principle, wait for specific neural computations to finish. How the brain deals with this inherent locking problem has remained unclear. Deep learning methods suffer from similar locking constraints both on the forward and feedback phase. Recently, decoupled neural interfaces (DNIs) were introduced as a solution to the forward and feedback locking problems in deep networks. Here we propose that a specialised brain region, the cerebellum, helps the cerebral cortex solve similar locking problems akin to DNIs. To demonstrate the potential of this framework we introduce a systems-level model in which a recurrent cortical network receives online temporal feedback predictions from a cerebellar module. We test this cortico-cerebellar recurrent neural network (ccRNN) model on a number of sensorimotor (line and digit drawing) and cognitive tasks (pattern recognition and caption generation) that have been shown to be cerebellar-dependent. In all tasks, we observe that ccRNNs facilitates learning while reducing ataxia-like behaviours, consistent with classical experimental observations. Moreover, our model also explains recent behavioural and neuronal observations while making several testable predictions across multiple levels. Overall, our work offers a novel perspective on the cerebellum as a brain-wide decoupling machine for efficient credit assignment and opens a new avenue between deep learning and neuroscience.",
+    "arxiv_id": "2110.11501",
+    "authors": [
+      "Joseph Pemberton",
+      "Ellen Boven",
+      "Richard Apps",
+      "Rui Ponte Costa"
+    ],
+    "categories": [
+      "q-bio.NC",
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2110.11501v2",
+    "primary_category": "q-bio.NC",
+    "published": "2021-10-21T22:02:38Z",
+    "query": "(cat:q-bio.NC AND all:network) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2110.11501v2",
+    "title": "Cortico-cerebellar networks as decoupling neural interfaces",
+    "updated": "2021-10-28T12:57:34Z",
+    "versioned_id": "2110.11501v2"
+  },
+  "reference_sha256": "09480dab0e1e5ce13b53830bfd0a0fbb7d84467a2d0783c812399fe03c720084",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 192,
+    "final_quality_rank": 245,
+    "final_quality_score": 0.656408,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.2958,
+      "category": "q-bio.NC",
+      "category_family": "q-bio",
+      "color_bin": 2,
+      "colorfulness": 0.244386,
+      "component_bin": 3,
+      "connector_bin": 3,
+      "difference_hash": "7201b000b003440b52b7e196cdb45594d0b5d094509470946984683031327000",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 200,
+    "style_selection_score": 0.554323
+  },
+  "source_filename": "Fig1_schematic_new_v10.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "ce1404aacb8a9a45834dac69b5f91a44316e20c8c34b50a8c7331aced12e5593",
+  "task_id": "task_0191",
+  "task_index": 191
+}

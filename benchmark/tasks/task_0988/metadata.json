@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2308.02749",
+  "candidate_id": "2308-02749_pdf_0007b95f6b6c90ed",
+  "caption": "",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 27,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 147,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 48,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 147,
+    "text_count": 15,
+    "vector_drawing_count": 33,
+    "vector_primitive_count": 132
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 869,
+    "full_pool_rank": 1479,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 758,
+    "second_pass_review_rank": 869
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2308.02749v1",
+    "abstract": "Graph Neural Networks (GNNs) have revolutionized many Machine Learning (ML) applications, such as social network analysis, bioinformatics, etc. GNN inference can be accelerated by exploiting data sparsity in the input graph, vertex features, and intermediate data in GNN computations. For dynamic sparsity exploitation, we leverage the heterogeneous computing capabilities of AMD Versal ACAP architecture to accelerate GNN inference. We develop a custom hardware module that executes the sparse primitives of the computation kernel on the Programmable Logic (PL) and efficiently computes the dense primitives using the AI Engine (AIE). To exploit data sparsity during inference, we devise a runtime kernel mapping strategy that dynamically assigns computation tasks to the PL and AIE based on data sparsity. Our implementation on the VCK5000 ACAP platform leads to superior performance compared with the state-of-the-art implementations on CPU, GPU, ACAP, and other custom GNN accelerators. Compared with these implementations, we achieve significant average runtime speedup across various models and datasets of 162.42x, 17.01x, 9.90x, and 27.23x, respectively. Furthermore, for Graph Convolutional Network (GCN) inference, our approach leads to a speedup of 3.9-96.7x compared to designs using PL only on the same ACAP device.",
+    "arxiv_id": "2308.02749",
+    "authors": [
+      "Paul Chen",
+      "Pavan Manjunath",
+      "Sasindu Wijeratne",
+      "Bingyi Zhang",
+      "Viktor Prasanna"
+    ],
+    "categories": [
+      "cs.AR",
+      "cs.DC",
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2308.02749v1",
+    "primary_category": "cs.AR",
+    "published": "2023-08-04T23:57:55Z",
+    "query": "(cat:cs.DC AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2308.02749v1",
+    "title": "Exploiting On-chip Heterogeneity of Versal Architecture for GNN Inference Acceleration",
+    "updated": "2023-08-04T23:57:55Z",
+    "versioned_id": "2308.02749v1"
+  },
+  "reference_sha256": "233bcde7fec873f7515186c44d9c5812c5986c0548b346ca2d3ca07326205afa",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 989,
+    "final_quality_rank": 950,
+    "final_quality_score": 0.430607,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.8381,
+      "category": "cs.AR",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.0,
+      "component_bin": 0,
+      "connector_bin": 1,
+      "difference_hash": "c6644664c499c499549b5eaae68944ba489959994caa56e3c662762456d296f2",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 995,
+    "style_selection_score": 0.376202
+  },
+  "source_filename": "overview.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "0007b95f6b6c90ed9c7e975f734ffe4c98930661cae7a75f0362a983f2c02f5b",
+  "task_id": "task_0988",
+  "task_index": 988
+}

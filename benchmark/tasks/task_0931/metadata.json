@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2409.14918",
+  "candidate_id": "2409-14918_pdf_55c88f91b12c8906",
+  "caption": "Architecture of ETLP learning rule. The teaching neurons are connected to the output neurons via excitatory (green) and inhibitory synapses (dashed red) to learn the weights between the hidden and output layers. The teaching neurons are also connected through a random initialized weight matrix B to the hidden layer neurons to apply the learning signal to the weight matrix between the input and the hidden layer.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 35,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 912,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 40,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 912,
+    "text_count": 5,
+    "vector_drawing_count": 35,
+    "vector_primitive_count": 907
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 825,
+    "full_pool_rank": 1409,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 719,
+    "second_pass_review_rank": 825
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2409.14918v2",
+    "abstract": "Developing dedicated mixed-signal neuromorphic computing systems optimized for real-time sensory-processing in extreme edge-computing applications requires time-consuming design, fabrication, and deployment of full-custom neuromorphic processors. To ensure that initial prototyping efforts, exploring the properties of different network architectures and parameter settings, lead to realistic results, it is important to use simulation frameworks that match as best as possible the properties of the final hardware. This is particularly challenging for neuromorphic hardware platforms made using mixed-signal analog/digital circuits, due to the variability and noise sensitivity of their components. In this paper, we address this challenge by developing a software spiking neural network simulator explicitly designed to account for the properties of mixed-signal neuromorphic circuits, including device mismatch variability. The simulator, called ARCANA (A Realistic Simulation Framework for Analog/Digital Neuromorphic Architectures), is designed to reproduce the dynamics of mixed-signal synapse and neuron electronic circuits with autogradient differentiation for parameter optimization and GPU acceleration. We demonstrate the effectiveness of this approach by matching software simulation results with measurements made from an existing neuromorphic processor. We show how the results obtained provide a reliable estimate of the behavior of the spiking neural network trained in software, once deployed in hardware. This framework enables the development and innovation of new learning rules and processing architectures in neuromorphic embedded systems.",
+    "arxiv_id": "2409.14918",
+    "authors": [
+      "Fernando M. Quintana",
+      "Maryada",
+      "Pedro L. Galindo",
+      "Elisa Donati",
+      "Giacomo Indiveri",
+      "Fernando Perez-Pe\u00f1a"
+    ],
+    "categories": [
+      "cs.NE",
+      "cs.AR",
+      "cs.LG"
+    ],
+    "doi": "10.1088/2634-4386/adef77",
+    "journal_ref": "Neuromorph. Comput. Eng. 5 (2025) 034006",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2409.14918v2",
+    "primary_category": "cs.NE",
+    "published": "2024-09-23T11:16:46Z",
+    "query": "(cat:cs.NE AND all:\"network architecture\") AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2409.14918v2",
+    "title": "A Realistic Simulation Framework for Analog/Digital Neuromorphic Architectures",
+    "updated": "2025-04-28T15:37:12Z",
+    "versioned_id": "2409.14918v2"
+  },
+  "reference_sha256": "14187f143bc547efb37d86c49da35da7ab2e2e26bde03efd72e5b56923a8fe02",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 932,
+    "final_quality_rank": 829,
+    "final_quality_score": 0.508838,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.2815,
+      "category": "cs.NE",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.09178,
+      "component_bin": 3,
+      "connector_bin": 1,
+      "difference_hash": "111099999998995455649b54948a64469c8a9b5455649956999a88020c060c04",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 899,
+    "style_selection_score": 0.423288
+  },
+  "source_filename": "etlp.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "55c88f91b12c8906b0f2c2d2ee5861324f70644c1925d1cdc6fb38b1b500fea3",
+  "task_id": "task_0931",
+  "task_index": 931
+}

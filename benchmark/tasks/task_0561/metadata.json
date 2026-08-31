@@ -1,0 +1,87 @@
+{
+  "arxiv_id": "2510.11150",
+  "candidate_id": "2510-11150_pdf_16e7a66c5aaeedb6",
+  "caption": "An architecture for the unified hardware\u2013software platform and typical system-level optimization approaches.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 67,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 394,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 139,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 394,
+    "text_count": 55,
+    "vector_drawing_count": 84,
+    "vector_primitive_count": 339
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 560,
+    "full_pool_rank": 882,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 486,
+    "second_pass_review_rank": 560
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2510.11150v1",
+    "abstract": "This article presents a wireless neural processing architecture (WiNPA), providing a novel perspective for accelerating edge inference of deep neural network (DNN) workloads via joint optimization of wireless and computing resources. WiNPA enables fine-grained integration of wireless communication and edge computing, bridging the research gap between wireless and edge intelligence and significantly improving DNN inference performance. To fully realize its potential, we explore a set of fundamental research issues, including mathematical modeling, optimization, and unified hardware--software platforms. Additionally, key research directions are discussed to guide future development and practical implementation. A case study demonstrates WiNPA's workflow and effectiveness in accelerating DNN inference through simulations.",
+    "arxiv_id": "2510.11150",
+    "authors": [
+      "Sai Xu",
+      "Yanan Du"
+    ],
+    "categories": [
+      "eess.SP"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2510.11150v1",
+    "primary_category": "eess.SP",
+    "published": "2025-10-13T08:42:30Z",
+    "query": "(cat:eess.SP AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2510.11150v1",
+    "title": "WiNPA: Wireless Neural Processing Architecture",
+    "updated": "2025-10-13T08:42:30Z",
+    "versioned_id": "2510.11150v1"
+  },
+  "reference_sha256": "3d44ddbdd2b984de579126114c7fd919bf153c84a85365370ea408fe242bb39d",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 562,
+    "final_quality_rank": 749,
+    "final_quality_score": 0.542858,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.2904,
+      "category": "eess.SP",
+      "category_family": "eess",
+      "color_bin": 1,
+      "colorfulness": 0.15941,
+      "component_bin": 1,
+      "connector_bin": 2,
+      "difference_hash": "a32ca35aa35ba3acab9c8ad8a5aaa3c6a972b990a94266919b9c9b58999c9592",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 769,
+    "style_selection_score": 0.456389
+  },
+  "source_filename": "Fig3.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "16e7a66c5aaeedb665f60c0f8f0f4334713629b4c08fe984419d50c7e4a9ec5b",
+  "task_id": "task_0561",
+  "task_index": 561
+}

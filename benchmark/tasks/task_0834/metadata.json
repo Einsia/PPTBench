@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2308.05930",
+  "candidate_id": "2308-05930_pdf_582eade93ba51746",
+  "caption": "Illustration of the array_stream data structure, the library of stream-based kernels, and an example compute graph mapped to a dataflow architecture.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 102,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.973118,
+    "editable_component_count": 905,
+    "embedded_image_count": 25,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.066526,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 300,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 930,
+    "text_count": 49,
+    "vector_drawing_count": 226,
+    "vector_primitive_count": 856
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 614,
+    "full_pool_rank": 995,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 535,
+    "second_pass_review_rank": 614
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2308.05930v1",
+    "abstract": "An increasing number of researchers are finding use for nth-order gradient computations for a wide variety of applications, including graphics, meta-learning (MAML), scientific computing, and most recently, implicit neural representations (INRs). Recent work shows that the gradient of an INR can be used to edit the data it represents directly without needing to convert it back to a discrete representation. However, given a function represented as a computation graph, traditional architectures face challenges in efficiently computing its nth-order gradient due to the higher demand for computing power and higher complexity in data movement. This makes it a promising target for FPGA acceleration. In this work, we introduce INR-Arch, a framework that transforms the computation graph of an nth-order gradient into a hardware-optimized dataflow architecture. We address this problem in two phases. First, we design a dataflow architecture that uses FIFO streams and an optimized computation kernel library, ensuring high memory efficiency and parallel computation. Second, we propose a compiler that extracts and optimizes computation graphs, automatically configures hardware parameters such as latency and stream depths to optimize throughput, while ensuring deadlock-free operation, and outputs High-Level Synthesis (HLS) code for FPGA implementation. We utilize INR editing as our benchmark, presenting results that demonstrate 1.8-4.8x and 1.5-3.6x speedup compared to CPU and GPU baselines respectively. Furthermore, we obtain 3.1-8.9x and 1.7-4.3x lower memory usage, and 1.7-11.3x and 5.5-32.8x lower energy-delay product. Our framework will be made open-source and available on GitHub.",
+    "arxiv_id": "2308.05930",
+    "authors": [
+      "Stefan Abi-Karam",
+      "Rishov Sarkar",
+      "Dejia Xu",
+      "Zhiwen Fan",
+      "Zhangyang Wang",
+      "Cong Hao"
+    ],
+    "categories": [
+      "cs.AR",
+      "cs.DC",
+      "cs.LG"
+    ],
+    "doi": "10.1109/ICCAD57390.2023.10323650",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2308.05930v1",
+    "primary_category": "cs.AR",
+    "published": "2023-08-11T04:24:39Z",
+    "query": "(cat:cs.DC AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2308.05930v1",
+    "title": "INR-Arch: A Dataflow Architecture and Compiler for Arbitrary-Order Gradient Computations in Implicit Neural Representation Processing",
+    "updated": "2023-08-11T04:24:39Z",
+    "versioned_id": "2308.05930v1"
+  },
+  "reference_sha256": "8fa6e3529bfd56b5030e0314c61bc07c7bd3b4c8224e2616b38b9194c0b0d20a",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 835,
+    "final_quality_rank": 694,
+    "final_quality_score": 0.561525,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 1,
+      "aspect_ratio": 0.8777,
+      "category": "cs.AR",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.110821,
+      "component_bin": 3,
+      "connector_bin": 2,
+      "difference_hash": "2c837e41e4c1468d7a3c81b2b2b2b2b281789696b694810e3e47eb0ed9549970",
+      "raster_bin": 2
+    },
+    "style_selection_rank": 645,
+    "style_selection_score": 0.474035
+  },
+  "source_filename": "dataflow_fig.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "582eade93ba51746b33f53a17a3983057dabf641e8e5d044b36df9ac884c7957",
+  "task_id": "task_0834",
+  "task_index": 834
+}

@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2112.04035",
+  "candidate_id": "2112-04035_pdf_e4744aa8f4f28600",
+  "caption": "Schematic to show the model flow. Depiction of TEM at two time-points, with each time-point described at a different level of detail. Timepoint \\(t\\) shows network implementation, \\(t+1\\) describes each computation in words. Red is for model predictions, green is for updating model variables. We do not show the stabilising position encodings module here. Circles depict neurons (blue is \\( \\), red is \\( \\), blue/red is \\( \\)); shaded boxes depict computation steps; arrows show learnable weights; looped arrows describe recurrent attractor. Black lines between neurons in attractor describe Hebbian weights \\( \\). \\( _a\\) are learnable, action dependent, transition weights. \\( _g\\) and \\( _x\\) are learnable projection matrices. Yellow arrows show training errors.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 132,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.974359,
+    "editable_component_count": 608,
+    "embedded_image_count": 16,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.009902,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 190,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 624,
+    "text_count": 41,
+    "vector_drawing_count": 133,
+    "vector_primitive_count": 567
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2112.04035v2",
+    "abstract": "Many deep neural network architectures loosely based on brain networks have recently been shown to replicate neural firing patterns observed in the brain. One of the most exciting and promising novel architectures, the Transformer neural network, was developed without the brain in mind. In this work, we show that transformers, when equipped with recurrent position encodings, replicate the precisely tuned spatial representations of the hippocampal formation; most notably place and grid cells. Furthermore, we show that this result is no surprise since it is closely related to current hippocampal models from neuroscience. We additionally show the transformer version offers dramatic performance gains over the neuroscience version. This work continues to bind computations of artificial and brain networks, offers a novel understanding of the hippocampal-cortical interaction, and suggests how wider cortical areas may perform complex tasks beyond current neuroscience models such as language comprehension.",
+    "arxiv_id": "2112.04035",
+    "authors": [
+      "James C. R. Whittington",
+      "Joseph Warren",
+      "Timothy E. J. Behrens"
+    ],
+    "categories": [
+      "cs.NE",
+      "cs.LG",
+      "q-bio.NC"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2112.04035v2",
+    "primary_category": "cs.NE",
+    "published": "2021-12-07T23:14:07Z",
+    "query": "(cat:cs.NE AND all:\"network architecture\") AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2112.04035v2",
+    "title": "Relating transformers to models and neural representations of the hippocampal formation",
+    "updated": "2022-03-15T12:55:05Z",
+    "versioned_id": "2112.04035v2"
+  },
+  "reference_sha256": "948755a82e5d695f02a9a8b244aa6e02deeaa4de6b1f2ac08e34f4771437f342",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 631,
+    "final_quality_rank": 460,
+    "final_quality_score": 0.606779,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.4044,
+      "category": "cs.NE",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.228364,
+      "component_bin": 2,
+      "connector_bin": 2,
+      "difference_hash": "894cf6ccd6e231b954294cac5cacace4cce4cce4cce44da545a5cce4cce4b351",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 537,
+    "style_selection_score": 0.495977
+  },
+  "source_filename": "tem_schematic.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "e4744aa8f4f28600d6112f3487782b52d22526ac212dcd1832290aa7ff140dbe",
+  "task_id": "task_0630",
+  "task_index": 630
+}

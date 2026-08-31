@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2101.11449",
+  "candidate_id": "2101-11449_pdf_be38010847d292d4",
+  "caption": "Schematic representation of a metapopulation model and its movements. (a) Metapopulation: The figure indicates the different patches in a metapopulation model and their connections. (b) The figure illustrates the individuals of a compartment model moving between patches. Each patch consists of population of individuals who are represented with respect to their health status (e.g., susceptible, exposed, infected, removed) in different colours. Exposed, Infected and the recovered classes are further subdivided into the clinical and the subclinical cases.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 68,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 502,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 82,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 502,
+    "text_count": 13,
+    "vector_drawing_count": 69,
+    "vector_primitive_count": 489
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2101.11449v1",
+    "abstract": "In 2018, West Nile Virus (WNV) was detected for the first time in Germany. Since the first detection, 36 human cases and 175 cases in horses and birds are detected. The transmission cycle of West Nile Virus includes birds and mosquitoes and -- as dead-end hosts -- people and horses. Spatial dissemination of the disease is caused by the movements of birds and mosquitoes. While the activity and movement of mosquitoes are depending mainly on temperature, in the birds there is a complex movement pattern caused by local birds and long range dispersal birds. To this end, we have developed a metapopulation network model framework to delineate the potential spatial distribution and spread of WNV across Germany as well as to evaluate the risk throughout our proposed network model. Our model facilitates the interconnection amongst the vector, local birds and long range dispersal birds contact networks. We have assumed different distance dispersal kernels models for the vector and avian populations with the intention to include short and long range dispersal. The model includes spatial variation of mosquito abundance and the movements to resemble the reality.",
+    "arxiv_id": "2101.11449",
+    "authors": [
+      "Suman Bhowmick",
+      "J\u00f6rn Gethmann",
+      "Igor M. Sokolov",
+      "Franz J. Conraths",
+      "Hartmut H. K. Lentz"
+    ],
+    "categories": [
+      "physics.bio-ph",
+      "q-bio.PE"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2101.11449v1",
+    "primary_category": "physics.bio-ph",
+    "published": "2021-01-27T14:29:03Z",
+    "query": "(cat:physics.bio-ph AND all:model) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2101.11449v1",
+    "title": "Can a patchy model describe the potential spread of West Nile virus in Germany?",
+    "updated": "2021-01-27T14:29:03Z",
+    "versioned_id": "2101.11449v1"
+  },
+  "reference_sha256": "b905e69e1a5187add8b23702800b713264a6b0863460b513d921897184242e1b",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 230,
+    "final_quality_rank": 284,
+    "final_quality_score": 0.644846,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.0501,
+      "category": "physics.bio-ph",
+      "category_family": "physics",
+      "color_bin": 3,
+      "colorfulness": 0.492558,
+      "component_bin": 2,
+      "connector_bin": 2,
+      "difference_hash": "58c8b5e429c0ea30c639c638e630c631e7306dd0b9a0d2c84a586d5663100cc6",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 150,
+    "style_selection_score": 0.576807
+  },
+  "source_filename": "MetapopDiagram2.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "be38010847d292d4adb189fd5a78203befcf60fa42da53cd63520fccabb27e47",
+  "task_id": "task_0229",
+  "task_index": 229
+}

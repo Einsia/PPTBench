@@ -1,0 +1,43 @@
+{
+  "assets": [
+    {
+      "file": "resource_0001.png",
+      "has_alpha": false,
+      "height": 104,
+      "sha256": "9a2dc4d4c5d6809106d652b86e51f494084e49e8c190f1999cc1b94371bb0534",
+      "width": 110
+    },
+    {
+      "file": "resource_0002.png",
+      "has_alpha": false,
+      "height": 199,
+      "sha256": "b71bb231b58a4ffa03a3dccb625ad16bbbeb8fcac0147344a9573cc921c27fd1",
+      "width": 211
+    },
+    {
+      "file": "resource_0003.png",
+      "has_alpha": false,
+      "height": 199,
+      "sha256": "5d6e094e6190ad57ab408a8b2336e4d2dc6ad003f3b5d92dfb6614394e6009a7",
+      "width": 211
+    },
+    {
+      "file": "resource_0004.png",
+      "has_alpha": true,
+      "height": 211,
+      "sha256": "df502be0136ba27e6f7484be0fcf9bb355fa961f8a6fc58fd429741d7ab4cf05",
+      "width": 251
+    }
+  ],
+  "candidate_id": "2509-20279_pdf_844ef44f326cb1a1",
+  "extractor_version": "native-raster-v1",
+  "manual_qc": {
+    "maximum_resources": 12,
+    "removed_count": 1,
+    "status": "pass",
+    "version": "manual-resource-qc-v1"
+  },
+  "resource_count": 4,
+  "schema": "pptbench-task-resources-v1",
+  "task_id": "task_0312"
+}

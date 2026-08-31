@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2509.17355",
+  "candidate_id": "2509-17355_pdf_203426095256fdea",
+  "caption": "Datapath architecture of the RLS filter and linear accelerator. The datapath contains 50 multipliers, an unsigned divider, storage of the output weights, and storage for temporal calculations used by the RLS filter.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 66,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 237,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 150,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 237,
+    "text_count": 41,
+    "vector_drawing_count": 109,
+    "vector_primitive_count": 196
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 534,
+    "full_pool_rank": 828,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 463,
+    "second_pass_review_rank": 534
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2509.17355v1",
+    "abstract": "The increasing complexity and energy demands of large-scale neural networks, such as Deep Neural Networks (DNNs) and Large Language Models (LLMs), challenge their practical deployment in edge applications due to high power consumption, area requirements, and privacy concerns. Spiking Neural Networks (SNNs), particularly in analog implementations, offer a promising low-power alternative but suffer from noise sensitivity and connectivity limitations. This work presents a novel CMOS-implemented field-programmable neural network architecture for hardware reservoir computing. We propose a Leaky Integrate-and-Fire (LIF) neuron circuit with integrated voltage-controlled oscillators (VCOs) and programmable weighted interconnections via an on-chip FPGA framework, enabling arbitrary reservoir configurations. The system demonstrates effective implementation of the FORCE algorithm learning, linear and non-linear memory capacity benchmarks, and NARMA10 tasks, both in simulation and actual chip measurements. The neuron design achieves compact area utilization (around 540 NAND2-equivalent units) and low energy consumption (21.7 pJ/pulse) without requiring ADCs for information readout, making it ideal for system-on-chip integration of reservoir computing. This architecture paves the way for scalable, energy-efficient neuromorphic systems capable of performing real-time learning and inference with high configurability and digital interfacing.",
+    "arxiv_id": "2509.17355",
+    "authors": [
+      "Ckristian Duran",
+      "Nanako Kimura",
+      "Zolboo Byambadorj",
+      "Tetsuya Iizuka"
+    ],
+    "categories": [
+      "cs.NE"
+    ],
+    "doi": "10.1088/2634-4386/ae66b2",
+    "journal_ref": "2026 Neuromorph. Comput. Eng. 6 024011",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2509.17355v1",
+    "primary_category": "cs.NE",
+    "published": "2025-09-22T05:19:46Z",
+    "query": "(cat:cs.NE AND all:\"network architecture\") AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2509.17355v1",
+    "title": "CMOS Implementation of Field Programmable Spiking Neural Network for Hardware Reservoir Computing",
+    "updated": "2025-09-22T05:19:46Z",
+    "versioned_id": "2509.17355v1"
+  },
+  "reference_sha256": "9b6c42f7f4a5552b4fbb5df33fe040cd7ec2579244efbcc25726ca2e230378ff",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 487,
+    "final_quality_rank": 769,
+    "final_quality_score": 0.533049,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.7278,
+      "category": "cs.NE",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.17136,
+      "component_bin": 1,
+      "connector_bin": 2,
+      "difference_hash": "f000f478e868f1e0e0f0f082f042e19ae8a4f0e47190a8c468e669f6891e821c",
+      "raster_bin": 0
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "fig8_rls_accelerator.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "203426095256fdea024e43c16637773ddcfa2262670c50daa81d506b6cedc90b",
+  "task_id": "task_0486",
+  "task_index": 486
+}

@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2303.08840",
+  "candidate_id": "2303-08840_pdf_fd68f48e5a67e35d",
+  "caption": "Pipeline overview chart depicting a simplified version of the data flow within the VISIONS pipeline. Each tile represents a specific processing stage where one or more recipes are executed. Tiles with a red background indicate raw input data obtained from the ESO science archive. Blue tiles denote calibration files, such as flat fields and tables to linearize the detector response. Orange tiles refer to intermediate science data products. Yellow tiles mark processed science data from which publication-ready products (green tiles) are generated. The purple tile indicates data from external sources, which correspond to the source catalogs from the 2MASS survey and the Gaia mission. The arrows mark the interdependencies between the consecutive processing stages.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 60,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 173,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 106,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 173,
+    "text_count": 28,
+    "vector_drawing_count": 78,
+    "vector_primitive_count": 145
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 618,
+    "full_pool_rank": 1006,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 539,
+    "second_pass_review_rank": 618
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2303.08840v1",
+    "abstract": "The VISIONS public survey provides large-scale, multiepoch imaging of five nearby star-forming regions at subarcsecond resolution in the near-infrared. All data collected within the program and provided by the European Southern Observatory (ESO) science archive are processed with a custom end-to-end pipeline infrastructure to provide science-ready images and source catalogs. The data reduction environment has been specifically developed for the purpose of mitigating several shortcomings of the bona fide data products processed with software provided by the Cambridge Astronomical Survey Unit (CASU), such as spatially variable astrometric and photometric biases of up to 100 mas and 0.1 mag, respectively. At the same time, the resolution of coadded images is up to 20% higher compared to the same products from the CASU processing environment. Most pipeline modules are written in Python and make extensive use of C extension libraries for numeric computations, thereby simultaneously providing accessibility, robustness, and high performance. The astrometric calibration is performed relative to the Gaia reference frame, and fluxes are calibrated with respect to the source magnitudes provided in the Two Micron All Sky Survey (2MASS). For bright sources, absolute astrometric errors are typically on the order of 10 to 15 mas and fluxes are determined with subpercent precision. Moreover, the calibration with respect to 2MASS photometry is largely free of color terms. The pipeline produces data that are compliant with the ESO Phase 3 regulations and furthermore provides curated source catalogs that are structured similarly to those provided by the 2MASS survey.",
+    "arxiv_id": "2303.08840",
+    "authors": [
+      "Stefan Meingast",
+      "Herv\u00e9 Bouy",
+      "Verena F\u00fcrnkranz",
+      "David Hernandez",
+      "Alena Rottensteiner",
+      "Erik Br\u00e4ndli"
+    ],
+    "categories": [
+      "astro-ph.IM"
+    ],
+    "doi": "10.1051/0004-6361/202245772",
+    "journal_ref": "A&A 673, A59 (2023)",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2303.08840v1",
+    "primary_category": "astro-ph.IM",
+    "published": "2023-03-15T18:00:02Z",
+    "query": "(cat:astro-ph.IM AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2303.08840v1",
+    "title": "VISIONS: The VISTA Star Formation Atlas -- II. The data processing pipeline",
+    "updated": "2023-03-15T18:00:02Z",
+    "versioned_id": "2303.08840v1"
+  },
+  "reference_sha256": "e58514a345f86d0c712f81c87ea883efe9548272ca824e52040002438d05458c",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 590,
+    "final_quality_rank": 790,
+    "final_quality_score": 0.52733,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 4.4615,
+      "category": "astro-ph.IM",
+      "category_family": "astro-ph",
+      "color_bin": 2,
+      "colorfulness": 0.235666,
+      "component_bin": 1,
+      "connector_bin": 2,
+      "difference_hash": "a0c8a2c8a4c0a4caa0ceab4ea94ab940a940a94829486b5a694a6b426b466b4a",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 938,
+    "style_selection_score": 0.443159
+  },
+  "source_filename": "vircampype_drawio.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "fd68f48e5a67e35d7344913d506d79edc73363649be1411bbd731a6453922e06",
+  "task_id": "task_0589",
+  "task_index": 589
+}

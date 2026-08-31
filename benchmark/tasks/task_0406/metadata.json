@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2108.05647",
+  "candidate_id": "2108-05647_pdf_3de7394d8e4b943f",
+  "caption": "Investigated meta-architecture in the non-sequential search space.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 300,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1284,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 333,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1284,
+    "text_count": 33,
+    "vector_drawing_count": 300,
+    "vector_primitive_count": 1251
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 270,
+    "full_pool_rank": 359,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 238,
+    "second_pass_review_rank": 270
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2108.05647v3",
+    "abstract": "Differentiable architecture search (DAS) is a widely researched tool for the discovery of novel architectures, due to its promising results for image classification. The main benefit of DAS is the effectiveness achieved through the weight-sharing one-shot paradigm, which allows efficient architecture search. In this work, we investigate DAS in a systematic case study of inverse problems, which allows us to analyze these potential benefits in a controlled manner. We demonstrate that the success of DAS can be extended from image classification to signal reconstruction, in principle. However, our experiments also expose three fundamental difficulties in the evaluation of DAS-based methods in inverse problems: First, the results show a large variance in all test cases. Second, the final performance is strongly dependent on the hyperparameters of the optimizer. And third, the performance of the weight-sharing architecture used during training does not reflect the final performance of the found architecture well. While the results on image reconstruction confirm the potential of the DAS paradigm, they challenge the common understanding of DAS as a one-shot method.",
+    "arxiv_id": "2108.05647",
+    "authors": [
+      "Jonas Geiping",
+      "Jovita Lukasik",
+      "Margret Keuper",
+      "Michael Moeller"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2108.05647v3",
+    "primary_category": "cs.LG",
+    "published": "2021-08-12T10:28:02Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2108.05647v3",
+    "title": "Is Differentiable Architecture Search truly a One-Shot Method?",
+    "updated": "2023-02-20T09:39:17Z",
+    "versioned_id": "2108.05647v3"
+  },
+  "reference_sha256": "421cfc34b6803f54f4cfdeacb7ac1acee02d2c1a832df9ddd3f3adeb35947b4f",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 407,
+    "final_quality_rank": 296,
+    "final_quality_score": 0.640609,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.5966,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.11611,
+      "component_bin": 3,
+      "connector_bin": 3,
+      "difference_hash": "9c2520217428d44cdc88542d682572a19421a021662a960a998a782220218c22",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 424,
+    "style_selection_score": 0.510555
+  },
+  "source_filename": "wide_arch_overview.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "3de7394d8e4b943faa41b04de43ca4fb7bf0c9afdb410518ad9961bb39dbb6ac",
+  "task_id": "task_0406",
+  "task_index": 406
+}

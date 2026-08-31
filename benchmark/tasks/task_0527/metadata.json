@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2202.08024",
+  "candidate_id": "2202-08024_pdf_31c82e77ae28273f",
+  "caption": "Generic architecture of a Born-sampled quantum GAN. The generator G_ is a quantum circuit whose whole register is measured at once. The quantum state's bit strings are then mapped to the range of the data samples. The discriminator D_ is a classical neural network.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 7,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.921875,
+    "editable_component_count": 59,
+    "embedded_image_count": 5,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.283077,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 23,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 64,
+    "text_count": 0,
+    "vector_drawing_count": 18,
+    "vector_primitive_count": 59
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 1216,
+    "full_pool_rank": 2286,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 1071,
+    "second_pass_review_rank": 1216
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2202.08024v1",
+    "abstract": "The learning process of classical machine learning algorithms is tuned by hyperparameters that need to be customized to best learn and generalize from an input dataset. In recent years, Quantum Machine Learning (QML) has been gaining traction as a possible application of quantum computing which may provide quantum advantage in the future. However, quantum versions of classical machine learning algorithms introduce a plethora of additional parameters and circuit variations that have their own intricacies in being tuned. In this work, we take the first steps towards Automated Quantum Machine Learning (AutoQML). We propose a concrete description of the problem, and then develop a classical-quantum hybrid cloud architecture that allows for parallelized hyperparameter exploration and model training. As an application use-case, we train a quantum Generative Adversarial neural Network (qGAN) to generate energy prices that follow a known historic data distribution. Such a QML model can be used for various applications in the energy economics sector.",
+    "arxiv_id": "2202.08024",
+    "authors": [
+      "Ra\u00fal Berganza G\u00f3mez",
+      "Corey O'Meara",
+      "Giorgio Cortiana",
+      "Christian B. Mendl",
+      "Juan Bernab\u00e9-Moreno"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.DC",
+      "cs.ET"
+    ],
+    "doi": "10.1109/ICSA-C54293.2022.00033",
+    "journal_ref": "2022 IEEE 19th International Conference on Software Architecture Companion (ICSA-C), 129-136 (2022)",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2202.08024v1",
+    "primary_category": "quant-ph",
+    "published": "2022-02-16T12:37:10Z",
+    "query": "(cat:quant-ph AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2202.08024v1",
+    "title": "Towards AutoQML: A Cloud-Based Automated Circuit Architecture Search Framework",
+    "updated": "2022-02-16T12:37:10Z",
+    "versioned_id": "2202.08024v1"
+  },
+  "reference_sha256": "d6ce41e43ed1d1208806f8b113465bdf1f8badad9347f48bca7ffec8fee554d4",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 528,
+    "final_quality_rank": 1000,
+    "final_quality_score": 0.311105,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.9438,
+      "category": "quant-ph",
+      "category_family": "quant-ph",
+      "color_bin": 0,
+      "colorfulness": 0.063899,
+      "component_bin": 0,
+      "connector_bin": 0,
+      "difference_hash": "20010001aa0146114645464112419640464b4615461428cb00cc00c000c10041",
+      "raster_bin": 4
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "gen_qgan.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "31c82e77ae28273fd6dca5bb4022a1f493aa33abd92817707dcf55addb125eb7",
+  "task_id": "task_0527",
+  "task_index": 527
+}

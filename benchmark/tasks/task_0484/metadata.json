@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2301.03110",
+  "candidate_id": "2301-03110_pdf_862c49f88125a769",
+  "caption": "An overview of ResNet-style ConvNet design, which includes a stem stage, several body stages, and a classification head.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 71,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.999168,
+    "editable_component_count": 9607,
+    "embedded_image_count": 8,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.026087,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 104,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 9615,
+    "text_count": 25,
+    "vector_drawing_count": 71,
+    "vector_primitive_count": 9582
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2301.03110v1",
+    "abstract": "Adversarial Training is the most effective approach for improving the robustness of Deep Neural Networks (DNNs). However, compared to the large body of research in optimizing the adversarial training process, there are few investigations into how architecture components affect robustness, and they rarely constrain model capacity. Thus, it is unclear where robustness precisely comes from. In this work, we present the first large-scale systematic study on the robustness of DNN architecture components under fixed parameter budgets. Through our investigation, we distill 18 actionable robust network design guidelines that empower model developers to gain deep insights. We demonstrate these guidelines' effectiveness by introducing the novel Robust Architecture (RobArch) model that instantiates the guidelines to build a family of top-performing models across parameter capacities against strong adversarial attacks. RobArch achieves the new state-of-the-art AutoAttack accuracy on the RobustBench ImageNet leaderboard. The code is available at $\\href{https://github.com/ShengYun-Peng/RobArch}{\\text{this url}}$.",
+    "arxiv_id": "2301.03110",
+    "authors": [
+      "ShengYun Peng",
+      "Weilin Xu",
+      "Cory Cornelius",
+      "Kevin Li",
+      "Rahul Duggal",
+      "Duen Horng Chau",
+      "Jason Martin"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2301.03110v1",
+    "primary_category": "cs.CV",
+    "published": "2023-01-08T21:19:52Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2301.03110v1",
+    "title": "RobArch: Designing Robust Architectures against Adversarial Attacks",
+    "updated": "2023-01-08T21:19:52Z",
+    "versioned_id": "2301.03110v1"
+  },
+  "reference_sha256": "5f2e5d7515d1e3ec36c8c0f3c9e7d24c84e7079bc62035897baacd0dccbfe6a0",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 485,
+    "final_quality_rank": 350,
+    "final_quality_score": 0.627445,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 1,
+      "aspect_ratio": 0.8203,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.130189,
+      "component_bin": 5,
+      "connector_bin": 2,
+      "difference_hash": "274c0d1a731c661c3b1c1e1c1e1c1e1c66046e141e1c3e1c1b1ce31c631c0e1a",
+      "raster_bin": 2
+    },
+    "style_selection_rank": 577,
+    "style_selection_score": 0.517928
+  },
+  "source_filename": "resnet50-arch.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "862c49f88125a769497a482b1cd31933935e27b4215b1810220568dc43f48aaf",
+  "task_id": "task_0484",
+  "task_index": 484
+}

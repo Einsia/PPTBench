@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2205.00752",
+  "candidate_id": "2205-00752_pdf_1bc70fb0f05ed4bb",
+  "caption": "Stylized stock-flow structure following Caiani et al. . Arrows point from paying to receiving agent.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 26,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 205,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 83,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 205,
+    "text_count": 26,
+    "vector_drawing_count": 57,
+    "vector_primitive_count": 179
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 702,
+    "full_pool_rank": 1202,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 613,
+    "second_pass_review_rank": 702
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2205.00752v1",
+    "abstract": "In macroeconomics, an emerging discussion of alternative monetary systems addresses the dimensions of systemic risk in advanced financial systems. Monetary regime changes with the aim of achieving a more sustainable financial system have already been discussed in several European parliaments and were the subject of a referendum in Switzerland. However, their effectiveness and efficacy concerning macro-financial stability are not well-known. This paper introduces a macroeconomic agent-based model (MABM) in a novel simulation environment to simulate the current monetary system, which may serve as a basis to implement and analyze monetary regime shifts. In this context, the monetary system affects the lending potential of banks and might impact the dynamics of financial crises. MABMs are predestined to replicate emergent financial crisis dynamics, analyze institutional changes within a financial system, and thus measure macro-financial stability. The used simulation environment makes the model more accessible and facilitates exploring the impact of different hypotheses and mechanisms in a less complex way. The model replicates a wide range of stylized economic facts, including simplifying assumptions to reduce model complexity.",
+    "arxiv_id": "2205.00752",
+    "authors": [
+      "Florian Peters",
+      "Doris Neuberger",
+      "Oliver Reinhardt",
+      "Adelinde Uhrmacher"
+    ],
+    "categories": [
+      "econ.GN"
+    ],
+    "doi": "10.1371/journal.pone.0277615",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2205.00752v1",
+    "primary_category": "econ.GN",
+    "published": "2022-05-02T08:58:03Z",
+    "query": "(cat:econ.GN AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2205.00752v1",
+    "title": "A basic macroeconomic agent-based model for analyzing monetary regime shifts",
+    "updated": "2022-05-02T08:58:03Z",
+    "versioned_id": "2205.00752v1"
+  },
+  "reference_sha256": "ca658c18ce88223761159b062d4ad5448a17e3733c69105368ac7613adf731af",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 702,
+    "final_quality_rank": 927,
+    "final_quality_score": 0.446965,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.7602,
+      "category": "econ.GN",
+      "category_family": "econ",
+      "color_bin": 0,
+      "colorfulness": 0.005193,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "800c8b947b93610e6f0be21ce13601019096d786cf893701018103818b95800e",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 811,
+    "style_selection_score": 0.452962
+  },
+  "source_filename": "FlowChart_091221.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "1bc70fb0f05ed4bbabe69332ad33783f45c97377b42826140004ce97191a07aa",
+  "task_id": "task_0701",
+  "task_index": 701
+}

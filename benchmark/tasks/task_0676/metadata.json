@@ -1,0 +1,88 @@
+{
+  "arxiv_id": "2412.06106",
+  "candidate_id": "2412-06106_pdf_8498c4cd9c5171e0",
+  "caption": "Subfigure (a) shows the ECP architecture. In subfigures (b)-(d) the green rectangles indicate the propagation of attention, the red rectangles indicate the PerceiverAR pairwise segment attention. The green blocks are not calculated but contain information because of the PAR block in the previous layer. The attention calculation is done only on the two blocks near the diagonal (indicated by red rectangles).",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 202,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1000,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 470,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1000,
+    "text_count": 123,
+    "vector_drawing_count": 347,
+    "vector_primitive_count": 877
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 793,
+    "full_pool_rank": 1354,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 692,
+    "second_pass_review_rank": 793
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2412.06106v3",
+    "abstract": "One of the key challenges in Transformer architectures is the quadratic complexity of the attention mechanism, which limits the efficient processing of long sequences. Many recent research works have attempted to provide a reduction from the $O(n^2)$ time complexity of attention to semi-linear complexity. However, it remains an unsolved problem in the sense of maintaining high performance when complexity is reduced. One of the important works in this respect is the Perceiver class of architectures that have demonstrated excellent performance, while reducing the computation complexity. In this paper, we use the PerceiverAR as a basis and explore the design space of different trade-offs between preserving context and reducing attention complexity. To this end, we develop four new architectural paradigms, the best performing of which we denote as the Efficient Context propagating Perceiver (ECP). ECP has two major advantages over the PerceiverAR. First, the ECP architecture overcomes the main drawback of PercieverAR by utilizing both the context and the latent sequences in autoregressive training. Second, the ECP architecture operates with the same attention complexity as LongLoRA, making it computationally efficient. More importantly, via pairwise segment attention, it extracts better information resulting in improved language modeling. Empirically, we demonstrate that the ECP architecture significantly outperforms other state-of-the-art Transformer models on Wikitext-103, PG-19 and sCIFAR-10.",
+    "arxiv_id": "2412.06106",
+    "authors": [
+      "Kaleel Mahmood",
+      "Shaoyi Huang"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2412.06106v3",
+    "primary_category": "cs.CL",
+    "published": "2024-12-08T23:41:38Z",
+    "query": "(cat:cs.CL AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2412.06106v3",
+    "title": "Efficient Context Propagating Perceiver Architectures for Auto-Regressive Language Modeling",
+    "updated": "2026-02-21T04:21:53Z",
+    "versioned_id": "2412.06106v3"
+  },
+  "reference_sha256": "5bc57c0f474ad2aa2f9d95addc74a1ba3d8d6391148f0eceaf69293d96eda6d5",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 677,
+    "final_quality_rank": 491,
+    "final_quality_score": 0.599797,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.0946,
+      "category": "cs.CL",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.180729,
+      "component_bin": 3,
+      "connector_bin": 3,
+      "difference_hash": "6400600020c8ae4d8a6c09240936e3962b9ba922c950490e0902e101e0006000",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 655,
+    "style_selection_score": 0.483603
+  },
+  "source_filename": "figure1_cropped.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "8498c4cd9c5171e0a7f0b8cb4bd87661e111038d2e5a8a3564cc5a67bac5967f",
+  "task_id": "task_0676",
+  "task_index": 676
+}

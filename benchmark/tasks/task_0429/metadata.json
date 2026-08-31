@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2502.02371",
+  "candidate_id": "2502-02371_pdf_0017e9690c846ca6",
+  "caption": "Schematic representation of RAPID-Net (ReLU-Activated Pocket Identification for Docking). Key improvements that distinguish RAPID-Net from previous approaches include a ReLU activation in the final layer, the usage of a soft dice loss function, including a single SE-attention block, and removing redundant residual connections.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 417,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.997976,
+    "editable_component_count": 986,
+    "embedded_image_count": 2,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.073941,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 460,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 988,
+    "text_count": 41,
+    "vector_drawing_count": 417,
+    "vector_primitive_count": 945
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 1138,
+    "full_pool_rank": 2101,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 1007,
+    "second_pass_review_rank": 1138
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2502.02371v2",
+    "abstract": "Accurate identification of druggable pockets and their features is essential for structure-based drug design and effective downstream docking. Here, we present RAPID-Net, a deep learning-based algorithm designed for the accurate prediction of binding pockets and seamless integration with docking pipelines. On the PoseBusters benchmark, RAPID-Net-guided AutoDock Vina achieves 54.9% of Top-1 poses with RMSD < 2 A and satisfying the PoseBusters chemical-validity criterion, compared to 49.1% for DiffBindFR. On the most challenging time split of PoseBusters aiming to assess generalization ability (structures submitted after September 30, 2021), RAPID-Net-guided AutoDock Vina achieves 53.1% of Top-1 poses with RMSD < 2 A and PB-valid, versus 59.5% for AlphaFold 3. Notably, in 92.2% of cases, RAPID-Net-guided Vina samples at least one pose with RMSD < 2 A (regardless of its rank), indicating that pose ranking, rather than sampling, is the primary accuracy bottleneck. The lightweight inference, scalability, and competitive accuracy of RAPID-Net position it as a viable option for large-scale virtual screening campaigns. Across diverse benchmark datasets, RAPID-Net outperforms other pocket prediction tools, including PUResNet and Kalasanty, in both docking accuracy and pocket-ligand intersection rates. Furthermore, we demonstrate the potential of RAPID-Net to accelerate the development of novel therapeutics by highlighting its performance on pharmacologically relevant targets. RAPID-Net accurately identifies distal functional sites, offering new opportunities for allosteric inhibitor design. In the case of the RNA-dependent RNA polymerase of SARS-CoV-2, RAPID-Net uncovers a wider array of potential binding pockets than existing predictors, which typically annotate only the orthosteric pocket and overlook secondary cavities.",
+    "arxiv_id": "2502.02371",
+    "authors": [
+      "Yaroslav Balytskyi",
+      "Inna Hubenko",
+      "Alina Balytska",
+      "Christopher V. Kelly"
+    ],
+    "categories": [
+      "q-bio.BM",
+      "cs.AI",
+      "cs.LG",
+      "physics.bio-ph",
+      "physics.med-ph"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2502.02371v2",
+    "primary_category": "q-bio.BM",
+    "published": "2025-02-04T14:52:10Z",
+    "query": "(cat:q-bio.BM AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2502.02371v2",
+    "title": "RAPID-Net: Accurate Pocket Identification for Binding-Site-Agnostic Docking",
+    "updated": "2025-07-23T16:44:22Z",
+    "versioned_id": "2502.02371v2"
+  },
+  "reference_sha256": "8f7a28fbadd985d69b2d87b2930d1628539bd0caef91a251301fac233c4e8c93",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 430,
+    "final_quality_rank": 530,
+    "final_quality_score": 0.592812,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.7902,
+      "category": "q-bio.BM",
+      "category_family": "q-bio",
+      "color_bin": 2,
+      "colorfulness": 0.28209,
+      "component_bin": 3,
+      "connector_bin": 4,
+      "difference_hash": "ba345a8a4a94a8b4aab4cab4d2a1340a9049749334b534b1f4b1b4b0b5203400",
+      "raster_bin": 2
+    },
+    "style_selection_rank": 468,
+    "style_selection_score": 0.510745
+  },
+  "source_filename": "RAPID_diagram_insert.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "0017e9690c846ca653d8cdb968be699c5b163709ecf33daf697bdfb952bf41ae",
+  "task_id": "task_0429",
+  "task_index": 429
+}

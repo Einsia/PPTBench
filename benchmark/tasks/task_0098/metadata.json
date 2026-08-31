@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2604.01236",
+  "candidate_id": "2604-01236_pdf_00d3ff611b2db01d",
+  "caption": "The DarwinNet Inter-node Interaction Framework: Illustrating the vertical functional decoupling from Intent (L2) to Anchor (L0) and the horizontal bifurcation of the Slow Negotiation Path and the Fast Execution Path.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 429,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 9744,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 451,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 9744,
+    "text_count": 0,
+    "vector_drawing_count": 451,
+    "vector_primitive_count": 9744
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 920,
+    "full_pool_rank": 1583,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 808,
+    "second_pass_review_rank": 920
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2604.01236v3",
+    "abstract": "Traditional network architectures suffer from severe protocol ossification and structural fragility due to their reliance on static, human-defined rules that fail to adapt to the emergent edge cases and probabilistic reasoning of modern autonomous agents. To address these limitations, this paper proposes DarwinNet, a bio-inspired, self-evolving network architecture that transitions communication protocols from a \\textit{design-time} static paradigm to a \\textit{runtime} growth paradigm. DarwinNet utilizes a tri-layered framework-comprising an immutable physical anchor (L0), a WebAssembly-based fluid cortex (L1), and an LLM-driven Darwin cortex (L2)-to synthesize high-level business intents into executable bytecode through a dual-loop \\textit{Intent-to-Bytecode} (I2B) mechanism. We introduce the Protocol Solidification Index (PSI) to quantify the evolutionary maturity of the system as it collapses from high-latency intelligent reasoning (Slow Thinking) toward near-native execution (Fast Thinking). Validated through a reliability growth framework based on the Crow-AMSAA model, experimental results demonstrate that DarwinNet achieves anti-fragility by treating environmental anomalies as catalysts for autonomous evolution. Our findings confirm that DarwinNet can effectively converge toward physical performance limits while ensuring endogenous security through zero-trust sandboxing, providing a viable path for the next generation of intelligent, self-optimizing networks.",
+    "arxiv_id": "2604.01236",
+    "authors": [
+      "Jinliang Xu",
+      "Bingqi Li"
+    ],
+    "categories": [
+      "cs.NE",
+      "cs.AI",
+      "cs.DC",
+      "cs.MA",
+      "cs.NI"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2604.01236v3",
+    "primary_category": "cs.NE",
+    "published": "2026-03-27T01:49:19Z",
+    "query": "(cat:cs.NE AND all:\"network architecture\") AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2604.01236v3",
+    "title": "DarwinNet: An Evolutionary Network Architecture for Agent-Driven Protocol Synthesis",
+    "updated": "2026-04-14T09:07:49Z",
+    "versioned_id": "2604.01236v3"
+  },
+  "reference_sha256": "0366bd435988a9c79d27f78809e259d1a0a4aea568592b21b41626cf3e50492d",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 99,
+    "final_quality_rank": 67,
+    "final_quality_score": 0.72304,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 4.4619,
+      "category": "cs.NE",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.242796,
+      "component_bin": 5,
+      "connector_bin": 4,
+      "difference_hash": "62916fd27371766a73366b276320a4e26c686d40b448a590bf32613261300080",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 104,
+    "style_selection_score": 0.58734
+  },
+  "source_filename": "layered_framework.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "00d3ff611b2db01d17879a6ae4e5ababc395858c3d01bc14c90232e2b7879385",
+  "task_id": "task_0098",
+  "task_index": 98
+}

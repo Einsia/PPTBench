@@ -1,0 +1,6 @@
+# Convenience file for local development. Project metadata and optional
+# dependency groups live in pyproject.toml.
+-e .[dev]
+
+# Release curators additionally need OpenCV for native-image crop matching:
+# python -m pip install -e ".[maintainer]"

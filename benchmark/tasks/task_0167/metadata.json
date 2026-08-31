@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2402.03500",
+  "candidate_id": "2402-03500_pdf_843321aba7f45bd4",
+  "caption": "Illustration of the architecture of the double deep-Q network utilized by the reinforcement learning (RL) agent. The RL state s here describes the quantum circuit encoded as a tensor-based 3D grid whose axes correspond to the qubit index, depth (moment) and gate type. This information is processed through a multi-layer perceptron. For the output, the agent computes the policy, according to which the actions a (as gates) in state s are probabilistically chosen. A classical optimizer optimizes the circuit and, upon completion, provides a reward that guides the agent to select subsequent actions.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 290,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.999471,
+    "editable_component_count": 1888,
+    "embedded_image_count": 1,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.002511,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 347,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1889,
+    "text_count": 30,
+    "vector_drawing_count": 316,
+    "vector_primitive_count": 1858
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 211,
+    "full_pool_rank": 282,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 188,
+    "second_pass_review_rank": 211
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2402.03500v1",
+    "abstract": "The key challenge in the noisy intermediate-scale quantum era is finding useful circuits compatible with current device limitations. Variational quantum algorithms (VQAs) offer a potential solution by fixing the circuit architecture and optimizing individual gate parameters in an external loop. However, parameter optimization can become intractable, and the overall performance of the algorithm depends heavily on the initially chosen circuit architecture. Several quantum architecture search (QAS) algorithms have been developed to design useful circuit architectures automatically. In the case of parameter optimization alone, noise effects have been observed to dramatically influence the performance of the optimizer and final outcomes, which is a key line of study. However, the effects of noise on the architecture search, which could be just as critical, are poorly understood. This work addresses this gap by introducing a curriculum-based reinforcement learning QAS (CRLQAS) algorithm designed to tackle challenges in realistic VQA deployment. The algorithm incorporates (i) a 3D architecture encoding and restrictions on environment dynamics to explore the search space of possible circuits efficiently, (ii) an episode halting scheme to steer the agent to find shorter circuits, and (iii) a novel variant of simultaneous perturbation stochastic approximation as an optimizer for faster convergence. To facilitate studies, we developed an optimized simulator for our algorithm, significantly improving computational efficiency in simulating noisy quantum circuits by employing the Pauli-transfer matrix formalism in the Pauli-Liouville basis. Numerical experiments focusing on quantum chemistry tasks demonstrate that CRLQAS outperforms existing QAS algorithms across several metrics in both noiseless and noisy environments.",
+    "arxiv_id": "2402.03500",
+    "authors": [
+      "Yash J. Patel",
+      "Akash Kundu",
+      "Mateusz Ostaszewski",
+      "Xavier Bonet-Monroig",
+      "Vedran Dunjko",
+      "Onur Danaci"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2402.03500v1",
+    "primary_category": "quant-ph",
+    "published": "2024-02-05T20:33:00Z",
+    "query": "(cat:quant-ph AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2402.03500v1",
+    "title": "Curriculum reinforcement learning for quantum architecture search under hardware errors",
+    "updated": "2024-02-05T20:33:00Z",
+    "versioned_id": "2402.03500v1"
+  },
+  "reference_sha256": "288d453d98bd0316a9bfeff087fb4098fcc44df542588e273595d710f06ffeea",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 168,
+    "final_quality_rank": 215,
+    "final_quality_score": 0.665589,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 4.4415,
+      "category": "quant-ph",
+      "category_family": "quant-ph",
+      "color_bin": 2,
+      "colorfulness": 0.185024,
+      "component_bin": 3,
+      "connector_bin": 3,
+      "difference_hash": "ba102c08a848d926d9a6c999c99cc988c99bcd9cc998489c48d2c000185a9c5a",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 332,
+    "style_selection_score": 0.540646
+  },
+  "source_filename": "big_picture_v2_2024.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "843321aba7f45bd4248784092a17faff4ce0f6f2e9df2b531c2432ed8a2694cb",
+  "task_id": "task_0167",
+  "task_index": 167
+}

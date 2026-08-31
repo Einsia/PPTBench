@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2106.10806",
+  "candidate_id": "2106-10806_pdf_7aec04091f60539a",
+  "caption": "Illustration of D3Net architectures. (a) ACCDOA-based RD3Net, (b) ACCDOA-based TFR-D3Net (c) ACCDOA-based EINV2-D3Net (d) EINV2-based EINV2-D3Net. l, k, and B in D3 blocks denote the number of layers, growth rate, and number of blocks, respectively.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 193,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 958,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 423,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 958,
+    "text_count": 159,
+    "vector_drawing_count": 264,
+    "vector_primitive_count": 799
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 694,
+    "full_pool_rank": 1184,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 607,
+    "second_pass_review_rank": 694
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2106.10806v1",
+    "abstract": "This report describes our systems submitted to the DCASE2021 challenge task 3: sound event localization and detection (SELD) with directional interference. Our previous system based on activity-coupled Cartesian direction of arrival (ACCDOA) representation enables us to solve a SELD task with a single target. This ACCDOA-based system with efficient network architecture called RD3Net and data augmentation techniques outperformed state-of-the-art SELD systems in terms of localization and location-dependent detection. Using the ACCDOA-based system as a base, we perform model ensembles by averaging outputs of several systems trained with different conditions such as input features, training folds, and model architectures. We also use the event independent network v2 (EINV2)-based system to increase the diversity of the model ensembles. To generalize the models, we further propose impulse response simulation (IRS), which generates simulated multi-channel signals by convolving simulated room impulse responses (RIRs) with source signals extracted from the original dataset. Our systems significantly improved over the baseline system on the development dataset.",
+    "arxiv_id": "2106.10806",
+    "authors": [
+      "Kazuki Shimada",
+      "Naoya Takahashi",
+      "Yuichiro Koyama",
+      "Shusuke Takahashi",
+      "Emiru Tsunoo",
+      "Masafumi Takahashi",
+      "Yuki Mitsufuji"
+    ],
+    "categories": [
+      "eess.AS",
+      "cs.SD"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2106.10806v1",
+    "primary_category": "eess.AS",
+    "published": "2021-06-21T01:52:45Z",
+    "query": "(cat:eess.AS AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2106.10806v1",
+    "title": "Ensemble of ACCDOA- and EINV2-based Systems with D3Nets and Impulse Response Simulation for Sound Event Localization and Detection",
+    "updated": "2021-06-21T01:52:45Z",
+    "versioned_id": "2106.10806v1"
+  },
+  "reference_sha256": "cad4b51a40e7386e1e4eeb9d21c94f65dbc61d755f26a37cce5d3f7a0376d73d",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 224,
+    "final_quality_rank": 273,
+    "final_quality_score": 0.647381,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 3.2873,
+      "category": "eess.AS",
+      "category_family": "eess",
+      "color_bin": 3,
+      "colorfulness": 0.406953,
+      "component_bin": 3,
+      "connector_bin": 3,
+      "difference_hash": "b10cb69ab6dab69ab6dab69ab6dab69ab6dab6dab6dab65bb133b333b333b31c",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 361,
+    "style_selection_score": 0.53521
+  },
+  "source_filename": "D3Net_NetArch_v4.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "7aec04091f60539a16dc073c69ae32c8bd1202b4e51fe2c1732f75fdc8dbe0da",
+  "task_id": "task_0223",
+  "task_index": 223
+}

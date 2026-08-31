@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2205.07548",
+  "candidate_id": "2205-07548_pdf_affcf4868124bae9",
+  "caption": "Overview of our neuro-symbolic VQA pipeline.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 38,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 128,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 64,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 128,
+    "text_count": 14,
+    "vector_drawing_count": 50,
+    "vector_primitive_count": 114
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 151,
+    "full_pool_rank": 196,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 133,
+    "second_pass_review_rank": 151
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2205.07548v1",
+    "abstract": "We present a neuro-symbolic visual question answering (VQA) pipeline for CLEVR, which is a well-known dataset that consists of pictures showing scenes with objects and questions related to them. Our pipeline covers (i) training neural networks for object classification and bounding-box prediction of the CLEVR scenes, (ii) statistical analysis on the distribution of prediction values of the neural networks to determine a threshold for high-confidence predictions, and (iii) a translation of CLEVR questions and network predictions that pass confidence thresholds into logic programs so that we can compute the answers using an ASP solver. By exploiting choice rules, we consider deterministic and non-deterministic scene encodings. Our experiments show that the non-deterministic scene encoding achieves good results even if the neural networks are trained rather poorly in comparison with the deterministic approach. This is important for building robust VQA systems if network predictions are less-than perfect. Furthermore, we show that restricting non-determinism to reasonable choices allows for more efficient implementations in comparison with related neuro-symbolic approaches without loosing much accuracy. This work is under consideration for acceptance in TPLP.",
+    "arxiv_id": "2205.07548",
+    "authors": [
+      "Thomas Eiter",
+      "Nelson Higuera",
+      "Johannes Oetsch",
+      "Michael Pritz"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.CV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2205.07548v1",
+    "primary_category": "cs.AI",
+    "published": "2022-05-16T09:50:37Z",
+    "query": "(cat:cs.AI AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2205.07548v1",
+    "title": "A Neuro-Symbolic ASP Pipeline for Visual Question Answering",
+    "updated": "2022-05-16T09:50:37Z",
+    "versioned_id": "2205.07548v1"
+  },
+  "reference_sha256": "cde4de60ebaa3002516f31184077758ad4a892188a65d4e29d335a9807a22660",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 924,
+    "final_quality_rank": 831,
+    "final_quality_score": 0.508544,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 4.3931,
+      "category": "cs.AI",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.145983,
+      "component_bin": 0,
+      "connector_bin": 1,
+      "difference_hash": "000090c096c0908890c098c088e498c089c098c89b4899c98992864886c01080",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 963,
+    "style_selection_score": 0.428347
+  },
+  "source_filename": "iclp-flowchart.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "affcf4868124bae9a1dba39b280686da0105edfaa4fe1a268fbc32524a074d37",
+  "task_id": "task_0923",
+  "task_index": 923
+}

@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2505.07244",
+  "candidate_id": "2505-07244_pdf_7aed3be8e51e8a0b",
+  "caption": "Visualization of the two different types of neural DDE architectures non-augmented NDDE^k_ , N( X, R^q) and augmented NDDE^k_ , A( X, R^q). The initial data of the DDE is the constant function c_a _0 C, based on the output a = (x) of the first affine linear layer. The output of the neural DDE is the second affine linear layer applied to the time-T map y(0,c_a)(T) of the solution of the DDE.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 105,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1401,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 107,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1401,
+    "text_count": 1,
+    "vector_drawing_count": 106,
+    "vector_primitive_count": 1400
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 1187,
+    "full_pool_rank": 2231,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 1051,
+    "second_pass_review_rank": 1187
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2505.07244v2",
+    "abstract": "Neural Ordinary Differential Equations (Neural ODEs), which are the continuous-time analog of Residual Neural Networks (ResNets), have gained significant attention in recent years. Similarly, Neural Delay Differential Equations (Neural DDEs) can be interpreted as an infinite depth limit of Densely Connected Residual Neural Networks (DenseResNets). In contrast to traditional ResNet architectures, DenseResNets are feed-forward networks that allow for shortcut connections across all layers. These additional connections introduce memory in the network architecture, as typical in many modern architectures. In this work, we explore how the memory capacity in neural DDEs influences the universal approximation property. The key parameter for studying the memory capacity is the product $K \u03c4$ of the Lipschitz constant and the delay of the DDE. In the case of non-augmented architectures, where the network width is not larger than the input and output dimensions, neural ODEs and classical feed-forward neural networks cannot have the universal approximation property. We show that if the memory capacity $K\u03c4$ is sufficiently small, the dynamics of the neural DDE can be approximated by a neural ODE. Consequently, non-augmented neural DDEs with a small memory capacity also lack the universal approximation property. In contrast, if the memory capacity $K\u03c4$ is sufficiently large, we can establish the universal approximation property of neural DDEs for continuous functions. If the neural DDE architecture is augmented, we can expand the parameter regions in which universal approximation is possible. Overall, our results show that by increasing the memory capacity $K\u03c4$, the infinite-dimensional phase space of DDEs with positive delay $\u03c4>0$ is not sufficient to guarantee a direct jump transition to universal approximation, but only after a certain memory threshold, universal approximation holds.",
+    "arxiv_id": "2505.07244",
+    "authors": [
+      "Christian Kuehn",
+      "Sara-Viola Kuntz"
+    ],
+    "categories": [
+      "math.DS",
+      "cs.LG",
+      "cs.NE"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2505.07244v2",
+    "primary_category": "math.DS",
+    "published": "2025-05-12T05:36:39Z",
+    "query": "(cat:cs.NE AND all:\"network architecture\") AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2505.07244v2",
+    "title": "The Influence of the Memory Capacity of Neural DDEs on the Universal Approximation Property",
+    "updated": "2025-06-06T13:27:07Z",
+    "versioned_id": "2505.07244v2"
+  },
+  "reference_sha256": "55850c54b7a3f578350a90c7b0997d6225d99fd7df866c13d393eec35dc60746",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 642,
+    "final_quality_rank": 846,
+    "final_quality_score": 0.4987,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.4156,
+      "category": "math.DS",
+      "category_family": "math",
+      "color_bin": 0,
+      "colorfulness": 0.0,
+      "component_bin": 3,
+      "connector_bin": 2,
+      "difference_hash": "c004e93869398004e92ae98a8294e92aa92a880c6939a818a503a969ab4b0902",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 134,
+    "style_selection_score": 0.575273
+  },
+  "source_filename": "ndde_arch_augmented.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "7aed3be8e51e8a0b6143315217d0cd4be7525288cb81eca15de90291b4964a8a",
+  "task_id": "task_0641",
+  "task_index": 641
+}

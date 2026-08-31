@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2105.14669",
+  "candidate_id": "2105-14669_pdf_eb8181634d189439",
+  "caption": "This figure is a demonstration of DARTSformer. (a) shows an n-split (n=3) reversible network, which serves the backbone of our method. (b) shows the design of activations to enable differentiable architecture search. Each X_k and Y_k are in R^l d. The k-th pooling takes the concatenation of X_i>k and Y_i<k as the input, and outputs a tensor in R^l d. The operation search gives a weighted average of the outputs of each candidate operation.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 42,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 630,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 141,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 630,
+    "text_count": 68,
+    "vector_drawing_count": 73,
+    "vector_primitive_count": 562
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 628,
+    "full_pool_rank": 1032,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 548,
+    "second_pass_review_rank": 628
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2105.14669v1",
+    "abstract": "Differentiable architecture search (DARTS) is successfully applied in many vision tasks. However, directly using DARTS for Transformers is memory-intensive, which renders the search process infeasible. To this end, we propose a multi-split reversible network and combine it with DARTS. Specifically, we devise a backpropagation-with-reconstruction algorithm so that we only need to store the last layer's outputs. By relieving the memory burden for DARTS, it allows us to search with larger hidden size and more candidate operations. We evaluate the searched architecture on three sequence-to-sequence datasets, i.e., WMT'14 English-German, WMT'14 English-French, and WMT'14 English-Czech. Experimental results show that our network consistently outperforms standard Transformers across the tasks. Moreover, our method compares favorably with big-size Evolved Transformers, reducing search computation by an order of magnitude.",
+    "arxiv_id": "2105.14669",
+    "authors": [
+      "Yuekai Zhao",
+      "Li Dong",
+      "Yelong Shen",
+      "Zhihua Zhang",
+      "Furu Wei",
+      "Weizhu Chen"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CL"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2105.14669v1",
+    "primary_category": "cs.LG",
+    "published": "2021-05-31T01:52:36Z",
+    "query": "(cat:cs.CL AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2105.14669v1",
+    "title": "Memory-Efficient Differentiable Transformer Architecture Search",
+    "updated": "2021-05-31T01:52:36Z",
+    "versioned_id": "2105.14669v1"
+  },
+  "reference_sha256": "57d7846b80b5e26dfea15c69b644de7e8145cd447312ad4f1d9e1143eb3f3f8c",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 911,
+    "final_quality_rank": 763,
+    "final_quality_score": 0.53619,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.3636,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.178814,
+      "component_bin": 2,
+      "connector_bin": 1,
+      "difference_hash": "4861612d218d2de7c630d63018c618434a69696d218d296fa52ca53c394f1a43",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 851,
+    "style_selection_score": 0.433673
+  },
+  "source_filename": "Figure1.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "eb8181634d1894393d17a9841fbe584f720c2a9171803e8c3c37bbd05f78eea4",
+  "task_id": "task_0910",
+  "task_index": 910
+}

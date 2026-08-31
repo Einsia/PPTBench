@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2110.01961",
+  "candidate_id": "2110-01961_pdf_f61387744aae785d",
+  "caption": "The workflow behind the defect database. First, starting from C2DB suitable host materials are identified. With the ASR recipe for defect generation the defect supercells are set up and enter the ground state workflow for neutral systems. Afterwards, depending on the nature of the defect states inside the gap, charged calculations are conducted within the charged ground state workflow. If all charged calculations for a specific system are done (|q| < 3), physical results are collected using the data extraction workflow and thereafter saved in the defect database. The database is equipped with all necessary metadata, and together with various visualization scripts the browseable web application is created. The excited state workflow is executed for selected systems as discussed in Sec. .",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 60,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.992431,
+    "editable_component_count": 1049,
+    "embedded_image_count": 8,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.006636,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 200,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1057,
+    "text_count": 98,
+    "vector_drawing_count": 94,
+    "vector_primitive_count": 951
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 109,
+    "full_pool_rank": 140,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 96,
+    "second_pass_review_rank": 109
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2110.01961v1",
+    "abstract": "Atomically thin two-dimensional (2D) materials are ideal hosts of quantum defects as they offer easier control, manipulation and read-out of defect states compared to bulk systems. Here we introduce the Quantum Point Defect (QPOD) database of more than 1900 defect systems with 503 unique intrinsic point defects (vacancies and antisites) in 82 2D insulators. The Atomic Simulation Recipes (ASR) workflow framework was used to perform density functional theory (DFT) calculations of defect formation energies, charge transition levels, Fermi level positions, equilibrium defect and carrier concentrations, transition dipole moments, hyperfine coupling, and zero-field splitting. Excited states and photoluminescence spectra were calculated for selected high-spin defects. In this paper we describe the calculations and workflow behind the QPOD database, present an overview of its content, and discuss some general trends and correlations in the data. We analyse the degree of defect tolerance as well as intrinsic dopability of the host materials and identify promising defects for quantum technological applications. The database is freely available and can be browsed via a web-app interlinked with the Computational 2D Materials Database (C2DB).",
+    "arxiv_id": "2110.01961",
+    "authors": [
+      "Fabian Bertoldo",
+      "Sajid Ali",
+      "Simone Manti",
+      "Kristian S. Thygesen"
+    ],
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "physics.comp-ph"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2110.01961v1",
+    "primary_category": "cond-mat.mtrl-sci",
+    "published": "2021-10-05T11:46:55Z",
+    "query": "(cat:cond-mat.mtrl-sci AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2110.01961v1",
+    "title": "Quantum point defects in 2D materials: The QPOD database",
+    "updated": "2021-10-05T11:46:55Z",
+    "versioned_id": "2110.01961v1"
+  },
+  "reference_sha256": "1c1493078dd48196e60265609fb76ba128c2703dd6e0daf37d6b572a7000ba5a",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 146,
+    "final_quality_rank": 191,
+    "final_quality_score": 0.671238,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 1,
+      "aspect_ratio": 0.8885,
+      "category": "cond-mat.mtrl-sci",
+      "category_family": "cond-mat",
+      "color_bin": 4,
+      "colorfulness": 0.583992,
+      "component_bin": 3,
+      "connector_bin": 2,
+      "difference_hash": "9c9cbd5cbcdccc5c95c4d5c3d544d5549c318698e71cc71cc71cc718c296e296",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 141,
+    "style_selection_score": 0.580259
+  },
+  "source_filename": "3.1_workflow_v1.9.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "f61387744aae785de5c00e5c20af40516550440348723cc97b325222bdbfc297",
+  "task_id": "task_0145",
+  "task_index": 145
+}

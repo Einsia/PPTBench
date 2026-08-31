@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2502.20363",
+  "candidate_id": "2502-20363_pdf_13ce1d78e1fb9e51",
+  "caption": "BANNANE architecture overview. The input LECs, along with categorical embeddings for proton number (\\(Z\\)), neutron number (\\(N\\)), and fidelity level (\\(e_ max\\)), are processed through a Bayesian shared-latent layer and a multi-head attention mechanism. Fidelity-specific prediction heads refine the base prediction at higher \\(e_ max\\) for each fidelity ranging from 2, outputting mean (\\( _N^f\\)) and uncertainty (\\( _N^f\\)) estimates for nuclear observables.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 162,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 658,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 258,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 658,
+    "text_count": 96,
+    "vector_drawing_count": 162,
+    "vector_primitive_count": 562
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 409,
+    "full_pool_rank": 599,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 356,
+    "second_pass_review_rank": 409
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2502.20363v2",
+    "abstract": "We introduce a hierarchical framework that combines ab initio many-body calculations with a Bayesian neural network, developing emulators capable of accurately predicting nuclear properties across isotopic chains simultaneously and being applicable to different regions of the nuclear chart. We benchmark our developments using the oxygen isotopic chain, achieving accurate results for ground-state energies and nuclear charge radii, while providing robust uncertainty quantification. Our framework enables global sensitivity analysis of nuclear binding energies and charge radii with respect to the low-energy constants that describe the nuclear force.",
+    "arxiv_id": "2502.20363",
+    "authors": [
+      "Antoine Belley",
+      "Jose M. Munoz",
+      "Ronald F. Garcia Ruiz"
+    ],
+    "categories": [
+      "nucl-th",
+      "cs.LG"
+    ],
+    "doi": "10.1103/mvc3-qdtc",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2502.20363v2",
+    "primary_category": "nucl-th",
+    "published": "2025-02-27T18:34:56Z",
+    "query": "(cat:cs.LG AND all:framework) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2502.20363v2",
+    "title": "Global Framework for Emulation of Nuclear Calculations",
+    "updated": "2025-04-01T21:54:07Z",
+    "versioned_id": "2502.20363v2"
+  },
+  "reference_sha256": "a36e1615dc386f8b7579328ab67e362779fdeb5e49b42785f0e50ad39d98cf40",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 96,
+    "final_quality_rank": 121,
+    "final_quality_score": 0.696819,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.1176,
+      "category": "nucl-th",
+      "category_family": "nucl-th",
+      "color_bin": 4,
+      "colorfulness": 0.642644,
+      "component_bin": 2,
+      "connector_bin": 3,
+      "difference_hash": "975c9754177497749764d744e744e7cce7cce7d8e698e7ad634c630c03044000",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 5,
+    "style_selection_score": 0.703922
+  },
+  "source_filename": "bannane_diagram_deltas_shared_emax.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "13ce1d78e1fb9e51fa5786f38064d4b3d1f935e1ec9691386237f544e6e6c6cb",
+  "task_id": "task_0095",
+  "task_index": 95
+}

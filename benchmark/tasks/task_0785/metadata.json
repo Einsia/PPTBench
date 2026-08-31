@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2104.07899",
+  "candidate_id": "2104-07899_pdf_f0bdf9b207965843",
+  "caption": "general overview",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 57,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1611,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 96,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1611,
+    "text_count": 25,
+    "vector_drawing_count": 71,
+    "vector_primitive_count": 1586
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 318,
+    "full_pool_rank": 427,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 274,
+    "second_pass_review_rank": 318
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2104.07899v1",
+    "abstract": "Current Continuous Integration processes face significant intrinsic cybersecurity challenges. The idea is not only to solve and test formal or regulatory security requirements of source code but also to adhere to the same principles to the CI pipeline itself. This paper presents an overview of current security issues in CI workflow. It designs, develops, and deploys a new tool for the secure deployment of a container-based CI pipeline flow without slowing down release cycles. The tool, called \\SD for its Docker-based approach, is publicly available in GitHub. It implements a transparent application firewall based on a configuration mechanism avoiding issues in the CI workflow associated with intended or unintended container configurations. Integrated with other DevOps Engineers tools, it provides feedback from only those scenarios that match specific patterns, addressing future container security issues.",
+    "arxiv_id": "2104.07899",
+    "authors": [
+      "David Fern\u00e1ndez Gonz\u00e1lez",
+      "Francisco Javier Rodr\u00edguez Lera",
+      "Gonzalo Esteban",
+      "Camino Fern\u00e1ndez Llamas"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.SE"
+    ],
+    "doi": "10.1007/s42979-021-00939-4",
+    "journal_ref": "SN COMPUT. SCI. 3, 80 (2022)",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2104.07899v1",
+    "primary_category": "cs.CR",
+    "published": "2021-04-16T05:49:08Z",
+    "query": "(cat:cs.SE AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2104.07899v1",
+    "title": "SecDocker: Hardening the Continuous Integration Workflow",
+    "updated": "2021-04-16T05:49:08Z",
+    "versioned_id": "2104.07899v1"
+  },
+  "reference_sha256": "5eb9a8815335d612f3c61e4ef582bc0aa58883345a2e673eff0dc399d83d968c",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 786,
+    "final_quality_rank": 595,
+    "final_quality_score": 0.580576,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 3.1778,
+      "category": "cs.CR",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.119156,
+      "component_bin": 3,
+      "connector_bin": 1,
+      "difference_hash": "0a400b000b520b740b740b7c0b4c4cccd0c4db4c1b0c033c193c0d1c13120d00",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 651,
+    "style_selection_score": 0.482766
+  },
+  "source_filename": "solution-secdocker_overview.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "f0bdf9b207965843e3d6a868e58232aa9f87c8c771bfe1c659cef3bf19777deb",
+  "task_id": "task_0785",
+  "task_index": 785
+}

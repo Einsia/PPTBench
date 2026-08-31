@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2511.16932",
+  "candidate_id": "2511-16932_pdf_12a407dfc97810af",
+  "caption": "Overview of the economic epidemiological model framework.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 4,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.922222,
+    "editable_component_count": 83,
+    "embedded_image_count": 7,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.000926,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 52,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 90,
+    "text_count": 29,
+    "vector_drawing_count": 16,
+    "vector_primitive_count": 54
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 1118,
+    "full_pool_rank": 2043,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 989,
+    "second_pass_review_rank": 1118
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2511.16932v1",
+    "abstract": "Epidemic risk assessment poses inherent challenges, with traditional approaches often failing to balance health outcomes and economic constraints. This paper presents a data-driven decision support tool that models epidemiological dynamics and optimises vaccination strategies to control disease spread whilst minimising economic losses. The proposed economic-epidemiological framework comprises three phases: modelling, optimising, and analysing. First, a stochastic compartmental model captures epidemic dynamics. Second, an optimal control problem is formulated to derive vaccination strategies that minimise pandemic-related expenditure. Given the analytical intractability of epidemiological models, neural networks are employed to calibrate parameters and solve the high-dimensional control problem. The framework is demonstrated using COVID-19 data from Victoria, Australia, empirically deriving optimal vaccination strategies that simultaneously minimise disease incidence and governmental expenditure. By employing this three-phase framework, policymakers can adjust input values to reflect evolving transmission dynamics and continuously update strategies, thereby minimising aggregate costs, aiding future pandemic preparedness.",
+    "arxiv_id": "2511.16932",
+    "authors": [
+      "Chang Zhai",
+      "Ping Chen",
+      "Zhuo Jin",
+      "David Pitt"
+    ],
+    "categories": [
+      "stat.AP",
+      "econ.EM",
+      "math.OC"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2511.16932v1",
+    "primary_category": "stat.AP",
+    "published": "2025-11-21T03:56:03Z",
+    "query": "(cat:econ.EM AND all:framework) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2511.16932v1",
+    "title": "Optimising pandemic response through vaccination strategies using neural networks",
+    "updated": "2025-11-21T03:56:03Z",
+    "versioned_id": "2511.16932v1"
+  },
+  "reference_sha256": "33b9602c68e5380e69b41350c6aae9db334a55d638a136e0c1015b0cddb008fc",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 732,
+    "final_quality_rank": 978,
+    "final_quality_score": 0.380069,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.7778,
+      "category": "stat.AP",
+      "category_family": "stat",
+      "color_bin": 3,
+      "colorfulness": 0.324341,
+      "component_bin": 0,
+      "connector_bin": 0,
+      "difference_hash": "b264f060c4664426ee50ec5260284228fe06680660081b88dc16ce76ac008206",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 597,
+    "style_selection_score": 0.481029
+  },
+  "source_filename": "storyline.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "12a407dfc97810af294cb0841b4bad5de9133f0948c2b758f4fb51af07b2eae0",
+  "task_id": "task_0731",
+  "task_index": 731
+}

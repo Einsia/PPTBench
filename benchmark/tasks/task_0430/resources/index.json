@@ -1,0 +1,50 @@
+{
+  "assets": [
+    {
+      "file": "resource_0001.png",
+      "has_alpha": false,
+      "height": 962,
+      "sha256": "7cb3831c9d5716cc977d2f37f3a6f8da05076caa3622c14e001543df23c7537c",
+      "width": 944
+    },
+    {
+      "file": "resource_0002.png",
+      "has_alpha": false,
+      "height": 544,
+      "sha256": "e8de7447c25e99c5922d892a0f2a82ddc23e17dac30dd52a1c1162f2f36abe6f",
+      "width": 470
+    },
+    {
+      "file": "resource_0003.png",
+      "has_alpha": false,
+      "height": 890,
+      "sha256": "1205f876b701002d9d49e6ec244e9902fcec829b45e9e21474bf35776ca74f63",
+      "width": 890
+    },
+    {
+      "file": "resource_0004.png",
+      "has_alpha": true,
+      "height": 512,
+      "sha256": "2f98fbfaa4d1d543685f3b80e691b0970badb50e10800da109ff7792b4bf84b7",
+      "width": 512
+    },
+    {
+      "file": "resource_0005.png",
+      "has_alpha": false,
+      "height": 479,
+      "sha256": "be41dafcd978a6e4503e3c722f52e85c0cc8522979e25e47e8a82deb43ece96e",
+      "width": 456
+    }
+  ],
+  "candidate_id": "2606-00555_pdf_6f5a5050076fe3b8",
+  "extractor_version": "native-raster-v1",
+  "manual_qc": {
+    "maximum_resources": 12,
+    "removed_count": 1,
+    "status": "pass",
+    "version": "manual-resource-qc-v1"
+  },
+  "resource_count": 5,
+  "schema": "pptbench-task-resources-v1",
+  "task_id": "task_0430"
+}

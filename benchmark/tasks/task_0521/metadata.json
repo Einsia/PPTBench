@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2604.06319",
+  "candidate_id": "2604-06319_pdf_33e416b1bfac8513",
+  "caption": "Visual representation of the Q-CHESS error-aware heterogeneous quantum compilation pipeline. The diagram illustrates the mapping of software compilation passes to a heterogeneous hardware architecture. Color coding and shapes distinguish the different components: dark gray rounded rectangles denote the pipeline's input (Quantum Circuit) and final output (Machine Instructions); light purple boxes with dotted borders represent the software compilation passes, divided into logical front-end and error-reducing physical-level stages; and grayish-purple boxes with solid borders designate the distinct physical hardware modules (QPU, QSF, QB, QM, ASQPU). The pathways between software and hardware are defined by three arrow styles. Vertical down arrows indicate the sequential control flow of the compilation pipeline, advancing the input circuit through successive logical and physical optimization passes. Large chevrons denote the mapping from specific software compilation stages to their corresponding hardware targets. Finally, double arrows signify bi-directional physical interconnects and communication channels between the disparate hardware components.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 43,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 310,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 78,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 310,
+    "text_count": 33,
+    "vector_drawing_count": 45,
+    "vector_primitive_count": 277
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2604.06319v2",
+    "abstract": "Quantum computer hardware is predicted to scale over hundreds of thousands of qubits coming online in the next decade. Despite significant theoretical and experimental QEC progress, quantum computer architecture has suffered a significant gap, with bottom-up physical-device-driven challenges largely disconnected from top-down QEC-code-driven considerations. In this work, we unify these two views, presenting a complete heterogeneous quantum computing architecture incorporating task-specific hardware selection and QEC encoding, and agnostic to code selection or physical qubit parameters. Our approach further enables special-purpose processing modules, and includes a full microarchitecture for fault-tolerant implementation of interfaces between quantum processing units and quantum memories. Using this architecture and a new fully featured compiler functioning across subsystems at the scale of $1,000$ logical qubits, we schedule and orchestrate a variety of algorithms down to hardware-specific instructions; a detailed accounting of all operations reveals up to 551x reduction in algorithmic logical error and up to 138x reduction in physical-qubit overhead compared to a monolithic baseline architecture. We then consider the factorization of 2048-bit RSA-integers; using an experimentally demonstrated grid-coupling topology, factoring RSA-2048 requires 381k physical qubits and 9.2 days, which can be reduced to 4.9 days via addition of an algorithm-specific accelerator for the Adder subroutine (requiring 439k qubits). Finally, assuming hypothetical long-range coupling, implementing quantum memory using qLDPC codes reduces the resources required for factoring to just 190k qubits and under 10 days. These results and the tooling we have built indicate that heterogeneous quantum-computer architectures can deliver significant, verifiable benefits on realistic hardware.",
+    "arxiv_id": "2604.06319",
+    "authors": [
+      "Pranav S. Mundada",
+      "Aleksei Khindanov",
+      "Yulun Wang",
+      "Claire L. Edmunds",
+      "Paul Coote",
+      "Michael J. Biercuk",
+      "Yuval Baum",
+      "Michael Hush"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2604.06319v2",
+    "primary_category": "quant-ph",
+    "published": "2026-04-07T18:00:11Z",
+    "query": "(cat:quant-ph AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2604.06319v2",
+    "title": "Heterogeneous architectures enable a 138x reduction in physical qubit requirements for fault-tolerant quantum computing under detailed accounting",
+    "updated": "2026-04-13T18:52:34Z",
+    "versioned_id": "2604.06319v2"
+  },
+  "reference_sha256": "68350ca86519c03f883a1a8587356c5ac5d3e16698ec95c98f5027d37e33ed4a",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 522,
+    "final_quality_rank": 828,
+    "final_quality_score": 0.509114,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 1,
+      "aspect_ratio": 0.8108,
+      "category": "quant-ph",
+      "category_family": "quant-ph",
+      "color_bin": 0,
+      "colorfulness": 0.0,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "c900c9480000e1d8f1e09594fbd8f3d89194c9e2f2ccf3cce9c80188d800d888",
+      "raster_bin": 0
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "compiler_architecture.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "33e416b1bfac85137ca1d7102fae611dfcea4646105ff42cc211e8383b33d622",
+  "task_id": "task_0521",
+  "task_index": 521
+}

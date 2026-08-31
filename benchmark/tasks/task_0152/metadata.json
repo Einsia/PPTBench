@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2509.10334",
+  "candidate_id": "2509-10334_pdf_9062f552b0323efc",
+  "caption": "Inference pipeline of I-Segmenter, from the PyTorch model to ONNX, TensorRT, and TVM backends, with FP32 and INT support. All models are derived from PyTorch. To obtain quantized I-Segmenter in TensorRT, we consider the traditional path directly from FP32 ONNX, and from a pre-quantized ONNX export. The only backend to achieve true INT only inference down to kernel computations is TVM.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 82,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.999674,
+    "editable_component_count": 12248,
+    "embedded_image_count": 4,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.028529,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 109,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 12252,
+    "text_count": 23,
+    "vector_drawing_count": 82,
+    "vector_primitive_count": 12225
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 51,
+    "full_pool_rank": 62,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 48,
+    "second_pass_review_rank": 51
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2509.10334v2",
+    "abstract": "Vision Transformers (ViTs) have recently achieved strong results in semantic segmentation, yet their deployment on resource-constrained devices remains limited due to their high memory footprint and computational cost. Quantization offers an effective strategy to improve efficiency, but ViT-based segmentation models are notoriously fragile under low precision, as quantization errors accumulate across deep encoder-decoder pipelines. We introduce I-Segmenter, the first fully integer-only ViT segmentation framework. Building on the Segmenter architecture, I-Segmenter systematically replaces floating-point operations with integer-only counterparts. To further stabilize both training and inference, we propose $\u03bb$-ShiftGELU, a novel activation function that mitigates the limitations of uniform quantization in handling long-tailed activation distributions. In addition, we remove the L2 normalization layer and replace bilinear interpolation in the decoder with nearest neighbor upsampling, ensuring integer-only execution throughout the computational graph. Extensive experiments show that I-Segmenter achieves accuracy within a reasonable margin of its FP32 baseline (5.1 % on average), while reducing model size by up to 3.8x and enabling up to 1.2x faster inference with optimized runtimes. Notably, even in one-shot PTQ with a single calibration image, I-Segmenter delivers competitive accuracy, underscoring its practicality for real-world deployment.",
+    "arxiv_id": "2509.10334",
+    "authors": [
+      "Jordan Sassoon",
+      "Michal Szczepanski",
+      "Martyna Poreba"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2509.10334v2",
+    "primary_category": "cs.CV",
+    "published": "2025-09-12T15:14:19Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2509.10334v2",
+    "title": "I-Segmenter: Integer-Only Vision Transformer for Efficient Semantic Segmentation",
+    "updated": "2026-06-08T10:40:53Z",
+    "versioned_id": "2509.10334v2"
+  },
+  "reference_sha256": "7f39bdf149777292e891ff27cd12447d9d7c3405b32e87e446c470adac255fa8",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 153,
+    "final_quality_rank": 112,
+    "final_quality_score": 0.7,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.441,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.30085,
+      "component_bin": 6,
+      "connector_bin": 2,
+      "difference_hash": "44cc131d8cc4c4c4f472a6e6c242c2c216c672121212303030b046060e162e06",
+      "raster_bin": 2
+    },
+    "style_selection_rank": 174,
+    "style_selection_score": 0.565406
+  },
+  "source_filename": "Fig_Workflow.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "9062f552b0323efc477fbf28133be79739aacb1f0a278e0efe9b2b6f423601da",
+  "task_id": "task_0152",
+  "task_index": 152
+}

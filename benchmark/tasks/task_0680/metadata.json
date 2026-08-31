@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2604.24036",
+  "candidate_id": "2604-24036_pdf_2686a20152c0cdb0",
+  "caption": "Overall architecture of our approach (left) and detailed illustration of training Language-Guided Semantic Cues (right).",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 80,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.980296,
+    "editable_component_count": 995,
+    "embedded_image_count": 20,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.117808,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 250,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1015,
+    "text_count": 106,
+    "vector_drawing_count": 124,
+    "vector_primitive_count": 889
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2604.24036v2",
+    "abstract": "While Multimodal Large Language Models (MLLMs) have enhanced grounding capabilities in general scenes, their robustness in crowded scenes remains underexplored. Crowded scenes entail visual challenges (i.e., occlusion and small objects), which impair object semantics and degrade grounding performance. In contrast, language expressions are immune to such degradation and preserve object semantics. In light of these observations, we propose a novel method that overcomes such constraints by leveraging Language-Guided Semantic Cues (LGSCs). Specifically, our approach introduces a Semantic Cue Extractor (SCE) to derive semantic cues of objects from the visual pipeline of an MLLM. We then guide these cues using corresponding text embeddings to produce LGSCs as linguistic semantic priors. Subsequently, they are reintegrated into the original visual pipeline to refine object semantics. Extensive experiments and analyses demonstrate that incorporating LGSCs into an MLLM effectively improves grounding accuracy in crowded scenes.",
+    "arxiv_id": "2604.24036",
+    "authors": [
+      "Beomchan Park",
+      "Seongho Kim",
+      "Hyunjun Kim",
+      "Sungjune Park",
+      "Yong Man Ro"
+    ],
+    "categories": [
+      "cs.CV",
+      "eess.IV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2604.24036v2",
+    "primary_category": "cs.CV",
+    "published": "2026-04-27T04:42:03Z",
+    "query": "(cat:eess.IV AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2604.24036v2",
+    "title": "Robust Grounding with MLLMs Against Occlusion and Small Objects via Language-Guided Semantic Cues",
+    "updated": "2026-04-29T06:30:21Z",
+    "versioned_id": "2604.24036v2"
+  },
+  "reference_sha256": "53df59f62273e47373fb8585f2c2473bbfd6601f4109554b139d518698194f4d",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 681,
+    "final_quality_rank": 503,
+    "final_quality_score": 0.598181,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 3.6409,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.377868,
+      "component_bin": 3,
+      "connector_bin": 2,
+      "difference_hash": "59c08e50961092d34b13c7160f1c493cc474c19dd2ccc0d6d0d3d25592c64032",
+      "raster_bin": 3
+    },
+    "style_selection_rank": 565,
+    "style_selection_score": 0.489125
+  },
+  "source_filename": "method_crop.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "2686a20152c0cdb05c9f057c61d7a1f10f8b3f955e151046da3930469efd91dd",
+  "task_id": "task_0680",
+  "task_index": 680
+}

@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2408.11682",
+  "candidate_id": "2408-11682_pdf_2c0408725aa8875c",
+  "caption": "Flowchart of the online calibration algorithm for the focused plenoptic camera. Images are acquired from the camera and are first used to initialize the parameters. Next, a complete bundle adjustment for the plenoptic camera model is performed.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 54,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 347,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 93,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 347,
+    "text_count": 38,
+    "vector_drawing_count": 55,
+    "vector_primitive_count": 309
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 517,
+    "full_pool_rank": 799,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 450,
+    "second_pass_review_rank": 517
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2408.11682v1",
+    "abstract": "We propose LiFCal, a novel geometric online calibration pipeline for MLA-based light field cameras. LiFCal accurately determines model parameters from a moving camera sequence without precise calibration targets, integrating arbitrary metric scaling constraints. It optimizes intrinsic parameters of the light field camera model, the 3D coordinates of a sparse set of scene points and camera poses in a single bundle adjustment defined directly on micro image points. We show that LiFCal can reliably and repeatably calibrate a focused plenoptic camera using different input sequences, providing intrinsic camera parameters extremely close to state-of-the-art methods, while offering two main advantages: it can be applied in a target-free scene, and it is implemented online in a complete and continuous pipeline. Furthermore, we demonstrate the quality of the obtained camera parameters in downstream tasks like depth estimation and SLAM. Webpage: https://lifcal.github.io/",
+    "arxiv_id": "2408.11682",
+    "authors": [
+      "Aymeric Fleith",
+      "Doaa Ahmed",
+      "Daniel Cremers",
+      "Niclas Zeller"
+    ],
+    "categories": [
+      "eess.IV",
+      "cs.CV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2408.11682v1",
+    "primary_category": "eess.IV",
+    "published": "2024-08-21T15:04:49Z",
+    "query": "(cat:eess.IV AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2408.11682v1",
+    "title": "LiFCal: Online Light Field Camera Calibration via Bundle Adjustment",
+    "updated": "2024-08-21T15:04:49Z",
+    "versioned_id": "2408.11682v1"
+  },
+  "reference_sha256": "cf33128413ebbe25eb3a416229b259bf17ed97341094486b9325740e48466e8e",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 452,
+    "final_quality_rank": 558,
+    "final_quality_score": 0.588568,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.3842,
+      "category": "eess.IV",
+      "category_family": "eess",
+      "color_bin": 3,
+      "colorfulness": 0.432378,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "4d884c484c6964484ed94eab4eb34eeb264b099b5b411b6948995c986cd83c80",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 539,
+    "style_selection_score": 0.489546
+  },
+  "source_filename": "pipeline.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "2c0408725aa8875c288fb4351c513cf94accca29d51e47155a6103e82366c5e6",
+  "task_id": "task_0451",
+  "task_index": 451
+}

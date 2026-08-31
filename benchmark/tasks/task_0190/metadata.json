@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2507.02620",
+  "candidate_id": "2507-02620_pdf_7b1e807f2a0fd093",
+  "caption": "Overview of FlowSpec: An SD round includes a draft initialization step and multiple continuous SD steps. In draft initialization, segments of the initial generated draft tree are fed to V1 to fill all pipeline stages. Once the first subsequence completes all inference stages, the subsequent continuous SD steps begin. In each step, the current tree is pruned based on the accepted tokens, and then expanded to generate new draft tokens that serve as input for the next step.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 129,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 6045,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 339,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 6045,
+    "text_count": 157,
+    "vector_drawing_count": 182,
+    "vector_primitive_count": 5888
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 685,
+    "full_pool_rank": 1172,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 600,
+    "second_pass_review_rank": 685
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2507.02620v3",
+    "abstract": "Distributed inference serves as a promising approach to enabling the inference of large language models (LLMs) at the network edge. It distributes the inference process to multiple devices to ensure that the LLMs can fit into the device memory. Recent pipeline-based approaches have the potential to parallelize communication and computation, which helps reduce inference latency. However, the benefit diminishes when the inference request at the network edge is sparse, where pipeline is typically at low utilization. To enable efficient distributed LLM inference at the edge, we propose \\textbf{FlowSpec}, a pipeline-parallel tree-based speculative decoding framework. FlowSpec incorporates three key mechanisms to improve decoding efficiency: 1) score-based step-wise verification prioritizes more important draft tokens to bring earlier accepted tokens; 2) efficient draft management to prune invalid tokens while maintaining correct causal relationship during verification; 3) dynamic draft expansion strategies to supply high-quality speculative inputs. These techniques work in concert to enhance both pipeline utilization and speculative efficiency. We evaluate FlowSpec on a real-world testbed with other baselines. Experimental results demonstrate that our proposed framework significantly improves inference speed across diverse models and configurations, achieving speedup ratios 1.37$\\times$-1.73$\\times$ compared to baselines. Our code is publicly available at \\href{https://github.com/Leosang-lx/FlowSpec#}{https://github.com/Leosang-lx/FlowSpec\\#}.",
+    "arxiv_id": "2507.02620",
+    "authors": [
+      "Xing Liu",
+      "Lizhuo Luo",
+      "Ming Tang",
+      "Chao Huang",
+      "Xu Chen"
+    ],
+    "categories": [
+      "cs.DC",
+      "cs.AI"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2507.02620v3",
+    "primary_category": "cs.DC",
+    "published": "2025-07-03T13:47:42Z",
+    "query": "(cat:cs.AI AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2507.02620v3",
+    "title": "FlowSpec: Continuous Pipelined Speculative Decoding for Efficient Distributed LLM Inference",
+    "updated": "2026-01-10T13:43:14Z",
+    "versioned_id": "2507.02620v3"
+  },
+  "reference_sha256": "8f2763b532bdc3dbc0638910026ce5196285a00662b8d2de54f284fed749a0ec",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 191,
+    "final_quality_rank": 137,
+    "final_quality_score": 0.689229,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.4614,
+      "category": "cs.DC",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.435924,
+      "component_bin": 5,
+      "connector_bin": 2,
+      "difference_hash": "f1949b176992619819903d942d92cc00c86cde2ccaecc9e4896494cc8b648b44",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 206,
+    "style_selection_score": 0.553139
+  },
+  "source_filename": "system_overview_labeled.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "7b1e807f2a0fd093c23430458b01970759e123dbbc600efb332d0a3316b48f90",
+  "task_id": "task_0190",
+  "task_index": 190
+}

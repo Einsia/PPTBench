@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2201.07677",
+  "candidate_id": "2201-07677_pdf_6b654c0bb4a4ec92",
+  "caption": "Data processing pipeline for on-device machine learning development",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 27,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.998723,
+    "editable_component_count": 1564,
+    "embedded_image_count": 2,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.015472,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 64,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1566,
+    "text_count": 26,
+    "vector_drawing_count": 36,
+    "vector_primitive_count": 1538
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 474,
+    "full_pool_rank": 711,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 413,
+    "second_pass_review_rank": 474
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2201.07677v4",
+    "abstract": "Billions of distributed, heterogeneous and resource constrained IoT devices deploy on-device machine learning (ML) for private, fast and offline inference on personal data. On-device ML is highly context dependent, and sensitive to user, usage, hardware and environment attributes. This sensitivity and the propensity towards bias in ML makes it important to study bias in on-device settings. Our study is one of the first investigations of bias in this emerging domain, and lays important foundations for building fairer on-device ML. We apply a software engineering lens, investigating the propagation of bias through design choices in on-device ML workflows. We first identify reliability bias as a source of unfairness and propose a measure to quantify it. We then conduct empirical experiments for a keyword spotting task to show how complex and interacting technical design choices amplify and propagate reliability bias. Our results validate that design choices made during model training, like the sample rate and input feature type, and choices made to optimize models, like light-weight architectures, the pruning learning rate and pruning sparsity, can result in disparate predictive performance across male and female groups. Based on our findings we suggest low effort strategies for engineers to mitigate bias in on-device ML.",
+    "arxiv_id": "2201.07677",
+    "authors": [
+      "Wiebke Toussaint",
+      "Aaron Yi Ding",
+      "Fahim Kawsar",
+      "Akhil Mathur"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CY",
+      "cs.SE",
+      "eess.AS"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2201.07677v4",
+    "primary_category": "cs.LG",
+    "published": "2022-01-19T15:59:41Z",
+    "query": "(cat:cs.SE AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2201.07677v4",
+    "title": "Tiny, always-on and fragile: Bias propagation through design choices in on-device machine learning workflows",
+    "updated": "2023-03-17T13:52:27Z",
+    "versioned_id": "2201.07677v4"
+  },
+  "reference_sha256": "f9422f1260a6efef617004aabd36d4aea3942a108453a79d96da6d6862adc1d7",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 881,
+    "final_quality_rank": 745,
+    "final_quality_score": 0.54446,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 3.4387,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.134348,
+      "component_bin": 3,
+      "connector_bin": 1,
+      "difference_hash": "06a5259416219c361c369c369c368d6287328f520332ad422c31ac31ac31ac31",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 872,
+    "style_selection_score": 0.443245
+  },
+  "source_filename": "on_device_ml_pipeline.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "6b654c0bb4a4ec921479860f37a86a2dfd8fbc28d06e97b855dc7ab26ff0b94d",
+  "task_id": "task_0880",
+  "task_index": 880
+}

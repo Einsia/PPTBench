@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2111.07139",
+  "candidate_id": "2111-07139_pdf_b47c49b0008f2fe6",
+  "caption": "Illustration of the search space. (a) The macro-architecture consists of five stages, each stage having three intermediate searchable layers. For simplicity, only the structure of the stage 2 is shown. (b) Each layer contains different candidate self-attention blocks. (c) The structure of the non-local self-attention block. (d) The structure of the local multi-head self-attention block.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 79,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 277,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 146,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 277,
+    "text_count": 51,
+    "vector_drawing_count": 95,
+    "vector_primitive_count": 226
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 282,
+    "full_pool_rank": 378,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 247,
+    "second_pass_review_rank": 282
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2111.07139v1",
+    "abstract": "Self-attention architectures have emerged as a recent advancement for improving the performance of vision tasks. Manual determination of the architecture for self-attention networks relies on the experience of experts and cannot automatically adapt to various scenarios. Meanwhile, neural architecture search (NAS) has significantly advanced the automatic design of neural architectures. Thus, it is appropriate to consider using NAS methods to discover a better self-attention architecture automatically. However, it is challenging to directly use existing NAS methods to search attention networks because of the uniform cell-based search space and the lack of long-term content dependencies. To address this issue, we propose a full-attention based NAS method. More specifically, a stage-wise search space is constructed that allows various attention operations to be adopted for different layers of a network. To extract global features, a self-supervised search algorithm is proposed that uses context auto-regression to discover the full-attention architecture. To verify the efficacy of the proposed methods, we conducted extensive experiments on various learning tasks, including image classification, fine-grained image recognition, and zero-shot image retrieval. The empirical results show strong evidence that our method is capable of discovering high-performance, full-attention architectures while guaranteeing the required search efficiency.",
+    "arxiv_id": "2111.07139",
+    "authors": [
+      "Yuan Zhou",
+      "Haiyang Wang",
+      "Shuwei Huo",
+      "Boyu Wang"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2111.07139v1",
+    "primary_category": "cs.CV",
+    "published": "2021-11-13T16:07:37Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2111.07139v1",
+    "title": "Full-attention based Neural Architecture Search using Context Auto-regression",
+    "updated": "2021-11-13T16:07:37Z",
+    "versioned_id": "2111.07139v1"
+  },
+  "reference_sha256": "d51938c4019a669ea7a13553c5a4d595744adafcfa9bb79cbf1e4d301eac20d2",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 841,
+    "final_quality_rank": 700,
+    "final_quality_score": 0.557226,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.8643,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.1685,
+      "component_bin": 1,
+      "connector_bin": 2,
+      "difference_hash": "8c008c648e268c64ae6cae66a16ca16cae668e6c89648e368e648c0084648464",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 865,
+    "style_selection_score": 0.450384
+  },
+  "source_filename": "1.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "b47c49b0008f2fe61c30caaccd5636bc39dcf1e7c21418656383dcfc8cbf3f74",
+  "task_id": "task_0840",
+  "task_index": 840
+}

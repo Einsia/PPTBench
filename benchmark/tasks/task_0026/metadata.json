@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2506.16835",
+  "candidate_id": "2506-16835_pdf_f913b43f77ca4ac2",
+  "caption": "A simplified schematic diagram of the full HopDec operation.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 405,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1709,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 425,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1709,
+    "text_count": 14,
+    "vector_drawing_count": 411,
+    "vector_primitive_count": 1695
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 182,
+    "full_pool_rank": 243,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 160,
+    "second_pass_review_rank": 182
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2506.16835v2",
+    "abstract": "Chemically complex materials (CCMs) exhibit extraordinary functional properties but pose significant challenges for atomistic modeling due to their vast configurational heterogeneity. We introduce Hop-Decorate (HopDec), a high-throughput, Python-based atomistic workflow that automates the generation of defect transport data in CCMs. HopDec integrates accelerated molecular dynamics with a novel redecoration algorithm to efficiently sample migration pathways across chemically diverse local environments. The method constructs a defect-state graph in which transitions are associated with distributions of kinetic and thermodynamic parameters, enabling direct input into kinetic Monte Carlo and other mesoscale models. We demonstrate HopDec's capabilities through applications to a Cu-Ni alloy and the spinel oxide (Fe,Ni)Cr2O4, revealing simple predictive relationships in the former and complex migration behaviors driven by cation disorder in the latter. These results highlight HopDec's ability to extract physically meaningful trends and support reduced-order or machine-learned models of defect kinetics, bridging atomic-scale simulations and mesoscale predictions in complex material systems.",
+    "arxiv_id": "2506.16835",
+    "authors": [
+      "Peter Hatton",
+      "Blas Pedro Uberuaga",
+      "Danny Perez"
+    ],
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "physics.comp-ph"
+    ],
+    "doi": "10.1016/j.commatsci.2025.114165",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2506.16835v2",
+    "primary_category": "cond-mat.mtrl-sci",
+    "published": "2025-06-20T08:39:29Z",
+    "query": "(cat:cond-mat.mtrl-sci AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2506.16835v2",
+    "title": "Hop-Decorate: An Automated Atomistic Workflow for Generating Defect Transport Data in Chemically Complex Materials",
+    "updated": "2025-07-30T16:18:58Z",
+    "versioned_id": "2506.16835v2"
+  },
+  "reference_sha256": "b8d1a75d2d3fdcb2b43ce1493a2d78e20e6d7ab0972d578e392114707d050b79",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 27,
+    "final_quality_rank": 23,
+    "final_quality_score": 0.770604,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.3659,
+      "category": "cond-mat.mtrl-sci",
+      "category_family": "cond-mat",
+      "color_bin": 4,
+      "colorfulness": 0.651056,
+      "component_bin": 3,
+      "connector_bin": 4,
+      "difference_hash": "c801c041a611a041c6c04534ccc4ccc6dad4ccc6aceae5d4ecb48eacc2c1c8c9",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 41,
+    "style_selection_score": 0.647375
+  },
+  "source_filename": "HD_Schematic.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "f913b43f77ca4ac2bc05136b7a718218bdf76beffc7c3283e4497dc64c359e8f",
+  "task_id": "task_0026",
+  "task_index": 26
+}

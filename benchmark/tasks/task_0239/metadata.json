@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2202.01723",
+  "candidate_id": "2202-01723_pdf_46b8c7fef84b9a21",
+  "caption": "The workflow for the development and identification of a systems biological model.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 30,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 276,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 64,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 276,
+    "text_count": 33,
+    "vector_drawing_count": 31,
+    "vector_primitive_count": 243
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 470,
+    "full_pool_rank": 699,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 409,
+    "second_pass_review_rank": 470
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2202.01723v1",
+    "abstract": "The dynamics of systems biological processes are usually modeled by a system of ordinary differential equations (ODEs) with many unknown parameters that need to be inferred from noisy and sparse measurements. Here, we introduce systems-biology informed neural networks for parameter estimation by incorporating the system of ODEs into the neural networks. To complete the workflow of system identification, we also describe structural and practical identifiability analysis to analyze the identifiability of parameters. We use the ultridian endocrine model for glucose-insulin interaction as the example to demonstrate all these methods and their implementation.",
+    "arxiv_id": "2202.01723",
+    "authors": [
+      "Mitchell Daneker",
+      "Zhen Zhang",
+      "George Em Karniadakis",
+      "Lu Lu"
+    ],
+    "categories": [
+      "q-bio.QM",
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2202.01723v1",
+    "primary_category": "q-bio.QM",
+    "published": "2022-02-03T17:40:03Z",
+    "query": "(cat:q-bio.QM AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2202.01723v1",
+    "title": "Systems Biology: Identifiability analysis and parameter identification via systems-biology informed neural networks",
+    "updated": "2022-02-03T17:40:03Z",
+    "versioned_id": "2202.01723v1"
+  },
+  "reference_sha256": "642031c76929de4ac6a99d0bde4bc5a666a76403da5178d8f0b2a8975b6346ca",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 240,
+    "final_quality_rank": 302,
+    "final_quality_score": 0.638772,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.2174,
+      "category": "q-bio.QM",
+      "category_family": "q-bio",
+      "color_bin": 5,
+      "colorfulness": 0.812366,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "46446618ccc4eee4eeaecee4ccc4ccc8eee8aaa0eec8ce5841c0c9e0a5e4c0c4",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 261,
+    "style_selection_score": 0.547506
+  },
+  "source_filename": "the_workflow_for_the_development_and_identification_of_a_systems_biologicalmodel.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "46b8c7fef84b9a211275386a836b6f5c23b42bfd480537f7afe7a7de779827b8",
+  "task_id": "task_0239",
+  "task_index": 239
+}

@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2205.11276",
+  "candidate_id": "2205-11276_pdf_a593d7208114bb44",
+  "caption": "Schematic of the SNN model. Inputs x are encoded by an input encoder (IE). Memory induction: The encoded input z^s,enc activates some neurons in the key- and value-layer through weight matrices W^s,key and W^s,value, respectively. Since the key-neurons z^key and the value-neurons z^value are pre- and post-synaptic to the synapses in W^assoc, their activity induces weight changes there. Memory recall: The encoded input z^r,enc activates some neurons in the key-layer through the weight matrix W^r,key. This activity activates some neurons in the value-layer through synapses W^assoc, thus potentially recalling some information that has been stored previously. Finally, value neurons z^value project to a layer of output neurons o. To allow for a memory recall based on previously recalled information, activity in the value-layer is fed back to the key-layer with some delay d_feedback.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 190,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1678,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 197,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1678,
+    "text_count": 4,
+    "vector_drawing_count": 193,
+    "vector_primitive_count": 1674
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 563,
+    "full_pool_rank": 891,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 489,
+    "second_pass_review_rank": 563
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2205.11276v1",
+    "abstract": "Memory is a key component of biological neural systems that enables the retention of information over a huge range of temporal scales, ranging from hundreds of milliseconds up to years. While Hebbian plasticity is believed to play a pivotal role in biological memory, it has so far been analyzed mostly in the context of pattern completion and unsupervised learning. Here, we propose that Hebbian plasticity is fundamental for computations in biological neural systems. We introduce a novel spiking neural network architecture that is enriched by Hebbian synaptic plasticity. We show that Hebbian enrichment renders spiking neural networks surprisingly versatile in terms of their computational as well as learning capabilities. It improves their abilities for out-of-distribution generalization, one-shot learning, cross-modal generative association, language processing, and reward-based learning. As spiking neural networks are the basis for energy-efficient neuromorphic hardware, this also suggests that powerful cognitive neuromorphic systems can be build based on this principle.",
+    "arxiv_id": "2205.11276",
+    "authors": [
+      "Thomas Limbacher",
+      "Ozan \u00d6zdenizci",
+      "Robert Legenstein"
+    ],
+    "categories": [
+      "cs.NE",
+      "cs.LG",
+      "q-bio.NC"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2205.11276v1",
+    "primary_category": "cs.NE",
+    "published": "2022-05-23T12:48:37Z",
+    "query": "(cat:cs.NE AND all:\"network architecture\") AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2205.11276v1",
+    "title": "Memory-enriched computation and learning in spiking neural networks through Hebbian plasticity",
+    "updated": "2022-05-23T12:48:37Z",
+    "versioned_id": "2205.11276v1"
+  },
+  "reference_sha256": "efeee8429cc5bad408c5d0465a808f5e50553cc257c39de8884b9acc45b371eb",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 679,
+    "final_quality_rank": 502,
+    "final_quality_score": 0.598226,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.4487,
+      "category": "cs.NE",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.038751,
+      "component_bin": 3,
+      "connector_bin": 3,
+      "difference_hash": "030043040b00cb0c411cc9569e871f030f030e89496914c38710030003000100",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 685,
+    "style_selection_score": 0.492966
+  },
+  "source_filename": "figure-1.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "a593d7208114bb44de7b5a96bf740808c7095d36f10f67c27d5826efd06713b5",
+  "task_id": "task_0678",
+  "task_index": 678
+}

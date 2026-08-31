@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2409.06941",
+  "candidate_id": "2409-06941_pdf_7cb4d2d11b1d86ca",
+  "caption": "Architecture of .",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 8,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.992634,
+    "editable_component_count": 539,
+    "embedded_image_count": 4,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.036207,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 55,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 543,
+    "text_count": 21,
+    "vector_drawing_count": 30,
+    "vector_primitive_count": 518
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 424,
+    "full_pool_rank": 632,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 369,
+    "second_pass_review_rank": 424
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2409.06941v2",
+    "abstract": "The occurrence of bubbles in pipeline parallelism is an inherent limitation that can account for more than 40% of the large language model (LLM) training time and is one of the main reasons for the underutilization of GPU resources in LLM training. Harvesting these bubbles for GPU side tasks can increase resource utilization and reduce training costs but comes with challenges. First, because bubbles are discontinuous with various shapes, programming side tasks becomes difficult while requiring excessive engineering effort. Second, a side task can compete with pipeline training for GPU resources and incur significant overhead. To address these challenges, we propose FreeRide, a system designed to harvest bubbles in pipeline parallelism for side tasks. FreeRide provides programmers with interfaces to implement side tasks easily, manages bubbles and side tasks during pipeline training, and controls access to GPU resources by side tasks to reduce overhead. We demonstrate that FreeRide achieves 7.8% average cost savings with a negligible overhead of about 1% in training LLMs while serving model training, graph analytics, and image processing side tasks.",
+    "arxiv_id": "2409.06941",
+    "authors": [
+      "Jiashu Zhang",
+      "Zihan Pan",
+      "Molly",
+      "Xu",
+      "Khuzaima Daudjee",
+      "Sihang Liu"
+    ],
+    "categories": [
+      "cs.DC",
+      "cs.AI"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2409.06941v2",
+    "primary_category": "cs.DC",
+    "published": "2024-09-11T01:46:49Z",
+    "query": "(cat:cs.AI AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2409.06941v2",
+    "title": "FreeRide: Harvesting Bubbles in Pipeline Parallelism",
+    "updated": "2025-04-27T05:25:56Z",
+    "versioned_id": "2409.06941v2"
+  },
+  "reference_sha256": "f9f4be7fbca3742d6e32e0951cae89237a2ef404d408ca6f9b9329466d486595",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 990,
+    "final_quality_rank": 931,
+    "final_quality_score": 0.44489,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.3182,
+      "category": "cs.DC",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.0,
+      "component_bin": 2,
+      "connector_bin": 0,
+      "difference_hash": "bc8097860e00c4dcd55455553311b555dd54f1446044c544cd4ccccccccccccc",
+      "raster_bin": 2
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "implementation.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "7cb4d2d11b1d86ca57bc0e6af8aca1864abebc329e0ea056e67425496d5971b6",
+  "task_id": "task_0989",
+  "task_index": 989
+}

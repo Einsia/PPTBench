@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2203.09458",
+  "candidate_id": "2203-09458_pdf_7ea8ac1f1618764d",
+  "caption": "Flowchart to illustrate the general process of the PH pipeline, along with the subsequent steps necessary to reach a final PHOI list. Steps in orange bubbles represent steps of the process that require human involvement. Blue and red steps are fully automated, the latter of which comprise the iterative portion of the SATCHEL pipeline. Purple steps are vetting, which is described in Paper II.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 59,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 429,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 142,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 429,
+    "text_count": 72,
+    "vector_drawing_count": 70,
+    "vector_primitive_count": 357
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 593,
+    "full_pool_rank": 947,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 518,
+    "second_pass_review_rank": 593
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2203.09458v1",
+    "abstract": "Citizen science is a powerful analysis tool, capable of processing large amounts of data in a very short time. To bridge the gap between classification data products from web-based citizen science platforms to statistically robust signal significance scores, we present the Search Algorithm for Transits in the Citizen science Hunt for Exoplanets in Lightcurves (SATCHEL) pipeline. This open source, customizable pipeline was constructed to identify and assign significance estimates to one-dimensional features marked by volunteers. We describe the functional capabilities of the SATCHEL pipeline through application to features in photometric time-series data from the Kepler Space Telescope, classified by volunteers as part of the Planet Hunters citizen science project hosted on the Zooniverse platform. We evaluate the SATCHEL pipeline's overall performance based on recovery of known signals (both simulations and signals corresponding to official Kepler Objects of Interest) and relative contamination by spurious features. We find that, for a range of pipeline hyperparameters and with a reasonable score cutoff, SATCHEL is able to recover volunteer identifications of over 98% of signals from simulations corresponding to exoplanets $>2~R_\\oplus$ in radius and about 85% of signals corresponding to the same size range of KOIs. SATCHEL is transparently adaptable to other citizen science classification datasets, and available on GitHub.",
+    "arxiv_id": "2203.09458",
+    "authors": [
+      "Emily Safron",
+      "Tabetha Boyajian",
+      "Nora Eisner"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.EP"
+    ],
+    "doi": "10.1093/mnras/stac787",
+    "journal_ref": "Monthly Notices of the Royal Astronomical Society, 2022; stac787",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2203.09458v1",
+    "primary_category": "astro-ph.IM",
+    "published": "2022-03-17T17:19:11Z",
+    "query": "(cat:astro-ph.IM AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2203.09458v1",
+    "title": "The SATCHEL pipeline: A general tool for data classified through citizen science",
+    "updated": "2022-03-17T17:19:11Z",
+    "versioned_id": "2203.09458v1"
+  },
+  "reference_sha256": "d62679a338e64528ab10c777c2469ea0440b9f2c65480067fc4e7b3fcbd700af",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 262,
+    "final_quality_rank": 324,
+    "final_quality_score": 0.634006,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 2,
+      "aspect_ratio": 0.9472,
+      "category": "astro-ph.IM",
+      "category_family": "astro-ph",
+      "color_bin": 4,
+      "colorfulness": 0.639842,
+      "component_bin": 2,
+      "connector_bin": 1,
+      "difference_hash": "c1f0ce31cc4cc0c4ce4ccc6c3664b666cc64cc2e9c648c6261a0619ce061d224",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 325,
+    "style_selection_score": 0.533135
+  },
+  "source_filename": "flowchart-proper.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "7ea8ac1f1618764d6608869cb38f12dfe0934a55135ec10271aa50c796f77eed",
+  "task_id": "task_0261",
+  "task_index": 261
+}

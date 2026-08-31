@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2204.02152",
+  "candidate_id": "2204-02152_pdf_cd240f447356f4b4",
+  "caption": "Architecture of the proposed strong learner.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 27,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.996198,
+    "editable_component_count": 262,
+    "embedded_image_count": 1,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.010581,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 81,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 263,
+    "text_count": 23,
+    "vector_drawing_count": 57,
+    "vector_primitive_count": 239
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 705,
+    "full_pool_rank": 1209,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 616,
+    "second_pass_review_rank": 705
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2204.02152v2",
+    "abstract": "We present the UTokyo-SaruLab mean opinion score (MOS) prediction system submitted to VoiceMOS Challenge 2022. The challenge is to predict the MOS values of speech samples collected from previous Blizzard Challenges and Voice Conversion Challenges for two tracks: a main track for in-domain prediction and an out-of-domain (OOD) track for which there is less labeled data from different listening tests. Our system is based on ensemble learning of strong and weak learners. Strong learners incorporate several improvements to the previous fine-tuning models of self-supervised learning (SSL) models, while weak learners use basic machine-learning methods to predict scores from SSL features. In the Challenge, our system had the highest score on several metrics for both the main and OOD tracks. In addition, we conducted ablation studies to investigate the effectiveness of our proposed methods.",
+    "arxiv_id": "2204.02152",
+    "authors": [
+      "Takaaki Saeki",
+      "Detai Xin",
+      "Wataru Nakata",
+      "Tomoki Koriyama",
+      "Shinnosuke Takamichi",
+      "Hiroshi Saruwatari"
+    ],
+    "categories": [
+      "cs.SD",
+      "eess.AS"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2204.02152v2",
+    "primary_category": "cs.SD",
+    "published": "2022-04-05T12:23:51Z",
+    "query": "(cat:eess.AS AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2204.02152v2",
+    "title": "UTMOS: UTokyo-SaruLab System for VoiceMOS Challenge 2022",
+    "updated": "2022-06-29T13:42:05Z",
+    "versioned_id": "2204.02152v2"
+  },
+  "reference_sha256": "d8f4abae8633bba4f2ef172b95aa97efe9ae6077ca0bcfe8c9c37bdd1af2737b",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 964,
+    "final_quality_rank": 882,
+    "final_quality_score": 0.481091,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.1527,
+      "category": "cs.SD",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.141531,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "5800580018b2d832dcb2a8aaa4eab91abcaa64aa6caa98989c38189c98009c08",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 956,
+    "style_selection_score": 0.415903
+  },
+  "source_filename": "strong.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "cd240f447356f4b4e9bde719f200a30369e24d64de515c46a212123ed965ac9e",
+  "task_id": "task_0963",
+  "task_index": 963
+}

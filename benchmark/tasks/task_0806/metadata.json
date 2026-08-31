@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2403.01139",
+  "candidate_id": "2403-01139_pdf_458db4e13b9dcf01",
+  "caption": "Our data generation pipeline. We generate analogy candidates, then collect human annotations on a random sample to be used as few-shot for an auto-labeling model. We run the model to label candidates at scale. We randomly split the data into silver-set and gold-set, which is validated by humans. In addition to positives (analogies), we include random target paragraphs (simple negatives), and generate distractors (challenging negatives).",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 22,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.983051,
+    "editable_component_count": 116,
+    "embedded_image_count": 2,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.002885,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 78,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 118,
+    "text_count": 35,
+    "vector_drawing_count": 41,
+    "vector_primitive_count": 81
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 807,
+    "full_pool_rank": 1373,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 703,
+    "second_pass_review_rank": 807
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2403.01139v4",
+    "abstract": "Analogy-making is central to human cognition, allowing us to adapt to novel situations -- an ability that current AI systems still lack. Most analogy datasets today focus on simple analogies (e.g., word analogies); datasets including complex types of analogies are typically manually curated and very small. We believe that this holds back progress in computational analogy. In this work, we design a data generation pipeline, ParallelPARC (Parallel Paragraph Creator) leveraging state-of-the-art Large Language Models (LLMs) to create complex, paragraph-based analogies, as well as distractors, both simple and challenging. We demonstrate our pipeline and create ProPara-Logy, a dataset of analogies between scientific processes. We publish a gold-set, validated by humans, and a silver-set, generated automatically. We test LLMs' and humans' analogy recognition in binary and multiple-choice settings, and found that humans outperform the best models (~13% gap) after a light supervision. We demonstrate that our silver-set is useful for training models. Lastly, we show challenging distractors confuse LLMs, but not humans. We hope our pipeline will encourage research in this emerging field.",
+    "arxiv_id": "2403.01139",
+    "authors": [
+      "Oren Sultan",
+      "Yonatan Bitton",
+      "Ron Yosef",
+      "Dafna Shahaf"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2403.01139v4",
+    "primary_category": "cs.CL",
+    "published": "2024-03-02T08:53:40Z",
+    "query": "(cat:cs.AI AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2403.01139v4",
+    "title": "ParallelPARC: A Scalable Pipeline for Generating Natural-Language Analogies",
+    "updated": "2024-05-14T16:41:24Z",
+    "versioned_id": "2403.01139v4"
+  },
+  "reference_sha256": "e5dd84a7545390bfa657dab6be00c7e6694944a70c515016240ba31019ac49a8",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 807,
+    "final_quality_rank": 637,
+    "final_quality_score": 0.573634,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 3.0705,
+      "category": "cs.CL",
+      "category_family": "cs",
+      "color_bin": 5,
+      "colorfulness": 0.778106,
+      "component_bin": 0,
+      "connector_bin": 1,
+      "difference_hash": "000c332472516058f8d8cccad6a696a09680c6a6d748d358011a433a05b4000c",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 653,
+    "style_selection_score": 0.485729
+  },
+  "source_filename": "MainFigureProParaLogy.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "458db4e13b9dcf01fcf9494b10a33143811d3188b07ef72aefb7aa9ed02f9b5a",
+  "task_id": "task_0806",
+  "task_index": 806
+}

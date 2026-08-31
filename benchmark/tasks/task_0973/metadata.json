@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2109.15273",
+  "candidate_id": "2109-15273_pdf_aa4322636f1d54c4",
+  "caption": "Motivating example: the architecture of (a) normal and (b) reduction cells discovered by our method. We observe that cells are dominated by 5x5 separable convolutions, which may not be well recommended in NAS literature. However, its accuracy can be improved by 0.5% by suited data augmentation policy, achieving 97.91% on CIFAR-10. Comparison of the default augmentation policies and our searched ones is reported in Table .",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 24,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 86,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 47,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 86,
+    "text_count": 15,
+    "vector_drawing_count": 32,
+    "vector_primitive_count": 71
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 582,
+    "full_pool_rank": 933,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 507,
+    "second_pass_review_rank": 582
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2109.15273v2",
+    "abstract": "Neural architecture search (NAS) has been an active direction of automatic machine learning (Auto-ML), aiming to explore efficient network structures. The searched architecture is evaluated by training on datasets with fixed data augmentation policies. However, recent works on auto-augmentation show that the suited augmentation policies can vary over different structures. Therefore, this work considers the possible coupling between neural architectures and data augmentation and proposes an effective algorithm jointly searching for them. Specifically, 1) for the NAS task, we adopt a single-path based differentiable method with Gumbel-softmax reparameterization strategy due to its memory efficiency; 2) for the auto-augmentation task, we introduce a novel search method based on policy gradient algorithm, which can significantly reduce the computation complexity. Our approach achieves 97.91% accuracy on CIFAR-10 and 76.6% Top-1 accuracy on ImageNet dataset, showing the outstanding performance of our search algorithm.",
+    "arxiv_id": "2109.15273",
+    "authors": [
+      "Xiaoxing Wang",
+      "Xiangxiang Chu",
+      "Junchi Yan",
+      "Xiaokang Yang"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2109.15273v2",
+    "primary_category": "cs.LG",
+    "published": "2021-09-30T17:15:17Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2109.15273v2",
+    "title": "DAAS: Differentiable Architecture and Augmentation Policy Search",
+    "updated": "2022-01-28T14:56:56Z",
+    "versioned_id": "2109.15273v2"
+  },
+  "reference_sha256": "fc885e1899a7acdbb64ed010a797a9c0374654a399f3aebf6c4f2a245bdfc845",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 974,
+    "final_quality_rank": 899,
+    "final_quality_score": 0.468219,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 2,
+      "aspect_ratio": 0.972,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.196738,
+      "component_bin": 0,
+      "connector_bin": 1,
+      "difference_hash": "0e4013002c00ecc84588e68078c92e8a6d8ad6c940c06488efc02c403e201c00",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 997,
+    "style_selection_score": 0.397851
+  },
+  "source_filename": "tmp_normal.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "aa4322636f1d54c446f5c0b1472b96bf62ddc32cfbd6af3c9cfb109287adc5c7",
+  "task_id": "task_0973",
+  "task_index": 973
+}

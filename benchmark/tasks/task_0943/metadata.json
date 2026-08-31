@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2604.27148",
+  "candidate_id": "2604-27148_pdf_ceda4ea0dc81aa16",
+  "caption": "Overview of the LLM-based CI repair pipeline used for evaluation in , comprising CI log analysis, fault localization, and patch generation, with repair correctness validated via full CI re-execution.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 31,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.981187,
+    "editable_component_count": 678,
+    "embedded_image_count": 13,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.004427,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 107,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 691,
+    "text_count": 29,
+    "vector_drawing_count": 65,
+    "vector_primitive_count": 649
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 301,
+    "full_pool_rank": 402,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 261,
+    "second_pass_review_rank": 301
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2604.27148v2",
+    "abstract": "Continuous Integration (CI) enforces repository-level correctness through multi-stage workflows and is central to modern software development, yet diagnosing and repairing CI failures remains challenging. Unlike traditional program repair, CI failures frequently involve non-code artifacts, environment and dependency issues, noisy execution logs, and workflow-level constraints. Existing program repair benchmarks fall short in this setting: they are largely test-centric, restrict repairs to source code, assume fixed execution environments, and evaluate under simplified CI workflows that do not reflect real repository-level validation. We introduce CI-Repair-Bench, a benchmark for CI-verified, repository-level program repair constructed from real GitHub Actions executions. It contains 567 CI failure instances from 103 repositories and evaluates repair correctness exclusively through full CI re-execution under original workflows. Failures are categorized into 12 CI error types, enabling fine-grained, error-type-aware evaluation. To demonstrate benchmark usage, we include a reference CI repair workflow that analyzes CI logs to localize faults and generate candidate patches. Empirical results show that automated repair is most effective for localized, tool-enforced failures such as formatting and linting, while environment, dependency, and configuration-related failures remain challenging; the best-performing LLM achieves an 18.9% repair success rate. CI-Repair-Bench provides a realistic evaluation foundation for advancing research on CI-native automated program repair.",
+    "arxiv_id": "2604.27148",
+    "authors": [
+      "Rabeya Khatun Muna",
+      "Md Nakhla Rafi",
+      "Tse-Hsun",
+      "Chen"
+    ],
+    "categories": [
+      "cs.SE"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2604.27148v2",
+    "primary_category": "cs.SE",
+    "published": "2026-04-29T19:57:36Z",
+    "query": "(cat:cs.SE AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2604.27148v2",
+    "title": "CI-Repair-Bench: A Repository-Aware Benchmark for Automated Patch Validation via CI Workflows",
+    "updated": "2026-05-04T21:16:30Z",
+    "versioned_id": "2604.27148v2"
+  },
+  "reference_sha256": "3890506a6537ba6ccc0b9d4ddc64055bbe1a699169d3596d4bb5000760309e00",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 944,
+    "final_quality_rank": 822,
+    "final_quality_score": 0.510557,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.2573,
+      "category": "cs.SE",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.006813,
+      "component_bin": 2,
+      "connector_bin": 1,
+      "difference_hash": "000021080000f38cf39cf19c6b9ca4a4ab8c338cf398f38ad2acd18c739c318c",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 930,
+    "style_selection_score": 0.424183
+  },
+  "source_filename": "ci_repair_system.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "ceda4ea0dc81aa166bec2d6e953136d2695419a1561d08783922baa504ca8818",
+  "task_id": "task_0943",
+  "task_index": 943
+}

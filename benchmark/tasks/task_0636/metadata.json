@@ -1,0 +1,88 @@
+{
+  "arxiv_id": "2207.12185",
+  "candidate_id": "2207-12185_pdf_cb8f28ac651bab7c",
+  "caption": "Architecture of our proposed method. Output of each module is post-processed by subsequent PPN. Each PPN has InAdapter to convert output label o of module into multi-binary vector v, MLP to post-process multi-binary vector into v' on basis of v and state s_ All of all modules, and OutAdapter to restore v' to output label o'.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 104,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 3651,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 118,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 3651,
+    "text_count": 0,
+    "vector_drawing_count": 118,
+    "vector_primitive_count": 3651
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 948,
+    "full_pool_rank": 1652,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 835,
+    "second_pass_review_rank": 948
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2207.12185v1",
+    "abstract": "Many studies have proposed methods for optimizing the dialogue performance of an entire pipeline task-oriented dialogue system by jointly training modules in the system using reinforcement learning. However, these methods are limited in that they can only be applied to modules implemented using trainable neural-based methods. To solve this problem, we propose a method for optimizing a pipeline system composed of modules implemented with arbitrary methods for dialogue performance. With our method, neural-based components called post-processing networks (PPNs) are installed inside such a system to post-process the output of each module. All PPNs are updated to improve the overall dialogue performance of the system by using reinforcement learning, not necessitating each module to be differentiable. Through dialogue simulation and human evaluation on the MultiWOZ dataset, we show that our method can improve the dialogue performance of pipeline systems consisting of various modules.",
+    "arxiv_id": "2207.12185",
+    "authors": [
+      "Atsumoto Ohashi",
+      "Ryuichiro Higashinaka"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2207.12185v1",
+    "primary_category": "cs.CL",
+    "published": "2022-07-25T13:22:40Z",
+    "query": "(cat:cs.AI AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2207.12185v1",
+    "title": "Post-processing Networks: Method for Optimizing Pipeline Task-oriented Dialogue Systems using Reinforcement Learning",
+    "updated": "2022-07-25T13:22:40Z",
+    "versioned_id": "2207.12185v1"
+  },
+  "reference_sha256": "8089fe8e1f9c0725a4e45e8ea1beab62fb3a9ce2d873eb422897e5afb87f27d9",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 637,
+    "final_quality_rank": 471,
+    "final_quality_score": 0.60361,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 5.2112,
+      "category": "cs.CL",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.137599,
+      "component_bin": 4,
+      "connector_bin": 2,
+      "difference_hash": "2d001d022d80aa03d32a959296131e821e121492143214b23233a334a13610b3",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 616,
+    "style_selection_score": 0.486947
+  },
+  "source_filename": "ppn_architecture.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "cb8f28ac651bab7c815ef14c3607c8dc295337e32fa55e3fd1e8ca2f7c3725fc",
+  "task_id": "task_0636",
+  "task_index": 636
+}

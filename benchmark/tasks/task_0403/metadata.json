@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2507.05739",
+  "candidate_id": "2507-05739_pdf_20d5c8543e2353c4",
+  "caption": "A flowchart describing the pipeline structure.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 122,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1096,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 225,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1096,
+    "text_count": 87,
+    "vector_drawing_count": 138,
+    "vector_primitive_count": 1009
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2507.05739v2",
+    "abstract": "In this paper, we present the development and the results of a new search pipeline for short gamma-ray bursts (sGRBs) in the publicly available data from the Gamma-Ray Burst Monitor (GBM) on board the Fermi satellite. This pipeline uses rigorous statistical methods that are designed to maximize the information extracted from the Fermi/GBM detectors. Our approach differs substantially from existing search efforts in several aspects: The pipeline includes the construction of template banks, Poisson matched filtering, background estimation, background misestimation correction, automatic routines to filter contaminants, statistical estimation of the signal location and a quantitative estimator of the signal probability to be of a cosmological, terrestrial, or solar origin. Our analysis also includes operating the pipeline on \"time-slided\" copies of the data, which allows exact significance assessment and $p_{\\text{astro}}$ computation, akin to the state-of-the-art gravitational waves (GW) data analysis pipelines. Depending on the spectral properties of the bursts, our pipeline achieves a signal-to-noise ratio (SNR) improvement by a factor of 2 to 15 over the onboard GBM triggering algorithm. This enhancement increases the detectable volume for sGRBs and results in an approximate 50% increase in sGRB detections in the 2014 GBM dataset. As a further consequence of the sensitivity increase, we detect hundreds of soft gamma-ray flares of galactic origin. This improved sensitivity enhances the chances of detecting fainter, off-axis GRBs that would likely fall below the standard triggering thresholds. Applying this pipeline to the full GBM archive is expected to expand further the joint sGRB-GW detection volume.",
+    "arxiv_id": "2507.05739",
+    "authors": [
+      "Ariel Perera",
+      "Barak Zackay",
+      "Tejaswi Venumadhav"
+    ],
+    "categories": [
+      "astro-ph.HE",
+      "astro-ph.IM"
+    ],
+    "doi": "10.3847/1538-4365/ae0189",
+    "journal_ref": "ApJS, 281, 4 (2025)",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2507.05739v2",
+    "primary_category": "astro-ph.HE",
+    "published": "2025-07-08T07:37:10Z",
+    "query": "(cat:astro-ph.IM AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2507.05739v2",
+    "title": "A New Search Pipeline for Short Gamma Ray Bursts in Fermi/GBM Data -- A 50% Increase in the Number of Detections",
+    "updated": "2025-08-28T09:09:33Z",
+    "versioned_id": "2507.05739v2"
+  },
+  "reference_sha256": "560ace074fb12a073342835742fca4c8ae3e976686d6dd9f8d99722fea53cf1f",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 404,
+    "final_quality_rank": 496,
+    "final_quality_score": 0.598718,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 2,
+      "aspect_ratio": 0.9785,
+      "category": "astro-ph.HE",
+      "category_family": "astro-ph",
+      "color_bin": 1,
+      "colorfulness": 0.113954,
+      "component_bin": 3,
+      "connector_bin": 2,
+      "difference_hash": "068106c106b1e691e2318250a764e44cf64c66c87e8e0ca407a8c1a9c1e1c061",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 222,
+    "style_selection_score": 0.549957
+  },
+  "source_filename": "pipeflow.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "20d5c8543e2353c4e00e1e22db1b956b797a56d7f39e875ff1e6f2ba45afceab",
+  "task_id": "task_0403",
+  "task_index": 403
+}

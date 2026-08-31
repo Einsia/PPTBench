@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2307.08065",
+  "candidate_id": "2307-08065_pdf_8a3102cf3471ccdc",
+  "caption": "The ViG supernet implementation for MaGNAS co-search framework. The supernet comprises D ViG search super blocks, each of which constitutes a sequence of d_i Grapher and FFN computing modules. Architectural search parameters characterizing A subspace are highlighted in red and detailed in the text.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 188,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.982132,
+    "editable_component_count": 1649,
+    "embedded_image_count": 30,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.020213,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 268,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1679,
+    "text_count": 28,
+    "vector_drawing_count": 210,
+    "vector_primitive_count": 1621
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2307.08065v1",
+    "abstract": "Graph Neural Networks (GNNs) are becoming increasingly popular for vision-based applications due to their intrinsic capacity in modeling structural and contextual relations between various parts of an image frame. On another front, the rising popularity of deep vision-based applications at the edge has been facilitated by the recent advancements in heterogeneous multi-processor Systems on Chips (MPSoCs) that enable inference under real-time, stringent execution requirements. By extension, GNNs employed for vision-based applications must adhere to the same execution requirements. Yet contrary to typical deep neural networks, the irregular flow of graph learning operations poses a challenge to running GNNs on such heterogeneous MPSoC platforms. In this paper, we propose a novel unified design-mapping approach for efficient processing of vision GNN workloads on heterogeneous MPSoC platforms. Particularly, we develop MaGNAS, a mapping-aware Graph Neural Architecture Search framework. MaGNAS proposes a GNN architectural design space coupled with prospective mapping options on a heterogeneous SoC to identify model architectures that maximize on-device resource efficiency. To achieve this, MaGNAS employs a two-tier evolutionary search to identify optimal GNNs and mapping pairings that yield the best performance trade-offs. Through designing a supernet derived from the recent Vision GNN (ViG) architecture, we conducted experiments on four (04) state-of-the-art vision datasets using both (i) a real hardware SoC platform (NVIDIA Xavier AGX) and (ii) a performance/cost model simulator for DNN accelerators. Our experimental results demonstrate that MaGNAS is able to provide 1.57x latency speedup and is 3.38x more energy-efficient for several vision datasets executed on the Xavier MPSoC vs. the GPU-only deployment while sustaining an average 0.11% accuracy reduction from the baseline.",
+    "arxiv_id": "2307.08065",
+    "authors": [
+      "Mohanad Odema",
+      "Halima Bouzidi",
+      "Hamza Ouarnoughi",
+      "Smail Niar",
+      "Mohammad Abdullah Al Faruque"
+    ],
+    "categories": [
+      "cs.DC",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2307.08065v1",
+    "primary_category": "cs.DC",
+    "published": "2023-07-16T14:56:50Z",
+    "query": "(cat:cs.DC AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2307.08065v1",
+    "title": "MaGNAS: A Mapping-Aware Graph Neural Architecture Search Framework for Heterogeneous MPSoC Deployment",
+    "updated": "2023-07-16T14:56:50Z",
+    "versioned_id": "2307.08065v1"
+  },
+  "reference_sha256": "918bc7abe46b57bedf22c5b13283d8f114624c8a02b308e106ceaab14e279ea0",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 409,
+    "final_quality_rank": 300,
+    "final_quality_score": 0.639086,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 4.3111,
+      "category": "cs.DC",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.129267,
+      "component_bin": 3,
+      "connector_bin": 3,
+      "difference_hash": "e3b2d38951c9363a360e362a26a9e3a9d992a86228a4aaa4d908a8b6aeb26861",
+      "raster_bin": 2
+    },
+    "style_selection_rank": 369,
+    "style_selection_score": 0.518425
+  },
+  "source_filename": "vig_supernet.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "8a3102cf3471ccdcff7884026df3ca35c3dc2249a272ec77f82ea4ce122d093e",
+  "task_id": "task_0408",
+  "task_index": 408
+}

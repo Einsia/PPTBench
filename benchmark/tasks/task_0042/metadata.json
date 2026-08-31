@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2503.04038",
+  "candidate_id": "2503-04038_pdf_c76463a9bc9059e5",
+  "caption": "End-to-end automation workflow of the improved autonomous robotic bone micro-milling system: the red part, Proposed Online Pre-measurement Pipeline, including Automatic Calibration (Section ) and 3D Surface Fitting (Section ), is the main contribution of this work and responsible for surface measurement before milling; the black part, Intraoperative Real-time Feedback, including Completion Level Recognition (Section ) and Trajectory Planner (Section ), is improved from the original system and responsible for closed-loop control during milling. \u201cRobot\u201d refers to the robot motion controller, which controls the robot\u2019s end effector (microdrill) to reach the specified coordinates. The robot coordinate system \\R\\ and the microscopic 3D coordinate system \\Mi\\ are illustrated at the bottom.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 458,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.999813,
+    "editable_component_count": 16028,
+    "embedded_image_count": 3,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.091822,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 478,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 16031,
+    "text_count": 0,
+    "vector_drawing_count": 475,
+    "vector_primitive_count": 16028
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2503.04038v3",
+    "abstract": "Automating bone micro-milling using a robotic system presents challenges due to the uncertainties in both the external and internal features of bone tissue. For example, during mouse cranial window creation, a circular path with a radius of 2 to 4 mm needs to be milled on the mouse skull using a microdrill. The uneven surface and non-uniform thickness of the mouse skull make it difficult to fully automate this process, requiring the system to possess advanced perceptual and adaptive capabilities. In this study, we address this challenge by integrating a Microscopic Stereo Camera System (MSCS) into the robotic bone micro-milling system and proposing a novel online pre-measurement pipeline for the target surface. Starting from uncalibrated cameras, the pipeline enables automatic calibration and 3D surface fitting through a convolutional neural network (CNN)-based keypoint detection. Combined with the existing feedback-based system, we develop the world's first autonomous robotic bone micro-milling system capable of rapidly, in real-time perceiving and adapting to surface unevenness and non-uniform thickness, thereby enabling an end-to-end autonomous cranial window creation workflow without human assistance. Validation experiments on euthanized mice demonstrate that the improved system achieves a success rate of 85.7 % and an average milling time of 2.1 minutes, showing not only significant performance improvements over the previous system but also exceptional accuracy, speed, and stability compared to human operators.",
+    "arxiv_id": "2503.04038",
+    "authors": [
+      "Enduo Zhao",
+      "Xiaofeng Lin",
+      "Yifan Wang",
+      "Kanako Harada"
+    ],
+    "categories": [
+      "cs.RO",
+      "eess.SY"
+    ],
+    "doi": "10.1109/LRA.2025.3648606",
+    "journal_ref": "IEEE Robotics and Automation Letters, vol. 11, no. 2, pp. 2250-2257 (2026)",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2503.04038v3",
+    "primary_category": "cs.RO",
+    "published": "2025-03-06T02:46:39Z",
+    "query": "(cat:cs.RO AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2503.04038v3",
+    "title": "Autonomous Robotic Bone Micro-Milling System with Automatic Calibration and 3D Surface Fitting",
+    "updated": "2026-01-14T09:27:57Z",
+    "versioned_id": "2503.04038v3"
+  },
+  "reference_sha256": "b4f53cba9703bb14f68dabe803938b61d0fe4b99ebd4639b78f99faa660baf1c",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 43,
+    "final_quality_rank": 33,
+    "final_quality_score": 0.75688,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.1503,
+      "category": "cs.RO",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.234116,
+      "component_bin": 6,
+      "connector_bin": 4,
+      "difference_hash": "81b47b70c949c8d4876b04cd649f70d53f63d1a552c5956abb047a288e00ac00",
+      "raster_bin": 3
+    },
+    "style_selection_rank": 53,
+    "style_selection_score": 0.627556
+  },
+  "source_filename": "overview.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "c76463a9bc9059e5bdfb42273c16cfd71bcbb9c3a188ebd919c45191c0135699",
+  "task_id": "task_0042",
+  "task_index": 42
+}

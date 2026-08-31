@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2601.02010",
+  "candidate_id": "2601-02010_pdf_bbf89eb054a1561c",
+  "caption": "Motivation, experimental approach, and architecture of CATS net for concept decoupling and formation. a, The key characteristic of concepts is their decoupling from complex, high-dimensional sensory-motor information into lower-dimensional representations. For instance, the concept conveyed by a simple word like \u201cdinner\u201d can evoke neural population activity patterns associated with dining scenes, even without direct sensory stimulation. b, A possible solution for concept formation is to compress sensory-motor neural circuits, independent of direct inputs, into low-dimensional representations. If these concepts can subsequently activate proper circuits to effectively accomplish the desired functions, it can be regarded as concept understanding. c, Illustration of our concept abstraction task approach. After training from random CATS Net parameter weights and initial concept vectors (all same or totally random), the system gets a set of well-trained parameter weights and well-trained concept vectors, which further support successfully making binary judgement for a given image under a given concept. d, Schematic illustration of the dual-module architecture in CATS net: the CA module receives low-dimensional conceptual inputs to generate controlling signal for TS module; The TS module performs \u201cYes/No\u201d judgement according to sensory inputs and gating operation by CA module. All images were adopted from PublicDomainPictures and Free-Images under a Creative Commons license CC0.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 426,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.982569,
+    "editable_component_count": 1522,
+    "embedded_image_count": 27,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.047415,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 592,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1549,
+    "text_count": 85,
+    "vector_drawing_count": 480,
+    "vector_primitive_count": 1437
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2601.02010v1",
+    "abstract": "A remarkable capability of the human brain is to form more abstract conceptual representations from sensorimotor experiences and flexibly apply them independent of direct sensory inputs. However, the computational mechanism underlying this ability remains poorly understood. Here, we present a dual-module neural network framework, the CATS Net, to bridge this gap. Our model consists of a concept-abstraction module that extracts low-dimensional conceptual representations, and a task-solving module that performs visual judgement tasks under the hierarchical gating control of the formed concepts. The system develops transferable semantic structure based on concept representations that enable cross-network knowledge transfer through conceptual communication. Model-brain fitting analyses reveal that these emergent concept spaces align with both neurocognitive semantic model and brain response structures in the human ventral occipitotemporal cortex, while the gating mechanisms mirror that in the semantic control brain network. This work establishes a unified computational framework that can offer mechanistic insights for understanding human conceptual cognition and engineering artificial systems with human-like conceptual intelligence.",
+    "arxiv_id": "2601.02010",
+    "authors": [
+      "Liangxuan Guo",
+      "Haoyang Chen",
+      "Yang Chen",
+      "Yanchao Bi",
+      "Shan Yu"
+    ],
+    "categories": [
+      "q-bio.NC",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2601.02010v1",
+    "primary_category": "q-bio.NC",
+    "published": "2026-01-05T11:19:07Z",
+    "query": "(cat:q-bio.NC AND all:network) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2601.02010v1",
+    "title": "A neural network for modeling human concept formation, understanding and communication",
+    "updated": "2026-01-05T11:19:07Z",
+    "versioned_id": "2601.02010v1"
+  },
+  "reference_sha256": "280c8ce79a97f749fb31bd0edbfb01658522987fd3a842a068eb72627d9d8419",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 144,
+    "final_quality_rank": 189,
+    "final_quality_score": 0.671415,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.3157,
+      "category": "q-bio.NC",
+      "category_family": "q-bio",
+      "color_bin": 2,
+      "colorfulness": 0.211902,
+      "component_bin": 3,
+      "connector_bin": 4,
+      "difference_hash": "e04ef154b1dcb5a6b584118e8cce59a639927996588e2420a196b192d192d196",
+      "raster_bin": 2
+    },
+    "style_selection_rank": 159,
+    "style_selection_score": 0.576493
+  },
+  "source_filename": "fig_1.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "bbf89eb054a1561c2fc8b0b588a7e157575cb9912b4e59b3ea2d99a729661bfc",
+  "task_id": "task_0143",
+  "task_index": 143
+}

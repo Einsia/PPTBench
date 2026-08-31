@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2601.19113",
+  "candidate_id": "2601-19113_pdf_7d3b63923abe0e9b",
+  "caption": "Architecture of the proposed generative branch model.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 74,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.99773,
+    "editable_component_count": 1758,
+    "embedded_image_count": 4,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.00242,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 101,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1762,
+    "text_count": 20,
+    "vector_drawing_count": 77,
+    "vector_primitive_count": 1738
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 350,
+    "full_pool_rank": 480,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 301,
+    "second_pass_review_rank": 350
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2601.19113v1",
+    "abstract": "Universal speech enhancement aims at handling inputs with various speech distortions and recording conditions. In this work, we propose a novel hybrid architecture that synergizes the signal fidelity of discriminative modeling with the reconstruction capabilities of generative modeling. Our system utilizes the discriminative TF-GridNet model with the Sampling-Frequency-Independent strategy to handle variable sampling rates universally. In parallel, an autoregressive model combined with spectral mapping modeling generates detail-rich speech while effectively suppressing generative artifacts. Finally, a fusion network learns adaptive weights of the two outputs under the optimization of signal-level losses and the comprehensive Speech Quality Assessment (SQA) loss. Our proposed system is evaluated in the ICASSP 2026 URGENT Challenge (Track 1) and ranks the third place.",
+    "arxiv_id": "2601.19113",
+    "authors": [
+      "Yinghao Liu",
+      "Chengwei Liu",
+      "Xiaotao Liang",
+      "Haoyin Yan",
+      "Shaofei Xue",
+      "Zheng Xue"
+    ],
+    "categories": [
+      "cs.SD",
+      "eess.AS"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2601.19113v1",
+    "primary_category": "cs.SD",
+    "published": "2026-01-27T02:34:46Z",
+    "query": "(cat:eess.AS AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2601.19113v1",
+    "title": "A Hybrid Discriminative and Generative System for Universal Speech Enhancement",
+    "updated": "2026-01-27T02:34:46Z",
+    "versioned_id": "2601.19113v1"
+  },
+  "reference_sha256": "1388d5e2b1eb886da538d57aca29cb25c9c16a989a8b67294b1a729dad4d6c28",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 489,
+    "final_quality_rank": 351,
+    "final_quality_score": 0.627025,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.8676,
+      "category": "cs.SD",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.299864,
+      "component_bin": 3,
+      "connector_bin": 2,
+      "difference_hash": "c022c6b2a680e682d991b8809280c382d392d340a308e304e1a0638067a0e330",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 492,
+    "style_selection_score": 0.518398
+  },
+  "source_filename": "fig1.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "7d3b63923abe0e9b4579d3787dd8f3fa749a1cc54735243e37b35b34892069ec",
+  "task_id": "task_0488",
+  "task_index": 488
+}

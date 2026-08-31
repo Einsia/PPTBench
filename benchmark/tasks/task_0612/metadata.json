@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2602.05754",
+  "candidate_id": "2602-05754_pdf_bc2137fdae253f66",
+  "caption": "Method overview of TimelyFreeze. The system first monitors the upper and lower bounds of execution times and represents the pipeline schedule as a directed acyclic graph (DAG), where nodes and edges respectively denote action blocks and execution dependencies. Based on the DAG constraints, it solves a linear program to compute the expected freeze ratios r^*. Finally, it freezes each action block at its corresponding freeze ratio to improve training throughput while preserving accuracy.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 218,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.950772,
+    "editable_component_count": 985,
+    "embedded_image_count": 51,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.047818,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 380,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1036,
+    "text_count": 103,
+    "vector_drawing_count": 226,
+    "vector_primitive_count": 882
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2602.05754v2",
+    "abstract": "Pipeline parallelism enables training models that exceed single-device memory, but practical throughput remains limited by pipeline bubbles. Although parameter freezing can improve training throughput by adaptively skipping backward computation, existing methods often over-freeze parameters, resulting in unnecessary accuracy degradation. To address this issue, we propose TimelyFreeze, which models the pipeline schedule as a directed acyclic graph and solves a linear program to compute optimal freeze ratios that minimize batch execution time under accuracy constraints. Experiments show that TimelyFreeze achieves up to 40% training throughput improvement on LLaMA-8B with comparable accuracy. Overall, it enables faster large-scale model training without compromising convergence and generalizes across diverse pipeline-parallel settings.",
+    "arxiv_id": "2602.05754",
+    "authors": [
+      "Seonghye Cho",
+      "Jaemin Han",
+      "Hyunjin Kim",
+      "Euisoo Jung",
+      "Jae-Gil Lee"
+    ],
+    "categories": [
+      "cs.DC",
+      "cs.AI"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2602.05754v2",
+    "primary_category": "cs.DC",
+    "published": "2026-02-05T15:24:11Z",
+    "query": "(cat:cs.AI AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2602.05754v2",
+    "title": "TimelyFreeze: Adaptive Parameter Freezing Mechanism for Pipeline Parallelism",
+    "updated": "2026-02-06T06:08:18Z",
+    "versioned_id": "2602.05754v2"
+  },
+  "reference_sha256": "8bd19fab802322ee6dae493353eb6dc0c2deb62709e2b2e19d0342ce768e391a",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 613,
+    "final_quality_rank": 442,
+    "final_quality_score": 0.61029,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 4.1875,
+      "category": "cs.DC",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.284065,
+      "component_bin": 3,
+      "connector_bin": 3,
+      "difference_hash": "40d4ab44c4ccc4dca16cab4aa418a448a4c8a43cc45cc4ccc09c30d38c5a865a",
+      "raster_bin": 2
+    },
+    "style_selection_rank": 592,
+    "style_selection_score": 0.496767
+  },
+  "source_filename": "method_overview_0128.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "bc2137fdae253f664b1b66544b9187bf03a6af46d4c7b815a8848857ec683bf0",
+  "task_id": "task_0612",
+  "task_index": 612
+}

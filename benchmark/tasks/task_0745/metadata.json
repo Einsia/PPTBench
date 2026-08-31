@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2308.04102",
+  "candidate_id": "2308-04102_pdf_30bb124392b260e0",
+  "caption": "An overview of generic single-population AES. R workers pull individuals from the Evaluation Queue, evaluate them, and return them (with fitnesses F) to the server. As soon as M individuals have been returned, the server uses them and the L elite individuals (from the previous generation) to create a new generation of M individuals. They are then placed into the Evaluation Queue, and the elite set is updated. In this manner, the workers in AES do not have to stay idle waiting for a generation to finish their evaluations. The ratio of M/K=D strikes a balance between diversity and efficiency.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 45,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 201,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 83,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 201,
+    "text_count": 31,
+    "vector_drawing_count": 52,
+    "vector_primitive_count": 170
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 300,
+    "full_pool_rank": 401,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 260,
+    "second_pass_review_rank": 300
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2308.04102v3",
+    "abstract": "Many evolutionary algorithms (EAs) take advantage of parallel evaluation of candidates. However, if evaluation times vary significantly, many worker nodes (i.e.,\\ compute clients) are idle much of the time, waiting for the next generation to be created. Evolutionary neural architecture search (ENAS), a class of EAs that optimizes the architecture and hyperparameters of deep neural networks, is particularly vulnerable to this issue. This paper proposes a generic asynchronous evaluation strategy (AES) that is then adapted to work with ENAS. AES increases throughput by maintaining a queue of up to $K$ individuals ready to be sent to the workers for evaluation and proceeding to the next generation as soon as $M<<K$ individuals have been evaluated. A suitable value for $M$ is determined experimentally, balancing diversity and efficiency. To showcase the generality and power of AES, it was first evaluated in eight-line sorting network design (a single-population optimization task with limited evaluation-time variability), achieving an over two-fold speedup. Next, it was evaluated in 11-bit multiplexer design (a single-population discovery task with extended variability), where a 14-fold speedup was observed. It was then scaled up to ENAS for image captioning (a multi-population open-ended-optimization task), resulting in an over two-fold speedup. In all problems, a multifold performance improvement was observed, suggesting that AES is a promising method for parallelizing the evolution of complex systems with long and variable evaluation times, such as those in ENAS.",
+    "arxiv_id": "2308.04102",
+    "authors": [
+      "Jason Liang",
+      "Hormoz Shahrzad",
+      "Risto Miikkulainen"
+    ],
+    "categories": [
+      "cs.NE",
+      "cs.DC",
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2308.04102v3",
+    "primary_category": "cs.NE",
+    "published": "2023-08-08T07:33:49Z",
+    "query": "(cat:cs.NE AND all:\"network architecture\") AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2308.04102v3",
+    "title": "Asynchronous Evolution of Deep Neural Network Architectures",
+    "updated": "2024-01-01T14:16:18Z",
+    "versioned_id": "2308.04102v3"
+  },
+  "reference_sha256": "c0d40693828070c0a7efff6d6330effe1a46c2426e6164d672093fc9e8c8d079",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 746,
+    "final_quality_rank": 568,
+    "final_quality_score": 0.586914,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 2,
+      "aspect_ratio": 1.0,
+      "category": "cs.NE",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.473719,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "e0009218e31ce31ce18020e0f2c8444cd330fba0d8e478a868c96d0800000800",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 657,
+    "style_selection_score": 0.487291
+  },
+  "source_filename": "AES.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "30bb124392b260e05907a3fc0ff5d7179f885a73ddc4206274aae6b2fddeddf4",
+  "task_id": "task_0745",
+  "task_index": 745
+}

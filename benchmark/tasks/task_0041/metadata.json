@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2601.11018",
+  "candidate_id": "2601-11018_pdf_156a0cfc041b3022",
+  "caption": "KOCOBrain overview: SC from DTI and FNC from rs-fMRI were jointly modeled via a Kuramoto-guided coupling layer that simulated oscillatory phase synchronization over the anatomical wiring. The resulting phase dynamics yielded structure-informed functional representations, which combined with local structural features formed phase-aware node tokens. These tokens passed through cognition-gated, phase-locked graph-transformer layers where cognitive scores modulated query-key interactions via low-rank MoE adapters, and attention weights were biased by phase synchrony and SC strength. Global pooling of the refined embeddings produced a subject-level representation optimized end-to-end for PDE status prediction.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 179,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.993651,
+    "editable_component_count": 5008,
+    "embedded_image_count": 32,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.022242,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 236,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 5040,
+    "text_count": 23,
+    "vector_drawing_count": 181,
+    "vector_primitive_count": 4985
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2601.11018v2",
+    "abstract": "Exposure to psychoactive substances during pregnancy, such as cannabis, can disrupt neurodevelopment and alter large-scale brain networks, yet identifying their neural signatures remains challenging. We introduced KOCOBrain: KuramotO COupled Brain Graph Network; a unified graph neural network framework that integrates structural and functional connectomes via Kuramoto-based phase dynamics and cognition-aware attention. The Kuramoto layer models neural synchronization over anatomical connections, generating phase-informed embeddings that capture structure-function coupling, while cognitive scores modulate information routing in a subject-specific manner followed by a joint objective enhancing robustness under class imbalance scenario. Applied to the ABCD cohort, KOCOBrain improved prenatal drug exposure prediction over relevant baselines and revealed interpretable structure-function patterns that reflect disrupted brain network coordination associated with early exposure.",
+    "arxiv_id": "2601.11018",
+    "authors": [
+      "Badhan Mazumder",
+      "Lei Wu",
+      "Sir-Lord Wiafe",
+      "Vince D. Calhoun",
+      "Dong Hye Ye"
+    ],
+    "categories": [
+      "q-bio.NC",
+      "cs.CV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2601.11018v2",
+    "primary_category": "q-bio.NC",
+    "published": "2026-01-16T06:26:57Z",
+    "query": "(cat:q-bio.NC AND all:network) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2601.11018v2",
+    "title": "KOCOBrain: Kuramoto-Guided Graph Network for Uncovering Structure-Function Coupling in Adolescent Prenatal Drug Exposure",
+    "updated": "2026-01-27T08:02:08Z",
+    "versioned_id": "2601.11018v2"
+  },
+  "reference_sha256": "04fee0ed2b16b785cfc0c5c052590d22fa2f5ac2686a3c74970e0c6be2f62a66",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 42,
+    "final_quality_rank": 42,
+    "final_quality_score": 0.74723,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 4.0488,
+      "category": "q-bio.NC",
+      "category_family": "q-bio",
+      "color_bin": 4,
+      "colorfulness": 0.507603,
+      "component_bin": 5,
+      "connector_bin": 3,
+      "difference_hash": "82d28cc2924ad26e4e6acf6c476bcc6a964ed348d62cd2cc9adc418cc1cc80cc",
+      "raster_bin": 2
+    },
+    "style_selection_rank": 48,
+    "style_selection_score": 0.635426
+  },
+  "source_filename": "Figure_1.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "156a0cfc041b30224c26945c44b5730ff83193cb16a1af956e45bfb4690c7998",
+  "task_id": "task_0041",
+  "task_index": 41
+}

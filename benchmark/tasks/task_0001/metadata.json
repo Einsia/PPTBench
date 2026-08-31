@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2606.19992",
+  "candidate_id": "2606-19992_pdf_272e838c9cf9f534",
+  "caption": "Three mechanisms of .",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 13,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.990385,
+    "editable_component_count": 206,
+    "embedded_image_count": 2,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.010351,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 50,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 208,
+    "text_count": 30,
+    "vector_drawing_count": 18,
+    "vector_primitive_count": 176
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2606.19992v1",
+    "abstract": "In the agentic web era, LLM-based agents increasingly invoke web services as tools, yet most interfaces remain \\emph{static endpoints} that poorly express long-horizon workflows with loops, conditionals, joins, and retries. We present ToolPro, which represents an agent's tool intent as an \\emph{executable tool program} that compactly encodes multi-step service interactions with explicit effect types. ToolPro combines constraint-guided program construction, effect-aware replay for exactly-once state-modifying calls, and a profile-driven policy that decides when program execution outperforms stepwise calling. We instantiate ToolPro over MCP-style services with WebAssembly sandboxing and evaluate it on diverse workflows of real-world applications. ToolPro reduces end-to-end latency by up to 53.4\\% and client-side traffic by up to 96.1\\%, with larger gains under higher network latency and workflow complexity.",
+    "arxiv_id": "2606.19992",
+    "authors": [
+      "Mugeng Liu",
+      "Shuoqi Li",
+      "Yixuan Zhang",
+      "Yun Ma"
+    ],
+    "categories": [
+      "cs.SE",
+      "cs.AI"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2606.19992v1",
+    "primary_category": "cs.SE",
+    "published": "2026-06-18T09:31:09Z",
+    "query": "(cat:cs.SE AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2606.19992v1",
+    "title": "Beyond Static Endpoints: Tool Programs as an Interface for Flexible Agentic Web Services",
+    "updated": "2026-06-18T09:31:09Z",
+    "versioned_id": "2606.19992v1"
+  },
+  "reference_sha256": "e9a100b6492dbb3268882c0aef1782b3c9af4e1cd7fcbdc3c367a391abf68315",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 2,
+    "final_quality_rank": 993,
+    "final_quality_score": 0.36063,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.6254,
+      "category": "cs.SE",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.0,
+      "component_bin": 1,
+      "connector_bin": 0,
+      "difference_hash": "a466b064f078a072a07498589a5b74d8707478b47070d069686a66386ca46cc0",
+      "raster_bin": 1
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "overview.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "272e838c9cf9f534d8285358069c48331cdf546c212b6e99fd2d05dc680123d5",
+  "task_id": "task_0001",
+  "task_index": 1
+}

@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2603.00251",
+  "candidate_id": "2603-00251_pdf_614a5b92eba91f35",
+  "caption": "Proposed workflow methodology of the GenAI Workbench framework.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 18,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 170,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 59,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 170,
+    "text_count": 35,
+    "vector_drawing_count": 24,
+    "vector_primitive_count": 135
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2603.00251v2",
+    "abstract": "Modern engineering design platforms excel at discipline-specific tasks such as CAD, CAM, and CAE, but often lack native systems engineering frameworks. This creates a disconnect where system-level requirements and architectures are managed separately from detailed component design, hindering holistic development and increasing integration risks. To address this, we present the conceptual framework for the GenAI Workbench, a Model-Based Systems Engineering (MBSE) environment that integrates systems engineering principles into the designer's workflow. Built on an open-source PLM platform, it establishes a unified digital thread by linking semantic data from documents, physical B-rep geometry, and relational system graphs. The workbench facilitates an AI-assisted workflow where a designer can ingest source documents, from which the system automatically extracts requirements and uses vision-language models to generate an initial system architecture, such as a Design Structure Matrix (DSM). This paper presents the conceptual architecture, proposed methodology, and anticipated impact of this work-in-progress framework, which aims to foster a more integrated, data-driven, and informed engineering design methodology.",
+    "arxiv_id": "2603.00251",
+    "authors": [
+      "H. Sinan Bank",
+      "Daniel R. Herber"
+    ],
+    "categories": [
+      "cs.SE",
+      "cs.AI",
+      "eess.SY"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2603.00251v2",
+    "primary_category": "cs.SE",
+    "published": "2026-02-27T19:04:13Z",
+    "query": "(cat:cs.SE AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2603.00251v2",
+    "title": "GENAI WORKBENCH: AI-Assisted Analysis and Synthesis of Engineering Systems from Multimodal Engineering Data",
+    "updated": "2026-03-03T20:49:05Z",
+    "versioned_id": "2603.00251v2"
+  },
+  "reference_sha256": "f9c1c4cf1d8509c819d283296bd233a5008444f755055dfc5aeb01c44c88ed1c",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 759,
+    "final_quality_rank": 985,
+    "final_quality_score": 0.368527,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 7.3405,
+      "category": "cs.SE",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.0,
+      "component_bin": 1,
+      "connector_bin": 0,
+      "difference_hash": "319196d261d1719171d1319154d28c6ea4a6719271a171d161918e26b2d232d2",
+      "raster_bin": 0
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "figure_1_GenAI_Workflows_svg-raw.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "614a5b92eba91f35f63fcf5ca4124216ef0b7f588a145c158b045af2deabbc93",
+  "task_id": "task_0758",
+  "task_index": 758
+}

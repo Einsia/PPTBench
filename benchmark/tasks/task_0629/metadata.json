@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2602.00736",
+  "candidate_id": "2602-00736_pdf_437fef0f61ca0cde",
+  "caption": "The portable dual receiver (PDR) is a two-channel, 16-MHz-wideband heterodyne receiver and digitiser.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 89,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 255,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 166,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 255,
+    "text_count": 47,
+    "vector_drawing_count": 119,
+    "vector_primitive_count": 208
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 551,
+    "full_pool_rank": 865,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 479,
+    "second_pass_review_rank": 551
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2602.00736v1",
+    "abstract": "A new pulsar signal-processing pipeline has been developed for observing pulsars with the Diamond Array Radio Telescope at the Gauribidanur radio observatory. The array consists of 32 off-axis dual-polarised LPDAs, with a nominal gain of 22 dBi between 130 and 350 MHz and a 15-degree HPBW at 175 MHz for transit observations on pulsars. Custom-built receivers and real-time data-capture and analysis tools have been developed and used. Receiver output voltages from a transient buffer, as well as full-polar spectral data at both high and low resolutions, suitable for transient searches and pulsar studies. Additionally, full-polar folded profile archives are generated for known pulsars in subintegrations and both coherent and incoherent dedispersion. Custom-developed Python routines, FFT libraries, DSPSR, PSRCHIVE, and Presto modules have been used to build the pipeline. The functionalities of the pipeline were validated with artificially generated pulsar signals and strong celestial sources before it was released for routine observations. Presently, the pipeline is configured to observe pulsars between 170 and 196 MHz, with a daily cadence. Recorded data are reduced in-line immediately following each observation, nearly matching the observation time at a 1:1 ratio. An Intel i9 server captures the data, and an AMD R9 CPU does the primary data reduction. The archives are routinely backed up to a remote system via the internet. The paper presents the architecture of the signal processing pipeline developed, its validation, and initial polarimetric results observing five bright pulsars at 175 MHz. Results also include RM estimates and single-pulse study results for B0953+08, B0531+21, and B1133+16, as well as from monitoring the spin-down of the Crab pulsar over 200 days of observation. Finally, it presents a discussion on the potential improvements for the array.",
+    "arxiv_id": "2602.00736",
+    "authors": [
+      "Arul Pandian B",
+      "Joydeep Bagchi",
+      "Prabu Thiagaraj",
+      "K. B. Raghavendra Rao",
+      "Vinutha Chandrashekar"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.HE"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2602.00736v1",
+    "primary_category": "astro-ph.IM",
+    "published": "2026-01-31T14:00:34Z",
+    "query": "(cat:astro-ph.IM AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2602.00736v1",
+    "title": "GBD-DART-II: 175 MHz Polarimetric Observation of Pulsars from Gauribidanur and a New Pulsar Signal Processing Pipeline",
+    "updated": "2026-01-31T14:00:34Z",
+    "versioned_id": "2602.00736v1"
+  },
+  "reference_sha256": "7d4560d9b2a720e22064da5e68cb83820b723a156c0f538665e6f106a75ac3fe",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 630,
+    "final_quality_rank": 819,
+    "final_quality_score": 0.511231,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.9524,
+      "category": "astro-ph.IM",
+      "category_family": "astro-ph",
+      "color_bin": 0,
+      "colorfulness": 0.0,
+      "component_bin": 1,
+      "connector_bin": 2,
+      "difference_hash": "1a80d910c69596568e94eab1eab18a49aac8eab1ce95965d8e95ce8df2ccd910",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 877,
+    "style_selection_score": 0.434954
+  },
+  "source_filename": "03_PDR_block_diagram_1.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "437fef0f61ca0cde7c203037be4ae26c0a6eebca8c73e04c90b2a715b6f8efec",
+  "task_id": "task_0629",
+  "task_index": 629
+}

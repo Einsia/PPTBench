@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2304.13195",
+  "candidate_id": "2304-13195_pdf_d939799c1fa7ab4c",
+  "caption": "A graphical architecture of Connector framework. There are three main components in Connector, including graph loader modules, base modules, and graph representation learning modules.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 76,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1009,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 129,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1009,
+    "text_count": 49,
+    "vector_drawing_count": 80,
+    "vector_primitive_count": 960
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 17,
+    "full_pool_rank": 22,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 15,
+    "second_pass_review_rank": 17
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2304.13195v1",
+    "abstract": "Graph representation learning models aim to represent the graph structure and its features into low-dimensional vectors in a latent space, which can benefit various downstream tasks, such as node classification and link prediction. Due to its powerful graph data modelling capabilities, various graph embedding models and libraries have been proposed to learn embeddings and help researchers ease conducting experiments. In this paper, we introduce a novel graph representation framework covering various graph embedding models, ranging from shallow to state-of-the-art models, namely Connector. First, we consider graph generation by constructing various types of graphs with different structural relations, including homogeneous, signed, heterogeneous, and knowledge graphs. Second, we introduce various graph representation learning models, ranging from shallow to deep graph embedding models. Finally, we plan to build an efficient open-source framework that can provide deep graph embedding models to represent structural relations in graphs. The framework is available at https://github.com/NSLab-CUK/Connector.",
+    "arxiv_id": "2304.13195",
+    "authors": [
+      "Thanh Sang Nguyen",
+      "Jooho Lee",
+      "Van Thuy Hoang",
+      "O-Joun Lee"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.SI"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2304.13195v1",
+    "primary_category": "cs.LG",
+    "published": "2023-04-25T23:28:38Z",
+    "query": "(cat:cs.LG AND all:framework) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2304.13195v1",
+    "title": "Connector 0.5: A unified framework for graph representation learning",
+    "updated": "2023-04-25T23:28:38Z",
+    "versioned_id": "2304.13195v1"
+  },
+  "reference_sha256": "e4e7ed14f6a0d34af791f8150995b76e5ac8f2cbd4981d9834faf5e5bca52f1a",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 33,
+    "final_quality_rank": 26,
+    "final_quality_score": 0.76479,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.2811,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 5,
+      "colorfulness": 0.968624,
+      "component_bin": 3,
+      "connector_bin": 2,
+      "difference_hash": "b922b922b962b922b922b962b860be4279216339ed48cccccccc55555555070a",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 69,
+    "style_selection_score": 0.609635
+  },
+  "source_filename": "architecture.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "d939799c1fa7ab4c55ef29cc68eff18a999d17b23d08c89c417252d91dc5fb38",
+  "task_id": "task_0032",
+  "task_index": 32
+}

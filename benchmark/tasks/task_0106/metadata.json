@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2511.22779",
+  "candidate_id": "2511-22779_pdf_adf8685e8a8a732b",
+  "caption": "Diagram describing the workflow of a ray-tracing hardware accelerated Monte Carlo (MC) photon simulation. An illustration of the trajectory of a single photon packet is shown in an inset. A parallel xorshift128+ random number generator (RNG) is implemented in each thread; U denotes a uniformly distributed random number between 0 and 1.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 132,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.999143,
+    "editable_component_count": 5831,
+    "embedded_image_count": 5,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.007202,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 317,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 5836,
+    "text_count": 144,
+    "vector_drawing_count": 168,
+    "vector_primitive_count": 5687
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 146,
+    "full_pool_rank": 190,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 128,
+    "second_pass_review_rank": 146
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2511.22779v1",
+    "abstract": "Significance: Monte Carlo (MC) methods are the gold-standard for modeling light-tissue interactions due to their accuracy. Mesh-based MC (MMC) offers enhanced precision for complex tissue structures using tetrahedral mesh models. Despite significant speedups achieved on graphics processing units (GPUs), MMC performance remains hindered by the computational cost of frequent ray-boundary intersection tests. Aim: We propose a highly accelerated MMC algorithm, RT-MMC, that leverages the hardware-accelerated ray traversal and intersection capabilities of ray-tracing cores (RT-cores) on modern GPUs. Approach: Implemented using NVIDIA's OptiX platform, RT-MMC extends graphics ray-tracing pipelines towards volumetric ray-tracing in turbid media, eliminating the need for challenging tetrahedral mesh generation while delivering significant speed improvements through hardware acceleration. It also intrinsically supports wide-field sources without complex mesh retesselation. Results: RT-MMC demonstrates excellent agreement with traditional software-ray-tracing MMC algorithms while achieving 1.5x to 4.5x speedups across multiple GPU architectures. These performance gains significantly enhance the practicality of MMC for routine simulations. Conclusion: Migration from software- to hardware-based ray-tracing not only greatly simplifies MMC simulation workflows, but also results in significant speedups that are expected to increase further as ray-tracing hardware rapidly gains adoption. Adoption of graphics ray-tracing pipelines in quantitative MMC simulations enables leveraging of emerging hardware resources and benefits a wide range of biophotonics applications.",
+    "arxiv_id": "2511.22779",
+    "authors": [
+      "Shijie Yan",
+      "Douglas Dwyer",
+      "David R. Kaeli",
+      "Qianqian Fang"
+    ],
+    "categories": [
+      "cs.DC",
+      "physics.med-ph",
+      "physics.optics"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2511.22779v1",
+    "primary_category": "cs.DC",
+    "published": "2025-11-27T22:10:54Z",
+    "query": "(cat:physics.med-ph AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2511.22779v1",
+    "title": "Accelerating mesh-based Monte Carlo simulations using contemporary graphics ray-tracing hardware",
+    "updated": "2025-11-27T22:10:54Z",
+    "versioned_id": "2511.22779v1"
+  },
+  "reference_sha256": "ce26134fe1c78613b5b57bdbf98a74ecf2faa2fab208037b32bad937311da61c",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 107,
+    "final_quality_rank": 72,
+    "final_quality_score": 0.720242,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.2701,
+      "category": "cs.DC",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.440597,
+      "component_bin": 5,
+      "connector_bin": 2,
+      "difference_hash": "9b32b333b198a99a69989999899c499d499c899c8998899989b4e98ca99d98d3",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 164,
+    "style_selection_score": 0.579314
+  },
+  "source_filename": "OptiXWorkflow-crop.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "adf8685e8a8a732ba3ea6c4bcf9fb79be18265d0c84e38f1d393083407394cfd",
+  "task_id": "task_0106",
+  "task_index": 106
+}

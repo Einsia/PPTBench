@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2405.14925",
+  "candidate_id": "2405-14925_pdf_4c3fd7011abe10ca",
+  "caption": "Schematical depiction of the network. Given fixed pocket atoms (purple), ligand atom coordinates, types, and charges as well as the ligands' topology get noised (green) using forward diffusion. Afterwards, attention-weighted message-passing is done on the fully connected ligand atoms (here not shown for better visibility) and the ligand-pocket and pocket-pocket interactions, which each are obtained using a radius graph for computational feasibility. The task of the model is to retrieve the ground truth atom coordinates, types, charges, and the bond types (red).",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 309,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 5112,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 316,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 5112,
+    "text_count": 0,
+    "vector_drawing_count": 316,
+    "vector_primitive_count": 5112
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 899,
+    "full_pool_rank": 1539,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 788,
+    "second_pass_review_rank": 899
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2405.14925v1",
+    "abstract": "The generation of ligands that both are tailored to a given protein pocket and exhibit a range of desired chemical properties is a major challenge in structure-based drug design. Here, we propose an in-silico approach for the $\\textit{de novo}$ generation of 3D ligand structures using the equivariant diffusion model PILOT, combining pocket conditioning with a large-scale pre-training and property guidance. Its multi-objective trajectory-based importance sampling strategy is designed to direct the model towards molecules that not only exhibit desired characteristics such as increased binding affinity for a given protein pocket but also maintains high synthetic accessibility. This ensures the practicality of sampled molecules, thus maximizing their potential for the drug discovery pipeline. PILOT significantly outperforms existing methods across various metrics on the common benchmark dataset CrossDocked2020. Moreover, we employ PILOT to generate novel ligands for unseen protein pockets from the Kinodata-3D dataset, which encompasses a substantial portion of the human kinome. The generated structures exhibit predicted $IC_{50}$ values indicative of potent biological activity, which highlights the potential of PILOT as a powerful tool for structure-based drug design.",
+    "arxiv_id": "2405.14925",
+    "authors": [
+      "Julian Cremer",
+      "Tuan Le",
+      "Frank No\u00e9",
+      "Djork-Arn\u00e9 Clevert",
+      "Kristof T. Sch\u00fctt"
+    ],
+    "categories": [
+      "q-bio.BM",
+      "cs.AI",
+      "cs.CE",
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2405.14925v1",
+    "primary_category": "q-bio.BM",
+    "published": "2024-05-23T17:58:28Z",
+    "query": "(cat:q-bio.BM AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2405.14925v1",
+    "title": "PILOT: Equivariant diffusion for pocket conditioned de novo ligand generation with multi-objective guidance via importance sampling",
+    "updated": "2024-05-23T17:58:28Z",
+    "versioned_id": "2405.14925v1"
+  },
+  "reference_sha256": "c552c836838d5eb3d10054d59821da513e424d46274f0c49b614886d1985d21d",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 90,
+    "final_quality_rank": 97,
+    "final_quality_score": 0.705376,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.1998,
+      "category": "q-bio.BM",
+      "category_family": "q-bio",
+      "color_bin": 2,
+      "colorfulness": 0.218237,
+      "component_bin": 5,
+      "connector_bin": 3,
+      "difference_hash": "4eb48c3d1535549a84988c18a600640c4e18aa4c984c40e4481c3058b21bd000",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 121,
+    "style_selection_score": 0.585066
+  },
+  "source_filename": "pilot_network.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "4c3fd7011abe10caf8cbfecc43df360987f06fc0352d566472f67d06adfcedc4",
+  "task_id": "task_0089",
+  "task_index": 89
+}

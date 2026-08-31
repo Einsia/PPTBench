@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2209.02944",
+  "candidate_id": "2209-02944_pdf_851f6e6b31b4914c",
+  "caption": "Hybrid MIMO system architecture with ADC in each chain.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 42,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 188,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 86,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 188,
+    "text_count": 43,
+    "vector_drawing_count": 43,
+    "vector_primitive_count": 145
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2209.02944v1",
+    "abstract": "5G mmWave massive MIMO systems are likely to be deployed in dense urban scenarios, where increasing network capacity is the primary objective. A key component in mmWave transceiver design is channel estimation which is challenging due to the very large signal bandwidths (order of GHz) implying significant resolved spatial multipath, coupled with large # of Tx/Rx antennas for large-scale MIMO. This results in significantly increased training overhead that in turn leads to unacceptably high computational complexity and power cost. Our work thus highlights the interplay of transceiver architecture and receiver signal processing algorithm choices that fundamentally address (mobile) handset power consumption, with minimal degradation in performance. We investigate trade-offs enabled by conjunction of hybrid beamforming mmWave receiver and channel estimation algorithms that exploit available sparsity in such wideband scenarios. A compressive sensing (CS) framework for sparse channel estimation -- Binary Iterative Hard Thresholding (BIHT) \\cite{jacques2013robust} followed by linear reconstruction method with varying quantization (ADC) levels -- is explored to compare the trade-offs between bit-depth and sampling rate for a given ADC power budget. Performance analysis of the BIHT+ linear reconstruction method is conducted via simulation studies for 5G specified multi-path channel models and compared to oracle-assisted bounds for validation.",
+    "arxiv_id": "2209.02944",
+    "authors": [
+      "Lyutianyang Zhang",
+      "Sumit Roy",
+      "Liu Cao"
+    ],
+    "categories": [
+      "cs.IT",
+      "eess.SP"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2209.02944v1",
+    "primary_category": "cs.IT",
+    "published": "2022-09-07T05:33:52Z",
+    "query": "(cat:eess.SP AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2209.02944v1",
+    "title": "Architecture-Algorithmic Trade-offs in Multi-path Channel Estimation for mmWAVE Systems",
+    "updated": "2022-09-07T05:33:52Z",
+    "versioned_id": "2209.02944v1"
+  },
+  "reference_sha256": "3483607659d79af0d769bffd7b9acbb7486886500a4bc9da826af45bae5e40f6",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 813,
+    "final_quality_rank": 649,
+    "final_quality_score": 0.570625,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 4.2483,
+      "category": "cs.IT",
+      "category_family": "cs",
+      "color_bin": 5,
+      "colorfulness": 0.731675,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "9cce9cce9cce9cce9cc69cce8cc68cc69cce8cc69cce9cce9cce9cce9cce9cce",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 670,
+    "style_selection_score": 0.517006
+  },
+  "source_filename": "intro.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "851f6e6b31b4914cd1e4f284ae05a2ce03584aa22aaecd626d063a0039aebbce",
+  "task_id": "task_0812",
+  "task_index": 812
+}

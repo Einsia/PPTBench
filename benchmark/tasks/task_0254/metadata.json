@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2407.17879",
+  "candidate_id": "2407-17879_pdf_7333ab802a22b104",
+  "caption": "The time diagram of the hybrid-grained pipeline.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 305,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 3189,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 559,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 3189,
+    "text_count": 205,
+    "vector_drawing_count": 354,
+    "vector_primitive_count": 2984
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 391,
+    "full_pool_rank": 552,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 340,
+    "second_pass_review_rank": 391
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2407.17879v2",
+    "abstract": "Vision Transformer (ViT) acceleration with field programmable gate array (FPGA) is promising but challenging. Existing FPGA-based ViT accelerators mainly rely on temporal architectures, which process different operators by reusing the same hardware blocks and suffer from extensive memory access overhead. Pipelined architectures, either coarse-grained or fine-grained, unroll the ViT computation spatially for memory access efficiency. However, they usually suffer from significant hardware resource constraints and pipeline bubbles induced by the global computation dependency of ViT. In this paper, we introduce HG-PIPE, a pipelined FPGA accelerator for high-throughput and low-latency ViT processing. HG-PIPE features a hybrid-grained pipeline architecture to reduce on-chip buffer cost and couples the computation dataflow and parallelism design to eliminate the pipeline bubbles. HG-PIPE further introduces careful approximations to implement both linear and non-linear operators with abundant Lookup Tables (LUTs), thus alleviating resource constraints. On a ZCU102 FPGA, HG-PIPE achieves 2.78 times better throughput and 2.52 times better resource efficiency than the prior-art accelerators, e.g., AutoViTAcc. With a VCK190 FPGA, HG-PIPE realizes end-to-end ViT acceleration on a single device and achieves 7118 images/s, which is 2.81 times faster than a V100 GPU.",
+    "arxiv_id": "2407.17879",
+    "authors": [
+      "Qingyu Guo",
+      "Jiayong Wan",
+      "Songqiang Xu",
+      "Meng Li",
+      "Yuan Wang"
+    ],
+    "categories": [
+      "cs.AR",
+      "cs.AI"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2407.17879v2",
+    "primary_category": "cs.AR",
+    "published": "2024-07-25T08:47:40Z",
+    "query": "(cat:cs.AI AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2407.17879v2",
+    "title": "HG-PIPE: Vision Transformer Acceleration with Hybrid-Grained Pipeline",
+    "updated": "2024-08-01T08:18:57Z",
+    "versioned_id": "2407.17879v2"
+  },
+  "reference_sha256": "92163c9f8fbd385e5b05135e191b9abd642c317f25bd7ec3c6ca005c36e33f25",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 255,
+    "final_quality_rank": 187,
+    "final_quality_score": 0.672225,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 1,
+      "aspect_ratio": 0.8172,
+      "category": "cs.AR",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.175799,
+      "component_bin": 4,
+      "connector_bin": 3,
+      "difference_hash": "6b64b1b04da46ce494d4d4d4b19046a6446694d494d6b19045a66c6694d494d4",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 209,
+    "style_selection_score": 0.552358
+  },
+  "source_filename": "hybrid-grained.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "7333ab802a22b104c465af84aa409443f0b85d0ba836ddfd4e4e60221998cf80",
+  "task_id": "task_0254",
+  "task_index": 254
+}

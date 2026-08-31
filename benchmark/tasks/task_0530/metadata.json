@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2202.07475",
+  "candidate_id": "2202-07475_pdf_df1a65b47c539fad",
+  "caption": "System architecture with important components and communication flows",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 104,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.999119,
+    "editable_component_count": 2269,
+    "embedded_image_count": 2,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.005858,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 174,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 2271,
+    "text_count": 45,
+    "vector_drawing_count": 127,
+    "vector_primitive_count": 2224
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 69,
+    "full_pool_rank": 88,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 65,
+    "second_pass_review_rank": 69
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2202.07475v1",
+    "abstract": "This paper presents an online system that leverages social media data in real time to identify landslide-related information automatically using state-of-the-art artificial intelligence techniques. The designed system can (i) reduce the information overload by eliminating duplicate and irrelevant content, (ii) identify landslide images, (iii) infer geolocation of the images, and (iv) categorize the user type (organization or person) of the account sharing the information. The system was deployed in February 2020 online at https://landslide-aidr.qcri.org/landslide_system.php to monitor live Twitter data stream and has been running continuously since then to provide time-critical information to partners such as British Geological Survey and European Mediterranean Seismological Centre. We trust this system can both contribute to harvesting of global landslide data for further research and support global landslide maps to facilitate emergency response and decision making.",
+    "arxiv_id": "2202.07475",
+    "authors": [
+      "Ferda Ofli",
+      "Umair Qazi",
+      "Muhammad Imran",
+      "Julien Roch",
+      "Catherine Pennington",
+      "Vanessa Banks",
+      "Remy Bossu"
+    ],
+    "categories": [
+      "cs.CY",
+      "cs.CV"
+    ],
+    "doi": "10.1007/978-3-031-09917-5_4",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2202.07475v1",
+    "primary_category": "cs.CY",
+    "published": "2022-02-14T14:24:57Z",
+    "query": "(cat:cs.CY AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2202.07475v1",
+    "title": "A Real-time System for Detecting Landslide Reports on Social Media using Artificial Intelligence",
+    "updated": "2022-02-14T14:24:57Z",
+    "versioned_id": "2202.07475v1"
+  },
+  "reference_sha256": "32c5eba5d4e58658794f304b71febe4d58cb3e70f49bffc1443d9c2b5908bad7",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 531,
+    "final_quality_rank": 386,
+    "final_quality_score": 0.622118,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.4077,
+      "category": "cs.CY",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.1106,
+      "component_bin": 4,
+      "connector_bin": 2,
+      "difference_hash": "1b4829401d4cbb286d68a3169327bd2ed526e3246690768872b0669872b07030",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 351,
+    "style_selection_score": 0.530096
+  },
+  "source_filename": "main_architecture.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "df1a65b47c539fad0850dc11a35b919d1bd60fe452fe03b5aa63ccd3c8328d01",
+  "task_id": "task_0530",
+  "task_index": 530
+}

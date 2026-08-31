@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2403.14460",
+  "candidate_id": "2403-14460_pdf_91b00150484d0094",
+  "caption": "Proposed workflow with generative AI in the loop. Steps are color-coded: 1) Inputs in orange, outputs in red - generation of the instance model and formal constraints. The formal constraints are used for automatic verification of the instance models; 2) Inputs in red, outputs in blue - resource allocation, which produces an allocation matrix and enhances the instance model with details about software-to-hardware mapping; 3) Inputs in blue, outputs in purple - code generation. The tests generated during this step are used for automatic testing of the deployed system; 4) Yellow - validation and verification, which is performed as part of the other steps, and is not a separate step as such.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 46,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1494,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 126,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1494,
+    "text_count": 57,
+    "vector_drawing_count": 69,
+    "vector_primitive_count": 1437
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2403.14460v1",
+    "abstract": "We propose a novel model- and feature-based approach to development of vehicle software systems, where the end architecture is not explicitly defined. Instead, it emerges from an iterative process of search and optimization given certain constraints, requirements and hardware architecture, while retaining the property of single-system illusion, where applications run in a logically uniform environment. One of the key points of the presented approach is the inclusion of modern generative AI, specifically Large Language Models (LLMs), in the loop. With the recent advances in the field, we expect that the LLMs will be able to assist in processing of requirements, generation of formal system models, as well as generation of software deployment specification and test code. The resulting pipeline is automated to a large extent, with feedback being generated at each step.",
+    "arxiv_id": "2403.14460",
+    "authors": [
+      "Krzysztof Lebioda",
+      "Viktor Vorobev",
+      "Nenad Petrovic",
+      "Fengjunjie Pan",
+      "Vahid Zolfaghari",
+      "Alois Knoll"
+    ],
+    "categories": [
+      "cs.SE",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2403.14460v1",
+    "primary_category": "cs.SE",
+    "published": "2024-03-21T15:07:57Z",
+    "query": "(cat:cs.SE AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2403.14460v1",
+    "title": "Towards Single-System Illusion in Software-Defined Vehicles -- Automated, AI-Powered Workflow",
+    "updated": "2024-03-21T15:07:57Z",
+    "versioned_id": "2403.14460v1"
+  },
+  "reference_sha256": "36317e1f80cb0917b0263fafd3673b357309e36f1026933b08fdb24de79eed0b",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 617,
+    "final_quality_rank": 453,
+    "final_quality_score": 0.608588,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.6637,
+      "category": "cs.SE",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.259559,
+      "component_bin": 3,
+      "connector_bin": 1,
+      "difference_hash": "01a121a84667c667d233e736c419d199e852e234f2b4a93291cca8d4a83000c4",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 560,
+    "style_selection_score": 0.488526
+  },
+  "source_filename": "workflow.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "91b00150484d00945e78958baf9f6f52bb42c6d6fec1194600754e1482233854",
+  "task_id": "task_0616",
+  "task_index": 616
+}

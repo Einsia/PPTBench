@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2503.07046",
+  "candidate_id": "2503-07046_pdf_dd6d86fa1c8730fa",
+  "caption": "The overall network architecture of our MambaFlow.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 252,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.952636,
+    "editable_component_count": 1066,
+    "embedded_image_count": 53,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.016161,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 532,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1119,
+    "text_count": 39,
+    "vector_drawing_count": 440,
+    "vector_primitive_count": 1027
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2503.07046v4",
+    "abstract": "Recently, the Mamba architecture has demonstrated significant successes in various computer vision tasks, such as classification and segmentation. However, its application to optical flow estimation remains unexplored. In this paper, we introduce MambaFlow, a novel framework designed to leverage the high accuracy and efficiency of the Mamba architecture for capturing locally correlated features while preserving global information in end-to-end optical flow estimation. To our knowledge, MambaFlow is the first architecture centered around the Mamba design tailored specifically for optical flow estimation. It comprises two key components: (1) PolyMamba, which enhances feature representation through a dual-Mamba architecture, incorporating a Self-Mamba module for intra-token modeling and a Cross-Mamba module for inter-modality interaction, enabling both deep contextualization and effective feature fusion; and (2) PulseMamba, which leverages an Attention Guidance Aggregator (AGA) to adaptively integrate features with dynamically learned weights in contrast to naive concatenation, and then employs the intrinsic recurrent mechanism of Mamba to perform autoregressive flow decoding, facilitating efficient flow information dissemination. Extensive experiments demonstrate that MambaFlow achieves remarkable results comparable to mainstream methods on benchmark datasets. Compared to SEA-RAFT, MambaFlow attains higher accuracy on the Sintel benchmark, demonstrating stronger potential for real-world deployment on resource-constrained devices. The source code will be made publicly available upon acceptance of the paper.",
+    "arxiv_id": "2503.07046",
+    "authors": [
+      "Juntian Du",
+      "Zhihu Zhou",
+      "Runzhe Zhang",
+      "Yuan Sun",
+      "Pinyi Chen",
+      "Keji Mao"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2503.07046v4",
+    "primary_category": "cs.CV",
+    "published": "2025-03-10T08:33:54Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2503.07046v4",
+    "title": "MambaFlow: A Mamba-Centric Architecture for End-to-End Optical Flow Estimation",
+    "updated": "2025-08-18T03:53:39Z",
+    "versioned_id": "2503.07046v4"
+  },
+  "reference_sha256": "61139ef378ff215ddea505b94dcd8e9fc4a81c28a665dd1a058669b743d7f08f",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 437,
+    "final_quality_rank": 299,
+    "final_quality_score": 0.639098,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.8087,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.269951,
+      "component_bin": 3,
+      "connector_bin": 3,
+      "difference_hash": "de9cd68ca4431492d50e8b4b199a5e1ac66ad38ae308f40dd72cd392d244c582",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 413,
+    "style_selection_score": 0.511573
+  },
+  "source_filename": "Figure2.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "dd6d86fa1c8730fa8c05b06774bfd07b935d0f5becb6a8a03db99b3f435cd889",
+  "task_id": "task_0436",
+  "task_index": 436
+}

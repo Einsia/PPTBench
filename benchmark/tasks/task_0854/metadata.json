@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2606.20151",
+  "candidate_id": "2606-20151_pdf_ffa55ebc7b43c36a",
+  "caption": "CoLaNET architecture, learning regime. Learning is governed by three factors: anti-Hebbian plasticity (weakening synaptic weights), dopamine-modulated plasticity (strengthening weights), and periodic synaptic renormalization. The label is presented as a single spike at 11th time step. Each class stimulates its own column. On the first step, a reset is performed, which clears all set blocks.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 44,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.995975,
+    "editable_component_count": 3959,
+    "embedded_image_count": 16,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.036924,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 68,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 3975,
+    "text_count": 6,
+    "vector_drawing_count": 46,
+    "vector_primitive_count": 3953
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 504,
+    "full_pool_rank": 778,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 438,
+    "second_pass_review_rank": 504
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2606.20151v1",
+    "abstract": "This work proposes a hybrid ANN-SNN pipeline that effectively leverages the rich embeddings of pretrained artificial neural networks (ANNs) to enable high-performance spiking neural networks (SNNs). The architecture couples a pretrained EfficientNet encoder with a CoLaNET spiking classifier. We convert the encoder's activations into spike trains via rate-coding and train the subsequent SNN classifier using local, biologically inspired learning rules, bypassing end-to-end gradient propagation. This approach achieves 99.09% accuracy on a 64-class ImageNet benchmark, demonstrating performance on par with conventional deep networks. The work presents a biologically plausible and efficient framework for adapting powerful pretrained encoders to downstream spiking neural network tasks.",
+    "arxiv_id": "2606.20151",
+    "authors": [
+      "Denis Larionov",
+      "Khairutin Shtanchaev",
+      "Mikhail Kiselev",
+      "Mikhail Korovin",
+      "Ivan Tugoy"
+    ],
+    "categories": [
+      "cs.NE",
+      "cs.AI"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2606.20151v1",
+    "primary_category": "cs.NE",
+    "published": "2026-06-18T12:13:19Z",
+    "query": "(cat:cs.AI AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2606.20151v1",
+    "title": "Hybrid ANN-SNN Pipeline with Local Plasticity",
+    "updated": "2026-06-18T12:13:19Z",
+    "versioned_id": "2606.20151v1"
+  },
+  "reference_sha256": "3a07e6b7eb7e37ff419d0e2ccbf8b9ea8a5da222be1174ed35ebc008a479aeeb",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 855,
+    "final_quality_rank": 698,
+    "final_quality_score": 0.558321,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.3486,
+      "category": "cs.NE",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.000868,
+      "component_bin": 4,
+      "connector_bin": 1,
+      "difference_hash": "07000f000f600a880a880e488e98cea4458f458b49488b288d090a400a680e40",
+      "raster_bin": 2
+    },
+    "style_selection_rank": 780,
+    "style_selection_score": 0.46669
+  },
+  "source_filename": "CoLaNET_training.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "ffa55ebc7b43c36a26cc871ded6605df91946ff89f881b805c000e8b6bda11d0",
+  "task_id": "task_0854",
+  "task_index": 854
+}

@@ -1,0 +1,87 @@
+{
+  "arxiv_id": "2510.06035",
+  "candidate_id": "2510-06035_pdf_007315c028660583",
+  "caption": "UniNAS architecture. We adopt a standard hierarchical design (e.g., ) with stem, four stages (each with several blocks) and a classification head but introduce a new type of basic building block UniNAS that integrates the universal directed acyclic graph; each of the UniNAS blocks has a different topology (see ). For clarity, we omit normalization and activation layers.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 63,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 3300,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 64,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 3300,
+    "text_count": 0,
+    "vector_drawing_count": 64,
+    "vector_primitive_count": 3300
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 893,
+    "full_pool_rank": 1526,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 782,
+    "second_pass_review_rank": 893
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2510.06035v1",
+    "abstract": "We introduce Universal Neural Architecture Space (UniNAS), a generic search space for neural architecture search (NAS) which unifies convolutional networks, transformers, and their hybrid architectures under a single, flexible framework. Our approach enables discovery of novel architectures as well as analyzing existing architectures in a common framework. We also propose a new search algorithm that allows traversing the proposed search space, and demonstrate that the space contains interesting architectures, which, when using identical training setup, outperform state-of-the-art hand-crafted architectures. Finally, a unified toolkit including a standardized training and evaluation protocol is introduced to foster reproducibility and enable fair comparison in NAS research. Overall, this work opens a pathway towards systematically exploring the full spectrum of neural architectures with a unified graph-based NAS perspective.",
+    "arxiv_id": "2510.06035",
+    "authors": [
+      "Ond\u0159ej T\u00fdbl",
+      "Luk\u00e1\u0161 Neumann"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2510.06035v1",
+    "primary_category": "cs.CV",
+    "published": "2025-10-07T15:31:40Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2510.06035v1",
+    "title": "Universal Neural Architecture Space: Covering ConvNets, Transformers and Everything in Between",
+    "updated": "2025-10-07T15:31:40Z",
+    "versioned_id": "2510.06035v1"
+  },
+  "reference_sha256": "2c375d8e23b64b13ff53a84bcaefdb17e3875de965b12bf5a4fec4427fdd3a88",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 373,
+    "final_quality_rank": 267,
+    "final_quality_score": 0.648831,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 5.2586,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.273072,
+      "component_bin": 4,
+      "connector_bin": 2,
+      "difference_hash": "d292dad4ca94da94da944a944a945a94da94ca944a944a94ca94da9400000000",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 540,
+    "style_selection_score": 0.515485
+  },
+  "source_filename": "network_structure.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "007315c028660583df8b68464fb78dc837a2da5eea1611a98637aff5aaca1468",
+  "task_id": "task_0372",
+  "task_index": 372
+}

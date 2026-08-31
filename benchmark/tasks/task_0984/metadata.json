@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2509.03140",
+  "candidate_id": "2509-03140_pdf_ef54d482ade20c11",
+  "caption": "Network architecture. (A) Schematic overview of the model. (B) The two-dimensional grid defining the state space of the cube ensemble has two symmetries. If looking at a single cube (red), rotating the ensemble should not change its probabilities for clockwise (cw) and counter-clockwise (ccw) pivoting. Similarly, when mirroring the cube ensemble, these probabilities should simply swap. (C) A 3 3 and 5 5 convolutional kernel. Entries with the same color/pattern share the same value, thus both kernels are invariant under rotation. For the 3 3 kernel, rotation invariance also induces mirror invariance (along the gray lines), and thus the alternating behaviour cannot be realized. However, for 5 5 kernels, rotation invariance does not enforce mirror invariance.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 30,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.888889,
+    "editable_component_count": 272,
+    "embedded_image_count": 34,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.00011,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 252,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 306,
+    "text_count": 57,
+    "vector_drawing_count": 161,
+    "vector_primitive_count": 215
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 1107,
+    "full_pool_rank": 2013,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 979,
+    "second_pass_review_rank": 1107
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2509.03140v1",
+    "abstract": "We present a decentralized model for autonomous reconfiguration of homogeneous pivoting cube modular robots in two dimensions. Each cube in the ensemble is controlled by a neural network that only gains information from other cubes in its local neighborhood, trained using reinforcement learning. Furthermore, using geometric deep learning, we include the grid symmetries of the cube ensemble in the neural network architecture. We find that even the most localized versions succeed in reconfiguring to the target shape, although reconfiguration happens faster the more information about the whole ensemble is available to individual cubes. Near-optimal reconfiguration is achieved with only nearest neighbor interactions by using multiple information passing between cubes, allowing them to accumulate more global information about the ensemble. Compared to standard neural network architectures, using geometric deep learning approaches provided only minor benefits. Overall, we successfully demonstrate mostly local control of a modular self-assembling system, which is transferable to other space-relevant systems with different action spaces, such as sliding cube modular robots and CubeSat swarms.",
+    "arxiv_id": "2509.03140",
+    "authors": [
+      "Nadezhda Dobreva",
+      "Emmanuel Blazquez",
+      "Jai Grover",
+      "Dario Izzo",
+      "Yuzhen Qin",
+      "Dominik Dold"
+    ],
+    "categories": [
+      "cs.NE",
+      "cs.AI",
+      "cs.RO"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2509.03140v1",
+    "primary_category": "cs.NE",
+    "published": "2025-09-03T08:50:41Z",
+    "query": "(cat:cs.NE AND all:\"network architecture\") AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2509.03140v1",
+    "title": "Decentralised self-organisation of pivoting cube ensembles using geometric deep learning",
+    "updated": "2025-09-03T08:50:41Z",
+    "versioned_id": "2509.03140v1"
+  },
+  "reference_sha256": "6fee6a38c7a2609c8de1563f3eb2350819e8877f401c6b1092d736e740c6a0dd",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 985,
+    "final_quality_rank": 906,
+    "final_quality_score": 0.460705,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.7373,
+      "category": "cs.NE",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.199207,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "795070c0ceca68c268c672365086688a788630c6313654c66486448064827c00",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 993,
+    "style_selection_score": 0.388528
+  },
+  "source_filename": "Fig3-Cubes.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "ef54d482ade20c1114ab59b67246370621f54f3970480a8cb542a827610a7c42",
+  "task_id": "task_0984",
+  "task_index": 984
+}

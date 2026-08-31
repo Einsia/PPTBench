@@ -1,0 +1,88 @@
+{
+  "arxiv_id": "2104.04163",
+  "candidate_id": "2104-04163_pdf_70ea345b5fe66dbe",
+  "caption": "MBlock consists of different CBlocks. Each branch has its own architecture parameters _ij. (b) A DownSample block is utilized to reduce the spatial size of the feature map between any two stages. (c) CDBlock consists of one or two CBlocks.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 31,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.999293,
+    "editable_component_count": 2826,
+    "embedded_image_count": 2,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.006389,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 65,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 2828,
+    "text_count": 29,
+    "vector_drawing_count": 34,
+    "vector_primitive_count": 2797
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2104.04163v1",
+    "abstract": "Most works on person re-identification (ReID) take advantage of large backbone networks such as ResNet, which are designed for image classification instead of ReID, for feature extraction. However, these backbones may not be computationally efficient or the most suitable architectures for ReID. In this work, we aim to design a lightweight and suitable network for ReID. We propose a novel search space called Combined Depth Space (CDS), based on which we search for an efficient network architecture, which we call CDNet, via a differentiable architecture search algorithm. Through the use of the combined basic building blocks in CDS, CDNet tends to focus on combined pattern information that is typically found in images of pedestrians. We then propose a low-cost search strategy named the Top-k Sample Search strategy to make full use of the search space and avoid trapping in local optimal result. Furthermore, an effective Fine-grained Balance Neck (FBLNeck), which is removable at the inference time, is presented to balance the effects of triplet loss and softmax loss during the training process. Extensive experiments show that our CDNet (~1.8M parameters) has comparable performance with state-of-the-art lightweight networks.",
+    "arxiv_id": "2104.04163",
+    "authors": [
+      "Hanjun Li",
+      "Gaojie Wu",
+      "Wei-Shi Zheng"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2104.04163v1",
+    "primary_category": "cs.CV",
+    "published": "2021-04-09T02:40:01Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2104.04163v1",
+    "title": "Combined Depth Space based Architecture Search For Person Re-identification",
+    "updated": "2021-04-09T02:40:01Z",
+    "versioned_id": "2104.04163v1"
+  },
+  "reference_sha256": "356133947e9e56c9009f7028430775167fa7fe8f97cec750c957973512538ac9",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 812,
+    "final_quality_rank": 646,
+    "final_quality_score": 0.571194,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.118,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.166325,
+      "component_bin": 4,
+      "connector_bin": 1,
+      "difference_hash": "000024002400e1046184ad2cad1c2334e334a594253424b40000733af3320000",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 826,
+    "style_selection_score": 0.463648
+  },
+  "source_filename": "MBlock.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "70ea345b5fe66dbe8782cd58b37b15c515d667897696ab072821cbd72ac5a70e",
+  "task_id": "task_0811",
+  "task_index": 811
+}

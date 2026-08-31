@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2410.02572",
+  "candidate_id": "2410-02572_pdf_f25441135eb2748b",
+  "caption": "Architecture of the proposed denoising pipeline. We balance two denoising stages, one before and one after demosaicking, returning a portion \\( \\) of the noise after the first one. Each stage performs, in a color decorrelated domain, a patch trajectory prefiltering and two iterations of a patch-based spatio-temporal denoising, only requiring an estimation of the sensor noise model.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 398,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 8008,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 447,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 8008,
+    "text_count": 30,
+    "vector_drawing_count": 417,
+    "vector_primitive_count": 7978
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2410.02572v2",
+    "abstract": "Denoising is one of the fundamental steps of the processing pipeline that converts data captured by a camera sensor into a display-ready image or video. It is generally performed early in the pipeline, usually before demosaicking, although studies swapping their order or even conducting them jointly have been proposed. With the advent of deep learning, the quality of denoising algorithms has steadily increased. Even so, modern neural networks still have a hard time adapting to new noise levels and scenes, which is indispensable for real-world applications. With those in mind, we propose a self-similarity-based denoising scheme that weights both a pre- and a post-demosaicking denoiser for Bayer-patterned CFA video data. We show that a balance between the two leads to better image quality, and we empirically find that higher noise levels benefit from a higher influence pre-demosaicking. We also integrate temporal trajectory prefiltering steps before each denoiser, which further improve texture reconstruction. The proposed method only requires an estimation of the noise model at the sensor, accurately adapts to any noise level, and is competitive with the state of the art, making it suitable for real-world videography.",
+    "arxiv_id": "2410.02572",
+    "authors": [
+      "Marco S\u00e1nchez-Beeckman",
+      "Antoni Buades",
+      "Nicola Brandonisio",
+      "Bilel Kanoun"
+    ],
+    "categories": [
+      "eess.IV",
+      "cs.CV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2410.02572v2",
+    "primary_category": "eess.IV",
+    "published": "2024-10-03T15:20:19Z",
+    "query": "(cat:eess.IV AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2410.02572v2",
+    "title": "Combining Pre- and Post-Demosaicking Noise Removal for RAW Video",
+    "updated": "2024-11-29T11:33:31Z",
+    "versioned_id": "2410.02572v2"
+  },
+  "reference_sha256": "e32446c68dd153933118f59ae16e2d04679b51521415e066fa6dace6df8e88c3",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 92,
+    "final_quality_rank": 102,
+    "final_quality_score": 0.703331,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.3255,
+      "category": "eess.IV",
+      "category_family": "eess",
+      "color_bin": 2,
+      "colorfulness": 0.289693,
+      "component_bin": 5,
+      "connector_bin": 4,
+      "difference_hash": "41c29481a493249f214f24926c920480a04a35b188d0b49226b2279235925121",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 137,
+    "style_selection_score": 0.580031
+  },
+  "source_filename": "architecture.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "f25441135eb2748b7f171a86dc425cc4de3127aa9a725c95a4732b83fdc0647e",
+  "task_id": "task_0091",
+  "task_index": 91
+}

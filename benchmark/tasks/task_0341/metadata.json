@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2411.17683",
+  "candidate_id": "2411-17683_pdf_5ab3be0460329171",
+  "caption": "Schematic overview of the model DIETER. The figure depicts a schematic representation of the energy system model DIETER, which has been used in this study. Blue elements refer to electricity-related elements, while green to hydrogen-related. They are connected by electrolysis and reconversion. This cover has been designed using resources from Flaticon.com.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 126,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.990922,
+    "editable_component_count": 1419,
+    "embedded_image_count": 13,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.002468,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 201,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1432,
+    "text_count": 49,
+    "vector_drawing_count": 139,
+    "vector_primitive_count": 1370
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2411.17683v6",
+    "abstract": "Coping with prolonged periods of low availability of wind and solar power, also referred to as variable renewable energy droughts or \"Dunkelflaute\", emerges as a key challenge for realizing decarbonized energy systems based on renewable energy. Here we investigate the role of long-duration electricity storage and geographical balancing through transmission in dealing with such events in Europe, combining a time series analysis of renewable availability with power sector modeling of 35 historical weather years. We find that extreme droughts define long-duration storage operation and investment. Assuming policy-relevant interconnection, the least-cost system in our model capable of coping with the most extreme event requires 351 terawatt hours long-duration storage capacity, corresponding to 7% of yearly European electricity demand. While nuclear power can partially reduce storage needs, the storage-mitigating effect of fossil backup plants in combination with carbon removal is limited. Policymakers and system planners should prepare for a rapid expansion of long-duration storage to safeguard the renewable energy transition in Europe.",
+    "arxiv_id": "2411.17683",
+    "authors": [
+      "Martin Kittel",
+      "Alexander Roth",
+      "Wolf-Peter Schill"
+    ],
+    "categories": [
+      "physics.soc-ph",
+      "econ.GN"
+    ],
+    "doi": "10.1038/s41467-026-72681-5",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2411.17683v6",
+    "primary_category": "physics.soc-ph",
+    "published": "2024-11-26T18:48:01Z",
+    "query": "(cat:econ.GN AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2411.17683v6",
+    "title": "Long-duration electricity storage needs for coping with Dunkelflaute events in Europe",
+    "updated": "2026-04-30T07:08:05Z",
+    "versioned_id": "2411.17683v6"
+  },
+  "reference_sha256": "555da5cdd1d51c507b2006999bca55d359376603cb7d1588fa489f1c55659894",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 342,
+    "final_quality_rank": 435,
+    "final_quality_score": 0.611757,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.4167,
+      "category": "physics.soc-ph",
+      "category_family": "physics",
+      "color_bin": 0,
+      "colorfulness": 0.072933,
+      "component_bin": 3,
+      "connector_bin": 2,
+      "difference_hash": "0040444828b028a0448082c686448e5898d89880c986a546a540a540ad40ad60",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 243,
+    "style_selection_score": 0.553863
+  },
+  "source_filename": "Figure_11.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "5ab3be04603291719d74b0da1d517c9490e41414dbdd4b33e62de8ed61600ff3",
+  "task_id": "task_0341",
+  "task_index": 341
+}

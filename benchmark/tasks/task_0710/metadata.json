@@ -1,0 +1,88 @@
+{
+  "arxiv_id": "2605.05632",
+  "candidate_id": "2605-05632_pdf_9471f465401e0f70",
+  "caption": "Agentic RAG: a PydanticAI agent operates in an open-ended tool-use loop over search_knowledge_base and get_document_by_id, deciding autonomously when to search, reformulate queries, or stop.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 33,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 6643,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 55,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 6643,
+    "text_count": 22,
+    "vector_drawing_count": 33,
+    "vector_primitive_count": 6621
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 7,
+    "full_pool_rank": 11,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 6,
+    "second_pass_review_rank": 7
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2605.05632v1",
+    "abstract": "Retrieval-Augmented Generation (RAG) systems are vulnerable to knowledge base poisoning, yet existing attacks have been evaluated almost exclusively against vanilla retrieve-then-generate pipelines. Architectures designed to handle conflicting retrieved information - multi-agent debate, agentic retrieval, recursive language models - remain untested against adversarially optimized contradictions. We evaluate four RAG architectures (vanilla RAG, agentic RAG, MADAM-RAG, and Recursive Language Models) under controlled single-document (N=1) poisoning on 921 Natural Questions QA pairs, comparing a clean baseline, naive injection, and CorruptRAG-AK - an adversarial attack whose meta-epistemic framing targets credibility assessment. Architecture is a high-impact variable in adversarial robustness: under CorruptRAG-AK, attack success rates range from 81.9% (vanilla) to 24.4% (RLM) - a spread of nearly 58 percentage points across architectures with comparable clean accuracy (~92%). Decomposing this gap, once the poisoned document is retrieved, adversarial framing - not retrieval optimization - drives the majority of CorruptRAG-AK's advantage for three of four architectures, localizing the cross-architecture vulnerability at the content-reasoning stage. Our MADAM-RAG reimplementation shows the highest apparent contradiction detection rate, though our LLM judge over-identifies this behavior (~48.5% precision), so reported rates are upper bounds. Regardless of detection, MADAM-RAG cannot resolve contradictions reliably, producing a 41.4% non-answer rate even on clean inputs - though implementation divergences from the original may contribute. We introduce a seven-category behavioral taxonomy capturing contradiction detection, hedging, and failure modes beyond binary accuracy. Code, data, and analysis notebooks are publicly available.",
+    "arxiv_id": "2605.05632",
+    "authors": [
+      "Samuel Korn"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2605.05632v1",
+    "primary_category": "cs.CR",
+    "published": "2026-05-07T03:36:14Z",
+    "query": "(cat:cs.CL AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2605.05632v1",
+    "title": "Architecture Matters: Comparing RAG Systems under Knowledge Base Poisoning",
+    "updated": "2026-05-07T03:36:14Z",
+    "versioned_id": "2605.05632v1"
+  },
+  "reference_sha256": "5c95176ef3a0ae90ef38910b75f173579b7eb0a68d969c4b67b8f9ba7522b9cc",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 711,
+    "final_quality_rank": 520,
+    "final_quality_score": 0.594074,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.2481,
+      "category": "cs.CR",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.0,
+      "component_bin": 5,
+      "connector_bin": 1,
+      "difference_hash": "00003200219022882e082998a98894c493149d34a99828182c00241030000000",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 650,
+    "style_selection_score": 0.498512
+  },
+  "source_filename": "agentic-rag-architecture-diagram.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "9471f465401e0f7031175dab7e3de6c7a527b4dab21b57455d462f11f1b6efe3",
+  "task_id": "task_0710",
+  "task_index": 710
+}

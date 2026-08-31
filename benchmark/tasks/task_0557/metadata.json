@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2412.05525",
+  "candidate_id": "2412-05525_pdf_b2600a98e55f1880",
+  "caption": "Schematic of a physics-informed neural network based on the unsteady PMPG formulation",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 44,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 751,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 75,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 751,
+    "text_count": 30,
+    "vector_drawing_count": 45,
+    "vector_primitive_count": 721
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2412.05525v1",
+    "abstract": "Advancements in computational fluid mechanics have largely relied on Newtonian frameworks, particularly through the direct simulation of Navier-Stokes equations. In this work, we propose an alternative computational framework that employs variational methods, specifically by leveraging the principle of minimum pressure gradient, which turns the fluid mechanics problem into a minimization problem whose solution can be used to predict the flow field in unsteady incompressible viscous flows. This method exhibits two particulary intriguing properties. First, it circumvents the chronic issues of pressure-velocity coupling in incompressible flows, which often dominates the computational cost in computational fluid dynamics (CFD). Second, this method eliminates the reliance on unphysical assumptions at the outflow boundary, addressing another longstanding challenge in CFD. We apply this framework to three benchmark examples across a range of Reynolds numbers: (i) unsteady flow field in a lid-driven cavity, (ii) Poiseuille flow, and (iii) flow past a circular cylinder. The minimization framework is carried out using a physics-informed neural network (PINN), which integrates the underlying physical principles directly into the training of the model. The results from the proposed method are validated against high-fidelity CFD simulations, showing an excellent agreement. Comparison of the proposed variational method to the conventional method, wherein PINNs is directly applied to solve Navier-Stokes Equations, reveals that the proposed method outperforms conventional PINNs in terms of both convergence rate and time, demonstrating its potential for solving complex fluid mechanics problems.",
+    "arxiv_id": "2412.05525",
+    "authors": [
+      "H. Sababha",
+      "A. Elmaradny",
+      "H. Taha",
+      "M. Daqaq"
+    ],
+    "categories": [
+      "physics.flu-dyn",
+      "cs.LG",
+      "math.OC"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2412.05525v1",
+    "primary_category": "physics.flu-dyn",
+    "published": "2024-12-07T03:45:39Z",
+    "query": "(cat:cs.LG AND all:framework) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2412.05525v1",
+    "title": "A Variational Computational-based Framework for Unsteady Incompressible Flows",
+    "updated": "2024-12-07T03:45:39Z",
+    "versioned_id": "2412.05525v1"
+  },
+  "reference_sha256": "7b7097f42b4d11d5fa5832635100b2a1478a852158ad68adeebe0f8c83ac9909",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 558,
+    "final_quality_rank": 929,
+    "final_quality_score": 0.446432,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.7812,
+      "category": "physics.flu-dyn",
+      "category_family": "physics",
+      "color_bin": 0,
+      "colorfulness": 0.0,
+      "component_bin": 2,
+      "connector_bin": 1,
+      "difference_hash": "cc80dc00cc00c804cc04cc8dc8dad9daccd9cc05c805cc018901c003c006603e",
+      "raster_bin": 0
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "Figure1.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "b2600a98e55f1880631ead684c9cdc6230d92d86e32387557aa250fde3790146",
+  "task_id": "task_0557",
+  "task_index": 557
+}

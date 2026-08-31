@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2203.01406",
+  "candidate_id": "2203-01406_pdf_3a2d90a986bffcdb",
+  "caption": "",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 1036,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 15365,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 1130,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 15365,
+    "text_count": 93,
+    "vector_drawing_count": 1037,
+    "vector_primitive_count": 15272
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 464,
+    "full_pool_rank": 688,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 405,
+    "second_pass_review_rank": 464
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2203.01406v1",
+    "abstract": "We present The MKID Pipeline, a general use science data pipeline for the reduction and analysis of ultraviolet, optical and infrared (UVOIR) Microwave Kinetic Inductance Detector (MKID) data sets. This paper provides an introduction to the nature of MKID data sets, an overview of the calibration steps included in the pipeline, and an introduction to the implementation of the software.",
+    "arxiv_id": "2203.01406",
+    "authors": [
+      "Sarah Steiger",
+      "John I. Bailey",
+      "Nicholas Zobrist",
+      "Noah Swimmer",
+      "Rupert Dodkins",
+      "Kristina K. Davis",
+      "Benjamin A. Mazin"
+    ],
+    "categories": [
+      "astro-ph.IM"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2203.01406v1",
+    "primary_category": "astro-ph.IM",
+    "published": "2022-03-02T21:03:22Z",
+    "query": "(cat:astro-ph.IM AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2203.01406v1",
+    "title": "The MKID Science Data Pipeline",
+    "updated": "2022-03-02T21:03:22Z",
+    "versioned_id": "2203.01406v1"
+  },
+  "reference_sha256": "92a3992dd4e689b77b8f46438f2f63bc8c9bc191297fe6bc99a2f65838f32f1e",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 26,
+    "final_quality_rank": 18,
+    "final_quality_score": 0.781409,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.9069,
+      "category": "astro-ph.IM",
+      "category_family": "astro-ph",
+      "color_bin": 2,
+      "colorfulness": 0.247798,
+      "component_bin": 6,
+      "connector_bin": 5,
+      "difference_hash": "002cc48cc42cc5ac6ecc6a0c828ce6cc66c0c6c886c8a6c0a6c0a6c0e6c80688",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 32,
+    "style_selection_score": 0.65517
+  },
+  "source_filename": "MKID_Pipeline_Block_Diagram_Section_2.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "3a2d90a986bffcdb10ce7f95731cbd5f1ffe412756230e0284669d5ec5ae59cd",
+  "task_id": "task_0025",
+  "task_index": 25
+}

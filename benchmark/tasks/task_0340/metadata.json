@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2512.08706",
+  "candidate_id": "2512-08706_pdf_e347fcedc401a9c1",
+  "caption": "RESTifAI workflow with illustrative outputs from four intermediate steps. 1, 2, 4 are structured LLM outputs.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 181,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.998874,
+    "editable_component_count": 6210,
+    "embedded_image_count": 7,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.202373,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 400,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 6217,
+    "text_count": 168,
+    "vector_drawing_count": 225,
+    "vector_primitive_count": 6042
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2512.08706v1",
+    "abstract": "With this paper, we introduce RESTifAI, an LLM-driven approach for generating reusable, CI/CD ready REST API tests, following the happy-path approach. Unlike existing tools that often focus primarily on internal server errors, RESTifAI systematically constructs valid test scenarios (happy paths) and derives negative cases to verify both intended functionality (2xx responses) and robustness against invalid inputs or business-rule violations (4xx responses). The results indicate that RESTifAI performs on par with the latest LLM tools, i.e., AutoRestTest and LogiAgent, while addressing limitations related to reusability, oracle complexity, and integration. To support this, we provide common comparative results and demonstrate the tool's applicability in industrial services. For tool demonstration, please refer to https://www.youtube.com/watch?v=2vtQo0T0Lo4. RESTifAI is publicly available at https://github.com/casablancahotelsoftware/RESTifAI.",
+    "arxiv_id": "2512.08706",
+    "authors": [
+      "Leon Kogler",
+      "Maximilian Ehrhart",
+      "Benedikt Dornauer",
+      "Eduard Paul Enoiu"
+    ],
+    "categories": [
+      "cs.SE"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2512.08706v1",
+    "primary_category": "cs.SE",
+    "published": "2025-12-09T15:21:51Z",
+    "query": "(cat:cs.SE AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2512.08706v1",
+    "title": "RESTifAI: LLM-Based Workflow for Reusable REST API Testing",
+    "updated": "2025-12-09T15:21:51Z",
+    "versioned_id": "2512.08706v1"
+  },
+  "reference_sha256": "3c7e4ade9918852cd4d7d0052e79abbd312c087ceb4dbfa146e5248c476d1431",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 341,
+    "final_quality_rank": 238,
+    "final_quality_score": 0.659261,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.2046,
+      "category": "cs.SE",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.167827,
+      "component_bin": 5,
+      "connector_bin": 3,
+      "difference_hash": "99d929d821582bdb499b6ebb2ea218cbdadb496b4c184c189c2b8c3a8d3a9c2c",
+      "raster_bin": 4
+    },
+    "style_selection_rank": 229,
+    "style_selection_score": 0.547898
+  },
+  "source_filename": "ToolOverview.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "e347fcedc401a9c192b77823da87e7ec16f7cb5ceccfff2790ab48c9afae0d90",
+  "task_id": "task_0340",
+  "task_index": 340
+}

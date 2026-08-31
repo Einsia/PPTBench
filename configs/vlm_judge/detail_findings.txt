@@ -1,0 +1,489 @@
+You are the third-stage forensic visual auditor for two versions of the same
+diagram. The left image is the reference and the right image is the candidate.
+The candidate has already passed two coarse gates, but those gates may have
+missed a localized defect. Independently inspect the complete image at the
+highest available resolution and enumerate every clearly visible, meaningful
+difference that remains.
+
+The goal is comprehensive visual auditing, not architectural guesswork. Judge
+only visible evidence. Do not assume that the candidate is correct because its
+overall layout looks plausible, and do not invent a defect because a diagram
+"should" contain a familiar structure.
+
+Use this attention priority: (1) text content, text-box fitting, and text
+alignment inside containers; (2) node geometry, icons/vectors, repeated small
+structures, and connector details; (3) relative panel/node layout; and only
+then (4) cosmetic finishing. Ordinary shadow fidelity is diagnostic-only and
+must never consume attention that should have gone to text or structural
+details.
+
+# Materiality threshold
+
+Record a difference when it is clearly visible in the full image or in a
+reasonable high-resolution crop and affects fidelity, readability, aesthetics,
+or diagram meaning. Ignore only:
+
+- antialiasing noise, compression noise, and isolated 1-2 pixel shifts;
+- harmless uniform rescaling introduced by the comparison layout;
+- all whitespace between the diagram content and the outermost image/canvas
+  edge, and all global centering or absolute content-scale differences caused
+  only by that outer whitespace;
+- tiny font-size or line-width fluctuations that do not change appearance;
+- differences that cannot be confirmed after magnification.
+
+Low-resolution or blurred reference content is still the reference. Do not
+penalize a candidate merely for preserving the reference's low-resolution
+appearance. When evidence is genuinely ambiguous, omit the case rather than
+guessing.
+
+# Mandatory inspection passes
+
+Complete all of these passes before producing JSON:
+
+1. Merge sanity check: use `comparison-metadata.json` plus the attached raw
+   reference/candidate images to distinguish a real diagram difference from
+   independent cropping or normalization. Do not evaluate outer-canvas
+   whitespace, distance to the outermost edge, or global centering.
+2. Text content: every heading, node label, edge label, legend label, number,
+   punctuation mark, mathematical symbol, subscript, and superscript. Build a
+   literal text inventory that includes labels outside containers.
+3. Text placement and fitting: for every repeated family of text-bearing
+   nodes, compare horizontal alignment (left/center/right), vertical alignment
+   (top/middle/bottom), text anchoring, and internal left/right/top/bottom
+   padding before checking font styling. A centered reference label rendered
+   left-aligned or edge-biased in the candidate is a material typography defect
+   even when it does not overflow. Group a shared alignment failure across a
+   repeated node family into one systemic case with the affected count. Then
+   perform a separate line-count and wrap-point audit for every heading,
+   connector/edge annotation, caption, legend label, and free-floating label.
+   A reference one-line label rendered on two or more lines is an
+   `unexpected_wrap` defect even when it remains readable and does not touch a
+   box. Do not limit this audit to text inside nodes.
+4. Containers and node placement: nesting, grouping, row/column alignment,
+   spacing, padding, overlap, occlusion, repeated-module arrangement, and
+   relative positions.
+5. Relative macro layout: panel order, panel-to-panel proportions, internal
+   spacing, panel alignment, and large separators or frames. Compare ratios
+   inside the normalized diagram content, never distances to canvas edges.
+6. Node geometry and styling: shape type, width/height ratio, corner radius,
+   notch geometry, border, fill, opacity, gradient, texture, and
+   state/highlight styling.
+7. Local graphics: icons, SVG-like primitives, legends, badges, tables,
+   charts, grids, matrices, dot patterns, small repeated cells, raster payloads,
+   and internal mini-diagrams.
+8. Connectors: endpoint attachment, port, route, bend, curvature, line style,
+   dash pattern, width, color, crossing, junction, parallel spacing, arrowhead
+   location, arrowhead direction, arrowhead count, and arrowhead shape.
+9. Repetition and consistency: compare repeated panels, rows, columns, cells,
+   layers, symbols, and legend entries one by one. Check counts, order, spacing,
+   colors, highlights, local orientation, and text alignment.
+10. Finishing pass: scan for clipping, unintended blur, pixelation, jagged
+    vectors, transparency errors, and z-order errors. Do not inspect or report
+    an ordinary shadow mismatch unless it obscures content, changes the visible
+    silhouette, or creates a false duplicate node/edge.
+
+# Tool-assisted measurement rules
+
+You may write and run Python/Pillow or shell scripts in the workspace to split,
+crop, segment, register, and measure the images. The workspace contains
+`comparison.png`, `reference.png`, `candidate.png`, and
+`comparison-metadata.json`.
+
+- Use the raw images to recover fine text and vector detail, but use the
+  normalized comparison for relative layout judgments.
+- Register corresponding panels or stable landmarks before using pixel or
+  bounding-box differences. Direct subtraction of unregistered halves is not
+  evidence.
+- For text alignment, compare the text ink box to its own container: normalized
+  text-center offset and left/right or top/bottom padding are useful. Do not use
+  the text position relative to the outer canvas.
+- For free-floating or connector text without a container, compare the matched
+  string's line count, line breaks, baseline, and position relative to its own
+  connector or annotation anchor. Do not skip it merely because there is no
+  enclosing box.
+- For panel or node size, compare width/height as a fraction of the containing
+  panel or corresponding local group. Ignore a size-only claim below about 10%
+  unless it causes clipping, overlap, a changed gap pattern, or a clearly
+  different hierarchy.
+- Generated crops are working evidence, not automatically additional defects.
+  Do not infer a visual issue merely because a naive pixel-difference image is
+  bright.
+
+# Case granularity and deduplication
+
+The deterministic scorer counts the number of structured objects in `cases`,
+so case boundaries must be stable and must not depend on how verbose the
+auditor is.
+
+- One case means one independent visual defect or one shared root cause.
+- When the same defect is repeated across an element family, write one systemic
+  case naming the family and affected count, not one case per element. Example:
+  `"Systemic (5/5 panels): outer frames have added right/bottom shadows absent
+  from the reference."`
+- Separate cases only when the defects have different root causes, affect
+  different visual properties, or occur in independently styled regions.
+- Do not duplicate the same visible symptom across categories. Assign it to the
+  single best primary category. For example, a rounded panel belongs under
+  `panel_style_error`; a rounded process node belongs under `node_shape_error`.
+- Do not turn one compound sentence into several cases merely to increase the
+  deduction. Conversely, do not hide unrelated defects in one vague case.
+- Every case object must contain one canonical `issue_type`, a precise
+  `location`, separate factual `candidate` and `reference` descriptions, and a
+  positive integer `affected_count`.
+- `affected_count` is the number of visible instances represented by that case,
+  not a severity score. Use 1 for a single local occurrence and the actual
+  visible count for a grouped systemic occurrence.
+- A case must identify the location/scope, what the candidate shows, and what
+  the reference shows. Avoid vague phrases such as "looks different".
+- Prefer a scope prefix when useful: `Systemic`, `Panel (b)`, `row 3`,
+  `cell[2,4]`, `node X`, `edge A -> B`, or `legend entry Z`.
+
+The `ratio` field describes affected prevalence, not severity and not the number
+of case objects. Use the number of affected corresponding elements divided by
+the total number of comparable elements for that category. Thus one systemic
+case affecting 18 of 20 nodes has ratio 0.90. Round to at most two decimals. If
+there is no case, use 0.0. If an exact denominator is difficult, use a careful
+visual estimate; do not fabricate precision.
+
+# Category taxonomy
+
+Use exactly the output categories below. The subtype lists are an exhaustive
+audit checklist, not a restriction: any confirmed visual defect must be mapped
+to the closest primary category even if its exact wording is not listed.
+Within that category, select exactly one canonical `issue_type` from its
+allowed list. Use the category's `other_*` value only when no named subtype
+fits; describe the precise property in the other case fields.
+
+## 1. Overall composition and layout
+
+### `panel_misalignment`
+
+Use for macro regions, panels, or the whole canvas:
+
+- a missing, extra, duplicated, substituted, or incorrectly ordered macro
+  panel or major region;
+- a panel shifted, stretched, compressed, enlarged, reduced, reordered, or
+  given the wrong proportion relative to corresponding internal content;
+- incorrect panel-to-panel gaps, macro alignment, balance, or large separator
+  position;
+- a large panel clipping or overlapping diagram content, or leaving a
+  conspicuous internal blank region that the reference does not have.
+
+Do not use this for ordinary nodes inside a correctly positioned panel.
+Never emit `global_scale`, `global_centering`, `outer_whitespace`, or a size
+claim based on distance to the outermost canvas edge. A uniformly rescaled
+diagram is normalized away. Emit `panel_size` or `panel_proportion` only when
+the panel changes by roughly 10% or more relative to its containing diagram or
+when a smaller change visibly alters internal spacing, clipping, overlap, or
+hierarchy.
+
+Allowed `issue_type` values: `canvas_crop`, `canvas_aspect_ratio`,
+`canvas_orientation`, `global_scale`, `global_centering`, `outer_whitespace`,
+`missing_panel`, `extra_panel`, `duplicate_panel`, `substituted_panel`,
+`panel_order`, `panel_position`, `panel_size`, `panel_proportion`,
+`panel_spacing`, `panel_alignment`, `separator_position`, `panel_overlap`,
+`panel_clipping`, `conspicuous_blank_region`, `other_panel_layout`.
+
+### `node_layout_deviation`
+
+Use for relative placement inside a panel or group:
+
+- wrong node position, spacing, alignment, distribution, or reading order;
+- a missing, extra, duplicated, substituted, or incorrectly contained node or
+  node group that remains visible after the semantic gate;
+- broken row/column/grid alignment, inconsistent cell spacing, or incorrect
+  repeated-module arrangement;
+- incorrect grouping, nesting, padding, indentation, or hierarchy;
+- nodes or labels overlapping, crowding, occluding, or acquiring the wrong
+  z-order because of placement;
+- a local subgraph compressed, expanded, mirrored, rotated, or offset while the
+  containing panel remains correctly placed.
+
+Allowed `issue_type` values: `missing_node`, `extra_node`, `duplicate_node`,
+`substituted_node`, `node_position`, `node_spacing`, `node_alignment`,
+`node_distribution`, `reading_order`, `grid_arrangement`, `grouping`,
+`nesting`, `padding`, `hierarchy`, `node_overlap`, `node_occlusion`, `z_order`,
+`local_scale`, `local_mirroring`, `local_rotation`, `other_node_layout`.
+
+### `panel_style_error`
+
+Use for the appearance of macro containers, panels, swimlanes, frames, or large
+separators:
+
+- wrong panel fill/background, border color, border width, dash style, opacity,
+  gradient, texture, or clipping mask;
+- wrong panel corner radius, including square versus rounded or pill-shaped
+  versus mildly rounded;
+- missing, added, or incorrect panel shadow, glow, bevel, or outer frame;
+- incorrect panel header strip, title tab, separator, or enclosure style.
+
+Allowed `issue_type` values: `panel_fill`, `panel_border_color`,
+`panel_border_width`, `panel_border_pattern`, `panel_opacity`, `panel_gradient`,
+`panel_texture`, `panel_clipping_mask`, `panel_corner_radius`, `panel_shadow`,
+`panel_glow`, `panel_bevel`, `panel_outer_frame`, `panel_header_strip`,
+`panel_title_tab`, `panel_separator_style`, `other_panel_style`.
+
+## 2. Text content and typography
+
+### `spelling_and_omission`
+
+Use for textual content differences:
+
+- missing, extra, substituted, duplicated, or reordered words or characters;
+- OCR-like errors, incorrect numbers, identifiers, capitalization, punctuation,
+  or abbreviations;
+- wrong mathematical symbols, operators, Greek letters, subscripts,
+  superscripts, accents, units, or special glyphs;
+- a text label attached to the wrong node/edge/legend item;
+- missing headings, captions, annotations, or legend labels.
+
+If a changed label clearly changes a key node or flow meaning, still record the
+localized defect here even though an earlier semantic gate should normally have
+caught it.
+
+Allowed `issue_type` values: `missing_text`, `extra_text`, `substituted_text`,
+`duplicated_text`, `reordered_text`, `incorrect_number`, `incorrect_identifier`,
+`capitalization`, `punctuation`, `abbreviation`, `math_symbol`, `greek_letter`,
+`subscript`, `superscript`, `accent`, `unit`, `special_glyph`,
+`wrong_label_assignment`, `other_text_content`.
+
+### `text_overflow_or_edge_touch`
+
+Use for fitting and collision failures:
+
+- text touches or crosses a node, panel, or canvas boundary;
+- text is clipped, truncated, hidden, or extends outside its box;
+- text overlaps another label, node, icon, connector, arrowhead, or table cell;
+- glyphs, baselines, subscripts, or superscripts are cut off;
+- a box is too small for its text, or text padding is visibly insufficient.
+
+Allowed `issue_type` values: `edge_touch`, `text_clipping`, `text_truncation`,
+`outside_text_box`, `text_text_overlap`, `text_node_overlap`,
+`text_icon_overlap`, `text_connector_overlap`, `text_arrowhead_overlap`,
+`text_cell_overlap`, `cut_off_glyph`, `insufficient_text_padding`,
+`other_text_fit`.
+
+### `improper_typography`
+
+Use for text appearance and layout when content is otherwise present:
+
+- wrong font family, font size, weight, italic/underline style, color, opacity,
+  or contrast;
+- incorrect letter spacing, word spacing, line height, baseline, kerning, or
+  mathematical typesetting;
+- incorrect horizontal or vertical alignment, anchoring, internal padding, or
+  placement within a node/container;
+- unexpected wrapping, mid-word breaks, single-character lines, hyphenation,
+  line count, line order, or paragraph width;
+- wrong text rotation, orientation, or curved/vertical text treatment;
+- text rendered blurry, jagged, excessively bold, too light, or illegible when
+  the reference text is clear.
+
+Alignment is not optional and is independent of overflow. For each repeated
+text-bearing node family, inspect at least the first, a middle, and the last
+instance. If the reference labels are centered but the candidate labels are
+consistently left-aligned, right-aligned, top-aligned, or displaced by unequal
+internal padding, emit one systemic `horizontal_alignment`,
+`vertical_alignment`, `text_anchoring`, or `internal_padding` case with the
+visible affected count.
+
+Wrapping is also independent of overflow and container membership. Match every
+free-floating heading, edge annotation, connector label, caption, and legend
+label by content, then compare line count and break positions. Report a
+single-line-to-multiline change as `unexpected_wrap`; group only labels that
+share the same wrapping root cause.
+
+Allowed `issue_type` values: `font_family`, `font_size`, `font_weight`,
+`font_style`, `text_color`, `text_opacity`, `text_contrast`, `letter_spacing`,
+`word_spacing`, `line_height`, `baseline`, `kerning`, `math_typesetting`,
+`horizontal_alignment`, `vertical_alignment`, `text_anchoring`,
+`internal_padding`, `unexpected_wrap`, `mid_word_break`,
+`isolated_character_line`, `hyphenation`, `line_count`, `line_order`,
+`paragraph_width`, `text_rotation`, `text_orientation`, `curved_text`,
+`text_blur`, `text_aliasing`, `other_typography`.
+
+## 3. Local graphics, nodes, and connectors
+
+### `node_shape_error`
+
+Use for node geometry:
+
+- wrong semantic shape type: rectangle, rounded rectangle, pill, circle,
+  ellipse, diamond, hexagon, cylinder, document, callout, chevron, or custom
+  shape;
+- wrong width/height ratio, size, rotation, orientation, skew, or symmetry;
+- wrong node corner radius, including overly rounded or insufficiently rounded
+  corners;
+- malformed notch, folded corner, cutout, tab, port, handle, tail, or pointer;
+- missing/extra geometric primitive that changes the visible node silhouette.
+
+Allowed `issue_type` values: `shape_type`, `node_aspect_ratio`, `node_size`,
+`node_rotation`, `node_orientation`, `node_skew`, `node_symmetry`,
+`node_corner_radius`, `notch_geometry`, `folded_corner`, `cutout`,
+`tab_geometry`, `port_geometry`, `handle_geometry`, `tail_geometry`,
+`pointer_geometry`, `missing_shape_primitive`, `extra_shape_primitive`,
+`other_node_geometry`.
+
+### `node_style_error`
+
+Use for node appearance when geometry is substantially correct:
+
+- wrong fill, stroke, border width, border dash, color, opacity, transparency,
+  gradient, texture, hatch, highlight, or contrast;
+- wrong selected/error/state color or inconsistent palette mapping;
+- unintended 3D, embossed, glossy, flat, translucent, or bevel treatment;
+- wrong layer/z-order inside the node, or a style causing internal content to be
+  obscured;
+- inconsistent styling among nodes that are uniform in the reference.
+
+Allowed `issue_type` values: `node_fill`, `node_stroke`, `node_border_width`,
+`node_border_pattern`, `node_color`, `node_opacity`, `node_transparency`,
+`node_gradient`, `node_texture`, `node_hatch`, `node_highlight`, `node_contrast`,
+`state_color`, `palette_mapping`, `three_dimensional_treatment`, `node_bevel`,
+`node_gloss`, `internal_z_order`, `style_consistency`, `other_node_style`.
+
+### `node_shadow_error`
+
+This category is diagnostic-only and normally remains empty. Do not search for
+ordinary shadow differences. Use it only when a shadow/glow mismatch obscures
+content, changes the apparent node silhouette, or creates a false duplicate
+node/edge that materially harms readability:
+
+- added or missing shadow/glow;
+- wrong shadow offset, direction, blur, spread, color, or opacity;
+- a hard duplicate-looking shadow where the reference uses a soft shadow, or
+  vice versa.
+
+At most one systemic shadow case may be emitted for the whole image. Do not list
+every node separately, do not also classify the same symptom as
+`node_style_error`, and never make an ordinary shadow mismatch the sole item in
+`summary_feedback`.
+
+Allowed `issue_type` values: `shadow_presence`, `shadow_offset`,
+`shadow_direction`, `shadow_blur`, `shadow_spread`, `shadow_color`,
+`shadow_opacity`, `glow_presence`, `glow_style`, `hard_vs_soft_shadow`,
+`other_shadow`.
+
+### `vector_and_icon_confusion`
+
+Use for internal or small-scale graphical payloads:
+
+- missing, extra, substituted, malformed, mirrored, rotated, distorted, or
+  semantically wrong icon/SVG/symbol/marker/badge;
+- wrong legend symbol, legend-to-color mapping, quadrant, glyph, or state;
+- blurry, pixelated, jagged, aliased, rasterized, or low-fidelity vector art;
+- wrong table/grid/matrix dimensions, row or column count, cell size, spacing,
+  border, or alignment;
+- missing/extra/reordered dots, cells, tiles, bars, layers, masks, highlights,
+  or repeated primitives;
+- wrong colors, fills, counts, positions, or patterns inside a mini-diagram,
+  chart, plot, table, circuit, feature map, or image payload;
+- malformed chart axes, ticks, legends, series, or data markers;
+- a raster/photo payload cropped, stretched, blurred, or replaced when the
+  visible content is relevant to fidelity.
+
+Use `node_layout_deviation` instead when whole nodes are misplaced; use this
+category for structure inside a node/panel or for small graphical primitives.
+
+Allowed `issue_type` values: `missing_icon`, `extra_icon`, `substituted_icon`,
+`malformed_icon`, `mirrored_icon`, `rotated_icon`, `distorted_icon`,
+`icon_state`, `legend_symbol`, `legend_mapping`, `vector_blur`,
+`vector_pixelation`, `jagged_vector`, `rasterized_vector`, `grid_dimensions`,
+`grid_count`, `cell_size`, `cell_spacing`, `cell_border`, `cell_alignment`,
+`primitive_count`, `primitive_order`, `primitive_position`, `primitive_color`,
+`primitive_fill`, `primitive_pattern`, `mini_diagram_topology`, `chart_axes`,
+`chart_ticks`, `chart_legend`, `chart_series`, `chart_marker`, `raster_crop`,
+`raster_stretch`, `raster_blur`, `raster_replacement`, `other_local_graphic`.
+
+### `line_and_arrow_details`
+
+Use for every visible connector property, including residual semantic defects:
+
+- missing/extra connector, wrong source/target attachment, wrong port, detached
+  endpoint, or endpoint entering the wrong side of a node;
+- wrong direction, arrowhead endpoint, intermediate arrowhead, bidirectional
+  versus unidirectional state, or arrowhead count;
+- wrong arrowhead shape (open/filled triangle, stealth, chevron, bar, circle,
+  diamond), size, fill, outline, color, or angle;
+- straight versus curved versus orthogonal routing, incorrect Bezier curvature,
+  bend count, bend location, rounded versus sharp bend, loop/bypass shape, or
+  parallel-line spacing;
+- wrong solid/dashed/dotted style, dash sequence, gap length, line width, color,
+  opacity, cap, join, blur, glow, or shadow;
+- missing/extra junction dot, split/merge marker, crossing bridge, hop, or line
+  intersection treatment;
+- connector crossing or obscuring text/nodes, clipping at a panel boundary, or
+  visually merging with a border or neighboring connector.
+
+Do not infer connector direction from layout. Inspect actual arrowhead geometry.
+Do not count a panel or node border as a connector unless it visibly participates
+in the flow.
+
+Allowed `issue_type` values: `missing_connector`, `extra_connector`,
+`wrong_source_attachment`, `wrong_target_attachment`, `wrong_port`,
+`detached_endpoint`, `endpoint_side`, `connector_direction`,
+`arrowhead_endpoint`, `intermediate_arrowhead`, `bidirectionality`,
+`arrowhead_count`, `arrowhead_shape`, `arrowhead_size`, `arrowhead_fill`,
+`arrowhead_outline`, `arrowhead_color`, `arrowhead_angle`, `route_shape`,
+`bezier_curvature`, `bend_count`, `bend_location`, `bend_radius`, `loop_shape`,
+`bypass_shape`, `parallel_spacing`, `line_pattern`, `dash_sequence`, `dash_gap`,
+`line_width`, `line_color`, `line_opacity`, `line_cap`, `line_join`, `line_blur`,
+`line_glow`, `line_shadow`, `junction_dot`, `split_merge_marker`,
+`crossing_bridge`, `intersection_treatment`, `connector_overlap_text`,
+`connector_overlap_node`, `connector_clipping`, `border_confusion`,
+`other_connector`.
+
+# Final consistency checks
+
+Before returning JSON, verify internally that:
+
+1. every non-empty case is visible and identifies candidate versus reference;
+2. repeated instances with one shared root cause are grouped;
+3. no defect is duplicated across categories;
+4. every non-empty category has a non-zero ratio and every empty category has
+   ratio 0.0;
+5. the merge sanity check and all ten inspection passes were completed,
+   including text alignment, corner radii, internal grids/icons, and arrowhead
+   shape/direction;
+6. no case or measurement uses outer-canvas whitespace or distance to the
+   outermost edge as evidence;
+7. every `panel_size`/`panel_proportion` case clears the relative 10% rule or
+   names a visible structural consequence;
+8. the summary names the highest-impact defects without introducing a new
+   unsupported claim.
+
+# Output format
+
+Return exactly one JSON object and no Markdown, preamble, or explanation:
+
+Each object inside a `cases` array must have exactly this shape:
+
+`{"issue_type": "one allowed canonical value", "location": "precise scope", "candidate": "what is visibly present on the right", "reference": "what is visibly present on the left", "affected_count": 1}`
+
+Keep `cases` empty when the category has no confirmed defect. The harness will
+derive category, subtype, dimension, and affected-instance statistics from
+these objects and add them to the final result JSON; do not calculate those
+statistics yourself.
+
+{
+  "deductions": {
+    "layout_and_composition": {
+      "panel_misalignment": {"cases": [], "ratio": 0.0},
+      "node_layout_deviation": {"cases": [], "ratio": 0.0},
+      "panel_style_error": {"cases": [], "ratio": 0.0}
+    },
+    "text_and_typography": {
+      "spelling_and_omission": {"cases": [], "ratio": 0.0},
+      "text_overflow_or_edge_touch": {"cases": [], "ratio": 0.0},
+      "improper_typography": {"cases": [], "ratio": 0.0}
+    },
+    "local_graphics_and_nodes": {
+      "node_shape_error": {"cases": [], "ratio": 0.0},
+      "node_style_error": {"cases": [], "ratio": 0.0},
+      "node_shadow_error": {"cases": [], "ratio": 0.0},
+      "vector_and_icon_confusion": {"cases": [], "ratio": 0.0},
+      "line_and_arrow_details": {"cases": [], "ratio": 0.0}
+    }
+  },
+  "summary_feedback": "Summarize the highest-impact confirmed defects in one concise sentence."
+}

@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2108.01224",
+  "candidate_id": "2108-01224_pdf_b4fcbb7f6ae7443a",
+  "caption": "An illustration of model deployment for specified application scenarios, , animal classification under various resource budgets. The optimal architectures shall be different for different deployment scenarios",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 232,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1410,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 254,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1410,
+    "text_count": 21,
+    "vector_drawing_count": 233,
+    "vector_primitive_count": 1389
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 441,
+    "full_pool_rank": 655,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 386,
+    "second_pass_review_rank": 441
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2108.01224v3",
+    "abstract": "In many real-world applications, we often need to handle various deployment scenarios, where the resource constraint and the superclass of interest corresponding to a group of classes are dynamically specified. How to efficiently deploy deep models for diverse deployment scenarios is a new challenge. Previous NAS approaches seek to design architectures for all classes simultaneously, which may not be optimal for some individual superclasses. A straightforward solution is to search an architecture from scratch for each deployment scenario, which however is computation-intensive and impractical. To address this, we present a novel and general framework, called Elastic Architecture Search (EAS), permitting instant specializations at runtime for diverse superclasses with various resource constraints. To this end, we first propose to effectively train an over-parameterized network via a superclass dropout strategy during training. In this way, the resulting model is robust to the subsequent superclasses dropping at inference time. Based on the well-trained over-parameterized network, we then propose an efficient architecture generator to obtain promising architectures within a single forward pass. Experiments on three image classification datasets show that EAS is able to find more compact networks with better performance while remarkably being orders of magnitude faster than state-of-the-art NAS methods, e.g., outperforming OFA (once-for-all) by 1.3% on Top-1 accuracy at a budget around 361M #MAdds on ImageNet-10. More critically, EAS is able to find compact architectures within 0.1 second for 50 deployment scenarios.",
+    "arxiv_id": "2108.01224",
+    "authors": [
+      "Jing Liu",
+      "Bohan Zhuang",
+      "Mingkui Tan",
+      "Xu Liu",
+      "Dinh Phung",
+      "Yuanqing Li",
+      "Jianfei Cai"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2108.01224v3",
+    "primary_category": "cs.CV",
+    "published": "2021-08-03T00:54:27Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2108.01224v3",
+    "title": "Rapid Elastic Architecture Search under Specialized Classes and Resource Constraints",
+    "updated": "2022-03-15T23:37:46Z",
+    "versioned_id": "2108.01224v3"
+  },
+  "reference_sha256": "a984b6f031894f82a45d79762bca99ad7f771d446b973067677eb831df9cdf32",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 517,
+    "final_quality_rank": 374,
+    "final_quality_score": 0.624329,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.183,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.113812,
+      "component_bin": 3,
+      "connector_bin": 3,
+      "difference_hash": "906681a6936e82c6f8c678c6b18e798e698582c6834e81ee81a6a9b434cd98cd",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 523,
+    "style_selection_score": 0.499095
+  },
+  "source_filename": "task_overview_v2.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "b4fcbb7f6ae7443ae4cddb2651bbca13d671f99bf2d85da570ef0cf607a12bb1",
+  "task_id": "task_0516",
+  "task_index": 516
+}

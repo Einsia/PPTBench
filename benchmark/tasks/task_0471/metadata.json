@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2106.01942",
+  "candidate_id": "2106-01942_pdf_e3376871a2375586",
+  "caption": "Diagrammatic representation of the functioning of the real-time AGDP, implemented at the Ooty Radio Telescope (ORT). PONDER is the ORT pulsar backend . The rectangular blocks represent all the python codes used in the pipeline. These codes are executed one after another as indicated by the arrows. The pulsar directories (JXXXX ) and directories with the pulsar templates (template) are shown in oval blocks. The updated pulsar ephemeris are located inside the directory parfiles.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 99,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 513,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 118,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 513,
+    "text_count": 19,
+    "vector_drawing_count": 99,
+    "vector_primitive_count": 494
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 526,
+    "full_pool_rank": 814,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 457,
+    "second_pass_review_rank": 526
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2106.01942v2",
+    "abstract": "Glitches are the observational manifestations of superfluidity inside neutron stars. The aim of this paper is to describe an automated glitch detection pipeline, which can alert the observers on possible real-time detection of rotational glitches in pulsars. Post alert, the pulsars can be monitored at a higher cadence to measure the post-glitch recovery phase. Two algorithms namely, Median Absolute Deviation (MAD) and polynomial regression have been explored to detect glitches in real time. The pipeline has been optimized with the help of simulated timing residuals for both the algorithms. Based on the simulations, we conclude that the polynomial regression algorithm is significantly more effective for real time glitch detection. The pipeline has been tested on a few published glitches. This pipeline is presently implemented at the Ooty Radio Telescope. In the era of upcoming large telescopes like SKA, several hundreds of pulsars will be observed regularly and such a tool will be useful for both real-time detection as well as optimal utilization of observation time for such glitching pulsars.",
+    "arxiv_id": "2106.01942",
+    "authors": [
+      "Jaikhomba Singha",
+      "Avishek Basu",
+      "M. A. Krishnakumar",
+      "Bhal Chandra Joshi",
+      "P. Arumugam"
+    ],
+    "categories": [
+      "astro-ph.IM"
+    ],
+    "doi": "10.1093/mnras/stab1640",
+    "journal_ref": "Monthly Notices of the Royal Astronomical Society, 505, 4, 2021, 5488-5496",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2106.01942v2",
+    "primary_category": "astro-ph.IM",
+    "published": "2021-06-03T15:46:29Z",
+    "query": "(cat:astro-ph.IM AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2106.01942v2",
+    "title": "A real-time Automated Glitch Detection Pipeline at Ooty Radio Telescope",
+    "updated": "2021-07-09T02:34:19Z",
+    "versioned_id": "2106.01942v2"
+  },
+  "reference_sha256": "4ac387ee2cc4ece293da150d12779afc76b8048deeb4466d93ee9d4d4ce4f5aa",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 472,
+    "final_quality_rank": 585,
+    "final_quality_score": 0.583955,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 0,
+      "aspect_ratio": 0.7072,
+      "category": "astro-ph.IM",
+      "category_family": "astro-ph",
+      "color_bin": 2,
+      "colorfulness": 0.240378,
+      "component_bin": 2,
+      "connector_bin": 2,
+      "difference_hash": "339463946684e78179c4e584c7c44ca4e30c67a4c384c3c403840385c0bcc90c",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 619,
+    "style_selection_score": 0.495487
+  },
+  "source_filename": "block5.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "e3376871a2375586e8abaf103d2810e7541a1e0aafaad38189e1a552e3e0685e",
+  "task_id": "task_0471",
+  "task_index": 471
+}

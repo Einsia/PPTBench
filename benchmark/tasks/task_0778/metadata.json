@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2605.15132",
+  "candidate_id": "2605-15132_pdf_5ad9d1f02883712a",
+  "caption": "APWA Distributed System Architecture.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 85,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 653,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 133,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 653,
+    "text_count": 47,
+    "vector_drawing_count": 86,
+    "vector_primitive_count": 606
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 1014,
+    "full_pool_rank": 1797,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 896,
+    "second_pass_review_rank": 1014
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2605.15132v1",
+    "abstract": "Autonomous multi-agent systems based on large language models (LLMs) have demonstrated remarkable abilities in independently solving complex tasks in a wide breadth of application domains. However, these systems hit critical reasoning, coordination, and computational scaling bottlenecks as the size and complexity of their tasks grow. These limitations hinder multi-agent systems from achieving high-throughput processing for highly parallelizable tasks, despite the availability of parallel computing and reasoning primitives in the underlying LLMs. We introduce the Agent-Parallel Workload Architecture (APWA), a distributed multi-agent system architecture designed for the efficient processing of heavily parallelizable agentic workloads. APWA facilitates parallel execution by decomposing workflows into non-interfering subproblems that can be processed using independent resources without cross-communication. It supports heterogeneous data and parallel processing patterns, and it accommodates tasks from a wide breadth of domains. In our evaluation, we demonstrate that APWA can dynamically decompose complex queries into parallelizable workflows and scales on larger tasks in settings where prior systems fail completely.",
+    "arxiv_id": "2605.15132",
+    "authors": [
+      "Evan Rose",
+      "Tushin Mallick",
+      "Matthew D. Laws",
+      "Cristina Nita-Rotaru",
+      "Alina Oprea"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.DC",
+      "cs.MA"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2605.15132v1",
+    "primary_category": "cs.AI",
+    "published": "2026-05-14T17:40:20Z",
+    "query": "(cat:cs.DC AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2605.15132v1",
+    "title": "APWA: A Distributed Architecture for Parallelizable Agentic Workflows",
+    "updated": "2026-05-14T17:40:20Z",
+    "versioned_id": "2605.15132v1"
+  },
+  "reference_sha256": "d059d8aa9bae328a992f118ac42a6299ba60acc6b9c8153f46fcf2e289776209",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 779,
+    "final_quality_rank": 605,
+    "final_quality_score": 0.5794,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 3.4076,
+      "category": "cs.AI",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.42466,
+      "component_bin": 2,
+      "connector_bin": 2,
+      "difference_hash": "2cc40cc4a33bb96d4ae4c264c6659664926c4e2c566c966c960c963c832ca0ec",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 742,
+    "style_selection_score": 0.471457
+  },
+  "source_filename": "fig-2.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "5ad9d1f02883712a324e51bc1c2666500f6fbe384d7bf86b3a418caef814cb21",
+  "task_id": "task_0778",
+  "task_index": 778
+}

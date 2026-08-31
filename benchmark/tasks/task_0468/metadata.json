@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2409.10372",
+  "candidate_id": "2409-10372_pdf_b3fd2a75051e6e4e",
+  "caption": "Overview of the general framework. The framework includes two main entities: the LLM agents and the RL manager. 1) LLM agents receive prompts that describe pairwise strategic games (payoff matrix, objectives, and additional information from the RL manager) and then make strategic decisions like cooperation or defection. Multiple LLM agents are placed in a random network, with connections initialized in each run (and fixed throughout the steps). LLM agents may make different decisions in different interactions based on varying information received. Prompts are refined through micro-level validation for consistent behavior. 2) The RL manager acts as a system manager, observing LLM agents and dynamically determining their information levels to maximize social welfare.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 109,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1954,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 278,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1954,
+    "text_count": 139,
+    "vector_drawing_count": 139,
+    "vector_primitive_count": 1815
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2409.10372v4",
+    "abstract": "Modern engineered systems increasingly involve complex sociotechnical environments where multiple agents, including humans and the emerging paradigm of agentic AI powered by large language models, must navigate social dilemmas that pit individual interests against collective welfare. As engineered systems evolve toward multi-agent architectures with autonomous LLM-based agents, traditional governance approaches using static rules or fixed network structures fail to address the dynamic uncertainties inherent in real-world operations. This paper presents a novel framework that integrates adaptive governance mechanisms directly into the design of sociotechnical systems through a unique separation of agent interaction networks from information flow networks. We introduce a system comprising strategic LLM-based system agents that engage in repeated interactions and a reinforcement learning-based governing agent that dynamically modulates information transparency. Unlike conventional approaches that require direct structural interventions or payoff modifications, our framework preserves agent autonomy while promoting cooperation through adaptive information governance. The governing agent learns to strategically adjust information disclosure at each timestep, determining what contextual or historical information each system agent can access. Experimental results demonstrate that this RL-based governance significantly enhances cooperation compared to static information-sharing baselines.",
+    "arxiv_id": "2409.10372",
+    "authors": [
+      "Qiliang Chen",
+      "Sepehr Ilami",
+      "Nunzio Lore",
+      "Babak Heydari"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.CY",
+      "cs.GT"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2409.10372v4",
+    "primary_category": "cs.AI",
+    "published": "2024-09-16T15:15:51Z",
+    "query": "(cat:cs.CY AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2409.10372v4",
+    "title": "Integrated Design and Governance of Agentic AI Systems through Adaptive Information Modulation",
+    "updated": "2025-10-27T01:25:31Z",
+    "versioned_id": "2409.10372v4"
+  },
+  "reference_sha256": "d59f1639ea5f4a92398df3bb00e759636af98d1f0d55292b157f5c710295b3a2",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 469,
+    "final_quality_rank": 336,
+    "final_quality_score": 0.631027,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.0688,
+      "category": "cs.AI",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.291085,
+      "component_bin": 3,
+      "connector_bin": 2,
+      "difference_hash": "e320e0a87300337c337c215cc658d66bdd66bd63a54bc519d618cf59cd797c00",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 462,
+    "style_selection_score": 0.506936
+  },
+  "source_filename": "Framework.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "b3fd2a75051e6e4e559993d43cb9c755de4ea85fc3133a942fa249d9dbcd131c",
+  "task_id": "task_0468",
+  "task_index": 468
+}

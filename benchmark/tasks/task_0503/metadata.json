@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2107.12018",
+  "candidate_id": "2107-12018_pdf_a755f7ff5142cc1c",
+  "caption": "Proposed model architecture with a channel-robust training strategy. Dashed arrows represent optional operations.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 27,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 134,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 74,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 134,
+    "text_count": 25,
+    "vector_drawing_count": 49,
+    "vector_primitive_count": 109
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2107.12018v2",
+    "abstract": "In this paper, we present UR-AIR system submission to the logical access (LA) and the speech deepfake (DF) tracks of the ASVspoof 2021 Challenge. The LA and DF tasks focus on synthetic speech detection (SSD), i.e. detecting text-to-speech and voice conversion as spoofing attacks. Different from previous ASVspoof challenges, the LA task this year presents codec and transmission channel variability, while the new task DF presents general audio compression. Built upon our previous research work on improving the robustness of the SSD systems to channel effects, we propose a channel-robust synthetic speech detection system for the challenge. To mitigate the channel variability issue, we use an acoustic simulator to apply transmission codec, compression codec, and convolutional impulse responses to augmenting the original datasets. For the neural network backbone, we propose to use Emphasized Channel Attention, Propagation and Aggregation Time Delay Neural Networks (ECAPA-TDNN) as our primary model. We also incorporate one-class learning with channel-robust training strategies to further learn a channel-invariant speech representation. Our submission achieved EER 20.33% in the DF task; EER 5.46% and min-tDCF 0.3094 in the LA task.",
+    "arxiv_id": "2107.12018",
+    "authors": [
+      "Xinhui Chen",
+      "You Zhang",
+      "Ge Zhu",
+      "Zhiyao Duan"
+    ],
+    "categories": [
+      "eess.AS",
+      "cs.SD"
+    ],
+    "doi": "10.21437/ASVSPOOF.2021-12",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2107.12018v2",
+    "primary_category": "eess.AS",
+    "published": "2021-07-26T08:15:24Z",
+    "query": "(cat:eess.AS AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2107.12018v2",
+    "title": "UR Channel-Robust Synthetic Speech Detection System for ASVspoof 2021",
+    "updated": "2021-08-23T19:42:53Z",
+    "versioned_id": "2107.12018v2"
+  },
+  "reference_sha256": "020de6636315d5c663487dd7f1d17c0fe17a0a468bd6969a24bf488e04868d51",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 504,
+    "final_quality_rank": 672,
+    "final_quality_score": 0.566726,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 1,
+      "aspect_ratio": 0.8852,
+      "category": "eess.AS",
+      "category_family": "eess",
+      "color_bin": 4,
+      "colorfulness": 0.623917,
+      "component_bin": 0,
+      "connector_bin": 1,
+      "difference_hash": "1100d000d080f080f080f8d0f0e0f828d000d018d0bcf4bcd0e4d064f03cf87c",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 547,
+    "style_selection_score": 0.500066
+  },
+  "source_filename": "arch.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "a755f7ff5142cc1c77963edaab9dfe24c4b24d48f7ea50f673cc178abcb85f7b",
+  "task_id": "task_0503",
+  "task_index": 503
+}

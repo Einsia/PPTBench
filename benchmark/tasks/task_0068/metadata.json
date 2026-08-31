@@ -1,0 +1,88 @@
+{
+  "arxiv_id": "2602.22277",
+  "candidate_id": "2602-22277_pdf_bc35fe7b693191c5",
+  "caption": "Block diagram of the proposed X-REFINE framework.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 225,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.999814,
+    "editable_component_count": 5379,
+    "embedded_image_count": 1,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.012363,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 241,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 5380,
+    "text_count": 15,
+    "vector_drawing_count": 225,
+    "vector_primitive_count": 5364
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 237,
+    "full_pool_rank": 319,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 211,
+    "second_pass_review_rank": 237
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2602.22277v2",
+    "abstract": "AI-native architectures are vital for 6G wireless communications. The black-box nature and high complexity of deep learning models employed in critical applications, such as channel estimation, limit their practical deployment. While perturbation-based eXplainable Artificial Intelligence (XAI) solutions offer input filtering, they often neglect internal structural optimization. We propose X-REFINE, an XAI-based framework for joint input-filtering and architecture fine-tuning. By utilizing a decomposition-based, sign-stabilized LRP epsilon rule, X-REFINE backpropagates predictions to derive high-resolution relevance scores for both subcarriers and hidden neurons. This enables a reliable optimization that identifies the most reliable model components. Simulation results demonstrate that X-REFINE achieves a superior performance-complexity-interpretability trade-off compared to the external perturbation-based XAI frameworks, significantly reducing computational complexity while maintaining robust bit error rate (BER) performance.",
+    "arxiv_id": "2602.22277",
+    "authors": [
+      "Abdul Karim Gizzini",
+      "Yahia Medjahdi"
+    ],
+    "categories": [
+      "cs.LG",
+      "eess.SP"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2602.22277v2",
+    "primary_category": "cs.LG",
+    "published": "2026-02-25T10:20:26Z",
+    "query": "(cat:eess.SP AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2602.22277v2",
+    "title": "X-REFINE: XAI-based RElevance input-Filtering and archItecture fiNe-tuning for channel Estimation",
+    "updated": "2026-06-16T14:45:04Z",
+    "versioned_id": "2602.22277v2"
+  },
+  "reference_sha256": "fbb7969f596a9a9755652ac29bebbc7f7138032314a78c33d62243db9285e4e5",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 69,
+    "final_quality_rank": 68,
+    "final_quality_score": 0.721687,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.9266,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.37549,
+      "component_bin": 5,
+      "connector_bin": 3,
+      "difference_hash": "d1849992b44a3462b0ccb6eeb66eb66cb64ab64eb6c2b6cc894ad4cac596c484",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 143,
+    "style_selection_score": 0.575951
+  },
+  "source_filename": "XREFINE.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "bc35fe7b693191c592a34582fc7e349df4e4fab0b98c68e13646cf6c93651827",
+  "task_id": "task_0068",
+  "task_index": 68
+}

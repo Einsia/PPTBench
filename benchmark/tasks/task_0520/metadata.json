@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2602.05486",
+  "candidate_id": "2602-05486_pdf_126f79a41751f6a9",
+  "caption": "Simplified Overview of the Proposed Reference Architecture",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 12,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 73,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 37,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 73,
+    "text_count": 14,
+    "vector_drawing_count": 23,
+    "vector_primitive_count": 59
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 976,
+    "full_pool_rank": 1725,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 860,
+    "second_pass_review_rank": 976
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2602.05486v1",
+    "abstract": "Digital sovereignty has emerged as a central concern for modern software-intensive systems, driven by the dominance of non-sovereign cloud infrastructures, the rapid adoption of Generative AI, and increasingly stringent regulatory requirements. While existing initiatives address governance, compliance, and security in isolation, they provide limited guidance on how sovereignty can be operationalized at the architectural level. In this paper, we argue that sovereignty must be treated as a first-class architectural property rather than a purely regulatory objective. We introduce a Sovereign Reference Architecture that integrates self-sovereign identity, blockchain-based trust and auditability, sovereign data governance, and Generative AI deployed under explicit architectural control. The architecture explicitly captures the dual role of Generative AI as both a source of governance risk and an enabler of compliance, accountability, and continuous assurance when properly constrained. By framing sovereignty as an architectural quality attribute, our work bridges regulatory intent and concrete system design, offering a coherent foundation for building auditable, evolvable, and jurisdiction-aware AI-enabled systems. The proposed reference architecture provides a principled starting point for future research and practice at the intersection of software architecture, Generative AI, and digital sovereignty.",
+    "arxiv_id": "2602.05486",
+    "authors": [
+      "Matteo Esposito",
+      "Lodovica Marchesi",
+      "Roberto Tonelli",
+      "Valentina Lenarduzzi"
+    ],
+    "categories": [
+      "cs.SE",
+      "cs.AI",
+      "cs.CR",
+      "cs.DC"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2602.05486v1",
+    "primary_category": "cs.SE",
+    "published": "2026-02-05T09:49:04Z",
+    "query": "(cat:cs.DC AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2602.05486v1",
+    "title": "Sovereign-by-Design A Reference Architecture for AI and Blockchain Enabled Systems",
+    "updated": "2026-02-05T09:49:04Z",
+    "versioned_id": "2602.05486v1"
+  },
+  "reference_sha256": "696e61886e2aad39cdf59ada2fe1b51dbf7284887b98057523d6662d31375a55",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 521,
+    "final_quality_rank": 964,
+    "final_quality_score": 0.407718,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.4589,
+      "category": "cs.SE",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.0,
+      "component_bin": 0,
+      "connector_bin": 0,
+      "difference_hash": "71903650f450b9809ee0a66492bd244d244dd2f1d2d056323680768048206920",
+      "raster_bin": 0
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "Simplified.drawio.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "126f79a41751f6a9c872c289c001af02f90e4756622edf2c687c3e7a4ff1f962",
+  "task_id": "task_0520",
+  "task_index": 520
+}

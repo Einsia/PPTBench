@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2311.10689",
+  "candidate_id": "2311-10689_pdf_0346d3f5b02829e6",
+  "caption": "The proposed method's flowchart consists of extracting GhostVec, converting GhostVec to a natural speaker, and synthesizing the target speaker's voice.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 15,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 148,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 134,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 148,
+    "text_count": 69,
+    "vector_drawing_count": 65,
+    "vector_primitive_count": 79
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 585,
+    "full_pool_rank": 937,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 510,
+    "second_pass_review_rank": 585
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2311.10689v1",
+    "abstract": "Speaker adaptation systems face privacy concerns, for such systems are trained on private datasets and often overfitting. This paper demonstrates that an attacker can extract speaker information by querying speaker-adapted speech recognition (ASR) systems. We focus on the speaker information of a transformer-based ASR and propose GhostVec, a simple and efficient attack method to extract the speaker information from an encoder-decoder-based ASR system without any external speaker verification system or natural human voice as a reference. To make our results quantitative, we pre-process GhostVec using singular value decomposition (SVD) and synthesize it into waveform. Experiment results show that the synthesized audio of GhostVec reaches 10.83\\% EER and 0.47 minDCF with target speakers, which suggests the effectiveness of the proposed method. We hope the preliminary discovery in this study to catalyze future speech recognition research on privacy-preserving topics.",
+    "arxiv_id": "2311.10689",
+    "authors": [
+      "Xiaojiao Chen",
+      "Sheng Li",
+      "Jiyi Li",
+      "Hao Huang",
+      "Yang Cao",
+      "Liang He"
+    ],
+    "categories": [
+      "eess.AS"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2311.10689v1",
+    "primary_category": "eess.AS",
+    "published": "2023-11-17T18:20:19Z",
+    "query": "(cat:eess.AS AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2311.10689v1",
+    "title": "GhostVec: A New Threat to Speaker Privacy of End-to-End Speech Recognition System",
+    "updated": "2023-11-17T18:20:19Z",
+    "versioned_id": "2311.10689v1"
+  },
+  "reference_sha256": "7c91d436dded19e5c7f1a6b2ec572092eed91e08d84b2009b3cf5379a2851a04",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 716,
+    "final_quality_rank": 939,
+    "final_quality_score": 0.441937,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.7632,
+      "category": "eess.AS",
+      "category_family": "eess",
+      "color_bin": 1,
+      "colorfulness": 0.081902,
+      "component_bin": 0,
+      "connector_bin": 0,
+      "difference_hash": "0000d0a0cd90d594d594d590e99875a4f7a47724726274827704728071d04c24",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 986,
+    "style_selection_score": 0.401197
+  },
+  "source_filename": "flow.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "0346d3f5b02829e681096109f2a0235a716cd1f4dad3d3f1f762972de5fdcf64",
+  "task_id": "task_0715",
+  "task_index": 715
+}

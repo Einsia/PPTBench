@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2506.01283",
+  "candidate_id": "2506-01283_pdf_7ddde3b1f58290d3",
+  "caption": "The three mainstream serverless request serving architectures, including (a) API long polling (e.g., AWS Lambda), (b) HTTP server (e.g., Azure and GCP), and (c) code/binary execution (e.g., Cloudflare Workers).",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 54,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 2181,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 134,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 2181,
+    "text_count": 51,
+    "vector_drawing_count": 83,
+    "vector_primitive_count": 2130
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2506.01283v2",
+    "abstract": "Public cloud serverless platforms have attracted a large user base due to their high scalability, plug-and-play deployment model, and pay-per-use billing. However, compared to virtual machines and container hosting services, modern serverless offerings typically impose higher per-unit time and resource charges. Additionally, billing practices such as wall-clock time allocation-based billing, invocation fees, and usage rounding up can further increase costs. This work, for the first time, holistically demystifies these costs by conducting an in-depth, top-down characterization and analysis from user-facing billing models, through request serving architectures, and down to operating system scheduling on major public serverless platforms. We quantify, for the first time, how current billing practices inflate billable resources up to 4.35x beyond actual consumption. Also, our analysis reveals previously unreported cost drivers, such as operational patterns of serving architectures that create overheads, details of resource allocation during keep-alive periods, and OS scheduling granularity effects that directly impact both performance and billing. By tracing the sources of costs from billing models down to OS scheduling, we uncover the rationale behind today's expensive serverless billing model and practices and provide insights for designing performant and cost-effective serverless systems.",
+    "arxiv_id": "2506.01283",
+    "authors": [
+      "Changyuan Lin",
+      "Yuanzhi Ma",
+      "Mohammad Shahrad"
+    ],
+    "categories": [
+      "cs.DC",
+      "cs.OS",
+      "cs.PF"
+    ],
+    "doi": "10.1145/3767295.3769374",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2506.01283v2",
+    "primary_category": "cs.DC",
+    "published": "2025-06-02T03:40:24Z",
+    "query": "(cat:cs.DC AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2506.01283v2",
+    "title": "Demystifying Serverless Costs on Public Platforms: Bridging Billing, Architecture, and OS Scheduling",
+    "updated": "2025-09-26T23:44:45Z",
+    "versioned_id": "2506.01283v2"
+  },
+  "reference_sha256": "143d766883e095d996effe466a03948017e23adf8ec3413fd63deea2e38ba13c",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 802,
+    "final_quality_rank": 628,
+    "final_quality_score": 0.575466,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.6708,
+      "category": "cs.DC",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.201934,
+      "component_bin": 4,
+      "connector_bin": 1,
+      "difference_hash": "4ca0409ce39cedbc6da699b299b6e712e798975cb35cc392c394a31ce31c695a",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 733,
+    "style_selection_score": 0.467312
+  },
+  "source_filename": "serving-layer.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "7ddde3b1f58290d38872e8eee70885015b877339a1ed73ba6eaf931cba2382c7",
+  "task_id": "task_0801",
+  "task_index": 801
+}

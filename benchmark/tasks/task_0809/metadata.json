@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2312.13715",
+  "candidate_id": "2312-13715_pdf_7dfb78f1a2306b3a",
+  "caption": "Overview of dialogue flow in DSML-TDU system",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 39,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 365,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 75,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 365,
+    "text_count": 22,
+    "vector_drawing_count": 53,
+    "vector_primitive_count": 343
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 540,
+    "full_pool_rank": 843,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 468,
+    "second_pass_review_rank": 540
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2312.13715v1",
+    "abstract": "Utilizing Large Language Models (LLMs) facilitates the creation of flexible and natural dialogues, a task that has been challenging with traditional rule-based dialogue systems. However, LLMs also have the potential to produce unexpected responses, which may not align with the intentions of dialogue system designers. To address this issue, this paper introduces a meta-control method that employs LLMs to develop more stable and adaptable dialogue systems. The method includes dialogue flow control to ensure that utterances conform to predefined scenarios and turn-taking control to foster natural dialogues. Furthermore, we have implemented a dialogue system that utilizes this meta-control strategy and verified that the dialogue system utilizing meta-control operates as intended.",
+    "arxiv_id": "2312.13715",
+    "authors": [
+      "Kotaro Shukuri",
+      "Ryoma Ishigaki",
+      "Jundai Suzuki",
+      "Tsubasa Naganuma",
+      "Takuma Fujimoto",
+      "Daisuke Kawakubo",
+      "Masaki Shuzo",
+      "Eisaku Maeda"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2312.13715v1",
+    "primary_category": "cs.RO",
+    "published": "2023-12-21T10:28:18Z",
+    "query": "(cat:cs.RO AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2312.13715v1",
+    "title": "Meta-control of Dialogue Systems Using Large Language Models",
+    "updated": "2023-12-21T10:28:18Z",
+    "versioned_id": "2312.13715v1"
+  },
+  "reference_sha256": "637383df3843ececdfb6143dcaa22b1cfc7e41c685e5c480b0dac3e205e50804",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 810,
+    "final_quality_rank": 652,
+    "final_quality_score": 0.570047,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 2,
+      "aspect_ratio": 0.9472,
+      "category": "cs.RO",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.402785,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "07080f0018e25c831a4378e338e319a14b14c3b150e340e38ae30a63fa227818",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 644,
+    "style_selection_score": 0.474083
+  },
+  "source_filename": "flow_1221_1850.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "7dfb78f1a2306b3abc0c576c0ab9e95527ea4842d65ecac163329634f1fbc13f",
+  "task_id": "task_0809",
+  "task_index": 809
+}

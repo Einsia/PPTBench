@@ -1,0 +1,88 @@
+{
+  "arxiv_id": "2212.03897",
+  "candidate_id": "2212-03897_pdf_e0614447da63a4a5",
+  "caption": "Architectural overview of COMPAQT",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 21,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 205,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 90,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 205,
+    "text_count": 27,
+    "vector_drawing_count": 63,
+    "vector_primitive_count": 178
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 813,
+    "full_pool_rank": 1385,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 709,
+    "second_pass_review_rank": 813
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2212.03897v1",
+    "abstract": "On superconducting architectures, the state of a qubit is manipulated by using microwave pulses. Typically, the pulses are stored in the waveform memory and then streamed to the Digital-to-Analog Converter (DAC) to synthesize the gate operations. The waveform memory requires tens of gigabytes per second of bandwidth to manipulate the qubit. Unfortunately, the required memory bandwidth grows linearly with the number of qubits. As a result, the bandwidth demand limits the number of qubits we can control concurrently. For example, on current RFSoCs-based qubit control platforms, we can control less than 40 qubits. In addition, the high memory bandwidth for cryogenic ASIC controllers designed to operate within a tight power budget translates to significant power dissipation, thus limiting scalability. In this paper, we show that waveforms are highly compressible, and we leverage this property to enable a scalable and efficient microarchitecture COMPAQT - Compressed Waveform Memory Architecture for Qubit Control. Waveform memory is read-only and COMPAQT leverages this to compress waveforms at compile time and store the compressed waveform in the on-chip memory. To generate the pulse, COMPAQT decompresses the waveform at runtime and then streams the decompressed waveform to the DACs. Using the hardware-efficient discrete cosine transform, COMPAQT can achieve, on average, 5x increase in the waveform memory bandwidth, which can enable 5x increase in the total number of qubits controlled in an RFSoC setup. Moreover, COMPAQT microarchitecture for cryogenic CMOS ASIC controllers can result in a 2.5x power reduction over uncompressed baseline. We also propose an adaptive compression scheme to further reduce the power consumed by the decompression engine, enabling up to 4x power reduction. We see less than 0.1% degradation in fidelity when using COMPAQT despite using a lossy compression scheme.",
+    "arxiv_id": "2212.03897",
+    "authors": [
+      "Satvik Maurya",
+      "Swamit Tannu"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.AR"
+    ],
+    "doi": "10.1109/MICRO56248.2022.00076",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2212.03897v1",
+    "primary_category": "quant-ph",
+    "published": "2022-12-07T19:00:17Z",
+    "query": "(cat:quant-ph AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2212.03897v1",
+    "title": "COMPAQT: Compressed Waveform Memory Architecture for Scalable Qubit Control",
+    "updated": "2022-12-07T19:00:17Z",
+    "versioned_id": "2212.03897v1"
+  },
+  "reference_sha256": "b7ec59f4f2566e3294f852eefefc64ed48c9f383a232a991c07252e0acd34704",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 446,
+    "final_quality_rank": 556,
+    "final_quality_score": 0.588886,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.2844,
+      "category": "quant-ph",
+      "category_family": "quant-ph",
+      "color_bin": 5,
+      "colorfulness": 0.783124,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "2ccb9d364d36e532e7384d36af326e190cb2ef366536653264b6ee366c89ecab",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 512,
+    "style_selection_score": 0.494897
+  },
+  "source_filename": "overview.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "e0614447da63a4a52cdc94b4fc4059f67a77ef65f2677b2d6ef2c37d8b76e95f",
+  "task_id": "task_0445",
+  "task_index": 445
+}

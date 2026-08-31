@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2210.17180",
+  "candidate_id": "2210-17180_pdf_8877a8b503696577",
+  "caption": "An overview of the proposed . We build a set of subspaces \\ _ _i\\_i=1^K centered on randomly sampled candidate architectures \\ _i\\_i=1^K and construct a subspace graph to model the relationships among these subspaces. By taking as the input, the controller first mines/finds a dominative subspace _ _G( | ; _G) via global search and then predicts an architecture modification _L( | _ ; _L) via local search. Next, we update the candidate architecture with the resultant architecture = if has better performance than ( , R( | ) > 0).",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 62,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.972172,
+    "editable_component_count": 1083,
+    "embedded_image_count": 31,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.006506,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 150,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1114,
+    "text_count": 42,
+    "vector_drawing_count": 77,
+    "vector_primitive_count": 1041
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 516,
+    "full_pool_rank": 797,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 449,
+    "second_pass_review_rank": 516
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2210.17180v2",
+    "abstract": "Neural Architecture Search (NAS) aims to automatically find effective architectures within a predefined search space. However, the search space is often extremely large. As a result, directly searching in such a large search space is non-trivial and also very time-consuming. To address the above issues, in each search step, we seek to limit the search space to a small but effective subspace to boost both the search performance and search efficiency. To this end, we propose a novel Neural Architecture Search method via Dominative Subspace Mining (DSM-NAS) that finds promising architectures in automatically mined subspaces. Specifically, we first perform a global search, i.e ., dominative subspace mining, to find a good subspace from a set of candidates. Then, we perform a local search within the mined subspace to find effective architectures. More critically, we further boost search performance by taking well-designed/ searched architectures to initialize candidate subspaces. Experimental results demonstrate that DSM-NAS not only reduces the search cost but also discovers better architectures than state-of-the-art methods in various benchmark search spaces.",
+    "arxiv_id": "2210.17180",
+    "authors": [
+      "Yaofo Chen",
+      "Yong Guo",
+      "Daihai Liao",
+      "Fanbing Lv",
+      "Hengjie Song",
+      "James Tin-Yau Kwok",
+      "Mingkui Tan"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "doi": "10.1109/TCSVT.2024.3395463",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2210.17180v2",
+    "primary_category": "cs.CV",
+    "published": "2022-10-31T09:54:28Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2210.17180v2",
+    "title": "Automated Dominative Subspace Mining for Efficient Neural Architecture Search",
+    "updated": "2024-06-06T04:15:29Z",
+    "versioned_id": "2210.17180v2"
+  },
+  "reference_sha256": "3ecca29cf59e0b0159343e1b220246d218fb352f6c5d66d8346bab5ef5334c60",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 752,
+    "final_quality_rank": 553,
+    "final_quality_score": 0.5893,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.9318,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.265736,
+      "component_bin": 3,
+      "connector_bin": 2,
+      "difference_hash": "8308c35c43d6a3daaad6c2dc82c853ccc134a234a3214368db728952a3528342",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 713,
+    "style_selection_score": 0.474036
+  },
+  "source_filename": "overview.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "8877a8b50369657795fe6aec72bd2eb29df7769a8ab782dbd1992fd35ef5396d",
+  "task_id": "task_0751",
+  "task_index": 751
+}

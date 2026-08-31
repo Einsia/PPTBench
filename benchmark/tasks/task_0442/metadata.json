@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2509.20719",
+  "candidate_id": "2509-20719_pdf_78cb7306fb98835c",
+  "caption": "A graphical overview of , which operates over synthesis trees built from building blocks (squares) and reaction templates (circles). Example blocks and a reaction are drawn above using SmilesDrawer .",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 150,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.998383,
+    "editable_component_count": 3705,
+    "embedded_image_count": 6,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.045949,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 169,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 3711,
+    "text_count": 13,
+    "vector_drawing_count": 150,
+    "vector_primitive_count": 3692
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2509.20719v2",
+    "abstract": "Inspired by the effectiveness of genetic algorithms and the importance of synthesizability in molecular design, we present SynGA, a simple genetic algorithm that operates directly over synthesis routes. Our method features custom crossover and mutation operators that explicitly constrain it to synthesizable molecular space. By modifying the fitness function, we demonstrate the effectiveness of SynGA on a variety of design tasks, including synthesizable analog search and sample-efficient property optimization, for both 2D and 3D objectives. Furthermore, by coupling SynGA with a machine learning-based filter that focuses the building block set, we boost SynGA to state-of-the-art performance. For property optimization, this manifests as a model-based variant SynGBO, which employs SynGA and block filtering in the inner loop of Bayesian optimization. Since SynGA is lightweight and enforces synthesizability by construction, our hope is that SynGA can not only serve as a strong standalone baseline but also as a versatile module that can be incorporated into larger synthesis-aware workflows in the future.",
+    "arxiv_id": "2509.20719",
+    "authors": [
+      "Alston Lo",
+      "Connor W. Coley",
+      "Wojciech Matusik"
+    ],
+    "categories": [
+      "cs.LG",
+      "q-bio.QM"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2509.20719v2",
+    "primary_category": "cs.LG",
+    "published": "2025-09-25T03:33:30Z",
+    "query": "(cat:q-bio.QM AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2509.20719v2",
+    "title": "A Genetic Algorithm for Navigating Synthesizable Molecular Spaces",
+    "updated": "2026-03-01T22:40:57Z",
+    "versioned_id": "2509.20719v2"
+  },
+  "reference_sha256": "ab35833a95fbcd63d7358f6652c1f8b6b46b2c75ce8bbdc4ab11b1a9d194f591",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 443,
+    "final_quality_rank": 319,
+    "final_quality_score": 0.634745,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.5441,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.157993,
+      "component_bin": 4,
+      "connector_bin": 3,
+      "difference_hash": "c71c938c161b160a241f04996182a18e8c2da4aaaca458b4a514ad5704a50530",
+      "raster_bin": 2
+    },
+    "style_selection_rank": 419,
+    "style_selection_score": 0.511181
+  },
+  "source_filename": "abstract.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "78cb7306fb98835c90e80617e210efe7da9b56926b42785ab6abeef6fa15d85a",
+  "task_id": "task_0442",
+  "task_index": 442
+}

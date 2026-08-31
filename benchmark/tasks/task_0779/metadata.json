@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2203.02086",
+  "candidate_id": "2203-02086_pdf_44709003a0bd51aa",
+  "caption": "Overview of the proposed WPNAS. We apply a probabilistic sampling strategy to sample architectures from the SuperNet and use a HyperNet to alleviate the influence of weight sharing. The evaluation of the sampled architecture comes from three parts: direct evaluation, prediction from the few-shot predictor and the FLOPs of the architecture. Then we regard the evaluation of the architecture as reward and use a policy gradient algorithm to update architecture probabilities. The combined reward contains information from both SuperNet and predictor, thus may lead better evaluation. Few-shot learning is proposed to reduce the demand for training data of the predictor.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 104,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1817,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 135,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1817,
+    "text_count": 20,
+    "vector_drawing_count": 115,
+    "vector_primitive_count": 1797
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 714,
+    "full_pool_rank": 1221,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 625,
+    "second_pass_review_rank": 714
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2203.02086v1",
+    "abstract": "Weight sharing based and predictor based methods are two major types of fast neural architecture search methods. In this paper, we propose to jointly use weight sharing and predictor in a unified framework. First, we construct a SuperNet in a weight-sharing way and probabilisticly sample architectures from the SuperNet. To increase the correctness of the evaluation of architectures, besides direct evaluation using the inherited weights, we further apply a few-shot predictor to assess the architecture on the other hand. The final evaluation of the architecture is the combination of direct evaluation, the prediction from the predictor and the cost of the architecture. We regard the evaluation as a reward and apply a self-critical policy gradient approach to update the architecture probabilities. To further reduce the side effects of weight sharing, we propose a weakly weight sharing method by introducing another HyperNet. We conduct experiments on datasets including CIFAR-10, CIFAR-100 and ImageNet under NATS-Bench, DARTS and MobileNet search space. The proposed WPNAS method achieves state-of-the-art performance on these datasets.",
+    "arxiv_id": "2203.02086",
+    "authors": [
+      "Ke Lin",
+      "Yong A",
+      "Zhuoxin Gan",
+      "Yingying Jiang"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CV",
+      "cs.NE"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2203.02086v1",
+    "primary_category": "cs.LG",
+    "published": "2022-03-04T01:29:09Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2203.02086v1",
+    "title": "WPNAS: Neural Architecture Search by jointly using Weight Sharing and Predictor",
+    "updated": "2022-03-04T01:29:09Z",
+    "versioned_id": "2203.02086v1"
+  },
+  "reference_sha256": "4ee8b05db341f65b9fb18ee60601d4686561f90777fe147f1168337ced1a7e46",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 780,
+    "final_quality_rank": 609,
+    "final_quality_score": 0.578965,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.9954,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.105897,
+      "component_bin": 3,
+      "connector_bin": 2,
+      "difference_hash": "004034007460c962d90ac58825863130dcb2cc8e6178a498c38ac1d8c0002000",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 778,
+    "style_selection_score": 0.464023
+  },
+  "source_filename": "overview.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "44709003a0bd51aa086997db7fc37e85c7948b5d665dc427f3ac826ad1bcfa21",
+  "task_id": "task_0779",
+  "task_index": 779
+}

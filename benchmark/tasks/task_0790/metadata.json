@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2501.11779",
+  "candidate_id": "2501-11779_pdf_e2f4dd8c022a5659",
+  "caption": "dissects attention memory and compute to a second cluster of low-end nodes, and improves the utilization of costly GPUs working on compute-heavy operations, improving the total system throughput and reducing inference costs.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 59,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 678,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 124,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 678,
+    "text_count": 41,
+    "vector_drawing_count": 83,
+    "vector_primitive_count": 637
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 455,
+    "full_pool_rank": 675,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 399,
+    "second_pass_review_rank": 455
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2501.11779v2",
+    "abstract": "We introduce Glinthawk, an architecture for offline Large Language Model (LLM) inference. By leveraging a two-tiered structure, Glinthawk optimizes the utilization of the high-end accelerators (\"Tier 1\") by offloading the attention mechanism to lower-end compute tier (\"Tier 2\"). This separation allows the memory demand of the attention, known as the key-value cache, to scale independently from the model weights, enabling larger batch sizes and more efficient accelerator usage. Prototyped with NVIDIA T4 GPUs and standard CPU VMs, Glinthawk improves throughput by $5.9\\times$ and reduces cost of generation by $2.8\\times$, compared to paged attention baselines. For long sequence lengths, it achieves $16.3\\times$ throughput improvement at $2.4\\times$ less cost. Our evaluation shows that this architecture can tolerate moderate network latency with minimal performance degradation, making it highly effective for latency-tolerant, throughput-focused applications such as batch processing. The prototype is publicly available at https://github.com/microsoft/glinthawk.",
+    "arxiv_id": "2501.11779",
+    "authors": [
+      "Pouya Hamadanian",
+      "Sadjad Fouladi"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.DC",
+      "cs.PF"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2501.11779v2",
+    "primary_category": "cs.LG",
+    "published": "2025-01-20T23:10:13Z",
+    "query": "(cat:cs.DC AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2501.11779v2",
+    "title": "Glinthawk: A Two-Tiered Architecture for Offline LLM Inference",
+    "updated": "2025-02-11T17:36:32Z",
+    "versioned_id": "2501.11779v2"
+  },
+  "reference_sha256": "2f83470fc1621443d583a8a08f9f031067d2b8a97b7810c806587976b60e4da0",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 791,
+    "final_quality_rank": 617,
+    "final_quality_score": 0.577397,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 2,
+      "aspect_ratio": 0.9657,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.248911,
+      "component_bin": 2,
+      "connector_bin": 1,
+      "difference_hash": "c4f4c0c8c8cac8c8d4d4c4ccb4f2b772c5508951971eb496b414b492b495652d",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 746,
+    "style_selection_score": 0.468699
+  },
+  "source_filename": "overview.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "e2f4dd8c022a5659e65c9b2e21418f3469e8ba386e3a658e7bb439b40ab8a751",
+  "task_id": "task_0790",
+  "task_index": 790
+}

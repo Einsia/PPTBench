@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2206.13762",
+  "candidate_id": "2206-13762_pdf_65aa5982c5c18179",
+  "caption": "Schematic diagram of the proposed model architecture. In the figure, the `` \" and the `` \" represent the up-sampling and down-sampling blocks, respectively. The ``IN\" denotes instance normalization.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 110,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 989,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 211,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 989,
+    "text_count": 80,
+    "vector_drawing_count": 131,
+    "vector_primitive_count": 909
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 538,
+    "full_pool_rank": 838,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 467,
+    "second_pass_review_rank": 538
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2206.13762v2",
+    "abstract": "Typically, singing voice conversion (SVC) depends on an embedding vector, extracted from either a speaker lookup table (LUT) or a speaker recognition network (SRN), to model speaker identity. However, singing contains more expressive speaker characteristics than conversational speech. It is suspected that a single embedding vector may only capture averaged and coarse-grained speaker characteristics, which is insufficient for the SVC task. To this end, this work proposes a novel hierarchical speaker representation framework for SVC, which can capture fine-grained speaker characteristics at different granularity. It consists of an up-sampling stream and three down-sampling streams. The up-sampling stream transforms the linguistic features into audio samples, while one down-sampling stream of the three operates in the reverse direction. It is expected that the temporal statistics of each down-sampling block can represent speaker characteristics at different granularity, which will be engaged in the up-sampling blocks to enhance the speaker modeling. Experiment results verify that the proposed method outperforms both the LUT and SRN based SVC systems. Moreover, the proposed system supports the one-shot SVC with only a few seconds of reference audio.",
+    "arxiv_id": "2206.13762",
+    "authors": [
+      "Xu Li",
+      "Shansong Liu",
+      "Ying Shan"
+    ],
+    "categories": [
+      "eess.AS",
+      "cs.SD"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2206.13762v2",
+    "primary_category": "eess.AS",
+    "published": "2022-06-28T05:19:31Z",
+    "query": "(cat:eess.AS AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2206.13762v2",
+    "title": "A Hierarchical Speaker Representation Framework for One-shot Singing Voice Conversion",
+    "updated": "2022-07-06T13:46:36Z",
+    "versioned_id": "2206.13762v2"
+  },
+  "reference_sha256": "c653417ae2faf95a1c20463aba0d484566b792def878d089792f7597fbbf04dc",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 396,
+    "final_quality_rank": 483,
+    "final_quality_score": 0.601105,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 3.4321,
+      "category": "eess.AS",
+      "category_family": "eess",
+      "color_bin": 2,
+      "colorfulness": 0.220422,
+      "component_bin": 3,
+      "connector_bin": 2,
+      "difference_hash": "6d5a6558ad5825588d5a8d46ad5a352936a996ae96aeb56a952bad5b255a2d5a",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 542,
+    "style_selection_score": 0.498598
+  },
+  "source_filename": "Proposed_Framework.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "65aa5982c5c18179d5f5719b9226b3b0d98575b6703561139917041baa6530c5",
+  "task_id": "task_0395",
+  "task_index": 395
+}

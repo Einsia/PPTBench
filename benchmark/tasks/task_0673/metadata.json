@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2506.01197",
+  "candidate_id": "2506-01197_pdf_3ad4fc1151ef8445",
+  "caption": "The structure of the Hierarchical Sparse Autoencoder architecture. The design combines a top-level encoder-decoder (upper path) that captures general concepts with expert-specific autoencoders (lower paths) that model refined features. For a given input, only a sparse subset of experts is activated, enhancing computational efficiency while maintaining expressive power.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 31,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 123,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 69,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 123,
+    "text_count": 33,
+    "vector_drawing_count": 36,
+    "vector_primitive_count": 90
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 1231,
+    "full_pool_rank": 2372,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 1084,
+    "second_pass_review_rank": 1231
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2506.01197v1",
+    "abstract": "Sparse dictionary learning (and, in particular, sparse autoencoders) attempts to learn a set of human-understandable concepts that can explain variation on an abstract space. A basic limitation of this approach is that it neither exploits nor represents the semantic relationships between the learned concepts. In this paper, we introduce a modified SAE architecture that explicitly models a semantic hierarchy of concepts. Application of this architecture to the internal representations of large language models shows both that semantic hierarchy can be learned, and that doing so improves both reconstruction and interpretability. Additionally, the architecture leads to significant improvements in computational efficiency.",
+    "arxiv_id": "2506.01197",
+    "authors": [
+      "Mark Muchane",
+      "Sean Richardson",
+      "Kiho Park",
+      "Victor Veitch"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2506.01197v1",
+    "primary_category": "cs.CL",
+    "published": "2025-06-01T22:20:07Z",
+    "query": "(cat:cs.CL AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2506.01197v1",
+    "title": "Incorporating Hierarchical Semantics in Sparse Autoencoder Architectures",
+    "updated": "2025-06-01T22:20:07Z",
+    "versioned_id": "2506.01197v1"
+  },
+  "reference_sha256": "00095f7798b7b4d3129b11b86f9b003a6634428c8e7236050ed34ce742e4a0dc",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 674,
+    "final_quality_rank": 972,
+    "final_quality_score": 0.394776,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 3.4626,
+      "category": "cs.CL",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.075983,
+      "component_bin": 0,
+      "connector_bin": 1,
+      "difference_hash": "2a04630c492d4949494c630c6b4c000c1b0c1b0cc9884aa45aa15aa048a4a808",
+      "raster_bin": 0
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "diagram.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "3ad4fc1151ef8445f6a11f9ec4ccf41df74d7943c5dce2a117acf21376bcd9c6",
+  "task_id": "task_0673",
+  "task_index": 673
+}

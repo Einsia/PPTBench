@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2211.07300",
+  "candidate_id": "2211-07300_pdf_02c36a2ad31b52c4",
+  "caption": "The application of FL with EHR data is restricted by the two problems: (1) EHR system heterogeneity, and (2) non-i.i.d. problem. Although multiple prior researches attempt to resolve (2), there is no known solution for (1). Our framework is the first attempt to handle the both problems simultaneously by combining UniHPF and FL.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 36,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.999496,
+    "editable_component_count": 1982,
+    "embedded_image_count": 1,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.010233,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 135,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1983,
+    "text_count": 79,
+    "vector_drawing_count": 55,
+    "vector_primitive_count": 1903
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2211.07300v1",
+    "abstract": "Federated learning (FL) is the most practical multi-source learning method for electronic healthcare records (EHR). Despite its guarantee of privacy protection, the wide application of FL is restricted by two large challenges: the heterogeneous EHR systems, and the non-i.i.d. data characteristic. A recent research proposed a framework that unifies heterogeneous EHRs, named UniHPF. We attempt to address both the challenges simultaneously by combining UniHPF and FL. Our study is the first approach to unify heterogeneous EHRs into a single FL framework. This combination provides an average of 3.4% performance gain compared to local learning. We believe that our framework is practically applicable in the real-world FL.",
+    "arxiv_id": "2211.07300",
+    "authors": [
+      "Junu Kim",
+      "Kyunghoon Hur",
+      "Seongjun Yang",
+      "Edward Choi"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2211.07300v1",
+    "primary_category": "cs.LG",
+    "published": "2022-11-14T12:24:00Z",
+    "query": "(cat:cs.LG AND all:framework) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2211.07300v1",
+    "title": "Universal EHR Federated Learning Framework",
+    "updated": "2022-11-14T12:24:00Z",
+    "versioned_id": "2211.07300v1"
+  },
+  "reference_sha256": "858c4f631ad9b9c93af623e967de30809614714a0153c85decd76e50f33765ba",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 758,
+    "final_quality_rank": 567,
+    "final_quality_score": 0.587621,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.2941,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.185251,
+      "component_bin": 3,
+      "connector_bin": 1,
+      "difference_hash": "000000000000002000007ca068a068a078a00440000000000000000000000000",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 870,
+    "style_selection_score": 0.474471
+  },
+  "source_filename": "prob_def.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "02c36a2ad31b52c4a23fbe7009879cb7e073471f325ef5a8866954f9bb64153a",
+  "task_id": "task_0757",
+  "task_index": 757
+}

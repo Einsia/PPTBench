@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2301.13241",
+  "candidate_id": "2301-13241_pdf_eceb7d79d4439db5",
+  "caption": "Overview of our SpinQ framework proposed in this paper.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 7,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 68,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 44,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 68,
+    "text_count": 25,
+    "vector_drawing_count": 19,
+    "vector_primitive_count": 43
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 1082,
+    "full_pool_rank": 1941,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 955,
+    "second_pass_review_rank": 1082
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2301.13241v2",
+    "abstract": "Despite NISQ devices being severely constrained, hardware- and algorithm-aware quantum circuit mapping techniques have been developed to enable successful algorithm executions. Not so much attention has been paid to mapping and compilation implementations for spin-qubit quantum processors due to the scarce availability of experimental devices and their small sizes. However, based on their high scalability potential and their rapid progress it is timely to start exploring solutions on such devices. In this work, we discuss the unique mapping challenges of a scalable crossbar architecture with shared control and introduce SpinQ, the first native compilation framework for scalable spin-qubit architectures. At the core of SpinQ is the Integrated Strategy that addresses the unique operational constraints of the crossbar while considering compilation scalability and obtaining a O(n) computational complexity. To evaluate the performance of SpinQ on this novel architecture, we compiled a broad set of well-defined quantum circuits and performed an in-depth analysis based on multiple metrics such as gate overhead, depth overhead, and estimated success probability, which in turn allowed us to create unique mapping and architectural insights. Finally, we propose novel mapping techniques that could increase algorithm success rates on this architecture and potentially inspire further research on quantum circuit mapping for other scalable spin-qubit architectures.",
+    "arxiv_id": "2301.13241",
+    "authors": [
+      "Nikiforos Paraskevopoulos",
+      "Fabio Sebastiano",
+      "Carmen G. Almudever",
+      "Sebastian Feld"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "doi": "10.1145/3624484",
+    "journal_ref": "ACM Transactions on Quantum Computing 2024",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2301.13241v2",
+    "primary_category": "quant-ph",
+    "published": "2023-01-30T19:10:23Z",
+    "query": "(cat:quant-ph AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2301.13241v2",
+    "title": "SpinQ: Compilation strategies for scalable spin-qubit architectures",
+    "updated": "2024-05-01T15:56:02Z",
+    "versioned_id": "2301.13241v2"
+  },
+  "reference_sha256": "5141b90fc2e964039a57c1e88591cee9ba8036e719df912d4d3387d8057fefa8",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 376,
+    "final_quality_rank": 992,
+    "final_quality_score": 0.361399,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.7778,
+      "category": "quant-ph",
+      "category_family": "quant-ph",
+      "color_bin": 0,
+      "colorfulness": 0.006775,
+      "component_bin": 0,
+      "connector_bin": 0,
+      "difference_hash": "32167b09eb4e69ae24912c96ae5299d2b69292939b3a3496168a928e4b6a6495",
+      "raster_bin": 0
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "SpinQ_Framework.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "eceb7d79d4439db5596c76f6b7cd5210792fc13b25ec0dda3eb3b20ecb8b5865",
+  "task_id": "task_0375",
+  "task_index": 375
+}

@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2312.14200",
+  "candidate_id": "2312-14200_pdf_9caf2f3945ffc846",
+  "caption": "Schematic comparisons between our proposed BDP paradigm and other data-efficient methods for DARTS: 1) Original DARTS divides the entire dataset equally into training and validation sets and performs bi-level optimization. 2) Existing methods use a specific strategy to select samples and construct a proxy of the entire dataset, which is then evenly split into training and validation sets for DARTS. 3) Our BDP paradigm deeply couples with bi-level optimization and performs progressive data pruning separately on the training and validation sets. Thus, scales and data distributions of these two sets can be different during the architecture search process.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 243,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.682081,
+    "editable_component_count": 944,
+    "embedded_image_count": 440,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.007948,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 820,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1384,
+    "text_count": 117,
+    "vector_drawing_count": 263,
+    "vector_primitive_count": 827
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2312.14200v1",
+    "abstract": "Improving the efficiency of Neural Architecture Search (NAS) is a challenging but significant task that has received much attention. Previous works mainly adopted the Differentiable Architecture Search (DARTS) and improved its search strategies or modules to enhance search efficiency. Recently, some methods have started considering data reduction for speedup, but they are not tightly coupled with the architecture search process, resulting in sub-optimal performance. To this end, this work pioneers an exploration into the critical role of dataset characteristics for DARTS bi-level optimization, and then proposes a novel Bi-level Data Pruning (BDP) paradigm that targets the weights and architecture levels of DARTS to enhance efficiency from a data perspective. Specifically, we introduce a new progressive data pruning strategy that utilizes supernet prediction dynamics as the metric, to gradually prune unsuitable samples for DARTS during the search. An effective automatic class balance constraint is also integrated into BDP, to suppress potential class imbalances resulting from data-efficient algorithms. Comprehensive evaluations on the NAS-Bench-201 search space, DARTS search space, and MobileNet-like search space validate that BDP reduces search costs by over 50% while achieving superior performance when applied to baseline DARTS. Besides, we demonstrate that BDP can harmoniously integrate with advanced DARTS variants, like PC-DARTS and \\b{eta}-DARTS, offering an approximately 2 times speedup with minimal performance compromises.",
+    "arxiv_id": "2312.14200",
+    "authors": [
+      "Chongjun Tu",
+      "Peng Ye",
+      "Weihao Lin",
+      "Hancheng Ye",
+      "Chong Yu",
+      "Tao Chen",
+      "Baopu Li",
+      "Wanli Ouyang"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2312.14200v1",
+    "primary_category": "cs.CV",
+    "published": "2023-12-21T02:48:44Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2312.14200v1",
+    "title": "Efficient Architecture Search via Bi-level Data Pruning",
+    "updated": "2023-12-21T02:48:44Z",
+    "versioned_id": "2312.14200v1"
+  },
+  "reference_sha256": "31ff0dd30b42a90c94bcd75d2992907d43965af38753259d1a66516713441d82",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 831,
+    "final_quality_rank": 683,
+    "final_quality_score": 0.563919,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.8467,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.188478,
+      "component_bin": 3,
+      "connector_bin": 3,
+      "difference_hash": "01c1ccb4cc28cca0ccb0cc3c1190c8f0c930c920c9204330ce46cccc48c64c46",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 825,
+    "style_selection_score": 0.457445
+  },
+  "source_filename": "framework_darts_CVPR24.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "9caf2f3945ffc846b9a505337a94a2246ca22e8d74c2ecc3440ccbf9bf29e097",
+  "task_id": "task_0830",
+  "task_index": 830
+}

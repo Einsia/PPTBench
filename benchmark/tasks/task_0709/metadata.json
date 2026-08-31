@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2605.25722",
+  "candidate_id": "2605-25722_pdf_a849a59d63a02a4d",
+  "caption": "Typical workflow for off-line indexing of a dataset of EBSPs using kikuchipy.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 20,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 75,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 47,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 75,
+    "text_count": 20,
+    "vector_drawing_count": 27,
+    "vector_primitive_count": 55
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 1021,
+    "full_pool_rank": 1808,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 903,
+    "second_pass_review_rank": 1021
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2605.25722v1",
+    "abstract": "We present kikuchipy, an open-source toolbox for analysis of electron backscatter diffraction patterns, written in Python. The software is capable of both Hough and dictionary indexing and orientation and/or projection center refinement of patterns stored in file formats from all major vendors. Indexing results can be validated using maps independent of indexing and by visually comparing experimental and simulated patterns. By leveraging scientific packages in the Python ecosystem, emphasis is put on making the indexing workflow flexible and improve results through fast iteration. The software's capabilities are demonstrated on three application examples: analysis of orientation relationships in a super duplex stainless steel, phase differentiation of aluminium and silicon in a cast modified Al-Si alloy, and phase differentiation of particles in an Al-Mn alloy as Al6Mn or alpha-AlMnSi. The diffraction patterns and analysis workflows are made publicly available. kikuchipy was created and is developed as a resource for the electron microscopy community, allowing anyone to improve the software or include it into their own analysis workflows or softwares.",
+    "arxiv_id": "2605.25722",
+    "authors": [
+      "H\u00e5kon W. \u00c5nes",
+      "Phillip Crout",
+      "Lars Andreas Lervik",
+      "Ole Natlandsmyr",
+      "Tina Bergh",
+      "Jarle Hjelen",
+      "Antonius T. J. van Helvoort",
+      "Knut Marthinsen"
+    ],
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2605.25722v1",
+    "primary_category": "cond-mat.mtrl-sci",
+    "published": "2026-05-25T11:30:07Z",
+    "query": "(cat:cond-mat.mtrl-sci AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2605.25722v1",
+    "title": "kikuchipy: an open-source toolbox for analysis of EBSD patterns",
+    "updated": "2026-05-25T11:30:07Z",
+    "versioned_id": "2605.25722v1"
+  },
+  "reference_sha256": "9eaa0f5f1e1cd81828c30a211c75eb0d021c1f50ed5f85432833414a2acfd5fb",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 710,
+    "final_quality_rank": 932,
+    "final_quality_score": 0.444683,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 0,
+      "aspect_ratio": 0.3027,
+      "category": "cond-mat.mtrl-sci",
+      "category_family": "cond-mat",
+      "color_bin": 2,
+      "colorfulness": 0.196992,
+      "component_bin": 0,
+      "connector_bin": 1,
+      "difference_hash": "fa4cef40b112be927303bf429742b746393138a30d0fbc92c688d8c699643318",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 907,
+    "style_selection_score": 0.417329
+  },
+  "source_filename": "workflow.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "a849a59d63a02a4dc322091f14f6577f563f3934d88d0a3c7e52df22a6794789",
+  "task_id": "task_0709",
+  "task_index": 709
+}

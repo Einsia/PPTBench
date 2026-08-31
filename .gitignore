@@ -1,0 +1,35 @@
+.venv/
+.agit/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.cache/
+.pytest-*/
+.ruff_cache/
+.mypy_cache/
+build/
+dist/
+.env
+.env.*
+!.env.example
+tmp/
+.tmp/
+/data/
+output/
+/results/analysis/
+/results/local/
+/results/runs/
+
+# Materialized files and generated artifacts never belong in the downloader-only
+# release.
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.pptx
+*.html
+*.log
+
+# Project-authored leaderboard figure.
+!/docs/assets/leaderboard.png

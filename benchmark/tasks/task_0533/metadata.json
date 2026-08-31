@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2603.14826",
+  "candidate_id": "2603-14826_pdf_33f784dffb15f43d",
+  "caption": "Schematic overview of the proposed quantum-resistant blockchain architecture. (a) The hybrid network topology decouples the physical quantum layer from the logical classical layer. There are three terminal nodes connected to a central URN for the TF-QKD interference, while consensus communications occur over a peer-to-peer classical mesh. (b) The measurement of URN. BS: beam splitter; SNSPD: superconducting nanowire single photon detector. (c) The four-phase operational workflow: Phase 1 performs continuous key stratification into Evidence Keys (K_ evid) and Consensus Keys (K_ cons); Phase 2 employs K_ evid for Wegman-Carter authenticated transaction submission; Phase 3 executes decentralized BFT consensus using K_ cons; Phase 4 achieves block finalization and reveals K_ evid to ensure non-repudiation.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 73,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.941818,
+    "editable_component_count": 259,
+    "embedded_image_count": 16,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.037095,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 166,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 275,
+    "text_count": 72,
+    "vector_drawing_count": 78,
+    "vector_primitive_count": 187
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 117,
+    "full_pool_rank": 152,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 103,
+    "second_pass_review_rank": 117
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2603.14826v3",
+    "abstract": "Quantum computing provides a feasible multi-layered security challenge to classical blockchain networks. Quantum blockchains that rely on quantum key distribution (QKD) to establish secure channels can address this feasible threat. Whereas, there are still architecture limitations to practical security resulted in the measurement devices while implementing the QKD-secured blockchains in physical layer. This paper presents a quantum-classical hybrid architecture in a distributed blockchain to address the connectivity and distance limitations of the blockchain-embedded quantum networks. A decoupled architecture is designed felicitously so that it pairs a linearly scalable measurement-device-independent (MDI) physical layer with a decentralized consensus. It can optimize the complexity of infrastructure from quadratic to linear scaling, ascribed to leveraging the twin-field (TF) QKD protocol with the MDI-structurized star topology. Additionally, the dual-key stratification strategy transforms symmetric information-theoretic security into publicly auditable forward-secret blockchain evidence. This architecture can integrate the exact information-theoretic security (ITS) with distributed consensus mechanisms, allowing the scalable system to overcome the potential rate-loss limits inherent in classical security-weakened blockchains.",
+    "arxiv_id": "2603.14826",
+    "authors": [
+      "Xuan Li",
+      "Yun Mao",
+      "Ying Guo"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.CR",
+      "cs.DC"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2603.14826v3",
+    "primary_category": "quant-ph",
+    "published": "2026-03-16T05:07:31Z",
+    "query": "(cat:quant-ph AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2603.14826v3",
+    "title": "Security-enhanced Blockchain with Twin-Field Quantum Key Distribution: A Physical Layer enabled Architecture",
+    "updated": "2026-05-09T06:34:45Z",
+    "versioned_id": "2603.14826v3"
+  },
+  "reference_sha256": "b68a188cd3dbb7baa74a9a08bbf38003355d8202d6cfdad3b6cb0b3c371df8de",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 534,
+    "final_quality_rank": 723,
+    "final_quality_score": 0.551511,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 0,
+      "aspect_ratio": 0.6574,
+      "category": "quant-ph",
+      "category_family": "quant-ph",
+      "color_bin": 1,
+      "colorfulness": 0.162987,
+      "component_bin": 1,
+      "connector_bin": 2,
+      "difference_hash": "328e96669666335ef0d132b3d49454f1f069e4693071d6b4d49c300c120c70cc",
+      "raster_bin": 2
+    },
+    "style_selection_rank": 658,
+    "style_selection_score": 0.472522
+  },
+  "source_filename": "workflow.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "33f784dffb15f43df2975ca67dfc1756077341733bc27b083d0cf61ab32259d6",
+  "task_id": "task_0533",
+  "task_index": 533
+}

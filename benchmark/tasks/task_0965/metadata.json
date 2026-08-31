@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2511.19510",
+  "candidate_id": "2511-19510_pdf_fd2ca77f3c977242",
+  "caption": "Overview of the CodeR^3 system and core components",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 29,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.953488,
+    "editable_component_count": 164,
+    "embedded_image_count": 8,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.015029,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 77,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 172,
+    "text_count": 28,
+    "vector_drawing_count": 41,
+    "vector_primitive_count": 136
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 645,
+    "full_pool_rank": 1073,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 563,
+    "second_pass_review_rank": 645
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2511.19510v1",
+    "abstract": "Scientific workflows encode valuable domain expertise and computational methodologies. Yet studies consistently show that a significant proportion of published workflows suffer from decay over time. This problem is particularly acute for legacy workflow systems like Taverna, where discontinued services, obsolete dependencies, and system retirement render previously functional workflows unusable. We present a novel legacy workflow migration system, called CodeR$^3$ (stands for Code Repair, Revival and Reuse), that leverages generative AI to analyze the characteristics of decayed workflows, reproduce them into modern workflow technologies like Snakemake and VisFlow. Our system additionally integrates stepwise workflow analysis visualization, automated service substitution, and human-in-the-loop validation. Through several case studies of Taverna workflow revival, we demonstrate the feasibility of this approach while identifying key challenges that require human oversight. Our findings reveal that automation significantly reduces manual effort in workflow parsing and service identification. However, critical tasks such as service substitution and data validation still require domain expertise. Our result will be a crowdsourcing platform that enables the community to collaboratively revive decayed workflows and validate the functionality and correctness of revived workflows. This work contributes a framework for workflow revival that balances automation efficiency with necessary human judgment.",
+    "arxiv_id": "2511.19510",
+    "authors": [
+      "Asif Zaman",
+      "Kallol Naha",
+      "Khalid Belhajjame",
+      "Hasan M. Jamil"
+    ],
+    "categories": [
+      "cs.SE"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2511.19510v1",
+    "primary_category": "cs.SE",
+    "published": "2025-11-24T01:06:45Z",
+    "query": "(cat:cs.SE AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2511.19510v1",
+    "title": "CodeR3: A GenAI-Powered Workflow Repair and Revival Ecosystem",
+    "updated": "2025-11-24T01:06:45Z",
+    "versioned_id": "2511.19510v1"
+  },
+  "reference_sha256": "75a091213d6327a0ee8d647ab03bf4015237552fa125ab27448499248543a938",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 966,
+    "final_quality_rank": 886,
+    "final_quality_score": 0.479904,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 3.13,
+      "category": "cs.SE",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.174507,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "c084498296189288929896988a4b9496328b0b0b94d63c96c8b4c096cc8edc94",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 964,
+    "style_selection_score": 0.400855
+  },
+  "source_filename": "CODERRR.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "fd2ca77f3c977242009213e266178e8ec00c19b14649cdcd289e21cf908603cb",
+  "task_id": "task_0965",
+  "task_index": 965
+}

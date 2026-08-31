@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2307.03093",
+  "candidate_id": "2307-03093_pdf_a9e571cc2731d3ab",
+  "caption": "Flowchart of the GP framework. Steps 5 and 9 can be skipped if scaling is not required.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 278,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 6045,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 302,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 6045,
+    "text_count": 14,
+    "vector_drawing_count": 288,
+    "vector_primitive_count": 6031
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2307.03093v2",
+    "abstract": "Gaussian Processes (GPs) offer an attractive method for regression over small, structured and correlated datasets. However, their deployment is hindered by computational costs and limited guidelines on how to apply GPs beyond simple low-dimensional datasets. We propose a framework to identify the suitability of GPs to a given problem and how to set up a robust and well-specified GP model. The guidelines formalise the decisions of experienced GP practitioners, with an emphasis on kernel design and options for computational scalability. The framework is then applied to a case study of glacier elevation change yielding more accurate results at test time.",
+    "arxiv_id": "2307.03093",
+    "authors": [
+      "Kenza Tazi",
+      "Jihao Andreas Lin",
+      "Ross Viljoen",
+      "Alex Gardner",
+      "ST John",
+      "Hong Ge",
+      "Richard E. Turner"
+    ],
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2307.03093v2",
+    "primary_category": "cs.LG",
+    "published": "2023-07-06T16:08:47Z",
+    "query": "(cat:stat.ML AND all:framework) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2307.03093v2",
+    "title": "Beyond Intuition, a Framework for Applying GPs to Real-World Data",
+    "updated": "2023-07-17T08:40:34Z",
+    "versioned_id": "2307.03093v2"
+  },
+  "reference_sha256": "9f5693ea27e9e1f455dce711cba34be3615178c903e11ac24ac97562e34609be",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 247,
+    "final_quality_rank": 181,
+    "final_quality_score": 0.672762,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 0,
+      "aspect_ratio": 0.6024,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.156044,
+      "component_bin": 5,
+      "connector_bin": 3,
+      "difference_hash": "db44f744f740db44c920db20db44b524db44cb4c5b444f008e03c711c504cd04",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 232,
+    "style_selection_score": 0.550032
+  },
+  "source_filename": "framework.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "a9e571cc2731d3ab0ad831ac0145988c14fb6a2f60697c2093013fadd58d43a0",
+  "task_id": "task_0246",
+  "task_index": 246
+}

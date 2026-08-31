@@ -1,0 +1,86 @@
+{
+  "arxiv_id": "2503.21417",
+  "candidate_id": "2503-21417_pdf_3cbce1650f6366bf",
+  "caption": "The structure of the PyCBC search pipeline for . Taken from .",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 68,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 353,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 149,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 353,
+    "text_count": 75,
+    "vector_drawing_count": 74,
+    "vector_primitive_count": 278
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2503.21417v3",
+    "abstract": "This thesis presents advancements in the detection of gravitational waves from compact binary coalescences, utilising the most sensitive observatories constructed to date. The research focuses on enhancing gravitational-wave signal searches through the development of new tools and the application of existing methodologies to increase the sensitivity of live gravitational-wave searches. We introduced a novel noise artefact model, which enabled the identification and removal of glitches, thereby facilitating the recovery of previously missed gravitational-wave injections. This pioneering approach established a glitch search pipeline that adapted techniques typically used in gravitational-wave searches to address the unique characteristics of glitches. Additionally, we implemented an exponential noise model within the PyCBC Live search framework, significantly improving the detection ranking statistics for gravitational-wave signals and demonstrating the potential for substantial increases in detection sensitivity. Furthermore, we analysed and proposed enhancements for the PyCBC Live Early Warning search to maximise the detection of gravitational-wave events in the early warning regime. Our findings highlighted deficiencies in the current ranking statistic and led to recommendations for optimising coincidence timing windows and refining phase-time-amplitude histograms. These adjustments aim to increase the detection of gravitational-wave signals, particularly binary neutron star events, in early warning scenarios. The results underscore the importance of advancing search techniques in gravitational-wave astronomy, which can operate independently of detector improvements. By refining search methodologies, we enhance the capacity to detect a greater number of events, contributing significantly to our understanding of the Universe.",
+    "arxiv_id": "2503.21417",
+    "authors": [
+      "Arthur Tolley"
+    ],
+    "categories": [
+      "gr-qc"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2503.21417v3",
+    "primary_category": "gr-qc",
+    "published": "2025-03-27T12:08:16Z",
+    "query": "(cat:gr-qc AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2503.21417v3",
+    "title": "Improving the Detection of Gravitational-Wave Signals in Real Time",
+    "updated": "2026-01-26T13:23:48Z",
+    "versioned_id": "2503.21417v3"
+  },
+  "reference_sha256": "8f7e703938877604f5b119d973093660fd30abcfdeefec02b6503acc483ba211",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 208,
+    "final_quality_rank": 271,
+    "final_quality_score": 0.647931,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 1,
+      "aspect_ratio": 0.7727,
+      "category": "gr-qc",
+      "category_family": "gr-qc",
+      "color_bin": 4,
+      "colorfulness": 0.605087,
+      "component_bin": 1,
+      "connector_bin": 2,
+      "difference_hash": "e658f6701e00f630e638e638e638e638e638e638f6300d004e101e001d101d10",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 182,
+    "style_selection_score": 0.578122
+  },
+  "source_filename": "pycbc_flowchart.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "3cbce1650f6366bf9f808ba1270919cf9909cf15eeed9a17f65f5b8086ee3797",
+  "task_id": "task_0207",
+  "task_index": 207
+}

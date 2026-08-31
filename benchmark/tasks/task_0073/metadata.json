@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2506.16070",
+  "candidate_id": "2506-16070_pdf_30520217dbf88380",
+  "caption": "Illustration of the RAN-LAM framework and blockchain workflow/use cases for AI-RAN.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 73,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.995858,
+    "editable_component_count": 10339,
+    "embedded_image_count": 43,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.004509,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 181,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 10382,
+    "text_count": 49,
+    "vector_drawing_count": 89,
+    "vector_primitive_count": 10290
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2506.16070v1",
+    "abstract": "It is envisioned that 6G networks will be supported by key architectural principles, including intelligence, decentralization, interoperability, and digitalization. With the advances in artificial intelligence (AI) and machine learning (ML), embedding intelligence into the foundation of wireless communication systems is recognized as essential for 6G and beyond. Existing radio access network (RAN) architectures struggle to meet the ever growing demands for flexibility, automation, and adaptability required to build self-evolving and autonomous wireless networks. In this context, this paper explores the transition towards AI-driven RAN (AI-RAN) by developing a novel AI-RAN framework whose performance is evaluated through a practical scenario focused on intelligent orchestration and resource optimization. Besides, the paper reviews the evolution of RAN architectures and sheds light on key enablers of AI-RAN including digital twins (DTs), intelligent reflecting surfaces (IRSs), large generative AI (GenAI) models, and blockchain (BC). Furthermore, it discusses the deployment challenges of AI-RAN, including technical and regulatory perspectives, and outlines future research directions incorporating technologies such as integrated sensing and communication (ISAC) and agentic AI.",
+    "arxiv_id": "2506.16070",
+    "authors": [
+      "Mathushaharan Rathakrishnan",
+      "Samiru Gayan",
+      "Rohit Singh",
+      "Amandeep Kaur",
+      "Hazer Inaltekin",
+      "Sampath Edirisinghe",
+      "H. Vincent Poor"
+    ],
+    "categories": [
+      "eess.SP"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2506.16070v1",
+    "primary_category": "eess.SP",
+    "published": "2025-06-19T06:54:14Z",
+    "query": "(cat:eess.SP AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2506.16070v1",
+    "title": "Towards AI-Driven RANs for 6G and Beyond: Architectural Advancements and Future Horizons",
+    "updated": "2025-06-19T06:54:14Z",
+    "versioned_id": "2506.16070v1"
+  },
+  "reference_sha256": "6c32860dfc951060de5869322fb0f243096a17dc8a8a0f464b44eba10a82f068",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 74,
+    "final_quality_rank": 113,
+    "final_quality_score": 0.699581,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.2614,
+      "category": "eess.SP",
+      "category_family": "eess",
+      "color_bin": 3,
+      "colorfulness": 0.352348,
+      "component_bin": 5,
+      "connector_bin": 2,
+      "difference_hash": "5c4438c079d8d264d270b2749caca592b396ca14c9149594c698e3383cc05cc4",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 128,
+    "style_selection_score": 0.576969
+  },
+  "source_filename": "3b.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "30520217dbf883804a31812495b46fba5199a508e184fdb512054e20a2fcd64f",
+  "task_id": "task_0073",
+  "task_index": 73
+}

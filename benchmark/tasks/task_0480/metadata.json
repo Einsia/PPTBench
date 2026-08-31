@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2106.11570",
+  "candidate_id": "2106-11570_pdf_0a37bb5a33517d18",
+  "caption": "FLRA: a reference architecture of federated learning systems.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 99,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 5746,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 182,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 5746,
+    "text_count": 70,
+    "vector_drawing_count": 112,
+    "vector_primitive_count": 5676
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 20,
+    "full_pool_rank": 26,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 18,
+    "second_pass_review_rank": 20
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2106.11570v1",
+    "abstract": "Federated learning is an emerging machine learning paradigm that enables multiple devices to train models locally and formulate a global model, without sharing the clients' local data. A federated learning system can be viewed as a large-scale distributed system, involving different components and stakeholders with diverse requirements and constraints. Hence, developing a federated learning system requires both software system design thinking and machine learning knowledge. Although much effort has been put into federated learning from the machine learning perspectives, our previous systematic literature review on the area shows that there is a distinct lack of considerations for software architecture design for federated learning. In this paper, we propose FLRA, a reference architecture for federated learning systems, which provides a template design for federated learning-based solutions. The proposed FLRA reference architecture is based on an extensive review of existing patterns of federated learning systems found in the literature and existing industrial implementation. The FLRA reference architecture consists of a pool of architectural patterns that could address the frequently recurring design problems in federated learning architectures. The FLRA reference architecture can serve as a design guideline to assist architects and developers with practical solutions for their problems, which can be further customised.",
+    "arxiv_id": "2106.11570",
+    "authors": [
+      "Sin Kit Lo",
+      "Qinghua Lu",
+      "Hye-Young Paik",
+      "Liming Zhu"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.DC",
+      "cs.SE"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2106.11570v1",
+    "primary_category": "cs.LG",
+    "published": "2021-06-22T06:59:19Z",
+    "query": "(cat:cs.DC AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2106.11570v1",
+    "title": "FLRA: A Reference Architecture for Federated Learning Systems",
+    "updated": "2021-06-22T06:59:19Z",
+    "versioned_id": "2106.11570v1"
+  },
+  "reference_sha256": "77f2ed8b4a1782ab59602a3df0a0f4a30c29e1b9b42546d0431f0c0f3dbe999c",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 481,
+    "final_quality_rank": 340,
+    "final_quality_score": 0.62969,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.4305,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.0,
+      "component_bin": 5,
+      "connector_bin": 2,
+      "difference_hash": "90c7d9e698e6c8e690e698e699e699669866be66b9e6b89e74c12f00b4b03320",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 502,
+    "style_selection_score": 0.508577
+  },
+  "source_filename": "Reference_FL.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "0a37bb5a33517d18b7078ba8fa2b5b1a2b31752f5b589ff99f5443861c240d5e",
+  "task_id": "task_0480",
+  "task_index": 480
+}

@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2405.09862",
+  "candidate_id": "2405-09862_pdf_5e33d13fd4b27e22",
+  "caption": "The QuISP architecture of QNICs, QNodes (Quantum Networking Nodes), and quantum memories. Quantum memories can be set per QNIC. Here, the number of qubits is set to N, and we can perform any single or multiple qubit gates within the quantum memories in the same node.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 38,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1015,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 72,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1015,
+    "text_count": 17,
+    "vector_drawing_count": 55,
+    "vector_primitive_count": 998
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 981,
+    "full_pool_rank": 1734,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 865,
+    "second_pass_review_rank": 981
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2405.09862v1",
+    "abstract": "The heterogeneity of quantum link architectures is an essential theme in designing quantum networks for technological interoperability and possibly performance optimization. However, the performance of heterogeneously connected quantum links has not yet been addressed. Here, we investigate the integration of two inherently different technologies, with one link where the photons flow from the nodes toward a device in the middle of the link, and a different link where pairs of photons flow from a device in the middle towards the nodes. We utilize the quantum internet simulator QuISP to conduct simulations. We first optimize the existing photon pair protocol for a single link by taking the pulse rate into account. Here, we find that increasing the pulse rate can actually decrease the overall performance. Using our optimized links, we demonstrate that heterogeneous networks actually work. Their performance is highly dependent on link configuration, but we observe no significant decrease in generation rate compared to homogeneous networks. This work provides insights into the phenomena we likely will observe when introducing technological heterogeneity into quantum networks, which is crucial for creating a scalable and robust quantum internetwork.",
+    "arxiv_id": "2405.09862",
+    "authors": [
+      "Kento Samuel Soon",
+      "Naphan Benchasattabuse",
+      "Michal Hajdu\u0161ek",
+      "Kentaro Teramoto",
+      "Shota Nagayama",
+      "Rodney Van Meter"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.NI"
+    ],
+    "doi": "10.1109/QCE60285.2024.00221",
+    "journal_ref": "2024 IEEE International Conference on Quantum Computing and Engineering (QCE), Montreal, QC, Canada, 2024, pp. 1914-1923",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2405.09862v1",
+    "primary_category": "quant-ph",
+    "published": "2024-05-16T07:38:49Z",
+    "query": "(cat:quant-ph AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2405.09862v1",
+    "title": "Performance of Quantum Networks Using Heterogeneous Link Architectures",
+    "updated": "2024-05-16T07:38:49Z",
+    "versioned_id": "2405.09862v1"
+  },
+  "reference_sha256": "20a13870c2c5fbb9165c63be23f78e167a8e01333092ec625334aa1a5a39b0ad",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 524,
+    "final_quality_rank": 693,
+    "final_quality_score": 0.562098,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.3802,
+      "category": "quant-ph",
+      "category_family": "quant-ph",
+      "color_bin": 3,
+      "colorfulness": 0.396621,
+      "component_bin": 3,
+      "connector_bin": 1,
+      "difference_hash": "a304a354c784d93064cea654a6548398a69a8b984b548398879866e083880598",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 770,
+    "style_selection_score": 0.463656
+  },
+  "source_filename": "qnic.drawio.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "5e33d13fd4b27e228aa337b12e82968c7bab805c02e555ba43672b2f0bfb5d21",
+  "task_id": "task_0523",
+  "task_index": 523
+}

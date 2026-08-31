@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2112.01757",
+  "candidate_id": "2112-01757_pdf_c283c4e9dc7bbddb",
+  "caption": "The pipeline of BBS-KWS system.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 23,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 137,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 42,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 137,
+    "text_count": 12,
+    "vector_drawing_count": 30,
+    "vector_primitive_count": 125
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 1172,
+    "full_pool_rank": 2185,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 1038,
+    "second_pass_review_rank": 1172
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2112.01757v1",
+    "abstract": "This paper introduces the system submitted by the Yidun NISP team to the video keyword wakeup challenge. We propose a mandarin keyword spotting system (KWS) with several novel and effective improvements, including a big backbone (B) model, a keyword biasing (B) mechanism and the introduction of syllable modeling units (S). By considering this, we term the total system BBS-KWS as an abbreviation. The BBS-KWS system consists of an end-to-end automatic speech recognition (ASR) module and a KWS module. The ASR module converts speech features to text representations, which applies a big backbone network to the acoustic model and takes syllable modeling units into consideration as well. In addition, the keyword biasing mechanism is used to improve the recall rate of keywords in the ASR inference stage. The KWS module applies multiple criteria to determine the absence or presence of the keywords, such as multi-stage matching, fuzzy matching, and connectionist temporal classification (CTC) prefix score. To further improve our system, we conduct semi-supervised learning on the CN-Celeb dataset for better generalization. In the VKW task, the BBS-KWS system achieves significant gains over the baseline and won the first place in two tracks.",
+    "arxiv_id": "2112.01757",
+    "authors": [
+      "Yuting Yang",
+      "Binbin Du",
+      "Yingxin Zhang",
+      "Wenxuan Wang",
+      "Yuke Li"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.SD",
+      "eess.AS"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2112.01757v1",
+    "primary_category": "cs.CL",
+    "published": "2021-12-03T07:27:13Z",
+    "query": "(cat:eess.AS AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2112.01757v1",
+    "title": "BBS-KWS:The Mandarin Keyword Spotting System Won the Video Keyword Wakeup Challenge",
+    "updated": "2021-12-03T07:27:13Z",
+    "versioned_id": "2112.01757v1"
+  },
+  "reference_sha256": "701faf2fd98c0829e9c4e971c8dafda3e89df22962abf70309da21d34fbe8967",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 297,
+    "final_quality_rank": 920,
+    "final_quality_score": 0.452642,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 4.007,
+      "category": "cs.CL",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.406235,
+      "component_bin": 0,
+      "connector_bin": 1,
+      "difference_hash": "958d19cd998e998e99cd958c00e402e420e400a0e38ee54dcd96e3cee34de34d",
+      "raster_bin": 0
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "BBS-KWS.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "c283c4e9dc7bbddba28c219cd3b303d8a2bac17375e1ac8a2119beaa39441928",
+  "task_id": "task_0296",
+  "task_index": 296
+}

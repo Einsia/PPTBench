@@ -1,0 +1,88 @@
+{
+  "arxiv_id": "2607.02329",
+  "candidate_id": "2607-02329_pdf_a2853692cb6eb5c4",
+  "caption": "Per-phase prompt-mandated workflow of the canonical run pipeline. Pipeline phases run left to right across seven columns; within each column, task cards stack vertically; within each card, prompt-mandated workflow steps stack top-to-bottom with adjacent step boxes touching. Title-bar `` N'' denotes the number of canonical sessions of that task type. Iteration arrows: cycle 1 (orange) is the Pilot gate\\, \\,Pilot reflect loop on the right of Pilot iterate; cycle 2 (vermillion) is the Pilot gate\\, \\,Pilot reflect II loop on the left. Production: Prod.\\ init\\, \\,Prod.\\ continue 3 adversarial loop (vermillion). Drafts: Write 1A, Write 1B, Write full each 3 in parallel; Polish merges three drafts (3 1 fan-in). Step content is paraphrased verbatim from canonical prompts; full prompt sources are available in the archived project repository (doi: 10.5281/zenodo.21126996).",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 129,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1153,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 421,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1153,
+    "text_count": 193,
+    "vector_drawing_count": 228,
+    "vector_primitive_count": 960
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2607.02329v1",
+    "abstract": "Autonomous-research agents have demonstrated end-to-end LLM automation in machine-learning sandboxes where execution provides calibration. Frontier physical science differs categorically: physical reasoning underlies every methodology choice, toolchains are often underdocumented, and calibration must come from external literature anchors - which unscaffolded agents cite but do not confront, hallucinating plausible, unverifiable results from internal priors. We present a pipeline that runs end-to-end from a corpus of 11,083 recent condensed-matter physics arXiv papers to a publication-grade manuscript with three substantive physics findings (here on altermagnetic piezomagnetism): the agent autonomously conceives a research direction by mapping the corpus, calibrates methodology by reproducing published references, conducts novel first-principles computations, and writes the manuscript - grounded in literature throughout, across 47 fresh-context sessions in six phases sharing only on-disk state, with 2,162 literature-consultation events. Fault tolerance emerges from redundancy: fresh-context isolation, distributed grounding, and adversarial review catch what any single session misses; pre- and post-pilot stages are fully autonomous, and pilot requires bounded human intervention only at reproduction failures - operational knowledge curation, not scientific direction. Two paired failure modes - a pre-architecture baseline and a no-pilot ablation - isolate structurally enforced numerical confrontation at calibration checkpoints as the operative grounding mechanism. The primitives, characterized failure modes, and quantified intervention pattern lay a foundation for autonomous research in high-stakes scientific domains beyond computational physics.",
+    "arxiv_id": "2607.02329",
+    "authors": [
+      "Haonan Huang"
+    ],
+    "categories": [
+      "cs.AI",
+      "cond-mat.mtrl-sci",
+      "physics.comp-ph"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2607.02329v1",
+    "primary_category": "cs.AI",
+    "published": "2026-07-02T15:35:41Z",
+    "query": "(cat:cs.AI AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2607.02329v1",
+    "title": "Grounded autonomous research: a fault-tolerant LLM pipeline from corpus to manuscript in frontier computational physics",
+    "updated": "2026-07-02T15:35:41Z",
+    "versioned_id": "2607.02329v1"
+  },
+  "reference_sha256": "e609dfed12440346231bd7cf7bf21fc1df9b10f33f50dc5890c50333c986a793",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 315,
+    "final_quality_rank": 220,
+    "final_quality_score": 0.664425,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.4166,
+      "category": "cs.AI",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.462471,
+      "component_bin": 3,
+      "connector_bin": 2,
+      "difference_hash": "ad4aad4a2d4b2d6aad4b2d49286924692c593c593c593d593d4a394a394a294a",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 293,
+    "style_selection_score": 0.534133
+  },
+  "source_filename": "figA2_phase_workflow.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "a2853692cb6eb5c4e0dcf43db4b612c7f41934e25377bcf2036f795857909507",
+  "task_id": "task_0314",
+  "task_index": 314
+}

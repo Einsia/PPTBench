@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2201.07756",
+  "candidate_id": "2201-07756_pdf_9387dc3ec9f1acf8",
+  "caption": "Workflow of the Corona Stereo Pipeline",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 25,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.994792,
+    "editable_component_count": 191,
+    "embedded_image_count": 1,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.021091,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 59,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 192,
+    "text_count": 23,
+    "vector_drawing_count": 35,
+    "vector_primitive_count": 168
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 967,
+    "full_pool_rank": 1704,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 852,
+    "second_pass_review_rank": 967
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2201.07756v1",
+    "abstract": "The Corona KH-4 reconnaissance satellite missions from 1962-1972 acquired panoramic stereo imagery with high spatial resolution of 1.8-7.5 m. The potential of 800,000+ declassified Corona images has not been leveraged due to the complexities arising from handling of panoramic imaging geometry, film distortions and limited availability of the metadata required for georeferencing of the Corona imagery. This paper presents Corona Stereo Pipeline (CoSP): A pipeline for processing of Corona KH-4 stereo panoramic imagery. CoSP utlizes a deep learning based feature matcher SuperGlue to automatically match features point between Corona KH-4 images and recent satellite imagery to generate Ground Control Points (GCPs). To model the imaging geometry and the scanning motion of the panoramic KH-4 cameras, a rigorous camera model consisting of modified collinearity equations with time dependent exterior orientation parameters is employed. The results show that using the entire frame of the Corona image, bundle adjustment using well-distributed GCPs results in an average standard deviation (SD) of less than 2 pixels. The distortion pattern of image residuals of GCPs and y-parallax in epipolar resampled images suggest that film distortions due to long term storage as likely cause of systematic deviations. Compared to the SRTM DEM, the Corona DEM computed using CoSP achieved a Normalized Median Absolute Deviation (NMAD) of elevation differences of ~4 m over an area of approx. 4000 $km^2$. We show that the proposed pipeline can be applied to sequence of complex scenes involving high relief and glacierized terrain and that the resulting DEMs can be used to compute long term glacier elevation changes over large areas.",
+    "arxiv_id": "2201.07756",
+    "authors": [
+      "Sajid Ghuffar",
+      "Tobias Bolch",
+      "Ewelina Rupnik",
+      "Atanu Bhattacharya"
+    ],
+    "categories": [
+      "cs.CV",
+      "eess.IV"
+    ],
+    "doi": "10.1109/TGRS.2022.3200151",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2201.07756v1",
+    "primary_category": "cs.CV",
+    "published": "2022-01-19T17:52:33Z",
+    "query": "(cat:eess.IV AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2201.07756v1",
+    "title": "A pipeline for automated processing of Corona KH-4 (1962-1972) stereo imagery",
+    "updated": "2022-01-19T17:52:33Z",
+    "versioned_id": "2201.07756v1"
+  },
+  "reference_sha256": "88a822b815a8b23461979f851d8929bc9646874364443501f1b2f7a3400a511b",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 892,
+    "final_quality_rank": 767,
+    "final_quality_score": 0.535696,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.1423,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 4,
+      "colorfulness": 0.549583,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "c958c958e958e91c0d696649e678e6580e58ec34d4a0d4a4e0e467086520e608",
+      "raster_bin": 2
+    },
+    "style_selection_rank": 824,
+    "style_selection_score": 0.446004
+  },
+  "source_filename": "WorkflowF.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "9387dc3ec9f1acf8f02d25480868aa1766dae6caea1069ded630d02e9bf754d0",
+  "task_id": "task_0891",
+  "task_index": 891
+}

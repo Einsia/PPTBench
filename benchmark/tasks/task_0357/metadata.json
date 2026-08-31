@@ -1,0 +1,88 @@
+{
+  "arxiv_id": "2110.05410",
+  "candidate_id": "2110-05410_pdf_512631cdeef5885d",
+  "caption": "Illustration of the architecture of the U-net used for neutral and tilted spatial dose predictions. The encoder part consists of convolutional (yellow) and max-pooling (red) layers, and the decoder upsamples using transpose-convolutional (blue) layers. After each layer, an activation is applied if indicated with a darker color, which is followed by layer normalization.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 340,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 848,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 361,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 848,
+    "text_count": 21,
+    "vector_drawing_count": 340,
+    "vector_primitive_count": 827
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 1084,
+    "full_pool_rank": 1945,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 957,
+    "second_pass_review_rank": 1084
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2110.05410v2",
+    "abstract": "Objective: We propose a semiautomatic pipeline for radiation therapy treatment planning, combining ideas from machine learning-automated planning and multicriteria optimization (MCO). Approach: Using knowledge extracted from historically delivered plans, prediction models for spatial dose and dose statistics are trained and furthermore systematically modified to simulate changes in tradeoff priorities, creating a set of differently biased predictions. Based on the predictions, an MCO problem is subsequently constructed using previously developed dose mimicking functions, designed in such a way that its Pareto surface spans the range of clinically acceptable yet realistically achievable plans as exactly as possible. The result is an algorithm outputting a set of Pareto optimal plans, either fluence-based or machine parameter-based, which the user can navigate between in real time to make adjustments before a final deliverable plan is created. Main results: Numerical experiments performed on a dataset of prostate cancer patients show that one may often navigate to a better plan than one produced by a single-plan-output algorithm. Significance: We demonstrate the potential of merging MCO and a data-driven workflow to automate labor-intensive parts of the treatment planning process while maintaining a certain extent of manual control for the user.",
+    "arxiv_id": "2110.05410",
+    "authors": [
+      "Tianfang Zhang",
+      "Rasmus Bokrantz",
+      "Jimmy Olsson"
+    ],
+    "categories": [
+      "physics.med-ph"
+    ],
+    "doi": "10.1088/1361-6560/ac4da5",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2110.05410v2",
+    "primary_category": "physics.med-ph",
+    "published": "2021-10-11T16:55:55Z",
+    "query": "(cat:physics.med-ph AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2110.05410v2",
+    "title": "Probabilistic Pareto plan generation for semiautomated multicriteria radiation therapy treatment planning",
+    "updated": "2022-01-18T13:20:00Z",
+    "versioned_id": "2110.05410v2"
+  },
+  "reference_sha256": "dfb030c9093c145a023d4a45dcdd9f0476acbac1449bc848c3b70edf36ff964e",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 358,
+    "final_quality_rank": 449,
+    "final_quality_score": 0.609276,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.4085,
+      "category": "physics.med-ph",
+      "category_family": "physics",
+      "color_bin": 3,
+      "colorfulness": 0.333376,
+      "component_bin": 2,
+      "connector_bin": 3,
+      "difference_hash": "c00a905a905a907a941a81f64064c9e2c8e4c1e0e788679067a0762016803480",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 178,
+    "style_selection_score": 0.563289
+  },
+  "source_filename": "architecture.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "512631cdeef5885de22265ffedd4b61c068b1f8f11c56ca396b675f86b4d13b3",
+  "task_id": "task_0357",
+  "task_index": 357
+}

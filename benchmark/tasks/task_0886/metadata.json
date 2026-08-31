@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2602.11684",
+  "candidate_id": "2602-11684_pdf_ce08f7d22d3045b4",
+  "caption": "An Overview of PatientHub. Our framework includes (i) a unified collection of personas, prompts, and configurations from existing work; (ii) support for several agent roles for interactions; (iii) orchestration of dialogue flows/events as directed graphs; and (iv) cross-method benchmarking through a modular LLM-as-a-Judge Evaluator supporting four fundamental evaluation paradigms.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 38,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.987603,
+    "editable_component_count": 478,
+    "embedded_image_count": 6,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.011223,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 66,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 484,
+    "text_count": 22,
+    "vector_drawing_count": 38,
+    "vector_primitive_count": 456
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 279,
+    "full_pool_rank": 373,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 245,
+    "second_pass_review_rank": 279
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2602.11684v1",
+    "abstract": "As Large Language Models increasingly power role-playing applications, simulating patients has become a valuable tool for training counselors and scaling therapeutic assessment. However, prior work is fragmented: existing approaches rely on incompatible, non-standardized data formats, prompts, and evaluation metrics, hindering reproducibility and fair comparison. In this paper, we introduce PatientHub, a unified and modular framework that standardizes the definition, composition, and deployment of simulated patients. To demonstrate PatientHub's utility, we implement several representative patient simulation methods as case studies, showcasing how our framework supports standardized cross-method evaluation and the seamless integration of custom evaluation metrics. We further demonstrate PatientHub's extensibility by prototyping two new simulator variants, highlighting how PatientHub accelerates method development by eliminating infrastructure overhead. By consolidating existing work into a single reproducible pipeline, PatientHub lowers the barrier to developing new simulation methods and facilitates cross-method and cross-model benchmarking. Our framework provides a practical foundation for future datasets, methods, and benchmarks in patient-centered dialogue, and the code is publicly available via https://github.com/Sahandfer/PatientHub.",
+    "arxiv_id": "2602.11684",
+    "authors": [
+      "Sahand Sabour",
+      "TszYam NG",
+      "Minlie Huang"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.HC"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2602.11684v1",
+    "primary_category": "cs.CL",
+    "published": "2026-02-12T08:06:37Z",
+    "query": "(cat:cs.HC AND all:framework) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2602.11684v1",
+    "title": "PatientHub: A Unified Framework for Patient Simulation",
+    "updated": "2026-02-12T08:06:37Z",
+    "versioned_id": "2602.11684v1"
+  },
+  "reference_sha256": "8235ba07fa26096322665fe3e69480f43e73bc0fcab923ffab10d67851126a4a",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 887,
+    "final_quality_rank": 747,
+    "final_quality_score": 0.543787,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.4293,
+      "category": "cs.CL",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.176862,
+      "component_bin": 2,
+      "connector_bin": 1,
+      "difference_hash": "9348914c920c933c909c90bc9092924c934c9110998c99bcd2bcd09c90b2934a",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 886,
+    "style_selection_score": 0.446201
+  },
+  "source_filename": "framework.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "ce08f7d22d3045b43b4f74b69e13283adb1771540595f508af1f85ea1d368726",
+  "task_id": "task_0886",
+  "task_index": 886
+}

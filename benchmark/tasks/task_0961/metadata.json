@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2501.00823",
+  "candidate_id": "2501-00823_pdf_0ee096b653aa7d30",
+  "caption": "Architectures for (a) standard decoder-only Transformer, and (b) our proposed modular Transformer (b) with generalized cross-attention and shared knowledge base.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 44,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.994792,
+    "editable_component_count": 382,
+    "embedded_image_count": 2,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.003555,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 91,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 384,
+    "text_count": 43,
+    "vector_drawing_count": 46,
+    "vector_primitive_count": 339
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 615,
+    "full_pool_rank": 997,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 536,
+    "second_pass_review_rank": 615
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2501.00823v2",
+    "abstract": "Transformers have achieved remarkable success across diverse domains, but their monolithic architecture presents challenges in interpretability, adaptability, and scalability. This paper introduces a novel modular Transformer architecture that explicitly decouples knowledge and reasoning through a generalized cross-attention mechanism to a globally shared knowledge base with layer-specific transformations, specifically designed for effective knowledge retrieval. Critically, we provide a rigorous mathematical derivation demonstrating that the Feed-Forward Network (FFN) in a standard Transformer is a specialized case (a closure) of this generalized cross-attention, revealing its role in implicit knowledge retrieval and validating our design. This theoretical framework provides a new lens for understanding FFNs and lays the foundation for future research exploring enhanced interpretability, adaptability, and scalability, enabling richer interplay with external knowledge bases and other systems.",
+    "arxiv_id": "2501.00823",
+    "authors": [
+      "Zhenyu Guo",
+      "Wenguang Chen"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2501.00823v2",
+    "primary_category": "cs.LG",
+    "published": "2025-01-01T12:55:57Z",
+    "query": "(cat:cs.CL AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2501.00823v2",
+    "title": "Decoupling Knowledge and Reasoning in Transformers: A Modular Architecture with Generalized Cross-Attention",
+    "updated": "2025-01-06T14:26:41Z",
+    "versioned_id": "2501.00823v2"
+  },
+  "reference_sha256": "30b47a74bdad54f295726cefd8afe90a37fa587d9477cc019be3bfedc64fd06c",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 962,
+    "final_quality_rank": 866,
+    "final_quality_score": 0.489122,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 2,
+      "aspect_ratio": 1.0429,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.000101,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "7018f038f038f038f4b8f4c9f4c9f0f8f479f4b9f439b4e8b0c8703870583018",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 972,
+    "style_selection_score": 0.412966
+  },
+  "source_filename": "figs.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "0ee096b653aa7d301d8e0cf0acccce162bd56128d3bd700a63d3e00063ae1b5e",
+  "task_id": "task_0961",
+  "task_index": 961
+}

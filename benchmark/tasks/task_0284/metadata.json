@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2308.06608",
+  "candidate_id": "2308-06608_pdf_877a06f4c6f18558",
+  "caption": "Functional Levels for Quantum-HPC Middleware (adapted from ): The middleware system can be partitioned into four layers. The workflow layer encapsulates the application semantics and logical dependencies between the different workflow stages. The workload layer translates the workflow into a set of tasks that can be executed, potentially concurrently. The task layer executes these tasks using the resource layer.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 17,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 147,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 49,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 147,
+    "text_count": 30,
+    "vector_drawing_count": 19,
+    "vector_primitive_count": 117
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2308.06608v1",
+    "abstract": "Quantum computing promises potential for science and industry by solving certain computationally complex problems faster than classical computers. Quantum computing systems evolved from monolithic systems towards modular architectures comprising multiple quantum processing units (QPUs) coupled to classical computing nodes (HPC). With the increasing scale, middleware systems that facilitate the efficient coupling of quantum-classical computing are becoming critical. Through an in-depth analysis of quantum applications, integration patterns and systems, we identified a gap in understanding Quantum-HPC middleware systems. We present a conceptual middleware to facilitate reasoning about quantum-classical integration and serve as the basis for a future middleware system. An essential contribution of this paper lies in leveraging well-established high-performance computing abstractions for managing workloads, tasks, and resources to integrate quantum computing into HPC systems seamlessly.",
+    "arxiv_id": "2308.06608",
+    "authors": [
+      "Nishant Saurabh",
+      "Shantenu Jha",
+      "Andre Luckow"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.DC"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2308.06608v1",
+    "primary_category": "quant-ph",
+    "published": "2023-08-12T16:48:56Z",
+    "query": "(cat:cs.DC AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2308.06608v1",
+    "title": "A Conceptual Architecture for a Quantum-HPC Middleware",
+    "updated": "2023-08-12T16:48:56Z",
+    "versioned_id": "2308.06608v1"
+  },
+  "reference_sha256": "0a5c888aba11a0a6c77d609f10717fa312e06848abc97cce9ee77691e2c69e22",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 285,
+    "final_quality_rank": 991,
+    "final_quality_score": 0.362114,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.7148,
+      "category": "quant-ph",
+      "category_family": "quant-ph",
+      "color_bin": 0,
+      "colorfulness": 0.0,
+      "component_bin": 0,
+      "connector_bin": 0,
+      "difference_hash": "f6309874d8f4632ee1b49878bc19e3869a40b812e590da00edb22d322d186d80",
+      "raster_bin": 0
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "functional_levels.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "877a06f4c6f1855879ad85ad9b8cf91a0fe2ece3d1d82c78ee4c630a698fa6b1",
+  "task_id": "task_0284",
+  "task_index": 284
+}

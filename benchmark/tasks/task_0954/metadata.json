@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2410.03800",
+  "candidate_id": "2410-03800_pdf_876835d91121871d",
+  "caption": "Architectural overview of the web-based modeling environment (M2AR) for modeling AR applications.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 11,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.97048,
+    "editable_component_count": 263,
+    "embedded_image_count": 8,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.009325,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 81,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 271,
+    "text_count": 31,
+    "vector_drawing_count": 42,
+    "vector_primitive_count": 232
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 31,
+    "full_pool_rank": 39,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 29,
+    "second_pass_review_rank": 31
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2410.03800v1",
+    "abstract": "This paper introduces M2AR, a new web-based, two- and three-dimensional modeling environment that enables the modeling and execution of augmented reality applications without requiring programming knowledge. The platform is based on a 3D JavaScript library and the mixed reality immersive web standard WebXR. For a first demonstration of its feasibility, the previously introduced Augmented Reality Workflow Modeling Language (ARWFML) has been successfully implemented using this environment. The usefulness of the new modeling environment is demonstrated by showing use cases of the ARWFML on M2AR.",
+    "arxiv_id": "2410.03800",
+    "authors": [
+      "Fabian Muff",
+      "Hans-Georg Fill"
+    ],
+    "categories": [
+      "cs.HC",
+      "cs.MM",
+      "cs.SE"
+    ],
+    "doi": "10.1145/3652620.3687779",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2410.03800v1",
+    "primary_category": "cs.HC",
+    "published": "2024-10-04T07:52:46Z",
+    "query": "(cat:cs.SE AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2410.03800v1",
+    "title": "M2AR: A Web-based Modeling Environment for the Augmented Reality Workflow Modeling Language",
+    "updated": "2024-10-04T07:52:46Z",
+    "versioned_id": "2410.03800v1"
+  },
+  "reference_sha256": "0d626d8950bed474235fac18b1bd2d5927387084a1a518658315def6a155147b",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 955,
+    "final_quality_rank": 857,
+    "final_quality_score": 0.495661,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 2,
+      "aspect_ratio": 1.0182,
+      "category": "cs.HC",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.190141,
+      "component_bin": 1,
+      "connector_bin": 0,
+      "difference_hash": "90d840a44ea66ea66ea661e2b2923a92bbb2b7263b226988163be9a568006100",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 840,
+    "style_selection_score": 0.43606
+  },
+  "source_filename": "Architecture.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "876835d91121871d6146303addbbedc82204c6f56839841e45d6cbe11c6d85b0",
+  "task_id": "task_0954",
+  "task_index": 954
+}

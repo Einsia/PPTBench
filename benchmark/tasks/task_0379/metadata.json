@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2106.13809",
+  "candidate_id": "2106-13809_pdf_0c2fd70452695105",
+  "caption": "Example of an AUTOPROF decision tree flowchart. There are two instances where the \"branches\" make a decision (indicated by rhombus blocks). If an edge-on galaxy is encountered, a specialized analysis pipeline can be applied. If the fitting procedure in the standard pipeline fails, the branch can update parameters and perform the fit again. The decision tree is fully adaptable and expandable.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 284,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 3127,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 333,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 3127,
+    "text_count": 31,
+    "vector_drawing_count": 302,
+    "vector_primitive_count": 3096
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 988,
+    "full_pool_rank": 1749,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 872,
+    "second_pass_review_rank": 988
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2106.13809v2",
+    "abstract": "We present an automated non-parametric light profile extraction pipeline called AutoProf. All steps for extracting surface brightness (SB) profiles are included in AutoProf, allowing streamlined analyses of galaxy images. AutoProf improves upon previous non-parametric ellipse fitting implementations with fit-stabilization procedures adapted from machine learning techniques. Additional advanced analysis methods are included in the flexible pipeline for the extraction of alternative brightness profiles (along radial or axial slices), smooth axisymmetric models, and the implementation of decision trees for arbitrarily complex pipelines. Detailed comparisons with widely used photometry algorithms (photutils, XVISTA, and GALFIT) are presented. These comparisons rely on a large collection of late-type galaxy images from the PROBES survey. The direct comparison of SB profiles shows that AutoProf can reliably extract fainter isophotes than other methods on the same images, typically by >2 mag/arcsec^2. Contrasting non-parametric elliptical isophote fitting with simple parametric models also shows that two-component fits (e.g., S\u00e9rsic plus exponential) are insufficient to describe late-type galaxies with high fidelity. It is established that elliptical isophote fitting, and in particular AutoProf, is ideally suited for a broad range of automated isophotal analysis tasks. AutoProf is freely available to the community at: https://github.com/ConnorStoneAstro/AutoProf",
+    "arxiv_id": "2106.13809",
+    "authors": [
+      "Connor Stone",
+      "Nikhil Arora",
+      "St\u00e9phane Courteau",
+      "Jean-Charles Cuillandre"
+    ],
+    "categories": [
+      "astro-ph.GA",
+      "astro-ph.IM"
+    ],
+    "doi": "10.1093/mnras/stab2709",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2106.13809v2",
+    "primary_category": "astro-ph.GA",
+    "published": "2021-06-25T18:00:00Z",
+    "query": "(cat:astro-ph.IM AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2106.13809v2",
+    "title": "AutoProf -- I. An automated non-parametric light profile pipeline for modern galaxy surveys",
+    "updated": "2021-10-07T18:00:00Z",
+    "versioned_id": "2106.13809v2"
+  },
+  "reference_sha256": "05538cd7c550cde604b20e8fd8f0312101bc0faf0e3135df0150af9e8094c776",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 380,
+    "final_quality_rank": 465,
+    "final_quality_score": 0.605426,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.8696,
+      "category": "astro-ph.GA",
+      "category_family": "astro-ph",
+      "color_bin": 0,
+      "colorfulness": 0.0,
+      "component_bin": 4,
+      "connector_bin": 3,
+      "difference_hash": "000c000c187c34b891b2899298f6ea4aeac8ea4a6a4a042a0d2a0d2a0d2a052a",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 273,
+    "style_selection_score": 0.539548
+  },
+  "source_filename": "DecisionTreeFlowchart.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "0c2fd704526951059f28244d15dab2e3556e526678cab5d5e7c0342ef210d607",
+  "task_id": "task_0379",
+  "task_index": 379
+}

@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2510.23408",
+  "candidate_id": "2510-23408_pdf_598b6bbfd2e6ca97",
+  "caption": "A holistic overview of the AutoStreamPipe framework",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 153,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.989202,
+    "editable_component_count": 3023,
+    "embedded_image_count": 33,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.019224,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 223,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 3056,
+    "text_count": 35,
+    "vector_drawing_count": 155,
+    "vector_primitive_count": 2988
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2510.23408v1",
+    "abstract": "Data pipelines are essential in stream processing as they enable the efficient collection, processing, and delivery of real-time data, supporting rapid data analysis. In this paper, we present AutoStreamPipe, a novel framework that employs Large Language Models (LLMs) to automate the design, generation, and deployment of stream processing pipelines. AutoStreamPipe bridges the semantic gap between high-level user intent and platform-specific implementations across distributed stream processing systems for structured multi-agent reasoning by integrating a Hypergraph of Thoughts (HGoT) as an extended version of GoT. AutoStreamPipe combines resilient execution strategies, advanced query analysis, and HGoT to deliver pipelines with good accuracy. Experimental evaluations on diverse pipelines demonstrate that AutoStreamPipe significantly reduces development time (x6.3) and error rates (x5.19), as measured by a novel Error-Free Score (EFS), compared to LLM code-generation methods.",
+    "arxiv_id": "2510.23408",
+    "authors": [
+      "Abolfazl Younesi",
+      "Zahra Najafabadi Samani",
+      "Thomas Fahringer"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.DC",
+      "cs.ET",
+      "cs.LG",
+      "cs.MA"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2510.23408v1",
+    "primary_category": "cs.AI",
+    "published": "2025-10-27T15:11:31Z",
+    "query": "(cat:cs.AI AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2510.23408v1",
+    "title": "AutoStreamPipe: LLM Assisted Automatic Generation of Data Stream Processing Pipelines",
+    "updated": "2025-10-27T15:11:31Z",
+    "versioned_id": "2510.23408v1"
+  },
+  "reference_sha256": "d35ecb6b6f5d38b6ffaa38fbda9eba8710b0f6090259fed4d83467fc272100d2",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 163,
+    "final_quality_rank": 111,
+    "final_quality_score": 0.700492,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.8196,
+      "category": "cs.AI",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.36807,
+      "component_bin": 4,
+      "connector_bin": 3,
+      "difference_hash": "9aa46e26a6e99ea18f25878506e6a326a74687222618868b92ab9372874a16b1",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 172,
+    "style_selection_score": 0.563906
+  },
+  "source_filename": "AutoPipe_overview.drawio.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "598b6bbfd2e6ca97efc92a04943dcf7db96957d8989435f6f6da790be2d681d2",
+  "task_id": "task_0162",
+  "task_index": 162
+}

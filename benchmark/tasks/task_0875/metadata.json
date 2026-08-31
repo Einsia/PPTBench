@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2606.03257",
+  "candidate_id": "2606-03257_pdf_d17b913e6ad792b7",
+  "caption": "Overview of our proposed PSViT methodology, showing its main steps.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 71,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.995833,
+    "editable_component_count": 239,
+    "embedded_image_count": 1,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.02644,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 120,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 240,
+    "text_count": 37,
+    "vector_drawing_count": 82,
+    "vector_primitive_count": 202
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 354,
+    "full_pool_rank": 487,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 305,
+    "second_pass_review_rank": 354
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2606.03257v1",
+    "abstract": "Spiking Vision Transformer (SViT) models are promising low-power ViT models for solving vision-based tasks with state-of-the-art performance. However, their large sizes limit their deployments for resource-constrained embedded platforms, underscoring the needs of model compression. One of prominent compression techniques is pruning, and the state-of-the-art works employ unstructured pruning techniques to compress SViT models. Such techniques require specialized hardware architectures tailored for the sparsity patterns to maximize their efficiency benefits, making this approach not scalable. To address this, we propose PSViT, a novel methodology to perform structured pruning on SViT models, hence making it possible to efficiently accelerate their inference using the existing and widely-used computing architectures. To do this, PSViT employs several key steps: uniform channel-wise filter pruning to structurally eliminate the non-significant weights, sensitivity analysis to evaluate the impact of channel-wise pruning of individual layer on accuracy and network size, as well as fine-grained channel-wise pruning based on the sensitivity analysis and the given network architecture. Experimental results show that PSViT effectively obtains 22.4% memory saving through single-shot pruning, while maintaining high accuracy within 3% (70.3% without fine-tuning and 72.8% with fine-tuning) from the original non-pruned SViT model (73.3%) on the ImageNet-1K. These results also show that the PSViT methodology advances the effort in enabling efficient SViT deployments on resource-constrained applications.",
+    "arxiv_id": "2606.03257",
+    "authors": [
+      "Rachmad Vidya Wicaksana Putra",
+      "Achyuta Muthuvelan",
+      "Alberto Marchisio",
+      "Muhammad Shafique"
+    ],
+    "categories": [
+      "cs.NE",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2606.03257v1",
+    "primary_category": "cs.NE",
+    "published": "2026-06-02T07:18:57Z",
+    "query": "(cat:cs.NE AND all:\"network architecture\") AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2606.03257v1",
+    "title": "PSViT: A Methodology for Structurally Pruning Spiking Vision Transformers",
+    "updated": "2026-06-02T07:18:57Z",
+    "versioned_id": "2606.03257v1"
+  },
+  "reference_sha256": "e0b4e5ddd0bfb8eb5aae565e895a2f40da04b50e7d82f292978c67dedb76ac33",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 876,
+    "final_quality_rank": 744,
+    "final_quality_score": 0.544919,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 4.3201,
+      "category": "cs.NE",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.176113,
+      "component_bin": 1,
+      "connector_bin": 2,
+      "difference_hash": "d730f738f258d230ed3426736a59d278dab062387234c230e238e638e238d534",
+      "raster_bin": 2
+    },
+    "style_selection_rank": 849,
+    "style_selection_score": 0.453677
+  },
+  "source_filename": "PSViT_methodology.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "d17b913e6ad792b7188e562ed331eb956d71e211ea4d452b3f50d44631379f9a",
+  "task_id": "task_0875",
+  "task_index": 875
+}

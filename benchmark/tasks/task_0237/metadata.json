@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2507.07448",
+  "candidate_id": "2507-07448_pdf_1f5d8eb6acea2ac7",
+  "caption": "System architecture for the solution build to support developer in quantum software development. In the model introduced developer runs Jupyter lab locally outside of the Kubernetes cluster.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 23,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 122,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 58,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 122,
+    "text_count": 22,
+    "vector_drawing_count": 36,
+    "vector_primitive_count": 100
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2507.07448v1",
+    "abstract": "Quantum computing proposes a revolutionary paradigm that can radically transform numerous scientific and industrial application domains. To realize this promise, these new capabilities need software solutions that are able to effectively harness its power. However, developers may face significant challenges when developing and executing quantum software due to the limited availability of quantum computer hardware, high computational demands of simulating quantum computers on classical systems, and complicated technology stack to enable currently available accelerators into development environments. These limitations make it difficult for the developer to create an efficient workflow for quantum software development. In this paper, we investigate the potential of using remote computational capabilities in an efficient manner to improve the workflow of quantum software developers, by lowering the barrier of moving between local execution and computationally more efficient remote hardware and offering speedup in execution with simulator surroundings. The goal is to allow the development of more complex circuits and to support an iterative software development approach. In our experiment, with the solution presented in this paper, we have obtained up to 5 times faster circuit execution runtime, and enabled qubit ranges from 21 to 29 qubits with a simple plug-and-play kernel for the Jupyter notebook.",
+    "arxiv_id": "2507.07448",
+    "authors": [
+      "Otso Kinanen",
+      "Andr\u00e9s D. Mu\u00f1oz-Moller",
+      "Vlad Stirbu",
+      "Tommi Mikkonen"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.SE"
+    ],
+    "doi": "10.1007/s00607-025-01450-x",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2507.07448v1",
+    "primary_category": "quant-ph",
+    "published": "2025-07-10T05:56:26Z",
+    "query": "(cat:cs.SE AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2507.07448v1",
+    "title": "Toolchain for Faster Iterations in Quantum Software Development",
+    "updated": "2025-07-10T05:56:26Z",
+    "versioned_id": "2507.07448v1"
+  },
+  "reference_sha256": "fdf67f3cf900eaa8ae741d752a92c4ea88801be1fbffbb6d72ca32f6b697c994",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 238,
+    "final_quality_rank": 986,
+    "final_quality_score": 0.367986,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.8902,
+      "category": "quant-ph",
+      "category_family": "quant-ph",
+      "color_bin": 0,
+      "colorfulness": 0.0,
+      "component_bin": 0,
+      "connector_bin": 1,
+      "difference_hash": "e261e470db391d0ce534c9345136570dd8d5a534ac94d393d2300625059906a1",
+      "raster_bin": 0
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "system.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "1f5d8eb6acea2ac767c972f06bc03461837f1c16a7f14ee078e390cf7b8f8829",
+  "task_id": "task_0237",
+  "task_index": 237
+}

@@ -1,0 +1,78 @@
+{
+  "assets": [
+    {
+      "file": "resource_0001.png",
+      "has_alpha": false,
+      "height": 214,
+      "sha256": "c249f5dbe3a6d0e2074f9ed5454f5b7596a1eec8cf678cce0e7b4b0e865234af",
+      "width": 250
+    },
+    {
+      "file": "resource_0002.png",
+      "has_alpha": false,
+      "height": 33,
+      "sha256": "0f9051061f4003dc2ace0279b84bc0da0fb281ef530d983bf4384ff29c30f3c9",
+      "width": 39
+    },
+    {
+      "file": "resource_0003.png",
+      "has_alpha": false,
+      "height": 214,
+      "sha256": "f4781e9aa6eb16bf43babe313a93675d9b4e7bb664107674044b2ff83fc2b2a7",
+      "width": 250
+    },
+    {
+      "file": "resource_0004.png",
+      "has_alpha": false,
+      "height": 531,
+      "sha256": "1366cda6c22a4b94acd061493f232d8e10cef240a333d6ee816fdb86ea2fe53f",
+      "width": 622
+    },
+    {
+      "file": "resource_0005.png",
+      "has_alpha": false,
+      "height": 165,
+      "sha256": "720c427bc0ef0f71ab942d5009a14a96344e8d909cc2488f3bdf5694a6db30fd",
+      "width": 220
+    },
+    {
+      "file": "resource_0006.png",
+      "has_alpha": false,
+      "height": 531,
+      "sha256": "009b0139ba05cbc2922934d08086a195e15ab3de5e12ba113ec55b16c5810ae5",
+      "width": 622
+    },
+    {
+      "file": "resource_0007.png",
+      "has_alpha": false,
+      "height": 33,
+      "sha256": "f385a5c2fae7b49eaa2118c5c88023015ebf804ac7f4ba22d629a0d420ace551",
+      "width": 39
+    },
+    {
+      "file": "resource_0008.png",
+      "has_alpha": false,
+      "height": 164,
+      "sha256": "fbb32f7649776637e683d602a1d710599ba912b8120e88ba5e8a34b3c2b0a281",
+      "width": 192
+    },
+    {
+      "file": "resource_0009.png",
+      "has_alpha": false,
+      "height": 164,
+      "sha256": "a4d6c4683257d0240f3bacd08e2540e55b72769bf47aed4502d9898163360c84",
+      "width": 192
+    }
+  ],
+  "candidate_id": "2107-00471_pdf_64f8ec13c453f76a",
+  "extractor_version": "native-raster-v1",
+  "manual_qc": {
+    "maximum_resources": 12,
+    "removed_count": 1,
+    "status": "pass",
+    "version": "manual-resource-qc-v1"
+  },
+  "resource_count": 9,
+  "schema": "pptbench-task-resources-v1",
+  "task_id": "task_0209"
+}

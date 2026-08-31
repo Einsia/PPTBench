@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2311.14077",
+  "candidate_id": "2311-14077_pdf_8c84759f57a1f75b",
+  "caption": "The whole architecture (left) of the denoising network for training with graph transformer modules (right). X, E, y denote the atom features, bond features, and global features, respectively. FiLM( M_1, M_2) = M_1 W_1 + ( M_2 W_2) M_2 + M_2, where W_1, W_2 are learnable. PNA( M) = [max( M) min( M) mean( M) std( M)] W, where W is learnable.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 97,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.994169,
+    "editable_component_count": 341,
+    "embedded_image_count": 2,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.031123,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 143,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 343,
+    "text_count": 43,
+    "vector_drawing_count": 98,
+    "vector_primitive_count": 298
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 836,
+    "full_pool_rank": 1429,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 729,
+    "second_pass_review_rank": 836
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2311.14077v2",
+    "abstract": "Retrosynthesis poses a key challenge in biopharmaceuticals, aiding chemists in finding appropriate reactant molecules for given product molecules. With reactants and products represented as 2D graphs, retrosynthesis constitutes a conditional graph-to-graph (G2G) generative task. Inspired by advancements in discrete diffusion models for graph generation, we aim to design a diffusion-based method to address this problem. However, integrating a diffusion-based G2G framework while retaining essential chemical reaction template information presents a notable challenge. Our key innovation involves a multi-stage diffusion process. We decompose the retrosynthesis procedure to first sample external groups from the dummy distribution given products, then generate external bonds to connect products and generated groups. Interestingly, this generation process mirrors the reverse of the widely adapted semi-template retrosynthesis workflow, \\emph{i.e.} from reaction center identification to synthon completion. Based on these designs, we introduce Retrosynthesis Diffusion (RetroDiff), a novel diffusion-based method for the retrosynthesis task. Experimental results demonstrate that RetroDiff surpasses all semi-template methods in accuracy, and outperforms template-based and template-free methods in large-scale scenarios and molecular validity, respectively. Code: https://github.com/Alsace08/RetroDiff.",
+    "arxiv_id": "2311.14077",
+    "authors": [
+      "Yiming Wang",
+      "Yuxuan Song",
+      "Yiqun Wang",
+      "Minkai Xu",
+      "Rui Wang",
+      "Hao Zhou",
+      "Wei-Ying Ma"
+    ],
+    "categories": [
+      "cs.LG",
+      "q-bio.QM"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2311.14077v2",
+    "primary_category": "cs.LG",
+    "published": "2023-11-23T16:08:52Z",
+    "query": "(cat:q-bio.QM AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2311.14077v2",
+    "title": "RetroDiff: Retrosynthesis as Multi-stage Distribution Interpolation",
+    "updated": "2025-07-21T02:14:31Z",
+    "versioned_id": "2311.14077v2"
+  },
+  "reference_sha256": "1384dbf5de02ee142cc901e8602f5972470c764e8a2a74b102a45f6d74deea86",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 918,
+    "final_quality_rank": 812,
+    "final_quality_score": 0.51616,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.5348,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.079531,
+      "component_bin": 1,
+      "connector_bin": 2,
+      "difference_hash": "03d06b506652e6d2e3d093d0e3e2e9d2d3e8e3e8e5c8e2c8cac8e2d8c2c2c3d0",
+      "raster_bin": 2
+    },
+    "style_selection_rank": 894,
+    "style_selection_score": 0.428047
+  },
+  "source_filename": "network.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "8c84759f57a1f75b4cfbf702477d9e7be263b4be8f6f5a0cb59eb3acb3708f80",
+  "task_id": "task_0917",
+  "task_index": 917
+}

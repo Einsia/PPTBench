@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2103.12224",
+  "candidate_id": "2103-12224_pdf_a36433644d2255df",
+  "caption": "GitHub workflow automation with GitHub Actions (adapted from GitHub).",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 25,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.992021,
+    "editable_component_count": 1865,
+    "embedded_image_count": 15,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.008734,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 52,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1880,
+    "text_count": 12,
+    "vector_drawing_count": 25,
+    "vector_primitive_count": 1853
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 150,
+    "full_pool_rank": 195,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 132,
+    "second_pass_review_rank": 150
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2103.12224v1",
+    "abstract": "Automated tools are frequently used in social coding repositories to perform repetitive activities that are part of the distributed software development process. Recently, GitHub introduced GitHub Actions, a feature providing automated workflows for repository maintainers. Although several Actions have been built and used by practitioners, relatively little has been done to evaluate them. Understanding and anticipating the effects of adopting such kind of technology is important for planning and management. Our research is the first to investigate how developers use Actions and how several activity indicators change after their adoption. Our results indicate that, although only a small subset of repositories adopted GitHub Actions to date, there is a positive perception of the technology. Our findings also indicate that the adoption of GitHub Actions increases the number of monthly rejected pull requests and decreases the monthly number of commits on merged pull requests. These results are especially relevant for practitioners to understand and prevent undesirable effects on their projects.",
+    "arxiv_id": "2103.12224",
+    "authors": [
+      "Timothy Kinsman",
+      "Mairieli Wessel",
+      "Marco A. Gerosa",
+      "Christoph Treude"
+    ],
+    "categories": [
+      "cs.SE"
+    ],
+    "doi": "10.1109/MSR52588.2021.00054",
+    "journal_ref": "Mining Software Repositories Conference (MSR 2021), May 2021",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2103.12224v1",
+    "primary_category": "cs.SE",
+    "published": "2021-03-22T23:14:45Z",
+    "query": "(cat:cs.SE AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2103.12224v1",
+    "title": "How Do Software Developers Use GitHub Actions to Automate Their Workflows?",
+    "updated": "2021-03-22T23:14:45Z",
+    "versioned_id": "2103.12224v1"
+  },
+  "reference_sha256": "774f72c1d08b98dc5f921fee952444b4eafaee216acca29fbbc3788b0173eff3",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 878,
+    "final_quality_rank": 743,
+    "final_quality_score": 0.545718,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 4.2348,
+      "category": "cs.SE",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.056378,
+      "component_bin": 3,
+      "connector_bin": 1,
+      "difference_hash": "8802e006a0149a1680048004012716ca44d3749035923490b190359034900c80",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 857,
+    "style_selection_score": 0.450346
+  },
+  "source_filename": "github_actions.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "a36433644d2255dfe31d42f426427928edd7b6d86494969cf70b59746bd98664",
+  "task_id": "task_0877",
+  "task_index": 877
+}

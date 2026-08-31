@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2106.09189",
+  "candidate_id": "2106-09189_pdf_9ae3e9400c794eb2",
+  "caption": "Flowchart of current GLM bolide pipeline.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 36,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 265,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 64,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 265,
+    "text_count": 23,
+    "vector_drawing_count": 41,
+    "vector_primitive_count": 242
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 40,
+    "full_pool_rank": 48,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 38,
+    "second_pass_review_rank": 40
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2106.09189v1",
+    "abstract": "The Geostationary Lightning Mapper (GLM) instrument onboard the GOES 16 and 17 satellites has been shown to be capable of detecting bolides (bright meteors) in Earth's atmosphere. Due to its large, continuous field of view and immediate public data availability, GLM provides a unique opportunity to detect a large variety of bolides, including those in the 0.1 to 3 m diameter range and complements current ground-based bolide detection systems, which are typically sensitive to smaller events. We present a machine learning-based bolide detection and light curve generation pipeline being developed at NASA Ames Research Center as part of NASA's Asteroid Threat Assessment Project (ATAP). The ultimate goal is to generate a large catalog of calibrated bolide lightcurves to provide an unprecedented data set which will be used to inform meteor entry models on how incoming bodies interact with the Earth's atmosphere and to infer the pre-entry properties of the impacting bodies. The data set will also be useful for other asteroidal studies. This paper reports on the progress of the first part of this ultimate goal, namely, the automated bolide detection pipeline. Development of the training set, ML model training and iterative improvements in detection performance are presented. The pipeline runs in an automated fashion and bolide lightcurves along with other measured properties are promptly published on a NASA hosted publicly accessible website, https://neo-bolide.ndc.nasa.gov.",
+    "arxiv_id": "2106.09189",
+    "authors": [
+      "Jeffrey C. Smith",
+      "Robert L. Morris",
+      "Clemens Rumpf",
+      "Randolph Longenbaugh",
+      "Nina McCurdy",
+      "Christopher Henze",
+      "Jessie Dotson"
+    ],
+    "categories": [
+      "astro-ph.EP",
+      "astro-ph.IM"
+    ],
+    "doi": "10.1016/j.icarus.2021.114576",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2106.09189v1",
+    "primary_category": "astro-ph.EP",
+    "published": "2021-06-17T00:51:38Z",
+    "query": "(cat:astro-ph.IM AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2106.09189v1",
+    "title": "An Automated Bolide Detection Pipeline for GOES GLM",
+    "updated": "2021-06-17T00:51:38Z",
+    "versioned_id": "2106.09189v1"
+  },
+  "reference_sha256": "5d2eb858acb7e6d36408efad508ac70a0b34a9d6e6231bf2eb130353ce1c531d",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 154,
+    "final_quality_rank": 206,
+    "final_quality_score": 0.667761,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.983,
+      "category": "astro-ph.EP",
+      "category_family": "astro-ph",
+      "color_bin": 5,
+      "colorfulness": 0.819801,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "3d1019703a9ab61c341c7692b657b651769cb657b6d7b4da3b9200a81e900e30",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 74,
+    "style_selection_score": 0.605315
+  },
+  "source_filename": "current_pipeline_flowchart.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "9ae3e9400c794eb20102a46cf58b8986f3d24dec57eeb4e5705bc0ba89c601aa",
+  "task_id": "task_0153",
+  "task_index": 153
+}

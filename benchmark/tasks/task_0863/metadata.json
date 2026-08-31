@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2305.05352",
+  "candidate_id": "2305-05352_pdf_fa6283872e0bd127",
+  "caption": "Model-level architecture.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 50,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 153,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 96,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 153,
+    "text_count": 24,
+    "vector_drawing_count": 72,
+    "vector_primitive_count": 129
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 1235,
+    "full_pool_rank": 2380,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 1087,
+    "second_pass_review_rank": 1235
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2305.05352v6",
+    "abstract": "The recent release of large language model (LLM) based chatbots, such as ChatGPT, has attracted huge interest in foundation models. It is widely believed that foundation models will serve as the fundamental building blocks for future AI systems. As foundation models are in their early stages, the design of foundation model based systems has not yet been systematically explored. There is limited understanding about the impact of introducing foundation models in software architecture. Therefore, in this paper, we propose a taxonomy of foundation model based systems, which classifies and compares the characteristics of foundation models and design options of foundation model based systems. Our taxonomy comprises three categories: the pretraining and adaptation of foundation models, the architecture design of foundation model based systems, and responsible-AI-by-design. This taxonomy can serve as concrete guidance for making major architectural design decisions when designing foundation model based systems and highlights trade-offs arising from design decisions.",
+    "arxiv_id": "2305.05352",
+    "authors": [
+      "Qinghua Lu",
+      "Liming Zhu",
+      "Xiwei Xu",
+      "Yue Liu",
+      "Zhenchang Xing",
+      "Jon Whittle"
+    ],
+    "categories": [
+      "cs.SE",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2305.05352v6",
+    "primary_category": "cs.SE",
+    "published": "2023-05-09T11:37:16Z",
+    "query": "(cat:cs.CL AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2305.05352v6",
+    "title": "A Taxonomy of Foundation Model based Systems through the Lens of Software Architecture",
+    "updated": "2024-01-22T04:15:13Z",
+    "versioned_id": "2305.05352v6"
+  },
+  "reference_sha256": "4b0d86caecff724f960b214239fb540de7794b78ea0ae2fde5ff65b7aeba556f",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 864,
+    "final_quality_rank": 968,
+    "final_quality_score": 0.404393,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.5385,
+      "category": "cs.SE",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.0,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "03405940996899469154a36c99409144b54cc3414944a9524b50194699689970",
+      "raster_bin": 0
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "model.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "fa6283872e0bd127c3acdfc6ed06351597dc5a4e1dfe46826bf0eab77cbe7531",
+  "task_id": "task_0863",
+  "task_index": 863
+}

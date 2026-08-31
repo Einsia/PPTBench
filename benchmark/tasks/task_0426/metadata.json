@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2109.10442",
+  "candidate_id": "2109-10442_pdf_51aa50ccc89fdbd6",
+  "caption": "SeLFISA framework dataset selection process",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 36,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.998196,
+    "editable_component_count": 3874,
+    "embedded_image_count": 7,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.060469,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 83,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 3881,
+    "text_count": 29,
+    "vector_drawing_count": 47,
+    "vector_primitive_count": 3845
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 468,
+    "full_pool_rank": 697,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 407,
+    "second_pass_review_rank": 468
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2109.10442v1",
+    "abstract": "A framework was developed to address limitations associated with existing techniques for analysing sequences. This work deals with the steps followed to select suitable datasets characterised by discrete irregular sequential patterns. To identify, select, explore and evaluate which datasets from various sources extracted from more than 400 research articles, an interquartile range method for outlier calculation and a qualitative Billauer's algorithm was adapted to provide periodical peak detection in such datasets. The developed framework was then tested using the most appropriate datasets. The research concluded that the financial market-daily currency exchange domain is the most suitable kind of data set for the evaluation of the designed deep learning framework, as it provides high levels of discrete irregular patterns.",
+    "arxiv_id": "2109.10442",
+    "authors": [
+      "Kudakwashe Dandajena",
+      "Isabella M. Venter",
+      "Mehrdad Ghaziasgar",
+      "Reg Dodds"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2109.10442v1",
+    "primary_category": "cs.LG",
+    "published": "2021-09-21T22:09:30Z",
+    "query": "(cat:cs.LG AND all:framework) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2109.10442v1",
+    "title": "Selecting Datasets for Evaluating an Enhanced Deep Learning Framework",
+    "updated": "2021-09-21T22:09:30Z",
+    "versioned_id": "2109.10442v1"
+  },
+  "reference_sha256": "ec8154fba90f1b918133256e13cb9b56461960a7a182c2256a943af0e1000254",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 427,
+    "final_quality_rank": 315,
+    "final_quality_score": 0.635632,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.4228,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.424194,
+      "component_bin": 4,
+      "connector_bin": 1,
+      "difference_hash": "c681c780b71b4b3b4933471b4d1d485c181c1d1c1f1b131b171bc71b475d1328",
+      "raster_bin": 2
+    },
+    "style_selection_rank": 442,
+    "style_selection_score": 0.512728
+  },
+  "source_filename": "figure1.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "51aa50ccc89fdbd6c5b2ed63376516bc86bd1b3bab4e9090440aa85597689ab6",
+  "task_id": "task_0426",
+  "task_index": 426
+}

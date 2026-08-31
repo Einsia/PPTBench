@@ -1,0 +1,87 @@
+{
+  "arxiv_id": "2508.19868",
+  "candidate_id": "2508-19868_pdf_177f02035f1f3ae6",
+  "caption": "3Overview of DRAM operation. Reproduced from .",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 435,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 2240,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 475,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 2240,
+    "text_count": 34,
+    "vector_drawing_count": 441,
+    "vector_primitive_count": 2206
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 598,
+    "full_pool_rank": 956,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 521,
+    "second_pass_review_rank": 598
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2508.19868v1",
+    "abstract": "Our goal in this dissertation is to provide tools, programming models, and system support for PIM architectures (with a focus on DRAM-based solutions), to ease the adoption of PIM in current and future systems. To this end, we make at least four new major contributions. First, we introduce DAMOV, the first rigorous methodology to characterize memory-related data movement bottlenecks in modern workloads, and the first data movement benchmark suite. Second, we introduce MIMDRAM, a new hardware/software co-designed substrate that addresses the major current programmability and flexibility limitations of the bulk bitwise execution model of processing-using-DRAM (PUD) architectures. MIMDRAM enables the allocation and control of only the needed computing resources inside DRAM for PUD computing. Third, we introduce Proteus, the first hardware framework that addresses the high execution latency of bulk bitwise PUD operations in state-of-the-art PUD architectures by implementing a data-aware runtime engine for PUD. Proteus reduces the latency of PUD operations in three different ways: (i) Proteus concurrently executes independent in-DRAM primitives belong to a single PUD operation across DRAM arrays. (ii) Proteus dynamically reduces the bit-precision (and consequentially the latency and energy consumption) of PUD operations by exploiting narrow values (i.e., values with many leading zeros or ones). (iii) Proteus chooses and uses the most appropriate data representation and arithmetic algorithm implementation for a given PUD instruction transparently to the programmer. Fourth, we introduce DaPPA (data-parallel processing-in-memory architecture), a new programming framework that eases programmability for general-purpose PNM architectures by allowing the programmer to write efficient PIM-friendly code without the need to manage hardware resources explicitly.",
+    "arxiv_id": "2508.19868",
+    "authors": [
+      "Geraldo F. Oliveira"
+    ],
+    "categories": [
+      "cs.AR",
+      "cs.DC"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2508.19868v1",
+    "primary_category": "cs.AR",
+    "published": "2025-08-27T13:30:54Z",
+    "query": "(cat:cs.DC AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2508.19868v1",
+    "title": "New Tools, Programming Models, and System Support for Processing-in-Memory Architectures",
+    "updated": "2025-08-27T13:30:54Z",
+    "versioned_id": "2508.19868v1"
+  },
+  "reference_sha256": "a6e34d8e4eccff860c28c771cb5d4c531b9d48409492ccd6538295f3f6a3c7d1",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 263,
+    "final_quality_rank": 184,
+    "final_quality_score": 0.672338,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.757,
+      "category": "cs.AR",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.218785,
+      "component_bin": 4,
+      "connector_bin": 4,
+      "difference_hash": "cce6ccc648ec4ce6cce6cce64ce6cce6c4e6cce6cce62b145c6e4d867794146a",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 247,
+    "style_selection_score": 0.546632
+  },
+  "source_filename": "dram_operation-crop.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "177f02035f1f3ae6bdaf440aee71c6204be18116962f7e90bcb92ea727530ec1",
+  "task_id": "task_0262",
+  "task_index": 262
+}

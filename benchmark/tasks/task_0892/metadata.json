@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2509.00778",
+  "candidate_id": "2509-00778_pdf_18bc679eb6fc20da",
+  "caption": "Architecture of 3 3 Systolic Array for Matrix Multiplication.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 93,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 423,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 162,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 423,
+    "text_count": 64,
+    "vector_drawing_count": 98,
+    "vector_primitive_count": 359
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 735,
+    "full_pool_rank": 1254,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 642,
+    "second_pass_review_rank": 735
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2509.00778v2",
+    "abstract": "Deep Neural Networks (DNNs) require highly efficient matrix multiplication engines for complex computations. This paper presents a systolic array architecture incorporating novel exact and approximate processing elements (PEs), designed using energy-efficient positive partial product and negative partial product cells, termed as PPC and NPPC, respectively. The proposed 8-bit exact and approximate PE designs are employed in a 8x8 systolic array, which achieves a energy savings of 22% and 32%, respectively, compared to the existing design. To demonstrate their effectiveness, the proposed PEs are integrated into a systolic array (SA) for Discrete Cosine Transform (DCT) computation, achieving high output quality with a PSNR of 38.21,dB. Furthermore, in an edge detection application using convolution, the approximate PE achieves a PSNR of 30.45,dB. These results highlight the potential of the proposed design to deliver significant energy efficiency while maintaining competitive output quality, making it well-suited for error-resilient image and vision processing applications.",
+    "arxiv_id": "2509.00778",
+    "authors": [
+      "Pragun Jaswal",
+      "L. Hemanth Krishna",
+      "B. Srinivasu"
+    ],
+    "categories": [
+      "cs.AR",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "doi": "10.1109/VLSID68508.2026.00103",
+    "journal_ref": "2026 39th International Conference on VLSI Design & 25th International Conference on Embedded Systems (VLSID)",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2509.00778v2",
+    "primary_category": "cs.AR",
+    "published": "2025-08-31T10:15:35Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2509.00778v2",
+    "title": "Energy Efficient Exact and Approximate Systolic Array Architecture for Matrix Multiplication",
+    "updated": "2026-01-28T14:48:00Z",
+    "versioned_id": "2509.00778v2"
+  },
+  "reference_sha256": "4975e8279c3cfa01400c4a379d0be3906914adb4f59f5aee2ee63544e084553e",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 893,
+    "final_quality_rank": 751,
+    "final_quality_score": 0.542691,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.2003,
+      "category": "cs.AR",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.147609,
+      "component_bin": 2,
+      "connector_bin": 2,
+      "difference_hash": "40040264e264e2660a660366766467660326ce66c6640b2603668664b3660193",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 867,
+    "style_selection_score": 0.446925
+  },
+  "source_filename": "sa.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "18bc679eb6fc20da0e590f42a3542b8dc2397d024041c585f5106c83f9a45dee",
+  "task_id": "task_0892",
+  "task_index": 892
+}

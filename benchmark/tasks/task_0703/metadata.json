@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2506.04593",
+  "candidate_id": "2506-04593_pdf_cf7a8db8269b43ca",
+  "caption": "Encoder, Decoder and LDPM framework.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 24,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 123,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 85,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 123,
+    "text_count": 38,
+    "vector_drawing_count": 47,
+    "vector_primitive_count": 85
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 1171,
+    "full_pool_rank": 2184,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 1037,
+    "second_pass_review_rank": 1171
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2506.04593v3",
+    "abstract": "Edge caching is an emerging technology that empowers caching units at edge nodes, allowing users to fetch contents of interest that have been pre-cached at the edge nodes. The key to pre-caching is to maximize the cache hit percentage for cached content without compromising users' privacy. In this letter, we propose a federated learning (FL) assisted edge caching scheme based on lightweight architecture denoising diffusion probabilistic model (LDPM). Our simulation results verify that our proposed scheme achieves a higher cache hit percentage compared to existing FL-based methods and baseline methods.",
+    "arxiv_id": "2506.04593",
+    "authors": [
+      "Xun Li",
+      "Qiong Wu",
+      "Pingyi Fan",
+      "Kezhi Wang",
+      "Nan Cheng",
+      "Khaled B. Letaief"
+    ],
+    "categories": [
+      "cs.NI",
+      "eess.SP"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2506.04593v3",
+    "primary_category": "cs.NI",
+    "published": "2025-06-05T03:16:51Z",
+    "query": "(cat:eess.SP AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2506.04593v3",
+    "title": "Federated Learning Assisted Edge Caching Scheme Based on Lightweight Architecture DDPM",
+    "updated": "2025-06-14T00:52:10Z",
+    "versioned_id": "2506.04593v3"
+  },
+  "reference_sha256": "29c6f10dbab4a6dc13b2808cdfdbc1c59941e2126922dc294d9e203d416b2fe8",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 704,
+    "final_quality_rank": 918,
+    "final_quality_score": 0.455206,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.8069,
+      "category": "cs.NI",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.426844,
+      "component_bin": 0,
+      "connector_bin": 1,
+      "difference_hash": "800000e095e0901e9ac292e09ae29ad6900699aa9b8adac89bca9a8a8e1a9104",
+      "raster_bin": 0
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "systemmodel2.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "cf7a8db8269b43ca1b8d0b956537e0a43219a4967efcc083cffbbdf6ea85c1b4",
+  "task_id": "task_0703",
+  "task_index": 703
+}

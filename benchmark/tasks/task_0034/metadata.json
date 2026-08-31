@@ -1,0 +1,88 @@
+{
+  "arxiv_id": "2603.00089",
+  "candidate_id": "2603-00089_pdf_ddd73141656c6f32",
+  "caption": "Flowchart of the survey: Participants move through seven stages (from left to right): Introduction, System Prompt Awareness, Topic-Specific Design Preferences, Overall Design Preferences, Transparency, Interference, and Demographics with steps with user input in green and information pages in light gray. Green arrows denote moving from one stage to another.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 139,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 14727,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 233,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 14727,
+    "text_count": 94,
+    "vector_drawing_count": 139,
+    "vector_primitive_count": 14633
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 699,
+    "full_pool_rank": 1196,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 611,
+    "second_pass_review_rank": 699
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2603.00089v1",
+    "abstract": "System prompts - instructions that shape the behaviour of generative AI systems - strongly influence system outputs and users' experiences. They define the model's guidelines, `personality', and guardrails, taking precedence over user inputs. Despite their influence, transparency is limited: system prompts are generally not made public and most platforms instruct models to conceal them, leaving users disconnected from and unaware of a key mechanism guiding and governing their AI interactions. This paper argues that system prompts warrant explicit, user-centred design attention and, focusing on large language models (LLMs), asks: what do system prompts contain, how do end-users perceive them, and what do these perceptions offer for design and governance practice? Our results reveal user perspectives on: the benefits and risks of system prompts; the values they prefer to be associated with prompt-design; their levels of comfort with different types of prompts; and degrees of transparency and user control regarding prompt content. From these findings emerge considerations for how designers can better align system prompt mechanisms with user expectations and preferences over these mechanisms that directly shape how generative AI systems behave.",
+    "arxiv_id": "2603.00089",
+    "authors": [
+      "Anna Neumann",
+      "Yulu Pi",
+      "Jatinder Singh"
+    ],
+    "categories": [
+      "cs.CY"
+    ],
+    "doi": "10.1145/3772318.3791726",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2603.00089v1",
+    "primary_category": "cs.CY",
+    "published": "2026-02-16T17:59:30Z",
+    "query": "(cat:cs.CY AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2603.00089v1",
+    "title": "Who Controls the Conversation? User Perspectives On Generative AI (LLM) System Prompts",
+    "updated": "2026-02-16T17:59:30Z",
+    "versioned_id": "2603.00089v1"
+  },
+  "reference_sha256": "91f99868ff907865af666876818d8db5b3e98bb1420b22f0ceca15a736a31f3f",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 35,
+    "final_quality_rank": 29,
+    "final_quality_score": 0.761115,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.1333,
+      "category": "cs.CY",
+      "category_family": "cs",
+      "color_bin": 4,
+      "colorfulness": 0.652688,
+      "component_bin": 6,
+      "connector_bin": 2,
+      "difference_hash": "b4afb5a895a995990863b463b463346389699c693463b4650c633ce43ce32ce3",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 43,
+    "style_selection_score": 0.641787
+  },
+  "source_filename": "Survey_Flowchart.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "ddd73141656c6f3261b39b628484270a2114ab6379fae77657552376c237ae30",
+  "task_id": "task_0034",
+  "task_index": 34
+}

@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2106.06924",
+  "candidate_id": "2106-06924_pdf_22a9303600836e23",
+  "caption": "",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 223,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.993317,
+    "editable_component_count": 3716,
+    "embedded_image_count": 25,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.003504,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 313,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 3741,
+    "text_count": 8,
+    "vector_drawing_count": 280,
+    "vector_primitive_count": 3708
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2106.06924v3",
+    "abstract": "Deep learning is regarded as a promising solution for reversible steganography. There is an accelerating trend of representing a reversible steo-system by monolithic neural networks, which bypass intermediate operations in traditional pipelines of reversible steganography. This end-to-end paradigm, however, suffers from imperfect reversibility. By contrast, the modular paradigm that incorporates neural networks into modules of traditional pipelines can stably guarantee reversibility with mathematical explainability. Prediction-error modulation is a well-established reversible steganography pipeline for digital images. It consists of a predictive analytics module and a reversible coding module. Given that reversibility is governed independently by the coding module, we narrow our focus to the incorporation of neural networks into the analytics module, which serves the purpose of predicting pixel intensities and a pivotal role in determining capacity and imperceptibility. The objective of this study is to evaluate the impacts of different training configurations upon predictive accuracy of neural networks and provide practical insights. In particular, we investigate how different initialisation strategies for input images may affect the learning process and how different training strategies for dual-layer prediction respond to the problem of distributional shift. Furthermore, we compare steganographic performance of various model architectures with different loss functions.",
+    "arxiv_id": "2106.06924",
+    "authors": [
+      "Ching-Chun Chang",
+      "Xu Wang",
+      "Sisheng Chen",
+      "Isao Echizen",
+      "Victor Sanchez",
+      "Chang-Tsun Li"
+    ],
+    "categories": [
+      "cs.MM",
+      "cs.CV",
+      "eess.IV"
+    ],
+    "doi": "10.1109/ACCESS.2023.3233976",
+    "journal_ref": "IEEE Access (2023), vol. 11, pp. 3494-3510",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2106.06924v3",
+    "primary_category": "cs.MM",
+    "published": "2021-06-13T05:32:17Z",
+    "query": "(cat:eess.IV AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2106.06924v3",
+    "title": "Deep Learning for Predictive Analytics in Reversible Steganography",
+    "updated": "2023-03-07T14:05:05Z",
+    "versioned_id": "2106.06924v3"
+  },
+  "reference_sha256": "2d7cf887dbd7cfea268b9fde0abb2d841f51a7b6361a0349aad4741fb71a27f0",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 393,
+    "final_quality_rank": 281,
+    "final_quality_score": 0.645766,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.9638,
+      "category": "cs.MM",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.14717,
+      "component_bin": 4,
+      "connector_bin": 3,
+      "difference_hash": "9b26f2b0e2b8a69ae698e690e2b86d297369f2d8e698e698e698e698e4d89926",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 108,
+    "style_selection_score": 0.588271
+  },
+  "source_filename": "WorkFlow_v3.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "22a9303600836e23c4a334236d371994764ded8131ff6b57bfb7fb88925c6c5a",
+  "task_id": "task_0392",
+  "task_index": 392
+}

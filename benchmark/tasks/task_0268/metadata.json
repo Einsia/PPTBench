@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2412.02101",
+  "candidate_id": "2412-02101_pdf_7070e6bc8afb169d",
+  "caption": "Illustration of proposed methods. Notably, the term, Token, not only means the real token before and after the processing of model, but also refers to the representation in the corresponding position. (a) shows the Two-stage Decoder-only and shows the Adaption, i.e., using an additional FFN to narrow the gap between source and target representations by non-linear transformation. (b) shows the Instruction-level Contrastive Learning. Underline marks target tokens, and [*] means the instruction of this instance. For the anchor, negative instances in this figure meet at least one of two features: 1) different target language and 2) unparallel semantics.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 262,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1664,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 322,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1664,
+    "text_count": 45,
+    "vector_drawing_count": 277,
+    "vector_primitive_count": 1619
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 421,
+    "full_pool_rank": 624,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 366,
+    "second_pass_review_rank": 421
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2412.02101v1",
+    "abstract": "Existing multilingual neural machine translation (MNMT) approaches mainly focus on improving models with the encoder-decoder architecture to translate multiple languages. However, decoder-only architecture has been explored less in MNMT due to its underperformance when trained on parallel data solely. In this work, we attribute the issue of the decoder-only architecture to its lack of language transfer capability. Specifically, the decoder-only architecture is insufficient in encoding source tokens with the target language features. We propose dividing the decoding process into two stages so that target tokens are explicitly excluded in the first stage to implicitly boost the transfer capability across languages. Additionally, we impose contrastive learning on translation instructions, resulting in improved performance in zero-shot translation. We conduct experiments on TED-19 and OPUS-100 datasets, considering both training from scratch and fine-tuning scenarios. Experimental results show that, compared to the encoder-decoder architecture, our methods not only perform competitively in supervised translations but also achieve improvements of up to 3.39 BLEU, 6.99 chrF++, 3.22 BERTScore, and 4.81 COMET in zero-shot translations.",
+    "arxiv_id": "2412.02101",
+    "authors": [
+      "Zhi Qu",
+      "Yiran Wang",
+      "Chenchen Ding",
+      "Hideki Tanaka",
+      "Masao Utiyama",
+      "Taro Watanabe"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2412.02101v1",
+    "primary_category": "cs.CL",
+    "published": "2024-12-03T02:52:14Z",
+    "query": "(cat:cs.CL AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2412.02101v1",
+    "title": "Improving Language Transfer Capability of Decoder-only Architecture in Multilingual Neural Machine Translation",
+    "updated": "2024-12-03T02:52:14Z",
+    "versioned_id": "2412.02101v1"
+  },
+  "reference_sha256": "095bb2a8db751bd257033fa986fdb8056ae42345f6ff9f7c44f7a03b6fd0c4ae",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 269,
+    "final_quality_rank": 194,
+    "final_quality_score": 0.67057,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 3.1851,
+      "category": "cs.CL",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.294705,
+      "component_bin": 3,
+      "connector_bin": 3,
+      "difference_hash": "f198ec96ccb9c8b487988d94c4940c9cc9918990c994c834c98ec894cc345483",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 312,
+    "style_selection_score": 0.535024
+  },
+  "source_filename": "methodology.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "7070e6bc8afb169d8aa21b11a9d29d35b28d6fdaa18d29531b9d5987fab1b50e",
+  "task_id": "task_0268",
+  "task_index": 268
+}

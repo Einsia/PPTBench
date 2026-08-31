@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2507.22946",
+  "candidate_id": "2507-22946_pdf_25dd4fb04a7165ab",
+  "caption": "SmartCourse system architecture. Users interact via CLI (administrator) or Gradio GUI (instructor & student), managed by the CourseManager layer. Data is stored in flat-file repositories, with an LLM providing recommendations and a mailer handling notifications.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 56,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 497,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 92,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 497,
+    "text_count": 33,
+    "vector_drawing_count": 59,
+    "vector_primitive_count": 464
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 225,
+    "full_pool_rank": 305,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 202,
+    "second_pass_review_rank": 225
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2507.22946v1",
+    "abstract": "We present SmartCourse, an integrated course management and AI-driven advising system for undergraduate students (specifically tailored to the Computer Science (CPS) major). SmartCourse addresses the limitations of traditional advising tools by integrating transcript and plan information for student-specific context. The system combines a command-line interface (CLI) and a Gradio web GUI for instructors and students, manages user accounts, course enrollment, grading, and four-year degree plans, and integrates a locally hosted large language model (via Ollama) for personalized course recommendations. It leverages transcript and major plan to offer contextual advice (e.g., prioritizing requirements or retakes). We evaluated the system on 25 representative advising queries and introduced custom metrics: PlanScore, PersonalScore, Lift, and Recall to assess recommendation quality across different context conditions. Experiments show that using full context yields substantially more relevant recommendations than context-omitted modes, confirming the necessity of transcript and plan information for personalized academic advising. SmartCourse thus demonstrates how transcript-aware AI can enhance academic planning.",
+    "arxiv_id": "2507.22946",
+    "authors": [
+      "Yixuan Mi",
+      "Yiduo Yu",
+      "Yiyi Zhao"
+    ],
+    "categories": [
+      "cs.CY",
+      "cs.AI"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2507.22946v1",
+    "primary_category": "cs.CY",
+    "published": "2025-07-26T13:49:41Z",
+    "query": "(cat:cs.CY AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2507.22946v1",
+    "title": "SmartCourse: A Contextual AI-Powered Course Advising System for Undergraduates",
+    "updated": "2025-07-26T13:49:41Z",
+    "versioned_id": "2507.22946v1"
+  },
+  "reference_sha256": "2aa5429ec682062b42c9c0eaa906840eb16fb60b5d0e8cbc60905b3ca03e7120",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 852,
+    "final_quality_rank": 691,
+    "final_quality_score": 0.562252,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 0,
+      "aspect_ratio": 0.6962,
+      "category": "cs.CY",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.172413,
+      "component_bin": 2,
+      "connector_bin": 1,
+      "difference_hash": "c610e71cf198dc98dd40e944e64cccc8ee98b120cd4ccb048d008d48c714c690",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 578,
+    "style_selection_score": 0.495466
+  },
+  "source_filename": "SmartCourse_arch.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "25dd4fb04a7165ab0d0db15e9d2d3a02db37e5d5f3c30c715527ca9eb0358fb4",
+  "task_id": "task_0851",
+  "task_index": 851
+}

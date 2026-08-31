@@ -1,0 +1,88 @@
+{
+  "arxiv_id": "2510.06890",
+  "candidate_id": "2510-06890_pdf_5bfc46e6fc813685",
+  "caption": "(a) Fault-tolerant base module comprising resource state generators (RSGs) and a measurement module. The RSGs are multiplexed to make the generation near-deterministic. Classical information from the measurement module is routed to a classical processor which handles decoding, Pauli frame tracking, feed-forward and change of measurement basis to implement logic. (b) Copies of this base module can be connected to generate the RHG lattice, with a representative cell shown here. Encoded 2-chains are combined using entangling operations (circles around nodes connected by thicker lines) which are 4-GHZ measurements in the bulk of the lattice and measurements on smaller numbers of qubits (e.g., Bell measurements) at the boundaries.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 201,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1162,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 225,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1162,
+    "text_count": 15,
+    "vector_drawing_count": 210,
+    "vector_primitive_count": 1147
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2510.06890v1",
+    "abstract": "We propose a novel architecture for fault-tolerant quantum computing that incorporates strong single-photon nonlinearities into a photonic GHZ-measurement-based architecture. The nonlinearities substantially reduce resource overheads compared to conventional linear-optics-based architectures, which require significant redundancy to accommodate probabilistic photon generation and probabilistic entangling operations. By removing linear-optical failure modes, our nonlinear architecture can also tolerate much higher optical losses than linear approaches, with a baseline loss tolerance of $\\sim$12\\% using a 32-photon resource state and a foliated surface code. Our results show how introducing a nonlinear primitive enables dramatic improvements in practical implementations of fault-tolerant quantum computing.",
+    "arxiv_id": "2510.06890",
+    "authors": [
+      "Maike Ostmann",
+      "Joshua Nunn",
+      "Alex E. Jones"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2510.06890v1",
+    "primary_category": "quant-ph",
+    "published": "2025-10-08T11:13:04Z",
+    "query": "(cat:quant-ph AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2510.06890v1",
+    "title": "Nonlinear photonic architecture for fault-tolerant quantum computing",
+    "updated": "2025-10-08T11:13:04Z",
+    "versioned_id": "2510.06890v1"
+  },
+  "reference_sha256": "ce58e983fef88b29611fc65013cb5ec5efd601c095c26ee5dac7515abadf9223",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 374,
+    "final_quality_rank": 456,
+    "final_quality_score": 0.607651,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.5185,
+      "category": "quant-ph",
+      "category_family": "quant-ph",
+      "color_bin": 1,
+      "colorfulness": 0.124117,
+      "component_bin": 3,
+      "connector_bin": 3,
+      "difference_hash": "38c82c1430bc133a11b452b3d218d2b519a351aa31ce11a3549a9254a26cb04a",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 487,
+    "style_selection_score": 0.498162
+  },
+  "source_filename": "Architecture_routing.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "5bfc46e6fc8136850dc7a159b02651b3bfb3246f18dc83019a8bdd0177e17ec8",
+  "task_id": "task_0373",
+  "task_index": 373
+}

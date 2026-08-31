@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2106.14947",
+  "candidate_id": "2106-14947_pdf_0125453bb45b5075",
+  "caption": "Flowchart of MRAugment, our data augmentation pipeline for MRI.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 72,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.971671,
+    "editable_component_count": 343,
+    "embedded_image_count": 10,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.010785,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 162,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 353,
+    "text_count": 80,
+    "vector_drawing_count": 72,
+    "vector_primitive_count": 263
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2106.14947v1",
+    "abstract": "Deep neural networks have emerged as very successful tools for image restoration and reconstruction tasks. These networks are often trained end-to-end to directly reconstruct an image from a noisy or corrupted measurement of that image. To achieve state-of-the-art performance, training on large and diverse sets of images is considered critical. However, it is often difficult and/or expensive to collect large amounts of training images. Inspired by the success of Data Augmentation (DA) for classification problems, in this paper, we propose a pipeline for data augmentation for accelerated MRI reconstruction and study its effectiveness at reducing the required training data in a variety of settings. Our DA pipeline, MRAugment, is specifically designed to utilize the invariances present in medical imaging measurements as naive DA strategies that neglect the physics of the problem fail. Through extensive studies on multiple datasets we demonstrate that in the low-data regime DA prevents overfitting and can match or even surpass the state of the art while using significantly fewer training data, whereas in the high-data regime it has diminishing returns. Furthermore, our findings show that DA can improve the robustness of the model against various shifts in the test distribution.",
+    "arxiv_id": "2106.14947",
+    "authors": [
+      "Zalan Fabian",
+      "Reinhard Heckel",
+      "Mahdi Soltanolkotabi"
+    ],
+    "categories": [
+      "eess.IV",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2106.14947v1",
+    "primary_category": "eess.IV",
+    "published": "2021-06-28T19:08:46Z",
+    "query": "(cat:eess.IV AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2106.14947v1",
+    "title": "Data augmentation for deep learning based accelerated MRI reconstruction with limited data",
+    "updated": "2021-06-28T19:08:46Z",
+    "versioned_id": "2106.14947v1"
+  },
+  "reference_sha256": "9eb8470969772809bb5441fc5babeb399f88a83add4b83ea067da180047d38b8",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 510,
+    "final_quality_rank": 644,
+    "final_quality_score": 0.571863,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.2939,
+      "category": "eess.IV",
+      "category_family": "eess",
+      "color_bin": 2,
+      "colorfulness": 0.235178,
+      "component_bin": 1,
+      "connector_bin": 2,
+      "difference_hash": "c03280f691dc010dccc8cdd9933693361330ccc898c2c8a4ddac24eb270bdf14",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 660,
+    "style_selection_score": 0.479387
+  },
+  "source_filename": "da_flowchart.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "0125453bb45b507577c61582e16624d26657742952da592a5f3aa298de3a5cf7",
+  "task_id": "task_0509",
+  "task_index": 509
+}

@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2606.06515",
+  "candidate_id": "2606-06515_pdf_9ea1297498df023d",
+  "caption": "Architecture of the LT accelerator; based on .",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 260,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.992521,
+    "editable_component_count": 1327,
+    "embedded_image_count": 10,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.004837,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 493,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1337,
+    "text_count": 177,
+    "vector_drawing_count": 306,
+    "vector_primitive_count": 1150
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 73,
+    "full_pool_rank": 92,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 67,
+    "second_pass_review_rank": 73
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2606.06515v1",
+    "abstract": "Transformer-based networks have emerged as prominent AI models with state-of-the-art performance, which potentially pave the way toward artificial general intelligence (AGI). However, their large sizes still hinder their efficient implementation, thus highlighting the need for alternate solutions to enable their energy-efficient acceleration. Recently, state-of-the-art works propose photonic transformer accelerators (PTAs) with significant speedup and energy efficiency improvements over the conventional electronic accelerators. However, their PTA architectures are developed without considering the application constraints (e.g., area, power, energy, and latency). Moreover, their manual design approach also requires huge design time to determine a suitable architecture for the targeted application, hence making this approach not scalable. To address these limitations, we propose DxPTA, a novel design space exploration methodology for enabling efficient hardware/software co-design of the appropriate PTA architecture that meets all constraints. It is achieved by (1) identifying the PTA architecture parameters based on the coherent optical dataflow; (2) analyzing the impact/significance of the parameters; and (3) leveraging this analysis for devising a constraint-aware architecture search algorithm. Experimental results show that, our DxPTA can find the appropriate PTA architectures for different transformer-based models (i.e., DeiT-T/S/B and BERT-B/L). It achieves up to 26mm^2 area, 4.8W power, 39mJ energy, and 6ms latency, for constraints of 50mm^2 area, 5W power, 50mJ energy, and 10ms latency; with 15.2x faster searching time than the exhaustive approach. These results demonstrate the potential of DxPTA methodology for enabling efficient PTA designs for diverse AGI-based applications.",
+    "arxiv_id": "2606.06515",
+    "authors": [
+      "Rachmad Vidya Wicaksana Putra",
+      "Solomon Micheal Serunjogi",
+      "Mahmoud Rasras",
+      "Muhammad Shafique"
+    ],
+    "categories": [
+      "cs.AR",
+      "cs.AI",
+      "cs.DC",
+      "cs.ET",
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2606.06515v1",
+    "primary_category": "cs.AR",
+    "published": "2026-06-02T10:57:12Z",
+    "query": "(cat:cs.DC AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2606.06515v1",
+    "title": "DxPTA: An Architecture Design Space Exploration with Optical Dataflow-guided Strategy for HW/SW Co-Design of Photonic Transformer Accelerators",
+    "updated": "2026-06-02T10:57:12Z",
+    "versioned_id": "2606.06515v1"
+  },
+  "reference_sha256": "7f06f6a6387242b0f643b02867580e6fc09d84c5a32fc960d768a3fa4cfebb26",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 159,
+    "final_quality_rank": 116,
+    "final_quality_score": 0.698916,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.286,
+      "category": "cs.AR",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.38914,
+      "component_bin": 3,
+      "connector_bin": 3,
+      "difference_hash": "dad0dd2ccd2ccf2ccd2ccb3c8b2ccae428b42cba26891a085e0c5b1a5a1a4a55",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 179,
+    "style_selection_score": 0.564928
+  },
+  "source_filename": "LTarch.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "9ea1297498df023d56cf2d2fc5a19a33c505943b310218f10194b4da16bf5aba",
+  "task_id": "task_0158",
+  "task_index": 158
+}

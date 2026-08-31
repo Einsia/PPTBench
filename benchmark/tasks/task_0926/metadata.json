@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2109.07298",
+  "candidate_id": "2109-07298_pdf_235022b197f97890",
+  "caption": "A visual representation of FFAVOD with a window of 5 frames (n=2). Frames are passed through the backbone network of the base object detection network, and the fusion module takes their outputs as input. Finally, the fusion module outputs a fused feature map compatible with the base object detection network, and the base object detection heads are applied to the fused feature map to classify the object categories and regress the bounding boxes.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 41,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 698,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 526,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 698,
+    "text_count": 16,
+    "vector_drawing_count": 510,
+    "vector_primitive_count": 682
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 456,
+    "full_pool_rank": 676,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 400,
+    "second_pass_review_rank": 456
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2109.07298v1",
+    "abstract": "A significant amount of redundancy exists between consecutive frames of a video. Object detectors typically produce detections for one image at a time, without any capabilities for taking advantage of this redundancy. Meanwhile, many applications for object detection work with videos, including intelligent transportation systems, advanced driver assistance systems and video surveillance. Our work aims at taking advantage of the similarity between video frames to produce better detections. We propose FFAVOD, standing for feature fusion architecture for video object detection. We first introduce a novel video object detection architecture that allows a network to share feature maps between nearby frames. Second, we propose a feature fusion module that learns to merge feature maps to enhance them. We show that using the proposed architecture and the fusion module can improve the performance of three base object detectors on two object detection benchmarks containing sequences of moving road users. Additionally, to further increase performance, we propose an improvement to the SpotNet attention module. Using our architecture on the improved SpotNet detector, we obtain the state-of-the-art performance on the UA-DETRAC public benchmark as well as on the UAVDT dataset. Code is available at https://github.com/hu64/FFAVOD.",
+    "arxiv_id": "2109.07298",
+    "authors": [
+      "Hughes Perreault",
+      "Guillaume-Alexandre Bilodeau",
+      "Nicolas Saunier",
+      "Maguelonne H\u00e9ritier"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2109.07298v1",
+    "primary_category": "cs.CV",
+    "published": "2021-09-15T13:53:21Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2109.07298v1",
+    "title": "FFAVOD: Feature Fusion Architecture for Video Object Detection",
+    "updated": "2021-09-15T13:53:21Z",
+    "versioned_id": "2109.07298v1"
+  },
+  "reference_sha256": "33a78ef7c92c279873f31d03d4677a13b6d76ce1643ff80c0711b40b43316023",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 927,
+    "final_quality_rank": 816,
+    "final_quality_score": 0.514287,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.3753,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.0,
+      "component_bin": 2,
+      "connector_bin": 1,
+      "difference_hash": "01c049c286ccc9929b3693669b369b36b3249b369b36362d9b36322422641224",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 945,
+    "style_selection_score": 0.423097
+  },
+  "source_filename": "architecture.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "235022b197f9789094e61432bb71a9512db0334690ac7f9ecf754286ede3e04d",
+  "task_id": "task_0926",
+  "task_index": 926
+}

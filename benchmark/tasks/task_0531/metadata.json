@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2508.05055",
+  "candidate_id": "2508-05055_pdf_cd45fa9380693412",
+  "caption": "Processing flow of MOVER",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 47,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.940329,
+    "editable_component_count": 914,
+    "embedded_image_count": 58,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.000307,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 259,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 972,
+    "text_count": 95,
+    "vector_drawing_count": 106,
+    "vector_primitive_count": 819
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 840,
+    "full_pool_rank": 1434,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 732,
+    "second_pass_review_rank": 840
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2508.05055v1",
+    "abstract": "In this paper, we propose Meeting recognizer Output Voting Error Reduction (MOVER), a novel system combination method for meeting recognition tasks. Although there are methods to combine the output of diarization (e.g., DOVER) or automatic speech recognition (ASR) systems (e.g., ROVER), MOVER is the first approach that can combine the outputs of meeting recognition systems that differ in terms of both diarization and ASR. MOVER combines hypotheses with different time intervals and speaker labels through a five-stage process that includes speaker alignment, segment grouping, word and timing combination, etc. Experimental results on the CHiME-8 DASR task and the multi-channel track of the NOTSOFAR-1 task demonstrate that MOVER can successfully combine multiple meeting recognition systems with diverse diarization and recognition outputs, achieving relative tcpWER improvements of 9.55 % and 8.51 % over the state-of-the-art systems for both tasks.",
+    "arxiv_id": "2508.05055",
+    "authors": [
+      "Naoyuki Kamo",
+      "Tsubasa Ochiai",
+      "Marc Delcroix",
+      "Tomohiro Nakatani"
+    ],
+    "categories": [
+      "eess.AS"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2508.05055v1",
+    "primary_category": "eess.AS",
+    "published": "2025-08-07T06:17:13Z",
+    "query": "(cat:eess.AS AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2508.05055v1",
+    "title": "MOVER: Combining Multiple Meeting Recognition Systems",
+    "updated": "2025-08-07T06:17:13Z",
+    "versioned_id": "2508.05055v1"
+  },
+  "reference_sha256": "79829fbf35e19a9c9e3c91a1f0d1013cda0d31375f4ac8a5ac5f427830dcd3a8",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 532,
+    "final_quality_rank": 687,
+    "final_quality_score": 0.562649,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.8617,
+      "category": "eess.AS",
+      "category_family": "eess",
+      "color_bin": 3,
+      "colorfulness": 0.325335,
+      "component_bin": 3,
+      "connector_bin": 1,
+      "difference_hash": "09c01ecc1e4cacccccc84cccd5ee56649e6cccc8acc8173117391d391d191d38",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 715,
+    "style_selection_score": 0.473351
+  },
+  "source_filename": "tcpROVER.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "cd45fa93806934125dbdaf59c8c31cfacec5e8ecd99efcdf011b5df9c6d6266e",
+  "task_id": "task_0531",
+  "task_index": 531
+}

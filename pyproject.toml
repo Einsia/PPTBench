@@ -1,0 +1,67 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pptbench-pipeline"
+version = "1.0.0"
+description = "PPTBench data collection, reconstruction harness, and VLM judging pipeline"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+dependencies = [
+  "certifi>=2025.1.31",
+  "lxml>=5.3",
+  "numpy>=1.26",
+  "Pillow==12.1.1",
+  "PyMuPDF==1.28.0",
+  "python-pptx>=1.0.2",
+  "rapidocr-onnxruntime>=1.2.3",
+  "tomli>=2.0; python_version < '3.11'",
+]
+
+[project.optional-dependencies]
+html = ["playwright>=1.40"]
+clip = ["torch>=2.2", "transformers>=4.48,<6"]
+# OpenCV is only needed when maintainers build the provenance/materialization
+# manifest.  Keeping it optional avoids imposing a native computer-vision
+# dependency on users who only materialize or score the frozen release.
+maintainer = ["opencv-python-headless>=4.10"]
+dev = ["ruff>=0.9"]
+
+[project.urls]
+Homepage = "https://github.com/Einsia/PPTBench"
+Repository = "https://github.com/Einsia/PPTBench"
+
+[tool.pptbench]
+# LibreOffice is an external runtime and is not installed by pip.  The
+# benchmark's reference renderer is pinned to the 25.8 release line; callers
+# may override the executable explicitly for local development.
+libreoffice_version = "25.8"
+
+[project.scripts]
+# ``pptbench-*`` names are the public command-line surface.
+"pptbench-collect" = "arxiv_flow_dataset.cli:main"
+"pptbench-materialize-candidates" = "arxiv_flow_dataset.materialize_tasks:main"
+"pptbench-license-audit" = "arxiv_flow_dataset.license_audit:main"
+"pptbench-materialize" = "arxiv_flow_dataset.task_materializer:main"
+"pptbench-eval" = "eval_harness.cli:main"
+"pptbench-rollout" = "eval_harness.cli:main"
+"pptbench-rollout-batch" = "eval_harness.tools.run_rollouts:main"
+"pptbench-audit" = "eval_harness.tools.audit_release:main"
+"pptbench-collect-rollouts" = "eval_harness.tools.collect_rollouts:main"
+"pptbench-normalize-bounds" = "eval_harness.tools.normalize_pptx_bounds:main"
+"pptbench-vlm-judge" = "vlm_judge_harness.judge:main"
+"pptbench-vlm-rank" = "vlm_judge_harness.issue_ranker:main"
+"pptbench-vlm-consensus-rank" = "vlm_judge_harness.consensus_ranker:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+vlm_judge_harness = ["*.json"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+exclude = [".agit", "data", "legacy", "output", "task_outputs", "tasks", "tmp"]

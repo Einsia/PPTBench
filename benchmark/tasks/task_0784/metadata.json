@@ -1,0 +1,88 @@
+{
+  "arxiv_id": "2412.05770",
+  "candidate_id": "2412-05770_pdf_3c06ab2914dd5ef1",
+  "caption": "Overall architecture of the proposed KITE-DDI model. The internal layers of the MLP and encoder blocks are also illustrated in the figure.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 39,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.989873,
+    "editable_component_count": 391,
+    "embedded_image_count": 4,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.025876,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 153,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 395,
+    "text_count": 59,
+    "vector_drawing_count": 90,
+    "vector_primitive_count": 332
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 266,
+    "full_pool_rank": 355,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 236,
+    "second_pass_review_rank": 266
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2412.05770v1",
+    "abstract": "It is a common practice in modern medicine to prescribe multiple medications simultaneously to treat diseases. However, these medications could have adverse reactions between them, known as Drug-Drug Interactions (DDI), which have the potential to cause significant bodily injury and could even be fatal. Hence, it is essential to identify all the DDI events before prescribing multiple drugs to a patient. Most contemporary research for predicting DDI events relies on either information from Biomedical Knowledge graphs (KG) or drug SMILES, with very few managing to merge data from both to make predictions. While others use heuristic algorithms to extract features from SMILES and KGs, which are then fed into a Deep Learning framework to generate output. In this study, we propose a KG-integrated Transformer architecture to generate an end-to-end fully automated Machine Learning pipeline for predicting DDI events with high accuracy. The algorithm takes full-scale molecular SMILES sequences of a pair of drugs and a biomedical KG as input and predicts the interaction between the two drugs with high precision. The results show superior performance in two different benchmark datasets compared to existing state-of-the-art models especially when the test and training sets contain distinct sets of drug molecules. This demonstrates the strong generalization of the proposed model, indicating its potential for DDI event prediction for newly developed drugs. The model does not depend on heuristic models for generating embeddings and has a minimal number of hyperparameters, making it easy to use while demonstrating outstanding performance in low-data scenarios.",
+    "arxiv_id": "2412.05770",
+    "authors": [
+      "Azwad Tamir",
+      "Jiann-Shiun Yuan"
+    ],
+    "categories": [
+      "cs.LG",
+      "q-bio.BM"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2412.05770v1",
+    "primary_category": "cs.LG",
+    "published": "2024-12-08T00:49:57Z",
+    "query": "(cat:q-bio.BM AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2412.05770v1",
+    "title": "KITE-DDI: A Knowledge graph Integrated Transformer Model for accurately predicting Drug-Drug Interaction Events from Drug SMILES and Biomedical Knowledge Graph",
+    "updated": "2024-12-08T00:49:57Z",
+    "versioned_id": "2412.05770v1"
+  },
+  "reference_sha256": "20a8dbb807f68972d44194a90c1aa56054cc21f8924c90e1bd16eee2602cec2a",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 785,
+    "final_quality_rank": 611,
+    "final_quality_score": 0.578573,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.0394,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.376318,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "8c00f592f7923c924c0c000cbb8cfaac8080d0886db975e975a975a9649064b0",
+      "raster_bin": 2
+    },
+    "style_selection_rank": 698,
+    "style_selection_score": 0.470034
+  },
+  "source_filename": "Fig_model_cropped.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "3c06ab2914dd5ef11116dce1ceb2b354857d39e6e452cbfa01066ac739a51e73",
+  "task_id": "task_0784",
+  "task_index": 784
+}

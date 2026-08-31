@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2506.06946",
+  "candidate_id": "2506-06946_pdf_0d4c0f64da174bb2",
+  "caption": "Incremental Development of the SPIRA Subsystem. Dashed boxes represent the versions of the subsystem. Rounded boxes represent deployment units. Squared boxes represent components. Black arrows with a filled tip illustrate the data flow, while the labels in italic represent the data types.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 49,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 4072,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 121,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 4072,
+    "text_count": 54,
+    "vector_drawing_count": 67,
+    "vector_primitive_count": 4018
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 1095,
+    "full_pool_rank": 1982,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 968,
+    "second_pass_review_rank": 1095
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2506.06946v3",
+    "abstract": "Deploying a Machine Learning (ML) training pipeline into production requires good software engineering practices. Unfortunately, the typical data science workflow often leads to code that lacks critical software quality attributes. This experience report investigates this problem in SPIRA, a project whose goal is to create an ML-Enabled System (MLES) to pre-diagnose insufficiency respiratory via speech analysis. This paper presents an overview of the architecture of the MLES, then compares three versions of its Continuous Training subsystem: from a proof of concept Big Ball of Mud (v1), to a design pattern-based Modular Monolith (v2), to a test-driven set of Microservices (v3) Each version improved its overall extensibility, maintainability, robustness, and resiliency. The paper shares challenges and lessons learned in this process, offering insights for researchers and practitioners seeking to productionize their pipelines.",
+    "arxiv_id": "2506.06946",
+    "authors": [
+      "Daniel Angelo Esteves Lawand",
+      "Lucas Quaresma Medina Lam",
+      "Roberto Oliveira Bolgheroni",
+      "Renato Cordeiro Ferreira",
+      "Alfredo Goldman",
+      "Marcelo Finger"
+    ],
+    "categories": [
+      "cs.SE",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "doi": "10.1007/978-3-032-04403-7_30",
+    "journal_ref": "Software Architecture. ECSA 2025 Tracks and Workshops. ECSA 2025. Lecture Notes in Computer Science, vol 15982",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2506.06946v3",
+    "primary_category": "cs.SE",
+    "published": "2025-06-07T23:00:13Z",
+    "query": "(cat:cs.AI AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2506.06946v3",
+    "title": "Making a Pipeline Production-Ready: Challenges and Lessons Learned in the Healthcare Domain",
+    "updated": "2025-07-06T15:45:08Z",
+    "versioned_id": "2506.06946v3"
+  },
+  "reference_sha256": "989516906912243f35ea149f29f7a5197653771e7b36d5e76d9c91e4ac0f9bc8",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 859,
+    "final_quality_rank": 715,
+    "final_quality_score": 0.55453,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.1431,
+      "category": "cs.SE",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.269456,
+      "component_bin": 4,
+      "connector_bin": 1,
+      "difference_hash": "1c31c142664a26c919325e2126daa952a952d6a2280e6f51675aa953a95ad6a2",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 785,
+    "style_selection_score": 0.450497
+  },
+  "source_filename": "SPIRA-Evolution-v4.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "0d4c0f64da174bb21e57e6966bb256abcb328bdf23a64ad7737bf2a9af9e9848",
+  "task_id": "task_0858",
+  "task_index": 858
+}

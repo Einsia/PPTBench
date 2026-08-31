@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2606.25011",
+  "candidate_id": "2606-25011_pdf_10629c15a5628fac",
+  "caption": "A high-rate STAR architecture for local lattice Hamiltonian simulation, following the symmetry-driven co-design principle. (Left) the translation symmetry _ of the target local lattice Hamiltonian determines the required algorithmic gadgets: the Hamiltonian can be grouped into sublattices (plaquettization) such that the interactions of the Hamiltonian are parallel between sublattices, resulting in global algorithmic primitives that preserve the translation symmetry. The Hamiltonian simulation could thus be compiled into purely plaquette parallel (global) Cliffords, global magic gates, and automorphisms that realize the primitive shifts of the plaquette lattice. While the simulation of local lattice spin Hamiltonians is direct, fermionic local lattice Hamiltonians are converted to the spin case via local compact encodings, such as Derby-Klassen , at the cost of mediating ancillae. (Right) the bicycle chain code realizes all the neccesary algorithmic primitives using native global transversal Clifford gates, _ shift automorphisms, and STAR injections. STAR injections can be performed in a fully parallel fashion due to the existence of non-overlapping logical basis in the bicycle chain codes, thus amortizing state preparation cost. (Middle) the translation symmetry translated into efficient parallel AOD moves -- cycles on a 2D-grid layout of qubits -- making all the error-corrected components of the architecture readily implementable with neutral atoms.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 695,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.994623,
+    "editable_component_count": 6104,
+    "embedded_image_count": 33,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.006632,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 829,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 6137,
+    "text_count": 39,
+    "vector_drawing_count": 757,
+    "vector_primitive_count": 6065
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2606.25011v1",
+    "abstract": "Fault-tolerant quantum simulation is approaching a phase where encoding overhead, logical Clifford operations, magic-state preparation, and rotation synthesis must be optimized together for efficient implementation. Space-Time efficient Analog Rotation (STAR) architectures reduce two of these costs by preparing small-angle rotation magic states directly, and the transversal STAR variant further lowers the Clifford overhead. Existing concrete implementations, however, largely inherit the low $O(1/d^2)$ encoding rate of the surface code, while high-rate codes have not yet been integrated into comparably explicit architectures. Here, we introduce a high-rate STAR architecture for local lattice Hamiltonian simulation based on a symmetry-driven co-design of the algorithm, QEC code, and neutral-atom hardware. Translation symmetries of the target lattice determine the choice of bicycle chain codes, a tunable family of self-dual bivariate bicycle codes that natively implement Clifford gates required for lattice simulation. Disjoint logical representatives allow STAR injections to be performed in parallel on all $k$ logical qubits in a code block, amortizing resource state preparation and enabling practical post-selection rates. On neutral-atom platform, the same translation symmetry compiles the key logical operations into low-depth, hardware-native acousto-optic-deflector shifts. End-to-end estimates show that an $8 \\times 8$ transverse-field Ising simulation to $T^* \\approx 8 (zJ)^{-1}$ requires $2240$ physical qubits and $\\sim 200$ s per shot, a $\\sim 5.5\\times$ space reduction relative to a surface code STAR baseline at comparable speed; for Fermi-Hubbard dynamics to $T^* \\approx 4 (zt)^{-1}$, the corresponding estimates are $\\sim 6300$ physical qubits and $\\sim 200$ s per shot. These results provide a concrete route toward early fault-tolerant quantum simulation with high-rate codes.",
+    "arxiv_id": "2606.25011",
+    "authors": [
+      "Refaat Ismail",
+      "Milan Kornja\u010da",
+      "Hong-Ye Hu",
+      "Nishad Maskara",
+      "Sheng-Tao Wang",
+      "Hengyun Zhou",
+      "Chen Zhao"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2606.25011v1",
+    "primary_category": "quant-ph",
+    "published": "2026-06-23T17:55:45Z",
+    "query": "(cat:quant-ph AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2606.25011v1",
+    "title": "Fast and Parallel High-Rate STAR Architecture for Megaquop Quantum Simulation",
+    "updated": "2026-06-23T17:55:45Z",
+    "versioned_id": "2606.25011v1"
+  },
+  "reference_sha256": "49317326a533730303aa437958c5695ffadc9ba0e877ea5709d7aa2cec11fce7",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 94,
+    "final_quality_rank": 120,
+    "final_quality_score": 0.697279,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.7371,
+      "category": "quant-ph",
+      "category_family": "quant-ph",
+      "color_bin": 1,
+      "colorfulness": 0.15725,
+      "component_bin": 5,
+      "connector_bin": 4,
+      "difference_hash": "c718e33ca618a698e792c798cf1c931293299698e6968e9942b692b692b0c231",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 169,
+    "style_selection_score": 0.573358
+  },
+  "source_filename": "algorithm-qec-hardware-codesign.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "10629c15a5628faccc741e78f8bc7145d524018805fc1a12a4d8dcd37a54273d",
+  "task_id": "task_0093",
+  "task_index": 93
+}

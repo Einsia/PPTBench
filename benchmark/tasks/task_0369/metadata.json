@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2508.14916",
+  "candidate_id": "2508-14916_pdf_810108a3246b52e0",
+  "caption": "Proposed Multilingual ASR System Architecture.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 49,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 2506,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 97,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 2506,
+    "text_count": 11,
+    "vector_drawing_count": 86,
+    "vector_primitive_count": 2495
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 808,
+    "full_pool_rank": 1375,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 704,
+    "second_pass_review_rank": 808
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2508.14916v1",
+    "abstract": "This paper presents the architecture and performance of a novel Multilingual Automatic Speech Recognition (ASR) system developed by the Transsion Speech Team for Track 1 of the MLC-SLM 2025 Challenge. The proposed system comprises three key components: 1) a frozen Whisper-large-v3 based speech encoder, leveraging large-scale pretraining to ensure robust acoustic feature extraction; 2) a trainable adaptor module using Linear-ReLU-Linear transformation mechanisms to effectively align speech and text representations; and 3) a frozen Qwen2.5-7B-Instruct large language model (LLM) integrated with trainable LoRA for optimized contextual linguistic decoding. By systematically combining pretrained models with task specific fine-tuning, the system achieved a word/character error rate (WER/CER) of 9.83% across 11 languages in the evaluation set and ranked third place among global participants.",
+    "arxiv_id": "2508.14916",
+    "authors": [
+      "Xiaoxiao Li",
+      "An Zhu",
+      "Youhai Jiang",
+      "Fengjie Zhu"
+    ],
+    "categories": [
+      "eess.AS",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2508.14916v1",
+    "primary_category": "eess.AS",
+    "published": "2025-08-15T10:39:05Z",
+    "query": "(cat:eess.AS AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2508.14916v1",
+    "title": "Transsion Multilingual Speech Recognition System for MLC-SLM 2025 Challenge",
+    "updated": "2025-08-15T10:39:05Z",
+    "versioned_id": "2508.14916v1"
+  },
+  "reference_sha256": "38ff0b39d1a69d7df3aa2dff9a6b4df598351cbbf363523e38ef9ec783176de9",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 370,
+    "final_quality_rank": 447,
+    "final_quality_score": 0.60954,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.7778,
+      "category": "eess.AS",
+      "category_family": "eess",
+      "color_bin": 3,
+      "colorfulness": 0.38479,
+      "component_bin": 4,
+      "connector_bin": 1,
+      "difference_hash": "001800380030840a9132816262682648e260d244e318d008d2002000e0000000",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 576,
+    "style_selection_score": 0.50754
+  },
+  "source_filename": "system2.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "810108a3246b52e07927b68a019e6de5f1f762fbdebf062a2ba972866399e65b",
+  "task_id": "task_0369",
+  "task_index": 369
+}

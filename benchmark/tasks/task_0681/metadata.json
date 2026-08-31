@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2107.09509",
+  "candidate_id": "2107-09509_pdf_e3613038d0d5c8a1",
+  "caption": "Workflow of the proposed location detection system(ILDA=Indoor Location Detection Algorithm)",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 37,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 282,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 57,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 282,
+    "text_count": 19,
+    "vector_drawing_count": 38,
+    "vector_primitive_count": 263
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 608,
+    "full_pool_rank": 984,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 529,
+    "second_pass_review_rank": 608
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2107.09509v1",
+    "abstract": "The advent of IoT has enabled the design of connected and integrated smart health monitoring systems. These smart health monitoring systems could be realized in a smart home context to render long-term care to the elderly population. In this paper, we present the design of a wearable health monitoring system suitable for older adults in a smart home context. The proposed system offers solutions to monitor the stress, blood pressure, and location of an individual within a smart home environment. The stress detection model proposed in this work uses Electrodermal Activity (EDA), Photoplethysmogram (PPG), and Skin Temperature (ST) sensors embedded in a smart wristband for detecting physiological stress. The stress detection model is trained and tested using stress labels obtained from salivary cortisol which is a clinically established biomarker for physiological stress. A voice-based prototype is also implemented and the feasibility of the proposed system for integration in a smart home environment is analyzed by simulating a data acquisition and streaming scenario. We have also proposed a blood pressure estimation model using PPG signal and advanced regression techniques for integration with the stress detection model in the wearable health monitoring system. Finally, the design of a voice-assisted indoor location system is proposed for integration with the proposed system within a smart home environment. The proposed wearable health monitoring system is an important direction to realize a smart home environment with extensive diagnostic capabilities so that such a system could be useful for rendering long-term and personalized care to the aging population in the comfort of their home.",
+    "arxiv_id": "2107.09509",
+    "authors": [
+      "Rajdeep Kumar Nath",
+      "Himanshu Thapliyal"
+    ],
+    "categories": [
+      "eess.SP",
+      "cs.CY",
+      "cs.HC",
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2107.09509v1",
+    "primary_category": "eess.SP",
+    "published": "2021-06-09T03:16:54Z",
+    "query": "(cat:cs.CY AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2107.09509v1",
+    "title": "Wearable Health Monitoring System for Older Adults in a Smart Home Environment",
+    "updated": "2021-06-09T03:16:54Z",
+    "versioned_id": "2107.09509v1"
+  },
+  "reference_sha256": "6ff93509f0f6679e56a202320fba017bc2f4f7d43ed830c1ee58afeed317f465",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 682,
+    "final_quality_rank": 874,
+    "final_quality_score": 0.484997,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.7778,
+      "category": "eess.SP",
+      "category_family": "eess",
+      "color_bin": 0,
+      "colorfulness": 0.049288,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "638a4f4ac38ccb8ce7c3c528ee30e238a2a9cda4ce58c2ebc8c2c242c1c2c1d0",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 911,
+    "style_selection_score": 0.418486
+  },
+  "source_filename": "workflow.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "e3613038d0d5c8a14d5e6d5013da824f4981a17f5b69183defd97094f85a5913",
+  "task_id": "task_0681",
+  "task_index": 681
+}

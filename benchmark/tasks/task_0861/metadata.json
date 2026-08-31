@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2406.00180",
+  "candidate_id": "2406-00180_pdf_9635dbc903a9901e",
+  "caption": "Overview of our data collection process.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 38,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.998366,
+    "editable_component_count": 611,
+    "embedded_image_count": 1,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.01389,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 60,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 612,
+    "text_count": 15,
+    "vector_drawing_count": 44,
+    "vector_primitive_count": 596
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 231,
+    "full_pool_rank": 312,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 206,
+    "second_pass_review_rank": 231
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2406.00180v1",
+    "abstract": "The Workflows as Code paradigm is becoming increasingly essential to streamline the design and management of complex processes within data-intensive software systems. These systems require robust capabilities to process, analyze, and extract insights from large datasets. Workflow orchestration platforms such as Apache Airflow are pivotal in meeting these needs, as they effectively support the implementation of the Workflows as Code paradigm. Nevertheless, despite its considerable advantages, developers still face challenges due to the specialized demands of workflow orchestration and the complexities of distributed execution environments. In this paper, we manually study 1,000 sampled Stack Overflow posts derived from 9,591 Airflow-related questions to understand developers' challenges and root causes while implementing Workflows as Code. Our analysis results in a hierarchical taxonomy of Airflow-related challenges that contains 7 high-level categories and 14 sub-categories. We find that the most significant obstacles for developers arise when defining and executing their workflow. Our in-depth analysis identifies 10 root causes behind the challenges, including incorrect workflow configuration, complex environmental setup, and a lack of basic knowledge about Airflow and the external systems that it interacts with. Additionally, our analysis of references shared within the collected posts reveals that beyond the frequently cited Airflow documentation, documentation from external systems and third-party providers is also commonly referenced to address Airflow-related challenges.",
+    "arxiv_id": "2406.00180",
+    "authors": [
+      "Jerin Yasmin",
+      "Jiale Wang",
+      "Yuan Tian",
+      "Bram Adams"
+    ],
+    "categories": [
+      "cs.SE"
+    ],
+    "doi": "10.1016/j.jss.2024.112248",
+    "journal_ref": "J. Syst. Softw. 219 (2024) 112248",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2406.00180v1",
+    "primary_category": "cs.SE",
+    "published": "2024-05-31T20:16:03Z",
+    "query": "(cat:cs.SE AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2406.00180v1",
+    "title": "An Empirical Study of Developers' Challenges in Implementing Workflows as Code: A Case Study on Apache Airflow",
+    "updated": "2024-05-31T20:16:03Z",
+    "versioned_id": "2406.00180v1"
+  },
+  "reference_sha256": "0d3e9075b4a595a0b4dbd489f7a9ace4a5bf740c885fc9892fd47bff9708f160",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 862,
+    "final_quality_rank": 714,
+    "final_quality_score": 0.554937,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 4.4889,
+      "category": "cs.SE",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.189111,
+      "component_bin": 2,
+      "connector_bin": 1,
+      "difference_hash": "00c007c856c8c440c6c856c812c454cc1cac1cec1ecc10cc16001e001e000600",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 837,
+    "style_selection_score": 0.45275
+  },
+  "source_filename": "study_design.drawio.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "9635dbc903a9901e2ac41caf46b419c34077d9620818dc2b6ca911c92642ffd2",
+  "task_id": "task_0861",
+  "task_index": 861
+}

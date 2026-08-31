@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2308.10737",
+  "candidate_id": "2308-10737_pdf_5d416aca1d57be5c",
+  "caption": "Overview of the -th GSL layer, f^( , ^ ).",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 188,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.993639,
+    "editable_component_count": 781,
+    "embedded_image_count": 5,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.002551,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 221,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 786,
+    "text_count": 9,
+    "vector_drawing_count": 207,
+    "vector_primitive_count": 772
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 256,
+    "full_pool_rank": 343,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 226,
+    "second_pass_review_rank": 256
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2308.10737v1",
+    "abstract": "Graph neural networks (GNNs) demonstrate outstanding performance in a broad range of applications. While the majority of GNN applications assume that a graph structure is given, some recent methods substantially expanded the applicability of GNNs by showing that they may be effective even when no graph structure is explicitly provided. The GNN parameters and a graph structure are jointly learned. Previous studies adopt different experimentation setups, making it difficult to compare their merits. In this paper, we propose a benchmarking strategy for graph structure learning using a unified framework. Our framework, called Unified Graph Structure Learning (UGSL), reformulates existing models into a single model. We implement a wide range of existing models in our framework and conduct extensive analyses of the effectiveness of different components in the framework. Our results provide a clear and concise understanding of the different methods in this area as well as their strengths and weaknesses. The benchmark code is available at https://github.com/google-research/google-research/tree/master/ugsl.",
+    "arxiv_id": "2308.10737",
+    "authors": [
+      "Bahare Fatemi",
+      "Sami Abu-El-Haija",
+      "Anton Tsitsulin",
+      "Mehran Kazemi",
+      "Dustin Zelle",
+      "Neslihan Bulut",
+      "Jonathan Halcrow",
+      "Bryan Perozzi"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2308.10737v1",
+    "primary_category": "cs.LG",
+    "published": "2023-08-21T14:05:21Z",
+    "query": "(cat:cs.LG AND all:framework) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2308.10737v1",
+    "title": "UGSL: A Unified Framework for Benchmarking Graph Structure Learning",
+    "updated": "2023-08-21T14:05:21Z",
+    "versioned_id": "2308.10737v1"
+  },
+  "reference_sha256": "396a5d1ebf37a1a6c71618346873a3500a77ffdcfd7ea98b69ae35a55dac5fa5",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 375,
+    "final_quality_rank": 264,
+    "final_quality_score": 0.650195,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.5539,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.323389,
+      "component_bin": 2,
+      "connector_bin": 3,
+      "difference_hash": "900280008087a4c6804684dea956a9363369a936ad5e84cea006849280008000",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 434,
+    "style_selection_score": 0.520528
+  },
+  "source_filename": "GSL_layer.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "5d416aca1d57be5c447ff167f44c3483bbe8d2d547dd86746485e112bc2f0e77",
+  "task_id": "task_0374",
+  "task_index": 374
+}

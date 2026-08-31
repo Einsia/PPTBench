@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2203.10747",
+  "candidate_id": "2203-10747_pdf_b44d074a23cf6bc9",
+  "caption": "The architecture of supernet, containing all candidate operations and connections in the search space. A red edge indicates candidate operations compounded by the kernel reusing technique, which is illustrated in Fig. . In backbone, C3-block, and SPP module, parentheses under `Conv' indicate hyper-parameters to search: kernel size k, dilation ratio d, expansion rate of output channels e.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 93,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.997817,
+    "editable_component_count": 914,
+    "embedded_image_count": 2,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.004985,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 214,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 916,
+    "text_count": 68,
+    "vector_drawing_count": 144,
+    "vector_primitive_count": 846
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2203.10747v1",
+    "abstract": "Training CNN for detection is time-consuming due to the large dataset and complex network modules, making it hard to search architectures on detection datasets directly, which usually requires vast search costs (usually tens and even hundreds of GPU-days). In contrast, this paper introduces an efficient framework, named EAutoDet, that can discover practical backbone and FPN architectures for object detection in 1.4 GPU-days. Specifically, we construct a supernet for both backbone and FPN modules and adopt the differentiable method. To reduce the GPU memory requirement and computational cost, we propose a kernel reusing technique by sharing the weights of candidate operations on one edge and consolidating them into one convolution. A dynamic channel refinement strategy is also introduced to search channel numbers. Extensive experiments show significant efficacy and efficiency of our method. In particular, the discovered architectures surpass state-of-the-art object detection NAS methods and achieve 40.1 mAP with 120 FPS and 49.2 mAP with 41.3 FPS on COCO test-dev set. We also transfer the discovered architectures to rotation detection task, which achieve 77.05 mAP$_{\\text{50}}$ on DOTA-v1.0 test set with 21.1M parameters.",
+    "arxiv_id": "2203.10747",
+    "authors": [
+      "Xiaoxing Wang",
+      "Jiale Lin",
+      "Junchi Yan",
+      "Juanping Zhao",
+      "Xiaokang Yang"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2203.10747v1",
+    "primary_category": "cs.CV",
+    "published": "2022-03-21T05:56:12Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2203.10747v1",
+    "title": "EAutoDet: Efficient Architecture Search for Object Detection",
+    "updated": "2022-03-21T05:56:12Z",
+    "versioned_id": "2203.10747v1"
+  },
+  "reference_sha256": "cee558d7f88d3c7b09085400eaf4607b43b12ec3157d592c46a67592e7576f7a",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 693,
+    "final_quality_rank": 513,
+    "final_quality_score": 0.596351,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.6342,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.379689,
+      "component_bin": 3,
+      "connector_bin": 2,
+      "difference_hash": "b732b552b881b512b8123942b772b459bb409bc5a3cca74aa342a5c4a5cc9b5c",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 614,
+    "style_selection_score": 0.482263
+  },
+  "source_filename": "framework.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "b44d074a23cf6bc9793b5842d663b72a6bda69d8b5ab42085d1cde8e5192761a",
+  "task_id": "task_0692",
+  "task_index": 692
+}

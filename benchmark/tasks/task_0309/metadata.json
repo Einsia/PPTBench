@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2512.12279",
+  "candidate_id": "2512-12279_pdf_5ef201a52cc148ac",
+  "caption": "Overview of TP&PP execution engine.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 345,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.995232,
+    "editable_component_count": 835,
+    "embedded_image_count": 4,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.00427,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 496,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 839,
+    "text_count": 61,
+    "vector_drawing_count": 431,
+    "vector_primitive_count": 774
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 1103,
+    "full_pool_rank": 2002,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 976,
+    "second_pass_review_rank": 1103
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2512.12279v1",
+    "abstract": "Training large language models (LLMs) imposes extreme demands on computation, memory capacity, and interconnect bandwidth, driven by their ever-increasing parameter scales and intensive data movement. Wafer-scale integration offers a promising solution by densely integrating multiple single-die chips with high-speed die-to-die (D2D) interconnects. However, the limited wafer area necessitates trade-offs among compute, memory, and communication resources. Fully harnessing the potential of wafer-scale integration while mitigating its architectural constraints is essential for maximizing LLM training performance. This imposes significant challenges for the co-optimization of architecture and training strategies. Unfortunately, existing approaches all fall short in addressing these challenges. To bridge the gap, we propose WATOS, a co-exploration framework for LLM training strategy and wafer-scale architecture. We first define a highly configurable hardware template designed to explore optimal architectural parameters for wafer-scale chips. Based on it, we capitalize on the high D2D bandwidth and fine-grained operation advantages inherent to wafer-scale chips to explore optimal parallelism and resource allocation strategies, effectively addressing the memory underutilization issues during LLM training. Compared to the state-of-the-art (SOTA) LLM training framework Megatron and Cerebras' weight streaming wafer training strategy, WATOS can achieve an average overall throughput improvement of 2.74x and 1.53x across various LLM models, respectively. In addition, we leverage WATOS to reveal intriguing insights about wafer-scale architecture design with the training of LLM workloads.",
+    "arxiv_id": "2512.12279",
+    "authors": [
+      "Huizheng Wang",
+      "Zichuan Wang",
+      "Hongbin Wang",
+      "Jingxiang Hou",
+      "Taiquan Wei",
+      "Chao Li",
+      "Yang Hu",
+      "Shouyi Yin"
+    ],
+    "categories": [
+      "eess.SP"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2512.12279v1",
+    "primary_category": "eess.SP",
+    "published": "2025-12-13T10:49:47Z",
+    "query": "(cat:eess.SP AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2512.12279v1",
+    "title": "WATOS: Efficient LLM Training Strategies and Architecture Co-exploration for Wafer-scale Chip",
+    "updated": "2025-12-13T10:49:47Z",
+    "versioned_id": "2512.12279v1"
+  },
+  "reference_sha256": "7dee6b7dc3d37881d2a8ee8d96c4bb5799edb1385798a2c769dd7cfef71f44fe",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 310,
+    "final_quality_rank": 392,
+    "final_quality_score": 0.621589,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.4501,
+      "category": "eess.SP",
+      "category_family": "eess",
+      "color_bin": 3,
+      "colorfulness": 0.460972,
+      "component_bin": 2,
+      "connector_bin": 3,
+      "difference_hash": "b07413349b9ca1b49bb6f330f63893389530923c923c9336b2a2d698c438e6b8",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 465,
+    "style_selection_score": 0.51855
+  },
+  "source_filename": "FR_ExecutionEngine.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "5ef201a52cc148ac049cc86df28b16d557991efc6cf35c9443f6a8b5ca361220",
+  "task_id": "task_0309",
+  "task_index": 309
+}

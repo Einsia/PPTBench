@@ -1,0 +1,85 @@
+{
+  "assets": [
+    {
+      "file": "resource_0001.png",
+      "has_alpha": false,
+      "height": 32,
+      "sha256": "31d4e0dc8bcf8851dda07cf41848b871e50b887d554fd4a22d762d817b770a01",
+      "width": 32
+    },
+    {
+      "file": "resource_0002.png",
+      "has_alpha": false,
+      "height": 32,
+      "sha256": "6393b0bd4397ee2d87f7fa0640775724eca7ca1b86da04d135a9ae265f0e62be",
+      "width": 32
+    },
+    {
+      "file": "resource_0003.png",
+      "has_alpha": false,
+      "height": 32,
+      "sha256": "a806a2a2826900435ba6f75c3a941af2a7499dbaa332a8f0ab92658c9c1c0c03",
+      "width": 32
+    },
+    {
+      "file": "resource_0004.png",
+      "has_alpha": false,
+      "height": 32,
+      "sha256": "dc03641992cf7fd5edf0daf1f501cd96d1d0d6d8366fbfdd38a2ecb7d7f0789c",
+      "width": 32
+    },
+    {
+      "file": "resource_0005.png",
+      "has_alpha": false,
+      "height": 32,
+      "sha256": "de6f932ae803f88209985407c0f38bea0021c1d539281a87fe5b331215482a7e",
+      "width": 32
+    },
+    {
+      "file": "resource_0006.png",
+      "has_alpha": false,
+      "height": 32,
+      "sha256": "1444f4261b234a0b5bed1d7ecb4ee22825d2ecc0281a51aa15db278ad923ec68",
+      "width": 32
+    },
+    {
+      "file": "resource_0007.png",
+      "has_alpha": false,
+      "height": 142,
+      "sha256": "049e3fb84257e276b4ad5204552b16faec77a568c1d86a7da2fcfae5e8b5456f",
+      "width": 142
+    },
+    {
+      "file": "resource_0008.png",
+      "has_alpha": false,
+      "height": 32,
+      "sha256": "1453ac72c4f460f6e49ef9e0c2a9ff0a1dbb9efe205938b03fac346aef8eb980",
+      "width": 32
+    },
+    {
+      "file": "resource_0009.png",
+      "has_alpha": false,
+      "height": 32,
+      "sha256": "bf39be94ea7f736e9fc9e896b5f1cc6a2938f0a34e8cac27fb6d659800628cb2",
+      "width": 32
+    },
+    {
+      "file": "resource_0010.png",
+      "has_alpha": false,
+      "height": 32,
+      "sha256": "22ce71b3f143416f76e177029507f67fa7b57f3dd02e2786fba0e696fa45a8d7",
+      "width": 32
+    }
+  ],
+  "candidate_id": "2307-08065_pdf_8a3102cf3471ccdc",
+  "extractor_version": "native-raster-v1",
+  "manual_qc": {
+    "maximum_resources": 12,
+    "removed_count": 0,
+    "status": "pass",
+    "version": "manual-resource-qc-v1"
+  },
+  "resource_count": 10,
+  "schema": "pptbench-task-resources-v1",
+  "task_id": "task_0408"
+}

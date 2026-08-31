@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2101.11342",
+  "candidate_id": "2101-11342_pdf_475d37fde941e7b0",
+  "caption": "A diagram of our (a) EnTranNAS and (b) EnTranNAS-DST. Engine-cell and Transit-cell are in red and green boxes, respectively. EnTranNAS reduces the gap between the super-net and target-net. EnTranNAS-DST derive the architecture by keeping the connections with non-zero weights, so the valid computation graph in search is equivalent to the one of derived architecture in evaluation, and is not subject to any hand-crafted topology. The consistency is further improved and a flexible topology is supported. Zoom in to view better.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 87,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 7996,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 194,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 7996,
+    "text_count": 62,
+    "vector_drawing_count": 132,
+    "vector_primitive_count": 7934
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 761,
+    "full_pool_rank": 1306,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 664,
+    "second_pass_review_rank": 761
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2101.11342v1",
+    "abstract": "Most differentiable neural architecture search methods construct a super-net for search and derive a target-net as its sub-graph for evaluation. There exists a significant gap between the architectures in search and evaluation. As a result, current methods suffer from an inconsistent, inefficient, and inflexible search process. In this paper, we introduce EnTranNAS that is composed of Engine-cells and Transit-cells. The Engine-cell is differentiable for architecture search, while the Transit-cell only transits a sub-graph by architecture derivation. Consequently, the gap between the architectures in search and evaluation is significantly reduced. Our method also spares much memory and computation cost, which speeds up the search process. A feature sharing strategy is introduced for more balanced optimization and more efficient search. Furthermore, we develop an architecture derivation method to replace the traditional one that is based on a hand-crafted rule. Our method enables differentiable sparsification, and keeps the derived architecture equivalent to that of Engine-cell, which further improves the consistency between search and evaluation. Besides, it supports the search for topology where a node can be connected to prior nodes with any number of connections, so that the searched architectures could be more flexible. For experiments on CIFAR-10, our search on the standard space requires only 0.06 GPU-day. We further have an error rate of 2.22% with 0.07 GPU-day for the search on an extended space. We can also directly perform the search on ImageNet with topology learnable and achieve a top-1 error rate of 23.8% in 2.1 GPU-day.",
+    "arxiv_id": "2101.11342",
+    "authors": [
+      "Yibo Yang",
+      "Shan You",
+      "Hongyang Li",
+      "Fei Wang",
+      "Chen Qian",
+      "Zhouchen Lin"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2101.11342v1",
+    "primary_category": "cs.CV",
+    "published": "2021-01-27T12:16:47Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2101.11342v1",
+    "title": "Towards Improving the Consistency, Efficiency, and Flexibility of Differentiable Neural Architecture Search",
+    "updated": "2021-01-27T12:16:47Z",
+    "versioned_id": "2101.11342v1"
+  },
+  "reference_sha256": "f50f97b92a080df203c6a139649916737e8988c73d025da459c22e15b319aa7c",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 559,
+    "final_quality_rank": 406,
+    "final_quality_score": 0.617739,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.8635,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.13328,
+      "component_bin": 5,
+      "connector_bin": 2,
+      "difference_hash": "1c1cecceecc6c89d50dae44ae46ee526cd04eccec88d899950daeccdeccec706",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 533,
+    "style_selection_score": 0.496233
+  },
+  "source_filename": "f2.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "475d37fde941e7b0c1326a166d91be1a9a3f5808e0782a8215975f260b960d18",
+  "task_id": "task_0558",
+  "task_index": 558
+}

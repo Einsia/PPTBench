@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2108.11105",
+  "candidate_id": "2108-11105_pdf_6dd64498de8b5122",
+  "caption": "The flowchart of our architecture search that utilizes the Assisted Tabu Search (ATS) with mutation to search for accurate and lightweight monocular depth estimation networks.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 209,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 541,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 258,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 541,
+    "text_count": 48,
+    "vector_drawing_count": 210,
+    "vector_primitive_count": 493
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2108.11105v1",
+    "abstract": "This paper presents a novel neural architecture search method, called LiDNAS, for generating lightweight monocular depth estimation models. Unlike previous neural architecture search (NAS) approaches, where finding optimized networks are computationally highly demanding, the introduced novel Assisted Tabu Search leads to efficient architecture exploration. Moreover, we construct the search space on a pre-defined backbone network to balance layer diversity and search space size. The LiDNAS method outperforms the state-of-the-art NAS approach, proposed for disparity and depth estimation, in terms of search efficiency and output model performance. The LiDNAS optimized models achieve results superior to compact depth estimation state-of-the-art on NYU-Depth-v2, KITTI, and ScanNet, while being 7%-500% more compact in size, i.e the number of model parameters.",
+    "arxiv_id": "2108.11105",
+    "authors": [
+      "Lam Huynh",
+      "Phong Nguyen",
+      "Jiri Matas",
+      "Esa Rahtu",
+      "Janne Heikkila"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2108.11105v1",
+    "primary_category": "cs.CV",
+    "published": "2021-08-25T08:06:28Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2108.11105v1",
+    "title": "Lightweight Monocular Depth with a Novel Neural Architecture Search Method",
+    "updated": "2021-08-25T08:06:28Z",
+    "versioned_id": "2108.11105v1"
+  },
+  "reference_sha256": "0bb9505b6e3affff828612a0aed7600434d4c23a3d25b1b34432d83ca4c51a75",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 477,
+    "final_quality_rank": 344,
+    "final_quality_score": 0.629095,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 3.6749,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.22483,
+      "component_bin": 2,
+      "connector_bin": 3,
+      "difference_hash": "7660682058205a64592059205908dd085d19593315ad5d99bcd89cd88104c424",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 517,
+    "style_selection_score": 0.501684
+  },
+  "source_filename": "search_algorithm.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "6dd64498de8b5122224a9bf04b4c9b2491038703de6d42374b5d6c5edb71850f",
+  "task_id": "task_0476",
+  "task_index": 476
+}

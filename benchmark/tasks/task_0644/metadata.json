@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2202.07242",
+  "candidate_id": "2202-07242_pdf_e4636178996c0226",
+  "caption": "High-level illustration of architectures employed for different tasks. Top left: typical encoder-like architecture (blue) for image classification problems; predictions are made based on low-resolution but semantically strong features. Top right: typical architecture for tasks like semantic segmentation; semantically strong features are generated for all scales through augmenting the encoder with a decoder (red). Bottom: semantically strong features from all scales serve as the input for the object detection head (green); note that the feature maps within the encoder and decoder might be densely connected and feature maps in the decoder might be connected to any other feature map in the encoder as well as the decoder.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 185,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 736,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 202,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 736,
+    "text_count": 6,
+    "vector_drawing_count": 196,
+    "vector_primitive_count": 730
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 776,
+    "full_pool_rank": 1333,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 677,
+    "second_pass_review_rank": 776
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2202.07242v1",
+    "abstract": "The success of deep learning in recent years has lead to a rising demand for neural network architecture engineering. As a consequence, neural architecture search (NAS), which aims at automatically designing neural network architectures in a data-driven manner rather than manually, has evolved as a popular field of research. With the advent of weight sharing strategies across architectures, NAS has become applicable to a much wider range of problems. In particular, there are now many publications for dense prediction tasks in computer vision that require pixel-level predictions, such as semantic segmentation or object detection. These tasks come with novel challenges, such as higher memory footprints due to high-resolution data, learning multi-scale representations, longer training times, and more complex and larger neural architectures. In this manuscript, we provide an overview of NAS for dense prediction tasks by elaborating on these novel challenges and surveying ways to address them to ease future research and application of existing methods to novel problems.",
+    "arxiv_id": "2202.07242",
+    "authors": [
+      "Thomas Elsken",
+      "Arber Zela",
+      "Jan Hendrik Metzen",
+      "Benedikt Staffler",
+      "Thomas Brox",
+      "Abhinav Valada",
+      "Frank Hutter"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2202.07242v1",
+    "primary_category": "cs.CV",
+    "published": "2022-02-15T08:06:50Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2202.07242v1",
+    "title": "Neural Architecture Search for Dense Prediction Tasks in Computer Vision",
+    "updated": "2022-02-15T08:06:50Z",
+    "versioned_id": "2202.07242v1"
+  },
+  "reference_sha256": "0b6264c309a461beff670abb4ed7c5c25193959f9991caab6384f518bcd379b3",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 645,
+    "final_quality_rank": 468,
+    "final_quality_score": 0.604873,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.9702,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.262231,
+      "component_bin": 2,
+      "connector_bin": 3,
+      "difference_hash": "cb30c331cf31cf308630a6b0a6b00800a8808600c66ace6ace228d2a8d22ad22",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 630,
+    "style_selection_score": 0.483779
+  },
+  "source_filename": "DPT_figure.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "e4636178996c0226585821fbc913da39009b504561309dcc4daebef4c90997ed",
+  "task_id": "task_0644",
+  "task_index": 644
+}

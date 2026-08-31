@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2403.15723",
+  "candidate_id": "2403-15723_pdf_78967556b38f01ad",
+  "caption": "Workflow",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 84,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.998296,
+    "editable_component_count": 586,
+    "embedded_image_count": 1,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.008778,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 155,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 587,
+    "text_count": 67,
+    "vector_drawing_count": 87,
+    "vector_primitive_count": 519
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 465,
+    "full_pool_rank": 689,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 406,
+    "second_pass_review_rank": 465
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2403.15723v2",
+    "abstract": "Many programs involves operations and logic manipulating user privileges, which is essential for the security of an organization. Therefore, one common malicious goal of attackers is to obtain or escalate the privileges, causing privilege leakage. To protect the program and the organization against privilege leakage attacks, it is important to eliminate the vulnerabilities which can be exploited to achieve such attacks. Unfortunately, while memory vulnerabilities are less challenging to find, logic vulnerabilities are much more imminent, harmful and difficult to identify. Accordingly, many analysts choose to find user privilege related (UPR) variables first as start points to investigate the code where the UPR variables may be used to see if there exists any vulnerabilities, especially the logic ones. In this paper, we introduce a large language model (LLM) workflow that can assist analysts in identifying such UPR variables, which is considered to be a very time-consuming task. Specifically, our tool will audit all the variables in a program and output a UPR score, which is the degree of relationship (closeness) between the variable and user privileges, for each variable. The proposed approach avoids the drawbacks introduced by directly prompting a LLM to find UPR variables by focusing on leverage the LLM at statement level instead of supplying LLM with very long code snippets. Those variables with high UPR scores are essentially potential UPR variables, which should be manually investigated. Our experiments show that using a typical UPR score threshold (i.e., UPR score >0.8), the false positive rate (FPR) is only 13.49%, while UPR variable found is significantly more than that of the heuristic based method.",
+    "arxiv_id": "2403.15723",
+    "authors": [
+      "Haizhou Wang",
+      "Zhilong Wang",
+      "Peng Liu"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.SE"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2403.15723v2",
+    "primary_category": "cs.CR",
+    "published": "2024-03-23T05:18:46Z",
+    "query": "(cat:cs.SE AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2403.15723v2",
+    "title": "A hybrid LLM workflow can help identify user privilege related variables in programs of any size",
+    "updated": "2024-07-09T15:20:52Z",
+    "versioned_id": "2403.15723v2"
+  },
+  "reference_sha256": "d33fd109c690212de0d0bb6520ae57ad2be7b5ae8814d0785af0ca49d7bc7f2c",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 866,
+    "final_quality_rank": 718,
+    "final_quality_score": 0.553817,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.4679,
+      "category": "cs.CR",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.089568,
+      "component_bin": 2,
+      "connector_bin": 2,
+      "difference_hash": "198035189998a89aa4e8aaa0598a19808440a4e094ace44ee56a8d68c44000c0",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 723,
+    "style_selection_score": 0.465056
+  },
+  "source_filename": "workflow.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "78967556b38f01ad0283edbc66c3e1c74753ede201952781ecce26fe844eb99b",
+  "task_id": "task_0865",
+  "task_index": 865
+}

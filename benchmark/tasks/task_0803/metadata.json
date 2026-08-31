@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2403.12446",
+  "candidate_id": "2403-12446_pdf_c903473461530830",
+  "caption": "Overview of Our Study.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 77,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 599,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 126,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 599,
+    "text_count": 30,
+    "vector_drawing_count": 96,
+    "vector_primitive_count": 569
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 613,
+    "full_pool_rank": 994,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 534,
+    "second_pass_review_rank": 613
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2403.12446v1",
+    "abstract": "GitHub workflows or GitHub CI is a popular continuous integration platform that enables developers to automate various software engineering tasks by specifying them as workflows, i.e., YAML files with a list of jobs. However, engineering valid workflows is tedious. They are also prone to severe security issues, which can result in supply chain vulnerabilities. Recent advancements in Large Language Models (LLMs) have demonstrated their effectiveness in various software development tasks. However, GitHub workflows differ from regular programs in both structure and semantics. We perform the first comprehensive study to understand the effectiveness of LLMs on five workflow-related tasks with different levels of prompts. We curated a set of $\\sim$400K workflows and generated prompts with varying detail. We also fine-tuned LLMs on GitHub workflow tasks. Our evaluation of three state-of-the-art LLMs and their fine-tuned variants revealed various interesting findings on the current effectiveness and drawbacks of LLMs.",
+    "arxiv_id": "2403.12446",
+    "authors": [
+      "Xinyu Zhang",
+      "Siddharth Muralee",
+      "Sourag Cherupattamoolayil",
+      "Aravind Machiry"
+    ],
+    "categories": [
+      "cs.SE",
+      "cs.CR"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2403.12446v1",
+    "primary_category": "cs.SE",
+    "published": "2024-03-19T05:14:12Z",
+    "query": "(cat:cs.SE AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2403.12446v1",
+    "title": "On the effectiveness of Large Language Models for GitHub Workflows",
+    "updated": "2024-03-19T05:14:12Z",
+    "versioned_id": "2403.12446v1"
+  },
+  "reference_sha256": "f543fd1e9e6f9fbf69a6107c3d458dfc25dd14adfaa38db3a116722209009f5d",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 804,
+    "final_quality_rank": 635,
+    "final_quality_score": 0.573947,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.3689,
+      "category": "cs.SE",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.251812,
+      "component_bin": 2,
+      "connector_bin": 2,
+      "difference_hash": "65a665a62da101a645a619a005a24d665764416031a035a003a4038435a035a0",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 761,
+    "style_selection_score": 0.463912
+  },
+  "source_filename": "llmgithubworkflow-new.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "c903473461530830731b00def249aec0464bde699a5377843e55d0c988b57731",
+  "task_id": "task_0803",
+  "task_index": 803
+}

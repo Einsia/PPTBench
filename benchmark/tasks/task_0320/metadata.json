@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2208.10861",
+  "candidate_id": "2208-10861_pdf_e8b68dd80f3239b4",
+  "caption": "The architectures obtained by under different resource constraints on ImageNet. The orange and blue blocks denote the multi-head self-attention layers and MLP blocks, respectively. We omit the shortcuts and conditional positional encodings for simplicity. (a): The searched architecture of -Ti with 1.4G FLOPs and 6.2M #Params. (b): The searched architecture of -S with 5.0G FLOPs and 23.7M #Params. (c): The searched architecture of -B with 11.0G FLOPs and 52.7M #Params.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 258,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 2108,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 434,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 2108,
+    "text_count": 174,
+    "vector_drawing_count": 260,
+    "vector_primitive_count": 1934
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2208.10861v1",
+    "abstract": "Vision Transformers (ViTs) have underpinned the recent breakthroughs in computer vision. However, designing the architectures of ViTs is laborious and heavily relies on expert knowledge. To automate the design process and incorporate deployment flexibility, one-shot neural architecture search decouples the supernet training and architecture specialization for diverse deployment scenarios. To cope with an enormous number of sub-networks in the supernet, existing methods treat all architectures equally important and randomly sample some of them in each update step during training. During architecture search, these methods focus on finding architectures on the Pareto frontier of performance and resource consumption, which forms a gap between training and deployment. In this paper, we devise a simple yet effective method, called FocusFormer, to bridge such a gap. To this end, we propose to learn an architecture sampler to assign higher sampling probabilities to those architectures on the Pareto frontier under different resource constraints during supernet training, making them sufficiently optimized and hence improving their performance. During specialization, we can directly use the well-trained architecture sampler to obtain accurate architectures satisfying the given resource constraint, which significantly improves the search efficiency. Extensive experiments on CIFAR-100 and ImageNet show that our FocusFormer is able to improve the performance of the searched architectures while significantly reducing the search cost. For example, on ImageNet, our FocusFormer-Ti with 1.4G FLOPs outperforms AutoFormer-Ti by 0.5% in terms of the Top-1 accuracy.",
+    "arxiv_id": "2208.10861",
+    "authors": [
+      "Jing Liu",
+      "Jianfei Cai",
+      "Bohan Zhuang"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2208.10861v1",
+    "primary_category": "cs.CV",
+    "published": "2022-08-23T10:42:56Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2208.10861v1",
+    "title": "FocusFormer: Focusing on What We Need via Architecture Sampler",
+    "updated": "2022-08-23T10:42:56Z",
+    "versioned_id": "2208.10861v1"
+  },
+  "reference_sha256": "a20d7ffead55874410e6e941b83e57b884ee5cb4db0df1273f05ff2e1b225f41",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 321,
+    "final_quality_rank": 223,
+    "final_quality_score": 0.663675,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 0,
+      "aspect_ratio": 0.367,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.218865,
+      "component_bin": 4,
+      "connector_bin": 3,
+      "difference_hash": "063c0e1c8e1c8e1c8e1c8e1c8e1c8e1c8e1c8e1c8e1c8e1c8e1c8e1c861c861c",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 377,
+    "style_selection_score": 0.540618
+  },
+  "source_filename": "arch_visualization_2.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "e8b68dd80f3239b46532f1262fd105acea2e847c78da621fe6e1d1329f0f46ec",
+  "task_id": "task_0320",
+  "task_index": 320
+}

@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2103.13253",
+  "candidate_id": "2103-13253_pdf_8ca97ba50bc61427",
+  "caption": "Overview of our ( ) framework. Each architecture in our search space follows a multi-resolution paradigm, where each network contains four stages, and each stage is composed of modularized blocks (a parallel module and a fusion module). The example on the left shows the 3rd stage consists of b_3=2 modularized blocks with three branches, where each branch contains a number of n_3^i residual units with a channel number of c_3^i, i \\1,2,3\\. We first learn a neural predictor between an architecture coding and its evaluation metrics such as accuracy and FLOPs. After that, we set optimization objectives and back-propagate the predictor to edit the network architecture along the gradient directions.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 201,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1212,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 309,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1212,
+    "text_count": 73,
+    "vector_drawing_count": 236,
+    "vector_primitive_count": 1139
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 992,
+    "full_pool_rank": 1759,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 876,
+    "second_pass_review_rank": 992
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2103.13253v2",
+    "abstract": "This work explores how to design a single neural network capable of adapting to multiple heterogeneous vision tasks, such as image segmentation, 3D detection, and video recognition. This goal is challenging because both network architecture search (NAS) spaces and methods in different tasks are inconsistent. We solve this challenge from both sides. We first introduce a unified design space for multiple tasks and build a multitask NAS benchmark (NAS-Bench-MR) on many widely used datasets, including ImageNet, Cityscapes, KITTI, and HMDB51. We further propose Network Coding Propagation (NCP), which back-propagates gradients of neural predictors to directly update architecture codes along the desired gradient directions to solve various tasks. In this way, optimal architecture configurations can be found by NCP in our large search space in seconds. Unlike prior arts of NAS that typically focus on a single task, NCP has several unique benefits. (1) NCP transforms architecture optimization from data-driven to architecture-driven, enabling joint search an architecture among multitasks with different data distributions. (2) NCP learns from network codes but not original data, enabling it to update the architecture efficiently across datasets. (3) In addition to our NAS-Bench-MR, NCP performs well on other NAS benchmarks, such as NAS-Bench-201. (4) Thorough studies of NCP on inter-, cross-, and intra-tasks highlight the importance of cross-task neural architecture design, i.e., multitask neural architectures and architecture transferring between different tasks. Code is available at https://github.com/dingmyu/NCP.",
+    "arxiv_id": "2103.13253",
+    "authors": [
+      "Mingyu Ding",
+      "Yuqi Huo",
+      "Haoyu Lu",
+      "Linjie Yang",
+      "Zhe Wang",
+      "Zhiwu Lu",
+      "Jingdong Wang",
+      "Ping Luo"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2103.13253v2",
+    "primary_category": "cs.CV",
+    "published": "2021-03-24T15:20:38Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2103.13253v2",
+    "title": "Learning Versatile Neural Architectures by Propagating Network Codes",
+    "updated": "2022-02-17T15:16:17Z",
+    "versioned_id": "2103.13253v2"
+  },
+  "reference_sha256": "8391197a24ea09d88a14c312b4950a479ae8b62017f75d3c015b1db40ab1e321",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 719,
+    "final_quality_rank": 521,
+    "final_quality_score": 0.594029,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 3.9461,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.164567,
+      "component_bin": 3,
+      "connector_bin": 3,
+      "difference_hash": "d30ad328c98c29889b904b96daa83a3c832253308331d38c539cd3ca93859d95",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 665,
+    "style_selection_score": 0.477744
+  },
+  "source_filename": "diagram.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "8ca97ba50bc61427df3364fece04bb3b058edbdcfffa144cfbd3286777d5d260",
+  "task_id": "task_0718",
+  "task_index": 718
+}

@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2410.19192",
+  "candidate_id": "2410-19192_pdf_ce9697b06556d66e",
+  "caption": "TEAM framework overview.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 500,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 4177,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 553,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 4177,
+    "text_count": 18,
+    "vector_drawing_count": 535,
+    "vector_primitive_count": 4159
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 215,
+    "full_pool_rank": 288,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 192,
+    "second_pass_review_rank": 215
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2410.19192v3",
+    "abstract": "Due to the global trend towards urbanization, people increasingly move to and live in cities that then continue to grow. Traffic forecasting plays an important role in the intelligent transportation systems of cities as well as in spatio-temporal data mining. State-of-the-art forecasting is achieved by deep-learning approaches due to their ability to contend with complex spatio-temporal dynamics. However, existing methods assume the input is fixed-topology road networks and static traffic time series. These assumptions fail to align with urbanization, where time series are collected continuously and road networks evolve over time. In such settings, deep-learning models require frequent re-initialization and re-training, imposing high computational costs. To enable much more efficient training without jeopardizing model accuracy, we propose the Topological Evolution-aware Framework (TEAM) for traffic forecasting that incorporates convolution and attention. This combination of mechanisms enables better adaptation to newly collected time series, while being able to maintain learned knowledge from old time series. TEAM features a continual learning module based on the Wasserstein metric that acts as a buffer that can identify the most stable and the most changing network nodes. Then, only data related to stable nodes is employed for re-training when consolidating a model. Further, only data of new nodes and their adjacent nodes as well as data pertaining to changing nodes are used to re-train the model. Empirical studies with two real-world traffic datasets offer evidence that TEAM is capable of much lower re-training costs than existing methods are, without jeopardizing forecasting accuracy.",
+    "arxiv_id": "2410.19192",
+    "authors": [
+      "Duc Kieu",
+      "Tung Kieu",
+      "Peng Han",
+      "Bin Yang",
+      "Christian S. Jensen",
+      "Bac Le"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "doi": "10.14778/3705829.3705844",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2410.19192v3",
+    "primary_category": "cs.LG",
+    "published": "2024-10-24T22:50:21Z",
+    "query": "(cat:cs.LG AND all:framework) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2410.19192v3",
+    "title": "TEAM: Topological Evolution-aware Framework for Traffic Forecasting--Extended Version",
+    "updated": "2024-11-29T10:39:36Z",
+    "versioned_id": "2410.19192v3"
+  },
+  "reference_sha256": "35727c131c4f866d2030dcac99cb99a6977087b0c69a68444baaad5aa778be2f",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 101,
+    "final_quality_rank": 79,
+    "final_quality_score": 0.71622,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 1,
+      "aspect_ratio": 0.798,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.218871,
+      "component_bin": 4,
+      "connector_bin": 4,
+      "difference_hash": "003884b400bc9458ce38c618dd3cda34de38df80ce58ce58c618ed34ca304e30",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 133,
+    "style_selection_score": 0.581117
+  },
+  "source_filename": "overview_framework_v5.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "ce9697b06556d66e465c694f04b26572a328e0c9c95578260098b5ac68e98933",
+  "task_id": "task_0100",
+  "task_index": 100
+}

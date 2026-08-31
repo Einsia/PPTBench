@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2604.19855",
+  "candidate_id": "2604-19855_pdf_8e2e7dc044de0811",
+  "caption": "The proposed architecture. The first structure represents the design of the baseline architecture with the data tiles in the outer ring and the ancilla tiles in the centrally located computational region. The second structure describes the extension of the geometry using data tiles that are stacked on the outside. We show a single entry point to the CR in this diagrammatic representation, which is used by the magic state factory to aid in the measurement of T gates. In (a) we represent the workload-aware placement, (b) we represent the fast-Y optimization knob, and (c) we represent the scope of multiprogramming.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 82,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.995843,
+    "editable_component_count": 6947,
+    "embedded_image_count": 29,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.023356,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 285,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 6976,
+    "text_count": 23,
+    "vector_drawing_count": 233,
+    "vector_primitive_count": 6924
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2604.19855v2",
+    "abstract": "Practical quantum advantage is expected to depend on fault-tolerant quantum computing, although the architectural overhead needed to support fault tolerance is still extremely high. Prior FTQC designs generally emphasize either fast logical-qubit accessibility at the cost of significant qubit overhead, or high logical-qubit density at the cost of added workload latency. We propose an architecture that balances these competing objectives by placing surface-code patches around an ancilla-centric region, which yields nearly uniform ancilla access for all data qubits. Building on this design, we introduce a new workload-driven placement method that uses the $T$-gate profile of an application to determine an effective floorplan. We further provide a reconfigurable optimization for reducing the latency of $Y$-gate measurements on a per-workload basis. To improve flexibility, we also study concurrent execution of multiple programs on the same architecture. Numerical evaluation indicates that our approach keeps cycles per instruction near the optimal regime while reducing the number of required data tiles by up to $\\sim21\\%$, and achieves up to $\\sim90\\%$ efficiency when running 10 programs concurrently.",
+    "arxiv_id": "2604.19855",
+    "authors": [
+      "Archisman Ghosh",
+      "Avimita Chatterjee",
+      "Swaroop Ghosh"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.AR"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2604.19855v2",
+    "primary_category": "quant-ph",
+    "published": "2026-04-21T17:06:43Z",
+    "query": "(cat:quant-ph AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2604.19855v2",
+    "title": "Toward designing workload-aware Surface Code Architectures",
+    "updated": "2026-04-23T12:31:46Z",
+    "versioned_id": "2604.19855v2"
+  },
+  "reference_sha256": "b6dbb0e7321ac5390eb2442d5d61f5672f84f5d6df9fa6b9f143d74493dc1275",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 402,
+    "final_quality_rank": 511,
+    "final_quality_score": 0.596679,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.3966,
+      "category": "quant-ph",
+      "category_family": "quant-ph",
+      "color_bin": 1,
+      "colorfulness": 0.17985,
+      "component_bin": 5,
+      "connector_bin": 2,
+      "difference_hash": "82348232e39a838c81e0a3b086e0fb8cd99cc99c899c998c99f099f099a8594b",
+      "raster_bin": 2
+    },
+    "style_selection_rank": 610,
+    "style_selection_score": 0.496101
+  },
+  "source_filename": "arch_annular_extended.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "8e2e7dc044de0811772e8b7eb20c2928e214d62528bc0c3dbd85f49d14329133",
+  "task_id": "task_0401",
+  "task_index": 401
+}

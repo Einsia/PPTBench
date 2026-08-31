@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2403.09574",
+  "candidate_id": "2403-09574_pdf_c28bdb806b9dbc5e",
+  "caption": "Circuit for implementing the parity constraints on ribbons of an odd top and an even bottom row in a modular architecture if executed on each unit cell in parallel. Here, the lower connectivity compared to the spin bus is apparent, as a each qubit is subject to a total of 10 SWAP gates in order to implement the required interaction. The steps 1-4 correspond to those in Fig. (b) and the implementation on the spin bus in Fig. . In steps 1 and 4, the pulses for the gates can be applied globally to all registers since all QDs in the non-addressed register are vacant. Note that in steps 1 and 4 the qubits 1a-4a and 1b-4b in the mirrored registers undergo the same operations, albeit in different order.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 109,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 395,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 171,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 395,
+    "text_count": 45,
+    "vector_drawing_count": 126,
+    "vector_primitive_count": 350
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 1156,
+    "full_pool_rank": 2146,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 1023,
+    "second_pass_review_rank": 1156
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2403.09574v2",
+    "abstract": "Motivated by the prospect of a two-dimensional square-lattice geometry for semiconductor spin qubits, we explore the realization of the Parity Architecture with quantum dots (QDs). We present sequences of spin shuttling and quantum gates that implement the Parity Quantum Approximate Optimization Algorithm (QAOA) on a lattice constructed of identical unit cells, such that the circuit depth is always constant. We further develop a detailed error model for a hardware-specific analysis of the Parity Architecture and we estimate the errors during one round of Parity QAOA. The model includes a general description of the shuttling errors as a function of the probability distribution function of the valley splitting, which is the main limitation for the performance. We compare our approach to a superconducting transmon qubit chip and we find that with high-fidelity spin shuttling the performance of the spin qubits is competitive or even exceeds the results of the transmons. Finally, we discuss the possibility of decoding the logical quantum state and of quantum error mitigation. We find that already with near-term spin qubit devices a sufficiently low physical error probability can be expected to reliably perform Parity QAOA with a short depth in a regime where the success probability compares favorably to standard QAOA.",
+    "arxiv_id": "2403.09574",
+    "authors": [
+      "Florian Ginzel",
+      "Michael Fellner",
+      "Christian Ertler",
+      "Lars R. Schreiber",
+      "Hendrik Bluhm",
+      "Wolfgang Lechner"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "doi": "10.1103/PhysRevB.110.075302",
+    "journal_ref": "Physical Review B 110, 075302 (2024)",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2403.09574v2",
+    "primary_category": "quant-ph",
+    "published": "2024-03-14T17:06:50Z",
+    "query": "(cat:quant-ph AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2403.09574v2",
+    "title": "Scalable Parity Architecture With a Shuttling-Based Spin Qubit Processor",
+    "updated": "2024-07-31T10:01:22Z",
+    "versioned_id": "2403.09574v2"
+  },
+  "reference_sha256": "a2ce87715841eba9803233ef9a8171bd02ae237a520e65c07a913b380ae3c740",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 592,
+    "final_quality_rank": 794,
+    "final_quality_score": 0.526051,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.16,
+      "category": "quant-ph",
+      "category_family": "quant-ph",
+      "color_bin": 2,
+      "colorfulness": 0.316712,
+      "component_bin": 1,
+      "connector_bin": 2,
+      "difference_hash": "b28ca395c161c365a3115c1a0d3c0d0c98ca43154369e57113555c550c050c03",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 843,
+    "style_selection_score": 0.437622
+  },
+  "source_filename": "modular_compiled_odd-even.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "c28bdb806b9dbc5ef4a4ebf9e56f857b146b2e2981e62b736783f2316044eef1",
+  "task_id": "task_0591",
+  "task_index": 591
+}

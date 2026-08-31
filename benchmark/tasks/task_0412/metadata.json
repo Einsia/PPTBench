@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2503.05571",
+  "candidate_id": "2503-05571_pdf_701a6ebc3b31d4f1",
+  "caption": "The pipeline of applying AI and the steps where compliance is needed are highlighted with a gray background.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 100,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 4621,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 130,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 4621,
+    "text_count": 29,
+    "vector_drawing_count": 101,
+    "vector_primitive_count": 4592
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2503.05571v2",
+    "abstract": "The increasing integration of artificial intelligence (AI) systems in various fields requires solid concepts to ensure compliance with upcoming legislation. This paper systematically examines the compliance of AI systems with relevant legislation, focusing on the EU's AI Act and the compliance of data sets. The analysis highlighted many challenges associated with edge devices, which are increasingly being used to deploy AI applications closer and closer to the data sources. Such devices often face unique issues due to their decentralized nature and limited computing resources for implementing sophisticated compliance mechanisms. By analyzing AI implementations, the paper identifies challenges and proposes the first best practices for legal compliance when developing, deploying, and running AI. The importance of data set compliance is highlighted as a cornerstone for ensuring the trustworthiness, transparency, and explainability of AI systems, which must be aligned with ethical standards set forth in regulatory frameworks such as the AI Act. The insights gained should contribute to the ongoing discourse on the responsible development and deployment of embedded AI systems.",
+    "arxiv_id": "2503.05571",
+    "authors": [
+      "Julius Sch\u00f6ning",
+      "Niklas Kruse"
+    ],
+    "categories": [
+      "cs.CY",
+      "cs.AI",
+      "cs.ET"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2503.05571v2",
+    "primary_category": "cs.CY",
+    "published": "2025-03-07T16:53:36Z",
+    "query": "(cat:cs.CY AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2503.05571v2",
+    "title": "Compliance of AI Systems",
+    "updated": "2026-04-20T12:22:46Z",
+    "versioned_id": "2503.05571v2"
+  },
+  "reference_sha256": "47b4da3037a509b1c6308cf9f483c74a66a3d62cc328026955c3f76839736650",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 413,
+    "final_quality_rank": 307,
+    "final_quality_score": 0.63711,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.3402,
+      "category": "cs.CY",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.073913,
+      "component_bin": 4,
+      "connector_bin": 2,
+      "difference_hash": "0000001800d900c900d920382c54a3942596e594238e2802234a2cb424b40c96",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 281,
+    "style_selection_score": 0.539507
+  },
+  "source_filename": "ComplianceAISystems-figure0.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "701a6ebc3b31d4f165a0134114966ca6783cc2969e0447be707c87b7d5cf24ff",
+  "task_id": "task_0412",
+  "task_index": 412
+}

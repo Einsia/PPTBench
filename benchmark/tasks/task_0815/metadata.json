@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2503.13343",
+  "candidate_id": "2503-13343_pdf_06db315f9a4dc566",
+  "caption": "Runtime architecture to support HPC/ML coupling. We extended RADICAL-Pilot with service-specific capabilities to enable large-scale deployment of ML capabilities on HPC. Numbers indicate the execution model of the service capabilities enabled by this architecture.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 102,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.985037,
+    "editable_component_count": 395,
+    "embedded_image_count": 6,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.004541,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 193,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 401,
+    "text_count": 39,
+    "vector_drawing_count": 148,
+    "vector_primitive_count": 356
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 386,
+    "full_pool_rank": 544,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 335,
+    "second_pass_review_rank": 386
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2503.13343v1",
+    "abstract": "Hybrid workflows combining traditional HPC and novel ML methodologies are transforming scientific computing. This paper presents the architecture and implementation of a scalable runtime system that extends RADICAL-Pilot with service-based execution to support AI-out-HPC workflows. Our runtime system enables distributed ML capabilities, efficient resource management, and seamless HPC/ML coupling across local and remote platforms. Preliminary experimental results show that our approach manages concurrent execution of ML models across local and remote HPC/cloud resources with minimal architectural overheads. This lays the foundation for prototyping three representative data-driven workflow applications and executing them at scale on leadership-class HPC platforms.",
+    "arxiv_id": "2503.13343",
+    "authors": [
+      "Andre Merzky",
+      "Mikhail Titov",
+      "Matteo Turilli",
+      "Ozgur Kilic",
+      "Tianle Wang",
+      "Shantenu Jha"
+    ],
+    "categories": [
+      "cs.DC",
+      "cs.AI"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2503.13343v1",
+    "primary_category": "cs.DC",
+    "published": "2025-03-17T16:21:48Z",
+    "query": "(cat:cs.DC AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2503.13343v1",
+    "title": "Scalable Runtime Architecture for Data-driven, Hybrid HPC and ML Workflow Applications",
+    "updated": "2025-03-17T16:21:48Z",
+    "versioned_id": "2503.13343v1"
+  },
+  "reference_sha256": "1ac35b9fb19e80b1074ed036572bc3bece11688a7523c8fc6460e5f6f27c281a",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 816,
+    "final_quality_rank": 645,
+    "final_quality_score": 0.571582,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.4463,
+      "category": "cs.DC",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.17453,
+      "component_bin": 2,
+      "connector_bin": 2,
+      "difference_hash": "c68ecf18912cb261b333b265b366a98ef18ca19ee196a1989d8e618d8c4e8566",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 703,
+    "style_selection_score": 0.467646
+  },
+  "source_filename": "architecture.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "06db315f9a4dc5664277618bd5198cfb672a2c446a00862294c0b15c714834f2",
+  "task_id": "task_0815",
+  "task_index": 815
+}

@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2301.03673",
+  "candidate_id": "2301-03673_pdf_79c372e205ecd9d9",
+  "caption": "Block diagram of Global Fit architecture. Process P0 is the root process and runs the noise model sampler. Processes P1 to P3 are for the UCB model. Processes P4 to P6 run the MBHB model. Gray is the blocked MH sampler. Purple are the independent MBHB sampling steps. Green are the coupled UCB processes, which exchange only between adjacent segments. Orange is the Noise model which is run on the root processes. Data from all processes are shared with, and broadcast from, root. In practice 10^3 UCB processes are needed, and 10 MBHB processes.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 253,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 2345,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 360,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 2345,
+    "text_count": 87,
+    "vector_drawing_count": 273,
+    "vector_primitive_count": 2258
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2301.03673v1",
+    "abstract": "The novel data analysis challenges posed by the Laser Interferometer Space Antenna (LISA) arise from the overwhelmingly large number of astrophysical sources in the measurement band and the density with which they are found in the data. Robust detection and characterization of the numerous gravitational wave sources in LISA data can not be done sequentially, but rather through a simultaneous global fit of a data model containing the full suite of astrophysical and instrumental features present in the data. While previous analyses have focused on individual source types in isolation, here we present the first demonstration of a LISA global fit analysis containing combined astrophysical populations. The prototype pipeline uses a blocked Metropolis Hastings algorithm to alternatingly fit to a population of ultra compact galactic binaries, known ``verification binaries'' already identified by electromagnetic observations, a population of massive black hole mergers, and an instrument noise model. The Global LISA Analysis Software Suite (GLASS) is assembled from independently developed samplers for the different model components. The modular design enables flexibility to future development by defining standard interfaces for adding new, or updating additional, components to the global fit without being overly prescriptive for how those modules must be internally designed. The GLASS pipeline is demonstrated on data simulated for the LISA Data Challenge 2b. Results of the analysis and a road-map for continued development are described in detail.",
+    "arxiv_id": "2301.03673",
+    "authors": [
+      "Tyson B. Littenberg",
+      "Neil J. Cornish"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.HE",
+      "astro-ph.IM"
+    ],
+    "doi": "10.1103/PhysRevD.107.063004",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2301.03673v1",
+    "primary_category": "gr-qc",
+    "published": "2023-01-09T20:48:27Z",
+    "query": "(cat:gr-qc AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2301.03673v1",
+    "title": "Prototype Global Analysis of LISA Data with Multiple Source Types",
+    "updated": "2023-01-09T20:48:27Z",
+    "versioned_id": "2301.03673v1"
+  },
+  "reference_sha256": "9ae9cdbe97659b14be54bb1a6b59c60cf15c097c515af1690086e9f9fa58c7c2",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 334,
+    "final_quality_rank": 408,
+    "final_quality_score": 0.617008,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 1,
+      "aspect_ratio": 0.7718,
+      "category": "gr-qc",
+      "category_family": "gr-qc",
+      "color_bin": 1,
+      "colorfulness": 0.136229,
+      "component_bin": 4,
+      "connector_bin": 3,
+      "difference_hash": "931c9218e0022d21a50624226002bc2082b08525853684b6bd20e202929a929a",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 227,
+    "style_selection_score": 0.550812
+  },
+  "source_filename": "GlobalFit.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "79c372e205ecd9d9b0a2c3667ae73ee84b84c41e5cb3c8718400f2e9033cccb9",
+  "task_id": "task_0333",
+  "task_index": 333
+}

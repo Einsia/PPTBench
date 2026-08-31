@@ -1,0 +1,88 @@
+{
+  "arxiv_id": "2308.07772",
+  "candidate_id": "2308-07772_pdf_375ee35b47eb6e4d",
+  "caption": "The training pipeline of MOLE is shown. X is the input, Y is the label, Y' is the final output, and T_k represents the output of k-th module. The top part is a DNN stacking 9 layers, the middle is MOLE, and the bottle is the training objective of each module where I(*;*) represents the mutual information.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 63,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.998153,
+    "editable_component_count": 2162,
+    "embedded_image_count": 4,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.019891,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 143,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 2166,
+    "text_count": 65,
+    "vector_drawing_count": 74,
+    "vector_primitive_count": 2097
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 570,
+    "full_pool_rank": 904,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 496,
+    "second_pass_review_rank": 570
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2308.07772v1",
+    "abstract": "This paper is to introduce an asynchronous and local learning framework for neural networks, named Modular Learning Framework (MOLE). This framework modularizes neural networks by layers, defines the training objective via mutual information for each module, and sequentially trains each module by mutual information maximization. MOLE makes the training become local optimization with gradient-isolated across modules, and this scheme is more biologically plausible than BP. We run experiments on vector-, grid- and graph-type data. In particular, this framework is capable of solving both graph- and node-level tasks for graph-type data. Therefore, MOLE has been experimentally proven to be universally applicable to different types of data.",
+    "arxiv_id": "2308.07772",
+    "authors": [
+      "Tianchao Li",
+      "Yulong Pei"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "doi": "",
+    "journal_ref": "ICML Workshop on Localized Learning (LLW) 2023",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2308.07772v1",
+    "primary_category": "cs.LG",
+    "published": "2023-08-15T13:48:16Z",
+    "query": "(cat:cs.LG AND all:framework) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2308.07772v1",
+    "title": "MOLE: MOdular Learning FramEwork via Mutual Information Maximization",
+    "updated": "2023-08-15T13:48:16Z",
+    "versioned_id": "2308.07772v1"
+  },
+  "reference_sha256": "4baf446a1a58aa499172d73c2846384f2028f012334da37140af708573b3e745",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 171,
+    "final_quality_rank": 130,
+    "final_quality_score": 0.691577,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.4286,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 4,
+      "colorfulness": 0.696622,
+      "component_bin": 4,
+      "connector_bin": 2,
+      "difference_hash": "1a20180018a03b2017007070687969b8a939ab79697868796179f2b0800c802c",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 226,
+    "style_selection_score": 0.557105
+  },
+  "source_filename": "pipline-cropped.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "375ee35b47eb6e4da0399fe6db913a21e843caf79e23a67442c58f9891d89375",
+  "task_id": "task_0170",
+  "task_index": 170
+}

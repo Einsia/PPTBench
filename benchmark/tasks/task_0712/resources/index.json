@@ -1,0 +1,22 @@
+{
+  "assets": [
+    {
+      "file": "resource_0001.png",
+      "has_alpha": true,
+      "height": 224,
+      "sha256": "914bcadb5e40951a7f5b134faf7a0ecd670c501a293879b97602052b19ff8e67",
+      "width": 224
+    }
+  ],
+  "candidate_id": "2304-10515_pdf_858afa6eabad1d9a",
+  "extractor_version": "native-raster-v1",
+  "manual_qc": {
+    "maximum_resources": 12,
+    "removed_count": 0,
+    "status": "pass",
+    "version": "manual-resource-qc-v1"
+  },
+  "resource_count": 1,
+  "schema": "pptbench-task-resources-v1",
+  "task_id": "task_0712"
+}

@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2109.02047",
+  "candidate_id": "2109-02047_pdf_b2417941dff7332f",
+  "caption": "System overview",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 29,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 254,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 51,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 254,
+    "text_count": 20,
+    "vector_drawing_count": 31,
+    "vector_primitive_count": 234
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 405,
+    "full_pool_rank": 591,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 353,
+    "second_pass_review_rank": 405
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2109.02047v1",
+    "abstract": "This paper describes the ByteDance speaker diarization system for the fourth track of the VoxCeleb Speaker Recognition Challenge 2021 (VoxSRC-21). The VoxSRC-21 provides both the dev set and test set of VoxConverse for use in validation and a standalone test set for evaluation. We first collect the duration and signal-to-noise ratio (SNR) of all audio and find that the distribution of the VoxConverse's test set and the VoxSRC-21's test set is more closer. Our system consists of voice active detection (VAD), speaker embedding extraction, spectral clustering followed by a re-clustering step based on agglomerative hierarchical clustering (AHC) and overlapped speech detection and handling. Finally, we integrate systems with different time scales using DOVER-Lap. Our best system achieves 5.15\\% of the diarization error rate (DER) on evaluation set, ranking the second at the diarization track of the challenge.",
+    "arxiv_id": "2109.02047",
+    "authors": [
+      "Keke Wang",
+      "Xudong Mao",
+      "Hao Wu",
+      "Chen Ding",
+      "Chuxiang Shang",
+      "Rui Xia",
+      "Yuxuan Wang"
+    ],
+    "categories": [
+      "cs.SD",
+      "eess.AS"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2109.02047v1",
+    "primary_category": "cs.SD",
+    "published": "2021-09-05T11:55:34Z",
+    "query": "(cat:eess.AS AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2109.02047v1",
+    "title": "The ByteDance Speaker Diarization System for the VoxCeleb Speaker Recognition Challenge 2021",
+    "updated": "2021-09-05T11:55:34Z",
+    "versioned_id": "2109.02047v1"
+  },
+  "reference_sha256": "a80b3f5890818a729f78b6adc8625a48fe4f5d6fb4a2a1c09ba3543c63367d2c",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 959,
+    "final_quality_rank": 861,
+    "final_quality_score": 0.493945,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.1518,
+      "category": "cs.SD",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.089941,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "03b4039403b40f2425a469942db403a4479403b401a50021039b03b003b101a0",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 928,
+    "style_selection_score": 0.422388
+  },
+  "source_filename": "system.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "b2417941dff7332fb06f565271af9c18e59307f9622a884cf2c8747ea437efe1",
+  "task_id": "task_0958",
+  "task_index": 958
+}

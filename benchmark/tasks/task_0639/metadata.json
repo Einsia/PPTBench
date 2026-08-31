@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2207.01271",
+  "candidate_id": "2207-01271_pdf_4d3db80a8a0278aa",
+  "caption": "Illustration of FlowNAS pipeline. It has two stages: (1) super-network training. (2) optimal architecture search. The searched architecture and its weights inherited from super-network can achieve better results than its stand-alone training.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 25,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 109,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 50,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 109,
+    "text_count": 16,
+    "vector_drawing_count": 34,
+    "vector_primitive_count": 93
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 1229,
+    "full_pool_rank": 2359,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 1082,
+    "second_pass_review_rank": 1229
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2207.01271v1",
+    "abstract": "Existing optical flow estimators usually employ the network architectures typically designed for image classification as the encoder to extract per-pixel features. However, due to the natural difference between the tasks, the architectures designed for image classification may be sub-optimal for flow estimation. To address this issue, we propose a neural architecture search method named FlowNAS to automatically find the better encoder architecture for flow estimation task. We first design a suitable search space including various convolutional operators and construct a weight-sharing super-network for efficiently evaluating the candidate architectures. Then, for better training the super-network, we propose Feature Alignment Distillation, which utilizes a well-trained flow estimator to guide the training of super-network. Finally, a resource-constrained evolutionary algorithm is exploited to find an optimal architecture (i.e., sub-network). Experimental results show that the discovered architecture with the weights inherited from the super-network achieves 4.67\\% F1-all error on KITTI, an 8.4\\% reduction of RAFT baseline, surpassing state-of-the-art handcrafted models GMA and AGFlow, while reducing the model complexity and latency. The source code and trained models will be released in https://github.com/VDIGPKU/FlowNAS.",
+    "arxiv_id": "2207.01271",
+    "authors": [
+      "Zhiwei Lin",
+      "Tingting Liang",
+      "Taihong Xiao",
+      "Yongtao Wang",
+      "Zhi Tang",
+      "Ming-Hsuan Yang"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2207.01271v1",
+    "primary_category": "cs.CV",
+    "published": "2022-07-04T09:05:25Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2207.01271v1",
+    "title": "FlowNAS: Neural Architecture Search for Optical Flow Estimation",
+    "updated": "2022-07-04T09:05:25Z",
+    "versioned_id": "2207.01271v1"
+  },
+  "reference_sha256": "7a00b4849e11043ead1d54bd52fc1cbac753c6c2d13a122571096f3983961f45",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 640,
+    "final_quality_rank": 971,
+    "final_quality_score": 0.396106,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 3.4949,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.141351,
+      "component_bin": 0,
+      "connector_bin": 1,
+      "difference_hash": "6480f20836489640b610b65096405a80a6302751273072d276667e927e5e26d2",
+      "raster_bin": 0
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "pipeline.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "4d3db80a8a0278aaf52d79af9fee9a8e9567b248c6e13c61eb55e326f026f883",
+  "task_id": "task_0639",
+  "task_index": 639
+}

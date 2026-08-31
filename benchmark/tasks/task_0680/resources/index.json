@@ -1,0 +1,29 @@
+{
+  "assets": [
+    {
+      "file": "resource_0001.png",
+      "has_alpha": false,
+      "height": 765,
+      "sha256": "c184ad4b4b4beb185adcbaf2e60d028ee0591306a5ea096efa492c9ff703fa2f",
+      "width": 993
+    },
+    {
+      "file": "resource_0002.png",
+      "has_alpha": false,
+      "height": 219,
+      "sha256": "faba668ec1bfe6293b799ecfbeb5f624b02544b819c57ddec2abb37054002f74",
+      "width": 284
+    }
+  ],
+  "candidate_id": "2604-24036_pdf_2686a20152c0cdb0",
+  "extractor_version": "native-raster-v1",
+  "manual_qc": {
+    "maximum_resources": 12,
+    "removed_count": 0,
+    "status": "pass",
+    "version": "manual-resource-qc-v1"
+  },
+  "resource_count": 2,
+  "schema": "pptbench-task-resources-v1",
+  "task_id": "task_0680"
+}

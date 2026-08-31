@@ -1,0 +1,88 @@
+{
+  "arxiv_id": "2409.20060",
+  "candidate_id": "2409-20060_pdf_4e162aefbbc53ea1",
+  "caption": "Architecture building blocks for the input- and main stream search block.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 267,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.985901,
+    "editable_component_count": 2867,
+    "embedded_image_count": 41,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.012518,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 324,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 2908,
+    "text_count": 15,
+    "vector_drawing_count": 268,
+    "vector_primitive_count": 2852
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2409.20060v1",
+    "abstract": "The neurological condition known as cerebral palsy (CP) first manifests in infancy or early childhood and has a lifelong impact on motor coordination and body movement. CP is one of the leading causes of childhood disabilities, and early detection is crucial for providing appropriate treatment. However, such detection relies on assessments by human experts trained in methods like general movement assessment (GMA). These are not widely accessible, especially in developing countries. Conventional machine learning approaches offer limited predictive performance on CP detection tasks, and the approaches developed by the few available domain experts are generally dataset-specific, restricting their applicability beyond the context for which these were created. To address these challenges, we propose a neural architecture search (NAS) algorithm applying a reinforcement learning update scheme capable of efficiently optimizing for the best architectural and hyperparameter combination to discover the most suitable neural network configuration for detecting CP. Our method performs better on a real-world CP dataset than other approaches in the field, which rely on large ensembles. As our approach is less resource-demanding and performs better, it is particularly suitable for implementation in resource-constrained settings, including rural or developing areas with limited access to medical experts and the required diagnostic tools. The resulting model's lightweight architecture and efficient computation time allow for deployment on devices with limited processing power, reducing the need for expensive infrastructure, and can, therefore, be integrated into clinical workflows to provide timely and accurate support for early CP diagnosis.",
+    "arxiv_id": "2409.20060",
+    "authors": [
+      "Felix Tempel",
+      "Espen Alexander F. Ihlen",
+      "Inga Str\u00fcmke"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "doi": "10.1109/CIHMCompanion65205.2025.11002697",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2409.20060v1",
+    "primary_category": "cs.CV",
+    "published": "2024-09-30T08:03:19Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2409.20060v1",
+    "title": "Lightweight Neural Architecture Search for Cerebral Palsy Detection",
+    "updated": "2024-09-30T08:03:19Z",
+    "versioned_id": "2409.20060v1"
+  },
+  "reference_sha256": "7af4bc31fe3c965de30ff46182c4222d9e2ad8be3262af7a2172258fe2a698d5",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 65,
+    "final_quality_rank": 50,
+    "final_quality_score": 0.73807,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.6529,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 4,
+      "colorfulness": 0.53082,
+      "component_bin": 4,
+      "connector_bin": 3,
+      "difference_hash": "0c186c582726f320f324f334f374f324f334f3349732872494d09c9092989090",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 101,
+    "style_selection_score": 0.591915
+  },
+  "source_filename": "architecture_cp.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "4e162aefbbc53ea11179559d99899f5fe2c5698265cd6809e75f62d172287ec9",
+  "task_id": "task_0064",
+  "task_index": 64
+}

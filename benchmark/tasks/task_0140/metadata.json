@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2409.18841",
+  "candidate_id": "2409-18841_pdf_eeae82adfb435e8e",
+  "caption": "",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 488,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 7111,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 569,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 7111,
+    "text_count": 34,
+    "vector_drawing_count": 535,
+    "vector_primitive_count": 7077
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 549,
+    "full_pool_rank": 857,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 477,
+    "second_pass_review_rank": 549
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2409.18841v1",
+    "abstract": "Computing-in-memory (CIM) is an emerging computing paradigm, offering noteworthy potential for accelerating neural networks with high parallelism, low latency, and energy efficiency compared to conventional von Neumann architectures. However, existing research has primarily focused on hardware architecture and network co-design for large-scale neural networks, without considering resource constraints. In this study, we aim to develop edge-friendly deep neural networks (DNNs) for accelerators based on resistive random-access memory (RRAM). To achieve this, we propose an edge compilation and resource-constrained RRAM-aware neural architecture search (NAS) framework to search for optimized neural networks meeting specific hardware constraints. Our compilation approach integrates layer partitioning, duplication, and network packing to maximize the utilization of computation units. The resulting network architecture can be optimized for either high accuracy or low latency using a one-shot neural network approach with Pareto optimality achieved through the Non-dominated Sorted Genetic Algorithm II (NSGA-II). The compilation of mobile-friendly networks, like Squeezenet and MobilenetV3 small can achieve over 80% of utilization and over 6x speedup compared to ISAAC-like framework with different crossbar resources. The resulting model from NAS optimized for speed achieved 5x-30x speedup. The code for this paper is available at https://github.com/ArChiiii/rram_nas_comp_pack.",
+    "arxiv_id": "2409.18841",
+    "authors": [
+      "Kam Chi Loong",
+      "Shihao Han",
+      "Sishuo Liu",
+      "Ning Lin",
+      "Zhongrui Wang"
+    ],
+    "categories": [
+      "cs.NE"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2409.18841v1",
+    "primary_category": "cs.NE",
+    "published": "2024-09-27T15:35:36Z",
+    "query": "(cat:cs.NE AND all:\"network architecture\") AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2409.18841v1",
+    "title": "RNC: Efficient RRAM-aware NAS and Compilation for DNNs on Resource-Constrained Edge Devices",
+    "updated": "2024-09-27T15:35:36Z",
+    "versioned_id": "2409.18841v1"
+  },
+  "reference_sha256": "200e28cd77305c497747495468b5ec5d3b1e250222836bca012ded4eb6c7c4cd",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 141,
+    "final_quality_rank": 107,
+    "final_quality_score": 0.70135,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.9834,
+      "category": "cs.NE",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.134398,
+      "component_bin": 5,
+      "connector_bin": 4,
+      "difference_hash": "033165c6e1c3ccfccc9cc38cca8dc181cccc81ccd401d421d5808c80e3006700",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 163,
+    "style_selection_score": 0.572184
+  },
+  "source_filename": "overview2.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "eeae82adfb435e8e1b97be2c4b0d738b433c42d55d71f7e5f003be438a5d591c",
+  "task_id": "task_0140",
+  "task_index": 140
+}

@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2303.06811",
+  "candidate_id": "2303-06811_pdf_ac19d6b4f9b65595",
+  "caption": "Architecture of the NAPSE system.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 78,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 269,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 122,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 269,
+    "text_count": 26,
+    "vector_drawing_count": 96,
+    "vector_primitive_count": 243
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 592,
+    "full_pool_rank": 945,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 517,
+    "second_pass_review_rank": 592
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2303.06811v2",
+    "abstract": "This paper describes our NPU-Elevoc personalized speech enhancement system (NAPSE) for the 5th Deep Noise Suppression Challenge at ICASSP 2023. Based on the superior two-stage model TEA-PSE 2.0, our system particularly explores better strategy for speaker embedding fusion, optimizes the model training pipeline, and leverages adversarial training and multi-scale loss. According to the results, our system is tied for the 1st place in the headset track (track 1) and ranked 2nd in the speakerphone track (track 2).",
+    "arxiv_id": "2303.06811",
+    "authors": [
+      "Xiaopeng Yan",
+      "Yindi Yang",
+      "Zhihao Guo",
+      "Liangliang Peng",
+      "Lei Xie"
+    ],
+    "categories": [
+      "eess.AS"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2303.06811v2",
+    "primary_category": "eess.AS",
+    "published": "2023-03-13T01:59:14Z",
+    "query": "(cat:eess.AS AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2303.06811v2",
+    "title": "The NPU-Elevoc Personalized Speech Enhancement System for ICASSP2023 DNS Challenge",
+    "updated": "2023-03-15T04:01:18Z",
+    "versioned_id": "2303.06811v2"
+  },
+  "reference_sha256": "fde4ccb0762a37d1737ae3d2ad0060ef0bad7b59e5f1463f7f1a6c1b883de694",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 564,
+    "final_quality_rank": 750,
+    "final_quality_score": 0.542738,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.4724,
+      "category": "eess.AS",
+      "category_family": "eess",
+      "color_bin": 2,
+      "colorfulness": 0.19176,
+      "component_bin": 1,
+      "connector_bin": 2,
+      "difference_hash": "f1689b388b12992a9b2293203b009940994051009b00d91079303b2018c018c8",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 808,
+    "style_selection_score": 0.458471
+  },
+  "source_filename": "model.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "ac19d6b4f9b65595d3fe9f92dec14b5489a0346217e7beb6ccecd06fb3ef21dd",
+  "task_id": "task_0563",
+  "task_index": 563
+}

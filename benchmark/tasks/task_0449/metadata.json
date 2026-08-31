@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2409.14807",
+  "candidate_id": "2409-14807_pdf_eba6af4f6b4399a0",
+  "caption": "Schematic illustration of mephisto's process for interpreting multi-band galaxy observations. Starting with a base SED model, mephisto assesses discrepancies between model predictions and observational data. It then generates four hypotheses (model variants) for improvement, which are input into CIGALE for refined fitting. mephisto selects the most promising unexpanded model variant based on fit quality, balancing model complexity with tree search depth. The process incorporates temporal memory to enhance efficiency and diversity of SED model proposals. Outcomes are compiled and distilled into a dynamically updated knowledge base through a learning system that autonomously extracts and validates knowledge. This iterative self-play process mimics human reasoning, allowing mephisto to achieve near-human proficiency in interpreting galaxy SEDs.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 34,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 598,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 86,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 598,
+    "text_count": 51,
+    "vector_drawing_count": 35,
+    "vector_primitive_count": 547
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 664,
+    "full_pool_rank": 1124,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 581,
+    "second_pass_review_rank": 664
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2409.14807v2",
+    "abstract": "Astronomical research traditionally relies on extensive domain knowledge to interpret observations and narrow down hypotheses. We demonstrate that this process can be emulated using large language model-based agents to accelerate research workflows. We propose mephisto, a multi-agent collaboration framework that mimics human reasoning to interpret multi-band galaxy observations. mephisto interacts with the CIGALE codebase, which includes spectral energy distribution (SED) models to explain observations. In this open-world setting, mephisto learns from its self-play experience, performs tree search, and accumulates knowledge in a dynamically updated base. As a proof of concept, we apply mephisto to the latest data from the James Webb Space Telescope. mephisto attains near-human proficiency in reasoning about galaxies' physical scenarios, even when dealing with a recently discovered population of \"Little Red Dot\" galaxies. This represents the first demonstration of agentic research in astronomy, advancing towards end-to-end research via LLM agents and potentially expediting astronomical discoveries.",
+    "arxiv_id": "2409.14807",
+    "authors": [
+      "Zechang Sun",
+      "Yuan-Sen Ting",
+      "Yaobo Liang",
+      "Nan Duan",
+      "Song Huang",
+      "Zheng Cai"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.GA"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2409.14807v2",
+    "primary_category": "astro-ph.IM",
+    "published": "2024-09-23T08:32:22Z",
+    "query": "(cat:astro-ph.GA AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2409.14807v2",
+    "title": "Interpreting Multi-band Galaxy Observations with Large Language Model-Based Agents",
+    "updated": "2025-08-04T09:39:21Z",
+    "versioned_id": "2409.14807v2"
+  },
+  "reference_sha256": "e9879f9c8612c30d5113d2c0646ce958b2ce602e8aec96b454c9fa92454c1db5",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 450,
+    "final_quality_rank": 560,
+    "final_quality_score": 0.588443,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.0398,
+      "category": "astro-ph.IM",
+      "category_family": "astro-ph",
+      "color_bin": 4,
+      "colorfulness": 0.503322,
+      "component_bin": 2,
+      "connector_bin": 1,
+      "difference_hash": "859e85988498c05a8358a5d8c5ca87c8a4dc0899229882988358e29e2298a558",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 555,
+    "style_selection_score": 0.494048
+  },
+  "source_filename": "schema.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "eba6af4f6b4399a03b881bd5ad46ee98e29cb80a1720911a4a447ce4b7a4a441",
+  "task_id": "task_0449",
+  "task_index": 449
+}

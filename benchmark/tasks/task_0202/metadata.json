@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2104.00597",
+  "candidate_id": "2104-00597_pdf_a7ef3ac74d583f21",
+  "caption": "(a) The architecture searched by classical NAS methods ( , ). (b) The architecture searched by NEAS. Different color means different expansion ratio while the length of the block represents the kernel size.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 72,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 209,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 137,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 209,
+    "text_count": 34,
+    "vector_drawing_count": 103,
+    "vector_primitive_count": 175
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 1181,
+    "full_pool_rank": 2217,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 1046,
+    "second_pass_review_rank": 1181
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2104.00597v2",
+    "abstract": "Despite remarkable progress achieved, most neural architecture search (NAS) methods focus on searching for one single accurate and robust architecture. To further build models with better generalization capability and performance, model ensemble is usually adopted and performs better than stand-alone models. Inspired by the merits of model ensemble, we propose to search for multiple diverse models simultaneously as an alternative way to find powerful models. Searching for ensembles is non-trivial and has two key challenges: enlarged search space and potentially more complexity for the searched model. In this paper, we propose a one-shot neural ensemble architecture search (NEAS) solution that addresses the two challenges. For the first challenge, we introduce a novel diversity-based metric to guide search space shrinking, considering both the potentiality and diversity of candidate operators. For the second challenge, we enable a new search dimension to learn layer sharing among different models for efficiency purposes. The experiments on ImageNet clearly demonstrate that our solution can improve the supernet's capacity of ranking ensemble architectures, and further lead to better search results. The discovered architectures achieve superior performance compared with state-of-the-arts such as MobileNetV3 and EfficientNet families under aligned settings. Moreover, we evaluate the generalization ability and robustness of our searched architecture on the COCO detection benchmark and achieve a 3.1% improvement on AP compared with MobileNetV3. Codes and models are available at https://github.com/researchmm/NEAS.",
+    "arxiv_id": "2104.00597",
+    "authors": [
+      "Minghao Chen",
+      "Houwen Peng",
+      "Jianlong Fu",
+      "Haibin Ling"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2104.00597v2",
+    "primary_category": "cs.CV",
+    "published": "2021-04-01T16:29:49Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2104.00597v2",
+    "title": "One-Shot Neural Ensemble Architecture Search by Diversity-Guided Search Space Shrinking",
+    "updated": "2021-07-16T17:17:16Z",
+    "versioned_id": "2104.00597v2"
+  },
+  "reference_sha256": "43bfcb6919c58f574b6cf907f4c3b363d4be8663e14e098220a21cc3be3889f9",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 203,
+    "final_quality_rank": 864,
+    "final_quality_score": 0.490183,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.4,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.312238,
+      "component_bin": 1,
+      "connector_bin": 2,
+      "difference_hash": "c060c160c960c2e6c2e0c1e0c766c766c726c726c726c766c726c706c0d0c7c0",
+      "raster_bin": 0
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "Structure.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "a7ef3ac74d583f210c86909fb1c1e89626280d2e46a2467b3a48d5734a79be0a",
+  "task_id": "task_0202",
+  "task_index": 202
+}

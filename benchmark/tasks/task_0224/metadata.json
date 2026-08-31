@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2507.10005",
+  "candidate_id": "2507-10005_pdf_ef9a36b18dea1409",
+  "caption": "Schematic illustration of the translation between multi-layer perceptron (MLP) architectures and relational graphs. (a) The upper panel demonstrates the mapping of a 2-layer neural network block into a 4-node relational graph via dimensional reduction based on message exchange. In this example, only the edge between nodes 1 and 3 is absent, while all other connections---including self-loops---are present by default. A self-loop on a node in the relational graph corresponds to a direct inter-layer connection between the identical neuron index across successive layers in the MLP representation. For clarity, the specific connection between node 1 and node 2 is highlighted with red edges in both frameworks. To construct deep architectures with an adjustable total depth (number of hidden layers), this baseline 2-layer computational block is sequentially repeated (stacked) for R message-passing rounds, while the node dimensions of the input and output layers remain fixed by the dataset dimensionality and the number of classification target classes, respectively. (b) The lower panel illustrates the conversion of a modular relational graph featuring community structures (distinguished by light pink and green node groupings, with self-loops omitted for visual clarity) on the right into its corresponding 2-layer neural network translation on the left. The mesoscale division between community A (nodes 1--3) and community B (nodes 4--7) maps directly onto the MLP bipartite wiring pattern, where the sole inter-community message exchange is mediated via the edge connecting nodes 3 and 4.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 141,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.995414,
+    "editable_component_count": 2822,
+    "embedded_image_count": 13,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.025339,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 214,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 2835,
+    "text_count": 17,
+    "vector_drawing_count": 184,
+    "vector_primitive_count": 2805
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 36,
+    "full_pool_rank": 44,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 34,
+    "second_pass_review_rank": 36
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2507.10005v2",
+    "abstract": "In recent years, graph-based machine learning techniques, such as reinforcement learning and graph neural networks, have garnered significant attention. While some recent studies have started to explore the relationship between the graph structure of neural networks and their predictive performance, they often limit themselves to a narrow range of model networks, particularly lacking mesoscale structures such as communities. Our work advances this area by conducting a more comprehensive investigation, incorporating realistic network structures characterized by heterogeneous degree distributions and community structures, which are typical characteristics of many real networks. These community structures offer a nuanced perspective on network architecture. Our analysis employs model networks such as random and scale-free networks, alongside a comparison with a biological neural network and its subsets for more detailed analysis. We examine the impact of these structural attributes on the performance of image classification tasks. Our findings reveal that structural properties do affect performance to some extent. Specifically, networks featuring coherent, densely interconnected communities demonstrate enhanced learning capabilities. Crucially, we find that this advantage is depth-dependent: extending the architecture to eight layers reverses the effect entirely. This comparison with the biological neural network emphasizes the relevance of our findings to real-world structures, suggesting an intriguing connection worth further exploration. This study contributes meaningfully to network science and machine learning, providing insights that could inspire the design of more biologically informed neural networks.",
+    "arxiv_id": "2507.10005",
+    "authors": [
+      "Yash Arya",
+      "Sang Hoon Lee"
+    ],
+    "categories": [
+      "cs.LG",
+      "cond-mat.stat-mech",
+      "cs.NE",
+      "physics.comp-ph"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2507.10005v2",
+    "primary_category": "cs.LG",
+    "published": "2025-07-14T07:39:19Z",
+    "query": "(cat:cs.NE AND all:\"network architecture\") AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2507.10005v2",
+    "title": "Effects of relational graph modularity and depth on the learning performance of neural networks",
+    "updated": "2026-06-25T23:00:47Z",
+    "versioned_id": "2507.10005v2"
+  },
+  "reference_sha256": "7f731bc6fc5395d65681a7369b284ff673834e2afcb0b27bb23f7ff745674eb3",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 225,
+    "final_quality_rank": 156,
+    "final_quality_score": 0.681213,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.7778,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.312732,
+      "component_bin": 4,
+      "connector_bin": 2,
+      "difference_hash": "000046101842573cdc3cce81c714e714e74db718c714c68158fa1a0000000000",
+      "raster_bin": 2
+    },
+    "style_selection_rank": 319,
+    "style_selection_score": 0.541564
+  },
+  "source_filename": "illustration_top.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "ef9a36b18dea140986bbd93261ae083526cfdd96ec0c0c15617b1dc7073b84e2",
+  "task_id": "task_0224",
+  "task_index": 224
+}

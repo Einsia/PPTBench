@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2402.11322",
+  "candidate_id": "2402-11322_pdf_b237d5b477d33973",
+  "caption": "Overview of our novel contributions (in blue boxes).",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 25,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.996,
+    "editable_component_count": 249,
+    "embedded_image_count": 1,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.018068,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 50,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 250,
+    "text_count": 19,
+    "vector_drawing_count": 30,
+    "vector_primitive_count": 230
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 1190,
+    "full_pool_rank": 2237,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 1053,
+    "second_pass_review_rank": 1190
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2402.11322v4",
+    "abstract": "Embedded AI systems are expected to incur low power/energy consumption for solving machine learning tasks, as these systems are usually power constrained (e.g., object recognition task in autonomous mobile agents with portable batteries). These requirements can be fulfilled by Spiking Neural Networks (SNNs), since their bio-inspired spike-based operations offer high accuracy and ultra low-power/energy computation. Currently, most of SNN architectures are derived from Artificial Neural Networks whose neurons' architectures and operations are different from SNNs, and/or developed without considering memory budgets from the underlying processing hardware of embedded platforms. These limitations hinder SNNs from reaching their full potential in accuracy and efficiency. Toward this, we propose SpikeNAS, a novel fast memory-aware neural architecture search (NAS) framework for SNNs that quickly finds an appropriate SNN architecture with high accuracy under the given memory budgets from targeted embedded systems. To do this, our SpikeNAS employs several key steps: analyzing the impacts of network operations on the accuracy, enhancing the network architecture to improve the learning quality, developing a fast memory-aware search algorithm, and performing quantization. The experimental results show that our SpikeNAS improves the searching time and maintains high accuracy compared to state-of-the-art while meeting the given memory budgets (e.g., 29x, 117x, and 3.7x faster search for CIFAR10, CIFAR100, and TinyImageNet200 respectively, using an Nvidia RTX A6000 GPU machine), thereby quickly providing the appropriate SNN architecture for the memory-constrained embedded AI systems.",
+    "arxiv_id": "2402.11322",
+    "authors": [
+      "Rachmad Vidya Wicaksana Putra",
+      "Muhammad Shafique"
+    ],
+    "categories": [
+      "cs.NE",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "doi": "10.1109/TAI.2025.3586238",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2402.11322v4",
+    "primary_category": "cs.NE",
+    "published": "2024-02-17T16:33:54Z",
+    "query": "(cat:cs.NE AND all:\"network architecture\") AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2402.11322v4",
+    "title": "SpikeNAS: A Fast Memory-Aware Neural Architecture Search Framework for Spiking Neural Network-based Embedded AI Systems",
+    "updated": "2025-07-02T15:13:42Z",
+    "versioned_id": "2402.11322v4"
+  },
+  "reference_sha256": "8bbc2817b9942627857b5437f62e2451e62b45c4458ee386389c06c65d2453ca",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 599,
+    "final_quality_rank": 941,
+    "final_quality_score": 0.440905,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.9965,
+      "category": "cs.NE",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.252373,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "bcc1adc035bab2a2adcaad8ab132b4d2b162bce2b8ceb8c3b332ad88b482f030",
+      "raster_bin": 1
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "SpikeNAS_Novelty.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "b237d5b477d3397369baf3219397a10daee4df02464e25ff572b55d6ef990619",
+  "task_id": "task_0598",
+  "task_index": 598
+}

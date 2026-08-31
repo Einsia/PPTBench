@@ -1,0 +1,87 @@
+{
+  "arxiv_id": "2101.00926",
+  "candidate_id": "2101-00926_pdf_6c53f47b1c18aef4",
+  "caption": "A general workflow of power forecasts comprises four phases: (1) reporting exceptions, (2) predicting targets, (3) storing data, and (4) updating models.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 48,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 248,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 87,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 248,
+    "text_count": 36,
+    "vector_drawing_count": 51,
+    "vector_primitive_count": 212
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 1060,
+    "full_pool_rank": 1893,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 935,
+    "second_pass_review_rank": 1060
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2101.00926v4",
+    "abstract": "Catastrophic forgetting means that a trained neural network model gradually forgets the previously learned tasks when being retrained on new tasks. Overcoming the forgetting problem is a major problem in machine learning. Numerous continual learning algorithms are very successful in incremental learning of classification tasks, where new samples with their labels appear frequently. However, there is currently no research that addresses the catastrophic forgetting problem in regression tasks as far as we know. This problem has emerged as one of the primary constraints in some applications, such as renewable energy forecasts. This article clarifies problem-related definitions and proposes a new methodological framework that can forecast targets and update itself by means of continual learning. The framework consists of forecasting neural networks and buffers, which store newly collected data from a non-stationary data stream in an application. The changed probability distribution of the data stream, which the framework has identified, will be learned sequentially. The framework is called CLeaR (Continual Learning for Regression Tasks), where components can be flexibly customized for a specific application scenario. We design two sets of experiments to evaluate the CLeaR framework concerning fitting error (training), prediction error (test), and forgetting ratio. The first one is based on an artificial time series to explore how hyperparameters affect the CLeaR framework. The second one is designed with data collected from European wind farms to evaluate the CLeaR framework's performance in a real-world application. The experimental results demonstrate that the CLeaR framework can continually acquire knowledge in the data stream and improve the prediction accuracy. The article concludes with further research issues arising from requirements to extend the framework.",
+    "arxiv_id": "2101.00926",
+    "authors": [
+      "Yujiang He",
+      "Bernhard Sick"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "doi": "10.1186/s42467-021-00009-8",
+    "journal_ref": "Published on AI Perspectives (2021)",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2101.00926v4",
+    "primary_category": "cs.LG",
+    "published": "2021-01-04T12:41:45Z",
+    "query": "(cat:cs.LG AND all:framework) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2101.00926v4",
+    "title": "CLeaR: An Adaptive Continual Learning Framework for Regression Tasks",
+    "updated": "2021-07-16T13:03:05Z",
+    "versioned_id": "2101.00926v4"
+  },
+  "reference_sha256": "19f3487d2142f9c429f936635f06ca17224a98270c23ccd09e00bb5e2beec2b1",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 947,
+    "final_quality_rank": 840,
+    "final_quality_score": 0.502773,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.2673,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.255876,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "4f100c828d66c9724e924bcfaf26531a0e5c4f224ea24e8a4cca90ceccb44f40",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 927,
+    "style_selection_score": 0.409891
+  },
+  "source_filename": "Workflow_forecasts.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "6c53f47b1c18aef4e39d4dd5a6cf66d7a8f5b43121460dff2d10469ab4c6f3cf",
+  "task_id": "task_0946",
+  "task_index": 946
+}

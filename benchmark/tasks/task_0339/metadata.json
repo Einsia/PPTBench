@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2202.01899",
+  "candidate_id": "2202-01899_pdf_2f164e679a94e590",
+  "caption": "The QMLP and DeepQMLP network architectures used in this work (with 2 parametric layers) for 'Iris' dataset classification. (f1, f2, f3, f4) are the 4 features of the dataset. Both these networks require 4 qubits. The number of trainable parameters i.e., _1, ..., _16 in these two networks are identical. The final layer is a classical dense layer (3 neurons) with SoftMax activation.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 109,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1000,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 450,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1000,
+    "text_count": 254,
+    "vector_drawing_count": 196,
+    "vector_primitive_count": 746
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2202.01899v1",
+    "abstract": "Quantum machine learning (QML) is promising for potential speedups and improvements in conventional machine learning (ML) tasks (e.g., classification/regression). The search for ideal QML models is an active research field. This includes identification of efficient classical-to-quantum data encoding scheme, construction of parametric quantum circuits (PQC) with optimal expressivity and entanglement capability, and efficient output decoding scheme to minimize the required number of measurements, to name a few. However, most of the empirical/numerical studies lack a clear path towards scalability. Any potential benefit observed in a simulated environment may diminish in practical applications due to the limitations of noisy quantum hardware (e.g., under decoherence, gate-errors, and crosstalk). We present a scalable quantum-classical hybrid deep neural network (DeepQMLP) architecture inspired by classical deep neural network architectures. In DeepQMLP, stacked shallow Quantum Neural Network (QNN) models mimic the hidden layers of a classical feed-forward multi-layer perceptron network. Each QNN layer produces a new and potentially rich representation of the input data for the next layer. This new representation can be tuned by the parameters of the circuit. Shallow QNN models experience less decoherence, gate errors, etc. which make them (and the network) more resilient to quantum noise. We present numerical studies on a variety of classification problems to show the trainability of DeepQMLP. We also show that DeepQMLP performs reasonably well on unseen data and exhibits greater resilience to noise over QNN models that use a deep quantum circuit. DeepQMLP provided up to 25.3% lower loss and 7.92% higher accuracy during inference under noise than QMLP.",
+    "arxiv_id": "2202.01899",
+    "authors": [
+      "Mahabubul Alam",
+      "Swaroop Ghosh"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.ET",
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2202.01899v1",
+    "primary_category": "quant-ph",
+    "published": "2022-02-02T15:29:46Z",
+    "query": "(cat:quant-ph AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2202.01899v1",
+    "title": "DeepQMLP: A Scalable Quantum-Classical Hybrid DeepNeural Network Architecture for Classification",
+    "updated": "2022-02-02T15:29:46Z",
+    "versioned_id": "2202.01899v1"
+  },
+  "reference_sha256": "310d3d9a223f3fea8b45d232a22536bb6d970b99b939bf6f5626aed948ab6676",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 340,
+    "final_quality_rank": 409,
+    "final_quality_score": 0.616944,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.8979,
+      "category": "quant-ph",
+      "category_family": "quant-ph",
+      "color_bin": 2,
+      "colorfulness": 0.205908,
+      "component_bin": 3,
+      "connector_bin": 2,
+      "difference_hash": "1782b2209b32d99291929552d2709244936c9b6e99e6916695c2926a36091689",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 559,
+    "style_selection_score": 0.501169
+  },
+  "source_filename": "iris_ckt.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "2f164e679a94e590089df5e0d355326712d8830ef91122c3a63c76c2afd7289a",
+  "task_id": "task_0339",
+  "task_index": 339
+}

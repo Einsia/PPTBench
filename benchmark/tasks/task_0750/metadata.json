@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2209.06272",
+  "candidate_id": "2209-06272_pdf_529cd9a530406d2c",
+  "caption": "Specific architecture of Fuse-Multitasking.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 152,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 355,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 230,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 355,
+    "text_count": 43,
+    "vector_drawing_count": 187,
+    "vector_primitive_count": 312
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 307,
+    "full_pool_rank": 410,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 266,
+    "second_pass_review_rank": 307
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2209.06272v1",
+    "abstract": "The safety of an automated vehicle hinges crucially upon the accuracy of perception and decision-making latency. Under these stringent requirements, future automated cars are usually equipped with multi-modal sensors such as cameras and LiDARs. The sensor fusion is adopted to provide a confident context of driving scenarios for better decision-making. A promising sensor fusion technique is middle fusion that combines the feature representations from intermediate layers that belong to different sensing modalities. However, achieving both the accuracy and latency efficiency is challenging for middle fusion, which is critical for driving automation applications. We present A3Fusion, a software-hardware system specialized for an adaptive, agile, and aligned fusion in driving automation. A3Fusion achieves a high efficiency for the middle fusion of multiple CNN-based modalities by proposing an adaptive multi-modal learning network architecture and a latency-aware, agile network architecture optimization algorithm that enhances semantic segmentation accuracy while taking the inference latency as a key trade-off. In addition, A3Fusion proposes a FPGA-based accelerator that captures unique data flow patterns of our middle fusion algorithm while reducing the overall compute overheads. We enable these contributions by co-designing the neural network, algorithm, and the accelerator architecture.",
+    "arxiv_id": "2209.06272",
+    "authors": [
+      "Zhendong Wang",
+      "Xiaoming Zeng",
+      "Shuaiwen Leon Song",
+      "Yang Hu"
+    ],
+    "categories": [
+      "cs.DC"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2209.06272v1",
+    "primary_category": "cs.DC",
+    "published": "2022-09-13T19:26:15Z",
+    "query": "(cat:cs.DC AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2209.06272v1",
+    "title": "Towards Efficient Architecture and Algorithms for Sensor Fusion",
+    "updated": "2022-09-13T19:26:15Z",
+    "versioned_id": "2209.06272v1"
+  },
+  "reference_sha256": "f220cd578ecc427a9e051687f185265ffd9e3678482d0616b972c8b6b5337013",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 751,
+    "final_quality_rank": 561,
+    "final_quality_score": 0.58833,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.6264,
+      "category": "cs.DC",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.1688,
+      "component_bin": 1,
+      "connector_bin": 3,
+      "difference_hash": "6d22e688ee58e659e2c1672b65ba6288e521d723e6c9e669ee89e261e5ba6d9a",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 621,
+    "style_selection_score": 0.479821
+  },
+  "source_filename": "Overview_controller.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "529cd9a530406d2c133cf0e6bc2f553056df8f45f3f005010c1f7ad7e3c867a6",
+  "task_id": "task_0750",
+  "task_index": 750
+}

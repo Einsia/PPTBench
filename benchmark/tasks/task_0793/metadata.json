@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2112.12921",
+  "candidate_id": "2112-12921_pdf_bd953a2a5cce21f2",
+  "caption": "General implementation of the serverless architecture.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 54,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1138,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 136,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1138,
+    "text_count": 53,
+    "vector_drawing_count": 83,
+    "vector_primitive_count": 1085
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 368,
+    "full_pool_rank": 504,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 317,
+    "second_pass_review_rank": 368
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2112.12921v2",
+    "abstract": "The development of cloud infrastructures inspires the emergence of cloud-native computing. As the most promising architecture for deploying microservices, serverless computing has recently attracted more and more attention in both industry and academia. Due to its inherent scalability and flexibility, serverless computing becomes attractive and more pervasive for ever-growing Internet services. Despite the momentum in the cloud-native community, the existing challenges and compromises still wait for more advanced research and solutions to further explore the potentials of the serverless computing model. As a contribution to this knowledge, this article surveys and elaborates the research domains in the serverless context by decoupling the architecture into four stack layers: Virtualization, Encapsule, System Orchestration, and System Coordination. Inspired by the security model, we highlight the key implications and limitations of these works in each layer, and make suggestions for potential challenges to the field of future serverless computing.",
+    "arxiv_id": "2112.12921",
+    "authors": [
+      "Zijun Li",
+      "Linsong Guo",
+      "Jiagan Cheng",
+      "Quan Chen",
+      "Bingsheng He",
+      "Minyi Guo"
+    ],
+    "categories": [
+      "cs.DC"
+    ],
+    "doi": "10.1145/3508360",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2112.12921v2",
+    "primary_category": "cs.DC",
+    "published": "2021-12-24T02:53:52Z",
+    "query": "(cat:cs.DC AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2112.12921v2",
+    "title": "The Serverless Computing Survey: A Technical Primer for Design Architecture",
+    "updated": "2022-01-03T05:49:01Z",
+    "versioned_id": "2112.12921v2"
+  },
+  "reference_sha256": "4a5a05e7cb95af666d61ffc803ea831855bcae5926c3d25e7a997834f00ed48f",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 794,
+    "final_quality_rank": 625,
+    "final_quality_score": 0.576212,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.8914,
+      "category": "cs.DC",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.167364,
+      "component_bin": 3,
+      "connector_bin": 1,
+      "difference_hash": "d54ad54a38ac30d6ced1db243324373e7326d72e3d2a33263326dc783c78a56a",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 699,
+    "style_selection_score": 0.467883
+  },
+  "source_filename": "design.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "bd953a2a5cce21f2925a4b5bbb9c5b49fc3faf0d43635d86f266968447000695",
+  "task_id": "task_0793",
+  "task_index": 793
+}

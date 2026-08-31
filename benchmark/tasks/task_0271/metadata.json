@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2106.14033",
+  "candidate_id": "2106-14033_pdf_f63368fa93c54e52",
+  "caption": "Overview of BiO-Net, BiO-Net++, and BiX-Net with 4 levels and 2 iterations. Encoder and decoder blocks at the same level are reused .",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 124,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.991489,
+    "editable_component_count": 932,
+    "embedded_image_count": 8,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.003616,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 208,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 940,
+    "text_count": 17,
+    "vector_drawing_count": 183,
+    "vector_primitive_count": 915
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2106.14033v3",
+    "abstract": "The recurrent mechanism has recently been introduced into U-Net in various medical image segmentation tasks. Existing studies have focused on promoting network recursion via reusing building blocks. Although network parameters could be greatly saved, computational costs still increase inevitably in accordance with the pre-set iteration time. In this work, we study a multi-scale upgrade of a bi-directional skip connected network and then automatically discover an efficient architecture by a novel two-phase Neural Architecture Search (NAS) algorithm, namely BiX-NAS. Our proposed method reduces the network computational cost by sifting out ineffective multi-scale features at different levels and iterations. We evaluate BiX-NAS on two segmentation tasks using three different medical image datasets, and the experimental results show that our BiX-NAS searched architecture achieves the state-of-the-art performance with significantly lower computational cost.",
+    "arxiv_id": "2106.14033",
+    "authors": [
+      "Xinyi Wang",
+      "Tiange Xiang",
+      "Chaoyi Zhang",
+      "Yang Song",
+      "Dongnan Liu",
+      "Heng Huang",
+      "Weidong Cai"
+    ],
+    "categories": [
+      "eess.IV",
+      "cs.CV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2106.14033v3",
+    "primary_category": "eess.IV",
+    "published": "2021-06-26T14:33:04Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2106.14033v3",
+    "title": "BiX-NAS: Searching Efficient Bi-directional Architecture for Medical Image Segmentation",
+    "updated": "2021-07-01T09:03:36Z",
+    "versioned_id": "2106.14033v3"
+  },
+  "reference_sha256": "fde11eb2e4b861478dc54bd51bf268e129e0f0d0ffa7d185223d226cb82b89e0",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 272,
+    "final_quality_rank": 349,
+    "final_quality_score": 0.627652,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.3171,
+      "category": "eess.IV",
+      "category_family": "eess",
+      "color_bin": 3,
+      "colorfulness": 0.360639,
+      "component_bin": 3,
+      "connector_bin": 2,
+      "difference_hash": "96d6e75ae618d690d696d694d614d692d692d690d694d284d294929491989198",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 498,
+    "style_selection_score": 0.518804
+  },
+  "source_filename": "fig1.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "f63368fa93c54e525e9c6f04425ef9f0b9a0768011a5737ed33ff66ec8cde723",
+  "task_id": "task_0271",
+  "task_index": 271
+}

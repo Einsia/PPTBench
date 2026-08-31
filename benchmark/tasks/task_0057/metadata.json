@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2411.06124",
+  "candidate_id": "2411-06124_pdf_03d7fc349d2f7935",
+  "caption": "(a--d) Schematic depiction of a binary neural network configured with a lattice of pairwise coupled polariton condensates. A binarized 28 28 pixel image from the MNIST dataset (a) is mapped onto a transformation lattice of dimensions n_ in n_ in (b). This lattice serves as the template for the input optical signal. Neurons within the hidden layer are activated by this input (c), generating the output signal. This output is subsequently processed through a linear classifier LC (d). As an example, neurons in the diagram are shown functioning as XNOR gates. (e) Schematic representation of the operation of artificial neuronal assemblies composed of NAND, NOR and XNOR gates is illustrated in Fig. (b--d).",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 594,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.998929,
+    "editable_component_count": 3730,
+    "embedded_image_count": 4,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.00238,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 957,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 3734,
+    "text_count": 47,
+    "vector_drawing_count": 906,
+    "vector_primitive_count": 3683
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 480,
+    "full_pool_rank": 729,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 418,
+    "second_pass_review_rank": 480
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2411.06124v1",
+    "abstract": "This study investigates the performance of a binarized neuromorphic network leveraging polariton dyads, optically excited pairs of interfering polariton condensates within a microcavity to function as binary logic gate neurons. Employing numerical simulations, we explore various neuron configurations, both linear (NAND, NOR) and nonlinear (XNOR), to assess their effectiveness in image classification tasks. We demonstrate that structural nonlinearity, derived from the network's layout, plays a crucial role in facilitating complex computational tasks, effectively reducing the reliance on the inherent nonlinearity of individual neurons. Our findings suggest that the network's configuration and the interaction among its elements can emulate the benefits of nonlinearity, thus potentially simplifying the design and manufacturing of neuromorphic systems and enhancing their scalability. This shift in focus from individual neuron properties to network architecture could lead to significant advancements in the efficiency and applicability of neuromorphic computing.",
+    "arxiv_id": "2411.06124",
+    "authors": [
+      "Evgeny Sedov",
+      "Alexey Kavokin"
+    ],
+    "categories": [
+      "cond-mat.dis-nn",
+      "cs.ET",
+      "cs.LG",
+      "cs.NE",
+      "physics.app-ph"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2411.06124v1",
+    "primary_category": "cond-mat.dis-nn",
+    "published": "2024-11-09T09:29:46Z",
+    "query": "(cat:cs.NE AND all:\"network architecture\") AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2411.06124v1",
+    "title": "Exploring Structural Nonlinearity in Binary Polariton-Based Neuromorphic Architectures",
+    "updated": "2024-11-09T09:29:46Z",
+    "versioned_id": "2411.06124v1"
+  },
+  "reference_sha256": "ac3cfce26663ee943a0626832a16ea9351f05ac00433cbc1a5dc9bdac7de6b59",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 58,
+    "final_quality_rank": 55,
+    "final_quality_score": 0.735146,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.2237,
+      "category": "cond-mat.dis-nn",
+      "category_family": "cond-mat",
+      "color_bin": 3,
+      "colorfulness": 0.362834,
+      "component_bin": 4,
+      "connector_bin": 4,
+      "difference_hash": "72c031c8b098b1aab132b946b1507153fa52075066b0e7a6e696e716c792e318",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 19,
+    "style_selection_score": 0.709112
+  },
+  "source_filename": "FIG_Scheme.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "03d7fc349d2f7935d8639d1fe81087bb8833f7565f2cdbdd9067bbb06e67e12e",
+  "task_id": "task_0057",
+  "task_index": 57
+}

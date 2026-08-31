@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2202.01032",
+  "candidate_id": "2202-01032_pdf_6fd861cf2556c68d",
+  "caption": "Non-RT ric and smo architecture. The SMO functionalities (in green) enable connectivity to the O-Cloud (through the O2 interface) and the other RAN components (through O1) for management and orchestration. The non-RT RIC features custom logic (rApps, in red), and a termination of the A1 interface to the near-RT RIC (orange). Shared functionalities between the non-RT RIC and the SMO are in yellow.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 25,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 122,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 65,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 122,
+    "text_count": 25,
+    "vector_drawing_count": 40,
+    "vector_primitive_count": 97
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 571,
+    "full_pool_rank": 906,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 497,
+    "second_pass_review_rank": 571
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2202.01032v2",
+    "abstract": "The Open Radio Access Network (RAN) and its embodiment through the O-RAN Alliance specifications are poised to revolutionize the telecom ecosystem. O-RAN promotes virtualized RANs where disaggregated components are connected via open interfaces and optimized by intelligent controllers. The result is a new paradigm for the RAN design, deployment, and operations: O-RAN networks can be built with multi-vendor, interoperable components, and can be programmatically optimized through a centralized abstraction layer and data-driven closed-loop control. Therefore, understanding O-RAN, its architecture, its interfaces, and workflows is key for researchers and practitioners in the wireless community. In this article, we present the first detailed tutorial on O-RAN. We also discuss the main research challenges and review early research results. We provide a deep dive of the O-RAN specifications, describing its architecture, design principles, and the O-RAN interfaces. We then describe how the O-RAN RAN Intelligent Controllers (RICs) can be used to effectively control and manage 3GPP-defined RANs. Based on this, we discuss innovations and challenges of O-RAN networks, including the Artificial Intelligence (AI) and Machine Learning (ML) workflows that the architecture and interfaces enable, security and standardization issues. Finally, we review experimental research platforms that can be used to design and test O-RAN networks, along with recent research results, and we outline future directions for O-RAN development.",
+    "arxiv_id": "2202.01032",
+    "authors": [
+      "Michele Polese",
+      "Leonardo Bonati",
+      "Salvatore D'Oro",
+      "Stefano Basagni",
+      "Tommaso Melodia"
+    ],
+    "categories": [
+      "cs.NI",
+      "eess.SP"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2202.01032v2",
+    "primary_category": "cs.NI",
+    "published": "2022-02-02T13:56:04Z",
+    "query": "(cat:eess.SP AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2202.01032v2",
+    "title": "Understanding O-RAN: Architecture, Interfaces, Algorithms, Security, and Research Challenges",
+    "updated": "2022-08-01T23:01:02Z",
+    "versioned_id": "2202.01032v2"
+  },
+  "reference_sha256": "8275116bf90235ce3b57843cb5c974f64875b5fbc0d55fb24f4d54cbffee837b",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 847,
+    "final_quality_rank": 704,
+    "final_quality_score": 0.556336,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 2,
+      "aspect_ratio": 0.9731,
+      "category": "cs.NI",
+      "category_family": "cs",
+      "color_bin": 4,
+      "colorfulness": 0.577876,
+      "component_bin": 0,
+      "connector_bin": 1,
+      "difference_hash": "f394634b7b9c7b9c6c296c30d8bce226e226748cb488e2a0ce62c8529b4e9b0c",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 541,
+    "style_selection_score": 0.491382
+  },
+  "source_filename": "non-rt-ric-v2.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "6fd861cf2556c68d0d22f62ba97ff015a22d70965ec869342fb0381c3b001c94",
+  "task_id": "task_0846",
+  "task_index": 846
+}

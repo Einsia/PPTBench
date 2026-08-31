@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2505.00066",
+  "candidate_id": "2505-00066_pdf_2d1a6167f40cfd67",
+  "caption": "Decoding an example set of errors (a) in the surface code. (b) Syndrome information available in a standard, erasure-free surface code. (c) Decoder prediction resulting in a logical Z error. (d) Syndrome + erasure information available in a hybrid erasure architecture with two rows/columns of erasure qubits. (e) Decoder prediction resulting in no logical errors. The lack of erasure detection on the erasure qubits near the boundary critically help the decoder differentiate the correct error chain.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 825,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.999171,
+    "editable_component_count": 4824,
+    "embedded_image_count": 4,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.001029,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 1055,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 4828,
+    "text_count": 18,
+    "vector_drawing_count": 1033,
+    "vector_primitive_count": 4806
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2505.00066v2",
+    "abstract": "Dual-rail erasure qubits can substantially improve the efficiency of quantum error correction, allowing lower error rates to be achieved with fewer qubits, but each erasure qubit requires $3\\times$ more transmons to implement compared to standard qubits. In this work, we introduce a hybrid-erasure architecture for surface code error correction where a carefully chosen subset of qubits is designated as erasure qubits while the rest remain standard. Through code-capacity analysis and circuit-level simulations, we show that a hybrid-erasure architecture can boost the performance of the surface code -- much like how a game of Minesweeper becomes easier once a few squares are revealed -- while using fewer resources than a full-erasure architecture. We study strategies for the allocation and placement of erasure qubits through analysis and simulations. We then use the hybrid-erasure architecture to explore the trade-offs between per-qubit cost and key logical performance metrics such as threshold and effective distance in surface code error correction. Our results show that the strategic introduction of dual-rail erasure qubits in a transmon architecture can enhance the logical performance of surface codes for a fixed transmon budget, particularly for near-term-relevant transmon counts and logical error rates.",
+    "arxiv_id": "2505.00066",
+    "authors": [
+      "Jason D. Chadwick",
+      "Mariesa H. Teo",
+      "Joshua Viszlai",
+      "Willers Yang",
+      "Frederic T. Chong"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2505.00066v2",
+    "primary_category": "quant-ph",
+    "published": "2025-04-30T17:57:43Z",
+    "query": "(cat:quant-ph AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2505.00066v2",
+    "title": "Erasure Minesweeper: exploring hybrid-erasure surface code architectures for efficient quantum error correction",
+    "updated": "2025-09-03T17:38:22Z",
+    "versioned_id": "2505.00066v2"
+  },
+  "reference_sha256": "1fb5bf617ef574669f5ae2cb9a9654fe3115f6a818e46d25a68b29a05862b79b",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 22,
+    "final_quality_rank": 54,
+    "final_quality_score": 0.735181,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.9102,
+      "category": "quant-ph",
+      "category_family": "quant-ph",
+      "color_bin": 2,
+      "colorfulness": 0.319863,
+      "component_bin": 4,
+      "connector_bin": 5,
+      "difference_hash": "0698079a029a479a079e8b1c271e391e9a9ac69aa69aa39e8b9ea71c869aa69a",
+      "raster_bin": 1
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "decoding.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "2d1a6167f40cfd676c2b35d586e4077933690dea1fd247df1bdbc6c6bdb84499",
+  "task_id": "task_0021",
+  "task_index": 21
+}

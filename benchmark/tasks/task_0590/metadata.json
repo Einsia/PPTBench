@@ -1,0 +1,86 @@
+{
+  "arxiv_id": "2401.17480",
+  "candidate_id": "2401-17480_pdf_bac26240e0ede91e",
+  "caption": "Multi-Colony Flowchart",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 54,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 429,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 88,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 429,
+    "text_count": 33,
+    "vector_drawing_count": 55,
+    "vector_primitive_count": 396
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2401.17480v1",
+    "abstract": "Crafting neural network architectures manually is a formidable challenge often leading to suboptimal and inefficient structures. The pursuit of the perfect neural configuration is a complex task, prompting the need for a metaheuristic approach such as Neural Architecture Search (NAS). Drawing inspiration from the ingenious mechanisms of nature, this paper introduces Collaborative Ant-based Neural Topology Search (CANTS-N), pushing the boundaries of NAS and Neural Evolution (NE). In this innovative approach, ant-inspired agents meticulously construct neural network structures, dynamically adapting within a dynamic environment, much like their natural counterparts. Guided by Particle Swarm Optimization (PSO), CANTS-N's colonies optimize architecture searches, achieving remarkable improvements in mean squared error (MSE) over established methods, including BP-free CANTS, BP CANTS, and ANTS. Scalable, adaptable, and forward-looking, CANTS-N has the potential to reshape the landscape of NAS and NE. This paper provides detailed insights into its methodology, results, and far-reaching implications.",
+    "arxiv_id": "2401.17480",
+    "authors": [
+      "Abdelrahman Elsaid"
+    ],
+    "categories": [
+      "cs.NE"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2401.17480v1",
+    "primary_category": "cs.NE",
+    "published": "2024-01-30T22:27:31Z",
+    "query": "(cat:cs.NE AND all:\"network architecture\") AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2401.17480v1",
+    "title": "Colony-Enhanced Recurrent Neural Architecture Search: Collaborative Ant-Based Optimization",
+    "updated": "2024-01-30T22:27:31Z",
+    "versioned_id": "2401.17480v1"
+  },
+  "reference_sha256": "773930441c19804b2e0457d3075a9b922ad2aa94a771863d33110cfd9a301a05",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 591,
+    "final_quality_rank": 433,
+    "final_quality_score": 0.611861,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.6672,
+      "category": "cs.NE",
+      "category_family": "cs",
+      "color_bin": 4,
+      "colorfulness": 0.525546,
+      "component_bin": 2,
+      "connector_bin": 1,
+      "difference_hash": "a4002000a600a640a650e9b26db66c8c6c8e6d8e21962196238e63bc65906400",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 584,
+    "style_selection_score": 0.503882
+  },
+  "source_filename": "multi_col_flowchart.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "bac26240e0ede91eba6fa03c09aac2e72664597e9a471bd86c4660a5efb97fe4",
+  "task_id": "task_0590",
+  "task_index": 590
+}

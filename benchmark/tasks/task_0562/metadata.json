@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2509.12049",
+  "candidate_id": "2509-12049_pdf_e0703a9eeba2ec82",
+  "caption": "A use case illustrating how the proposed framework handles a complex goal: researching the browser market and sending the results by email. (a) The figure shows the initial goal being decomposed into two subgoals (tasks). (b, c) Within each subgoal (task), it depicts the iterative interaction loop: the process begins with the model's proactive suggestions, followed by the user's feedback, which leads to the generation of an action module executed by the agent, and the results of the action module are then returned to the model and the user. This demonstrates how the framework can support the complex goal of users.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 78,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.959821,
+    "editable_component_count": 430,
+    "embedded_image_count": 18,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.014009,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 213,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 448,
+    "text_count": 82,
+    "vector_drawing_count": 113,
+    "vector_primitive_count": 348
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2509.12049v1",
+    "abstract": "Although browser-using agents (BUAs) show promise for web tasks and automation, most BUAs terminate after executing a single instruction, failing to support users' complex, nonlinear browsing with ambiguous goals, iterative decision-making, and changing contexts. We present a human-in-the-loop (HITL) conceptual framework informed by theories of human web browsing behavior. The framework centers on an iterative loop in which the BUA proactively proposes next actions and the user steers the browsing process through feedback. It also distinguishes between exploration and exploitation actions, enabling users to control the breadth and depth of their browsing. Consequently, the framework aims to reduce users' physical and cognitive effort while preserving users' traditional browsing mental model and supporting users in achieving satisfactory outcomes. We illustrate how the framework operates with hypothetical use cases and discuss the shift from manual browsing to interaction-driven browsing. We contribute a theoretically informed conceptual framework for BUAs.",
+    "arxiv_id": "2509.12049",
+    "authors": [
+      "Hyeonggeun Yun",
+      "Jinkyu Jang"
+    ],
+    "categories": [
+      "cs.HC",
+      "cs.AI",
+      "cs.MA"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2509.12049v1",
+    "primary_category": "cs.HC",
+    "published": "2025-09-15T15:31:53Z",
+    "query": "(cat:cs.HC AND all:framework) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2509.12049v1",
+    "title": "Interaction-Driven Browsing: A Human-in-the-Loop Conceptual Framework Informed by Human Web Browsing for Browser-Using Agents",
+    "updated": "2025-09-15T15:31:53Z",
+    "versioned_id": "2509.12049v1"
+  },
+  "reference_sha256": "639cc9b35d40b01df09a27a80c294be6dd8bc61e82c1cc936df6f12ae310f6d1",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 563,
+    "final_quality_rank": 407,
+    "final_quality_score": 0.617025,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 2,
+      "aspect_ratio": 0.9372,
+      "category": "cs.HC",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.422023,
+      "component_bin": 2,
+      "connector_bin": 2,
+      "difference_hash": "000cb65cb658a1c6a0d2a0f480d4a074a4d4a4caa2d2a0f4a6d4a074a0d484d4",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 448,
+    "style_selection_score": 0.514487
+  },
+  "source_filename": "figure3.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "e0703a9eeba2ec823daeb092c600adc62a4a42bf69a28aa3ca95f116b039f4ef",
+  "task_id": "task_0562",
+  "task_index": 562
+}

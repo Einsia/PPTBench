@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2212.04815",
+  "candidate_id": "2212-04815_pdf_b68f681173cd9796",
+  "caption": "Flow diagram of the TANSPEC XD-mode data reduction pipeline. Users need to create a directory and copy all the data and pipeline-related requirements into it. Users can name the directory according to their whims. Here, we have named it as MotherTANSPEC.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 57,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 404,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 153,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 404,
+    "text_count": 96,
+    "vector_drawing_count": 57,
+    "vector_primitive_count": 308
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2212.04815v1",
+    "abstract": "The TIFR-ARIES Near Infrared Spectrometer (TANSPEC) instrument provides simultaneous wavelength coverage from 0.55 to 2.5 micron, mounted on India's largest ground-based telescope, 3.6-m Devasthal Optical Telescope at Nainital, India. The TANSPEC offers three modes of observations, imaging with various filters, spectroscopy in the low-resolution prism mode with derived R~ 100-400 and the high-resolution cross-dispersed mode (XD-mode) with derived median R~ 2750 for a slit of width 0.5 arcsec. In the XD-mode, ten cross-dispersed orders are packed in the 2048 x 2048 pixels detector to cover the full wavelength regime. As the XD-mode is most utilized as well as for consistent data reduction for all orders and to reduce data reduction time, a dedicated pipeline is at the need. In this paper, we present the code for the TANSPEC XD-mode data reduction, its workflow, input/output files, and a showcase of its implementation on a particular dataset. This publicly available pipeline pyTANSPEC is fully developed in Python and includes nominal human intervention only for the quality assurance of the reduced data. Two customized configuration files are used to guide the data reduction. The pipeline creates a log file for all the fits files in a given data directory from its header, identifies correct frames (science, continuum and calibration lamps) based on the user input, and offers an option to the user for eyeballing and accepting/removing of the frames, does the cleaning of raw science frames and yields final wavelength calibrated spectra of all orders simultaneously.",
+    "arxiv_id": "2212.04815",
+    "authors": [
+      "Supriyo Ghosh",
+      "Joe P. Ninan",
+      "Devendra K. Ojha",
+      "Saurabh Sharma"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.GA",
+      "astro-ph.HE",
+      "astro-ph.SR"
+    ],
+    "doi": "10.1007/s12036-023-09926-y",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2212.04815v1",
+    "primary_category": "astro-ph.IM",
+    "published": "2022-12-09T12:42:52Z",
+    "query": "(cat:astro-ph.GA AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2212.04815v1",
+    "title": "pyTANSPEC: A Data Reduction Package for TANSPEC",
+    "updated": "2022-12-09T12:42:52Z",
+    "versioned_id": "2212.04815v1"
+  },
+  "reference_sha256": "6d5ae6c66927af65fcb743d04e35f014c6344cf4d133028bbd21de8f9a7004ad",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 434,
+    "final_quality_rank": 542,
+    "final_quality_score": 0.591266,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 1,
+      "aspect_ratio": 0.857,
+      "category": "astro-ph.IM",
+      "category_family": "astro-ph",
+      "color_bin": 3,
+      "colorfulness": 0.381651,
+      "component_bin": 2,
+      "connector_bin": 1,
+      "difference_hash": "b324bf181e0c3a4c3e0c3d0c3e8c3e0c3d0c3e0c3c8c3a4c3e0c3d0c3c0c3d00",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 598,
+    "style_selection_score": 0.500717
+  },
+  "source_filename": "TANSPEC-pipeline-flowchart4.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "b68f681173cd97964c34d920199055babda6ceafe4d03f9ae01b62b321b2d700",
+  "task_id": "task_0433",
+  "task_index": 433
+}

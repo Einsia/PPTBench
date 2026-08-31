@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2412.19272",
+  "candidate_id": "2412-19272_pdf_bdabf4c0bd77bda6",
+  "caption": "The general architecture of our system.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 60,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.995629,
+    "editable_component_count": 1139,
+    "embedded_image_count": 5,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.018704,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 96,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1144,
+    "text_count": 31,
+    "vector_drawing_count": 60,
+    "vector_primitive_count": 1108
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2412.19272v1",
+    "abstract": "It is imperative to develop an intrusion prevention system (IPS), specifically designed for autonomous robotic systems. This is due to the unique nature of these cyber-physical systems (CPS), which are not merely typical distributed systems. These systems employ their own systems software (i.e. robotic middleware and frameworks) and execute distinct components to facilitate interaction with various sensors and actuators, and other robotic components (e.g. cognitive subsystems). Furthermore, as cyber-physical systems, they engage in interactions with humans and their physical environment, as exemplified by social robots. These interactions can potentially lead to serious consequences, including physical damage. In response to this need, we have designed and implemented RIPS, an intrusion prevention system tailored for robotic applications based on ROS 2, the framework that has established itself as the de facto standard for developing robotic applications. This manuscript provides a comprehensive exposition of the issue, the security aspects of ROS 2 applications, and the key points of the threat model we created for our robotic environment. It also describes the architecture and the implementation of our initial research prototype and a language specifically designed for defining detection and prevention rules for diverse, real-world robotic scenarios. Moreover, the manuscript provides a comprehensive evaluation of the approach, that includes a set of experiments with a real social robot executing a well known testbed used in international robotic competitions.",
+    "arxiv_id": "2412.19272",
+    "authors": [
+      "Enrique Soriano-Salvador",
+      "Francisco Mart\u00edn-Rico",
+      "Gorka Guardiola M\u00fazquiz"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.CR"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2412.19272v1",
+    "primary_category": "cs.RO",
+    "published": "2024-12-26T16:25:34Z",
+    "query": "(cat:cs.RO AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2412.19272v1",
+    "title": "Implementing a Robot Intrusion Prevention System (RIPS) for ROS 2",
+    "updated": "2024-12-26T16:25:34Z",
+    "versioned_id": "2412.19272v1"
+  },
+  "reference_sha256": "7efb4c4948c2f3b3238ebebbea2571b5c84c038d080d8cef015041ed40bc3277",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 117,
+    "final_quality_rank": 89,
+    "final_quality_score": 0.710365,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 2,
+      "aspect_ratio": 1.0241,
+      "category": "cs.RO",
+      "category_family": "cs",
+      "color_bin": 5,
+      "colorfulness": 0.741295,
+      "component_bin": 3,
+      "connector_bin": 2,
+      "difference_hash": "24007b005920d900de32c632e600653c61386d2cf31cf31cf601686c00642864",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 122,
+    "style_selection_score": 0.585822
+  },
+  "source_filename": "svg_arch.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "bdabf4c0bd77bda625abe4add146cf463acd9be4ce949fd55f400c2fa8a2d22e",
+  "task_id": "task_0116",
+  "task_index": 116
+}

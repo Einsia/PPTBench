@@ -1,0 +1,14 @@
+{
+  "assets": [],
+  "candidate_id": "2111-10133_pdf_5d4237eca755301a",
+  "extractor_version": "native-raster-v1",
+  "manual_qc": {
+    "maximum_resources": 12,
+    "removed_count": 0,
+    "status": "pass",
+    "version": "manual-resource-qc-v1"
+  },
+  "resource_count": 0,
+  "schema": "pptbench-task-resources-v1",
+  "task_id": "task_0679"
+}

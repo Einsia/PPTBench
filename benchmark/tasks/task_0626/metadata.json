@@ -1,0 +1,86 @@
+{
+  "arxiv_id": "2301.08130",
+  "candidate_id": "2301-08130_pdf_6aeed870157bd36a",
+  "caption": "Overview of the MPP detection methods.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 85,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 582,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 127,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 582,
+    "text_count": 32,
+    "vector_drawing_count": 95,
+    "vector_primitive_count": 550
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2301.08130v2",
+    "abstract": "A recent trend in Natural Language Processing is the exponential growth in Language Model (LM) size, which prevents research groups without a necessary hardware infrastructure from participating in the development process. This study investigates methods for Knowledge Distillation (KD) to provide efficient alternatives to large-scale models. In this context, KD means extracting information about language encoded in a Neural Network and Lexical Knowledge Databases. We developed two methods to test our hypothesis that efficient architectures can gain knowledge from LMs and extract valuable information from lexical sources. First, we present a technique to learn confident probability distribution for Masked Language Modeling by prediction weighting of multiple teacher networks. Second, we propose a method for Word Sense Disambiguation (WSD) and lexical KD that is general enough to be adapted to many LMs. Our results show that KD with multiple teachers leads to improved training convergence. When using our lexical pre-training method, LM characteristics are not lost, leading to increased performance in Natural Language Understanding (NLU) tasks over the state-of-the-art while adding no parameters. Moreover, the improved semantic understanding of our model increased the task performance beyond WSD and NLU in a real-problem scenario (Plagiarism Detection). This study suggests that sophisticated training methods and network architectures can be superior over scaling trainable parameters. On this basis, we suggest the research area should encourage the development and use of efficient models and rate impacts resulting from growing LM size equally against task performance.",
+    "arxiv_id": "2301.08130",
+    "authors": [
+      "Jan Philip Wahle"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2301.08130v2",
+    "primary_category": "cs.CL",
+    "published": "2023-01-12T08:01:53Z",
+    "query": "(cat:cs.CL AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2301.08130v2",
+    "title": "A Cohesive Distillation Architecture for Neural Language Models",
+    "updated": "2023-01-29T09:39:20Z",
+    "versioned_id": "2301.08130v2"
+  },
+  "reference_sha256": "07d6fd0fc8169ff0891db3db70a09bc315d308f74711aa3006df7bfd78ba8970",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 627,
+    "final_quality_rank": 446,
+    "final_quality_score": 0.609605,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.8122,
+      "category": "cs.CL",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.400201,
+      "component_bin": 2,
+      "connector_bin": 2,
+      "difference_hash": "00710071007416b438b438b49934994c9931993099349934003419340074002a",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 628,
+    "style_selection_score": 0.490209
+  },
+  "source_filename": "PD.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "6aeed870157bd36a3ffc0b84bc3ab9f86e635663bedecf08b80a78609dd9c677",
+  "task_id": "task_0626",
+  "task_index": 626
+}

@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2408.11330",
+  "candidate_id": "2408-11330_pdf_6f97139328e9fcfc",
+  "caption": "Overview of the proposed LAPT. This framework consists of two stages. In the learning stage of design principles, LLM is driven by specific prompts to learn general design principles from a set of architectures. In the architecture search stage, the learned principles are applied to initialize the search space for each new task. Then, architectures found in the refined search space are used to update these principles, aiming to build the task-specific search space.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 92,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.989704,
+    "editable_component_count": 769,
+    "embedded_image_count": 8,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.007905,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 210,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 777,
+    "text_count": 103,
+    "vector_drawing_count": 99,
+    "vector_primitive_count": 666
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 775,
+    "full_pool_rank": 1331,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 676,
+    "second_pass_review_rank": 775
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2408.11330v2",
+    "abstract": "Transferable neural architecture search (TNAS) has been introduced to design efficient neural architectures for multiple tasks, to enhance the practical applicability of NAS in real-world scenarios. In TNAS, architectural knowledge accumulated in previous search processes is reused to warm up the architecture search for new tasks. However, existing TNAS methods still search in an extensive search space, necessitating the evaluation of numerous architectures. To overcome this challenge, this work proposes a novel transfer paradigm, i.e., design principle transfer. In this work, the linguistic description of various structural components' effects on architectural performance is termed design principles. They are learned from established architectures and then can be reused to reduce the search space by discarding unpromising architectures. Searching in the refined search space can boost both the search performance and efficiency for new NAS tasks. To this end, a large language model (LLM)-assisted design principle transfer (LAPT) framework is devised. In LAPT, LLM is applied to automatically reason the design principles from a set of given architectures, and then a principle adaptation method is applied to refine these principles progressively based on the new search results. Experimental results show that LAPT can beat the state-of-the-art TNAS methods on most tasks and achieve comparable performance on others.",
+    "arxiv_id": "2408.11330",
+    "authors": [
+      "Xun Zhou",
+      "Xingyu Wu",
+      "Liang Feng",
+      "Zhichao Lu",
+      "Kay Chen Tan"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CL"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2408.11330v2",
+    "primary_category": "cs.LG",
+    "published": "2024-08-21T04:27:44Z",
+    "query": "(cat:cs.CL AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2408.11330v2",
+    "title": "Design Principle Transfer in Neural Architecture Search via Large Language Models",
+    "updated": "2024-12-18T02:51:50Z",
+    "versioned_id": "2408.11330v2"
+  },
+  "reference_sha256": "2d6022dddeaea833148493a326e8bd879ad4d35d0034d44051c2f835e1cde448",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 854,
+    "final_quality_rank": 685,
+    "final_quality_score": 0.563541,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.7915,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.191879,
+      "component_bin": 2,
+      "connector_bin": 2,
+      "difference_hash": "cb8083a699b299729966996496d49ed092369aa2b9e2b9665966999490d19073",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 861,
+    "style_selection_score": 0.454844
+  },
+  "source_filename": "overview.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "6f97139328e9fcfc06837b019f2e0093e2db385ba787e2b5ece674217b9ec28e",
+  "task_id": "task_0853",
+  "task_index": 853
+}

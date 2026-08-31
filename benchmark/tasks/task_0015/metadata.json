@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2306.01418",
+  "candidate_id": "2306-01418_pdf_e2b32fd21d63f766",
+  "caption": "Lambda Architecture , a reference architecture for implementations of big data systems.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 38,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 639,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 83,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 639,
+    "text_count": 28,
+    "vector_drawing_count": 55,
+    "vector_primitive_count": 611
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2306.01418v1",
+    "abstract": "Industry 4.0 factories are complex and data-driven. Data is yielded from many sources, including sensors, PLCs, and other devices, but also from IT, like ERP or CRM systems. We ask how to collect and process this data in a way, such that it includes metadata and can be used for industrial analytics or to derive intelligent support systems. This paper describes a new, query model based approach, which uses a big data architecture to capture data from various sources using OPC UA as a foundation. It buffers and preprocesses the information for the purpose of harmonizing and providing a holistic state space of a factory, as well as mappings to the current state of a production site. That information can be made available to multiple processing sinks, decoupled from the data sources, which enables them to work with the information without interfering with devices of the production, disturbing the network devices they are working in, or influencing the production process negatively. Metadata and connected semantic information is kept throughout the process, allowing to feed algorithms with meaningful data, so that it can be accessed in its entirety to perform time series analysis, machine learning or similar evaluations as well as replaying the data from the buffer for repeatable simulations.",
+    "arxiv_id": "2306.01418",
+    "authors": [
+      "Eduard Hirsch",
+      "Simon Hoher",
+      "Stefan Huber"
+    ],
+    "categories": [
+      "cs.IR",
+      "cs.DC"
+    ],
+    "doi": "10.5281/zenodo.158999",
+    "journal_ref": "Conference: 2023 IEEE 21st International Conference on Industrial Informatics (INDIN)",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2306.01418v1",
+    "primary_category": "cs.IR",
+    "published": "2023-06-02T10:11:41Z",
+    "query": "(cat:cs.DC AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2306.01418v1",
+    "title": "An OPC UA-based industrial Big Data architecture",
+    "updated": "2023-06-02T10:11:41Z",
+    "versioned_id": "2306.01418v1"
+  },
+  "reference_sha256": "0b681be68da50741955ecccc674abf681bb44e1672570efdf45e22b81987e788",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 16,
+    "final_quality_rank": 946,
+    "final_quality_score": 0.436007,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.0599,
+      "category": "cs.IR",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.0,
+      "component_bin": 2,
+      "connector_bin": 1,
+      "difference_hash": "62606663664361c06f92dd3b999a99939992d9984d38679666466660674060e0",
+      "raster_bin": 0
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "lambda-arch.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "e2b32fd21d63f766255d60bd8e2880e7b020ff92e3020b1200559be05bbc4a9a",
+  "task_id": "task_0015",
+  "task_index": 15
+}

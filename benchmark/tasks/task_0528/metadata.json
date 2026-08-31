@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2108.07375",
+  "candidate_id": "2108-07375_pdf_5c5e5c056413220b",
+  "caption": "Overview of the proposed framework. We follow the three stages in one-shot methods. In supernet Training, we fix the convolution parameters and only train BN parameters for few epochs. In a iteration of supernet training, only a single path is sampled from the supernet for forward propagation, e.g. following the green solid arrows, and back-propagation, e.g. green dashed arrows. In Subnet Searching, we search the subnets (lines of the same color is a subnet) with proposed BN-based indicator. In Subnet Retraining, we train best subnet from scratch.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 179,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.992647,
+    "editable_component_count": 1755,
+    "embedded_image_count": 13,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.001083,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 274,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1768,
+    "text_count": 73,
+    "vector_drawing_count": 188,
+    "vector_primitive_count": 1682
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 510,
+    "full_pool_rank": 789,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 444,
+    "second_pass_review_rank": 510
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2108.07375v1",
+    "abstract": "We present BN-NAS, neural architecture search with Batch Normalization (BN-NAS), to accelerate neural architecture search (NAS). BN-NAS can significantly reduce the time required by model training and evaluation in NAS. Specifically, for fast evaluation, we propose a BN-based indicator for predicting subnet performance at a very early training stage. The BN-based indicator further facilitates us to improve the training efficiency by only training the BN parameters during the supernet training. This is based on our observation that training the whole supernet is not necessary while training only BN parameters accelerates network convergence for network architecture search. Extensive experiments show that our method can significantly shorten the time of training supernet by more than 10 times and shorten the time of evaluating subnets by more than 600,000 times without losing accuracy.",
+    "arxiv_id": "2108.07375",
+    "authors": [
+      "Boyu Chen",
+      "Peixia Li",
+      "Baopu Li",
+      "Chen Lin",
+      "Chuming Li",
+      "Ming Sun",
+      "Junjie Yan",
+      "Wanli Ouyang"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2108.07375v1",
+    "primary_category": "cs.CV",
+    "published": "2021-08-16T23:23:21Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2108.07375v1",
+    "title": "BN-NAS: Neural Architecture Search with Batch Normalization",
+    "updated": "2021-08-16T23:23:21Z",
+    "versioned_id": "2108.07375v1"
+  },
+  "reference_sha256": "e4fc81b04ca53cc8f58be6019330005663941ffecea98ed6764ad78744ae7c6a",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 529,
+    "final_quality_rank": 383,
+    "final_quality_score": 0.622564,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.925,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.151463,
+      "component_bin": 3,
+      "connector_bin": 3,
+      "difference_hash": "a918d598d518a988d904d48ed1049908d4d8d598890ed1dad59ad1d8938ab2a8",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 548,
+    "style_selection_score": 0.501059
+  },
+  "source_filename": "over_bnnas.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "5c5e5c056413220bdd50417d2e7b94d0eaa4f6baace00e51d5cfa7f86bbfde66",
+  "task_id": "task_0528",
+  "task_index": 528
+}

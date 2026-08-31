@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2603.09405",
+  "candidate_id": "2603-09405_pdf_b46579d495617bef",
+  "caption": "Overview of . (1) A YOLO-style search space spanning channel, depth, and operator dimensions across both backbone and neck is defined. (2) 1,000 architectures are sampled via three complementary strategies and trained on COCO-mini. (3) A LightGBM predictor is trained on the resulting \\architecture, mAP\\ pairs. (4) The Self-Evolving Predictor iteratively expands the pool with high-value architectures discovered by evolutionary search, and retrains the predictor over 10 rounds, yielding an ensemble of 10 LightGBM models over 1,500 architectures.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 193,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 2196,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 350,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 2196,
+    "text_count": 132,
+    "vector_drawing_count": 218,
+    "vector_primitive_count": 2064
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 706,
+    "full_pool_rank": 1210,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 617,
+    "second_pass_review_rank": 706
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2603.09405v2",
+    "abstract": "Neural Architecture Search (NAS) for object detection is severely bottlenecked by high evaluation cost, as fully training each candidate YOLO architecture on COCO demands days of GPU time. Meanwhile, existing NAS benchmarks largely target image classification, leaving the detection community without a comparable benchmark for NAS evaluation. To address this gap, we introduce YOLO-NAS-Bench, the first surrogate benchmark tailored to YOLO-style detectors. YOLO-NAS-Bench defines a search space spanning channel width, block depth, and operator type across both backbone and neck, covering the core modules of YOLOv8 through YOLO12. We sample 1,000 architectures via random, stratified, and Latin Hypercube strategies, train them on COCO-mini, and build a LightGBM surrogate predictor. To sharpen the predictor in the high-performance regime most relevant to NAS, we propose a Self-Evolving Mechanism that progressively aligns the predictor's training distribution with the high-performance frontier, by using the predictor itself to discover and evaluate informative architectures in each iteration. This method grows the pool to 1,500 architectures and raises the ensemble predictor's R2 from 0.770 to 0.815 and Sparse Kendall Tau from 0.694 to 0.752, demonstrating strong predictive accuracy and ranking consistency. Using the final predictor as the fitness function for evolutionary search, we discover architectures that surpass all official YOLOv8-YOLO12 baselines at comparable latency on COCO-mini, confirming the predictor's discriminative power for top-performing detection architectures. The code is available at https://github.com/VDIGPKU/YOLO-NAS-Bench.",
+    "arxiv_id": "2603.09405",
+    "authors": [
+      "Zhe Li",
+      "Xiaoyu Ding",
+      "Jiaxin Zheng",
+      "Yongtao Wang"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2603.09405v2",
+    "primary_category": "cs.CV",
+    "published": "2026-03-10T09:19:16Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2603.09405v2",
+    "title": "YOLO-NAS-Bench: A Surrogate Benchmark with Self-Evolving Predictors for YOLO Architecture Search",
+    "updated": "2026-05-18T14:49:51Z",
+    "versioned_id": "2603.09405v2"
+  },
+  "reference_sha256": "7f4b41b887dec6fadadca577521f017c213ef6d4a549f93a1361de9793319d19",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 383,
+    "final_quality_rank": 270,
+    "final_quality_score": 0.647978,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.0542,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.302577,
+      "component_bin": 4,
+      "connector_bin": 3,
+      "difference_hash": "72b49532952a952a956ab518b738ced9f0d8a53cb5bcd4b4d418a518a519a538",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 393,
+    "style_selection_score": 0.516089
+  },
+  "source_filename": "pipeline.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "b46579d495617bef86e6f33f77583687ad9d733461eb8061ab9502bfeaa2e406",
+  "task_id": "task_0382",
+  "task_index": 382
+}

@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2503.23446",
+  "candidate_id": "2503-23446_pdf_e9d9425df28bc455",
+  "caption": "Semantic Empowered IoS: A layered architecture illustrating multi-modal data processing, semantic encoding/decoding, transmission mechanisms, and the integration of standardization for enhanced semantic communication in space.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 190,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.9849,
+    "editable_component_count": 1435,
+    "embedded_image_count": 22,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.015218,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 464,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1457,
+    "text_count": 164,
+    "vector_drawing_count": 278,
+    "vector_primitive_count": 1271
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 57,
+    "full_pool_rank": 69,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 53,
+    "second_pass_review_rank": 57
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2503.23446v1",
+    "abstract": "The expansion of sixth-generation (6G) wireless networks into space introduces technical challenges that conventional bit-oriented communication approaches cannot efficiently address, including intermittent connectivity, severe latency, limited bandwidth, and constrained onboard resources. To overcome these limitations, semantic communication has emerged as a transformative paradigm, shifting the communication focus from transmitting raw data to delivering context-aware, missionrelevant information. In this article, we propose a semantic communication architecture explicitly tailored for the 6G Internet of Space (IoS), integrating multi-modal semantic processing, AIdriven semantic encoding and decoding, and adaptive transmission mechanisms optimized for space environments. The effectiveness of our proposed framework is demonstrated through a representative deep-space scenario involving semantic-based monitoring of Mars dust storms. Finally, we outline open research challenges and discuss future directions toward realizing practical semantic-enabled IoS systems.",
+    "arxiv_id": "2503.23446",
+    "authors": [
+      "Hanlin Cai",
+      "Houtianfu Wang",
+      "Haofan Dong",
+      "Ozgur B. Akan"
+    ],
+    "categories": [
+      "cs.NI",
+      "cs.IT",
+      "eess.SP"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2503.23446v1",
+    "primary_category": "cs.NI",
+    "published": "2025-03-30T13:57:45Z",
+    "query": "(cat:eess.SP AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2503.23446v1",
+    "title": "Semantic Communication for the Internet of Space: New Architecture, Challenges, and Future Vision",
+    "updated": "2025-03-30T13:57:45Z",
+    "versioned_id": "2503.23446v1"
+  },
+  "reference_sha256": "11dcdc16be3b8dccf862493582af12519f650d4b99a41f41066f1be145cbb2a6",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 311,
+    "final_quality_rank": 222,
+    "final_quality_score": 0.663751,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.7348,
+      "category": "cs.NI",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.264992,
+      "component_bin": 3,
+      "connector_bin": 3,
+      "difference_hash": "178cb58da929b9497d8c22258956ab56ab569ad5326634a7b5a6b5a695a6a292",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 219,
+    "style_selection_score": 0.550958
+  },
+  "source_filename": "fig_3_Color.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "e9d9425df28bc455d45c5de4b3f326eb3b30872674a31fc5ef9dfde639c00420",
+  "task_id": "task_0310",
+  "task_index": 310
+}

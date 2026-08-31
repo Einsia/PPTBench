@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2312.06126",
+  "candidate_id": "2312-06126_pdf_0fedbd5dac7c35da",
+  "caption": "Overview of our Spreeze architecture. The experience sampling process on the CPU and the network update process on the GPU transfer experience through shared random-access memory (RAM) and synchronize the network through solid-state drive (SSD). The shown throughput takes the pybullet Walker-2d task as an example.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 65,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.993827,
+    "editable_component_count": 322,
+    "embedded_image_count": 2,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.006587,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 149,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 324,
+    "text_count": 49,
+    "vector_drawing_count": 98,
+    "vector_primitive_count": 273
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 683,
+    "full_pool_rank": 1169,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 598,
+    "second_pass_review_rank": 683
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2312.06126v1",
+    "abstract": "The promotion of large-scale applications of reinforcement learning (RL) requires efficient training computation. While existing parallel RL frameworks encompass a variety of RL algorithms and parallelization techniques, the excessively burdensome communication frameworks hinder the attainment of the hardware's limit for final throughput and training effects on a single desktop. In this paper, we propose Spreeze, a lightweight parallel framework for RL that efficiently utilizes a single desktop hardware resource to approach the throughput limit. We asynchronously parallelize the experience sampling, network update, performance evaluation, and visualization operations, and employ multiple efficient data transmission techniques to transfer various types of data between processes. The framework can automatically adjust the parallelization hyperparameters based on the computing ability of the hardware device in order to perform efficient large-batch updates. Based on the characteristics of the \"Actor-Critic\" RL algorithm, our framework uses dual GPUs to independently update the network of actors and critics in order to further improve throughput. Simulation results show that our framework can achieve up to 15,000Hz experience sampling and 370,000Hz network update frame rate using only a personal desktop computer, which is an order of magnitude higher than other mainstream parallel RL frameworks, resulting in a 73% reduction of training time. Our work on fully utilizing the hardware resources of a single desktop computer is fundamental to enabling efficient large-scale distributed RL training.",
+    "arxiv_id": "2312.06126",
+    "authors": [
+      "Jing Hou",
+      "Guang Chen",
+      "Ruiqi Zhang",
+      "Zhijun Li",
+      "Shangding Gu",
+      "Changjun Jiang"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.DC"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2312.06126v1",
+    "primary_category": "cs.LG",
+    "published": "2023-12-11T05:25:01Z",
+    "query": "(cat:cs.LG AND all:framework) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2312.06126v1",
+    "title": "Spreeze: High-Throughput Parallel Reinforcement Learning Framework",
+    "updated": "2023-12-11T05:25:01Z",
+    "versioned_id": "2312.06126v1"
+  },
+  "reference_sha256": "55188acc030307f25b523cc76848560719b61f2038b5f2aa79877b6f7df0194f",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 926,
+    "final_quality_rank": 814,
+    "final_quality_score": 0.516017,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.9809,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.112049,
+      "component_bin": 1,
+      "connector_bin": 2,
+      "difference_hash": "800ca563866d9a75336cd72dd34cd34dbc71dd05d34cab0da30ea38e33041926",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 937,
+    "style_selection_score": 0.422756
+  },
+  "source_filename": "pipeline-Throughput-20231108.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "0fedbd5dac7c35da89ede764dcc9ed268b043dcf321d86de8fd7f906fb69d8f6",
+  "task_id": "task_0925",
+  "task_index": 925
+}

@@ -1,0 +1,86 @@
+{
+  "arxiv_id": "2606.20989",
+  "candidate_id": "2606-20989_pdf_3163353c64d49897",
+  "caption": "Dependency graph of OxyMake's -crate workspace architecture. ox-cli sits at the top as the entry point, delegating to ox-core (engine), ox-format (TOML parser), ox-state (SQLite persistence), and specialized crates for execution, reporting, monitoring, and translation.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 73,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 311,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 107,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 311,
+    "text_count": 34,
+    "vector_drawing_count": 73,
+    "vector_primitive_count": 277
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 162,
+    "full_pool_rank": 213,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 144,
+    "second_pass_review_rank": 162
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2606.20989v2",
+    "abstract": "Make-lineage workflow runners decide whether a job must re-run from file-modification time (mtime, a timestamp) -- a broken proxy for the question that matters: did the content change? A git checkout, a tree copy, or a backup restore rewrites mtimes without touching content, forcing spurious re-execution; and in the reverse case -- when an output looks newer than its inputs but its content is stale -- the stale output is silently reused. (Snakemake 7's per-output provenance survives this churn, as local bookkeeping; GNU Make and pure-mtime fast paths are where it bites.) OxyMake, a single-binary Rust workflow engine, replaces the proxy with a content-addressed cache key: a BLAKE3 hash of rule source, input content, parameters, environment, and platform. Because the key is a pure function of these declared inputs, the caching decision survives mtime churn and travels across same-platform machines and shared caches. Phantom re-runs vanish for declared inputs (no sandbox: an undeclared input is invisible to the key). The spec stays declarative and statically parseable, keeping the Make rule model so Snakemake pipelines port directly. DAG resolution is an order of magnitude faster than Snakemake's on large graphs, but a cold end-to-end run is slower -- the price of content-addressed bookkeeping -- repaid several-fold on the warm re-run that caching exists to serve (exact figures, hardware, and a bundled reproducer are in the evaluation). Execution is daemon-free via a cooperative claim/reclaim protocol (sessions claim jobs, reclaiming stalled ones); today two sessions duplicate work safely rather than coordinate, and wiring the protocol as a hard execution gate is staged, not yet done. Cross-session safety is specified in TLA+ and model-checked over all interleavings for 2-3 sessions, assuming atomic state commits. A plan-of-record lockfile and NDJSON event stream record exactly what ran.",
+    "arxiv_id": "2606.20989",
+    "authors": [
+      "Emmanuel S\u00e9ri\u00e9"
+    ],
+    "categories": [
+      "cs.SE"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2606.20989v2",
+    "primary_category": "cs.SE",
+    "published": "2026-06-18T23:45:52Z",
+    "query": "(cat:cs.SE AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2606.20989v2",
+    "title": "OxyMake: A Formally-Specified, Content-Addressable Workflow Engine",
+    "updated": "2026-06-23T13:07:43Z",
+    "versioned_id": "2606.20989v2"
+  },
+  "reference_sha256": "1a8bef4bf242230339089bee9bba53a31793ebc48b5d8a8e5c95c82446955aa6",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 748,
+    "final_quality_rank": 562,
+    "final_quality_score": 0.588268,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 3.7926,
+      "category": "cs.SE",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.301624,
+      "component_bin": 1,
+      "connector_bin": 2,
+      "difference_hash": "100009003800f800a500d600d600f200c880c8a0ca804940aac6a2c6a2c40000",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 787,
+    "style_selection_score": 0.474351
+  },
+  "source_filename": "crate-architecture.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "3163353c64d498979d5880f16a34d22d64d960fc317df177234083d528877bcf",
+  "task_id": "task_0747",
+  "task_index": 747
+}

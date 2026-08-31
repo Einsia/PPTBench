@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2304.11090",
+  "candidate_id": "2304-11090_pdf_b6dd00791ffa8a35",
+  "caption": "Architecture evolution: from \"foundation-model-as-a-connector\" to \"foundation-model-as-a-monolithic-architecture\".",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 33,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 158,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 104,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 158,
+    "text_count": 20,
+    "vector_drawing_count": 84,
+    "vector_primitive_count": 138
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 1234,
+    "full_pool_rank": 2379,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 1086,
+    "second_pass_review_rank": 1234
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2304.11090v5",
+    "abstract": "The release of ChatGPT, Gemini, and other large language model has drawn huge interests on foundations models. There is a broad consensus that foundations models will be the fundamental building blocks for future AI systems. However, there is a lack of systematic guidance on the architecture design. Particularly, the the rapidly growing capabilities of foundations models can eventually absorb other components of AI systems, posing challenges of moving boundary and interface evolution in architecture design. Furthermore, incorporating foundations models into AI systems raises significant concerns about responsible and safe AI due to their opaque nature and rapidly advancing intelligence. To address these challenges, the paper first presents an architecture evolution of AI systems in the era of foundation models, transitioning from \"foundation-model-as-a-connector\" to \"foundation-model-as-a-monolithic architecture\". The paper then identifies key design decisions and proposes a pattern-oriented reference architecture for designing responsible foundation-model-based systems. The patterns can enable the potential of foundation models while ensuring associated risks.",
+    "arxiv_id": "2304.11090",
+    "authors": [
+      "Qinghua Lu",
+      "Liming Zhu",
+      "Xiwei Xu",
+      "Zhenchang Xing",
+      "Jon Whittle"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.SE"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2304.11090v5",
+    "primary_category": "cs.CL",
+    "published": "2023-04-13T05:01:03Z",
+    "query": "(cat:cs.CL AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2304.11090v5",
+    "title": "A Reference Architecture for Designing Foundation Model based Systems",
+    "updated": "2024-07-16T08:35:43Z",
+    "versioned_id": "2304.11090v5"
+  },
+  "reference_sha256": "7012278f04e86260ea377026e4b4f049013a2afffa3dce28ada7ba4cfa561214",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 910,
+    "final_quality_rank": 975,
+    "final_quality_score": 0.389338,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 3.109,
+      "category": "cs.CL",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.0,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "89228c74c331cb36c91edb349b369262526cc974cc43ccd6c6f6c47696c98922",
+      "raster_bin": 0
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "architecture.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "b6dd00791ffa8a357fcd710eb7de1174f4d40d2ef4b2e023e6ecb4e1ad16eef4",
+  "task_id": "task_0909",
+  "task_index": 909
+}

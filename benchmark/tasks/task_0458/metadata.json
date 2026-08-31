@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2310.09525",
+  "candidate_id": "2310-09525_pdf_08d44a2a6dbd5fbe",
+  "caption": "Schematic diagram of the network structure and the internal structure of the cell.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 130,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 418,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 252,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 418,
+    "text_count": 66,
+    "vector_drawing_count": 186,
+    "vector_primitive_count": 352
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2310.09525v1",
+    "abstract": "Neural network architecture search provides a solution to the automatic design of network structures. However, it is difficult to search the whole network architecture directly. Although using stacked cells to search neural network architectures is an effective way to reduce the complexity of searching, these methods do not able find the global optimal neural network structure since the number of layers, cells and connection methods is fixed. In this paper, we propose a Two-Stage Evolution for cell-based Network Architecture Search(TS-ENAS), including one-stage searching based on stacked cells and second-stage adjusting these cells. In our algorithm, a new cell-based search space and an effective two-stage encoding method are designed to represent cells and neural network structures. In addition, a cell-based weight inheritance strategy is designed to initialize the weight of the network, which significantly reduces the running time of the algorithm. The proposed methods are extensively tested and compared on four image classification dataset, Fashion-MNIST, CIFAR10, CIFAR100 and ImageNet and compared with 22 state-of-the-art algorithms including hand-designed networks and NAS networks. The experimental results show that TS-ENAS can more effectively find the neural network architecture with comparative performance.",
+    "arxiv_id": "2310.09525",
+    "authors": [
+      "Juan Zou",
+      "Shenghong Wu",
+      "Yizhang Xia",
+      "Weiwei Jiang",
+      "Zeping Wu",
+      "Jinhua Zheng"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2310.09525v1",
+    "primary_category": "cs.CV",
+    "published": "2023-10-14T08:02:01Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2310.09525v1",
+    "title": "TS-ENAS:Two-Stage Evolution for Cell-based Network Architecture Search",
+    "updated": "2023-10-14T08:02:01Z",
+    "versioned_id": "2310.09525v1"
+  },
+  "reference_sha256": "68fa55ee1ae7f71ec172fae349708f33aac802fb5ec30fd8fda8e6f0ec081696",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 459,
+    "final_quality_rank": 322,
+    "final_quality_score": 0.634375,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.1732,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.402343,
+      "component_bin": 2,
+      "connector_bin": 2,
+      "difference_hash": "695870187174d468a228716ef06c70d5695af059f86ef0c670d5703469541008",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 445,
+    "style_selection_score": 0.506488
+  },
+  "source_filename": "Fig1.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "08d44a2a6dbd5fbe448dc9c2cb8452ebd5a8ad42cd638a7c4d2553495558d789",
+  "task_id": "task_0458",
+  "task_index": 458
+}

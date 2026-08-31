@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2401.05875",
+  "candidate_id": "2401-05875_pdf_d827c11c0290166a",
+  "caption": "Flowchart depicting the transformation from original articles to structured data through various prompts and processing stages, utilizing different GPT versions.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 128,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.978799,
+    "editable_component_count": 1108,
+    "embedded_image_count": 24,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.008236,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 155,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1132,
+    "text_count": 0,
+    "vector_drawing_count": 131,
+    "vector_primitive_count": 1108
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 908,
+    "full_pool_rank": 1555,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 797,
+    "second_pass_review_rank": 908
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2401.05875v1",
+    "abstract": "A comprehensive database of magnetic materials is valuable for researching the properties of magnetic materials and discovering new ones. This article introduces a novel workflow that leverages large language models for extracting key information from scientific literature. From 22,120 articles in the Journal of Magnetism and Magnetic Materials, a database containing 2,035 magnetic materials was automatically generated, with ferromagnetic materials constituting 76% of the total. Each entry in the database includes the material's chemical compounds, as well as related structures (space group, crystal structure) and magnetic temperatures (Curie, N'eel, and other transitional temperatures). To ensure data accuracy, we meticulously compared each entry in the database against the original literature, verifying the precision and reliability of each entry.",
+    "arxiv_id": "2401.05875",
+    "authors": [
+      "Yibo Zhang",
+      "Suman Itani",
+      "Kamal Khanal",
+      "Emmanuel Okyere",
+      "Gavin Smith",
+      "Koichiro Takahashi",
+      "Jiadong Zang"
+    ],
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2401.05875v1",
+    "primary_category": "cond-mat.mtrl-sci",
+    "published": "2024-01-11T12:34:39Z",
+    "query": "(cat:cond-mat.mtrl-sci AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2401.05875v1",
+    "title": "GPTArticleExtractor: An Automated Workflow for Magnetic Material Database Construction",
+    "updated": "2024-01-11T12:34:39Z",
+    "versioned_id": "2401.05875v1"
+  },
+  "reference_sha256": "3349dfbb47bc37261868b24ab09f2d18c4472ca831ed9ee52d6da3c8d93bf337",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 344,
+    "final_quality_rank": 414,
+    "final_quality_score": 0.615615,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.7778,
+      "category": "cond-mat.mtrl-sci",
+      "category_family": "cond-mat",
+      "color_bin": 1,
+      "colorfulness": 0.133659,
+      "component_bin": 3,
+      "connector_bin": 2,
+      "difference_hash": "20d8c0180118a518a41a371a0b1890580069996818192948eb691d7818190817",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 366,
+    "style_selection_score": 0.52266
+  },
+  "source_filename": "workflow.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "d827c11c0290166aa383c5d6cd2a0d2ecb41c5faacf8541386b279d3543c9463",
+  "task_id": "task_0343",
+  "task_index": 343
+}

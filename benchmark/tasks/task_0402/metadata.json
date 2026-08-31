@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2410.19367",
+  "candidate_id": "2410-19367_pdf_f1e8416c0922be5b",
+  "caption": "Device mapping for bidirectional pipelines. S_i denotes stage- i for each model replica, and a red dashed double arrow represents an allreduce.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 84,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 2508,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 138,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 2508,
+    "text_count": 37,
+    "vector_drawing_count": 101,
+    "vector_primitive_count": 2471
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 1019,
+    "full_pool_rank": 1805,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 901,
+    "second_pass_review_rank": 1019
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2410.19367v1",
+    "abstract": "With the increasing scale of models, the need for efficient distributed training has become increasingly urgent. Recently, many synchronous pipeline parallelism approaches have been proposed to improve training throughput. However, these approaches still suffer from two major issues, i.e., pipeline bubbles caused by periodic flushing and extra communication due to the increasing number of pipeline stages. To this end, we propose BitPipe, a bidirectional interleaved pipeline parallelism for accelerating large models training. Specifically, a hybrid scheme of fusing interleaved pipelines with bidirectional pipelines is proposed to reduce the computational time of each single micro-batch and multiply the number of devices executing simultaneously. A V-shaped schedule with eager gradient synchronization is introduced to reduce and overlap the communication between devices. Experiments conducted on up to 32 GPUs show that BitPipe improves the training throughput of GPT-style and BERT-style models by 1.05x-1.28x compared to the state-of-the-art synchronous approaches. The code of our implementation is available at https://github.com/wuhouming/BitPipe.",
+    "arxiv_id": "2410.19367",
+    "authors": [
+      "Houming Wu",
+      "Ling Chen",
+      "Wenjie Yu"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.DC"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2410.19367v1",
+    "primary_category": "cs.LG",
+    "published": "2024-10-25T08:08:51Z",
+    "query": "(cat:cs.AI AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2410.19367v1",
+    "title": "BitPipe: Bidirectional Interleaved Pipeline Parallelism for Accelerating Large Models Training",
+    "updated": "2024-10-25T08:08:51Z",
+    "versioned_id": "2410.19367v1"
+  },
+  "reference_sha256": "17598fadb8f16236bd4e9666580dfda071e6dc2009fd6e3b7f8b3a2195552286",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 403,
+    "final_quality_rank": 289,
+    "final_quality_score": 0.643462,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.4,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 4,
+      "colorfulness": 0.681174,
+      "component_bin": 4,
+      "connector_bin": 2,
+      "difference_hash": "20e0c4dcccccccccd2b4cccccccc9236ccdccccc9234ccccccccd0c4e4ccccac",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 475,
+    "style_selection_score": 0.518617
+  },
+  "source_filename": "devicemapping.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "f1e8416c0922be5b5fcb7804523e93fc7fd27256a3f7df35a60cd6a64fbdfa2b",
+  "task_id": "task_0402",
+  "task_index": 402
+}

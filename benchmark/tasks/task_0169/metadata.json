@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2604.07013",
+  "candidate_id": "2604-07013_pdf_11908797fb7fe0c7",
+  "caption": "NAS pipeline. Data and objectives feed a NAS engine that evolves DNN architectures via a supernet and accuracy predictor.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 136,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.997773,
+    "editable_component_count": 896,
+    "embedded_image_count": 2,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.020783,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 150,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 898,
+    "text_count": 12,
+    "vector_drawing_count": 136,
+    "vector_primitive_count": 884
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2604.07013v1",
+    "abstract": "Designing quantum neural networks (QNNs) that are both accurate and deployable on NISQ hardware is challenging. Handcrafted ansatze must balance expressivity, trainability, and resource use, while limited qubits often necessitate circuit cutting. Existing quantum architecture search methods primarily optimize accuracy while only heuristically controlling quantum and mostly ignore the exponential overhead of circuit cutting. We introduce QNAS, a neural architecture search framework that unifies hardware aware evaluation, multi objective optimization, and cutting overhead awareness for hybrid quantum classical neural networks (HQNNs). QNAS trains a shared parameter SuperCircuit and uses NSGA-II to optimize three objectives jointly: (i) validation error, (ii) a runtime cost proxy measuring wall clock evaluation time, and (iii) the estimated number of subcircuits under a target qubit budget. QNAS evaluates candidate HQNNs under a few epochs of training and discovers clear Pareto fronts that reveal tradeoffs between accuracy, efficiency, and cutting overhead. Across MNIST, Fashion-MNIST, and Iris benchmarks, we observe that embedding type and CNOT mode selection significantly impact both accuracy and efficiency, with angle-y embedding and sparse entangling patterns outperforming other configurations on image datasets, and amplitude embedding excelling on tabular data (Iris). On MNIST, the best architecture achieves 97.16% test accuracy with a compact 8 qubit, 2 layer circuit; on the more challenging Fashion-MNIST, 87.38% with a 5 qubit, 2 layer circuit; and on Iris, 100% validation accuracy with a 4 qubit, 2 layer circuit. QNAS surfaces these design insights automatically during search, guiding practitioners toward architectures that balance accuracy, resource efficiency, and practical deployability on current hardware.",
+    "arxiv_id": "2604.07013",
+    "authors": [
+      "Kooshan Maleki",
+      "Alberto Marchisio",
+      "Muhammad Shafique"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2604.07013v1",
+    "primary_category": "quant-ph",
+    "published": "2026-04-08T12:34:01Z",
+    "query": "(cat:quant-ph AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2604.07013v1",
+    "title": "QNAS: A Neural Architecture Search Framework for Accurate and Efficient Quantum Neural Networks",
+    "updated": "2026-04-08T12:34:01Z",
+    "versioned_id": "2604.07013v1"
+  },
+  "reference_sha256": "bff513b6764e6863aa445138bafcd0af5ca69eb2a594e5051f7b31304daf7028",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 170,
+    "final_quality_rank": 232,
+    "final_quality_score": 0.660778,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.8694,
+      "category": "quant-ph",
+      "category_family": "quant-ph",
+      "color_bin": 3,
+      "colorfulness": 0.485155,
+      "component_bin": 2,
+      "connector_bin": 2,
+      "difference_hash": "c71ac71aa69aa61aa69ae61c781c98fa387a181c6a3c783a383c783c783c2632",
+      "raster_bin": 2
+    },
+    "style_selection_rank": 297,
+    "style_selection_score": 0.537449
+  },
+  "source_filename": "NAS.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "11908797fb7fe0c72349a54eda590705a687f834c10c1bee2bfcff984684d338",
+  "task_id": "task_0169",
+  "task_index": 169
+}

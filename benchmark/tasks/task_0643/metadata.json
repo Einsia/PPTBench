@@ -1,0 +1,88 @@
+{
+  "arxiv_id": "2107.00764",
+  "candidate_id": "2107-00764_pdf_6684e463a75ff02c",
+  "caption": "Pipeline for combining a frame-synchronous system and a label-synchronous system. Rounded box indicates trainable models and rectangular box indicates an algorithm or a procedure.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 45,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 252,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 77,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 252,
+    "text_count": 29,
+    "vector_drawing_count": 48,
+    "vector_primitive_count": 223
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 199,
+    "full_pool_rank": 266,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 176,
+    "second_pass_review_rank": 199
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2107.00764v1",
+    "abstract": "Commonly used automatic speech recognition (ASR) systems can be classified into frame-synchronous and label-synchronous categories, based on whether the speech is decoded on a per-frame or per-label basis. Frame-synchronous systems, such as traditional hidden Markov model systems, can easily incorporate existing knowledge and can support streaming ASR applications. Label-synchronous systems, based on attention-based encoder-decoder models, can jointly learn the acoustic and language information with a single model, which can be regarded as audio-grounded language models. In this paper, we propose rescoring the N-best hypotheses or lattices produced by a first-pass frame-synchronous system with a label-synchronous system in a second-pass. By exploiting the complementary modelling of the different approaches, the combined two-pass systems achieve competitive performance without using any extra speech or text data on two standard ASR tasks. For the 80-hour AMI IHM dataset, the combined system has a 13.7% word error rate (WER) on the evaluation set, which is up to a 29% relative WER reduction over the individual systems. For the 300-hour Switchboard dataset, the WERs of the combined system are 5.7% and 12.1% on Switchboard and CallHome subsets of Hub5'00, and 13.2% and 7.6% on Switchboard Cellular and Fisher subsets of RT03, up to a 33% relative reduction in WER over the individual systems.",
+    "arxiv_id": "2107.00764",
+    "authors": [
+      "Qiujia Li",
+      "Chao Zhang",
+      "Philip C. Woodland"
+    ],
+    "categories": [
+      "eess.AS"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2107.00764v1",
+    "primary_category": "eess.AS",
+    "published": "2021-07-01T22:27:53Z",
+    "query": "(cat:eess.AS AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2107.00764v1",
+    "title": "Combining Frame-Synchronous and Label-Synchronous Systems for Speech Recognition",
+    "updated": "2021-07-01T22:27:53Z",
+    "versioned_id": "2107.00764v1"
+  },
+  "reference_sha256": "fa0b6b6e7d9622e7db3e0f169f8a680f6a3ce602201e87b306f1165ae5f61f15",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 644,
+    "final_quality_rank": 839,
+    "final_quality_score": 0.503546,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 4.1967,
+      "category": "eess.AS",
+      "category_family": "eess",
+      "color_bin": 0,
+      "colorfulness": 0.005823,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "3900392039090d40c40b3e4be34c56e9445800ce0ac740ce40d12909616950c7",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 850,
+    "style_selection_score": 0.433859
+  },
+  "source_filename": "pipeline.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "6684e463a75ff02c0f1f7e0810f3b1786d79d9ebe4e78ef25fa04fbe60912fda",
+  "task_id": "task_0643",
+  "task_index": 643
+}

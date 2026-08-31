@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2304.10515",
+  "candidate_id": "2304-10515_pdf_858afa6eabad1d9a",
+  "caption": "Illustration of the proposed CP-CNN framework. (a) The architecture of the CP-CNN with one convolution stem, four consecutive CP-Blocks, followed by one 1 1 convolution, one pooling and one fully-connected layer. (b)The construction of CP-Block and the illustration of the node in CP-Block. The core-periphery graph is mapped as a computational graph for CP-Block based on the node operation. (c) Utilizing core-periphery graph to constrain the convolution operation.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 176,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.983558,
+    "editable_component_count": 658,
+    "embedded_image_count": 11,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.025706,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 266,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 669,
+    "text_count": 56,
+    "vector_drawing_count": 199,
+    "vector_primitive_count": 602
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 420,
+    "full_pool_rank": 620,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 365,
+    "second_pass_review_rank": 420
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2304.10515v1",
+    "abstract": "The evolution of convolutional neural networks (CNNs) can be largely attributed to the design of its architecture, i.e., the network wiring pattern. Neural architecture search (NAS) advances this by automating the search for the optimal network architecture, but the resulting network instance may not generalize well in different tasks. To overcome this, exploring network design principles that are generalizable across tasks is a more practical solution. In this study, We explore a novel brain-inspired design principle based on the core-periphery property of the human brain network to guide the design of CNNs. Our work draws inspiration from recent studies suggesting that artificial and biological neural networks may have common principles in optimizing network architecture. We implement the core-periphery principle in the design of network wiring patterns and the sparsification of the convolution operation. The resulting core-periphery principle guided CNNs (CP-CNNs) are evaluated on three different datasets. The experiments demonstrate the effectiveness and superiority compared to CNNs and ViT-based methods. Overall, our work contributes to the growing field of brain-inspired AI by incorporating insights from the human brain into the design of neural networks.",
+    "arxiv_id": "2304.10515",
+    "authors": [
+      "Lin Zhao",
+      "Haixing Dai",
+      "Zihao Wu",
+      "Dajiang Zhu",
+      "Tianming Liu"
+    ],
+    "categories": [
+      "cs.NE",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2304.10515v1",
+    "primary_category": "cs.NE",
+    "published": "2023-03-27T03:59:43Z",
+    "query": "(cat:cs.NE AND all:\"network architecture\") AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2304.10515v1",
+    "title": "CP-CNN: Core-Periphery Principle Guided Convolutional Neural Network",
+    "updated": "2023-03-27T03:59:43Z",
+    "versioned_id": "2304.10515v1"
+  },
+  "reference_sha256": "afa538e625885afa3f117c290a8428bcb65062a997a81c3655cf9179cbd41116",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 713,
+    "final_quality_rank": 528,
+    "final_quality_score": 0.593011,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.5742,
+      "category": "cs.NE",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.123793,
+      "component_bin": 2,
+      "connector_bin": 3,
+      "difference_hash": "ccecc2d8c2dc946c5ce08186896e8836b0c6972635a6a896f34ce8c6cca2cde8",
+      "raster_bin": 2
+    },
+    "style_selection_rank": 566,
+    "style_selection_score": 0.489859
+  },
+  "source_filename": "Figure2.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "858afa6eabad1d9a29b83ab27db3ef9bfa98d21f4bfdfdd02df9e10b9903a47d",
+  "task_id": "task_0712",
+  "task_index": 712
+}

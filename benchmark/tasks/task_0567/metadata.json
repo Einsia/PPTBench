@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2511.19423",
+  "candidate_id": "2511-19423_pdf_d83affa0e0fa263f",
+  "caption": "Overview of Genie-CAT's LLM-guided agentic system workflow: The system identifies the different components in the workflow to be executed based on user query. Inputs (literature, PDB structures) are then processed through RAG, structural analysis, electrostatic calculations, and/or redox modeling. The evidence from different analysis is then summarized to the scientist enabling them to generate mechanistic hypotheses",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 31,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.984043,
+    "editable_component_count": 185,
+    "embedded_image_count": 3,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.005462,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 77,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 188,
+    "text_count": 40,
+    "vector_drawing_count": 34,
+    "vector_primitive_count": 145
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 365,
+    "full_pool_rank": 499,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 314,
+    "second_pass_review_rank": 365
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2511.19423v1",
+    "abstract": "We present Genie-CAT, a tool-augmented large-language-model (LLM) system designed to accelerate scientific hypothesis generation in protein design. Using metalloproteins (e.g., ferredoxins) as a case study, Genie-CAT integrates four capabilities -- literature-grounded reasoning through retrieval-augmented generation (RAG), structural parsing of Protein Data Bank files, electrostatic potential calculations, and machine-learning prediction of redox properties -- into a unified agentic workflow. By coupling natural-language reasoning with data-driven and physics-based computation, the system generates mechanistically interpretable, testable hypotheses linking sequence, structure, and function. In proof-of-concept demonstrations, Genie-CAT autonomously identifies residue-level modifications near [Fe--S] clusters that affect redox tuning, reproducing expert-derived hypotheses in a fraction of the time. The framework highlights how AI agents combining language models with domain-specific tools can bridge symbolic reasoning and numerical simulation, transforming LLMs from conversational assistants into partners for computational discovery.",
+    "arxiv_id": "2511.19423",
+    "authors": [
+      "Bruno Jacob",
+      "Khushbu Agarwal",
+      "Marcel Baer",
+      "Peter Rice",
+      "Simone Raugei"
+    ],
+    "categories": [
+      "q-bio.QM",
+      "cs.AI"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2511.19423v1",
+    "primary_category": "q-bio.QM",
+    "published": "2025-11-24T18:57:07Z",
+    "query": "(cat:q-bio.QM AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2511.19423v1",
+    "title": "Beyond Protein Language Models: An Agentic LLM Framework for Mechanistic Enzyme Design",
+    "updated": "2025-11-24T18:57:07Z",
+    "versioned_id": "2511.19423v1"
+  },
+  "reference_sha256": "3058ddc70b6360b1c50b9215e515ed9e1c8fec9e1b832401d0f823eb1dd41110",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 568,
+    "final_quality_rank": 762,
+    "final_quality_score": 0.536488,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.4721,
+      "category": "q-bio.QM",
+      "category_family": "q-bio",
+      "color_bin": 3,
+      "colorfulness": 0.326483,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "2d000d00090029008e841e004acccccecce6cccecccc4aa89f0cdf04df0c1b2c",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 781,
+    "style_selection_score": 0.468579
+  },
+  "source_filename": "genie-cat-diagram-paper.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "d83affa0e0fa263faf998578988aba409e0267bb90adc3c735393f71a90deccd",
+  "task_id": "task_0567",
+  "task_index": 567
+}

@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2604.18327",
+  "candidate_id": "2604-18327_pdf_3f468d17d1c7154a",
+  "caption": "Illustration of the proposed pipeline given a concrete optimization problem. The figure shows the entire workflow, starting from a problem statement (top left), through the automatic generation of multiple problem formulations and solution candidates by large language models (LLMs), to their evaluation and selection using reward models. Example outputs at each stage are provided, including candidate formulations and solutions, as well as the final selected (gold) formulation and solution.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 45,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.993462,
+    "editable_component_count": 4103,
+    "embedded_image_count": 27,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.010233,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 144,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 4130,
+    "text_count": 71,
+    "vector_drawing_count": 46,
+    "vector_primitive_count": 4032
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 941,
+    "full_pool_rank": 1638,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 828,
+    "second_pass_review_rank": 941
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2604.18327v1",
+    "abstract": "Reward models (RMs) are central to aligning large language models (LLMs) with human preferences, powering RLHF and advanced decoding strategies. While most prior work focuses on single-step generation, real-world applications increasingly adopt multi-stage LLM pipelines, where effective reward guidance remains underexplored. We investigate this through code generation for combinatorial optimization, constructing a pipeline that integrates reward models into both formulation and solution stages. We identify a critical challenge: inconsistency between reward model predictions and actual pipeline execution outcomes. To address this, we propose the Pipeline-Adapted Reward Model (PARM), which leverages pipeline-specific data and direct preference optimization to align rewards with downstream feedback. We instantiate PARM as a two-stage pipeline (formulation -> code generation) and evaluate it on four public optimization benchmarks, measuring execution rate and solving accuracy against baselines and sampling methods. A supplementary cross-domain experiment on GSM8K assesses transferability. Results demonstrate that PARM consistently improves pipeline output quality and stability, providing new insights into reward modeling for multi-stage LLM reasoning.",
+    "arxiv_id": "2604.18327",
+    "authors": [
+      "Xingyu Fan",
+      "Wei Shao",
+      "Jiacheng Liu",
+      "Linqi Song",
+      "Pheng Ann Heng"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2604.18327v1",
+    "primary_category": "cs.AI",
+    "published": "2026-04-20T14:29:08Z",
+    "query": "(cat:cs.AI AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2604.18327v1",
+    "title": "PARM: Pipeline-Adapted Reward Model",
+    "updated": "2026-04-20T14:29:08Z",
+    "versioned_id": "2604.18327v1"
+  },
+  "reference_sha256": "849a5b1b4bf94e7bc45de5a9a048189bae5c7c151140e269d10472d43fc5a591",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 643,
+    "final_quality_rank": 462,
+    "final_quality_score": 0.606148,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.7141,
+      "category": "cs.AI",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.32684,
+      "component_bin": 4,
+      "connector_bin": 1,
+      "difference_hash": "901083448d96a090b11289168b248910c192a962c50ac11ac932e542a1528101",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 574,
+    "style_selection_score": 0.495126
+  },
+  "source_filename": "example_instruction.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "3f468d17d1c7154a9174f2beb23c3b181063a6193d196d584943b33d1d275512",
+  "task_id": "task_0642",
+  "task_index": 642
+}

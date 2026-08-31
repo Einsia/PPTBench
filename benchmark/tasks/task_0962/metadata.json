@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2502.15228",
+  "candidate_id": "2502-15228_pdf_f0c8c12adcbb669b",
+  "caption": "AutoMR's modular and hierarchical architecture, illustrating the interaction between core modules and dataset-specific training scripts. The upper layer consists of fundamental components for dataset preprocessing, augmentation, model selection, training, and hyperparameter tuning, ensuring a standardized and optimized workflow. The lower layer contains dataset-specific execution scripts that utilize these core modules for model training on individual datasets, enabling efficient adaptation across diverse sensor modalities.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 7,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 819,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 38,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 819,
+    "text_count": 16,
+    "vector_drawing_count": 22,
+    "vector_primitive_count": 803
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 616,
+    "full_pool_rank": 999,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 537,
+    "second_pass_review_rank": 616
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2502.15228v1",
+    "abstract": "In this paper, we present an end-to-end automated motion recognition (AutoMR) pipeline designed for multimodal datasets. The proposed framework seamlessly integrates data preprocessing, model training, hyperparameter tuning, and evaluation, enabling robust performance across diverse scenarios. Our approach addresses two primary challenges: 1) variability in sensor data formats and parameters across datasets, which traditionally requires task-specific machine learning implementations, and 2) the complexity and time consumption of hyperparameter tuning for optimal model performance. Our library features an all-in-one solution incorporating QuartzNet as the core model, automated hyperparameter tuning, and comprehensive metrics tracking. Extensive experiments demonstrate its effectiveness on 10 diverse datasets, achieving state-of-the-art performance. This work lays a solid foundation for deploying motion-capture solutions across varied real-world applications.",
+    "arxiv_id": "2502.15228",
+    "authors": [
+      "Likun Zhang",
+      "Sicheng Yang",
+      "Zhuo Wang",
+      "Haining Liang",
+      "Junxiao Shen"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2502.15228v1",
+    "primary_category": "cs.CV",
+    "published": "2025-02-21T05:59:41Z",
+    "query": "(cat:cs.AI AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2502.15228v1",
+    "title": "AutoMR: A Universal Time Series Motion Recognition Pipeline",
+    "updated": "2025-02-21T05:59:41Z",
+    "versioned_id": "2502.15228v1"
+  },
+  "reference_sha256": "094e6b047d9af7cff3f930149e332c73262d49f67bd6746604251e0dd9b5f8f8",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 963,
+    "final_quality_rank": 880,
+    "final_quality_score": 0.481689,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 3.2941,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.198349,
+      "component_bin": 2,
+      "connector_bin": 0,
+      "difference_hash": "66926f906b1c712eb44ca136613679ac6fa06d8a7aa46232bc64b9d869987066",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 960,
+    "style_selection_score": 0.40323
+  },
+  "source_filename": "dependencies.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "f0c8c12adcbb669b3603ecce6fce0b2c6723be039fa6927c50516763439e0d18",
+  "task_id": "task_0962",
+  "task_index": 962
+}

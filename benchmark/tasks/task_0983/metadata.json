@@ -1,0 +1,88 @@
+{
+  "arxiv_id": "2108.08672",
+  "candidate_id": "2108-08672_pdf_17669a3da9e412ae",
+  "caption": "System-level design flow for optimizing memory architectures",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 18,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 149,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 59,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 149,
+    "text_count": 25,
+    "vector_drawing_count": 34,
+    "vector_primitive_count": 124
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 418,
+    "full_pool_rank": 617,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 363,
+    "second_pass_review_rank": 418
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2108.08672v1",
+    "abstract": "The never-ending demand for high performance and energy efficiency is pushing designers towards an increasing level of heterogeneity and specialization in modern computing systems. In such systems, creating efficient memory architectures is one of the major opportunities for optimizing modern workloads (e.g., computer vision, machine learning, graph analytics, etc.) that are extremely data-driven. However, designers demand proper design methods to tackle the increasing design complexity and address several new challenges, like the security and privacy of the data to be elaborated. This paper overviews the current trend for the design of domain-specific memory architectures. Domain-specific architectures are tailored for the given application domain, with the introduction of hardware accelerators and custom memory modules while maintaining a certain level of flexibility. We describe the major components, the common challenges, and the state-of-the-art design methodologies for building domain-specific memory architectures. We also discuss the most relevant research projects, providing a classification based on our main topics.",
+    "arxiv_id": "2108.08672",
+    "authors": [
+      "Stephanie Soldavini",
+      "Christian Pilato"
+    ],
+    "categories": [
+      "cs.DC",
+      "cs.AR"
+    ],
+    "doi": "10.29292/jics.v16i2.509",
+    "journal_ref": "Journal of Integrated Circuits and Systems, vol. 16, n. 2, 2021",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2108.08672v1",
+    "primary_category": "cs.DC",
+    "published": "2021-08-19T13:26:39Z",
+    "query": "(cat:cs.DC AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2108.08672v1",
+    "title": "A Survey on Domain-Specific Memory Architectures",
+    "updated": "2021-08-19T13:26:39Z",
+    "versioned_id": "2108.08672v1"
+  },
+  "reference_sha256": "e60fb07ea85203b1f8f4a01d8c83e4732c32c55491a47045db6f6150ce5fdb13",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 984,
+    "final_quality_rank": 928,
+    "final_quality_score": 0.446938,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 2,
+      "aspect_ratio": 1.1325,
+      "category": "cs.DC",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.019165,
+      "component_bin": 0,
+      "connector_bin": 0,
+      "difference_hash": "b2ba62a1acbef5d134c36aa162b132b334d358e54dc5b452fcc153255d052d4b",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 947,
+    "style_selection_score": 0.399922
+  },
+  "source_filename": "memory_design.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "17669a3da9e412ae90c6abd60060a1e1452881ee76ffd4d9f8ce8b240fb62dbe",
+  "task_id": "task_0983",
+  "task_index": 983
+}

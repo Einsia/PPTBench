@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2601.06170",
+  "candidate_id": "2601-06170_pdf_a5c5ea8d28189e41",
+  "caption": "Overall framework of the Proposed Schemes. Given an input frame x_t, the motion vector v_t between x_t and previous frame x_t-1 is estimated by ME. The condition generation network Cond generates asymmetric contexts c_t and c_t at the encoder and decoder, respectively. These contexts are subsequently fed into the feature encoder/decoder F_Pe/F_Pd to perform the feature encoding and reconstruction of the current frame x_t. The gray dashed arrow indicates the propagation of the original and reconstruted frames. The black solid arrow represents the data flow at the encoder and decoder through the wireless channel. The yellow flow represents the propagation of the feature.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 141,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.999537,
+    "editable_component_count": 12951,
+    "embedded_image_count": 6,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.012083,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 260,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 12957,
+    "text_count": 112,
+    "vector_drawing_count": 142,
+    "vector_primitive_count": 12839
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2601.06170v1",
+    "abstract": "In this paper, we propose a high-efficiency deep joint source-channel coding (JSCC) method for video transmission based on conditional coding with asymmetric context. The conditional coding-based neural video compression requires to predict the encoding and decoding conditions from the same context which includes the same reconstructed frames. However in JSCC schemes which fall into pseudo-analog transmission, the encoder cannot infer the same reconstructed frames as the decoder even a pipeline of the simulated transmission is constructed at the encoder. In the proposed method, without such a pipeline, we guide and design neural networks to learn encoding and decoding conditions from asymmetric contexts. Additionally, we introduce feature propagation, which allows intermediate features to be independently propagated at the encoder and decoder and help to generate conditions, enabling the framework to greatly leverage temporal correlation while mitigating the problem of error accumulation. To further exploit the performance of the proposed transmission framework, we implement content-adaptive coding which achieves variable bandwidth transmission using entropy models and masking mechanisms. Experimental results demonstrate that our method outperforms existing deep video transmission frameworks in terms of performance and effectively mitigates the error accumulation. By mitigating the error accumulation, our schemes can reduce the frequency of inserting intra-frame coding modes, further enhancing performance.",
+    "arxiv_id": "2601.06170",
+    "authors": [
+      "Xuechen Chen",
+      "Junting Li",
+      "Chuang Chen",
+      "Hairong Lin",
+      "Yishen Li"
+    ],
+    "categories": [
+      "eess.IV",
+      "cs.CV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2601.06170v1",
+    "primary_category": "eess.IV",
+    "published": "2026-01-07T07:10:30Z",
+    "query": "(cat:eess.IV AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2601.06170v1",
+    "title": "Deep Joint Source-Channel Coding for Wireless Video Transmission with Asymmetric Context",
+    "updated": "2026-01-07T07:10:30Z",
+    "versioned_id": "2601.06170v1"
+  },
+  "reference_sha256": "ec2ca8576d66295f0d4a461e217a62ae45ef4a4ab2b627a11c1261885894eae3",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 68,
+    "final_quality_rank": 85,
+    "final_quality_score": 0.712843,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.2503,
+      "category": "eess.IV",
+      "category_family": "eess",
+      "color_bin": 2,
+      "colorfulness": 0.241589,
+      "component_bin": 6,
+      "connector_bin": 2,
+      "difference_hash": "06200720e720c136cb2ecb3acb3ec326cb26cb26f5cad5480c38d30603000b22",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 100,
+    "style_selection_score": 0.590087
+  },
+  "source_filename": "fig_2.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "a5c5ea8d28189e41013cf946ec2db0c0b51a78121f5dec7b51be64f98e21ccb5",
+  "task_id": "task_0067",
+  "task_index": 67
+}

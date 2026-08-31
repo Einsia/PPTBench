@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2603.29796",
+  "candidate_id": "2603-29796_pdf_de041fc192f2bd3c",
+  "caption": "Overall framework of the proposed JEPA-MSAC. JEPA-MSAC tokenizes multimodal observations, pretrains a JEPA backbone, and adapts frozen features to localization, beam prediction, and RSSI prediction. Modules marked with a spark icon are learnable.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 252,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.996295,
+    "editable_component_count": 2689,
+    "embedded_image_count": 10,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.00669,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 323,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 2699,
+    "text_count": 58,
+    "vector_drawing_count": 255,
+    "vector_primitive_count": 2631
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2603.29796v1",
+    "abstract": "Future wireless systems increasingly require predictive and transferable representations that can support multiple physical-layer (PHY) tasks under dynamic environments. However, most existing supervised learning-based methods are designed for a single task, which leads to high adaptation cost. To address this issue, we propose a joint-embedding predictive architecture for multimodal sensing-assisted communications (JEPA-MSAC), a self-supervised multimodal predictive representation learning framework for wireless environments. The proposed framework first maps multimodal sensing and communication measurements into a unified token space, and then pretrains a shared backbone using temporal block-masked JEPA to learn a predictive latent space that captures environment dynamics and cross-modal dependencies. After pretraining, the backbone is frozen and reused as a general future-feature generator, on top of which lightweight task heads are trained for localization, beam prediction, and received signal strength indicator (RSSI) prediction. Extensive experiments show the latent state supports accurate multi-task prediction with low adaptation cost. Additionally, ablation studies reveal its scaling behavior and the impact of key pretraining setups.",
+    "arxiv_id": "2603.29796",
+    "authors": [
+      "Can Zheng",
+      "Jiguang He",
+      "Guofa Cai",
+      "Nannan Li",
+      "Mehdi Bennis",
+      "Henk Wymeersch",
+      "Merouane Debbah"
+    ],
+    "categories": [
+      "eess.SP"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2603.29796v1",
+    "primary_category": "eess.SP",
+    "published": "2026-03-31T14:29:42Z",
+    "query": "(cat:eess.SP AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2603.29796v1",
+    "title": "JEPA-MSAC: A Joint-Embedding Predictive Architecture for Multimodal Sensing-Assisted Communications",
+    "updated": "2026-03-31T14:29:42Z",
+    "versioned_id": "2603.29796v1"
+  },
+  "reference_sha256": "d375ee14df167e6175dd65197bfbe1afc935125d0751f131252c3a5c4acaeb41",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 177,
+    "final_quality_rank": 297,
+    "final_quality_score": 0.64046,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.149,
+      "category": "eess.SP",
+      "category_family": "eess",
+      "color_bin": 1,
+      "colorfulness": 0.171817,
+      "component_bin": 4,
+      "connector_bin": 3,
+      "difference_hash": "2c9824ba2a3a29da29d82899259b299868ba279a6998699e2796399639962596",
+      "raster_bin": 1
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "worldmodel.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "de041fc192f2bd3c26462df5a125eac7ec90aeac03404f5115ec69af8dcf8087",
+  "task_id": "task_0176",
+  "task_index": 176
+}

@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2202.10143",
+  "candidate_id": "2202-10143_pdf_b8670a29d7d13a79",
+  "caption": "Workflow of PII (discussed in detail in Sect. ). This is the part of TUVOpipe that searches for transient candidates in UVOT images through difference image analysis. The operation of PII is identical for the real-time and archival modes, since in archival mode it simply stops after the field of interest is completed. When PII terminates, it has produced lists of candidate transients for each field and filter. These are passed to Part III of the pipeline (see Sect. ), which is automatically initiated upon completion of PII.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 1224,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 12317,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 1322,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 12317,
+    "text_count": 97,
+    "vector_drawing_count": 1225,
+    "vector_primitive_count": 12220
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 190,
+    "full_pool_rank": 255,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 168,
+    "second_pass_review_rank": 190
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2202.10143v2",
+    "abstract": "Despite the prevalence of transient-searching facilities operating across most wavelengths, the ultraviolet (UV) transient sky remains to be systematically studied. We have recently initiated the Transient Ultraviolet Objects (TUVO) project, with which we search for serendipitous UV transients in data from currently available UV instruments, with a focus on the UV/Optical (UVOT) telescope aboard the Neil Gehrels Swift Observatory (an overview of the TUVO project is described in a companion paper). Here we describe TUVOpipe, the pipeline we constructed in order to find such transients in the UVOT data, using difference image analysis. The pipeline is run daily on all new public UVOT data (which are available 6-8 hours after the observations are performed), so we discover transients in near real-time. This allows for follow-up observations to be performed. From October 1, 2020, to the time of submission, we have processed 75,183 individual UVOT images and we currently detect an average rate of ~100 transient candidates per day. Of these daily candidates, on average ~30 are real transients, separated by human vetting from the remaining `bogus' transients which were not discarded automatically within the pipeline. Most of the real transients we detect are known variable stars, though we also detect many known active galactic nuclei and accreting white dwarfs. TUVOpipe can additionally run in archival mode, whereby all archival UVOT data of a given field is scoured for `historical' transients; in this mode we also mostly find variable stars. However, some of the transients we find (in particular in the real-time mode) represent previously unreported new transients, or undiscovered outbursts of known transients, predominantly outbursts from cataclysmic variables. In this paper we describe the operation of (both modes of) TUVOpipe and some of the initial results we have so far obtained.",
+    "arxiv_id": "2202.10143",
+    "authors": [
+      "David Modiano",
+      "Rudy Wijnands",
+      "Aastha Parikh",
+      "Jari van Opijnen",
+      "Sill Verberne",
+      "Marieke van Etten"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.HE",
+      "astro-ph.SR"
+    ],
+    "doi": "10.1051/0004-6361/202142997",
+    "journal_ref": "A&A 663, A5 (2022)",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2202.10143v2",
+    "primary_category": "astro-ph.IM",
+    "published": "2022-02-21T11:38:53Z",
+    "query": "(cat:astro-ph.IM AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2202.10143v2",
+    "title": "TUVOpipe: a pipeline to search for UV transients with Swift-UVOT",
+    "updated": "2022-03-18T09:39:28Z",
+    "versioned_id": "2202.10143v2"
+  },
+  "reference_sha256": "c8f51053352d72ef65a1943819eeea7edd0bbfe8cd2da2d7989bd54502cdcaad",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 18,
+    "final_quality_rank": 19,
+    "final_quality_score": 0.77558,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.2252,
+      "category": "astro-ph.IM",
+      "category_family": "astro-ph",
+      "color_bin": 1,
+      "colorfulness": 0.174341,
+      "component_bin": 6,
+      "connector_bin": 5,
+      "difference_hash": "e200cc30e488e68cadaaedaaed86ad9eed6aed62e5b8e74ce74ce734a730a774",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 36,
+    "style_selection_score": 0.653439
+  },
+  "source_filename": "TUVO_flowchart_PII_v10.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "b8670a29d7d13a796c1017f9b3a554c807512d46a88e07fb607d8c009d519562",
+  "task_id": "task_0017",
+  "task_index": 17
+}

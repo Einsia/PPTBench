@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2402.17776",
+  "candidate_id": "2402-17776_pdf_413954a171939f6e",
+  "caption": "Thought experiment on the proposed architecture.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 16,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.975,
+    "editable_component_count": 156,
+    "embedded_image_count": 4,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.010877,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 79,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 160,
+    "text_count": 41,
+    "vector_drawing_count": 34,
+    "vector_primitive_count": 115
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 874,
+    "full_pool_rank": 1494,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 763,
+    "second_pass_review_rank": 874
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2402.17776v1",
+    "abstract": "The current battery-powered fault detection system for vibration monitoring has a rather limited lifetime. This is because the high-frequency sampling (typically tens of kilo-Hertz) required for vibration monitoring results in high energy consumption in both the analog-to-digital (ADC) converter and wireless transmissions. This paper proposes a new fault detection architecture that can significantly reduce the energy consumption of the ADC and wireless transmission. Our inspiration for the new architecture is based on the observation that the many tens of thousand of data samples collected for fault detection are ultimately transformed into a small number of features. If we can generate these features directly without high frequency sampling, then we can avoid the the energy cost for ADC and wireless transmissions. We propose to use piezoelectric energy harvesters (which can be designed to have different frequency responses) and integrators to obtain these features in an energy-efficient manner. By using a publicly available data set for ball bearing fault detection (which was originally sampled at 51.2kHz) and piezoelectric energy harvester models, we can produce features, which when sampled at 0.33Hz, give a fault detection accuracy of 89% while reducing the sampling requirement by 4 orders-of-magnitude.",
+    "arxiv_id": "2402.17776",
+    "authors": [
+      "Dongti Zhang",
+      "Patricio Peralta-Braz",
+      "Chun Tung Chou",
+      "Elena Atroshchenko",
+      "Mehrisadat Makki Alamdari",
+      "Mahbub Hassan"
+    ],
+    "categories": [
+      "eess.SP"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2402.17776v1",
+    "primary_category": "eess.SP",
+    "published": "2024-02-21T12:49:01Z",
+    "query": "(cat:eess.SP AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2402.17776v1",
+    "title": "A New Architecture for Energy Efficient Fault Detection Using Energy Harvesters",
+    "updated": "2024-02-21T12:49:01Z",
+    "versioned_id": "2402.17776v1"
+  },
+  "reference_sha256": "58295d56b3249710b7321a1c86e92ef5975a6405c074cf3cb4f2b9c3581aefe3",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 652,
+    "final_quality_rank": 873,
+    "final_quality_score": 0.485947,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.4139,
+      "category": "eess.SP",
+      "category_family": "eess",
+      "color_bin": 3,
+      "colorfulness": 0.407419,
+      "component_bin": 1,
+      "connector_bin": 0,
+      "difference_hash": "000000001b2400001b249b249b24d92499247924192484cbdd4b000040000000",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 953,
+    "style_selection_score": 0.42977
+  },
+  "source_filename": "thought_experiment_1.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "413954a171939f6eab065508dbe5198f2f289f97d3d67aa13cfc4b37abc4cf99",
+  "task_id": "task_0651",
+  "task_index": 651
+}

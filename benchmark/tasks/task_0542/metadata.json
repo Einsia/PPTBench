@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2307.11388",
+  "candidate_id": "2307-11388_pdf_b2746441cbc2d8f3",
+  "caption": "Architecture of the proposed system: The solid red boxes show newly developed components in this study. The dotted red boxes and arrows show how the components are used. The base Response Collector is made with Ruby on Rails, Angular, and Ionic; therefore, the newly developed components was also made with them. Prompts for ChatGPT include the subtitles of the lecture videos, and the answers are recorded on the server and shown to users.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 24,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.998822,
+    "editable_component_count": 4238,
+    "embedded_image_count": 5,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.021703,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 72,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 4243,
+    "text_count": 27,
+    "vector_drawing_count": 40,
+    "vector_primitive_count": 4211
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2307.11388v1",
+    "abstract": "This paper proposes a system that uses large language models to provide immediate feedback to students in flipped classroom preparation learning. This study aimed to solve challenges in the flipped classroom model, such as ensuring that students are emotionally engaged and motivated to learn. Students often have questions about the content of lecture videos in the preparation of flipped classrooms, but it is difficult for teachers to answer them immediately. The proposed system was developed using the ChatGPT API on a video-watching support system for preparation learning that is being used in real practice. Answers from ChatGPT often do not align with the context of the student's question. Therefore, this paper also proposes a method to align the answer with the context. This paper also proposes a method to collect the teacher's answers to the students' questions and use them as additional guides for the students. This paper discusses the design and implementation of the proposed system.",
+    "arxiv_id": "2307.11388",
+    "authors": [
+      "Shintaro Uchiyama",
+      "Kyoji Umemura",
+      "Yusuke Morita"
+    ],
+    "categories": [
+      "cs.HC",
+      "cs.AI",
+      "cs.CY"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2307.11388v1",
+    "primary_category": "cs.HC",
+    "published": "2023-07-21T06:59:53Z",
+    "query": "(cat:cs.CY AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2307.11388v1",
+    "title": "Large Language Model-based System to Provide Immediate Feedback to Students in Flipped Classroom Preparation Learning",
+    "updated": "2023-07-21T06:59:53Z",
+    "versioned_id": "2307.11388v1"
+  },
+  "reference_sha256": "fffd0c1225adc3b3a5255bde104e1ca47015f03f648d44b99148119fde592ecc",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 543,
+    "final_quality_rank": 390,
+    "final_quality_score": 0.621908,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.3377,
+      "category": "cs.HC",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.30172,
+      "component_bin": 4,
+      "connector_bin": 1,
+      "difference_hash": "3248b389b787ddec3d8da1e6b5c6318cb340b434ce749232e449c241c076ca72",
+      "raster_bin": 2
+    },
+    "style_selection_rank": 394,
+    "style_selection_score": 0.514944
+  },
+  "source_filename": "architecture-crop.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "b2746441cbc2d8f3fe559bf73353724c6a8dfaeea6be464ecf99731dd735e295",
+  "task_id": "task_0542",
+  "task_index": 542
+}

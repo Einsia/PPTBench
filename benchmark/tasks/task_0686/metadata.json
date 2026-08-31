@@ -1,0 +1,88 @@
+{
+  "arxiv_id": "2604.17662",
+  "candidate_id": "2604-17662_pdf_5ee6295f2cabaf5e",
+  "caption": "Developer Response Patterns to Workflow Failures in PR and Main Branch Contexts",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 98,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1296,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 203,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1296,
+    "text_count": 80,
+    "vector_drawing_count": 123,
+    "vector_primitive_count": 1216
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 196,
+    "full_pool_rank": 263,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 173,
+    "second_pass_review_rank": 196
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2604.17662v2",
+    "abstract": "Continuous Integration and Continuous Deployment (CI/CD) have become fundamental to modern software development, with GitHub Actions (GHA) emerging as a dominant automation platform. In this study, we analyze real-world execution records of GHA, examining how developers react to workflow failures, how these workflows are utilized by projects, and how these aspects relate to project characteristics. We quantitatively analyze 258,300 workflow run records from 952 repositories and perform an in-depth qualitative analysis of 21 selected, diverse GitHub repositories to understand how maintainers and contributors interact with workflow results. We identify three distinct failure response patterns, observe that higher usage intensity of GHA workflows correlates with lower failure rates, and uncover a configuration-usage gap where the presence of configuration files masks disabled or unused workflows. Moreover, our qualitative analysis of relationships between project characteristics and utilization patterns yields five hypotheses for future validation.",
+    "arxiv_id": "2604.17662",
+    "authors": [
+      "Ali Khatami",
+      "Carolin Brandt",
+      "Andy Zaidman"
+    ],
+    "categories": [
+      "cs.SE"
+    ],
+    "doi": "10.1145/3816483.3816499",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2604.17662v2",
+    "primary_category": "cs.SE",
+    "published": "2026-04-19T23:23:59Z",
+    "query": "(cat:cs.SE AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2604.17662v2",
+    "title": "Beyond the YAML File: Understanding Real-World GitHub Actions Workflow Adoption",
+    "updated": "2026-06-09T14:47:19Z",
+    "versioned_id": "2604.17662v2"
+  },
+  "reference_sha256": "241a83a22a7be5204b8f3b97fde7c9de1a12f39f9529f4046c27a3090efa4b2b",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 687,
+    "final_quality_rank": 501,
+    "final_quality_score": 0.598419,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 4.1006,
+      "category": "cs.SE",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.108154,
+      "component_bin": 3,
+      "connector_bin": 2,
+      "difference_hash": "05d80dd90d680f624d66556c115a41c8106a55824d4e4f494dd80dd24d520162",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 593,
+    "style_selection_score": 0.481764
+  },
+  "source_filename": "workflow-failure-response-classification-model.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "5ee6295f2cabaf5e1ffbb956a00d1067e6375f33d35b3cacb5619cef1271ff50",
+  "task_id": "task_0686",
+  "task_index": 686
+}

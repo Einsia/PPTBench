@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2604.14191",
+  "candidate_id": "2604-14191_pdf_ae6e2e25cfa0afc9",
+  "caption": "Schematics of the overall approach followed in our two-stage Transformer-to-Mamba distillation recipe. In stage one, we distill vanilla Attention into a linearized version, by learning a feature map which approximates the action of softmax (following the Hedgehog procedure ). In stage two, we introduce additional components from the Mamba block, to boost the overall expressivity of the model. The resulting hybrid layer, named HedgeMamba, is then further finetuned to close the performance gap with the original teacher model.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 95,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 464,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 163,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 464,
+    "text_count": 58,
+    "vector_drawing_count": 105,
+    "vector_primitive_count": 406
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 684,
+    "full_pool_rank": 1170,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 599,
+    "second_pass_review_rank": 684
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2604.14191v1",
+    "abstract": "State Space Models (SSMs) such as Mamba have become a popular alternative to Transformer models, due to their reduced memory consumption and higher throughput at generation compared to their Attention-based counterparts. On the other hand, the community has built up a considerable body of knowledge on how to train Transformers, and many pretrained Transformer models are readily available. To facilitate the adoption of SSMs while leveraging existing pretrained Transformers, we aim to identify an effective recipe to distill an Attention-based model into a Mamba-like architecture. In prior work on cross-architecture distillation, however, it has been shown that a na\u00efve distillation procedure from Transformers to Mamba fails to preserve the original teacher performance, a limitation often overcome with hybrid solutions combining Attention and SSM blocks. The key argument from our work is that, by equipping Mamba with a principled initialization, we can recover an overall better recipe for cross-architectural distillation. To this end, we propose a principled two-stage approach: first, we distill knowledge from a traditional Transformer into a linearized version of Attention, using an adaptation of the kernel trick. Then, we distill the linearized version into an adapted Mamba model that does not use any Attention block. Overall, the distilled Mamba model is able to preserve the original Pythia-1B Transformer performance in downstream tasks, maintaining a perplexity of 14.11 close to the teacher's 13.86. To show the efficacy of our recipe, we conduct thorough ablations at 1B scale with 10B tokens varying sequence mixer architecture, scaling analysis on model sizes and total distillation tokens, and a sensitivity analysis on tokens allocation between stages.",
+    "arxiv_id": "2604.14191",
+    "authors": [
+      "Abhinav Moudgil",
+      "Ningyuan Huang",
+      "Eeshan Gunesh Dhekane",
+      "Pau Rodr\u00edguez",
+      "Luca Zappella",
+      "Federico Danieli"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2604.14191v1",
+    "primary_category": "cs.CL",
+    "published": "2026-04-01T09:23:08Z",
+    "query": "(cat:cs.CL AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2604.14191v1",
+    "title": "Attention to Mamba: A Recipe for Cross-Architecture Distillation",
+    "updated": "2026-04-01T09:23:08Z",
+    "versioned_id": "2604.14191v1"
+  },
+  "reference_sha256": "51e2ca3e9132e81c5c9337de37644acf011fc857dfb6da20ae8f7b07c1214999",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 827,
+    "final_quality_rank": 654,
+    "final_quality_score": 0.569744,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.7018,
+      "category": "cs.CL",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.253516,
+      "component_bin": 2,
+      "connector_bin": 2,
+      "difference_hash": "000400388479cc64cc648c688c728c6abdfaad2a8d62ac663c7a045a8a6e8819",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 833,
+    "style_selection_score": 0.460364
+  },
+  "source_filename": "recipe-v6.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "ae6e2e25cfa0afc9a92e84ddcb749fdb48cf73921bac01af6ce85b04a8435bee",
+  "task_id": "task_0826",
+  "task_index": 826
+}

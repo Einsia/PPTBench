@@ -1,0 +1,19 @@
+Evaluate the differences in the image on the right compared to the one on the left.
+
+Check whether the image on the right has either of the following problems:
+
+- Overall rendering collapse: Large areas (over 30%) of black screen, canvas distortion, misalignment or tearing, severe ghosting, or unrendered blank blocks.
+- Text corruption: A significant portion (over 50%) of text boxes exhibit text overflowing the canvas or node box, overlapping text, or frequent improper single-character line breaks that affect readability or usability.
+
+Your final response must use exactly this JSON structure:
+
+{
+  "gate_keeper": {
+    "triggered": false,
+    "reason": ""
+  }
+}
+
+Set `triggered` to true if a veto condition is triggered and state the specific reason in `reason`. Otherwise, set `triggered` to false and leave `reason` empty.
+
+Do not output any other content.

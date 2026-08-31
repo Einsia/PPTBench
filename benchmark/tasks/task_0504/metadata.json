@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2605.05969",
+  "candidate_id": "2605-05969_pdf_d8494421a38617be",
+  "caption": "Overview of .",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 144,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.98316,
+    "editable_component_count": 1226,
+    "embedded_image_count": 21,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.01904,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 214,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1247,
+    "text_count": 44,
+    "vector_drawing_count": 149,
+    "vector_primitive_count": 1182
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 131,
+    "full_pool_rank": 170,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 116,
+    "second_pass_review_rank": 131
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2605.05969v2",
+    "abstract": "GitHub Continuous Integration (CI) workflows increasingly integrate Large Language Models (LLMs) to automate review, triage, content generation, and repository maintenance. This creates a new attack surface: externally controllable workflow inputs can shape LLM prompts and outputs, which may in turn affect security decisions, repository state, or privileged execution. Although LLM security and CI security have each been studied extensively, their intersection remains underexplored. In this paper, we present the first study of LLM-induced security risks in GitHub CI workflows. We characterize the problem along the full execution chain and develop a taxonomy of high-level risk classes and concrete threat vectors. To detect such risks in practice, we design Heimdallr, a hybrid analysis framework that normalizes workflows into an LLM-Workflow Property Graph (L-WPG) and combines triggerability analysis, LLM-assisted dataflow summarization, and deterministic propagation to synthesize concrete threat-vector findings. Evaluated on 300 manually annotated unique workflows, Heimdallr achieves high accuracy on LLM-node identification (F1~=~0.994), triggerability classification (99.8%), and threat-vector detection (micro-average F1~=~0.917). As part of an ongoing detection and disclosure effort, we have so far responsibly disclosed 802 vulnerable workflow instances across 759 repositories and received 71 acknowledgments.",
+    "arxiv_id": "2605.05969",
+    "authors": [
+      "Bonan Ruan",
+      "Yeqi Fu",
+      "Chuqi Zhang",
+      "Jiahao Liu",
+      "Jun Zeng",
+      "Zhenkai Liang"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.SE"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2605.05969v2",
+    "primary_category": "cs.CR",
+    "published": "2026-05-07T10:16:26Z",
+    "query": "(cat:cs.SE AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2605.05969v2",
+    "title": "Heimdallr: Characterizing and Detecting LLM-Induced Security Risks in GitHub CI Workflows",
+    "updated": "2026-07-09T05:17:58Z",
+    "versioned_id": "2605.05969v2"
+  },
+  "reference_sha256": "6e51a83339ecdd50bdc936b504d520636005d7d8456002155023f4792465d32c",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 505,
+    "final_quality_rank": 355,
+    "final_quality_score": 0.626581,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.859,
+      "category": "cs.CR",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.180572,
+      "component_bin": 3,
+      "connector_bin": 2,
+      "difference_hash": "a68ca39c3135b073225b244d269ccb948d15d55407652b34c8658c65e2e5a1b8",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 386,
+    "style_selection_score": 0.516439
+  },
+  "source_filename": "overview-v9.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "d8494421a38617be3d853bf4f5d5c2200dcb2731fe2c326b3c745fd0ea151015",
+  "task_id": "task_0504",
+  "task_index": 504
+}

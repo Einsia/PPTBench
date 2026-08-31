@@ -1,0 +1,88 @@
+{
+  "arxiv_id": "2205.07204",
+  "candidate_id": "2205-07204_pdf_617b3bf39e53055d",
+  "caption": "Deployment architecture design of Mod2Dash.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 49,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.998714,
+    "editable_component_count": 1553,
+    "embedded_image_count": 2,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.015976,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 87,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1555,
+    "text_count": 14,
+    "vector_drawing_count": 71,
+    "vector_primitive_count": 1539
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 331,
+    "full_pool_rank": 445,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 284,
+    "second_pass_review_rank": 331
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2205.07204v1",
+    "abstract": "The construction of an interactive dashboard involves deciding on what information to present and how to display it and implementing those design decisions to create an operational dashboard. Traditionally, a dashboard's design is implied in the deployed dashboard rather than captured explicitly as a digital artifact, preventing it from being backed up, version-controlled, and shared. Moreover, practitioners have to implement this implicit design manually by coding or configuring it on a dashboard platform. This paper proposes Mod2Dash, a software framework that enables practitioners to capture their dashboard designs as models and generate operational dashboards automatically from these models. The framework also provides a GUI-driven customization approach for practitioners to fine-tune the auto-generated dashboards and update their models. With these abilities, Mod2Dash enables practitioners to rapidly prototype and deploy dashboards for both operational and research purposes. We evaluated the framework's effectiveness in a case study on cyber security visualization for decision support. A proof-of-concept of Mod2Dash was employed to model and reconstruct 31 diverse real-world cyber security dashboards. A human-assisted comparison between the Mod2Dash-generated dashboards and the baseline dashboards shows a close matching, indicating the framework's effectiveness for real-world scenarios.",
+    "arxiv_id": "2205.07204",
+    "authors": [
+      "Liuyue Jiang",
+      "Nguyen Khoi Tran",
+      "M. Ali Babar"
+    ],
+    "categories": [
+      "cs.HC"
+    ],
+    "doi": "10.1145/3534526",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2205.07204v1",
+    "primary_category": "cs.HC",
+    "published": "2022-05-15T07:20:08Z",
+    "query": "(cat:cs.HC AND all:framework) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2205.07204v1",
+    "title": "Mod2Dash: A Framework for Model-Driven Dashboards Generation",
+    "updated": "2022-05-15T07:20:08Z",
+    "versioned_id": "2205.07204v1"
+  },
+  "reference_sha256": "4b2acfe332f795d5bf9d4aab45bbd87894c53faecb62fb4cc2cd7fe47df14fe3",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 429,
+    "final_quality_rank": 664,
+    "final_quality_score": 0.567905,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.2605,
+      "category": "cs.HC",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.099617,
+      "component_bin": 3,
+      "connector_bin": 1,
+      "difference_hash": "8c70ad21ce29c679c669ce69ce69c6a9c629ce29ce79ce36c636de36ce36ce36",
+      "raster_bin": 1
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "Deploy.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "617b3bf39e53055d1080385fc4ee11b442890e8fcfc623db840159d46e528cb2",
+  "task_id": "task_0428",
+  "task_index": 428
+}

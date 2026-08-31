@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2510.18684",
+  "candidate_id": "2510-18684_pdf_9bb67bc9c642d11a",
+  "caption": "The architecture of MLMA using ConMamba encoder and a CTC decoder as in",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 72,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 768,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 92,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 768,
+    "text_count": 19,
+    "vector_drawing_count": 73,
+    "vector_primitive_count": 749
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 388,
+    "full_pool_rank": 548,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 337,
+    "second_pass_review_rank": 388
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2510.18684v2",
+    "abstract": "Multilingual automatic speech recognition (ASR) remains a challenging task, especially when balancing performance across high- and low-resource languages. Recent advances in sequence modeling suggest that architectures beyond Transformers may offer better scalability and efficiency. In this work, we introduce MLMA (Multilingual Language Modeling with Mamba for ASR), a new approach that leverages the Mamba architecture -- an efficient state-space model optimized for long-context sequence processing -- for multilingual ASR. Using Mamba, MLMA implicitly incorporates language-aware conditioning and shared representations to support robust recognition across diverse languages. Experiments on standard multilingual benchmarks show that MLMA achieves competitive performance compared to Transformer-based architectures. These results highlight Mamba's potential as a strong backbone for scalable, efficient, and accurate multilingual speech recognition.",
+    "arxiv_id": "2510.18684",
+    "authors": [
+      "Mohamed Nabih Ali",
+      "Daniele Falavigna",
+      "Alessio Brutti"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.SD"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2510.18684v2",
+    "primary_category": "cs.CL",
+    "published": "2025-10-21T14:44:16Z",
+    "query": "(cat:cs.CL AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2510.18684v2",
+    "title": "MLMA: Towards Multilingual ASR With Mamba-based Architectures",
+    "updated": "2025-10-23T09:45:28Z",
+    "versioned_id": "2510.18684v2"
+  },
+  "reference_sha256": "d5a7e2f5aba2e7173f587781c4c2b22068a0ffb2d358fe39e964e168c9536e02",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 742,
+    "final_quality_rank": 546,
+    "final_quality_score": 0.590638,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.7087,
+      "category": "cs.CL",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.242851,
+      "component_bin": 2,
+      "connector_bin": 2,
+      "difference_hash": "18401e001c00ac108d009d1888188d368d36c90add748800c900dc005800d800",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 790,
+    "style_selection_score": 0.474943
+  },
+  "source_filename": "Mamba_arc.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "9bb67bc9c642d11a01698820c16a612787889452533c561b76c48db1bb54346f",
+  "task_id": "task_0741",
+  "task_index": 741
+}

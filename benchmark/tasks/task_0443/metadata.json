@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2504.12955",
+  "candidate_id": "2504-12955_pdf_b7078fd4b7396cf3",
+  "caption": "Schematic example of a constrained network rewiring step. Node color represents the economic activity (a proxy for the goods manufactured or services provided) and the numbers inside the nodes indicate their contribution to systemic risk, ESRI. At every rewiring iteration, two directed supply links are randomly selected, ensuring they share the same ordered combination of economic activities at their source and target nodes. In this example (left side of panels), the selected links (red arrows) are i j and k l, both connecting blue nodes to yellow nodes. (a) If the two links have similar weights within a set tolerance threshold, the rewiring step (fat black arrow) swaps the suppliers of the target nodes j and l. As a result, i now sells to l, and k sells to j (right side). A constraint prevents small weight differences from accumulating over multiple swaps. (b) If the difference in the link weights exceeds the tolerance threshold, the link with the larger weight is split, and only the portion matching the smaller weight is swapped. After rewiring, the topology of the production network changes, and so do the failure cascades following a local shock, and accordingly ESRI values for some nodes will change. Here node i now has a decreased ESRI; the difference is only due to the change in topology.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 109,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1101,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 171,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1101,
+    "text_count": 53,
+    "vector_drawing_count": 118,
+    "vector_primitive_count": 1048
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 617,
+    "full_pool_rank": 1004,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 538,
+    "second_pass_review_rank": 617
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2504.12955v2",
+    "abstract": "The networked nature of supply chains makes them susceptible to systemic risk, where local firm failures can propagate through firm interdependencies that can lead to cascading supply chain disruptions. The systemic risk of supply chains can be quantified and is closely related to the topology and dynamics of supply chain networks (SCN). How different network properties contribute to this risk remains unclear. Here, we ask whether systemic risk can be significantly reduced by strategically rewiring supplier-customer links. In doing so, we understand the role of specific endogenously emerged network structures and to what extent the observed systemic risk is a result of fundamental properties of the dynamical system. We minimize systemic risk through rewiring by employing a method from statistical physics that respects firm-level constraints to production. Analyzing six specific subnetworks of the national SCNs of Ecuador and Hungary, we demonstrate that systemic risk can be considerably mitigated by 16-50% without reducing the production output of firms. A comparison of network properties before and after rewiring reveals that this risk reduction is achieved by changing the connectivity in non-trivial ways. These results suggest that actual SCN topologies carry unnecessarily high levels of systemic risk. We discuss the possibility of devising policies to reduce systemic risk through minimal, targeted interventions in supply chain networks through market-based incentives.",
+    "arxiv_id": "2504.12955",
+    "authors": [
+      "Giacomo Zelbi",
+      "Leonardo Niccol\u00f2 Ialongo",
+      "Stefan Thurner"
+    ],
+    "categories": [
+      "econ.GN",
+      "physics.soc-ph"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2504.12955v2",
+    "primary_category": "econ.GN",
+    "published": "2025-04-17T13:59:01Z",
+    "query": "(cat:econ.GN AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2504.12955v2",
+    "title": "Systemic risk mitigation in supply chains through network rewiring",
+    "updated": "2025-04-29T18:41:31Z",
+    "versioned_id": "2504.12955v2"
+  },
+  "reference_sha256": "fe254cb6997f48bd19a6b36404451924d4ffc59142c7bdd4cfa7e962066afedb",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 444,
+    "final_quality_rank": 552,
+    "final_quality_score": 0.589687,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.2978,
+      "category": "econ.GN",
+      "category_family": "econ",
+      "color_bin": 2,
+      "colorfulness": 0.181661,
+      "component_bin": 3,
+      "connector_bin": 2,
+      "difference_hash": "680860183171186f8b0fe939296f0c419014680860183863196bcb3568792967",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 213,
+    "style_selection_score": 0.551758
+  },
+  "source_filename": "fig2.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "b7078fd4b7396cf39bb216bf97567860a7690044e9e277544b495203533fb859",
+  "task_id": "task_0443",
+  "task_index": 443
+}

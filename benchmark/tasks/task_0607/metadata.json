@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2408.04387",
+  "candidate_id": "2408-04387_pdf_21ec099515828d6a",
+  "caption": "A visual representation of the three primary tasks in the LSST Science Pipelines which constitute the bright star subtraction pipeline. Tasks (shaded teal boxes) and both input and output datasets (turquoise outlined boxes) are shown for reference.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 36,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 164,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 75,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 164,
+    "text_count": 36,
+    "vector_drawing_count": 39,
+    "vector_primitive_count": 128
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 207,
+    "full_pool_rank": 277,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 184,
+    "second_pass_review_rank": 207
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2408.04387v1",
+    "abstract": "We present the phase one report of the Bright Star Subtraction (BSS) pipeline for the Vera C. Rubin Observatory's Legacy Survey of Space and Time (LSST). This pipeline is designed to create an extended PSF model by utilizing observed stars, followed by subtracting this model from the bright stars present in LSST data. Running the pipeline on Hyper Suprime-Cam (HSC) data shows a correlation between the shape of the extended PSF model and the position of the detector within the camera's focal plane. Specifically, detectors positioned closer to the focal plane's edge exhibit reduced circular symmetry in the extended PSF model. To mitigate this effect, we present an algorithm that enables users to account for the location dependency of the model. Our analysis also indicates that the choice of normalization annulus is crucial for modeling the extended PSF. Smaller annuli can exclude stars due to overlap with saturated regions, while larger annuli may compromise data quality because of lower signal-to-noise ratios. This makes finding the optimal annulus size a challenging but essential task for the BSS pipeline. Applying the BSS pipeline to HSC exposures allows for the subtraction of, on average, 100 to 700 stars brighter than 12th magnitude measured in g-band across a full exposure, with a full HSC exposure comprising ~100 detectors.",
+    "arxiv_id": "2408.04387",
+    "authors": [
+      "Amir E. Bazkiaei",
+      "Lee S. Kelvin",
+      "Sarah Brough",
+      "Simon J. O'Toole",
+      "Aaron Watkins",
+      "Morgan A. Schmitz"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.GA"
+    ],
+    "doi": "10.1117/12.3019590",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2408.04387v1",
+    "primary_category": "astro-ph.IM",
+    "published": "2024-08-08T11:44:47Z",
+    "query": "(cat:astro-ph.IM AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2408.04387v1",
+    "title": "Bright Star Subtraction Pipeline for LSST: Phase one report",
+    "updated": "2024-08-08T11:44:47Z",
+    "versioned_id": "2408.04387v1"
+  },
+  "reference_sha256": "dd2d7baf8cd757b19dda67e9791489f95988cd8b11450de0e95187f89bb7c923",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 608,
+    "final_quality_rank": 804,
+    "final_quality_score": 0.520472,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.317,
+      "category": "astro-ph.IM",
+      "category_family": "astro-ph",
+      "color_bin": 2,
+      "colorfulness": 0.193503,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "a28ca28c1780178415a417841384138412941b841b403c08374007c000700164",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 881,
+    "style_selection_score": 0.440128
+  },
+  "source_filename": "bss4.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "21ec099515828d6ac106d564f0546d7d018593254a516746d7bcb356fa8e72a9",
+  "task_id": "task_0607",
+  "task_index": 607
+}

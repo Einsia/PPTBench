@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2501.08561",
+  "candidate_id": "2501-08561_pdf_bac32093a40d1f28",
+  "caption": "three-layer architecture: Physical Layer (sensor integration), Processing Layer (CNN-LSTM + symbolic reasoning), and Adaptation Layer (PPO + dynamic rule updating). Solid arrows: data flow; dashed arrows: feedback loops.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 254,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.999887,
+    "editable_component_count": 8833,
+    "embedded_image_count": 1,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.003379,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 413,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 8834,
+    "text_count": 84,
+    "vector_drawing_count": 328,
+    "vector_primitive_count": 8749
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 213,
+    "full_pool_rank": 285,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 190,
+    "second_pass_review_rank": 213
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2501.08561v4",
+    "abstract": "Digital twins are increasingly used to monitor and optimize industrial systems, yet many existing frameworks remain difficult to interpret, slow to adapt, and limited in their ability to incorporate explicit domain knowledge. This paper presents ANSR-DT, an adaptive neuro-symbolic framework that unifies temporal anomaly detection, symbolic reasoning, and reinforcement-learning-based decision support within a single digital twin pipeline. ANSR-DT combines a CNN-LSTM model for multivariate pattern recognition with Prolog-based reasoning that converts learned signals into explicit rules, enabling transparent diagnoses and traceable decision paths. A PPO-based adaptation layer further refines operational responses under changing conditions while preserving interpretability. Experiments against 8 baselines show that ANSR-DT delivers competitive predictive performance together with stable rule extraction, scalable symbolic reasoning, and actionable explanations. Additional validation on the Skoltech Anomaly Benchmark (SKAB) further indicates that the framework transfers beyond synthetic settings. These findings position ANSR-DT as a practical foundation for trustworthy, adaptive, and explainable industrial digital twins.",
+    "arxiv_id": "2501.08561",
+    "authors": [
+      "Safayat Bin Hakim",
+      "Muhammad Adil",
+      "Alvaro Velasquez",
+      "Houbing Herbert Song"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.HC",
+      "cs.LG",
+      "cs.SC"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2501.08561v4",
+    "primary_category": "cs.AI",
+    "published": "2025-01-15T04:04:57Z",
+    "query": "(cat:cs.HC AND all:framework) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2501.08561v4",
+    "title": "ANSR-DT: A Neuro-Symbolic Framework for Adaptive and Explainable Digital Twins",
+    "updated": "2026-06-11T05:43:30Z",
+    "versioned_id": "2501.08561v4"
+  },
+  "reference_sha256": "32d83131b1f728252ffe706ee5d7bd50d66eba9c7cf3694ba9a33767e7770525",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 215,
+    "final_quality_rank": 163,
+    "final_quality_score": 0.678849,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.5375,
+      "category": "cs.AI",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.055312,
+      "component_bin": 5,
+      "connector_bin": 3,
+      "difference_hash": "3e4080c1826132613060336272d202db07ca07091f1918f1deb3c713c78bd3c2",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 198,
+    "style_selection_score": 0.554778
+  },
+  "source_filename": "ansr_dt_framework_architecture.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "bac32093a40d1f28951ed578e75b35958cd063bff10ccf88d767b3c329734088",
+  "task_id": "task_0214",
+  "task_index": 214
+}

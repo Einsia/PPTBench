@@ -1,0 +1,64 @@
+{
+  "assets": [
+    {
+      "file": "resource_0001.png",
+      "has_alpha": false,
+      "height": 209,
+      "sha256": "9d1dbccc6ea7f21b8b7c2fb167709ecc8028381ba7bc0b7d258fee0924978dad",
+      "width": 192
+    },
+    {
+      "file": "resource_0002.png",
+      "has_alpha": false,
+      "height": 713,
+      "sha256": "cc0d8abfdd13979a898d2b0927dc9389fdf0991c2f0f67831016ea5002c3ad9d",
+      "width": 192
+    },
+    {
+      "file": "resource_0003.png",
+      "has_alpha": false,
+      "height": 209,
+      "sha256": "ccce29270b4a0206cf2e5d9811ae6ceb274970443c09ea2a9382cd0ef45a3074",
+      "width": 192
+    },
+    {
+      "file": "resource_0004.png",
+      "has_alpha": false,
+      "height": 366,
+      "sha256": "725387841c01959a47bc7e838c70de08200fb7d37091f88fbb5f36fd9e04c3cb",
+      "width": 363
+    },
+    {
+      "file": "resource_0005.png",
+      "has_alpha": false,
+      "height": 461,
+      "sha256": "dac20929887905e7746c986014cebb02f5eea40b9be2e88c574031bc4c5b0304",
+      "width": 192
+    },
+    {
+      "file": "resource_0006.png",
+      "has_alpha": false,
+      "height": 209,
+      "sha256": "848096d69b6cfe1eedddf9e3df1e51421d8f7a305817c30fba8462c8879f1652",
+      "width": 192
+    },
+    {
+      "file": "resource_0007.png",
+      "has_alpha": false,
+      "height": 209,
+      "sha256": "a016d806c56644e9fb5bc05bfcbf1f90659b8f8c37b2207074fbe9ffbaa0a500",
+      "width": 192
+    }
+  ],
+  "candidate_id": "2604-07013_pdf_11908797fb7fe0c7",
+  "extractor_version": "native-raster-v1",
+  "manual_qc": {
+    "maximum_resources": 12,
+    "removed_count": 0,
+    "status": "pass",
+    "version": "manual-resource-qc-v1"
+  },
+  "resource_count": 7,
+  "schema": "pptbench-task-resources-v1",
+  "task_id": "task_0169"
+}

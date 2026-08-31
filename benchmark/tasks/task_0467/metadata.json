@@ -1,0 +1,88 @@
+{
+  "arxiv_id": "2410.13867",
+  "candidate_id": "2410-13867_pdf_e807bd556ecb2813",
+  "caption": "Model overview. A 12-lead ECG y (a) undergoes preprocessing and is divided into patches. Contiguous blocks of patches from y are randomly masked, and the remaining patches are used to form an ECG x. Both ECGs are processed by the joint-embedding predictive architecture (JEPA) for feature prediction in latent space (b). The y-encoder embeds the patches of y to generate target embeddings. Simultaneously, the x-encoder processes the unmasked patches in x, which, along with mask tokens indicating the positions of the masked patches, are fed to the predictor. The predictor then outputs patch-level predictions for the masked patches. The model minimizes the L_1 reconstruction loss between the target and predicted embeddings. To prevent model collapse, the y-encoder is not directly trained, but rather updated using an exponential moving average of the x-encoder's weights.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 69,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 2442,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 70,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 2442,
+    "text_count": 0,
+    "vector_drawing_count": 70,
+    "vector_primitive_count": 2442
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2410.13867v1",
+    "abstract": "Accurate diagnosis of heart arrhythmias requires the interpretation of electrocardiograms (ECG), which capture the electrical activity of the heart. Automating this process through machine learning is challenging due to the need for large annotated datasets, which are difficult and costly to collect. To address this issue, transfer learning is often employed, where models are pre-trained on large datasets and fine-tuned for specific ECG classification tasks with limited labeled data. Self-supervised learning has become a widely adopted pre-training method, enabling models to learn meaningful representations from unlabeled datasets. In this work, we explore the joint-embedding predictive architecture (JEPA) for self-supervised learning from ECG data. Unlike invariance-based methods, JEPA does not rely on hand-crafted data augmentations, and unlike generative methods, it predicts latent features rather than reconstructing input data. We create a large unsupervised pre-training dataset by combining ten public ECG databases, amounting to over one million records. We pre-train Vision Transformers using JEPA on this dataset and fine-tune them on various PTB-XL benchmarks. Our results show that JEPA outperforms existing invariance-based and generative approaches, achieving an AUC of 0.945 on the PTB-XL all statements task. JEPA consistently learns the highest quality representations, as demonstrated in linear evaluations, and proves advantageous for pre-training even in the absence of additional data.",
+    "arxiv_id": "2410.13867",
+    "authors": [
+      "Kuba Weimann",
+      "Tim O. F. Conrad"
+    ],
+    "categories": [
+      "eess.SP",
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2410.13867v1",
+    "primary_category": "eess.SP",
+    "published": "2024-10-02T08:25:57Z",
+    "query": "(cat:eess.SP AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2410.13867v1",
+    "title": "Self-Supervised Pre-Training with Joint-Embedding Predictive Architecture Boosts ECG Classification Performance",
+    "updated": "2024-10-02T08:25:57Z",
+    "versioned_id": "2410.13867v1"
+  },
+  "reference_sha256": "01a7e0927f2c3dc20ceb8f08a61fc2284d52300a6a4fb6bd5069e274fa876a10",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 468,
+    "final_quality_rank": 587,
+    "final_quality_score": 0.583141,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 2,
+      "aspect_ratio": 0.9969,
+      "category": "eess.SP",
+      "category_family": "eess",
+      "color_bin": 0,
+      "colorfulness": 0.056795,
+      "component_bin": 4,
+      "connector_bin": 2,
+      "difference_hash": "603060106010e010f012b01a9000603060b07056701660586050b438b078b06c",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 647,
+    "style_selection_score": 0.494672
+  },
+  "source_filename": "JEPA.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "e807bd556ecb281305664fe65ac62ba211e402fc86eb0153f5e7b7d010c73ca0",
+  "task_id": "task_0467",
+  "task_index": 467
+}

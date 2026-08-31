@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2402.15803",
+  "candidate_id": "2402-15803_pdf_3745cbebde5689b2",
+  "caption": "Comparison of data reduction steps across pipelines. The data reduction steps for the Iraclis pipeline are delineated following , for EXCALIBUR as per , and for CASCADe within the Appendices of . These pipelines, while employing conceptually similar strategies for data processing, differ significantly in the specifics of their implementation: examples of these different implementations are reported between parenthesis in the diagram. An in-depth analysis of these differences falls outside the scope of this paper, and readers are referred to the respective primary sources for detailed methodologies.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 86,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.998221,
+    "editable_component_count": 561,
+    "embedded_image_count": 1,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.013267,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 183,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 562,
+    "text_count": 72,
+    "vector_drawing_count": 110,
+    "vector_primitive_count": 489
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 115,
+    "full_pool_rank": 150,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 102,
+    "second_pass_review_rank": 115
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2402.15803v2",
+    "abstract": "The challenge of inconsistent results from different data pipelines, even when starting from identical data, is a recognized concern in exoplanetary science. As we transition into the James Webb Space Telescope (JWST) era and prepare for the ARIEL space mission, addressing this issue becomes paramount because of its implications on our understanding of exoplanets. Although comparing pipeline results for individual exoplanets has become more common, this study is the first to compare pipeline results at the catalogue level. We present a comprehensive framework to statistically compare the outcomes of data analysis reduction on a population of exoplanets and we leverage the large number of observations conducted using the same instrument configured with HST-WFC3. We employ three independent pipelines: Iraclis, EXCALIBUR, and CASCADe. Our combined findings reveal that these pipelines, despite starting from the same data and planet system parameters, yield substantially different spectra in some cases. However, the most significant manifestations of pipeline differences are observed in the compositional trends of the resulting exoplanet catalogues. We conclude that pipeline-induced differences lead to biases in the retrieved information, which are not reflected in the retrieved uncertainties. Our findings underscore the critical need to confront these pipeline differences to ensure the reproducibility, accuracy, and reliability of results in exoplanetary research. Our results demonstrate the need to understand the potential for population-level bias that pipelines may inject, which could compromise our understanding of exoplanets as a class of objects.",
+    "arxiv_id": "2402.15803",
+    "authors": [
+      "Lorenzo V. Mugnai",
+      "Mark R. Swain",
+      "Raissa Estrela",
+      "Gael M. Roudier"
+    ],
+    "categories": [
+      "astro-ph.EP",
+      "astro-ph.IM"
+    ],
+    "doi": "10.1093/mnras/stae1073",
+    "journal_ref": "MNRAS, Volume 531, Issue 1, June 2024, Pages 35-51",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2402.15803v2",
+    "primary_category": "astro-ph.EP",
+    "published": "2024-02-24T12:34:05Z",
+    "query": "(cat:astro-ph.IM AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2402.15803v2",
+    "title": "Comparing transit spectroscopy pipelines at the catalogue level: evidence for systematic differences",
+    "updated": "2024-04-09T08:54:53Z",
+    "versioned_id": "2402.15803v2"
+  },
+  "reference_sha256": "f7ebcfc9f7dd8584311ff81222b1b8a321dd5c1a07ead348d5dfd2e94f0d89d4",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 456,
+    "final_quality_rank": 580,
+    "final_quality_score": 0.585297,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 1,
+      "aspect_ratio": 0.8638,
+      "category": "astro-ph.EP",
+      "category_family": "astro-ph",
+      "color_bin": 1,
+      "colorfulness": 0.170923,
+      "component_bin": 2,
+      "connector_bin": 2,
+      "difference_hash": "6c006d900798603090ccccccccc6ccceccc6ccc6ccc4ccc6ccc6ccc6c2c4c4ce",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 337,
+    "style_selection_score": 0.54715
+  },
+  "source_filename": "pipelines_steps.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "3745cbebde5689b20d8c62cb1aaeaca7436af4eb29629eed40f4c5e664c484b8",
+  "task_id": "task_0455",
+  "task_index": 455
+}

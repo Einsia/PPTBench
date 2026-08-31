@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2206.03359",
+  "candidate_id": "2206-03359_pdf_db8d9857107212ae",
+  "caption": "Proposed pipeline developed to detect artefacts from MRI scans.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 68,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.995929,
+    "editable_component_count": 734,
+    "embedded_image_count": 3,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.063548,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 266,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 737,
+    "text_count": 135,
+    "vector_drawing_count": 128,
+    "vector_primitive_count": 599
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2206.03359v2",
+    "abstract": "Large medical imaging data sets are becoming increasingly available, but ensuring sample quality without significant artefacts is challenging. Existing methods for identifying imperfections in medical imaging rely on data-intensive approaches, compounded by a scarcity of artefact-rich scans for training machine learning models in clinical research. To tackle this problem, we propose a framework with four main components: 1) artefact generators inspired by magnetic resonance physics to corrupt brain MRI scans and augment a training dataset, 2) abstract and engineered features to represent images compactly, 3) a feature selection process depending on the artefact class to improve classification, and 4) SVM classifiers to identify artefacts. Our contributions are threefold: first, physics-based artefact generators produce synthetic brain MRI scans with controlled artefacts for data augmentation. This will avoid the labour-intensive collection and labelling process of scans with rare artefacts. Second, we propose a pool of abstract and engineered image features to identify 9 different artefacts for structural MRI. Finally, we use an artefact-based feature selection block that, for each class of artefacts, finds the set of features providing the best classification performance. We performed validation experiments on a large data set of scans with artificially-generated artefacts, and in a multiple sclerosis clinical trial where real artefacts were identified by experts, showing that the proposed pipeline outperforms traditional methods. In particular, our data augmentation increases performance by up to 12.5 percentage points on accuracy, precision, and recall. The computational efficiency of our pipeline enables potential real-time deployment, promising high-throughput clinical applications through automated image-processing pipelines driven by quality control systems.",
+    "arxiv_id": "2206.03359",
+    "authors": [
+      "Daniele Ravi",
+      "Frederik Barkhof",
+      "Daniel C. Alexander",
+      "Lemuel Puglisi",
+      "Geoffrey JM Parker",
+      "Arman Eshaghi"
+    ],
+    "categories": [
+      "eess.IV",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "Medical Image Analysis 2023",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2206.03359v2",
+    "primary_category": "eess.IV",
+    "published": "2022-06-07T14:53:35Z",
+    "query": "(cat:eess.IV AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2206.03359v2",
+    "title": "An efficient semi-supervised quality control system trained using physics-based MRI-artefact generators and adversarial training",
+    "updated": "2023-11-14T16:06:45Z",
+    "versioned_id": "2206.03359v2"
+  },
+  "reference_sha256": "ef81d7ea307c6c40495ebec61237c408ef5b6a3160110b1b43e04873c4810cfe",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 474,
+    "final_quality_rank": 584,
+    "final_quality_score": 0.584216,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.7778,
+      "category": "eess.IV",
+      "category_family": "eess",
+      "color_bin": 2,
+      "colorfulness": 0.278696,
+      "component_bin": 2,
+      "connector_bin": 2,
+      "difference_hash": "207024798c99a619b2a9b2e834798c7900000420000000000000000000000000",
+      "raster_bin": 2
+    },
+    "style_selection_rank": 744,
+    "style_selection_score": 0.486724
+  },
+  "source_filename": "Pipeline2.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "db8d9857107212ae3d4389087073157efa4707a6f5190b83e2dcf4e342ff8183",
+  "task_id": "task_0473",
+  "task_index": 473
+}

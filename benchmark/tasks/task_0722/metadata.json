@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2511.06010",
+  "candidate_id": "2511-06010_pdf_b51700be9914b573",
+  "caption": "The MoSKA Architecture. detailing its core mechanism and high-level structure. (a) illustrates the fundamental principle of Shared KV Attention: concurrent queries to identical shared data are batched into a single, compute-bound GEMM operation, contrasting with the memory-bound GEMV operations used for unique KV data. Building on this, (b) depicts the complete MoSKA system, where an MoE-inspired router first selects a sparse subset of relevant shared KV chunks (`Experts'), ensuring both computational efficiency and scalability over massive shared contexts.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 34,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 5696,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 90,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 5696,
+    "text_count": 36,
+    "vector_drawing_count": 54,
+    "vector_primitive_count": 5660
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2511.06010v1",
+    "abstract": "The escalating context length in Large Language Models (LLMs) creates a severe performance bottleneck around the Key-Value (KV) cache, whose memory-bound nature leads to significant GPU under-utilization. This paper introduces Mixture of Shared KV Attention (MoSKA), an architecture that addresses this challenge by exploiting the heterogeneity of context data. It differentiates between per-request unique and massively reused shared sequences. The core of MoSKA is a novel Shared KV Attention mechanism that transforms the attention on shared data from a series of memory-bound GEMV operations into a single, compute-bound GEMM by batching concurrent requests. This is supported by an MoE-inspired sparse attention strategy that prunes the search space and a tailored Disaggregated Infrastructure that specializes hardware for unique and shared data. This comprehensive approach demonstrates a throughput increase of up to 538.7x over baselines in workloads with high context sharing, offering a clear architectural path toward scalable LLM inference.",
+    "arxiv_id": "2511.06010",
+    "authors": [
+      "Myunghyun Rhee",
+      "Sookyung Choi",
+      "Euiseok Kim",
+      "Joonseop Sim",
+      "Youngpyo Joo",
+      "Hoshik Kim"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.DC"
+    ],
+    "doi": "10.1109/LCA.2025.3627539",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2511.06010v1",
+    "primary_category": "cs.LG",
+    "published": "2025-11-08T13:40:16Z",
+    "query": "(cat:cs.DC AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2511.06010v1",
+    "title": "MoSKA: Mixture of Shared KV Attention for Efficient Long-Sequence LLM Inference",
+    "updated": "2025-11-08T13:40:16Z",
+    "versioned_id": "2511.06010v1"
+  },
+  "reference_sha256": "6004362bb1c6316c48e31d6b98106fd0f862ef8ee05dd0feeec460e90c35c521",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 723,
+    "final_quality_rank": 522,
+    "final_quality_score": 0.593908,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.1381,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.221052,
+      "component_bin": 5,
+      "connector_bin": 1,
+      "difference_hash": "03a003a0018019863d4c6678fc8eff8fcece64ca7e4a071c019c01b803a00b80",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 672,
+    "style_selection_score": 0.478253
+  },
+  "source_filename": "fig2b.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "b51700be9914b5738c83192c3090d8f10b871780e59ad110a8cafc4432108fba",
+  "task_id": "task_0722",
+  "task_index": 722
+}

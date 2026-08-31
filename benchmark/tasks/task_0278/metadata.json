@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2305.18691",
+  "candidate_id": "2305-18691_pdf_7b4ef55fdf7c775d",
+  "caption": "Left: the multi-task architecture with mixture-of-expert (MoE) . It consists of a patch embedding module followed by 12 blocks, each of which contains a self-attention module followed by either a ViT block (on even-numbered blocks) or an MoE block (on odd-numbered blocks). Right: our proposed FPGA architecture with novel techniques, labeled by 202 206. 202 205 is applicable to general Transformer/ViT models; 206 is specialized for multi-task MoE inside .",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 129,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 4032,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 264,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 4032,
+    "text_count": 88,
+    "vector_drawing_count": 176,
+    "vector_primitive_count": 3944
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 654,
+    "full_pool_rank": 1092,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 571,
+    "second_pass_review_rank": 654
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2305.18691v2",
+    "abstract": "Computer vision researchers are embracing two promising paradigms: Vision Transformers (ViTs) and Multi-task Learning (MTL), which both show great performance but are computation-intensive, given the quadratic complexity of self-attention in ViT and the need to activate an entire large MTL model for one task. M$^3$ViT is the latest multi-task ViT model that introduces mixture-of-experts (MoE), where only a small portion of subnetworks (\"experts\") are sparsely and dynamically activated based on the current task. M$^3$ViT achieves better accuracy and over 80% computation reduction but leaves challenges for efficient deployment on FPGA. Our work, dubbed Edge-MoE, solves the challenges to introduce the first end-to-end FPGA accelerator for multi-task ViT with a collection of architectural innovations, including (1) a novel reordering mechanism for self-attention, which requires only constant bandwidth regardless of the target parallelism; (2) a fast single-pass softmax approximation; (3) an accurate and low-cost GELU approximation; (4) a unified and flexible computing unit that is shared by almost all computational layers to maximally reduce resource usage; and (5) uniquely for M$^3$ViT, a novel patch reordering method to eliminate memory access overhead. Edge-MoE achieves 2.24x and 4.90x better energy efficiency comparing with GPU and CPU, respectively. A real-time video demonstration is available online, along with our open-source code written using High-Level Synthesis.",
+    "arxiv_id": "2305.18691",
+    "authors": [
+      "Rishov Sarkar",
+      "Hanxue Liang",
+      "Zhiwen Fan",
+      "Zhangyang Wang",
+      "Cong Hao"
+    ],
+    "categories": [
+      "cs.AR",
+      "cs.CV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2305.18691v2",
+    "primary_category": "cs.AR",
+    "published": "2023-05-30T02:24:03Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2305.18691v2",
+    "title": "Edge-MoE: Memory-Efficient Multi-Task Vision Transformer Architecture with Task-level Sparsity via Mixture-of-Experts",
+    "updated": "2023-09-13T16:52:55Z",
+    "versioned_id": "2305.18691v2"
+  },
+  "reference_sha256": "16aabc1ad345b06eb584bf87f5ac36f9eb1d0897cf689e6ef38cfd6fd8d84e55",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 279,
+    "final_quality_rank": 202,
+    "final_quality_score": 0.668696,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.3731,
+      "category": "cs.AR",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.378933,
+      "component_bin": 4,
+      "connector_bin": 2,
+      "difference_hash": "d474596d2c6c64702665ce6cda4c9a505a701a60844f244d244c4c6d9c688c71",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 284,
+    "style_selection_score": 0.538068
+  },
+  "source_filename": "m3vit.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "7b4ef55fdf7c775d9f415961c6db26c9d7fef34f0a75ab9d12aec3dc20befa33",
+  "task_id": "task_0278",
+  "task_index": 278
+}

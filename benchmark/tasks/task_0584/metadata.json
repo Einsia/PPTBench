@@ -1,0 +1,88 @@
+{
+  "arxiv_id": "2506.11718",
+  "candidate_id": "2506-11718_pdf_1f9395bd03cc670d",
+  "caption": "The process as an explicit representation of collaborative activity. It consists of five structural modules: Problem Space, Workflow, Operations, Environment, and Reflection. They capture the evolving organization, context, and methods of the activity. This representational substrate enables structural adaptation across reframing, reorganization, and reinterpretation.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 84,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 8421,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 115,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 8421,
+    "text_count": 31,
+    "vector_drawing_count": 84,
+    "vector_primitive_count": 8390
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2506.11718v2",
+    "abstract": "While AI tools are increasingly prevalent in knowledge work, they remain fragmented, lacking the architectural foundation for sustained, adaptive collaboration. We argue this limitation stems from their inability to represent and manage the structure of collaborative work. To bridge this gap, we propose a layered conceptual framework for human-agent systems that integrates Interaction, Process, and Infrastructure. Crucially, our framework elevates Process to a first-class concern, an explicit, inspectable structural representation of activities. The central theoretical construct is Structural Adaptation, enabling the process to dynamically reorganize itself in response to evolving goals. We introduce a five-module Process Model as the representational basis for this adaptation. This model offers a unified theoretical grounding, reimagining human-agent collaboration as a coherent system for complex real-world work.",
+    "arxiv_id": "2506.11718",
+    "authors": [
+      "Yun Wang",
+      "Yan Lu"
+    ],
+    "categories": [
+      "cs.HC",
+      "cs.AI"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2506.11718v2",
+    "primary_category": "cs.HC",
+    "published": "2025-06-13T12:34:15Z",
+    "query": "(cat:cs.HC AND all:framework) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2506.11718v2",
+    "title": "Interaction, Process, Infrastructure: A Unified Framework for Human-Agent Collaboration",
+    "updated": "2025-12-24T03:08:54Z",
+    "versioned_id": "2506.11718v2"
+  },
+  "reference_sha256": "5c03961f4ca18f84f67678afe0441ae4c06468ad6173a373295bc2acd423ed1c",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 585,
+    "final_quality_rank": 430,
+    "final_quality_score": 0.612254,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 3.0813,
+      "category": "cs.HC",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.05087,
+      "component_bin": 5,
+      "connector_bin": 2,
+      "difference_hash": "2100901003206d2aed6c69cc48cccd8a6d8a4ccccccced8c6d2a0d8c2d9c0221",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 477,
+    "style_selection_score": 0.508655
+  },
+  "source_filename": "process.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "1f9395bd03cc670ddde4ee0598270e9f5b8fc116daff876d40d0ee4b5fe90df2",
+  "task_id": "task_0584",
+  "task_index": 584
+}

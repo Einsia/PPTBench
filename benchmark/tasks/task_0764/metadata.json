@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2410.05103",
+  "candidate_id": "2410-05103_pdf_111bbbbb173849c8",
+  "caption": "The framework of MetaDD. Our method is designed to supervise the synthesis of data during training to ensure it exhibits low-variance CAMs across multiple pre-trained NNs.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 61,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.987161,
+    "editable_component_count": 692,
+    "embedded_image_count": 9,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.01012,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 139,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 701,
+    "text_count": 38,
+    "vector_drawing_count": 92,
+    "vector_primitive_count": 654
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 254,
+    "full_pool_rank": 339,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 225,
+    "second_pass_review_rank": 254
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2410.05103v1",
+    "abstract": "Dataset distillation (DD) entails creating a refined, compact distilled dataset from a large-scale dataset to facilitate efficient training. A significant challenge in DD is the dependency between the distilled dataset and the neural network (NN) architecture used. Training a different NN architecture with a distilled dataset distilled using a specific architecture often results in diminished trainning performance for other architectures. This paper introduces MetaDD, designed to enhance the generalizability of DD across various NN architectures. Specifically, MetaDD partitions distilled data into meta features (i.e., the data's common characteristics that remain consistent across different NN architectures) and heterogeneous features (i.e., the data's unique feature to each NN architecture). Then, MetaDD employs an architecture-invariant loss function for multi-architecture feature alignment, which increases meta features and reduces heterogeneous features in distilled data. As a low-memory consumption component, MetaDD can be seamlessly integrated into any DD methodology. Experimental results demonstrate that MetaDD significantly improves performance across various DD methods. On the Distilled Tiny-Imagenet with Sre2L (50 IPC), MetaDD achieves cross-architecture NN accuracy of up to 30.1\\%, surpassing the second-best method (GLaD) by 1.7\\%.",
+    "arxiv_id": "2410.05103",
+    "authors": [
+      "Yunlong Zhao",
+      "Xiaoheng Deng",
+      "Xiu Su",
+      "Hongyan Xu",
+      "Xiuxing Li",
+      "Yijing Liu",
+      "Shan You"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2410.05103v1",
+    "primary_category": "cs.CV",
+    "published": "2024-10-07T15:01:57Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2410.05103v1",
+    "title": "MetaDD: Boosting Dataset Distillation with Neural Network Architecture-Invariant Generalization",
+    "updated": "2024-10-07T15:01:57Z",
+    "versioned_id": "2410.05103v1"
+  },
+  "reference_sha256": "6b1c999e283ba04b1eaca429c7aa9d61e900ef8e0060d140bc13da5b1a65858d",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 765,
+    "final_quality_rank": 588,
+    "final_quality_score": 0.582866,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.4078,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.22716,
+      "component_bin": 2,
+      "connector_bin": 2,
+      "difference_hash": "9e6c966c9e6ccc78cea89b8cdab89a38da9a929ad4789ab8da8cd2ac49668966",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 751,
+    "style_selection_score": 0.469485
+  },
+  "source_filename": "fsd2_17.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "111bbbbb173849c81121aad431344c9be0638103c2a3fbf4b39021b33010fa94",
+  "task_id": "task_0764",
+  "task_index": 764
+}

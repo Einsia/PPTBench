@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2102.06679",
+  "candidate_id": "2102-06679_pdf_8d720076c341a2bf",
+  "caption": "The original DANN paper proposed a specific implementation for each of the considered backbone architectures. Later authors (e.g. ALDA ) empirically adapted the core idea to different architectures through a process of trial and error. Whenever a new architecture is proposed, this tedious procedure needs to be repeated (note this issue is shared by any other UDA method based on an auxiliary branch). To address this, in we propose to automatically search for the optimal architecture of the auxiliary branch in a data driven way. Through , it is possible to seamlessly apply DANN to any future architecture without the need for human supervision. What follows is a brief description, more details can be found in Algorithm . At each iteration, the Bayesian Optimization (BO) acquisition function proposes a number of candidate branch architectures. After training, we extract a number of supervised (source) and unsupervised (target) features which are fed into our ensemble-based performance estimator. Its feedback is sent to BO, thus closing the loop.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 52,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.985971,
+    "editable_component_count": 1757,
+    "embedded_image_count": 25,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.033003,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 182,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1782,
+    "text_count": 67,
+    "vector_drawing_count": 90,
+    "vector_primitive_count": 1690
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2102.06679v3",
+    "abstract": "Unsupervised Domain Adaptation (UDA) is a key issue in visual recognition, as it allows to bridge different visual domains enabling robust performances in the real world. To date, all proposed approaches rely on human expertise to manually adapt a given UDA method (e.g. DANN) to a specific backbone architecture (e.g. ResNet). This dependency on handcrafted designs limits the applicability of a given approach in time, as old methods need to be constantly adapted to novel backbones. Existing Neural Architecture Search (NAS) approaches cannot be directly applied to mitigate this issue, as they rely on labels that are not available in the UDA setting. Furthermore, most NAS methods search for full architectures, which precludes the use of pre-trained models, essential in a vast range of UDA settings for reaching SOTA results. To the best of our knowledge, no prior work has addressed these aspects in the context of NAS for UDA. Here we tackle both aspects with an Adversarial Branch Architecture Search for UDA (ABAS): i. we address the lack of target labels by a novel data-driven ensemble approach for model selection; and ii. we search for an auxiliary adversarial branch, attached to a pre-trained backbone, which drives the domain alignment. We extensively validate ABAS to improve two modern UDA techniques, DANN and ALDA, on three standard visual recognition datasets (Office31, Office-Home and PACS). In all cases, ABAS robustly finds the adversarial branch architectures and parameters which yield best performances.",
+    "arxiv_id": "2102.06679",
+    "authors": [
+      "Luca Robbiano",
+      "Muhammad Rameez Ur Rahman",
+      "Fabio Galasso",
+      "Barbara Caputo",
+      "Fabio Maria Carlucci"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2102.06679v3",
+    "primary_category": "cs.CV",
+    "published": "2021-02-12T18:35:35Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2102.06679v3",
+    "title": "Adversarial Branch Architecture Search for Unsupervised Domain Adaptation",
+    "updated": "2021-10-22T12:49:48Z",
+    "versioned_id": "2102.06679v3"
+  },
+  "reference_sha256": "d19e6bfcc4714fa9819a50219dca47da16d71fbf3246391afa29246a88dfc194",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 805,
+    "final_quality_rank": 636,
+    "final_quality_score": 0.573838,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 3.8067,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.320955,
+      "component_bin": 3,
+      "connector_bin": 1,
+      "difference_hash": "c32d249424962496a32da70ce30ca315e309e459e7336633e633c237c733c4bc",
+      "raster_bin": 2
+    },
+    "style_selection_rank": 738,
+    "style_selection_score": 0.466996
+  },
+  "source_filename": "ABAS_ICCV-Teaser2.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "8d720076c341a2bfebbddc61be66276f534e0584697257be4c36c0c97054bba0",
+  "task_id": "task_0804",
+  "task_index": 804
+}

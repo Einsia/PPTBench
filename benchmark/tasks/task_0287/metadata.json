@@ -1,0 +1,88 @@
+{
+  "arxiv_id": "2505.11385",
+  "candidate_id": "2505-11385_pdf_b40f0075c10f4cb0",
+  "caption": "Workflow illustration. A flow chart indicating the processes followed at the prompting of a user for an example amplicon sequencing workflow. The green square indicates user interaction. Yellow squares are data sources such as databases or APIs. The orange boxes indicate steps launched and monitored by the Compendium Manager tool. Blue boxes indicate steps that are automated by Snakemake.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 20,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1461,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 74,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1461,
+    "text_count": 39,
+    "vector_drawing_count": 35,
+    "vector_primitive_count": 1422
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 23,
+    "full_pool_rank": 30,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 21,
+    "second_pass_review_rank": 23
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2505.11385v1",
+    "abstract": "Compendium Manager is a command-line tool written in Python to automate the provisioning, launch, and evaluation of bioinformatics pipelines. Although workflow management tools such as Snakemake and Nextflow enable users to automate the processing of samples within a single sequencing project, integrating many datasets in bulk requires launching and monitoring hundreds or thousands of pipelines. We present the Compendium Manager, a lightweight command-line tool to enable launching and monitoring analysis pipelines at scale. The tool can gauge progress through a list of projects, load results into a shared database, and record detailed processing metrics for later evaluation and reproducibility.",
+    "arxiv_id": "2505.11385",
+    "authors": [
+      "Richard J. Abdill",
+      "Ran Blekhman"
+    ],
+    "categories": [
+      "q-bio.GN",
+      "cs.SE"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2505.11385v1",
+    "primary_category": "q-bio.GN",
+    "published": "2025-05-16T15:49:40Z",
+    "query": "(cat:cs.SE AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2505.11385v1",
+    "title": "Compendium Manager: a tool for coordination of workflow management instances for bulk data processing in Python",
+    "updated": "2025-05-16T15:49:40Z",
+    "versioned_id": "2505.11385v1"
+  },
+  "reference_sha256": "2c6c64e007aa6857037315564e9f881768c6c188b1f6d67b5a6e5d9b93444113",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 288,
+    "final_quality_rank": 354,
+    "final_quality_score": 0.626753,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.7778,
+      "category": "q-bio.GN",
+      "category_family": "q-bio",
+      "color_bin": 3,
+      "colorfulness": 0.488158,
+      "component_bin": 3,
+      "connector_bin": 1,
+      "difference_hash": "0700070003196704668e660e65421b663b6439668d9691d281d6086400e000e2",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 119,
+    "style_selection_score": 0.58171
+  },
+  "source_filename": "fig1.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "b40f0075c10f4cb03ab30014109ea71c53affe3a2b41704eb50d39d7cd5663fa",
+  "task_id": "task_0287",
+  "task_index": 287
+}

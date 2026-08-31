@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2307.13424",
+  "candidate_id": "2307-13424_pdf_d77256d35e604a23",
+  "caption": "The data flow of our cascade model. The detailed defination of every block are shown in .",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 334,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 5244,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 622,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 5244,
+    "text_count": 181,
+    "vector_drawing_count": 441,
+    "vector_primitive_count": 5063
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2307.13424v1",
+    "abstract": "In this paper, we conduct a holistic exploration of the Universal Decompositional Semantic (UDS) Parsing. We first introduce a cascade model for UDS parsing that decomposes the complex parsing task into semantically appropriate subtasks. Our approach outperforms the prior models, while significantly reducing inference time. We also incorporate syntactic information and further optimized the architecture. Besides, different ways for data augmentation are explored, which further improve the UDS Parsing. Lastly, we conduct experiments to investigate the efficacy of ChatGPT in handling the UDS task, revealing that it excels in attribute parsing but struggles in relation parsing, and using ChatGPT for data augmentation yields suboptimal results. Our code is available at https://github.com/hexuandeng/HExp4UDS.",
+    "arxiv_id": "2307.13424",
+    "authors": [
+      "Hexuan Deng",
+      "Xin Zhang",
+      "Meishan Zhang",
+      "Xuebo Liu",
+      "Min Zhang"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2307.13424v1",
+    "primary_category": "cs.CL",
+    "published": "2023-07-25T11:44:28Z",
+    "query": "(cat:cs.CL AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2307.13424v1",
+    "title": "Holistic Exploration on Universal Decompositional Semantic Parsing: Architecture, Data Augmentation, and LLM Paradigm",
+    "updated": "2023-07-25T11:44:28Z",
+    "versioned_id": "2307.13424v1"
+  },
+  "reference_sha256": "139a2afefa915cd541446bc82f370219fc4a0c46336ca8d6620eaf4e1830bb3b",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 137,
+    "final_quality_rank": 105,
+    "final_quality_score": 0.701973,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.0576,
+      "category": "cs.CL",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.195315,
+      "component_bin": 5,
+      "connector_bin": 3,
+      "difference_hash": "2b6463607356714c7344f746d7447544750c77307720736067686778fbb2c926",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 196,
+    "style_selection_score": 0.560735
+  },
+  "source_filename": "cascade_model.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "d77256d35e604a23741a514e715dbafd0b71d7248e683542943b39da00cd2607",
+  "task_id": "task_0136",
+  "task_index": 136
+}

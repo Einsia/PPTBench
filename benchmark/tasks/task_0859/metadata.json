@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2311.15443",
+  "candidate_id": "2311-15443_pdf_ae875199a2b0688c",
+  "caption": "Decision diagram to choose among the options and configurations of based on the target deployment and metrics of interest.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 65,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 526,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 112,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 526,
+    "text_count": 46,
+    "vector_drawing_count": 66,
+    "vector_primitive_count": 480
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 396,
+    "full_pool_rank": 566,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 345,
+    "second_pass_review_rank": 396
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2311.15443v2",
+    "abstract": "In recent years, the growing demand to process large graphs and sparse datasets has led to increased research efforts to develop hardware- and software-based architectural solutions to accelerate them. While some of these approaches achieve scalable parallelization with up to thousands of cores, adaptation of these proposals by the industry remained slow. To help solve this dissonance, we identified a set of questions and considerations that current research has not considered deeply. Starting from a tile-based architecture, we put forward a Distributed Chiplet-based Reconfigurable Architecture (DCRA) for irregular applications that carefully consider fabrication constraints that made prior work either hard or costly to implement or too rigid to be applied. We identify and study pre-silicon, package-time and compile-time configurations that help optimize DCRA for different deployments and target metrics. To enable that, we propose a practical path for manufacturing chip packages by composing variable numbers of DCRA and memory dies, with a software-configurable Torus network to connect them. We evaluate six applications and four datasets, with several configurations and memory technologies, to provide a detailed analysis of the performance, power, and cost of DCRA as a compute node for scale-out sparse data processing. Finally, we present our findings and discuss how DCRA's framework for design exploration can help guide architects to build scalable and cost-efficient systems for irregular applications.",
+    "arxiv_id": "2311.15443",
+    "authors": [
+      "Marcelo Orenes-Vera",
+      "Esin Tureci",
+      "Margaret Martonosi",
+      "David Wentzlaff"
+    ],
+    "categories": [
+      "cs.AR",
+      "cs.DC"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2311.15443v2",
+    "primary_category": "cs.AR",
+    "published": "2023-11-26T22:02:04Z",
+    "query": "(cat:cs.DC AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2311.15443v2",
+    "title": "DCRA: A Distributed Chiplet-based Reconfigurable Architecture for Irregular Applications",
+    "updated": "2024-02-25T21:03:42Z",
+    "versioned_id": "2311.15443v2"
+  },
+  "reference_sha256": "be29c13a79d534f5325d1a4d16ff28def0025023571f92a166f0175a38247f1c",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 860,
+    "final_quality_rank": 709,
+    "final_quality_score": 0.555277,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.2385,
+      "category": "cs.AR",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.139883,
+      "component_bin": 2,
+      "connector_bin": 2,
+      "difference_hash": "4cb030b0683ccc3886089618f8ca0589051c2c0c0c52f232e392e60093209330",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 760,
+    "style_selection_score": 0.455987
+  },
+  "source_filename": "FlowChartDCRA.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "ae875199a2b0688c5b7872583ef0775c0fc9515b29a150957cd33aaf4d46bd46",
+  "task_id": "task_0859",
+  "task_index": 859
+}

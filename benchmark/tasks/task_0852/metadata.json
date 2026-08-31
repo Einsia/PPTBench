@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2504.08337",
+  "candidate_id": "2504-08337_pdf_8ea735dacd7a3df5",
+  "caption": "is a serverless architecture for on-board processing of Earth observation frames. Captured frames are preprocessed and prefiltered, with an executor either directly invoking tenants' functions or enqueuing them when temperature or power constraints do not allow processing. The function output, which can be filtered or inferred data, is then buffered for downlinking.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 30,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 252,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 49,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 252,
+    "text_count": 18,
+    "vector_drawing_count": 31,
+    "vector_primitive_count": 234
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 1098,
+    "full_pool_rank": 1993,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 971,
+    "second_pass_review_rank": 1098
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2504.08337v1",
+    "abstract": "Orbital edge computing reduces the data transmission needs of Earth observation satellites by processing sensor data on-board, allowing near-real-time insights while minimizing downlink costs. However, current orbital edge computing architectures are inflexible, requiring custom mission planning and high upfront development costs. In this paper, we propose a novel approach: shared Earth observation satellites that are operated by a central provider but used by multiple tenants. Each tenant can execute their own logic on-board the satellite to filter, prioritize, and analyze sensor data. We introduce Trabant, a serverless architecture for shared satellite platforms, leveraging the Function-as-a-Service (FaaS) paradigm and time-shifted computing. This architecture abstracts operational complexities, enabling dynamic scheduling under satellite resource constraints, reducing deployment overhead, and aligning event-driven satellite observations with intermittent computation. We present the design of Trabant, demonstrate its capabilities with a proof-of-concept prototype, and evaluate it using real satellite computing telemetry data. Our findings suggest that Trabant can significantly reduce mission planning overheads, offering a scalable and efficient platform for diverse Earth observation missions.",
+    "arxiv_id": "2504.08337",
+    "authors": [
+      "Tobias Pfandzelter",
+      "Nikita Bauer",
+      "Alexander Leis",
+      "Corentin Perdrizet",
+      "Felix Trautwein",
+      "Trever Schirmer",
+      "Osama Abboud",
+      "David Bermbach"
+    ],
+    "categories": [
+      "cs.DC"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2504.08337v1",
+    "primary_category": "cs.DC",
+    "published": "2025-04-11T08:06:59Z",
+    "query": "(cat:cs.DC AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2504.08337v1",
+    "title": "Trabant: A Serverless Architecture for Multi-Tenant Orbital Edge Computing",
+    "updated": "2025-04-11T08:06:59Z",
+    "versioned_id": "2504.08337v1"
+  },
+  "reference_sha256": "a3d6421bb21f899ad24eca0068ac84178374b689abe82062a0ddc337af1192a9",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 853,
+    "final_quality_rank": 945,
+    "final_quality_score": 0.437113,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.1636,
+      "category": "cs.DC",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.003995,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "0190058005b001b211b201b0ddb058d21996590e374a03720bb20b920b860396",
+      "raster_bin": 0
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "trabant.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "8ea735dacd7a3df5a404125a2b124a0e77473a019a49cfc9fa0558ec65741437",
+  "task_id": "task_0852",
+  "task_index": 852
+}

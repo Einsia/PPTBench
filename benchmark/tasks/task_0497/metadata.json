@@ -1,0 +1,88 @@
+{
+  "arxiv_id": "2505.17717",
+  "candidate_id": "2505-17717_pdf_6ed7dadc9c40aae6",
+  "caption": "The training architecture of our network. Gray boxes are pre-trained and fixed. The nuisance function is trained to maximize the empirical loss L( ; ) while minimizing the other terms. This adversarial formulation can be presented as a joint minimization with the gradient reversal layers indicated in magenta.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 108,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.997792,
+    "editable_component_count": 904,
+    "embedded_image_count": 2,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.020257,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 153,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 906,
+    "text_count": 42,
+    "vector_drawing_count": 109,
+    "vector_primitive_count": 862
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 404,
+    "full_pool_rank": 589,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 352,
+    "second_pass_review_rank": 404
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2505.17717v2",
+    "abstract": "Causal inference requires evaluating models on balanced distributions between treatment and control groups, while training data often exhibits imbalance due to historical decision-making policies. Most conventional statistical methods address this distribution shift through inverse probability weighting (IPW), which requires estimating propensity scores as an intermediate step. These methods face two key challenges: inaccurate propensity estimation and instability from extreme weights. We decompose the generalization error to isolate these issues--propensity ambiguity and statistical instability--and address them through an adversarial loss function. Our approach combines distributionally robust optimization for handling propensity uncertainty with weight regularization based on weighted Rademacher complexity. Experiments on synthetic and real-world datasets demonstrate consistent improvements over existing methods.",
+    "arxiv_id": "2505.17717",
+    "authors": [
+      "Akira Tanimoto"
+    ],
+    "categories": [
+      "stat.ML",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "Tanimoto, Akira. \"A Distributionally Robust Framework for Nuisance in Causal Effect Estimation.\" International Conference on Neural Information Processing. Singapore: Springer Nature Singapore, 2025",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2505.17717v2",
+    "primary_category": "stat.ML",
+    "published": "2025-05-23T10:34:28Z",
+    "query": "(cat:stat.ML AND all:framework) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2505.17717v2",
+    "title": "A Distributionally Robust Framework for Nuisance in Causal Effect Estimation",
+    "updated": "2025-11-20T14:08:53Z",
+    "versioned_id": "2505.17717v2"
+  },
+  "reference_sha256": "a9bbd85f9d34fbb3711a3e5489905282d82739e6f1f19c27ea10632b24315676",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 498,
+    "final_quality_rank": 648,
+    "final_quality_score": 0.57095,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.0962,
+      "category": "stat.ML",
+      "category_family": "stat",
+      "color_bin": 0,
+      "colorfulness": 0.057229,
+      "component_bin": 3,
+      "connector_bin": 2,
+      "difference_hash": "9800a200a50069206c80e480a924aa80a900a520f4806c206a20a594a7248882",
+      "raster_bin": 2
+    },
+    "style_selection_rank": 326,
+    "style_selection_score": 0.550588
+  },
+  "source_filename": "nuSnet_architecture.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "6ed7dadc9c40aae6a83b26ca7b5274a5be957ff5c28dfa145a205864dcac0ed5",
+  "task_id": "task_0497",
+  "task_index": 497
+}

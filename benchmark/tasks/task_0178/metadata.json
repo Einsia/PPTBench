@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2409.14432",
+  "candidate_id": "2409-14432_pdf_e1d1a33a9f84aa12",
+  "caption": "Visualization of network structure obtained based on JuDo1000 database.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 276,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 10691,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 342,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 10691,
+    "text_count": 18,
+    "vector_drawing_count": 324,
+    "vector_primitive_count": 10673
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 377,
+    "full_pool_rank": 528,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 326,
+    "second_pass_review_rank": 377
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2409.14432v2",
+    "abstract": "Eye movement biometrics has received increasing attention thanks to its highly secure identification. Although deep learning (DL) models have shown success in eye movement recognition, their architectures largely rely on human prior knowledge. Differentiable Neural Architecture Search (DARTS) automates the manual process of architecture design with high search efficiency. However, DARTS typically stacks multiple cells to form a convolutional network, which limits the diversity of architecture. Furthermore, DARTS generally searches for architectures using shallower networks than those used in the evaluation, creating a significant disparity in architecture depth between the search and evaluation phases. To address this issue, we propose EM-DARTS, a hierarchical differentiable architecture search algorithm to automatically design the DL architecture for eye movement recognition. First, we define a supernet and propose a global and local alternate Neural Architecture Search method to search the optimal architecture alternately with a differentiable neural architecture search. The local search strategy aims to find an optimal architecture for different cells while the global search strategy is responsible for optimizing the architecture of the target network. To minimize redundancy, transfer entropy is proposed to compute the information amount of each layer, thereby further simplifying the network search process. Experimental results on three public datasets demonstrate that the proposed EM-DARTS is capable of producing an optimal architecture that leads to state-of-the-art recognition performance, {Specifically, the recognition models developed using EM-DARTS achieved the lowest EERs of 0.0453 on the GazeBase dataset, 0.0377 on the JuDo1000 dataset, and 0.1385 on the EMglasses dataset.",
+    "arxiv_id": "2409.14432",
+    "authors": [
+      "Huafeng Qin",
+      "Hongyu Zhu",
+      "Xin Jin",
+      "Xin Yu",
+      "Mounim A. El-Yacoubi",
+      "Shuqiang Yang"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2409.14432v2",
+    "primary_category": "cs.CV",
+    "published": "2024-09-22T13:11:08Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2409.14432v2",
+    "title": "EM-DARTS: Hierarchical Differentiable Architecture Search for Eye Movement Recognition",
+    "updated": "2025-01-13T09:26:17Z",
+    "versioned_id": "2409.14432v2"
+  },
+  "reference_sha256": "0035711306c45a1809dc313bec8bc28747bb25accaf2e6ab17d0222c37bd2a19",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 179,
+    "final_quality_rank": 132,
+    "final_quality_score": 0.690663,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.436,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.104506,
+      "component_bin": 5,
+      "connector_bin": 3,
+      "difference_hash": "0460e3b92dab3d7838b00fa025b0b158f243c216662423e222c0a6a6c6f486c0",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 211,
+    "style_selection_score": 0.551962
+  },
+  "source_filename": "fig7.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "e1d1a33a9f84aa1256a21c3e9e5855966b26f92d0e717b4bd153cb742f886224",
+  "task_id": "task_0178",
+  "task_index": 178
+}

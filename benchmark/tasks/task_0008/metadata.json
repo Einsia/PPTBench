@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2402.05150",
+  "candidate_id": "2402-05150_pdf_6924277f256d30fd",
+  "caption": "Schematic overview of deep learning fusion strategies, the blue box indicates where the fusion operation is performed. (A) The early fusion strategy expects a concatenated input vector of all modalities. (B) The intermediate fusion strategy first learns a representation for one or multiple modalities to learn a joint representation later in the network. (C) Late fusion first predicts per modality and combines all uni-modal predictions into a final decision.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 157,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 402,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 172,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 402,
+    "text_count": 14,
+    "vector_drawing_count": 158,
+    "vector_primitive_count": 388
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2402.05150v1",
+    "abstract": "Driver intention recognition studies increasingly rely on deep neural networks. Deep neural networks have achieved top performance for many different tasks, but it is not a common practice to explicitly analyse the complexity and performance of the network's architecture. Therefore, this paper applies neural architecture search to investigate the effects of the deep neural network architecture on a real-world safety critical application with limited computational capabilities. We explore a pre-defined search space for three deep neural network layer types that are capable to handle sequential data (a long-short term memory, temporal convolution, and a time-series transformer layer), and the influence of different data fusion strategies on the driver intention recognition performance. A set of eight search strategies are evaluated for two driver intention recognition datasets. For the two datasets, we observed that there is no search strategy clearly sampling better deep neural network architectures. However, performing an architecture search does improve the model performance compared to the original manually designed networks. Furthermore, we observe no relation between increased model complexity and higher driver intention recognition performance. The result indicate that multiple architectures yield similar performance, regardless of the deep neural network layer type or fusion strategy.",
+    "arxiv_id": "2402.05150",
+    "authors": [
+      "Koen Vellenga",
+      "H. Joe Steinhauer",
+      "Alexander Karlsson",
+      "G\u00f6ran Falkman",
+      "Asli Rhodin",
+      "Ashok Koppisetty"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.NE"
+    ],
+    "doi": "10.1016/j.engappai.2024.109574",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2402.05150v1",
+    "primary_category": "cs.LG",
+    "published": "2024-02-07T12:54:15Z",
+    "query": "(cat:cs.NE AND all:\"network architecture\") AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2402.05150v1",
+    "title": "Designing deep neural networks for driver intention recognition",
+    "updated": "2024-02-07T12:54:15Z",
+    "versioned_id": "2402.05150v1"
+  },
+  "reference_sha256": "5e333a24c878166b1d137cb0ec630f7a881870bd51f791d57adbcdaf12522c4d",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 9,
+    "final_quality_rank": 688,
+    "final_quality_score": 0.56248,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.4181,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.032923,
+      "component_bin": 2,
+      "connector_bin": 3,
+      "difference_hash": "c30ccb2c492c4b20cb3acb3acb20e2bac29ac69aa49234d234923492c71d4b2c",
+      "raster_bin": 0
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "information_fusion.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "6924277f256d30fd8848b628cbafc464210e3fe3af4f880fff79bb6de37a663a",
+  "task_id": "task_0008",
+  "task_index": 8
+}

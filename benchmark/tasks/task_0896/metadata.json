@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2511.01232",
+  "candidate_id": "2511-01232_pdf_0604a2c13291066f",
+  "caption": "System architecture",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 13,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 108,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 30,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 108,
+    "text_count": 17,
+    "vector_drawing_count": 13,
+    "vector_primitive_count": 91
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2511.01232v1",
+    "abstract": "Despite the extensive demonstration of robotic systems for both cataract and vitreoretinal procedures, existing technologies or mechanisms still possess insufficient accuracy, precision, and degrees of freedom for instrument manipulation or potentially automated tool exchange during surgical procedures. A new robotic system that focuses on improving tooltip accuracy, tracking performance, and smooth instrument exchange mechanism is therefore designed and manufactured. Its tooltip accuracy, precision, and mechanical capability of maintaining small incision through remote center of motion were externally evaluated using an optical coherence tomography (OCT) system. Through robot calibration and precise coordinate registration, the accuracy of tooltip positioning was measured to be 0.053$\\pm$0.031 mm, and the overall performance was demonstrated on an OCT-guided automated cataract lens extraction procedure with deep learning-based pre-operative anatomical modeling and real-time supervision.",
+    "arxiv_id": "2511.01232",
+    "authors": [
+      "Yu-Ting Lai",
+      "Jacob Rosen",
+      "Yasamin Foroutani",
+      "Ji Ma",
+      "Wen-Cheng Wu",
+      "Jean-Pierre Hubschman",
+      "Tsu-Chin Tsao"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2511.01232v1",
+    "primary_category": "cs.RO",
+    "published": "2025-11-03T05:15:58Z",
+    "query": "(cat:cs.RO AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2511.01232v1",
+    "title": "High-Precision Surgical Robotic System for Intraocular Procedures",
+    "updated": "2025-11-03T05:15:58Z",
+    "versioned_id": "2511.01232v1"
+  },
+  "reference_sha256": "ed1bdc0b7558f52210474a0363b7ad42e4630fabe595ba0e62cf9f6d5619221c",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 897,
+    "final_quality_rank": 998,
+    "final_quality_score": 0.343134,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.1048,
+      "category": "cs.RO",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.0,
+      "component_bin": 0,
+      "connector_bin": 0,
+      "difference_hash": "06400300070007800e24a60aa71cc1ecc06c88068026d924cea4839ca89a291c",
+      "raster_bin": 0
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "system_architecture.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "0604a2c13291066f88bff5a903cc8273237c6c07b9ffdff360db70b4cf9c47b6",
+  "task_id": "task_0896",
+  "task_index": 896
+}

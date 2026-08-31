@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2112.09288",
+  "candidate_id": "2112-09288_pdf_1ce56032e5a2f568",
+  "caption": "Context association neural architecture. The left-most box represents the input text segments after pre-processing. The blocks inside the encoded segments box represent BioMed RoBERTa's hidden states for the input segments. The classification embeddings box contains averages of the hidden states corresponding to the <EVT> and <CON> tokens of each input segment. Depending on the choice of architecture, classification embeddings either flow through (a) the aggregation block, which combines them to then generate the final classification; or (b) the voting block, where each embedding is classified, then the final result is generated through a voting function.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 137,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 690,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 191,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 690,
+    "text_count": 50,
+    "vector_drawing_count": 141,
+    "vector_primitive_count": 640
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2112.09288v1",
+    "abstract": "We introduce a family of deep-learning architectures for inter-sentence relation extraction, i.e., relations where the participants are not necessarily in the same sentence. We apply these architectures to an important use case in the biomedical domain: assigning biological context to biochemical events. In this work, biological context is defined as the type of biological system within which the biochemical event is observed. The neural architectures encode and aggregate multiple occurrences of the same candidate context mentions to determine whether it is the correct context for a particular event mention. We propose two broad types of architectures: the first type aggregates multiple instances that correspond to the same candidate context with respect to event mention before emitting a classification; the second type independently classifies each instance and uses the results to vote for the final class, akin to an ensemble approach. Our experiments show that the proposed neural classifiers are competitive and some achieve better performance than previous state of the art traditional machine learning methods without the need for feature engineering. Our analysis shows that the neural methods particularly improve precision compared to traditional machine learning classifiers and also demonstrates how the difficulty of inter-sentence relation extraction increases as the distance between the event and context mentions increase.",
+    "arxiv_id": "2112.09288",
+    "authors": [
+      "Enrique Noriega-Atala",
+      "Peter M. Lovett",
+      "Clayton T. Morrison",
+      "Mihai Surdeanu"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2112.09288v1",
+    "primary_category": "cs.CL",
+    "published": "2021-12-17T02:32:58Z",
+    "query": "(cat:cs.CL AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2112.09288v1",
+    "title": "Neural Architectures for Biological Inter-Sentence Relation Extraction",
+    "updated": "2021-12-17T02:32:58Z",
+    "versioned_id": "2112.09288v1"
+  },
+  "reference_sha256": "7500b238ca8b009808782f260ed35187609995a2516267eefa5138da85ee8143",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 747,
+    "final_quality_rank": 547,
+    "final_quality_score": 0.590449,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.3567,
+      "category": "cs.CL",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.142028,
+      "component_bin": 2,
+      "connector_bin": 2,
+      "difference_hash": "0730534013403b5239423b4219c01304539873183a1a398a3b1933b8dd34cdb0",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 695,
+    "style_selection_score": 0.475732
+  },
+  "source_filename": "architecture_diagram.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "1ce56032e5a2f56858aba2e6cadcd0435ffa318583fc63c16c42a5f5d1d50ea2",
+  "task_id": "task_0746",
+  "task_index": 746
+}

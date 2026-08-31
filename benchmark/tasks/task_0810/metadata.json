@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2501.00138",
+  "candidate_id": "2501-00138_pdf_f50f1c633fbdd085",
+  "caption": "The structure of the basic ARM pipeline.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 39,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 528,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 71,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 528,
+    "text_count": 29,
+    "vector_drawing_count": 42,
+    "vector_primitive_count": 499
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 92,
+    "full_pool_rank": 119,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 80,
+    "second_pass_review_rank": 92
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2501.00138v1",
+    "abstract": "The Numerical Association Rule Mining paradigm that includes concurrent dealing with numerical and categorical attributes is beneficial for discovering associations from datasets consisting of both features. The process is not considered as easy since it incorporates several processing steps running sequentially that form an entire pipeline, e.g., preprocessing, algorithm selection, hyper-parameter optimization, and the definition of metrics evaluating the quality of the association rule. In this paper, we proposed a novel Automated Machine Learning method, NiaAutoARM, for constructing the full association rule mining pipelines based on stochastic population-based meta-heuristics automatically. Along with the theoretical representation of the proposed method, we also present a comprehensive experimental evaluation of the proposed method.",
+    "arxiv_id": "2501.00138",
+    "authors": [
+      "Uro\u0161 Mlakar",
+      "Iztok Fister",
+      "Iztok Fister"
+    ],
+    "categories": [
+      "cs.NE",
+      "cs.AI"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2501.00138v1",
+    "primary_category": "cs.NE",
+    "published": "2024-12-30T20:48:51Z",
+    "query": "(cat:cs.AI AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2501.00138v1",
+    "title": "NiaAutoARM: Automated generation and evaluation of Association Rule Mining pipelines",
+    "updated": "2024-12-30T20:48:51Z",
+    "versioned_id": "2501.00138v1"
+  },
+  "reference_sha256": "c101f3b080b4851d605968ac88eb67e275672d3816efef7dd4f652495e189700",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 811,
+    "final_quality_rank": 640,
+    "final_quality_score": 0.573223,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 4.4263,
+      "category": "cs.NE",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.259524,
+      "component_bin": 2,
+      "connector_bin": 1,
+      "difference_hash": "0000a04a8006a94aa94aa95aa94aa94aad4600406d406d486d406d406d482940",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 792,
+    "style_selection_score": 0.468802
+  },
+  "source_filename": "NiaAutoARM.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "f50f1c633fbdd085ab0d24b1a0342d6958b6ffad00a817ef034f2314dfa1c313",
+  "task_id": "task_0810",
+  "task_index": 810
+}

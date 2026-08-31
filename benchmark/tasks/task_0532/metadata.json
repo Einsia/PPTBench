@@ -1,0 +1,88 @@
+{
+  "arxiv_id": "2202.08004",
+  "candidate_id": "2202-08004_pdf_4560be73ecc4d1f0",
+  "caption": "The overview of the neural network framework for K-steps predictions.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 190,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.995392,
+    "editable_component_count": 648,
+    "embedded_image_count": 3,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.067995,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 319,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 651,
+    "text_count": 71,
+    "vector_drawing_count": 245,
+    "vector_primitive_count": 577
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2202.08004v2",
+    "abstract": "Recently Koopman operator has become a promising data-driven tool to facilitate real-time control for unknown nonlinear systems. It maps nonlinear systems into equivalent linear systems in embedding space, ready for real-time linear control methods. However, designing an appropriate Koopman embedding function remains a challenging task. Furthermore, most Koopman-based algorithms only consider nonlinear systems with linear control input, resulting in lousy prediction and control performance when the system is fully nonlinear with the control input. In this work, we propose an end-to-end deep learning framework to learn the Koopman embedding function and Koopman Operator together to alleviate such difficulties. We first parameterize the embedding function and Koopman Operator with the neural network and train them end-to-end with the K-steps loss function. Then, an auxiliary control network is augmented to encode the nonlinear state-dependent control term to model the nonlinearity in the control input. This encoded term is considered the new control variable instead to ensure linearity of the modeled system in the embedding system.We next deploy Linear Quadratic Regulator (LQR) on the linear embedding space to derive the optimal control policy and decode the actual control input from the control net. Experimental results demonstrate that our approach outperforms other existing methods, reducing the prediction error by order of magnitude and achieving superior control performance in several nonlinear dynamic systems like damping pendulum, CartPole, and the seven DOF robotic manipulator.",
+    "arxiv_id": "2202.08004",
+    "authors": [
+      "Haojie Shi",
+      "Max Q. -H. Meng"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2202.08004v2",
+    "primary_category": "cs.RO",
+    "published": "2022-02-16T11:40:36Z",
+    "query": "(cat:cs.RO AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2202.08004v2",
+    "title": "Deep Koopman Operator with Control for Nonlinear Systems",
+    "updated": "2022-06-15T12:11:37Z",
+    "versioned_id": "2202.08004v2"
+  },
+  "reference_sha256": "2c44210d2fe674b484c3b57b9c639e00452bc0c164cd678ac11b5deb95230e15",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 533,
+    "final_quality_rank": 371,
+    "final_quality_score": 0.624548,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.838,
+      "category": "cs.RO",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.30952,
+      "component_bin": 2,
+      "connector_bin": 3,
+      "difference_hash": "8208ca52ca92ca92da72da92ca32d982da888a5cfa16f132b332db339b32d236",
+      "raster_bin": 2
+    },
+    "style_selection_rank": 481,
+    "style_selection_score": 0.509036
+  },
+  "source_filename": "Prediction.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "4560be73ecc4d1f0e87150a5e1dc9ecc03b48f5d1464e26cec09b7d2eae983f3",
+  "task_id": "task_0532",
+  "task_index": 532
+}

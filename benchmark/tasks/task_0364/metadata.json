@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2210.11069",
+  "candidate_id": "2210-11069_pdf_de0b29cc501b91b7",
+  "caption": "Overview of third-order IPA decoder architecture for one iteration.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 136,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1312,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 193,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1312,
+    "text_count": 31,
+    "vector_drawing_count": 162,
+    "vector_primitive_count": 1281
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 180,
+    "full_pool_rank": 241,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 158,
+    "second_pass_review_rank": 180
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2210.11069v2",
+    "abstract": "The recently proposed recursive projection-aggregation (RPA) decoding algorithm for Reed-Muller codes has received significant attention as it provides near-ML decoding performance at reasonable complexity for short codes. However, its complicated structure makes it unsuitable for hardware implementation. Iterative projection-aggregation (IPA) decoding is a modified version of RPA decoding that simplifies the hardware implementation. In this work, we present a flexible hardware architecture for the IPA decoder that can be configured from fully-sequential to fully-parallel, thus making it suitable for a wide range of applications with different constraints and resource budgets. Our simulation and implementation results show that the IPA decoder has 41% lower area consumption, 44% lower latency, four times higher throughput, but currently seven times higher power consumption for a code with block length of 128 and information length of 29 compared to a state-of-the-art polar successive cancellation list (SCL) decoder with comparable decoding performance.",
+    "arxiv_id": "2210.11069",
+    "authors": [
+      "Marzieh Hashemipour-Nazari",
+      "Yuqing Ren",
+      "Kees Goossens",
+      "Alexios Balatsoukas-Stimming"
+    ],
+    "categories": [
+      "cs.IT",
+      "cs.AR",
+      "eess.SP"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2210.11069v2",
+    "primary_category": "cs.IT",
+    "published": "2022-10-20T07:43:49Z",
+    "query": "(cat:eess.SP AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2210.11069v2",
+    "title": "Pipelined Architecture for Soft-decision Iterative Projection Aggregation Decoding for RM Codes",
+    "updated": "2023-09-06T09:04:04Z",
+    "versioned_id": "2210.11069v2"
+  },
+  "reference_sha256": "fc155d65cca2c71fd967e974e4a2df57cb2f1a5093acc10adaba0779483f98c9",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 365,
+    "final_quality_rank": 251,
+    "final_quality_score": 0.655085,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.4773,
+      "category": "cs.IT",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.323235,
+      "component_bin": 3,
+      "connector_bin": 2,
+      "difference_hash": "88609a20996498e29b2cdb6cf2aedaaab2aeb2ae9b6cab2c98e29864ac2086e0",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 207,
+    "style_selection_score": 0.567648
+  },
+  "source_filename": "9.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "de0b29cc501b91b7857bcda6cb1f2fdec693cb96cb31a406f72a8683ce933a34",
+  "task_id": "task_0364",
+  "task_index": 364
+}

@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2404.10689",
+  "candidate_id": "2404-10689_pdf_5757feb10068fcc6",
+  "caption": "Proposed neural architecture search of the PtychoNN model.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 88,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 427,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 153,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 427,
+    "text_count": 65,
+    "vector_drawing_count": 88,
+    "vector_primitive_count": 362
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2404.10689v1",
+    "abstract": "X-ray and electron diffraction-based microscopy use bragg peak detection and ptychography to perform 3-D imaging at an atomic resolution. Typically, these techniques are implemented using computationally complex tasks such as a Psuedo-Voigt function or solving a complex inverse problem. Recently, the use of deep neural networks has improved the existing state-of-the-art approaches. However, the design and development of the neural network models depends on time and labor intensive tuning of the model by application experts. To that end, we propose a hyperparameter (HPS) and neural architecture search (NAS) approach to automate the design and optimization of the neural network models for model size, energy consumption and throughput. We demonstrate the improved performance of the auto-tuned models when compared to the manually tuned BraggNN and PtychoNN benchmark. We study and demonstrate the importance of the exploring the search space of tunable hyperparameters in enhancing the performance of bragg peak detection and ptychographic reconstruction. Our NAS and HPS of (1) BraggNN achieves a 31.03\\% improvement in bragg peak detection accuracy with a 87.57\\% reduction in model size, and (2) PtychoNN achieves a 16.77\\% improvement in model accuracy and a 12.82\\% reduction in model size when compared to the baseline PtychoNN model. When inferred on the Orin-AGX platform, the optimized Braggnn and Ptychonn models demonstrate a 10.51\\% and 9.47\\% reduction in inference latency and a 44.18\\% and 15.34\\% reduction in energy consumption when compared to their respective baselines, when inferred in the Orin-AGX edge platform.",
+    "arxiv_id": "2404.10689",
+    "authors": [
+      "Adarsha Balaji",
+      "Ramyad Hadidi",
+      "Gregory Kollmer",
+      "Mohammed E. Fouda",
+      "Prasanna Balaprakash"
+    ],
+    "categories": [
+      "cs.LG",
+      "eess.SP"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2404.10689v1",
+    "primary_category": "cs.LG",
+    "published": "2024-04-16T16:09:38Z",
+    "query": "(cat:eess.SP AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2404.10689v1",
+    "title": "Network architecture search of X-ray based scientific applications",
+    "updated": "2024-04-16T16:09:38Z",
+    "versioned_id": "2404.10689v1"
+  },
+  "reference_sha256": "246d9a083907c5c3f4572bb98467eccc210d4ea86530fa4fb68dac1ffc58c2ac",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 782,
+    "final_quality_rank": 608,
+    "final_quality_score": 0.579146,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 2,
+      "aspect_ratio": 0.9877,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.145893,
+      "component_bin": 2,
+      "connector_bin": 2,
+      "difference_hash": "01c001d013b003b2731630e264e024a8b8c838e864e26cd645f001a001d001d0",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 752,
+    "style_selection_score": 0.470052
+  },
+  "source_filename": "NAS.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "5757feb10068fcc6ce8e16a0846fcea4981373156c93897cc5e4e43b3cea867c",
+  "task_id": "task_0781",
+  "task_index": 781
+}

@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2404.04469",
+  "candidate_id": "2404-04469_pdf_763a24dbebb17ce9",
+  "caption": "The overview of MQ-Former architecture. The model takes an image and a list of textual language prompts as input and outputs their corresponding localized segment masks.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 19,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.982659,
+    "editable_component_count": 170,
+    "embedded_image_count": 3,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.000368,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 57,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 173,
+    "text_count": 16,
+    "vector_drawing_count": 38,
+    "vector_primitive_count": 154
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 434,
+    "full_pool_rank": 645,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 379,
+    "second_pass_review_rank": 434
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2404.04469v1",
+    "abstract": "Existing unified image segmentation models either employ a unified architecture across multiple tasks but use separate weights tailored to each dataset, or apply a single set of weights to multiple datasets but are limited to a single task. In this paper, we introduce the Mixed-Query Transformer (MQ-Former), a unified architecture for multi-task and multi-dataset image segmentation using a single set of weights. To enable this, we propose a mixed query strategy, which can effectively and dynamically accommodate different types of objects without heuristic designs. In addition, the unified architecture allows us to use data augmentation with synthetic masks and captions to further improve model generalization. Experiments demonstrate that MQ-Former can not only effectively handle multiple segmentation datasets and tasks compared to specialized state-of-the-art models with competitive performance, but also generalize better to open-set segmentation tasks, evidenced by over 7 points higher performance than the prior art on the open-vocabulary SeginW benchmark.",
+    "arxiv_id": "2404.04469",
+    "authors": [
+      "Pei Wang",
+      "Zhaowei Cai",
+      "Hao Yang",
+      "Ashwin Swaminathan",
+      "R. Manmatha",
+      "Stefano Soatto"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2404.04469v1",
+    "primary_category": "cs.CV",
+    "published": "2024-04-06T01:54:17Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2404.04469v1",
+    "title": "Mixed-Query Transformer: A Unified Image Segmentation Architecture",
+    "updated": "2024-04-06T01:54:17Z",
+    "versioned_id": "2404.04469v1"
+  },
+  "reference_sha256": "cbfcde622fad865e7624885263c5f0754ab72eecd58adad61d5869cbd9ba003e",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 968,
+    "final_quality_rank": 871,
+    "final_quality_score": 0.487311,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.5946,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.202351,
+      "component_bin": 1,
+      "connector_bin": 0,
+      "difference_hash": "00cc02cc00a8a62ce5ac864cd58cc66cc26cdd24ad24a66ec66ece6acf9c438c",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 957,
+    "style_selection_score": 0.408481
+  },
+  "source_filename": "architecture2.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "763a24dbebb17ce91df9517207b90b3912eeb80482812255cb0d63605b5958c7",
+  "task_id": "task_0967",
+  "task_index": 967
+}

@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2102.06870",
+  "candidate_id": "2102-06870_pdf_fda470dbac03a665",
+  "caption": "Overview of the proposed self-reorganizing and rejuvenating CNN. Best viewed in color.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 165,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 2220,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 356,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 2220,
+    "text_count": 137,
+    "vector_drawing_count": 219,
+    "vector_primitive_count": 2083
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2102.06870v1",
+    "abstract": "In this paper, we propose self-reorganizing and rejuvenating convolutional neural networks; a biologically inspired method for improving the computational resource utilization of neural networks. The proposed method utilizes the channel activations of a convolution layer in order to reorganize that layers parameters. The reorganized parameters are clustered to avoid parameter redundancies. As such, redundant neurons with similar activations are merged leaving room for the remaining parameters to rejuvenate. The rejuvenated parameters learn different features to supplement those learned by the reorganized surviving parameters. As a result, the network capacity utilization increases improving the baseline network performance without any changes to the network structure. The proposed method can be applied to various network architectures during the training stage, or applied to a pre-trained model improving its performance. Experimental results showed that the proposed method is model-agnostic and can be applied to any backbone architecture increasing its performance due to the elevated utilization of the network capacity.",
+    "arxiv_id": "2102.06870",
+    "authors": [
+      "Wissam J. Baddar",
+      "Seungju Han",
+      "Seonmin Rhee",
+      "Jae-Joon Han"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CV",
+      "cs.NE"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2102.06870v1",
+    "primary_category": "cs.LG",
+    "published": "2021-02-13T06:19:45Z",
+    "query": "(cat:cs.NE AND all:\"network architecture\") AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2102.06870v1",
+    "title": "Self-Reorganizing and Rejuvenating CNNs for Increasing Model Capacity Utilization",
+    "updated": "2021-02-13T06:19:45Z",
+    "versioned_id": "2102.06870v1"
+  },
+  "reference_sha256": "e11d2379eb0de6d08bf7ba1f6d9f553a27aa165a8117c709167536be095ef97f",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 325,
+    "final_quality_rank": 225,
+    "final_quality_score": 0.662956,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.0349,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.286386,
+      "component_bin": 4,
+      "connector_bin": 3,
+      "difference_hash": "6236699b330a93069336230e668cf2c672c6724676c276417649666062966296",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 331,
+    "style_selection_score": 0.526146
+  },
+  "source_filename": "fig1_1.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "fda470dbac03a665bdd3991ea3e05ee2252be53db62f6e2212c83726f08a0420",
+  "task_id": "task_0324",
+  "task_index": 324
+}

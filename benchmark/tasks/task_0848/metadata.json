@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2207.14482",
+  "candidate_id": "2207-14482_pdf_24727c0f8978ee51",
+  "caption": "Overview of our quantum architecture optimization flow.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 27,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 215,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 59,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 215,
+    "text_count": 20,
+    "vector_drawing_count": 39,
+    "vector_primitive_count": 195
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 389,
+    "full_pool_rank": 550,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 338,
+    "second_pass_review_rank": 389
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2207.14482v1",
+    "abstract": "With the steady progress in quantum computing over recent years, roadmaps for upscaling quantum processors have relied heavily on the targeted qubit architectures. So far, similarly to the early age of classical computing, these designs have been crafted by human experts. These general-purpose architectures, however, leave room for customization and optimization, especially when targeting popular near-term QC applications. In classical computing, customized architectures have demonstrated significant performance and energy efficiency gains over general-purpose counterparts. In this paper, we present a framework for optimizing quantum architectures, specifically through customizing qubit connectivity. It is the first work that (1) provides performance guarantees by integrating architecture optimization with an optimal compiler, (2) evaluates the impact of connectivity customization under a realistic crosstalk error model, and (3) benchmarks on realistic circuits of near-term interest, such as the quantum approximate optimization algorithm (QAOA) and quantum convolutional neural network (QCNN). We demonstrate up to 59% fidelity improvement in simulation by optimizing the heavy-hexagon architecture for QAOA circuits, and up to 14% improvement on the grid architecture. For the QCNN circuit, architecture optimization improves fidelity by 11% on the heavy-hexagon architecture and 605% on the grid architecture.",
+    "arxiv_id": "2207.14482",
+    "authors": [
+      "Wan-Hsuan Lin",
+      "Bochen Tan",
+      "Murphy Yuezhen Niu",
+      "Jason Kimko",
+      "Jason Cong"
+    ],
+    "categories": [
+      "cs.AR",
+      "quant-ph"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2207.14482v1",
+    "primary_category": "cs.AR",
+    "published": "2022-07-29T05:16:02Z",
+    "query": "(cat:quant-ph AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2207.14482v1",
+    "title": "Domain-Specific Quantum Architecture Optimization",
+    "updated": "2022-07-29T05:16:02Z",
+    "versioned_id": "2207.14482v1"
+  },
+  "reference_sha256": "5ab66fbb04df8b838cca3e015e42ccb1e9d2e8b3a27d2f212e7e85d31a26dd07",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 849,
+    "final_quality_rank": 707,
+    "final_quality_score": 0.55585,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 2,
+      "aspect_ratio": 1.13,
+      "category": "cs.AR",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.429735,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "e2a0f280ce24f604f680ea20fe087e08de00db24de20de10c920de24b650e3d0",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 773,
+    "style_selection_score": 0.463861
+  },
+  "source_filename": "flow.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "24727c0f8978ee51222ab32e7cec7ff52b3d83272de4c0116436636e8479373b",
+  "task_id": "task_0848",
+  "task_index": 848
+}

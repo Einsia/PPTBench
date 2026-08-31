@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2303.07989",
+  "candidate_id": "2303-07989_pdf_f74bf4ae74207b06",
+  "caption": "CNN architecture used in the proposed method.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 155,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 3696,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 185,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 3696,
+    "text_count": 0,
+    "vector_drawing_count": 185,
+    "vector_primitive_count": 3696
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2303.07989v2",
+    "abstract": "Air-writing refers to virtually writing linguistic characters through hand gestures in three-dimensional space with six degrees of freedom. This paper proposes a generic video camera-aided convolutional neural network (CNN) based air-writing framework. Gestures are performed using a marker of fixed color in front of a generic video camera, followed by color-based segmentation to identify the marker and track the trajectory of the marker tip. A pre-trained CNN is then used to classify the gesture. The recognition accuracy is further improved using transfer learning with the newly acquired data. The performance of the system varies significantly on the illumination condition due to color-based segmentation. In a less fluctuating illumination condition, the system is able to recognize isolated unistroke numerals of multiple languages. The proposed framework has achieved 97.7%, 95.4% and 93.7% recognition rates in person independent evaluations on English, Bengali and Devanagari numerals, respectively.",
+    "arxiv_id": "2303.07989",
+    "authors": [
+      "Prasun Roy",
+      "Subhankar Ghosh",
+      "Umapada Pal"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.HC"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2303.07989v2",
+    "primary_category": "cs.CV",
+    "published": "2023-03-14T15:44:45Z",
+    "query": "(cat:cs.HC AND all:framework) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2303.07989v2",
+    "title": "A CNN Based Framework for Unistroke Numeral Recognition in Air-Writing",
+    "updated": "2025-02-18T16:24:45Z",
+    "versioned_id": "2303.07989v2"
+  },
+  "reference_sha256": "39c7cc98e36387c2c0ea5677303e11461bb0d4052988a9cd33c4d8f75767fdda",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 621,
+    "final_quality_rank": 461,
+    "final_quality_score": 0.606522,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 3.593,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.076605,
+      "component_bin": 4,
+      "connector_bin": 3,
+      "difference_hash": "0c080611580c182c003b6d2ca52ca53ea594af1caf1cec5d6480302c300c8811",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 583,
+    "style_selection_score": 0.490557
+  },
+  "source_filename": "figure_3.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "f74bf4ae74207b0669fe63271d30c96953bb35dca3c128fc4291b10f8cb06123",
+  "task_id": "task_0620",
+  "task_index": 620
+}

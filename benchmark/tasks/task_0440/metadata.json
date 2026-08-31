@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2402.00677",
+  "candidate_id": "2402-00677_pdf_7afd63e370f31d91",
+  "caption": "Neural Policy Style Transfer framework. The framework is composed by three Deep Q-Networks with the same architecture. The content DQN is trained using the content demonstrations. The style DQN is trained using the style demonstrations. The Generated DQN is generated using the output of the Content DQN and the weights of the Style DQN.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 238,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1976,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 502,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1976,
+    "text_count": 0,
+    "vector_drawing_count": 502,
+    "vector_primitive_count": 1976
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2402.00677v1",
+    "abstract": "Style Transfer has been proposed in a number of fields: fine arts, natural language processing, and fixed trajectories. We scale this concept up to control policies within a Deep Reinforcement Learning infrastructure. Each network is trained to maximize the expected reward, which typically encodes the goal of an action, and can be described as the content. The expressive power of deep neural networks enables encoding a secondary task, which can be described as the style. The Neural Policy Style Transfer (NPST) algorithm is proposed to transfer the style of one policy to another, while maintaining the content of the latter. Different policies are defined via Deep Q-Network architectures. These models are trained using demonstrations through Inverse Reinforcement Learning. Two different sets of user demonstrations are performed, one for content and other for style. Different styles are encoded as defined by user demonstrations. The generated policy is the result of feeding a content policy and a style policy to the NPST algorithm. Experiments are performed in a catch-ball game inspired by the Deep Reinforcement Learning classical Atari games; and a real-world painting scenario with a full-sized humanoid robot, based on previous works of the authors. The implementation of three different Q-Network architectures (Shallow, Deep and Deep Recurrent Q-Network) to encode the policies within the NPST framework is proposed and the results obtained in the experiments with each of these architectures compared.",
+    "arxiv_id": "2402.00677",
+    "authors": [
+      "Raul Fernandez-Fernandez",
+      "Juan G. Victores",
+      "Jennifer J. Gago",
+      "David Estevez",
+      "Carlos Balaguer"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.LG",
+      "cs.NE"
+    ],
+    "doi": "10.1016/j.cogsys.2021.11.003",
+    "journal_ref": "Cognitive Systems Research, Volume 72, March 2022, Pages 23 to 32",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2402.00677v1",
+    "primary_category": "cs.RO",
+    "published": "2024-02-01T15:37:42Z",
+    "query": "(cat:cs.NE AND all:\"network architecture\") AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2402.00677v1",
+    "title": "Neural Policy Style Transfer",
+    "updated": "2024-02-01T15:37:42Z",
+    "versioned_id": "2402.00677v1"
+  },
+  "reference_sha256": "8c7bd87ee13af4a129be11afb716fabf7ea7331e5c2e3fd376253b739aec9984",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 441,
+    "final_quality_rank": 316,
+    "final_quality_score": 0.635349,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.2442,
+      "category": "cs.RO",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.236313,
+      "component_bin": 3,
+      "connector_bin": 3,
+      "difference_hash": "0f440b080b100a140ec00f400a0c0f120b05264c25da22064610cf14c645c6c9",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 470,
+    "style_selection_score": 0.514779
+  },
+  "source_filename": "framework-graph-v3.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "7afd63e370f31d9178504a3ec34e7f635b0fec52f01acae7a3105ac999d1954c",
+  "task_id": "task_0440",
+  "task_index": 440
+}

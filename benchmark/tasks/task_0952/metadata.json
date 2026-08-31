@@ -1,0 +1,87 @@
+{
+  "arxiv_id": "2507.20122",
+  "candidate_id": "2507-20122_pdf_3b0057a9ba614e37",
+  "caption": "Overview of our study methodology",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 30,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.996587,
+    "editable_component_count": 292,
+    "embedded_image_count": 1,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.00773,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 94,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 293,
+    "text_count": 46,
+    "vector_drawing_count": 47,
+    "vector_primitive_count": 246
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 163,
+    "full_pool_rank": 218,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 145,
+    "second_pass_review_rank": 163
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2507.20122v2",
+    "abstract": "Scientific Workflow Systems such as Galaxy and Nextflow are essential for scalable, reproducible, and automated bioinformatics analyses. However, developing and understanding scientific workflows remains challenging for many domain scientists due to the complexity of tool/module selection, infrastructure requirements, and limited programming expertise. This study explores whether state-of-the-art Large Language Models such as GPT-4o, Gemini 2.5 Flash, and DeepSeek-V3 can assist in generating accurate, complete, and usable bioinformatics workflows. We evaluate a set of representative workflows covering tasks such as RNA-seq, SNP analysis, and DNA methylation across both Galaxy (graphical) and Nextflow (script-based) platforms. To simulate realistic usage, we adopt a tiered prompting strategy: each workflow is first generated using an instruction-only prompt; if the output is incomplete or incorrect, we escalate to a role-based prompt, and finally to chain-of-thought prompting if needed. The generated workflows are evaluated against community-curated baselines from the Galaxy Training Network and nf-core, using criteria including correctness, completeness, tool appropriateness, and executability. Results show that LLMs exhibit strong potential in workflow development. Gemini 2.5 Flash produced the most accurate and user-friendly workflows in Galaxy, while DeepSeek-V3 excelled in Nextflow pipeline generation. GPT-4o performed nicely with structured prompts. Prompting strategy significantly influenced output quality, with role-based and chain-of-thought prompts enhancing correctness and completeness. Overall, LLMs can reduce the cognitive and technical barriers to workflow development, making SWSs more accessible to novice and expert users. This work highlights the practical utility of LLMs and provides actionable insights for integrating them into real-world bioinformatics workflow design.",
+    "arxiv_id": "2507.20122",
+    "authors": [
+      "Khairul Alam",
+      "Banani Roy"
+    ],
+    "categories": [
+      "cs.SE"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2507.20122v2",
+    "primary_category": "cs.SE",
+    "published": "2025-07-27T04:08:11Z",
+    "query": "(cat:cs.SE AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2507.20122v2",
+    "title": "From Prompt to Pipeline: Large Language Models for Scientific Workflow Development in Bioinformatics",
+    "updated": "2025-08-14T22:22:19Z",
+    "versioned_id": "2507.20122v2"
+  },
+  "reference_sha256": "5ed94290122cde6e4e10bebe59b8e9d2295f91e026edbf65b0bbab955ab3f020",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 953,
+    "final_quality_rank": 845,
+    "final_quality_score": 0.499721,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.4156,
+      "category": "cs.SE",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.042981,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "a600b340b7000584492429242d458e248e3cc65c49b7ddb6ccb6c6b1c8714030",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 922,
+    "style_selection_score": 0.418049
+  },
+  "source_filename": "Study-Design.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "3b0057a9ba614e376e09a0665596075c8a8b3fee4240c672bf786fc94b66d80c",
+  "task_id": "task_0952",
+  "task_index": 952
+}

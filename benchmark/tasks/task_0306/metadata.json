@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2310.05118",
+  "candidate_id": "2310-05118_pdf_5a6dc72d46c5dd8f",
+  "caption": "The architecture of the VITS-based voice converter.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 90,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 989,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 142,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 989,
+    "text_count": 51,
+    "vector_drawing_count": 91,
+    "vector_primitive_count": 938
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 541,
+    "full_pool_rank": 844,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 469,
+    "second_pass_review_rank": 541
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2310.05118v1",
+    "abstract": "This paper presents the T02 team's system for the Singing Voice Conversion Challenge 2023 (SVCC2023). Our system entails a VITS-based SVC model, incorporating three modules: a feature extractor, a voice converter, and a post-processor. Specifically, the feature extractor provides F0 contours and extracts speaker-independent linguistic content from the input singing voice by leveraging a HuBERT model. The voice converter is employed to recompose the speaker timbre, F0, and linguistic content to generate the waveform of the target speaker. Besides, to further improve the audio quality, a fine-tuned DSPGAN vocoder is introduced to re-synthesise the waveform. Given the limited target speaker data, we utilize a two-stage training strategy to adapt the base model to the target speaker. During model adaptation, several tricks, such as data augmentation and joint training with auxiliary singer data, are involved. Official challenge results show that our system achieves superior performance, especially in the cross-domain task, ranking 1st and 2nd in naturalness and similarity, respectively. Further ablation justifies the effectiveness of our system design.",
+    "arxiv_id": "2310.05118",
+    "authors": [
+      "Yiquan Zhou",
+      "Meng Chen",
+      "Yi Lei",
+      "Jihua Zhu",
+      "Weifeng Zhao"
+    ],
+    "categories": [
+      "cs.SD",
+      "eess.AS"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2310.05118v1",
+    "primary_category": "cs.SD",
+    "published": "2023-10-08T11:16:57Z",
+    "query": "(cat:eess.AS AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2310.05118v1",
+    "title": "VITS-based Singing Voice Conversion System with DSPGAN post-processing for SVCC2023",
+    "updated": "2023-10-08T11:16:57Z",
+    "versioned_id": "2310.05118v1"
+  },
+  "reference_sha256": "46ee8ff7bdb1f28591ed0379e545b9a647a74c9013b7e8150f4e4389a1f38677",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 307,
+    "final_quality_rank": 217,
+    "final_quality_score": 0.664802,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.4391,
+      "category": "cs.SD",
+      "category_family": "cs",
+      "color_bin": 4,
+      "colorfulness": 0.580012,
+      "component_bin": 3,
+      "connector_bin": 2,
+      "difference_hash": "a786a78e8cee92beb38cf382b0b2b492ccb09cf28448cc52ccd6e85694319470",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 218,
+    "style_selection_score": 0.552093
+  },
+  "source_filename": "tu2.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "5a6dc72d46c5dd8f377a0e5f4fabe550d186f69ad8f3c8260478af57d1999b7f",
+  "task_id": "task_0306",
+  "task_index": 306
+}

@@ -1,0 +1,88 @@
+{
+  "arxiv_id": "2205.07168",
+  "candidate_id": "2205-07168_pdf_efe1206fc631de26",
+  "caption": "An example of the network architecture adaptation by the proposed method. Until the training of the architecture parameters is finished, both and are trained. After the architecture train step, is fixed and only is trained until we get the final trained network.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 570,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.999741,
+    "editable_component_count": 23178,
+    "embedded_image_count": 6,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.012976,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 589,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 23184,
+    "text_count": 9,
+    "vector_drawing_count": 574,
+    "vector_primitive_count": 23169
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2205.07168v1",
+    "abstract": "Recently, Neural Architecture Search (NAS) methods have been introduced and show impressive performance on many benchmarks. Among those NAS studies, Neural Architecture Transformer (NAT) aims to adapt the given neural architecture to improve performance while maintaining computational costs. However, NAT lacks reproducibility and it requires an additional architecture adaptation process before network weight training. In this paper, we propose proxyless neural architecture adaptation that is reproducible and efficient. Our method can be applied to both supervised learning and self-supervised learning. The proposed method shows stable performance on various architectures. Extensive reproducibility experiments on two datasets, i.e., CIFAR-10 and Tiny Imagenet, present that the proposed method definitely outperforms NAT and is applicable to other models and datasets.",
+    "arxiv_id": "2205.07168",
+    "authors": [
+      "Do-Guk Kim",
+      "Heung-Chang Lee"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2205.07168v1",
+    "primary_category": "cs.LG",
+    "published": "2022-05-15T02:49:48Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2205.07168v1",
+    "title": "Proxyless Neural Architecture Adaptation for Supervised Learning and Self-Supervised Learning",
+    "updated": "2022-05-15T02:49:48Z",
+    "versioned_id": "2205.07168v1"
+  },
+  "reference_sha256": "64c39ccbde4513e2f4bbdde63f64e95cc528a13ca4c7010d27c3d6d24fd63d75",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 28,
+    "final_quality_rank": 22,
+    "final_quality_score": 0.772379,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.7333,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.345062,
+      "component_bin": 6,
+      "connector_bin": 4,
+      "difference_hash": "c122664c644c274467666ccd153a562a6ae4c91ac318a331a69ba69bae814694",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 56,
+    "style_selection_score": 0.624303
+  },
+  "source_filename": "DNAT_fig.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "efe1206fc631de2642ed762e290d4f3dd08a92da443eef59e6ad8f33c96dc1b6",
+  "task_id": "task_0027",
+  "task_index": 27
+}

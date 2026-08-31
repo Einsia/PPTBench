@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2606.10882",
+  "candidate_id": "2606-10882_pdf_639a232ceb094d06",
+  "caption": "Overview of our research design in FLOW notation .",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 44,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.970183,
+    "editable_component_count": 423,
+    "embedded_image_count": 13,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.013893,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 84,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 436,
+    "text_count": 21,
+    "vector_drawing_count": 50,
+    "vector_primitive_count": 402
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 1087,
+    "full_pool_rank": 1957,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 960,
+    "second_pass_review_rank": 1087
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2606.10882v1",
+    "abstract": "Explainability is increasingly required in AI-enabled software systems to support transparency, user trust, and compliance. Yet, explainability requirements are often written ad hoc, and unguided large language model support can yield vague, inconsistent, or incomplete statements. This paper presents a sequential, guideline-driven workflow for formulating explainability requirements and evaluates its tool-based operationalization. We first elicited candidate quality properties through a structured literature review and developer interviews. We then prioritized these properties in an online survey with practitioners (n=20) and derived a concise guideline of ten core properties with actionable formulation instructions. Next, we operationalized the guideline in a web-based tool that supports an iterative workflow of drafting, property-based checks, and revision. We evaluated the workflow in two complementary studies. In a workshop with requirements engineers (n=6), tool support reduced formulation time by 23.5% on average (Wilcoxon p=0.021). In an independent online study with software developers (n=18), tool-supported and manually written requirements received comparable ratings for implementability and formulation quality, with a descriptive slight preference tendency toward the tool-supported versions. Overall, our results suggest that combining a prioritized quality guideline with lightweight LLM support can reduce formulation effort while producing requirements that are perceived comparably to manually written ones.",
+    "arxiv_id": "2606.10882",
+    "authors": [
+      "Martin Obaidi",
+      "Jakob Droste",
+      "Hannah Deters",
+      "Marc Herrmann",
+      "Michel Krahl",
+      "Kurt Schneider"
+    ],
+    "categories": [
+      "cs.SE"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2606.10882v1",
+    "primary_category": "cs.SE",
+    "published": "2026-06-09T13:56:31Z",
+    "query": "(cat:cs.SE AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2606.10882v1",
+    "title": "From Quality Properties to Practice: A Guideline and Workflow for Explainability Requirements",
+    "updated": "2026-06-09T13:56:31Z",
+    "versioned_id": "2606.10882v1"
+  },
+  "reference_sha256": "ce672fa742254c428dd25aa4ea8dfd2d3bace46848de97426ecffa5d273122df",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 978,
+    "final_quality_rank": 904,
+    "final_quality_score": 0.463922,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 3.3795,
+      "category": "cs.SE",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.0,
+      "component_bin": 2,
+      "connector_bin": 1,
+      "difference_hash": "a4c8a1aca2ac84d48cd82d28cd26cf268ec49c08ac09b308b318b3188d088d8d",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 982,
+    "style_selection_score": 0.39107
+  },
+  "source_filename": "Study-design-Krahl-5-Englisch_IEEE.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "639a232ceb094d06b40940727fb23f5850158603ef98ad74b941b0414bc3c112",
+  "task_id": "task_0977",
+  "task_index": 977
+}

@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2101.10208",
+  "candidate_id": "2101-10208_pdf_a91b35397a4d5e88",
+  "caption": "Back--Projection Pipeline network diagram. On the left, a detailed diagram shows all back--projection modules. On the right, the diagram is simplified by using Flux units.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 401,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.999297,
+    "editable_component_count": 1421,
+    "embedded_image_count": 1,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.012822,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 488,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1422,
+    "text_count": 68,
+    "vector_drawing_count": 419,
+    "vector_primitive_count": 1353
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 80,
+    "full_pool_rank": 102,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 72,
+    "second_pass_review_rank": 80
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2101.10208v1",
+    "abstract": "We propose a simple extension of residual networks that works simultaneously in multiple resolutions. Our network design is inspired by the iterative back-projection algorithm but seeks the more difficult task of learning how to enhance images. Compared to similar approaches, we propose a novel solution to make back-projections run in multiple resolutions by using a data pipeline workflow. Features are updated at multiple scales in each layer of the network. The update dynamic through these layers includes interactions between different resolutions in a way that is causal in scale, and it is represented by a system of ODEs, as opposed to a single ODE in the case of ResNets. The system can be used as a generic multi-resolution approach to enhance images. We test it on several challenging tasks with special focus on super-resolution and raindrop removal. Our results are competitive with state-of-the-arts and show a strong ability of our system to learn both global and local image features.",
+    "arxiv_id": "2101.10208",
+    "authors": [
+      "Pablo Navarrete Michelini",
+      "Hanwen Liu",
+      "Yunhua Lu",
+      "Xingqun Jiang"
+    ],
+    "categories": [
+      "eess.IV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2101.10208v1",
+    "primary_category": "eess.IV",
+    "published": "2021-01-25T16:18:57Z",
+    "query": "(cat:eess.IV AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2101.10208v1",
+    "title": "Back-Projection Pipeline",
+    "updated": "2021-01-25T16:18:57Z",
+    "versioned_id": "2101.10208v1"
+  },
+  "reference_sha256": "58f427225d26721458d7edae02710ae262d2416389f3cbc5aebb8752715ca934",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 108,
+    "final_quality_rank": 133,
+    "final_quality_score": 0.690621,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 5.1717,
+      "category": "eess.IV",
+      "category_family": "eess",
+      "color_bin": 2,
+      "colorfulness": 0.257168,
+      "component_bin": 3,
+      "connector_bin": 4,
+      "difference_hash": "68cc69cd6bcd6acd56ccc6dcd1dc41d8d218dd58df68de40dec09c28df286f28",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 151,
+    "style_selection_score": 0.570549
+  },
+  "source_filename": "bpp.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "a91b35397a4d5e8891c58b209eb8c189246269d84cfb76887ff72969d225ef92",
+  "task_id": "task_0107",
+  "task_index": 107
+}

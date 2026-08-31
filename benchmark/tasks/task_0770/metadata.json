@@ -1,0 +1,87 @@
+{
+  "arxiv_id": "2309.09035",
+  "candidate_id": "2309-09035_pdf_c8d2bdb3cead4296",
+  "caption": "Cascaded interleaved 16-Point FFT-IFFT architectures. Top-Middle cascade represents a traditional design. Top-bottom cascade represents the proposed design.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 152,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 858,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 320,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 858,
+    "text_count": 124,
+    "vector_drawing_count": 196,
+    "vector_primitive_count": 734
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 794,
+    "full_pool_rank": 1357,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 693,
+    "second_pass_review_rank": 794
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2309.09035v1",
+    "abstract": "This paper addresses the design of a partly-parallel cascaded FFT-IFFT architecture that does not require any intermediate buffer. Folding can be used to design partly-parallel architectures for FFT and IFFT. While many cascaded FFT-IFFT architectures can be designed using various folding sets for the FFT and the IFFT, for a specified folded FFT architecture, there exists a unique folding set to design the IFFT architecture that does not require an intermediate buffer. Such a folding set is designed by processing the output of the FFT as soon as possible (ASAP) in the folded IFFT. Elimination of the intermediate buffer reduces latency and saves area. The proposed approach is also extended to interleaved processing of multi-channel time-series. The proposed FFT-IFFT cascade architecture saves about N/2 memory elements and N/4 clock cycles of latency compared to a design with identical folding sets. For the 2-interleaved FFT-IFFT cascade, the memory and latency savings are, respectively, N/2 units and N/2 clock cycles, compared to a design with identical folding sets.",
+    "arxiv_id": "2309.09035",
+    "authors": [
+      "Keshab K. Parhi"
+    ],
+    "categories": [
+      "cs.AR",
+      "eess.SP"
+    ],
+    "doi": "10.1109/ICASSP48485.2024.10447370",
+    "journal_ref": "ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Seoul, April 2024",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2309.09035v1",
+    "primary_category": "cs.AR",
+    "published": "2023-09-16T16:12:22Z",
+    "query": "(cat:eess.SP AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2309.09035v1",
+    "title": "A Low-Latency FFT-IFFT Cascade Architecture",
+    "updated": "2023-09-16T16:12:22Z",
+    "versioned_id": "2309.09035v1"
+  },
+  "reference_sha256": "23f3d8b6f198def9651cd814e6b95de7325edd323e157bbb9b5559c106f098af",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 771,
+    "final_quality_rank": 590,
+    "final_quality_score": 0.582032,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.5372,
+      "category": "cs.AR",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.16883,
+      "component_bin": 2,
+      "connector_bin": 3,
+      "difference_hash": "cd00c924c965d6a5d5a5cd35cc04cd3a4abecb6acb12ce30cd244d24ca60cb64",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 727,
+    "style_selection_score": 0.476934
+  },
+  "source_filename": "FFT-2-channel-arch.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "c8d2bdb3cead429676852e1623dbe9bc262c9bd8c2bef2dea879cad928c55880",
+  "task_id": "task_0770",
+  "task_index": 770
+}

@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2103.17055",
+  "candidate_id": "2103-17055_pdf_271422ffe984c795",
+  "caption": "Conceptual diagram of our neighbourhood framework. The query is processed using run-time compute, while the neighbour vector is pre-computed.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 127,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 350,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 193,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 350,
+    "text_count": 45,
+    "vector_drawing_count": 148,
+    "vector_primitive_count": 305
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 650,
+    "full_pool_rank": 1082,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 567,
+    "second_pass_review_rank": 650
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2103.17055v3",
+    "abstract": "We propose a novel framework for cross-lingual content flagging with limited target-language data, which significantly outperforms prior work in terms of predictive performance. The framework is based on a nearest-neighbour architecture. It is a modern instantiation of the vanilla k-nearest neighbour model, as we use Transformer representations in all its components. Our framework can adapt to new source-language instances, without the need to be retrained from scratch. Unlike prior work on neighbourhood-based approaches, we encode the neighbourhood information based on query--neighbour interactions. We propose two encoding schemes and we show their effectiveness using both qualitative and quantitative analysis. Our evaluation results on eight languages from two different datasets for abusive language detection show sizable improvements of up to 9.5 F1 points absolute (for Italian) over strong baselines. On average, we achieve 3.6 absolute F1 points of improvement for the three languages in the Jigsaw Multilingual dataset and 2.14 points for the WUL dataset.",
+    "arxiv_id": "2103.17055",
+    "authors": [
+      "Sheikh Muhammad Sarwar",
+      "Dimitrina Zlatkova",
+      "Momchil Hardalov",
+      "Yoan Dinkov",
+      "Isabelle Augenstein",
+      "Preslav Nakov"
+    ],
+    "categories": [
+      "cs.CL",
+      "stat.ML"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2103.17055v3",
+    "primary_category": "cs.CL",
+    "published": "2021-03-31T13:22:51Z",
+    "query": "(cat:stat.ML AND all:framework) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2103.17055v3",
+    "title": "A Neighbourhood Framework for Resource-Lean Content Flagging",
+    "updated": "2022-01-27T15:40:23Z",
+    "versioned_id": "2103.17055v3"
+  },
+  "reference_sha256": "c889dfc5495e4f8af628a1ddb9c22e13907460da18ff384c0b4d36698141feef",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 787,
+    "final_quality_rank": 612,
+    "final_quality_score": 0.578294,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 2,
+      "aspect_ratio": 0.9601,
+      "category": "cs.CL",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.262449,
+      "component_bin": 1,
+      "connector_bin": 2,
+      "difference_hash": "65882708334e441873c0318031883998601852a0b294a630b7306f206f040300",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 735,
+    "style_selection_score": 0.47354
+  },
+  "source_filename": "conceptual_diagram_tacl.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "271422ffe984c7956b0d3c501da62a71f33750df80419d9c0e9a2cdc3527c158",
+  "task_id": "task_0786",
+  "task_index": 786
+}

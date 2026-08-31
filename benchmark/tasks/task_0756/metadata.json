@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2601.05072",
+  "candidate_id": "2601-05072_pdf_1bc83df6a2c7fc2e",
+  "caption": "SIM architecture overview. SIM maps shared memory for each sensor, using unique identifiers, such as /camera_front, with dynamically sized buffers based on sensor specifications. Each sensor has dedicated regions without disrupting others.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 60,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 338,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 138,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 338,
+    "text_count": 44,
+    "vector_drawing_count": 94,
+    "vector_primitive_count": 294
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 564,
+    "full_pool_rank": 892,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 490,
+    "second_pass_review_rank": 564
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2601.05072v3",
+    "abstract": "Vehicle computing represents a fundamental shift in how autonomous vehicles are designed and deployed, transforming them from isolated transportation systems into mobile computing platforms that support both safety-critical, real-time driving and data-centric services. In this setting, vehicles simultaneously support real-time driving pipelines and a growing set of data-driven applications, placing increased responsibility on the vehicle operating system to coordinate computation, data movement, storage, and access. These demands highlight recurring system considerations related to predictable execution, data and execution protection, efficient handling of high-rate sensor data, and long-term system evolvability, commonly summarized as Safety, Security, Efficiency, and Extensibility (SSEE). Existing vehicle operating systems and runtimes address these concerns in isolation, resulting in fragmented software stacks that limit coordination between autonomy workloads and vehicle data services. This paper presents DAVOS, the Dependable Autonomous Vehicle Operating System, a unified vehicle operating system architecture designed for the vehicle computing context. DAVOS provides a cohesive operating system foundation that supports both real-time autonomy and extensible vehicle computing within a single system framework.",
+    "arxiv_id": "2601.05072",
+    "authors": [
+      "Yuxin Wang",
+      "Yuankai He",
+      "Boyang Tian",
+      "Lichen Xian",
+      "Weisong Shi"
+    ],
+    "categories": [
+      "cs.OS",
+      "cs.RO"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2601.05072v3",
+    "primary_category": "cs.OS",
+    "published": "2026-01-08T16:17:48Z",
+    "query": "(cat:cs.RO AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2601.05072v3",
+    "title": "DAVOS: An Autonomous Vehicle Operating System in the Vehicle Computing Era",
+    "updated": "2026-01-23T16:11:28Z",
+    "versioned_id": "2601.05072v3"
+  },
+  "reference_sha256": "185bd0a195aa679c87b6135fd5e2efb02ee23bb6ad5966139d6ec1a1b00c6816",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 757,
+    "final_quality_rank": 574,
+    "final_quality_score": 0.586227,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 4.4583,
+      "category": "cs.OS",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.420042,
+      "component_bin": 1,
+      "connector_bin": 2,
+      "difference_hash": "03005f20331864c8e758ed882e48a64aae4aae0aa24a7e48e718e6481e4071b0",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 158,
+    "style_selection_score": 0.57515
+  },
+  "source_filename": "SIM_overview.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "1bc83df6a2c7fc2ecbf02852697511cafcb74be1188e569faa1936a7807fe45f",
+  "task_id": "task_0756",
+  "task_index": 756
+}

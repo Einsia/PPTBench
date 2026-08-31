@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2601.03917",
+  "candidate_id": "2601-03917_pdf_cc0a79abf2e92d3f",
+  "caption": "hierarchical architecture showing the four key components: Root Node (global coordinator), Leader Nodes (regional managers), Member Nodes (static service providers), and Mobile Nodes (elastic resources).",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 137,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.947783,
+    "editable_component_count": 1924,
+    "embedded_image_count": 106,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.099128,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 270,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 2030,
+    "text_count": 27,
+    "vector_drawing_count": 137,
+    "vector_primitive_count": 1897
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 25,
+    "full_pool_rank": 32,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 23,
+    "second_pass_review_rank": 25
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2601.03917v1",
+    "abstract": "The Time-Slotted Channel Hopping (TSCH) mode of IEEE802.15.4 standard provides ultra high end-to-end reliability and low-power consumption for application in field of Industrial Internet of Things (IIoT). With the evolving of Industrial 4.0, dynamic and bursty tasks with varied Quality of Service (QoS); effective management and utilization of growing number of mobile equipments become two major challenges for network solutions. The existing TSCH-based networks lack of a system framework design to handle these challenges. In this paper, we propose a novel, service-oriented, and hierarchical IoT network architecture named Mobile Node as a Service (Monaas). Monaas aims to systematically manage and schedule mobile nodes as on-demand, elastic resources through a new architectural design and protocol mechanisms. Its core features include a hierarchical architecture to balance global coordination with local autonomy, task-driven scheduling for proactive resource allocation, and an on-demand mobile resource integration mechanism. The feasibility and potential of the Monaas link layer mechanisms are validated through implementation and performance evaluation on an nRF52840 hardware testbed, demonstrating its potential advantages in specific scenarios. On a physical nRF52840 testbed, Monaas consistently achieved a Task Completion Rate (TCR) above 98% for high-priority tasks under bursty traffic and link degradation, whereas all representative baselines (Static TSCH, 6TiSCH Minimal, OST, FTS-SDN) remained below 40%.Moreover, its on-demand mobile resource integration activated services in 1.2 s, at least 65% faster than SDN (3.5 s) and OST/6TiSCH (> 5.8 s).",
+    "arxiv_id": "2601.03917",
+    "authors": [
+      "Jinting Liu",
+      "Jingwei Li",
+      "Tengfei Chang"
+    ],
+    "categories": [
+      "cs.NI",
+      "cs.NE"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2601.03917v1",
+    "primary_category": "cs.NI",
+    "published": "2026-01-07T13:33:52Z",
+    "query": "(cat:cs.NE AND all:\"network architecture\") AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2601.03917v1",
+    "title": "Monaas: Mobile Node as a Service for TSCH-based Industrial IoT Networks",
+    "updated": "2026-01-07T13:33:52Z",
+    "versioned_id": "2601.03917v1"
+  },
+  "reference_sha256": "38c0f439d9859a75c2b085a329d302490ccd859cef7cb43efc62defb56b99ffd",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 525,
+    "final_quality_rank": 376,
+    "final_quality_score": 0.623568,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.3124,
+      "category": "cs.NI",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.116553,
+      "component_bin": 4,
+      "connector_bin": 2,
+      "difference_hash": "10c092c092d044d1838c8d948c948accbab48c44c409c3c5ccf2cd01c701c00c",
+      "raster_bin": 3
+    },
+    "style_selection_rank": 376,
+    "style_selection_score": 0.530321
+  },
+  "source_filename": "monaas_arch_2.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "cc0a79abf2e92d3f42e712b77dc165cb303fea889530ffcc9aa2266e8303447a",
+  "task_id": "task_0524",
+  "task_index": 524
+}

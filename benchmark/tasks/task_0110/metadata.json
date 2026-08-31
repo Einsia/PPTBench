@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2501.10910",
+  "candidate_id": "2501-10910_pdf_b8bf1889caae014f",
+  "caption": "Data splits for evaluating imputation model performance and quality of imputed data in classification tasks.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 236,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 2366,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 278,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 2366,
+    "text_count": 24,
+    "vector_drawing_count": 254,
+    "vector_primitive_count": 2342
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2501.10910v3",
+    "abstract": "Missing values of varying patterns and rates in real-world tabular data pose a significant challenge in developing reliable data-driven models. The most commonly used statistical and machine learning methods for missing value imputation may be ineffective when the missing rate is high and not random. This paper explores row and column attention in tabular data as between-feature and between-sample attention in a novel framework to reconstruct missing values. The proposed method uses CutMix data augmentation within a contrastive learning framework to improve the uncertainty of missing value estimation. The performance and generalizability of trained imputation models are evaluated in set-aside test data folds with missing values. The proposed framework is compared with 11 state-of-the-art statistical, machine learning, and deep imputation methods using 12 diverse tabular data sets. The average performance rank of our proposed method demonstrates its superiority over the state-of-the-art methods for missing rates between 10% and 90% and three missing value types, especially when the missing values are not random. The quality of the imputed data using our proposed method is compared in a downstream patient classification task using real-world electronic health records. This paper highlights the heterogeneity of tabular data sets to recommend imputation methods based on missing value types and data characteristics.",
+    "arxiv_id": "2501.10910",
+    "authors": [
+      "Ibna Kowsar",
+      "Shourav B. Rabbani",
+      "Yina Hou",
+      "Manar D. Samad"
+    ],
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2501.10910v3",
+    "primary_category": "cs.LG",
+    "published": "2025-01-19T01:10:18Z",
+    "query": "(cat:stat.ML AND all:framework) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2501.10910v3",
+    "title": "DeepIFSAC: Deep Imputation of Missing Values Using Feature and Sample Attention within Contrastive Framework",
+    "updated": "2025-03-25T17:15:52Z",
+    "versioned_id": "2501.10910v3"
+  },
+  "reference_sha256": "f75d625abeabfef8be192b53f745c0440c5f0733ffad2aa19a3c65e67c027a7e",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 111,
+    "final_quality_rank": 80,
+    "final_quality_score": 0.715251,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 3.189,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.425594,
+      "component_bin": 4,
+      "connector_bin": 3,
+      "difference_hash": "010810000b28330a370a3348b549b75995599348b36a1002322a002a000a0000",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 187,
+    "style_selection_score": 0.565874
+  },
+  "source_filename": "eval_pipeline_new1.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "b8bf1889caae014fb426475f0e52821923c4442ed37a810c2b8b4b1b163cc1b5",
+  "task_id": "task_0110",
+  "task_index": 110
+}

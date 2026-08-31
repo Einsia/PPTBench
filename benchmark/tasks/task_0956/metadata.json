@@ -1,0 +1,88 @@
+{
+  "arxiv_id": "2605.04178",
+  "candidate_id": "2605-04178_pdf_dc98f97facf858cf",
+  "caption": "NVIDIA Blackwell architecture: dual-die, TMEM, and SM structure.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 70,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 360,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 340,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 360,
+    "text_count": 93,
+    "vector_drawing_count": 247,
+    "vector_primitive_count": 267
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 1173,
+    "full_pool_rank": 2190,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 1039,
+    "second_pass_review_rank": 1173
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2605.04178v1",
+    "abstract": "Rapidly evolving GPU architectures featuring complex memory hierarchies, matrix units, and varied precision formats continue to widen the gap between theoretical peaks and achievable performance. We design and develop analytical performance models for NVIDIA Blackwell (B200) and AMD CDNA3 (MI300A) grounded in systematic microbenchmark characterization. For Blackwell, the model captures Tensor Memory (TMEM), asynchronous bulk copy (TMA), and 5th-generation tensor cores; for CDNA3, the model captures Infinity Cache hierarchy, VGPR constraints, and occupancy. Validation yields 1.31% MAE on B200 (21 kernels) and 0.09% on MI300A (27 kernels), while naive roofline baselines exceed 95% error on the same kernels. We further validate the models using Rodinia~3.1 and SPEChpc 2021 Tiny.The models are updated with HBM bandwidth, capacity, and cache parameters and applied to H200 (Hopper) and MI250X (CDNA2), indicating no major restructuring of the models are needed. All models and benchmarks will be released as open-source upon acceptance.",
+    "arxiv_id": "2605.04178",
+    "authors": [
+      "Aaron Jarmusch",
+      "Sunita Chandrasekaran"
+    ],
+    "categories": [
+      "cs.DC",
+      "cs.AR"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2605.04178v1",
+    "primary_category": "cs.DC",
+    "published": "2026-05-05T18:17:13Z",
+    "query": "(cat:cs.DC AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2605.04178v1",
+    "title": "Microbenchmark-Driven Analytical Performance Modeling Across Modern GPU Architectures",
+    "updated": "2026-05-05T18:17:13Z",
+    "versioned_id": "2605.04178v1"
+  },
+  "reference_sha256": "cf409ac3cca11808b740f16c7c733588429dce0a142f33cee2c519b50558b48d",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 957,
+    "final_quality_rank": 859,
+    "final_quality_score": 0.494693,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.7286,
+      "category": "cs.DC",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.26002,
+      "component_bin": 1,
+      "connector_bin": 2,
+      "difference_hash": "6318eb3898d4e6546c52ec5ace5ece5eb7dcb65c4cccecdccedaceca96cea14c",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 948,
+    "style_selection_score": 0.408719
+  },
+  "source_filename": "blackwell-arch.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "dc98f97facf858cf07e5dd75335424a6bfb4ecea51e09ed60de6ab910cf8e0c5",
+  "task_id": "task_0956",
+  "task_index": 956
+}

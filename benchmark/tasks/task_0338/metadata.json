@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2412.19206",
+  "candidate_id": "2412-19206_pdf_cae2ac0b30c64129",
+  "caption": "Traditional Neural Architecture Search (NAS) approaches aim to discover high-performing neural architectures within an expert-defined search space. In contrast, Neural Architecture Design (NAD) is not constrained by predefined search spaces, allowing for the exploration of entirely new architectures.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 315,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 661,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 320,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 661,
+    "text_count": 4,
+    "vector_drawing_count": 316,
+    "vector_primitive_count": 657
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 487,
+    "full_pool_rank": 741,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 424,
+    "second_pass_review_rank": 487
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2412.19206v1",
+    "abstract": "Designing effective neural architectures poses a significant challenge in deep learning. While Neural Architecture Search (NAS) automates the search for optimal architectures, existing methods are often constrained by predetermined search spaces and may miss critical neural architectures. In this paper, we introduce NADER (Neural Architecture Design via multi-agEnt collaboRation), a novel framework that formulates neural architecture design (NAD) as a LLM-based multi-agent collaboration problem. NADER employs a team of specialized agents to enhance a base architecture through iterative modification. Current LLM-based NAD methods typically operate independently, lacking the ability to learn from past experiences, which results in repeated mistakes and inefficient exploration. To address this issue, we propose the Reflector, which effectively learns from immediate feedback and long-term experiences. Additionally, unlike previous LLM-based methods that use code to represent neural architectures, we utilize a graph-based representation. This approach allows agents to focus on design aspects without being distracted by coding. We demonstrate the effectiveness of NADER in discovering high-performing architectures beyond predetermined search spaces through extensive experiments on benchmark tasks, showcasing its advantages over state-of-the-art methods. The codes will be released soon.",
+    "arxiv_id": "2412.19206",
+    "authors": [
+      "Zekang Yang",
+      "Wang Zeng",
+      "Sheng Jin",
+      "Chen Qian",
+      "Ping Luo",
+      "Wentao Liu"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2412.19206v1",
+    "primary_category": "cs.CV",
+    "published": "2024-12-26T13:07:03Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2412.19206v1",
+    "title": "NADER: Neural Architecture Design via Multi-Agent Collaboration",
+    "updated": "2024-12-26T13:07:03Z",
+    "versioned_id": "2412.19206v1"
+  },
+  "reference_sha256": "d1a5596839c1af0f8f42ba78b1347332fb4716fc7f11b4ab379dd4b659316278",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 339,
+    "final_quality_rank": 237,
+    "final_quality_score": 0.65952,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.0745,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.346417,
+      "component_bin": 2,
+      "connector_bin": 3,
+      "difference_hash": "ae40a000c764db64db64c764ca16c080aa49ac66c366db66da6486668666c88e",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 403,
+    "style_selection_score": 0.524735
+  },
+  "source_filename": "teaser.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "cae2ac0b30c641298a94ff0705b257e97b105e9c9a4ce8b497dba506ed3bd942",
+  "task_id": "task_0338",
+  "task_index": 338
+}

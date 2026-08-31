@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2410.06294",
+  "candidate_id": "2410-06294_pdf_2962abcf8da8a6c1",
+  "caption": "Block diagram of the proposed NEBP+ approach to MOT. The factor graph, BP messages, and message exchange between the factor graph and neural architecture are shown. The factor graph processes the measurements provided by the detector at the current time step and beliefs from the previous time step. The resulting BP messages are passed to the neural architecture. The neural architecture computes the neural messages based on BP messages and a variety of features provided by the pre-trained detector. (More details on the processing performed by the neural architecture are shown in Fig. .) Finally, the neural messages are passed back to enhance the data association process and track initialization. The following shorthand notation is used: f^i = f( y^i_k| y^i_k-1), q^i = q( y_k^i, a_k^i; z_k), v^j = v( y_k^j, b_k^j; z_k), ^i,j = ^i,j(a_k^i, b_k^j), ^i = _k( x^i_k, r^i_k), ^i,j = _k^i,j,[ ](b_k^j), and ^j,i = _k^j,i,[ ](a_k^i) -2mm.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 171,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.999634,
+    "editable_component_count": 2728,
+    "embedded_image_count": 1,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.033884,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 224,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 2729,
+    "text_count": 24,
+    "vector_drawing_count": 199,
+    "vector_primitive_count": 2704
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2410.06294v1",
+    "abstract": "Multiobject tracking (MOT) is an important task in robotics, autonomous driving, and maritime surveillance. Traditional work on MOT is model-based and aims to establish algorithms in the framework of sequential Bayesian estimation. More recent methods are fully data-driven and rely on the training of neural networks. The two approaches have demonstrated advantages in certain scenarios. In particular, in problems where plenty of labeled data for the training of neural networks is available, data-driven MOT tends to have advantages compared to traditional methods. A natural thought is whether a general and efficient framework can integrate the two approaches. This paper advances a recently introduced hybrid model-based and data-driven method called neural-enhanced belief propagation (NEBP). Compared to existing work on NEBP for MOT, it introduces a novel neural architecture that can improve data association and new object initialization, two critical aspects of MOT. The proposed tracking method is leading the nuScenes LiDAR-only tracking challenge at the time of submission of this paper.",
+    "arxiv_id": "2410.06294",
+    "authors": [
+      "Shaoxiu Wei",
+      "Mingchao Liang",
+      "Florian Meyer"
+    ],
+    "categories": [
+      "eess.SP",
+      "cs.LG",
+      "cs.RO"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2410.06294v1",
+    "primary_category": "eess.SP",
+    "published": "2024-10-08T18:53:45Z",
+    "query": "(cat:eess.SP AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2410.06294v1",
+    "title": "A New Architecture for Neural Enhanced Multiobject Tracking",
+    "updated": "2024-10-08T18:53:45Z",
+    "versioned_id": "2410.06294v1"
+  },
+  "reference_sha256": "3470462757a299d7a8c03778b3abf73c97072b024b48754dd7f6b540dcdb443f",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 286,
+    "final_quality_rank": 342,
+    "final_quality_score": 0.62919,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.4361,
+      "category": "eess.SP",
+      "category_family": "eess",
+      "color_bin": 1,
+      "colorfulness": 0.128946,
+      "component_bin": 4,
+      "connector_bin": 3,
+      "difference_hash": "6008dcc0eade6c9af45ef2396d9a6dfa6cdef40ef23a6dbaec9b9f86c5920000",
+      "raster_bin": 2
+    },
+    "style_selection_rank": 340,
+    "style_selection_score": 0.524723
+  },
+  "source_filename": "factorGraphV4.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "2962abcf8da8a6c126784081b1a1bcbfd0ef348f437a18550fc4f75fbdd6f617",
+  "task_id": "task_0285",
+  "task_index": 285
+}

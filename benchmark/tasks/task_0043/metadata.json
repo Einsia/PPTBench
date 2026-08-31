@@ -1,0 +1,87 @@
+{
+  "arxiv_id": "2604.10606",
+  "candidate_id": "2604-10606_pdf_fdad044c51da8b9e",
+  "caption": "A block diagram of the proposed network model described by Eq. (42) (for the activity dynamics) and Eq. (43) (for the learning dynamics). The network has multiple Subspaces, each of which has a pair of a feedback path and an input port. Two adjacent Subspaces are connected by an `` Internetwork\" composed of a pair of layered networks with static neurons and modifiable connections; the paired networks in each Internetwork are named a `` Forward Subnet\" and a `` Backward Subnet\" as indicated in the figure. The Forward Subnets operate according to Eqs. (17), (18), and (19), and the processing in the Backward Subnets is based on Eqs. (39), (40), and (41); both of them complementarily work for the total dynamics. Note that the computational processes of \\( ^<P><l>_i \\), \\( ^<P-1><l>_i \\), ..., \\( ^<1><l>_i \\) are expressed explicitly in the form of layered networks, where \\( l = L, L-1, ..., 1, 0, i = 0, 1, 2, ... \\) . Also note that all sets of Mapper \\( M^<p> \\) and Mapper \\( N^<p> \\) in Fig. 1 are replaced here by pairs of static layered neural networks, where \\( p = 1, 2, ..., P \\).",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 692,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1782,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 821,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1782,
+    "text_count": 129,
+    "vector_drawing_count": 692,
+    "vector_primitive_count": 1653
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2604.10606v1",
+    "abstract": "We propose a dynamical neural network model with a hierarchical and modular structure. The network architecture can be derived by minimizing an energy function that is originally designed based on two kinds of neurons with quite different time constants. It has multiple subspaces that are spanned by neural parameters employed in the energy function, and adjacent subspaces are related to each other with a layered internetwork. Each internetwork further consists of a pair of a forward subnet and a backward one, and signals flowing through these subnets determine total dynamics of the network. The model can operate in either a learning or an association mode. In the learning mode, when periodic signals equivalent to repetitive neuronal bursting are suitably applied to input ports in all subspaces, mapping relationships corresponding to those input signals are eventually formed in internetworks between subspaces. Various two-dimensional mapping relationships between subspaces can be shaped by employing an appropriate set of periodic input signals with different frequencies based on the same mechanism as a Lissajous curve. The model in the association mode provides an overall framework such that state variables inside the network individually relax in warped spaces, each of which has been designed as favorable for a (or some) state variable(s). The association mode is further classified into two modes; unconstrained and constrained. In the latter mode, for instance, when a sufficiently slow periodic trajectory is set as an input, a warped output trajectory appears in each subspace as if imaginary layered networks with the inverse mapping relationships to existing forward subnets' were located hierarchically from outside to inside. These results suggest that a certainty/uncertainty relation exists between an input trajectory and an output trajectory.",
+    "arxiv_id": "2604.10606",
+    "authors": [
+      "Kazuyoshi Tsutsumi",
+      "Ernst Niebur"
+    ],
+    "categories": [
+      "q-bio.NC"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2604.10606v1",
+    "primary_category": "q-bio.NC",
+    "published": "2026-04-12T12:22:48Z",
+    "query": "(cat:q-bio.NC AND all:network) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2604.10606v1",
+    "title": "Relaxing in Warped Spaces: Generalized Hierarchical and Modular Dynamical Neural Network",
+    "updated": "2026-04-12T12:22:48Z",
+    "versioned_id": "2604.10606v1"
+  },
+  "reference_sha256": "a96a7df5519aea537b6a15ab2171fc3ba853e4ff24d777381e12e1fc7e3a9f53",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 44,
+    "final_quality_rank": 600,
+    "final_quality_score": 0.579923,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.8278,
+      "category": "q-bio.NC",
+      "category_family": "q-bio",
+      "color_bin": 0,
+      "colorfulness": 0.0,
+      "component_bin": 3,
+      "connector_bin": 4,
+      "difference_hash": "000000002226e266a6eeaa98a2a6f9b8d998c998d998e88ad998e59000004000",
+      "raster_bin": 0
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "tsutsumi_niebur_02_fig_02.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "fdad044c51da8b9e744196b7fbc1a176ec199913774f42e49809bdd4e34c3d39",
+  "task_id": "task_0043",
+  "task_index": 43
+}

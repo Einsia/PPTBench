@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2601.05491",
+  "candidate_id": "2601-05491_pdf_b87143f8f5d08b28",
+  "caption": "Flowchart of the assembly pipeline. Impedance control is utilized to adjust to the pushed force when grasping the panels as well as inserting one panel into the other. NMPC allows controlling the panel picking up trajectory avoiding the collision with the surrounding environment.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 32,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 530,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 67,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 530,
+    "text_count": 31,
+    "vector_drawing_count": 36,
+    "vector_primitive_count": 499
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 853,
+    "full_pool_rank": 1450,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 742,
+    "second_pass_review_rank": 853
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2601.05491v1",
+    "abstract": "Since the successful Apollo program, humanity is once again aiming to return to the Moon for scientific discovery, resource mining, and inhabitation. Upcoming decades focus on building a lunar outpost, with robotic systems playing a crucial role to safely and efficiently establish essential infrastructure such as solar power generating towers. Similar to the construction of the International Space Station (ISS), shipping necessary components via modules and assembling them in situ should be a practical scenario. In this context, this paper focuses on the integration of vision, control, and hardware systems within an autonomous sequence for a dual-arm robot system. We explore a perception and control pipeline specifically designed for assembling solar panel modules, one of the benchmark tasks. Ad hoc hardware was designed and tested in real-world experiments. A mock-up of modular solar panels and active-passive connectors are employed, with the control of this grappling fixture integrated into the proposed pipeline. The successful implementation of our method demonstrates that the two robot manipulators can effectively connect arbitrarily placed panels, highlighting the seamless integration of vision, control, and hardware systems in complex space applications.",
+    "arxiv_id": "2601.05491",
+    "authors": [
+      "Luca Nunziante",
+      "Kentaro Uno",
+      "Gustavo H. Diaz",
+      "Shreya Santra",
+      "Alessandro De Luca",
+      "Kazuya Yoshida"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "doi": "10.1109/SII59315.2025.10870982",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2601.05491v1",
+    "primary_category": "cs.RO",
+    "published": "2026-01-09T02:47:13Z",
+    "query": "(cat:cs.RO AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2601.05491v1",
+    "title": "Assembling Solar Panels by Dual Robot Arms Towards Full Autonomous Lunar Base Construction",
+    "updated": "2026-01-09T02:47:13Z",
+    "versioned_id": "2601.05491v1"
+  },
+  "reference_sha256": "32f816791b1445bef7bff7a18a714a167474e0a4f9262d4b95ac98ce4042ddde",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 969,
+    "final_quality_rank": 893,
+    "final_quality_score": 0.473025,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.6529,
+      "category": "cs.RO",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.014841,
+      "component_bin": 2,
+      "connector_bin": 1,
+      "difference_hash": "c400e6404600c6f0c6f2c786e78d678e6386c68ec78ee78ee6e8c6d4c430c670",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 979,
+    "style_selection_score": 0.398983
+  },
+  "source_filename": "flow_chart_convention_v3.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "b87143f8f5d08b28eb685213fa36dff40b76b92dd1bc66a5f316637dfb21e40c",
+  "task_id": "task_0968",
+  "task_index": 968
+}

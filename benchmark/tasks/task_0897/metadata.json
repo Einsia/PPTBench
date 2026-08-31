@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2310.13707",
+  "candidate_id": "2310-13707_pdf_d7878c2d4a0747c7",
+  "caption": "The end-to-end pipeline of GeoLinter. The soft rule linter is the foundation of our framework, which offers guidance on design parameters based on best practices in cartographic literature.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 81,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.973154,
+    "editable_component_count": 290,
+    "embedded_image_count": 8,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.008802,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 141,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 298,
+    "text_count": 52,
+    "vector_drawing_count": 81,
+    "vector_primitive_count": 238
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 518,
+    "full_pool_rank": 804,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 451,
+    "second_pass_review_rank": 518
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2310.13707v1",
+    "abstract": "Visualization linting is a proven effective tool in assisting users to follow established visualization guidelines. Despite its success, visualization linting for choropleth maps, one of the most popular visualizations on the internet, has yet to be investigated. In this paper, we present GeoLinter, a linting framework for choropleth maps that assists in creating accurate and robust maps. Based on a set of design guidelines and metrics drawing upon a collection of best practices from the cartographic literature, GeoLinter detects potentially suboptimal design decisions and provides further recommendations on design improvement with explanations at each step of the design process. We perform a validation study to evaluate the proposed framework's functionality with respect to identifying and fixing errors and apply its results to improve the robustness of GeoLinter. Finally, we demonstrate the effectiveness of the GeoLinter - validated through empirical studies - by applying it to a series of case studies using real-world datasets.",
+    "arxiv_id": "2310.13707",
+    "authors": [
+      "Fan Lei",
+      "Arlen Fan",
+      "Alan M. MacEachren",
+      "Ross Maciejewski"
+    ],
+    "categories": [
+      "cs.HC",
+      "cs.GR"
+    ],
+    "doi": "10.1109/TVCG.2023.3322372",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2310.13707v1",
+    "primary_category": "cs.HC",
+    "published": "2023-10-05T18:54:15Z",
+    "query": "(cat:cs.HC AND all:framework) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2310.13707v1",
+    "title": "GeoLinter: A Linting Framework for Choropleth Maps",
+    "updated": "2023-10-05T18:54:15Z",
+    "versioned_id": "2310.13707v1"
+  },
+  "reference_sha256": "b93678d4da0e494b44a509f2c5320dd5578367d77a20b58dc80f0b2d47767806",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 898,
+    "final_quality_rank": 779,
+    "final_quality_score": 0.529374,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 3.2134,
+      "category": "cs.HC",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.093216,
+      "component_bin": 1,
+      "connector_bin": 2,
+      "difference_hash": "00d9b0c830cc5ee0de185a4c30ce52be5a3a66b2665c64dc60c90ba2032402a0",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 805,
+    "style_selection_score": 0.44608
+  },
+  "source_filename": "pipeline_v3.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "d7878c2d4a0747c78e333484da61d1b41ca77396378dc2cc2a29340d948bd842",
+  "task_id": "task_0897",
+  "task_index": 897
+}

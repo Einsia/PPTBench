@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2203.09631",
+  "candidate_id": "2203-09631_pdf_59d063d08365410d",
+  "caption": "The proposed framework for deep distributed inference in wireless sensor networks.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 202,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1561,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 302,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1561,
+    "text_count": 61,
+    "vector_drawing_count": 241,
+    "vector_primitive_count": 1500
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 519,
+    "full_pool_rank": 805,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 452,
+    "second_pass_review_rank": 519
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2203.09631v1",
+    "abstract": "In wireless Internet of things (IoT), the sensors usually have limited bandwidth and power resources. Therefore, in a distributed setup, each sensor should compress and quantize the sensed observations before transmitting them to a fusion center (FC) where a global decision is inferred. Most of the existing compression techniques and entropy quantizers consider only the reconstruction fidelity as a metric, which means they decouple the compression from the sensing goal. In this work, we argue that data compression mechanisms and entropy quantizers should be co-designed with the sensing goal, specifically for machine-consumed data. To this end, we propose a novel deep learning-based framework for compressing and quantizing the observations of correlated sensors. Instead of maximizing the reconstruction fidelity, our objective is to compress the sensor observations in a way that maximizes the accuracy of the inferred decision (i.e., sensing goal) at the FC. Unlike prior work, we do not impose any assumptions about the observations distribution which emphasizes the wide applicability of our framework. We also propose a novel loss function that keeps the model focused on learning complementary features at each sensor. The results show the superior performance of our framework compared to other benchmark models.",
+    "arxiv_id": "2203.09631",
+    "authors": [
+      "Mostafa Hussien",
+      "Kim Khoa Nguyen",
+      "Mohamed Cheriet"
+    ],
+    "categories": [
+      "eess.SP",
+      "cs.AI",
+      "cs.LG",
+      "stat.ML"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2203.09631v1",
+    "primary_category": "eess.SP",
+    "published": "2022-03-17T21:52:26Z",
+    "query": "(cat:stat.ML AND all:framework) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2203.09631v1",
+    "title": "A Learning Framework for Bandwidth-Efficient Distributed Inference in Wireless IoT",
+    "updated": "2022-03-17T21:52:26Z",
+    "versioned_id": "2203.09631v1"
+  },
+  "reference_sha256": "2316629793dcedb102df11ee31d703846f6019e166176a8f23a19c394e08cc4c",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 182,
+    "final_quality_rank": 221,
+    "final_quality_score": 0.664151,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.5604,
+      "category": "eess.SP",
+      "category_family": "eess",
+      "color_bin": 3,
+      "colorfulness": 0.350592,
+      "component_bin": 3,
+      "connector_bin": 3,
+      "difference_hash": "f9e0c128a5b0a4a056d7c6d3a6d0a4b3d1b391c38743d7c957c8874089489000",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 233,
+    "style_selection_score": 0.546808
+  },
+  "source_filename": "Architecture.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "59d063d08365410dc06aa42d31f5032b5685c40db72bbc42b0b275b8d115056a",
+  "task_id": "task_0181",
+  "task_index": 181
+}

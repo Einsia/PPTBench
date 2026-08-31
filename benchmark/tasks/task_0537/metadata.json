@@ -1,0 +1,88 @@
+{
+  "arxiv_id": "2102.10557",
+  "candidate_id": "2102-10557_pdf_52fcf4b97d1c0e9b",
+  "caption": "Cell architecture of CSNAS_N=5 searched on ImageNet-1%. The vector representing each neural candidate is of length 20.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 35,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 124,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 57,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 124,
+    "text_count": 18,
+    "vector_drawing_count": 39,
+    "vector_primitive_count": 106
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2102.10557v3",
+    "abstract": "This paper proposes a novel cell-based neural architecture search algorithm (NAS), which completely alleviates the expensive costs of data labeling inherited from supervised learning. Our algorithm capitalizes on the effectiveness of self-supervised learning for image representations, which is an increasingly crucial topic of computer vision. First, using only a small amount of unlabeled train data under contrastive self-supervised learning allow us to search on a more extensive search space, discovering better neural architectures without surging the computational resources. Second, we entirely relieve the cost for labeled data (by contrastive loss) in the search stage without compromising architectures' final performance in the evaluation phase. Finally, we tackle the inherent discrete search space of the NAS problem by sequential model-based optimization via the tree-parzen estimator (SMBO-TPE), enabling us to reduce the computational expense response surface significantly. An extensive number of experiments empirically show that our search algorithm can achieve state-of-the-art results with better efficiency in data labeling cost, searching time, and accuracy in final validation.",
+    "arxiv_id": "2102.10557",
+    "authors": [
+      "Nam Nguyen",
+      "J. Morris Chang"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "doi": "10.1109/TAI.2021.3121663",
+    "journal_ref": "IEEE Transactions on Artificial Intelligence 2 (2021) 1-16",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2102.10557v3",
+    "primary_category": "cs.CV",
+    "published": "2021-02-21T08:38:28Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2102.10557v3",
+    "title": "Contrastive Self-supervised Neural Architecture Search",
+    "updated": "2021-10-29T17:17:49Z",
+    "versioned_id": "2102.10557v3"
+  },
+  "reference_sha256": "e9f6fc7b9fc46e50643848afaabea751e8898a893538b46534493bdccf626e2f",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 538,
+    "final_quality_rank": 976,
+    "final_quality_score": 0.384466,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.6438,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.0,
+      "component_bin": 0,
+      "connector_bin": 1,
+      "difference_hash": "00003000f00070008a409200e244fa70f27c621ed2749a48d27a6638be000010",
+      "raster_bin": 0
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "CNAS_ImgN_s5_normal.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "52fcf4b97d1c0e9b195795f6015ab3e6c046c5638d148f5f1131b4fdf01bcb15",
+  "task_id": "task_0537",
+  "task_index": 537
+}

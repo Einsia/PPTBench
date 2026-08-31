@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2602.08415",
+  "candidate_id": "2602-08415_pdf_f610c536cc68393e",
+  "caption": "Reconfigurable architecture for Doppler estimation via hardware software co-design on Zynq MPSoC",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 37,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.997185,
+    "editable_component_count": 1417,
+    "embedded_image_count": 4,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.015034,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 128,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1421,
+    "text_count": 58,
+    "vector_drawing_count": 66,
+    "vector_primitive_count": 1359
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 75,
+    "full_pool_rank": 94,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 68,
+    "second_pass_review_rank": 75
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2602.08415v1",
+    "abstract": "In millimeter wave integrated sensing and communication (ISAC) systems for intelligent transportation, radar and communication share spectrum and hardware in a time division manner. Radar rapidly detects and localizes mobile users (MUs), after which communication proceeds through narrow beams identified by radar. Achieving fine Doppler resolution for MU clutter discrimination requires long coherent processing intervals, reducing communication time and throughput. To address this, we propose a reconfigurable architecture for Doppler estimation realized on a system on chip using hardware software codesign. The architecture supports algorithm level reconfiguration, dynamically switching between low-complexity, high-speed FFT-based coarse estimation and high complexity ESPRIT based fine estimation. We introduce modifications to ESPRIT that achieve 6.7 times faster execution while reducing memory and multiplier usage by 79% and 63%, respectively, compared to state of the art approaches, without compromising accuracy. Additionally, the reconfigurable architecture can switch to lower slow time packets under high SNR conditions, improving latency further by 2 times with no loss in performance.",
+    "arxiv_id": "2602.08415",
+    "authors": [
+      "Aakanksha Tewari",
+      "Samarth Sharma Bhardwaj",
+      "Sumit J Darak",
+      "Shobha Sundar Ram"
+    ],
+    "categories": [
+      "eess.SP"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2602.08415v1",
+    "primary_category": "eess.SP",
+    "published": "2026-02-09T09:19:28Z",
+    "query": "(cat:eess.SP AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2602.08415v1",
+    "title": "Reconfigurable Low-Complexity Architecture for High Resolution Doppler Velocity Estimation in Integrated Sensing and Communication System",
+    "updated": "2026-02-09T09:19:28Z",
+    "versioned_id": "2602.08415v1"
+  },
+  "reference_sha256": "712575e9f564e69c6ee05732c7feddd4483b2c0972a4573e123f9c74647f81ab",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 150,
+    "final_quality_rank": 171,
+    "final_quality_score": 0.675974,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.7767,
+      "category": "eess.SP",
+      "category_family": "eess",
+      "color_bin": 4,
+      "colorfulness": 0.648769,
+      "component_bin": 3,
+      "connector_bin": 1,
+      "difference_hash": "f0cbfcd498dcb64af6d294d696d0aa56aad1b258b359b258a29af540b5502711",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 191,
+    "style_selection_score": 0.561812
+  },
+  "source_filename": "mpsoc_dpr.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "f610c536cc68393e72953e06a950c68a37d9e99c0e126ef5f99f048b174aa2e4",
+  "task_id": "task_0149",
+  "task_index": 149
+}

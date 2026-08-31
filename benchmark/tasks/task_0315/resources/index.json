@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "file": "resource_0001.png",
+      "has_alpha": true,
+      "height": 358,
+      "sha256": "01ecbce7dce5f5d97a1677caac99cd9f0db33ef22baf271b39fee39e0ef6b070",
+      "width": 601
+    },
+    {
+      "file": "resource_0002.png",
+      "has_alpha": true,
+      "height": 268,
+      "sha256": "5d4d7a84d4a12473fb526ce2665f242102d3b28fd7356fc80fbcef02f8df4563",
+      "width": 506
+    },
+    {
+      "file": "resource_0003.png",
+      "has_alpha": true,
+      "height": 195,
+      "sha256": "ce17e114560564e33295f378f31e72ecd81c1d474639667624f05f89a84aed15",
+      "width": 396
+    },
+    {
+      "file": "resource_0004.png",
+      "has_alpha": true,
+      "height": 408,
+      "sha256": "7b5302f0d78bd20a78a6e700d5e2184b1705de769e698c363e98876257f9e850",
+      "width": 612
+    },
+    {
+      "file": "resource_0005.png",
+      "has_alpha": true,
+      "height": 1181,
+      "sha256": "4d5cf75e0830ba8689a9944cb67354220f051bd904318dca5646143b8e3572b9",
+      "width": 1181
+    },
+    {
+      "file": "resource_0006.png",
+      "has_alpha": true,
+      "height": 250,
+      "sha256": "d3bae1665af9bd9c1661267800fdbe07669d801d6cfd910bf5bd94570148441a",
+      "width": 523
+    }
+  ],
+  "candidate_id": "2506-12308_pdf_2ffce7c0b9589b38",
+  "extractor_version": "native-raster-v1",
+  "manual_qc": {
+    "maximum_resources": 12,
+    "removed_count": 2,
+    "status": "pass",
+    "version": "manual-resource-qc-v1"
+  },
+  "resource_count": 6,
+  "schema": "pptbench-task-resources-v1",
+  "task_id": "task_0315"
+}

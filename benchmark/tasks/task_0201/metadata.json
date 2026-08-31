@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2604.15916",
+  "candidate_id": "2604-15916_pdf_2da611924e3f693f",
+  "caption": "AWS Lambda architecture and request workflow. Within a region, requests are load-balanced to an availability zone. Within an availability zone, requests are assigned to instances by multiple services running inside that zone, and a per-region control plane. Function data is stored in a per-region store and cached in the availability zone as well as the workers.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 22,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 687,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 99,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 687,
+    "text_count": 40,
+    "vector_drawing_count": 59,
+    "vector_primitive_count": 647
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2604.15916v1",
+    "abstract": "With the ever-increasing usage of serverless computing in both industry and academia, it is essential to understand the mechanisms that power the underlying platforms. As serverless is more than ten years old, there are different platforms with vastly different approaches. We show that, next to the traditional and popular platforms, a second generation of serverless platform has emerged. While first-generation platforms are based on containerized, centralized execution, the new generation leverages lightweight isolates and edge deployment. This evolution reduces warm request latency from approximately 40 ms to around 10 ms and reduces cold starts to an afterthought, but limits the execution environment. In this paper, we gather and analyze all publicly available information to provide detailed insights into the underlying architecture of seven platforms and then run a microbenchmark-based evaluation totaling more than 38 million function calls to gain a deeper understanding their performance.",
+    "arxiv_id": "2604.15916",
+    "authors": [
+      "Trever Schirmer",
+      "Aris Wiegand",
+      "Lucca di Benedetto",
+      "Linus Gustafsson",
+      "Natalie Carl",
+      "Tobias Pfandzelter",
+      "David Bermbach"
+    ],
+    "categories": [
+      "cs.DC"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2604.15916v1",
+    "primary_category": "cs.DC",
+    "published": "2026-04-17T10:17:21Z",
+    "query": "(cat:cs.DC AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2604.15916v1",
+    "title": "New Kids: An Architecture and Performance Investigation of Second-Generation Serverless Platforms",
+    "updated": "2026-04-17T10:17:21Z",
+    "versioned_id": "2604.15916v1"
+  },
+  "reference_sha256": "f737aca82c611c55727b720632590a42fb7f3c821ce25be26c47add8d160ce24",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 202,
+    "final_quality_rank": 963,
+    "final_quality_score": 0.417308,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.7679,
+      "category": "cs.DC",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.0,
+      "component_bin": 2,
+      "connector_bin": 1,
+      "difference_hash": "21642164328b285bb119b11cb0dc94dcb6dc96dc89998589819941d841dc61dc",
+      "raster_bin": 0
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "request_workflow_2.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "2da611924e3f693f387f364355a46590a5c1394c5641d1bf1c351aad3239ae98",
+  "task_id": "task_0201",
+  "task_index": 201
+}

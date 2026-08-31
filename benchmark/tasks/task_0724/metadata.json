@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2109.08449",
+  "candidate_id": "2109-08449_pdf_ec33d2dab0bcf3b3",
+  "caption": "The bidirectional CMOW component of our proposed architecture during pretraining. In this example, the model predicts the masked token at position 4 ([MASK]) by concatenating forward and backward matrix embeddings, which are then fed into a masked language modeling head.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 59,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.999064,
+    "editable_component_count": 1067,
+    "embedded_image_count": 1,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.032494,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 152,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1068,
+    "text_count": 74,
+    "vector_drawing_count": 77,
+    "vector_primitive_count": 993
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 419,
+    "full_pool_rank": 618,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 364,
+    "second_pass_review_rank": 419
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2109.08449v2",
+    "abstract": "Large pretrained language models (PreLMs) are revolutionizing natural language processing across all benchmarks. However, their sheer size is prohibitive for small laboratories or for deployment on mobile devices. Approaches like pruning and distillation reduce the model size but typically retain the same model architecture. In contrast, we explore distilling PreLMs into a different, more efficient architecture, Continual Multiplication of Words (CMOW), which embeds each word as a matrix and uses matrix multiplication to encode sequences. We extend the CMOW architecture and its CMOW/CBOW-Hybrid variant with a bidirectional component for more expressive power, per-token representations for a general (task-agnostic) distillation during pretraining, and a two-sequence encoding scheme that facilitates downstream tasks on sentence pairs, such as sentence similarity and natural language inference. Our matrix-based bidirectional CMOW/CBOW-Hybrid model is competitive to DistilBERT on question similarity and recognizing textual entailment, but uses only half of the number of parameters and is three times faster in terms of inference speed. We match or exceed the scores of ELMo for all tasks of the GLUE benchmark except for the sentiment analysis task SST-2 and the linguistic acceptability task CoLA. However, compared to previous cross-architecture distillation approaches, we demonstrate a doubling of the scores on detecting linguistic acceptability. This shows that matrix-based embeddings can be used to distill large PreLM into competitive models and motivates further research in this direction.",
+    "arxiv_id": "2109.08449",
+    "authors": [
+      "Lukas Galke",
+      "Isabelle Cuber",
+      "Christoph Meyer",
+      "Henrik Ferdinand N\u00f6lscher",
+      "Angelina Sonderecker",
+      "Ansgar Scherp"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2109.08449v2",
+    "primary_category": "cs.CL",
+    "published": "2021-09-17T10:15:06Z",
+    "query": "(cat:cs.CL AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2109.08449v2",
+    "title": "General Cross-Architecture Distillation of Pretrained Language Models into Matrix Embeddings",
+    "updated": "2022-07-28T10:44:50Z",
+    "versioned_id": "2109.08449v2"
+  },
+  "reference_sha256": "30d4eb642673bd36f93102022fe0c07d611a8f3523709675cc050fe1c299a170",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 725,
+    "final_quality_rank": 529,
+    "final_quality_score": 0.592999,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.8714,
+      "category": "cs.CL",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.269955,
+      "component_bin": 3,
+      "connector_bin": 1,
+      "difference_hash": "9906190eab71a2708bb1d08e80f5f855f8621a9658e61c661b821b9e18361801",
+      "raster_bin": 2
+    },
+    "style_selection_rank": 622,
+    "style_selection_score": 0.481813
+  },
+  "source_filename": "BiDi-CMOW-MLM.drawio.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "ec33d2dab0bcf3b39e8ff9757ffa356b949132637ca4594000eec1c2c9ebfbba",
+  "task_id": "task_0724",
+  "task_index": 724
+}

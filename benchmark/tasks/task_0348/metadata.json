@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2506.20469",
+  "candidate_id": "2506-20469_pdf_22153386980b8005",
+  "caption": "Left: Genotypic representation of the DNN architecture. Bold denotes effective code. Registers are colour-coded (see text for explanation). Right: Graphical representation of the same genotype, showing how the architecture is constructed from the effective code.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 97,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 5270,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 99,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 5270,
+    "text_count": 0,
+    "vector_drawing_count": 99,
+    "vector_primitive_count": 5270
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2506.20469v1",
+    "abstract": "State-of-the-art Deep Neural Networks (DNNs) often incorporate multi-branch connections, enabling multi-scale feature extraction and enhancing the capture of diverse features. This design improves network capacity and generalisation to unseen data. However, training such DNNs can be computationally expensive. The challenge is further exacerbated by the complexity of identifying optimal network architectures. To address this, we leverage Evolutionary Algorithms (EAs) to automatically discover high-performing architectures, a process commonly known as neuroevolution. We introduce a novel approach based on Linear Genetic Programming (LGP) to encode multi-branch (MB) connections within DNNs, referred to as NeuroLGP-MB. To efficiently design the DNNs, we use surrogate-assisted EAs. While their application in simple artificial neural networks has been influential, we scale their use from dozens or hundreds of sample points to thousands, aligning with the demands of complex DNNs by incorporating a semantic-based approach in our surrogate-assisted EA. Furthermore, we introduce a more advanced surrogate model that outperforms baseline, computationally expensive, and simpler surrogate models.",
+    "arxiv_id": "2506.20469",
+    "authors": [
+      "Fergal Stapleton",
+      "Daniel Garc\u00eda N\u00fa\u00f1ez",
+      "Yanan Sun",
+      "Edgar Galv\u00e1n"
+    ],
+    "categories": [
+      "cs.NE"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2506.20469v1",
+    "primary_category": "cs.NE",
+    "published": "2025-06-25T14:18:17Z",
+    "query": "(cat:cs.NE AND all:\"network architecture\") AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2506.20469v1",
+    "title": "Surrogate-Assisted Evolution for Efficient Multi-branch Connection Design in Deep Neural Networks",
+    "updated": "2025-06-25T14:18:17Z",
+    "versioned_id": "2506.20469v1"
+  },
+  "reference_sha256": "f16730e3ccabf614d3316184832e725ae4308e859d46cdcd4f75c6719c26585c",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 349,
+    "final_quality_rank": 250,
+    "final_quality_score": 0.655553,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 0,
+      "aspect_ratio": 0.3753,
+      "category": "cs.NE",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.163799,
+      "component_bin": 5,
+      "connector_bin": 2,
+      "difference_hash": "5e003c00b0907040bc00288020c0f3007b00748070407c007a0059201c000000",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 425,
+    "style_selection_score": 0.544884
+  },
+  "source_filename": "model_v5.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "22153386980b8005ecbd624f4660621b8ba6799d22f9eed29fa17482fb1d6be6",
+  "task_id": "task_0348",
+  "task_index": 348
+}

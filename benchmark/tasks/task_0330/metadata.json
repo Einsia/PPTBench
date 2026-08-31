@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2509.24030",
+  "candidate_id": "2509-24030_pdf_1c39ea40976d6ba6",
+  "caption": "(a) Data streaming framework on ACE at OLCF, and (b) SciStream toolkit for memory to memory data streaming with on-demand proxies (ODPs) deployed on Gateway Nodes (GNs).",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 306,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.995441,
+    "editable_component_count": 2620,
+    "embedded_image_count": 12,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.012883,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 358,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 2632,
+    "text_count": 26,
+    "vector_drawing_count": 320,
+    "vector_primitive_count": 2594
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2509.24030v1",
+    "abstract": "In this paper, we investigate three cross-facility data streaming architectures, Direct Streaming (DTS), Proxied Streaming (PRS), and Managed Service Streaming (MSS). We examine their architectural variations in data flow paths and deployment feasibility, and detail their implementation using the Data Streaming to HPC (DS2HPC) architectural framework and the SciStream memory-to-memory streaming toolkit on the production-grade Advanced Computing Ecosystem (ACE) infrastructure at Oak Ridge Leadership Computing Facility (OLCF). We present a workflow-specific evaluation of these architectures using three synthetic workloads derived from the streaming characteristics of scientific workflows. Through simulated experiments, we measure streaming throughput, round-trip time, and overhead under work sharing, work sharing with feedback, and broadcast and gather messaging patterns commonly found in AI-HPC communication motifs. Our study shows that DTS offers a minimal-hop path, resulting in higher throughput and lower latency, whereas MSS provides greater deployment feasibility and scalability across multiple users but incurs significant overhead. PRS lies in between, offering a scalable architecture whose performance matches DTS in most cases.",
+    "arxiv_id": "2509.24030",
+    "authors": [
+      "Anjus George",
+      "Michael Brim",
+      "Christopher Zimmer",
+      "David Rogers",
+      "Sarp Oral",
+      "Zach Mayes"
+    ],
+    "categories": [
+      "cs.DC",
+      "cs.AI",
+      "cs.SE"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2509.24030v1",
+    "primary_category": "cs.DC",
+    "published": "2025-09-28T18:54:38Z",
+    "query": "(cat:cs.DC AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2509.24030v1",
+    "title": "From Edge to HPC: Investigating Cross-Facility Data Streaming Architectures",
+    "updated": "2025-09-28T18:54:38Z",
+    "versioned_id": "2509.24030v1"
+  },
+  "reference_sha256": "2b58941662aa273013267f86c5e690e5d6f2d560f7236f0f68d3e23f95e1135b",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 331,
+    "final_quality_rank": 240,
+    "final_quality_score": 0.658699,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 4.212,
+      "category": "cs.DC",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.134668,
+      "component_bin": 4,
+      "connector_bin": 3,
+      "difference_hash": "3499b0d93a013e00bc8e3d2cad2ea326d34aadacada6bdaf3c8ebc803c010141",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 317,
+    "style_selection_score": 0.532252
+  },
+  "source_filename": "infrastructure.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "1c39ea40976d6ba6b2221b8827f508c57cf9f01cca14342ec8c6792d1eeb7ba8",
+  "task_id": "task_0330",
+  "task_index": 330
+}

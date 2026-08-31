@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2407.05690",
+  "candidate_id": "2407-05690_pdf_aada176b4515d629",
+  "caption": "An illustration of TransAct model architecture. The model weights and activations are colored green and blue, respectively. Dashed hollow blocks represent the weights and activations that are pruned out.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 124,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 4673,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 182,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 4673,
+    "text_count": 26,
+    "vector_drawing_count": 156,
+    "vector_primitive_count": 4647
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2407.05690v1",
+    "abstract": "Structured pruning fundamentally reduces computational and memory overheads of large language models (LLMs) and offers a feasible solution for end-side LLM deployment. Structurally pruned models remain dense and high-precision, highly compatible with further tuning and compression. However, as the coarse-grained structured pruning poses large damage to the highly interconnected model, achieving a high compression ratio for scaled-up LLMs remains a challenge. In this paper, we introduce a task-agnostic structured pruning approach coupled with a compact Transformer architecture design. The proposed approach, named TransAct, reduces transitional activations inside multi-head attention (MHA) and multi-layer perceptron (MLP) modules, while preserving the inter-module activations that are sensitive to perturbations. Hence, the LLM is pruned into an intra-module low-rank architecture, significantly reducing weights, KV Cache and attention computation. TransAct is implemented on the LLaMA model and evaluated on downstream benchmarks. Results verify the optimality of our approach at high compression with respect to both efficiency and performance. Further, ablation studies reveal the strength of activation-guided iterative pruning and provide experimental analysis on the redundancy of MHA and MLP modules.",
+    "arxiv_id": "2407.05690",
+    "authors": [
+      "Bowen Shen",
+      "Zheng Lin",
+      "Daren Zha",
+      "Wei Liu",
+      "Jian Luan",
+      "Bin Wang",
+      "Weiping Wang"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2407.05690v1",
+    "primary_category": "cs.CL",
+    "published": "2024-07-08T07:45:38Z",
+    "query": "(cat:cs.CL AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2407.05690v1",
+    "title": "Pruning Large Language Models to Intra-module Low-rank Architecture with Transitional Activations",
+    "updated": "2024-07-08T07:45:38Z",
+    "versioned_id": "2407.05690v1"
+  },
+  "reference_sha256": "e427ddef96bb24a59f4b1c4916e5e42d134521812d7b7a72db81ee8f727cb0a1",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 348,
+    "final_quality_rank": 756,
+    "final_quality_score": 0.540878,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 2,
+      "aspect_ratio": 1.0961,
+      "category": "cs.CL",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.0,
+      "component_bin": 4,
+      "connector_bin": 2,
+      "difference_hash": "272431f070706c926c92fc708c31d84cc2f0b1c065926c926392ccb0dc901348",
+      "raster_bin": 0
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "intro.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "aada176b4515d62932828b32a633b046e08d7df9c0402cae61a33c330e5c680e",
+  "task_id": "task_0347",
+  "task_index": 347
+}

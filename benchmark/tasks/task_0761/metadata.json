@@ -1,0 +1,88 @@
+{
+  "arxiv_id": "2605.09581",
+  "candidate_id": "2605-09581_pdf_0f198cca8714d7d8",
+  "caption": "Hardware architecture diagram of an application for object tracking using CM",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 42,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 342,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 101,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 342,
+    "text_count": 35,
+    "vector_drawing_count": 66,
+    "vector_primitive_count": 307
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2605.09581v1",
+    "abstract": "This paper presents a hardware architecture that implements the Contrast Maximization (CM) algorithm in Field-Programmable Gate Array (FPGA) resources for event-based vision systems. CM estimates motion parameters by maximizing the contrast of an Image of Warped Events (IWE) reconstructed from asynchronous event streams. Event-based vision sensors generate sparse data with high temporal resolution and low spatial redundancy, which makes them well suited for hardware processing. The deterministic, massively parallel structure of the FPGA is leveraged to design a deeply pipelined architecture capable of high-throughput, energy-efficient processing suitable for real-time embedded applications. This paper details the hardware modules responsible for event warping, contrast computation, and iterative optimization, discusses key implementation decisions, and presents the hardware-aware optimization method used in the design. Experimental results demonstrate a substantial speed and efficiency improvement over CPU- and GPU-based implementations, with motion parameter estimation executing over 200 times faster. To the best of our knowledge, this is the first hardware architecture enabling acceleration of CM algorithm computations. Its performance is evaluated in terms of processing speed, energy efficiency, and hardware resource utilization. The proposed design is validated using an event-based object tracking application. The results confirm that the architecture provides a solid foundation for real-time motion estimation in high-speed, low-power embedded systems.",
+    "arxiv_id": "2605.09581",
+    "authors": [
+      "Michal Filipkowski",
+      "Marcin Kowalczyk",
+      "Tomasz Kryjak"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "doi": "10.1007/978-3-032-29365-7_19",
+    "journal_ref": "ARC 2026. Lecture Notes in Computer Science, vol 16514. Springer, Cham",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2605.09581v1",
+    "primary_category": "cs.CV",
+    "published": "2026-05-10T14:43:22Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2605.09581v1",
+    "title": "FPGA-Based Hardware Architecture for Contrast Maximization in Event-Based Vision",
+    "updated": "2026-05-10T14:43:22Z",
+    "versioned_id": "2605.09581v1"
+  },
+  "reference_sha256": "7ceed808ce903f3454b266a769cefd673448dc30adf519c98379ac2936cdce16",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 762,
+    "final_quality_rank": 579,
+    "final_quality_score": 0.585673,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.3628,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.484788,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "83409344c944431b9ce49ce463e563651e658d2c9d6472635c650c650318c864",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 722,
+    "style_selection_score": 0.473457
+  },
+  "source_filename": "FPGA_CM_cropped.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "0f198cca8714d7d84a3ece2e50a974305272f32c5572c931752886917020fb43",
+  "task_id": "task_0761",
+  "task_index": 761
+}

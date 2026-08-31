@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2512.04516",
+  "candidate_id": "2512-04516_pdf_d138105ccd2eab50",
+  "caption": "A flowchart of the search pipeline presented in this paper. The pipeline takes in public O3 data from the LIGO-Hanford (H1) and LIGO-Livingston (L1) detectors, as well as pre-computed PSDs of this data (Sec. ). The data is downsampled to 2048\\,Hz, and we perform matched filtering using a BBH template bank (Sec. ). A peak-finding algorithm then produces triggers based on SNR > 4 peaks in at least one detector in the SNR time series, and identifies a coincident peak in the other detector within the light-travel time between detectors ( 10\\,ms). For each second of analyzed data, triggers are generated from the 10 highest network SNR templates, and the SNR time series is sent to our pre-trained deep learning model (Sec. and Sec. ) for predictions. We perform 16 predictions by stepping through the SNR time series in increments of 1/16th of a second for each trigger. These stepwise predictions start when the trigger time first enters the deep learning model's 1-second viewing window and continue until it exits the window; the average of these predictions is then taken. We retain one of the 10 template triggers per second that has the highest average model prediction, and this quantity becomes the search pipeline's ranking statistic. The false alarm rate and probability of astrophysical origin can be estimated (Sec. ) by comparing the ranking statistic to empirical results from our search pipeline's analyses on time-shifted data and injections.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 89,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 444,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 144,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 444,
+    "text_count": 55,
+    "vector_drawing_count": 89,
+    "vector_primitive_count": 389
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 46,
+    "full_pool_rank": 54,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 43,
+    "second_pass_review_rank": 46
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2512.04516v2",
+    "abstract": "The detection of gravitational waves from compact binary coalescences has provided significant insights into our Universe, and the discovery of new and unique gravitational wave candidates from independent searches remains an ongoing field of research. In this work, we built a hybrid search pipeline that combines matched filtering and deep learning to identify stellar-mass binary black hole candidates from detector strain data. We first present results from a targeted injection study to benchmark the sensitivity of our method and compare it with existing search pipelines. We demonstrate that our hybrid approach has comparable sensitivity for injections with a source-frame chirp mass greater than 25$\\,$M$_{\\odot}$, and below this threshold our sensitivity drops off for signals with a network SNR less than 15. We also observe that our search method can identify a significant population of unique candidates. Furthermore, we conduct an offline search for gravitational wave candidates in the third observing run of the LIGO-Virgo-KAGRA Collaboration (LVK), yielding 31 candidates previously reported by the LVK with a probability of astrophysical origin $p_{\\rm astro}\\geq0.5$. We identify two other candidates: one previously reported only in a search conducted by the Institute for Advanced Study, and one previously unreported promising new candidate with a $p_{\\rm astro}$ of 0.63. This unique candidate has a high chirp mass and a high probability that the primary black hole is an intermediate-mass black hole.",
+    "arxiv_id": "2512.04516",
+    "authors": [
+      "Damon Beveridge",
+      "Alistair McLeod",
+      "Linqing Wen",
+      "Weichangfeng Guo",
+      "Andreas Wicenec"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.IM"
+    ],
+    "doi": "10.1103/3yph-35r4",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2512.04516v2",
+    "primary_category": "gr-qc",
+    "published": "2025-12-04T06:56:47Z",
+    "query": "(cat:gr-qc AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2512.04516v2",
+    "title": "Searching for binary black hole mergers with deep learning in Advanced LIGO's third observing run",
+    "updated": "2026-07-07T13:12:33Z",
+    "versioned_id": "2512.04516v2"
+  },
+  "reference_sha256": "0b82339fdf9e439026f4dac0ef8e2a06dec814ea5694add8cda8ed73406b908d",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 432,
+    "final_quality_rank": 539,
+    "final_quality_score": 0.591763,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 2,
+      "aspect_ratio": 0.9792,
+      "category": "gr-qc",
+      "category_family": "gr-qc",
+      "color_bin": 2,
+      "colorfulness": 0.196629,
+      "component_bin": 2,
+      "connector_bin": 2,
+      "difference_hash": "6cc86cc86718196058e41f0017100704371062306a34f630f2311f000f000e00",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 411,
+    "style_selection_score": 0.524283
+  },
+  "source_filename": "flowchart.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "d138105ccd2eab5084fb74aa3b788c6ae676b46ec7ff15c69ccb5acb50b49175",
+  "task_id": "task_0431",
+  "task_index": 431
+}

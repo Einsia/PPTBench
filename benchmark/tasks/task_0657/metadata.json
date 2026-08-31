@@ -1,0 +1,88 @@
+{
+  "arxiv_id": "2311.14447",
+  "candidate_id": "2311-14447_pdf_759e314c01504c75",
+  "caption": "Architecture of SNN neuron layer",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 89,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 716,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 140,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 716,
+    "text_count": 14,
+    "vector_drawing_count": 126,
+    "vector_primitive_count": 702
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 1109,
+    "full_pool_rank": 2015,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 981,
+    "second_pass_review_rank": 1109
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2311.14447v1",
+    "abstract": "Spiking neural networks (SNNs) have gained attention in recent years due to their ability to handle sparse and event-based data better than regular artificial neural networks (ANNs). Since the structure of SNNs is less suited for typically used accelerators such as GPUs than conventional ANNs, there is a demand for custom hardware accelerators for processing SNNs. In the past, the main focus was on platforms that resemble the structure of multiprocessor systems. In this work, we propose a lightweight neuron layer architecture that allows network structures to be directly mapped onto digital hardware. Our approach is based on differential time coding of spike sequences and the decoupling of processing time and spike timing that allows the SNN to be processed on different hardware platforms. We present synthesis and performance results showing that this architecture can be implemented for networks of more than 1000 neurons with high clock speeds on a State-of-the-Art FPGA. We furthermore show results on the robustness of our approach to quantization. These results demonstrate that high-accuracy inference can be performed with bit widths as low as 4.",
+    "arxiv_id": "2311.14447",
+    "authors": [
+      "Daniel Windhager",
+      "Bernhard A. Moser",
+      "Michael Lunglmayr"
+    ],
+    "categories": [
+      "eess.SP"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2311.14447v1",
+    "primary_category": "eess.SP",
+    "published": "2023-11-24T12:44:11Z",
+    "query": "(cat:eess.SP AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2311.14447v1",
+    "title": "SNN Architecture for Differential Time Encoding Using Decoupled Processing Time",
+    "updated": "2023-11-24T12:44:11Z",
+    "versioned_id": "2311.14447v1"
+  },
+  "reference_sha256": "5f0aa9778a612b82daae6c0ce607c64b65ee459ac384219dc32e6cc4d6445519",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 658,
+    "final_quality_rank": 841,
+    "final_quality_score": 0.501433,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.3605,
+      "category": "eess.SP",
+      "category_family": "eess",
+      "color_bin": 0,
+      "colorfulness": 0.019731,
+      "component_bin": 2,
+      "connector_bin": 2,
+      "difference_hash": "a731a63168322a301231ac31ad3296312431683292206f501f10a93828a09848",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 897,
+    "style_selection_score": 0.428286
+  },
+  "source_filename": "spike_sorter.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "759e314c01504c7507f6b41dd953b7d1201ed7c64748827bef2b14d40929a0c6",
+  "task_id": "task_0657",
+  "task_index": 657
+}

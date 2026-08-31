@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2512.06716",
+  "candidate_id": "2512-06716_pdf_75360358c8c7ae08",
+  "caption": "The Cognitive Control Architecture (CCA). The CCA operates in two layers. First Layer (Pillar I): Upon receiving a user goal, the agent proactively generates an Intent Graph, which defines the legitimate sequence of tool calls. Execution: In the execution loop, each proposed action is checked against the Intent Graph. Compliant actions are executed directly. Second Layer (Pillar II): Any action that deviates from the graph triggers the Tiered Adjudicator. This adjudicator calculates a multi-faceted Intent Alignment Score (S_align), composed of semantic, causal, trust, and risk assessments, to make a final decision: approve the action, block it, or ask the user for clarification.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 215,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.999514,
+    "editable_component_count": 8232,
+    "embedded_image_count": 4,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.003622,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 314,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 8236,
+    "text_count": 92,
+    "vector_drawing_count": 218,
+    "vector_primitive_count": 8140
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2512.06716v2",
+    "abstract": "Autonomous Large Language Model (LLM) agents exhibit significant vulnerability to Indirect Prompt Injection (IPI) attacks. These attacks hijack agent behavior by polluting external information sources, exploiting fundamental trade-offs between security and functionality in existing defense mechanisms. This leads to malicious and unauthorized tool invocations, diverting agents from their original objectives. The success of complex IPIs reveals a deeper systemic fragility: while current defenses demonstrate some effectiveness, most defense architectures are inherently fragmented. Consequently, they fail to provide full integrity assurance across the entire task execution pipeline, forcing unacceptable multi-dimensional compromises among security, functionality, and efficiency. Our method is predicated on a core insight: no matter how subtle an IPI attack, its pursuit of a malicious objective will ultimately manifest as a detectable deviation in the action trajectory, distinct from the expected legitimate plan. Based on this, we propose the Cognitive Control Architecture (CCA), a holistic framework achieving full-lifecycle cognitive supervision. CCA constructs an efficient, dual-layered defense system through two synergistic pillars: (i) proactive and preemptive control-flow and data-flow integrity enforcement via a pre-generated \"Intent Graph\"; and (ii) an innovative \"Tiered Adjudicator\" that, upon deviation detection, initiates deep reasoning based on multi-dimensional scoring, specifically designed to counter complex conditional attacks. Experiments on the AgentDojo benchmark substantiate that CCA not only effectively withstands sophisticated attacks that challenge other advanced defense methods but also achieves uncompromised security with notable efficiency and robustness, thereby reconciling the aforementioned multi-dimensional trade-off.",
+    "arxiv_id": "2512.06716",
+    "authors": [
+      "Zhibo Liang",
+      "Tianze Hu",
+      "Zaiye Chen",
+      "Mingjie Tang"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.CR"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2512.06716v2",
+    "primary_category": "cs.AI",
+    "published": "2025-12-07T08:11:19Z",
+    "query": "(cat:cs.CL AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2512.06716v2",
+    "title": "Cognitive Control Architecture (CCA): A Lifecycle Supervision Framework for Robustly Aligned AI Agents",
+    "updated": "2026-01-23T08:44:40Z",
+    "versioned_id": "2512.06716v2"
+  },
+  "reference_sha256": "b051839144ac549da25d7e34a6cc93c406d9095f6b42faa48b850aafe7186d41",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 83,
+    "final_quality_rank": 62,
+    "final_quality_score": 0.725561,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.3785,
+      "category": "cs.AI",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.385659,
+      "component_bin": 5,
+      "connector_bin": 3,
+      "difference_hash": "a718a318b30cf29ca6baa53ce31c6d1ca38c869c971ab73295acb6b8f692e31c",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 112,
+    "style_selection_score": 0.58617
+  },
+  "source_filename": "process.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "75360358c8c7ae087e6031b495d71ceec9405e8be415e32d75ea6b6c688f7233",
+  "task_id": "task_0082",
+  "task_index": 82
+}

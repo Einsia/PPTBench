@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2503.02955",
+  "candidate_id": "2503-02955_pdf_0d273ec6859c38cd",
+  "caption": "Standard modules for SLAM pipeline implementations as outlined in the paper. The front-end is where the raw data is extracted from the sensors and abstracted into a model. The back-end infers from the front-end data and optimizes the estimates. The main modules in the front-end are tracking, loop detection, and relocalization. Tracking can be either direct or indirect. The back-end can be classified into filter and optimization-based techniques.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 71,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.996503,
+    "editable_component_count": 285,
+    "embedded_image_count": 1,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.092849,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 202,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 286,
+    "text_count": 87,
+    "vector_drawing_count": 114,
+    "vector_primitive_count": 198
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2503.02955v1",
+    "abstract": "With the rise of deep learning, there is a fundamental change in visual SLAM algorithms toward developing different modules trained as end-to-end pipelines. However, regardless of the implementation domain, visual SLAM's performance is subject to diverse environmental challenges, such as dynamic elements in outdoor environments, harsh imaging conditions in underwater environments, or blurriness in high-speed setups. These environmental challenges need to be identified to study the real-world viability of SLAM implementations. Motivated by the aforementioned challenges, this paper surveys the current state of visual SLAM algorithms according to the two main frameworks: geometry-based and learning-based SLAM. First, we introduce a general formulation of the SLAM pipeline that includes most of the implementations in the literature. Second, those implementations are classified and surveyed for geometry and learning-based SLAM. After that, environment-specific challenges are formulated to enable experimental evaluation of the resilience of different visual SLAM classes to varying imaging conditions. We address two significant issues in surveying visual SLAM, providing (1) a consistent classification of visual SLAM pipelines and (2) a robust evaluation of their performance under different deployment conditions. Finally, we give our take on future opportunities for visual SLAM implementations.",
+    "arxiv_id": "2503.02955",
+    "authors": [
+      "Olaya Alvarez-Tunon",
+      "Yury Brodskiy",
+      "Erdal Kayacan"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "doi": "10.1109/TAI.2023.3321032",
+    "journal_ref": "IEEE Transactions on Artificial Intelligence 2023",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2503.02955v1",
+    "primary_category": "cs.RO",
+    "published": "2025-03-04T19:20:17Z",
+    "query": "(cat:cs.AI AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2503.02955v1",
+    "title": "Monocular visual simultaneous localization and mapping: (r)evolution from geometry to deep learning-based pipelines",
+    "updated": "2025-03-04T19:20:17Z",
+    "versioned_id": "2503.02955v1"
+  },
+  "reference_sha256": "c6f46c13035c26223f128cc8192e4e4c71fa8d07c0fb210def68545757d80a0c",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 515,
+    "final_quality_rank": 366,
+    "final_quality_score": 0.625021,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.3836,
+      "category": "cs.RO",
+      "category_family": "cs",
+      "color_bin": 4,
+      "colorfulness": 0.567286,
+      "component_bin": 1,
+      "connector_bin": 2,
+      "difference_hash": "9863faa3daabdca3fca3c61b6c93ef83b02b9bc39a5b9bdb9bb39a0b986b862b",
+      "raster_bin": 3
+    },
+    "style_selection_rank": 344,
+    "style_selection_score": 0.523596
+  },
+  "source_filename": "1-pipeline.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "0d273ec6859c38cd2a652537b24df3086d5aa1a91d8bf3ea39dd4ef1058366e1",
+  "task_id": "task_0514",
+  "task_index": 514
+}

@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2407.02162",
+  "candidate_id": "2407-02162_pdf_38c4bb1024d7d1fc",
+  "caption": "Flowchart of integrated automation for performing high-throughtput simulation and post-processing together with RWDM framework.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 75,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.995227,
+    "editable_component_count": 417,
+    "embedded_image_count": 2,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.009384,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 134,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 419,
+    "text_count": 42,
+    "vector_drawing_count": 90,
+    "vector_primitive_count": 375
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 370,
+    "full_pool_rank": 509,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 319,
+    "second_pass_review_rank": 370
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2407.02162v1",
+    "abstract": "As material modeling and simulation has become vital for modern materials science, research data with distinctive physical principles and extensive volume are generally required for full elucidation of the material behavior across all relevant scales. Effective workflow and data management, with corresponding metadata descriptions, helps leverage the full potential of data-driven analyses for computer-aided material design. In this work, we propose a research workflow and data management (RWDM) framework to manage complex workflows and resulting research (meta)data, while following FAIR principles. Multiphysics multiscale simulations for additive manufacturing investigations are treated as showcase and implemented on Kadi4Mat: an open source research data infrastructure. The input and output data of the simulations, together with the associated setups and scripts realizing the simulation workflow, are curated in corresponding standardized Kadi4Mat records with extendibility for further research and data-driven analyses. These records are interlinked to indicate information flow and form an ontology based knowledge graph. Automation scheme for performing high-throughput simulation and post-processing integrated with the proposed RWDM framework is also presented.",
+    "arxiv_id": "2407.02162",
+    "authors": [
+      "Somnath Bharech",
+      "Yangyiwei Yang",
+      "Michael Selzer",
+      "Britta Nestler",
+      "Bai-Xiang Xu"
+    ],
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2407.02162v1",
+    "primary_category": "cond-mat.mtrl-sci",
+    "published": "2024-07-02T11:13:41Z",
+    "query": "(cat:cond-mat.mtrl-sci AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2407.02162v1",
+    "title": "ML-extendable framework for multiphysics-multiscale simulation workflow and data management using Kadi4Mat",
+    "updated": "2024-07-02T11:13:41Z",
+    "versioned_id": "2407.02162v1"
+  },
+  "reference_sha256": "4a1be882f5d5e5071387eb5dabcd5c878900124ba18d289e473794d2de1a2013",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 576,
+    "final_quality_rank": 738,
+    "final_quality_score": 0.547014,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.3864,
+      "category": "cond-mat.mtrl-sci",
+      "category_family": "cond-mat",
+      "color_bin": 1,
+      "colorfulness": 0.098395,
+      "component_bin": 2,
+      "connector_bin": 2,
+      "difference_hash": "b234b42cb6c8b658b5247628b69217861d9774b276acf24426a0b6a4a094b084",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 701,
+    "style_selection_score": 0.472885
+  },
+  "source_filename": "fig_HTC_kadi-studio.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "38c4bb1024d7d1fc60525cbd47f0a4bb96199f76ae853640385f822dd3a0e980",
+  "task_id": "task_0575",
+  "task_index": 575
+}

@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2506.11019",
+  "candidate_id": "2506-11019_pdf_708c0b33c166cf11",
+  "caption": "CI/CD pipeline with MCP telemetry, user trigger, and clear approval flow. A user initiates the commit; telemetry checks drive optional optimization, and an approval decision routes to merge or further refinement.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 36,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 189,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 80,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 189,
+    "text_count": 42,
+    "vector_drawing_count": 38,
+    "vector_primitive_count": 147
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2506.11019v1",
+    "abstract": "AI development environments are evolving into observability first platforms that integrate real time telemetry, prompt traces, and evaluation feedback into the developer workflow. This paper introduces telemetry aware integrated development environments (IDEs) enabled by the Model Context Protocol (MCP), a system that connects IDEs with prompt metrics, trace logs, and versioned control for real time refinement. We present design patterns for local prompt iteration, CI based optimization, and autonomous agents that adapt behavior using telemetry. Rather than focusing on a single algorithm, we describe an architecture that supports integration with frameworks like DSPy, PromptWizard, and Prompts as Programs. We demonstrate this through Opik, an open source MCP server for LLM telemetry, and position our approach within the emerging LLMOps ecosystem. This work lays a foundation for future research on prompt optimization, IDE agent tooling, and empirical benchmarking in telemetry rich AI development workflows.",
+    "arxiv_id": "2506.11019",
+    "authors": [
+      "Vincent Koc",
+      "Jacques Verre",
+      "Douglas Blank",
+      "Abigail Morgan"
+    ],
+    "categories": [
+      "cs.SE"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2506.11019v1",
+    "primary_category": "cs.SE",
+    "published": "2025-05-14T17:41:17Z",
+    "query": "(cat:cs.SE AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2506.11019v1",
+    "title": "Mind the Metrics: Patterns for Telemetry-Aware In-IDE AI Application Development using the Model Context Protocol (MCP)",
+    "updated": "2025-05-14T17:41:17Z",
+    "versioned_id": "2506.11019v1"
+  },
+  "reference_sha256": "fcd8d21689eeba99d4b3ee84337f3f67025eec9fb750ac7d850995633255a1ba",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 206,
+    "final_quality_rank": 969,
+    "final_quality_score": 0.397952,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.053,
+      "category": "cs.SE",
+      "category_family": "cs",
+      "color_bin": 0,
+      "colorfulness": 0.0,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "80008000800088409cc09cc098c0a1808548824884429de69de69cc29a1ac304",
+      "raster_bin": 0
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "ci_cd_pipeline_final.standalone.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "708c0b33c166cf1197606526cd3d2df72b6034b52788b7c119c627c200333485",
+  "task_id": "task_0205",
+  "task_index": 205
+}

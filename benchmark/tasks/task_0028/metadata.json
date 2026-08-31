@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2310.01630",
+  "candidate_id": "2310-01630_pdf_9a6da803546d0c39",
+  "caption": "Baseline system design of SQC (left), QAOA procedure (middle), and our proposed system design (right).",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 178,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 423,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 222,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 423,
+    "text_count": 33,
+    "vector_drawing_count": 189,
+    "vector_primitive_count": 390
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 261,
+    "full_pool_rank": 349,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 231,
+    "second_pass_review_rank": 261
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2310.01630v1",
+    "abstract": "The bandwidth limit between cryogenic and room-temperature environments is a critical bottleneck in superconducting noisy intermediate-scale quantum computers. This paper presents the first trial of algorithm-aware system-level optimization to solve this issue by targeting the quantum approximate optimization algorithm. Our counter-based cryogenic architecture using single-flux quantum logic shows exponential bandwidth reduction and decreases heat inflow and peripheral power consumption of inter-temperature cables, which contributes to the scalability of superconducting quantum computers.",
+    "arxiv_id": "2310.01630",
+    "authors": [
+      "Yosuke Ueno",
+      "Yuna Tomida",
+      "Teruo Tanimoto",
+      "Masamitsu Tanaka",
+      "Yutaka Tabuchi",
+      "Koji Inoue",
+      "Hiroshi Nakamura"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.AR"
+    ],
+    "doi": "10.1109/LCA.2023.3322700",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2310.01630v1",
+    "primary_category": "quant-ph",
+    "published": "2023-10-02T20:51:53Z",
+    "query": "(cat:quant-ph AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2310.01630v1",
+    "title": "Inter-temperature Bandwidth Reduction in Cryogenic QAOA Machines",
+    "updated": "2023-10-02T20:51:53Z",
+    "versioned_id": "2310.01630v1"
+  },
+  "reference_sha256": "65dfdc6b03a181acb8893f6879ba9f28fcc0c40523af1f58958bfd59173c5cd7",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 29,
+    "final_quality_rank": 24,
+    "final_quality_score": 0.767258,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 2.8967,
+      "category": "quant-ph",
+      "category_family": "quant-ph",
+      "color_bin": 5,
+      "colorfulness": 1.0,
+      "component_bin": 2,
+      "connector_bin": 3,
+      "difference_hash": "a894a894ad14ea98ef18a968ac6accecc968c948c899c9984d19c999c999c899",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 59,
+    "style_selection_score": 0.621898
+  },
+  "source_filename": "research-goal.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "9a6da803546d0c39ec97d0ea73846b66bd4026448850c7fa02d56cf4286a2b1f",
+  "task_id": "task_0028",
+  "task_index": 28
+}

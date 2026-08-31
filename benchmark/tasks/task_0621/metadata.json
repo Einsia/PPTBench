@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2412.14684",
+  "candidate_id": "2412-14684_pdf_a2dccf0cda2151ae",
+  "caption": "Query and model pipeline for multilingual video dubbing.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 49,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 173,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 106,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 173,
+    "text_count": 37,
+    "vector_drawing_count": 69,
+    "vector_primitive_count": 136
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 1221,
+    "full_pool_rank": 2297,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 1075,
+    "second_pass_review_rank": 1221
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2412.14684v2",
+    "abstract": "As the demand for artificial intelligence (AI) grows to address complex real-world tasks, single models are often insufficient, requiring the integration of multiple models into pipelines. This paper introduces Bel Esprit, a conversational agent designed to construct AI model pipelines based on user-defined requirements. Bel Esprit employs a multi-agent framework where subagents collaborate to clarify requirements, build, validate, and populate pipelines with appropriate models. We demonstrate the effectiveness of this framework in generating pipelines from ambiguous user queries, using both human-curated and synthetic data. A detailed error analysis highlights ongoing challenges in pipeline construction. Bel Esprit is available for a free trial at https://belesprit.aixplain.com.",
+    "arxiv_id": "2412.14684",
+    "authors": [
+      "Yunsu Kim",
+      "AhmedElmogtaba Abdelaziz",
+      "Thiago Castro Ferreira",
+      "Mohamed Al-Badrashiny",
+      "Hassan Sawaf"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.HC",
+      "cs.MA"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2412.14684v2",
+    "primary_category": "cs.AI",
+    "published": "2024-12-19T09:36:33Z",
+    "query": "(cat:cs.AI AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2412.14684v2",
+    "title": "Bel Esprit: Multi-Agent Framework for Building AI Model Pipelines",
+    "updated": "2025-06-13T14:30:53Z",
+    "versioned_id": "2412.14684v2"
+  },
+  "reference_sha256": "857624a34eeacc1d282a895e21a935d41330a9cc8b37ddc6d4ad3db2eb76d453",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 622,
+    "final_quality_rank": 940,
+    "final_quality_score": 0.441344,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.8934,
+      "category": "cs.AI",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.170573,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "18e430d330d232d2b1921560b2d3b2d2b2d232d21100339331d230d2309218e0",
+      "raster_bin": 0
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "pipeline-multilingual-dubbing.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "a2dccf0cda2151ae5ff8e8f5168eacb3b30001481b96a152c0ddd4f1e87d179f",
+  "task_id": "task_0621",
+  "task_index": 621
+}

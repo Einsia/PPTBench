@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2411.06098",
+  "candidate_id": "2411-06098_pdf_c867c96b853f68b7",
+  "caption": "Architecture of proposed LT-AggConv and LT-HierConv operators.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 35,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1061,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 81,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1061,
+    "text_count": 30,
+    "vector_drawing_count": 51,
+    "vector_primitive_count": 1031
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2411.06098v4",
+    "abstract": "Long-Tailed (LT) recognition has been widely studied to tackle the challenge of imbalanced data distributions in real-world applications. However, the design of neural architectures for LT settings has received limited attention, despite evidence showing that architecture choices can substantially affect performance. This paper aims to bridge the gap between LT challenges and neural network design by providing an in-depth analysis of how various architectures influence LT performance. Specifically, we systematically examine the effects of key network components on LT handling, such as topology, convolutions, and activation functions. Based on these observations, we propose two convolutional operations optimized for improved performance. Recognizing that operation interactions are also crucial to network effectiveness, we apply Neural Architecture Search (NAS) to facilitate efficient exploration. We propose LT-DARTS, a NAS method with a novel search space and search strategy specifically designed for LT data. Experimental results demonstrate that our approach consistently outperforms existing architectures across multiple LT datasets, achieving parameter-efficient, state-of-the-art results when integrated with current LT methods.",
+    "arxiv_id": "2411.06098",
+    "authors": [
+      "Yuhan Pan",
+      "Yanan Sun",
+      "Wei Gong"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "doi": "10.1145/3746252.376119",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2411.06098v4",
+    "primary_category": "cs.CV",
+    "published": "2024-11-09T07:19:56Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2411.06098v4",
+    "title": "Revisiting Long-Tailed Learning: Insights from an Architectural Perspective",
+    "updated": "2025-11-16T15:38:59Z",
+    "versioned_id": "2411.06098v4"
+  },
+  "reference_sha256": "52390fc46096c0bc1ed025775c2c9a6beaecaa71fc050a99caa9c42622635d00",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 697,
+    "final_quality_rank": 514,
+    "final_quality_score": 0.595954,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 0,
+      "aspect_ratio": 0.7182,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.407666,
+      "component_bin": 3,
+      "connector_bin": 1,
+      "difference_hash": "230019a05b525b901b807f007294325c32e43744762c709461b41b001b800580",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 617,
+    "style_selection_score": 0.491725
+  },
+  "source_filename": "hire.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "c867c96b853f68b7bc92aab88b3c4ced66f57cf1049a56e6d82d7824ebebe898",
+  "task_id": "task_0696",
+  "task_index": 696
+}

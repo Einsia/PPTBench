@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2403.07909",
+  "candidate_id": "2403-07909_pdf_962068eaceb5d2ac",
+  "caption": "Proposed Hierarchical Architecture of Smart HPA.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 90,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.998748,
+    "editable_component_count": 798,
+    "embedded_image_count": 1,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.004414,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 160,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 799,
+    "text_count": 53,
+    "vector_drawing_count": 106,
+    "vector_primitive_count": 745
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 445,
+    "full_pool_rank": 660,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 390,
+    "second_pass_review_rank": 445
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2403.07909v1",
+    "abstract": "Microservice architectures have gained prominence in both academia and industry, offering enhanced agility, reusability, and scalability. To simplify scaling operations in microservice architectures, container orchestration platforms such as Kubernetes feature Horizontal Pod Auto-scalers (HPAs) designed to adjust the resources of microservices to accommodate fluctuating workloads. However, existing HPAs are not suitable for resource-constrained environments, as they make scaling decisions based on the individual resource capacities of microservices, leading to service unavailability and performance degradation. Furthermore, HPA architectures exhibit several issues, including inefficient data processing and a lack of coordinated scaling operations. To address these concerns, we propose Smart HPA, a flexible resource-efficient horizontal pod auto-scaler. It features a hierarchical architecture that integrates both centralized and decentralized architectural styles to leverage their respective strengths while addressing their limitations. We introduce resource-efficient heuristics that empower Smart HPA to exchange resources among microservices, facilitating effective auto-scaling of microservices in resource-constrained environments. Our experimental results show that Smart HPA outperforms the Kubernetes baseline HPA by reducing resource overutilization, overprovisioning, and underprovisioning while increasing resource allocation to microservice applications.",
+    "arxiv_id": "2403.07909",
+    "authors": [
+      "Hussain Ahmad",
+      "Christoph Treude",
+      "Markus Wagner",
+      "Claudia Szabo"
+    ],
+    "categories": [
+      "cs.DC",
+      "eess.SY"
+    ],
+    "doi": "10.1109/ICSA59870.2024.00013",
+    "journal_ref": "2024 IEEE 21st International Conference on Software Architecture (ICSA)",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2403.07909v1",
+    "primary_category": "cs.DC",
+    "published": "2024-02-27T01:22:46Z",
+    "query": "(cat:cs.DC AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2403.07909v1",
+    "title": "Smart HPA: A Resource-Efficient Horizontal Pod Auto-scaler for Microservice Architectures",
+    "updated": "2024-02-27T01:22:46Z",
+    "versioned_id": "2403.07909v1"
+  },
+  "reference_sha256": "ace575039943df7bb7185aa356f60635ab21d48b83401b807b418a8c72f161e6",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 798,
+    "final_quality_rank": 616,
+    "final_quality_score": 0.577583,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.7778,
+      "category": "cs.DC",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.144584,
+      "component_bin": 2,
+      "connector_bin": 2,
+      "difference_hash": "d180ca18e650e640c690cec0cac0c380f080b250b060f860f870cc505c500000",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 795,
+    "style_selection_score": 0.470426
+  },
+  "source_filename": "Figure_1.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "962068eaceb5d2ac607a252f8834bc318115669d1bf3a74f26a7804b51e57b70",
+  "task_id": "task_0797",
+  "task_index": 797
+}

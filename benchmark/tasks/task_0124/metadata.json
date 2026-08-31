@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2504.17960",
+  "candidate_id": "2504-17960_pdf_2ef65d28e8764f05",
+  "caption": "Overview of the workflow. The framework comprises two main components: 0.2em icons/a.pdf computational notebooks and 0.2em icons/b.pdf visualization frontend. The notebooks facilitate processing gait data (e.g., motion data) by performing standardization steps (e.g., feature extraction, noise filtering) before sending it to the visualization frontend. Users can interact with the frontend to select ensembles of trials and generate charts for time-series and spatiotemporal gait data using time-series ensemble view, spatiotemporal summary view, and spatiotemporal distribution view and have access to raw video data through video exploration view. If anomalies are identified in the data, users can return to the notebooks to correct the data and then visualize the corrected data in the frontend.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 52,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 13536,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 94,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 13536,
+    "text_count": 42,
+    "vector_drawing_count": 52,
+    "vector_primitive_count": 13494
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 550,
+    "full_pool_rank": 861,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 478,
+    "second_pass_review_rank": 550
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2504.17960v2",
+    "abstract": "Gait disorders are commonly observed in older adults, who frequently experience various issues related to walking. Additionally, researchers and clinicians extensively investigate mobility related to gait in typically and atypically developing children, athletes, and individuals with orthopedic and neurological disorders. Effective gait analysis enables the understanding of the causal mechanisms of mobility and balance control of patients, the development of tailored treatment plans to improve mobility, the reduction of fall risk, and the tracking of rehabilitation progress. However, analyzing gait data is a complex task due to the multivariate nature of the data, the large volume of information to be interpreted, and the technical skills required. Existing tools for gait analysis are often limited to specific patient groups (e.g., cerebral palsy), only handle a specific subset of tasks in the entire workflow, and are not openly accessible. To address these shortcomings, we conducted a requirements assessment with gait practitioners (e.g., researchers, clinicians) via surveys and identified key components of the workflow, including (1) data processing and (2) data analysis and visualization. Based on the findings, we designed VIGMA, an open-access visual analytics framework integrated with computational notebooks and a Python library, to meet the identified requirements. Notably, the framework supports analytical capabilities for assessing disease progression and for comparing multiple patient groups. We validated the framework through usage scenarios with experts specializing in gait and mobility rehabilitation. VIGMA is available at https://github.com/komar41/VIGMA.",
+    "arxiv_id": "2504.17960",
+    "authors": [
+      "Kazi Shahrukh Omar",
+      "Shuaijie Wang",
+      "Ridhuparan Kungumaraju",
+      "Tanvi Bhatt",
+      "Fabio Miranda"
+    ],
+    "categories": [
+      "cs.HC",
+      "cs.CY"
+    ],
+    "doi": "10.1109/TVCG.2025.3564866",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2504.17960v2",
+    "primary_category": "cs.HC",
+    "published": "2025-04-24T22:11:21Z",
+    "query": "(cat:cs.HC AND all:framework) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2504.17960v2",
+    "title": "VIGMA: An Open-Access Framework for Visual Gait and Motion Analytics",
+    "updated": "2025-04-28T20:39:18Z",
+    "versioned_id": "2504.17960v2"
+  },
+  "reference_sha256": "864c0181bc8ddf6c7eb448d1d3618207e92264936208614677bacbb9cda86015",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 125,
+    "final_quality_rank": 98,
+    "final_quality_score": 0.705126,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.3273,
+      "category": "cs.HC",
+      "category_family": "cs",
+      "color_bin": 4,
+      "colorfulness": 0.517539,
+      "component_bin": 6,
+      "connector_bin": 1,
+      "difference_hash": "1c3038403acc5ac85898bedc38ccb8a00365529258925a965a965adc5b1c1b1a",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 102,
+    "style_selection_score": 0.587752
+  },
+  "source_filename": "workflow-2.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "2ef65d28e8764f056ac89b699df4573ded65d2f92a80ec6394a3ba4a9c61a9c9",
+  "task_id": "task_0124",
+  "task_index": 124
+}

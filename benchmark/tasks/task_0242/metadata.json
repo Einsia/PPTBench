@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2311.18824",
+  "candidate_id": "2311-18824_pdf_931acbebc2095f32",
+  "caption": "Our adaptive framework includes cluster, train, and adapt steps. In an uncertain environment, adaptive cluster assignment determines the best prediction model using live measurements from the environment.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 248,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 7026,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 285,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 7026,
+    "text_count": 23,
+    "vector_drawing_count": 262,
+    "vector_primitive_count": 7003
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 758,
+    "full_pool_rank": 1302,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 661,
+    "second_pass_review_rank": 758
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2311.18824v1",
+    "abstract": "We have developed a new framework using time-series analysis for dynamically assigning mobile network traffic prediction models in previously unseen wireless environments. Our framework selectively employs learned behaviors, outperforming any single model with over a 50% improvement relative to current studies. More importantly, it surpasses traditional approaches without needing prior knowledge of a cell. While this paper focuses on network traffic prediction using our adaptive forecasting framework, this framework can also be applied to other machine learning applications in uncertain environments. The framework begins with unsupervised clustering of time-series data to identify unique trends and seasonal patterns. Subsequently, we apply supervised learning for traffic volume prediction within each cluster. This specialization towards specific traffic behaviors occurs without penalties from spatial and temporal variations. Finally, the framework adaptively assigns trained models to new, previously unseen cells. By analyzing real-time measurements of a cell, our framework intelligently selects the most suitable cluster for that cell at any given time, with cluster assignment dynamically adjusting to spatio-temporal fluctuations.",
+    "arxiv_id": "2311.18824",
+    "authors": [
+      "Alexander Downey",
+      "Evren Tuna",
+      "Alkan Soysal"
+    ],
+    "categories": [
+      "cs.IT",
+      "cs.LG",
+      "cs.NI",
+      "eess.SP"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2311.18824v1",
+    "primary_category": "cs.IT",
+    "published": "2023-11-30T18:58:38Z",
+    "query": "(cat:cs.LG AND all:framework) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2311.18824v1",
+    "title": "An Adaptive Framework for Generalizing Network Traffic Prediction towards Uncertain Environments",
+    "updated": "2023-11-30T18:58:38Z",
+    "versioned_id": "2311.18824v1"
+  },
+  "reference_sha256": "2efe66a1705707293c986f668aa4ab6e963fdfff3dcb1b1a7c77ada4d5037931",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 243,
+    "final_quality_rank": 173,
+    "final_quality_score": 0.675942,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.9575,
+      "category": "cs.IT",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.238007,
+      "component_bin": 5,
+      "connector_bin": 3,
+      "difference_hash": "6f214d115991599159935990599249b245f640723052799839891980599365bd",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 114,
+    "style_selection_score": 0.584764
+  },
+  "source_filename": "framework.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "931acbebc2095f32756a00f175d9542c7cb30305be1fe72b981f391d3b95ea99",
+  "task_id": "task_0242",
+  "task_index": 242
+}

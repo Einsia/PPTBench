@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2603.26965",
+  "candidate_id": "2603-26965_pdf_e485f828d9420a58",
+  "caption": "Architecture of is illustrated The audit kernel on the host cluster executes a notebook and creates its corresponding notebook container. The notebook and its container are shared with a collaborator to be executed in a target cluster using the repeat kernel. Large volumes of data in a notebook container may be fetched dynamically from a remote data store.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 116,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.997963,
+    "editable_component_count": 490,
+    "embedded_image_count": 1,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.02081,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 187,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 491,
+    "text_count": 38,
+    "vector_drawing_count": 148,
+    "vector_primitive_count": 452
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 166,
+    "full_pool_rank": 221,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 148,
+    "second_pass_review_rank": 166
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2603.26965v1",
+    "abstract": "Notebooks provide an author-friendly environment for iterative development, modular execution, and easy sharing. Distributed workflows are increasingly being authored and executed in notebooks, yet sharing and reproducing them remains challenging. Even small code or parameter changes often force full end-to-end re-execution of the distributed workflow, limiting iterative development for such workloads. Current methods for improving notebook execution operate on single-node workflows, while optimization techniques for distributed workflows typically sacrifice reproducibility. We introduce NBRewind, a notebook kernel system for efficient, reproducible execution of distributed workflows in notebooks. NBRewind consists of two kernels--audit and repeat. The audit kernel performs incremental, cell-level checkpointing to avoid unnecessary re-runs; repeat reconstructs checkpoints and enables partial re-execution including notebook cells that manage distributed workflow. Both kernel methods are based on data-flow analysis across cells. We show how checkpoints and logs when packaged as part of standardized notebook specification improve sharing and reproducibility. Using real-world case studies we show that creating incremental checkpoints adds minimal overhead and enables portable, cross-site reproducibility of notebook-based distributed workflows on HPC systems.",
+    "arxiv_id": "2603.26965",
+    "authors": [
+      "Talha Azaz",
+      "Raza Ahmad",
+      "Md Saiful Islam",
+      "Douglas Thain",
+      "Tanu Malik"
+    ],
+    "categories": [
+      "cs.SE",
+      "cs.DC"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2603.26965v1",
+    "primary_category": "cs.SE",
+    "published": "2026-03-27T20:13:31Z",
+    "query": "(cat:cs.SE AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2603.26965v1",
+    "title": "Efficiently Reproducing Distributed Workflows in Notebook-based Systems",
+    "updated": "2026-03-27T20:13:31Z",
+    "versioned_id": "2603.26965v1"
+  },
+  "reference_sha256": "276cfca3444ae5b68d203a939f4ff339eb6bd0a18522782615e2f4df1d92378d",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 223,
+    "final_quality_rank": 179,
+    "final_quality_score": 0.673659,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.3731,
+      "category": "cs.SE",
+      "category_family": "cs",
+      "color_bin": 4,
+      "colorfulness": 0.586028,
+      "component_bin": 2,
+      "connector_bin": 2,
+      "difference_hash": "b2f2b2f28ccee278ccc86cc92ccb6c496cc92ccb37934f202d846c6c6d240f00",
+      "raster_bin": 2
+    },
+    "style_selection_rank": 240,
+    "style_selection_score": 0.545845
+  },
+  "source_filename": "architecture.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "e485f828d9420a58283522f7ed765ca6c00de8ee936199d4af1ec7030ff0d615",
+  "task_id": "task_0222",
+  "task_index": 222
+}

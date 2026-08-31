@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2204.04681",
+  "candidate_id": "2204-04681_pdf_f0444a668193e486",
+  "caption": "The overall pipeline of DARTS. (a) Super-net in the search stage. (b) Target-net in the evaluation stage.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 97,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 310,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 176,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 310,
+    "text_count": 57,
+    "vector_drawing_count": 119,
+    "vector_primitive_count": 253
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2204.04681v2",
+    "abstract": "Differentiable ARchiTecture Search (DARTS) has attracted much attention due to its simplicity and significant improvement in efficiency. However, the excessive accumulation of the skip connection, when training epochs become large, makes it suffer from weak stability and low robustness, thus limiting its practical applications. Many works have attempted to restrict the accumulation of skip connections by indicators or manual design. These methods, however, are susceptible to human priors and hyper-parameters. In this work, we suggest a more subtle and direct approach that no longer explicitly searches for skip connections in the search stage, based on the paradox that skip connections were proposed to guarantee the performance of very deep networks, but the networks in the search stage of differentiable architecture search are actually very shallow. Instead, by introducing channel importance ranking and channel allocation strategy, the skip connections are implicitly searched and automatically refilled unimportant channels in the evaluation stage. Our method, dubbed Adaptive Channel Allocation (ACA) strategy, is a general-purpose approach for differentiable architecture search, which universally works in DARTS variants without introducing human priors, indicators, or hyper-parameters. Extensive experiments on various datasets and DARTS variants verify that the ACA strategy is the most effective one among existing methods in improving robustness and dealing with the collapse issue when training epochs become large.",
+    "arxiv_id": "2204.04681",
+    "authors": [
+      "Chao Li",
+      "Jia Ning",
+      "Han Hu",
+      "Kun He"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2204.04681v2",
+    "primary_category": "cs.CV",
+    "published": "2022-04-10T13:25:36Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2204.04681v2",
+    "title": "Adaptive Channel Allocation for Robust Differentiable Architecture Search",
+    "updated": "2024-12-23T04:48:08Z",
+    "versioned_id": "2204.04681v2"
+  },
+  "reference_sha256": "7fb558e9e79ffc0adbf080c1ae7f4f92ced4cb11870efa3eeb5b6bf52205f4fe",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 833,
+    "final_quality_rank": 692,
+    "final_quality_score": 0.562226,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.2405,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.190094,
+      "component_bin": 1,
+      "connector_bin": 2,
+      "difference_hash": "f0f0c0f2c060c9e6c8e6d865d064c665d864c866c4e3cce6c866c4e0d0f42018",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 845,
+    "style_selection_score": 0.454134
+  },
+  "source_filename": "darts.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "f0444a668193e4866f975cd2d94fb5de6f849ab23930b1500e52bf103ce13294",
+  "task_id": "task_0832",
+  "task_index": 832
+}

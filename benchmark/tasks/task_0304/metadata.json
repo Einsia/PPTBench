@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2605.17548",
+  "candidate_id": "2605-17548_pdf_d48fd49d8bb7941e",
+  "caption": "Overview of AI-Powered Code Review Framework Workflow",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 199,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.938931,
+    "editable_component_count": 1476,
+    "embedded_image_count": 96,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.000509,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 422,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1572,
+    "text_count": 74,
+    "vector_drawing_count": 252,
+    "vector_primitive_count": 1402
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2605.17548v2",
+    "abstract": "Code review has evolved for decades, from informal peer checking to today's pull request (PR) workflows, yet it remains a largely manual and cognitively demanding process. The rise of Artificial Intelligence (AI) coding assistants has intensified this challenge: while these tools increase code production velocity, they also expand the volume of code requiring review, turning code review into a growing bottleneck. Current AI support in code review remains fragmented, with tools focusing on isolated tasks such as reviewer recommendation, PR description generation, or comment suggestion rather than the end-to-end PR review workflow. We address this gap by treating review effectiveness as an outcome of the full code review lifecycle rather than a single stage, proposing a framework that carries context across stage boundaries. We propose a future vision for code review in which reviewers transition from manual inspectors into supervisory operators of agents. In this vision, staged, AI-powered workflows aim to align the pace of code generation with shared understanding and accountable engineering. In this paper, we review the historical evolution of code review practices, identify challenges in traditional code review systems, and examine the shift driven by large language models (LLMs) and agentic AI systems. We then present a vision for an AI-powered code review workflow combining specialized agents with human-controlled quality gates. Our framework spans five stages: PR Creation, PR Augmentation, Reviewer Selection, AI-Assisted Code Review, and PR Retrospective, with humans retained at key decision points to preserve judgment, accountability, and team-level understanding. Finally, we identify key adoption challenges and outline research directions for evaluation, governance, and responsible human-AI collaboration.",
+    "arxiv_id": "2605.17548",
+    "authors": [
+      "H\u00fcseyin \u00d6zg\u00fcr Kamal\u0131",
+      "Erdem Tuna",
+      "Vahid Haratian",
+      "Eray T\u00fcz\u00fcn"
+    ],
+    "categories": [
+      "cs.SE",
+      "cs.AI"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2605.17548v2",
+    "primary_category": "cs.SE",
+    "published": "2026-05-17T17:04:21Z",
+    "query": "(cat:cs.SE AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2605.17548v2",
+    "title": "Rethinking Code Review in the Age of AI: A Vision for Agentic Code Review",
+    "updated": "2026-06-05T12:45:38Z",
+    "versioned_id": "2605.17548v2"
+  },
+  "reference_sha256": "ab0b7fc0a212fd43e3600cd886fbf1a934bfaa44f82845185f9e1e57fb068879",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 305,
+    "final_quality_rank": 214,
+    "final_quality_score": 0.665626,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.3608,
+      "category": "cs.SE",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.35244,
+      "component_bin": 3,
+      "connector_bin": 3,
+      "difference_hash": "88cdd75ce650e5ece51cd494d3541324664c08da68f0984c94d872555a5a218a",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 296,
+    "style_selection_score": 0.533597
+  },
+  "source_filename": "v10_vision_framework.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "d48fd49d8bb7941ec4f090f63c956fa36747a3567753de6e5a0ba50be7d1a085",
+  "task_id": "task_0304",
+  "task_index": 304
+}

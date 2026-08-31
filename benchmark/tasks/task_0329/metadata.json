@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2502.17778",
+  "candidate_id": "2502-17778_pdf_66fa6e8b8de1014c",
+  "caption": "System architecture for distributed quantum sensing using STQS. The inset diagram is an enlargement of a single QSC to depict the components within the network more clearly.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 98,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1280,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 148,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1280,
+    "text_count": 17,
+    "vector_drawing_count": 131,
+    "vector_primitive_count": 1263
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2502.17778v3",
+    "abstract": "Quantum sensing (QS) harnesses quantum phenomena to measure physical observables with extraordinary precision, sensitivity, and resolution. Despite significant advancements in quantum sensing, prevailing efforts have focused predominantly on refining the underlying sensor materials and hardware. Given the growing demands of increasingly complex application domains and the continued evolution of quantum sensing technologies, the present moment is the right time to systematically explore distributed quantum sensing architectures and their corresponding design space. We present STQS, a unified system architecture for spatiotemporal quantum sensing that interlaces four key quantum components: sensing, memory, communication, and computation. By employing a comprehensive gate-based framework, we systemically explore the design space of quantum sensing schemes and probe the influence of noise at each state in a sensing workflow through simulation. We introduce a novel distance-based metric that compares reference states to sensing states and assigns a confidence level. We anticipate that the distance measure will serve as an intermediate step towards more advanced quantum signal processing techniques like quantum machine learning. To our knowledge, STQS is the first system-level framework to integrate quantum sensing within a coherent, unified architectural paradigm. STQS provides seamless avenues for unique state preparation, multi-user sensing requests, and addressing practical implementations. We demonstrate the versatility of STQS through evaluations of quantum radar and qubit-based dark matter detection. To highlight the near-term feasibility of our approach, we present results obtained from IBM's Marrakesh and IonQ's Forte devices, validating key STQS components on present day quantum hardware.",
+    "arxiv_id": "2502.17778",
+    "authors": [
+      "Anastashia Jebraeilli",
+      "Chenxu Liu",
+      "Keyi Yin",
+      "Erik W Lentz",
+      "Yufei Ding",
+      "Ang Li"
+    ],
+    "categories": [
+      "quant-ph"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2502.17778v3",
+    "primary_category": "quant-ph",
+    "published": "2025-02-25T02:13:13Z",
+    "query": "(cat:quant-ph AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2502.17778v3",
+    "title": "STQS: A Unified System Architecture for Spatial Temporal Quantum Sensing",
+    "updated": "2025-07-18T08:35:24Z",
+    "versioned_id": "2502.17778v3"
+  },
+  "reference_sha256": "5b4d2b72194ce08a322e385986c0f2281e147018e946e7167a8bb69fe78ab939",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 330,
+    "final_quality_rank": 424,
+    "final_quality_score": 0.613867,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.7778,
+      "category": "quant-ph",
+      "category_family": "quant-ph",
+      "color_bin": 3,
+      "colorfulness": 0.358911,
+      "component_bin": 3,
+      "connector_bin": 2,
+      "difference_hash": "af1296299644949294d2b0ee96d696729646b4ce96ee96d4949294449461c932",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 529,
+    "style_selection_score": 0.500099
+  },
+  "source_filename": "qss.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "66fa6e8b8de1014c6d01cdb1821e7769f73b6320c9a7705f08e88f22e1fc64a7",
+  "task_id": "task_0329",
+  "task_index": 329
+}

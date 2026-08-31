@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2201.01984",
+  "candidate_id": "2201-01984_pdf_26c645fb6b937881",
+  "caption": "Illustration of Compact Bidirectional LSTM model (CBLSTM) for Image Captioning. Best view in color.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 122,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.999224,
+    "editable_component_count": 1288,
+    "embedded_image_count": 1,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.019944,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 234,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1289,
+    "text_count": 109,
+    "vector_drawing_count": 124,
+    "vector_primitive_count": 1179
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 203,
+    "full_pool_rank": 272,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 180,
+    "second_pass_review_rank": 203
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2201.01984v3",
+    "abstract": "Most current image captioning models typically generate captions from left-to-right. This unidirectional property makes them can only leverage past context but not future context. Though refinement-based models can exploit both past and future context by generating a new caption in the second stage based on pre-retrieved or pre-generated captions in the first stage, the decoder of these models generally consists of two networks~(i.e. a retriever or captioner in the first stage and a captioner in the second stage), which can only be executed sequentially. In this paper, we introduce a Compact Bidirectional Transformer model for image captioning that can leverage bidirectional context implicitly and explicitly while the decoder can be executed parallelly. Specifically, it is implemented by tightly coupling left-to-right(L2R) and right-to-left(R2L) flows into a single compact model to serve as a regularization for implicitly exploiting bidirectional context and optionally allowing explicit interaction of the bidirectional flows, while the final caption is chosen from either L2R or R2L flow in a sentence-level ensemble manner. We conduct extensive ablation studies on MSCOCO benchmark and find that the compact bidirectional architecture and the sentence-level ensemble play more important roles than the explicit interaction mechanism. By combining with word-level ensemble seamlessly, the effect of sentence-level ensemble is further enlarged. We further extend the conventional one-flow self-critical training to the two-flows version under this architecture and achieve new state-of-the-art results in comparison with non-vision-language-pretraining models. Finally, we verify the generality of this compact bidirectional architecture by extending it to LSTM backbone. Source code is available at https://github.com/YuanEZhou/cbtic.",
+    "arxiv_id": "2201.01984",
+    "authors": [
+      "Zijie Song",
+      "Yuanen Zhou",
+      "Zhenzhen Hu",
+      "Daqing Liu",
+      "Huixia Ben",
+      "Richang Hong",
+      "Meng Wang"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.CL"
+    ],
+    "doi": "10.1109/TMM.2026.3680397",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2201.01984v3",
+    "primary_category": "cs.CV",
+    "published": "2022-01-06T09:23:18Z",
+    "query": "(cat:cs.CL AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2201.01984v3",
+    "title": "Image Captioning via Compact Bidirectional Architecture",
+    "updated": "2026-03-10T04:54:20Z",
+    "versioned_id": "2201.01984v3"
+  },
+  "reference_sha256": "dc4b1aeb86d12605ed66f14d53b53b1e537d157fe317d4b34b98ba88a6f4ebcd",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 503,
+    "final_quality_rank": 365,
+    "final_quality_score": 0.625111,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.4354,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.208178,
+      "component_bin": 3,
+      "connector_bin": 2,
+      "difference_hash": "0f200dc408c519cc99cc998c998cb9ccb98c91889188b9ccb9cca5eaccee0c66",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 575,
+    "style_selection_score": 0.50136
+  },
+  "source_filename": "framework-CBLSTM.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "26c645fb6b937881dd95d7df3505667813ffdc197d466e2099f21f0a47f4639f",
+  "task_id": "task_0502",
+  "task_index": 502
+}

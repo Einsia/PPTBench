@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2111.10133",
+  "candidate_id": "2111-10133_pdf_5d4237eca755301a",
+  "caption": "The different steps to perform a structural clustering. The input is a file written in any of the trajectory formats supported by partycls. After selecting the structural descriptor and optional filters, two key steps for pre-processing the data are possible: feature scaling and dimensionality reduction. Finally, a clustering is performed using the selected algorithm. Several output files are produced for further analysis.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 34,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 216,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 75,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 216,
+    "text_count": 41,
+    "vector_drawing_count": 34,
+    "vector_primitive_count": 175
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 666,
+    "full_pool_rank": 1126,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 583,
+    "second_pass_review_rank": 666
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2111.10133v1",
+    "abstract": "partycls is a Python framework for cluster analysis of systems of interacting particles. By grouping particles that share similar structural or dynamical properties, partycls enables rapid and unsupervised exploration of the system's relevant features. It provides descriptors suitable for applications in condensed matter physics and integrates the necessary tools of unsupervised learning, such as dimensionality reduction, into a streamlined workflow. Through a simple and expressive interface, partycls allows one to open a trajectory file, perform a clustering based on the selected structural descriptor, and analyze and save the results with only a few lines of code.",
+    "arxiv_id": "2111.10133",
+    "authors": [
+      "Joris Paret",
+      "Daniele Coslovich"
+    ],
+    "categories": [
+      "physics.comp-ph",
+      "cond-mat.dis-nn",
+      "cond-mat.mtrl-sci"
+    ],
+    "doi": "10.21105/joss.03723",
+    "journal_ref": "Journal of Open Source Software, 67, 3723 (2021)",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2111.10133v1",
+    "primary_category": "physics.comp-ph",
+    "published": "2021-11-19T10:09:29Z",
+    "query": "(cat:cond-mat.mtrl-sci AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2111.10133v1",
+    "title": "partycls: A Python package for structural clustering",
+    "updated": "2021-11-19T10:09:29Z",
+    "versioned_id": "2111.10133v1"
+  },
+  "reference_sha256": "6e5fdaad7769f96903ccc75f2ff707a8a6b5136a6586bb678ebec0e7c94ebae3",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 680,
+    "final_quality_rank": 872,
+    "final_quality_score": 0.486569,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.9402,
+      "category": "physics.comp-ph",
+      "category_family": "physics",
+      "color_bin": 1,
+      "colorfulness": 0.131305,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "c80cc02cc80cd90e8806c816e80ccd0e1000cdaccda4ccd6cc5e8c5dccd4a5c0",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 853,
+    "style_selection_score": 0.464197
+  },
+  "source_filename": "workflow.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "5d4237eca755301afffeac1d7991fb8dc127f7bbb2ee878d6f7513968e382f46",
+  "task_id": "task_0679",
+  "task_index": 679
+}

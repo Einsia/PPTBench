@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2410.03480",
+  "candidate_id": "2410-03480_pdf_c4b7ea3a2701a740",
+  "caption": "Workflow using our model based on WFD-nets.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 55,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1458,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 116,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1458,
+    "text_count": 47,
+    "vector_drawing_count": 69,
+    "vector_primitive_count": 1411
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 691,
+    "full_pool_rank": 1181,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 604,
+    "second_pass_review_rank": 691
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2410.03480v3",
+    "abstract": "Serverless computing has emerged as a prominent paradigm, with a significant adoption rate among cloud customers. While this model offers advantages such as abstraction from the deployment and resource scheduling, it also poses limitations in handling complex use cases due to the restricted nature of individual functions. Serverless workflows address this limitation by orchestrating multiple functions into a cohesive application. However, existing serverless workflow platforms exhibit significant differences in their programming models and infrastructure, making fair and consistent performance evaluations difficult in practice. To address this gap, we propose the first serverless workflow benchmarking suite SeBS-Flow, providing a platform-agnostic workflow model that enables consistent benchmarking across various platforms. SeBS-Flow includes six real-world application benchmarks and four microbenchmarks representing different computational patterns. We conduct comprehensive evaluations on three major cloud platforms, assessing performance, cost, scalability, and runtime deviations. We make our benchmark suite open-source, enabling rigorous and comparable evaluations of serverless workflows over time.",
+    "arxiv_id": "2410.03480",
+    "authors": [
+      "Larissa Schmid",
+      "Marcin Copik",
+      "Alexandru Calotoiu",
+      "Laurin Brandner",
+      "Anne Koziolek",
+      "Torsten Hoefler"
+    ],
+    "categories": [
+      "cs.DC",
+      "cs.SE"
+    ],
+    "doi": "10.1145/3689031.3717465",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2410.03480v3",
+    "primary_category": "cs.DC",
+    "published": "2024-10-04T14:52:18Z",
+    "query": "(cat:cs.SE AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2410.03480v3",
+    "title": "SeBS-Flow: Benchmarking Serverless Cloud Function Workflows",
+    "updated": "2025-03-25T13:10:28Z",
+    "versioned_id": "2410.03480v3"
+  },
+  "reference_sha256": "db97c9abf937d5a31ac8403c38c8c2f78a66e4fcf71e2ecdc57178dd1f798d64",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 843,
+    "final_quality_rank": 696,
+    "final_quality_score": 0.560831,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 4.3066,
+      "category": "cs.DC",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.162341,
+      "component_bin": 3,
+      "connector_bin": 1,
+      "difference_hash": "0300030003000b20631967186949694b694b694b6949e7190303030bb1039100",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 844,
+    "style_selection_score": 0.457273
+  },
+  "source_filename": "func-group-example-coordinator-transitions-redesign.drawio.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "c4b7ea3a2701a740a5a5f4ab190bf5e290687b78721f5771131a3ae9ea9dff56",
+  "task_id": "task_0842",
+  "task_index": 842
+}

@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2603.29487",
+  "candidate_id": "2603-29487_pdf_83e793df4f46b72f",
+  "caption": "(a)Hardware architecture for QR factorization using Givens Rotation, (b) calculation block.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 222,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 2579,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 329,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 2579,
+    "text_count": 66,
+    "vector_drawing_count": 263,
+    "vector_primitive_count": 2513
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 961,
+    "full_pool_rank": 1689,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 846,
+    "second_pass_review_rank": 961
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2603.29487v1",
+    "abstract": "Integrated Sensing and Communication (ISAC) is a key enabler of high speed, ultra low latency vehicular communication in 6G. ISAC leverages radar signal processing (RSP) to localize multiple unknown targets amid static clutter by jointly estimating range, azimuth, and Doppler velocity (3D), thereby enabling highly directional beamforming toward intended mobile users. However, the speed and accuracy of RSP significantly impact communication throughput. This work proposes a novel 3D reconfigurable RSP accelerator, implemented on a Zynq Multi processor System on Chip (MPSoC) using a hardware software codesign approach and fixed point optimization. We propose two RSP frameworks: (1) high accuracy and high complexity, and (2) low complexity and low accuracy, along with their respective architectures. Then, we develop an adaptive architecture that dynamically switches between these two frameworks based on the signal to clutter plus noise ratio. This adaptive reconfiguration achieves up to 5.6 times faster RSP compared to state of the art designs. At the system level, the proposed RSP based ISAC delivers a 24% improvement in communication throughput without increasing hardware complexity.",
+    "arxiv_id": "2603.29487",
+    "authors": [
+      "Aakanksha Tewari",
+      "Jai Mangal",
+      "Sumit J Darak",
+      "Shobha Sundar Ram",
+      "Arnav Shukla"
+    ],
+    "categories": [
+      "eess.SP"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2603.29487v1",
+    "primary_category": "eess.SP",
+    "published": "2026-03-31T09:32:03Z",
+    "query": "(cat:eess.SP AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2603.29487v1",
+    "title": "Adaptive High-Speed Radar Signal Processing Architecture for 3D Localization of Multiple Targets on System on Chip",
+    "updated": "2026-03-31T09:32:03Z",
+    "versioned_id": "2603.29487v1"
+  },
+  "reference_sha256": "b73cf41648bf25283c07ff9e583bc098105f7203d5f7612e5b5fb6d243c29545",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 116,
+    "final_quality_rank": 143,
+    "final_quality_score": 0.6877,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.3385,
+      "category": "eess.SP",
+      "category_family": "eess",
+      "color_bin": 4,
+      "colorfulness": 0.608991,
+      "component_bin": 4,
+      "connector_bin": 3,
+      "difference_hash": "c676f266b22e932cb26eb76eb666b506c184c86c3274ecd0ecc0ece4ed90fc50",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 148,
+    "style_selection_score": 0.57077
+  },
+  "source_filename": "givens_v2.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "83e793df4f46b72f70e2074c116639140ddfcb91198281fdcca056dd2249656c",
+  "task_id": "task_0115",
+  "task_index": 115
+}

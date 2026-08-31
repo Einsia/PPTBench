@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2603.12001",
+  "candidate_id": "2603-12001_pdf_dff01f88747f86fb",
+  "caption": "Schematic representation of Fluid Computing paradigm as a unified platform of computing and communication resources that subsumes the main computing paradigms (Mist, Edge, Fog and Cloud). The left-to-right arrow at the bottom indicates increasing delay as data and tasks move toward the cloud, while the right-to-left arrow indicates decreasing computing capabilities as tasks move closer to end-user devices.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 1113,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.993835,
+    "editable_component_count": 11284,
+    "embedded_image_count": 70,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.001256,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 1203,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 11354,
+    "text_count": 0,
+    "vector_drawing_count": 1133,
+    "vector_primitive_count": 11284
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 889,
+    "full_pool_rank": 1518,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 778,
+    "second_pass_review_rank": 889
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2603.12001v2",
+    "abstract": "Distributed AI and IoT applications increasingly execute across heterogeneous resources spanning end devices, edge/fog infrastructure, and cloud platforms, often under different administrative domains. Fluid Computing has emerged as a promising paradigm for enhancing massive resource management across the computing continuum by treating such resources as a unified fabric, enabling optimal service-agnostic deployments driven by application requirements. However, existing solutions remain largely centralized and often do not explicitly address multi-domain considerations. This paper proposes an agnostic multi-domain orchestration architecture for fluid computing environments. The orchestration plane enables decentralized coordination among domains that maintain local autonomy while jointly realizing intent-based deployment requests from tenants, ensuring end-to-end placement and execution. To this end, the architecture elevates domain-side control services as first-class capabilities to support application-level enhancement at runtime. As a representative proof of concept, we instantiate the architecture through a distributed AI use case; specifically, we consider a multi-domain Decentralized Federated Learning (DFL) deployment under Byzantine threats. Under this setting, we leverage domain-side capabilities to enhance Byzantine security by introducing FU-HST, an SDN-enabled multi-domain anomaly detection mechanism that complements Byzantine-robust aggregation. We validate the use-case workflow via simulation in single- and multi-domain settings, evaluating anomaly detection, DFL performance, and computation/communication overhead.",
+    "arxiv_id": "2603.12001",
+    "authors": [
+      "Diego Cajaraville-Aboy",
+      "Ana Fern\u00e1ndez-Vilas",
+      "Rebeca P. D\u00edaz-Redondo",
+      "Manuel Fern\u00e1ndez-Veiga",
+      "Pablo Picallo-L\u00f3pez"
+    ],
+    "categories": [
+      "cs.DC",
+      "cs.LG"
+    ],
+    "doi": "10.1016/j.comnet.2026.112369",
+    "journal_ref": "Computer Networks, Volume 284 (2026) 112369",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2603.12001v2",
+    "primary_category": "cs.DC",
+    "published": "2026-03-12T14:49:12Z",
+    "query": "(cat:cs.DC AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2603.12001v2",
+    "title": "Decentralized Orchestration Architecture for Fluid Computing: A Secure Distributed AI Use Case",
+    "updated": "2026-06-26T16:46:17Z",
+    "versioned_id": "2603.12001v2"
+  },
+  "reference_sha256": "397fc2a4233bd79308abd9b20d0dbb29542e6494ba7ff8a7ff18583979925b46",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 17,
+    "final_quality_rank": 15,
+    "final_quality_score": 0.788479,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.3958,
+      "category": "cs.DC",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.19378,
+      "component_bin": 5,
+      "connector_bin": 5,
+      "difference_hash": "8682a696d9b8d9b8ae629684d69492b49a94da84d2b4d6b4ae88a698e71ae31a",
+      "raster_bin": 1
+    },
+    "style_selection_rank": 38,
+    "style_selection_score": 0.645639
+  },
+  "source_filename": "fluid_computing.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "dff01f88747f86fb847fb8fb235ad0839a2f9a7baf96222be51cb128669622d5",
+  "task_id": "task_0016",
+  "task_index": 16
+}

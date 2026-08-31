@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2406.13093",
+  "candidate_id": "2406-13093_pdf_19a20785f352b558",
+  "caption": "The overview of RITA. Notice green arrows indicate foundational frame generation, which is not required in real-time inference. The real-time inference only requires the bottom blue arrows.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 23,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.965116,
+    "editable_component_count": 249,
+    "embedded_image_count": 9,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.003777,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 123,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 258,
+    "text_count": 85,
+    "vector_drawing_count": 29,
+    "vector_primitive_count": 164
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 1032,
+    "full_pool_rank": 1828,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 913,
+    "second_pass_review_rank": 1032
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2406.13093v1",
+    "abstract": "RITA presents a high-quality real-time interactive framework built upon generative models, designed with practical applications in mind. Our framework enables the transformation of user-uploaded photos into digital avatars that can engage in real-time dialogue interactions. By leveraging the latest advancements in generative modeling, we have developed a versatile platform that not only enhances the user experience through dynamic conversational avatars but also opens new avenues for applications in virtual reality, online education, and interactive gaming. This work showcases the potential of integrating computer vision and natural language processing technologies to create immersive and interactive digital personas, pushing the boundaries of how we interact with digital content.",
+    "arxiv_id": "2406.13093",
+    "authors": [
+      "Wuxinlin Cheng",
+      "Cheng Wan",
+      "Yupeng Cao",
+      "Sihan Chen"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.HC"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2406.13093v1",
+    "primary_category": "cs.CV",
+    "published": "2024-06-18T22:53:15Z",
+    "query": "(cat:cs.HC AND all:framework) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2406.13093v1",
+    "title": "RITA: A Real-time Interactive Talking Avatars Framework",
+    "updated": "2024-06-18T22:53:15Z",
+    "versioned_id": "2406.13093v1"
+  },
+  "reference_sha256": "32e862e3f8181a3a985973da6b4595cb7c7d36fbe9cf274348a1e6c4bf4953fb",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 867,
+    "final_quality_rank": 881,
+    "final_quality_score": 0.481187,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.7778,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.266394,
+      "component_bin": 1,
+      "connector_bin": 1,
+      "difference_hash": "0000000020953a4d5a4d26cd74cd02d5135dd935200001080000000000000000",
+      "raster_bin": 1
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "pipeline.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "19a20785f352b558fac3b5d8d641cb221c7f3160e6ac8807972e5394f616ada9",
+  "task_id": "task_0866",
+  "task_index": 866
+}

@@ -1,0 +1,50 @@
+{
+  "assets": [
+    {
+      "file": "resource_0001.png",
+      "has_alpha": false,
+      "height": 44,
+      "sha256": "c67ba330b3cd2a62a5246f038bd2a7945dca6196b3bb0122245bb7a57e46a53a",
+      "width": 145
+    },
+    {
+      "file": "resource_0002.png",
+      "has_alpha": false,
+      "height": 62,
+      "sha256": "227cf1c43e185783f2532b3079622d915fd509d080a94eefa0fee82870f4e682",
+      "width": 55
+    },
+    {
+      "file": "resource_0003.png",
+      "has_alpha": false,
+      "height": 93,
+      "sha256": "08177cfc4b2887c7804278c82e4daa1b99df6d7075602cd8e76aa5331e3a402b",
+      "width": 100
+    },
+    {
+      "file": "resource_0004.png",
+      "has_alpha": false,
+      "height": 93,
+      "sha256": "47fdafe5748d9b48d9bcab3a94f0f5363b08855bc3a4d0fd684b4b73673584ad",
+      "width": 93
+    },
+    {
+      "file": "resource_0005.png",
+      "has_alpha": false,
+      "height": 90,
+      "sha256": "d26ab814f201c3b6d6a19c0d56bb3545d597b16db494fd57024924423df12788",
+      "width": 90
+    }
+  ],
+  "candidate_id": "2410-03800_pdf_876835d91121871d",
+  "extractor_version": "native-raster-v1",
+  "manual_qc": {
+    "maximum_resources": 12,
+    "removed_count": 3,
+    "status": "pass",
+    "version": "manual-resource-qc-v1"
+  },
+  "resource_count": 5,
+  "schema": "pptbench-task-resources-v1",
+  "task_id": "task_0954"
+}

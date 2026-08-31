@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2101.11834",
+  "candidate_id": "2101-11834_pdf_d01d2809e1b5014d",
+  "caption": "The best architecture of RLNAS searched on ImageNet dataset within 475M FLOPs constrain.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 46,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1221,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 90,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1221,
+    "text_count": 22,
+    "vector_drawing_count": 68,
+    "vector_primitive_count": 1199
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2101.11834v2",
+    "abstract": "In this paper, we investigate a new variant of neural architecture search (NAS) paradigm -- searching with random labels (RLNAS). The task sounds counter-intuitive for most existing NAS algorithms since random label provides few information on the performance of each candidate architecture. Instead, we propose a novel NAS framework based on ease-of-convergence hypothesis, which requires only random labels during searching. The algorithm involves two steps: first, we train a SuperNet using random labels; second, from the SuperNet we extract the sub-network whose weights change most significantly during the training. Extensive experiments are evaluated on multiple datasets (e.g. NAS-Bench-201 and ImageNet) and multiple search spaces (e.g. DARTS-like and MobileNet-like). Very surprisingly, RLNAS achieves comparable or even better results compared with state-of-the-art NAS methods such as PC-DARTS, Single Path One-Shot, even though the counterparts utilize full ground truth labels for searching. We hope our finding could inspire new understandings on the essential of NAS.",
+    "arxiv_id": "2101.11834",
+    "authors": [
+      "Xuanyang Zhang",
+      "Pengfei Hou",
+      "Xiangyu Zhang",
+      "Jian Sun"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2101.11834v2",
+    "primary_category": "cs.CV",
+    "published": "2021-01-28T06:41:48Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2101.11834v2",
+    "title": "Neural Architecture Search with Random Labels",
+    "updated": "2021-05-25T08:59:00Z",
+    "versioned_id": "2101.11834v2"
+  },
+  "reference_sha256": "77803e0feae8b5cbf642a0163aa12c735475002764364f809ea1c0e7cecb809f",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 195,
+    "final_quality_rank": 150,
+    "final_quality_score": 0.683147,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 4.5176,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 5,
+      "colorfulness": 0.852753,
+      "component_bin": 3,
+      "connector_bin": 1,
+      "difference_hash": "00000000659a6592659261926592619261926592659261926592000024120000",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 423,
+    "style_selection_score": 0.551334
+  },
+  "source_filename": "mobile_crop.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "d01d2809e1b5014d13076f30d5aed4914838edda013f35732faf1cd6745cb5c8",
+  "task_id": "task_0194",
+  "task_index": 194
+}

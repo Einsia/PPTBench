@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2503.21242",
+  "candidate_id": "2503-21242_pdf_937f8a78b69ecc44",
+  "caption": "Illustration of the proposed PLAIN architecture with its main building blocks.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 115,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 0.986333,
+    "editable_component_count": 433,
+    "embedded_image_count": 6,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.000483,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 153,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 439,
+    "text_count": 25,
+    "vector_drawing_count": 122,
+    "vector_primitive_count": 408
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 385,
+    "full_pool_rank": 542,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 334,
+    "second_pass_review_rank": 385
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2503.21242v1",
+    "abstract": "Integrated sensing and communication (ISAC) is envisioned be to one of the paradigms upon which next-generation mobile networks will be built, extending localization and tracking capabilities, as well as giving birth to environment-aware wireless access. A key aspect of sensing integration is parameter estimation, which involves extracting information about the surrounding environment, such as the direction, distance, and velocity of various objects within. This is typically of a high-dimensional nature, which leads to significant computational complexity, if performed jointly across multiple sensing dimensions, such as space, frequency, and time. Additionally, due to the incorporation of sensing on top of the data transmission, the time window available for sensing is likely to be short, resulting in an estimation problem where only a single snapshot is accessible. In this work, we propose PLAIN, a tensor-based estimation architecture that flexibly scales with multiple sensing dimensions and can handle high dimensionality, limited measurement time, and super-resolution requirements. It consists of three stages: a compression stage, where the high dimensional input is converted into lower dimensionality, without sacrificing resolution; a decoupled estimation stage, where the parameters across the different dimensions are estimated in parallel with low complexity; an input-based fusion stage, where the decoupled parameters are fused together to form a paired multidimensional estimate. We investigate the performance of the architecture for different configurations and compare it against practical sequential and joint estimation baselines, as well as theoretical bounds. Our results show that PLAIN, using tools from tensor algebra, subspace-based processing, and compressed sensing, can scale flexibly with dimensionality, while operating with low complexity and maintaining super-resolution.",
+    "arxiv_id": "2503.21242",
+    "authors": [
+      "Bashar Tahir",
+      "Philipp Svoboda",
+      "Markus Rupp"
+    ],
+    "categories": [
+      "eess.SP",
+      "cs.CV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2503.21242v1",
+    "primary_category": "eess.SP",
+    "published": "2025-03-27T08:04:46Z",
+    "query": "(cat:eess.SP AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2503.21242v1",
+    "title": "PLAIN: Scalable Estimation Architecture for Integrated Sensing and Communication",
+    "updated": "2025-03-27T08:04:46Z",
+    "versioned_id": "2503.21242v1"
+  },
+  "reference_sha256": "426fdea7b6fdde0822a852c820c87c42394884257f5696b36c6d75d424b79fed",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 544,
+    "final_quality_rank": 699,
+    "final_quality_score": 0.55778,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.1581,
+      "category": "eess.SP",
+      "category_family": "eess",
+      "color_bin": 0,
+      "colorfulness": 0.067677,
+      "component_bin": 2,
+      "connector_bin": 2,
+      "difference_hash": "83189710b75033304a6c935dd36ccb681b621b221f4217021002118219c20ac0",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 779,
+    "style_selection_score": 0.468856
+  },
+  "source_filename": "diagram.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "937f8a78b69ecc44fd84d74c6a7f6464c8e374132e41ffbccf29773229da49fe",
+  "task_id": "task_0543",
+  "task_index": 543
+}

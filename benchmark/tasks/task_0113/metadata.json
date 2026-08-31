@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2506.20686",
+  "candidate_id": "2506-20686_pdf_038f1bb42f0ac719",
+  "caption": "Overview of the AlphaFold3 (AF3). AF3 consists of 3 stages: (1) data loading and preprocessing, which constructs single-token and pairwise representations from input biomolecular complexes using evolutionary context; (2) the Pairformer backbone, which jointly processes 1D token and 2D pairwise representations using 3D attention with cubic complexity; and (3) a diffusion-based decoder, which generates 3D atomic coordinates through iterative denoising with data augmentation.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 100,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1280,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 167,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1280,
+    "text_count": 44,
+    "vector_drawing_count": 123,
+    "vector_primitive_count": 1236
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 972,
+    "full_pool_rank": 1716,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 857,
+    "second_pass_review_rank": 972
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2506.20686v2",
+    "abstract": "Recent advances in biomolecular modeling have been catalyzed by models such as AlphaFold3 (AF3), which introduce science-informed changes to the transformer architecture. Unlike transformers, a defining characteristic of AF3-style models is their 3D attention over 2D pairwise representations which produces tensors whose computation and memory costs scale cubically with sequence length. As a result, despite moderate parameter counts, AF3-style models are far more expensive to train than size-equivalent transformers, and are severely constrained by GPU memory capacity. Our characterization shows 3D attention fundamentally changes the training workload, causing massive 3D attention maps, complex inter-operator dependencies, kernel fragmentation, and heavy host-side data pipelines which differ substantially from LLM training, leading to poor utilization on modern GPU systems. Moreover, existing GPU optimizations do not adequately address these challenges due to complex cross-layer inter-operator dependencies introduced by 3D attention. Motivated by these challenges, we introduce MegaFold, a novel cross-platform system for efficient training of next-generation 3D-attention protein models. MegaFold combines a memory-efficient 3D-attention kernel, a communication-efficient sharding strategy for quadratic representations, fused operator implementations for critical execution paths, and a determinism-aware host-device pipeline that eliminates preprocessing stalls. Evaluation on both NVIDIA H200 and AMD MI250 GPUs shows that MegaFold enables training with up to 3.36$\\times$ longer sequence lengths on 32 GPUs while reducing end-to-end execution time by up to 1.73$\\times$ (NVIDIA) and 1.62$\\times$ (AMD).",
+    "arxiv_id": "2506.20686",
+    "authors": [
+      "Hoa La",
+      "Ahan Gupta",
+      "Alex Morehead",
+      "Jianlin Cheng",
+      "Minjia Zhang"
+    ],
+    "categories": [
+      "q-bio.BM",
+      "cs.DC",
+      "cs.LG",
+      "cs.PF"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2506.20686v2",
+    "primary_category": "q-bio.BM",
+    "published": "2025-06-24T23:30:49Z",
+    "query": "(cat:q-bio.BM AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2506.20686v2",
+    "title": "MegaFold: Efficient Training of Next-Generation 3D Attention Protein Models on Cross-Platform GPUs",
+    "updated": "2026-06-13T21:36:20Z",
+    "versioned_id": "2506.20686v2"
+  },
+  "reference_sha256": "88f4f81ca9b4c05115885fd7e849c5af8d29bcca6a0856a5ca48dee399cfdadf",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 114,
+    "final_quality_rank": 458,
+    "final_quality_score": 0.607248,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 3.1203,
+      "category": "q-bio.BM",
+      "category_family": "q-bio",
+      "color_bin": 3,
+      "colorfulness": 0.39578,
+      "component_bin": 3,
+      "connector_bin": 2,
+      "difference_hash": "a094a041e5b4e6b49694e436e426cd16cd22c476c666a606c506a66c22dc1603",
+      "raster_bin": 0
+    },
+    "style_selection_rank": null,
+    "style_selection_score": null
+  },
+  "source_filename": "af_background.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "038f1bb42f0ac719cc864e553b859e05396cef88357231d33b0670bda9210e06",
+  "task_id": "task_0113",
+  "task_index": 113
+}

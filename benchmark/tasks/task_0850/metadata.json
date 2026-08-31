@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2202.01614",
+  "candidate_id": "2202-01614_pdf_bf19f4fe611b43a3",
+  "caption": "The left part is the acoustics training data, where we listed our all data augmentation methods, the yellow blocks are original data set and the grey blocks were used to train our models. In the training stage, the utterances greater than 30 seconds were excluded, so the final duration of training set is about 18,000 hours. The middle part is our system architecture, including training data, ASR model and test data processing. The right part is two ASR model architectures.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 70,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 286,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 198,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 286,
+    "text_count": 82,
+    "vector_drawing_count": 116,
+    "vector_primitive_count": 204
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 851,
+    "full_pool_rank": 1446,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 740,
+    "second_pass_review_rank": 851
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2202.01614v2",
+    "abstract": "This paper describes our RoyalFlush system for the track of multi-speaker automatic speech recognition (ASR) in the M2MeT challenge. We adopted the serialized output training (SOT) based multi-speakers ASR system with large-scale simulation data. Firstly, we investigated a set of front-end methods, including multi-channel weighted predicted error (WPE), beamforming, speech separation, speech enhancement and so on, to process training, validation and test sets. But we only selected WPE and beamforming as our frontend methods according to their experimental results. Secondly, we made great efforts in the data augmentation for multi-speaker ASR, mainly including adding noise and reverberation, overlapped speech simulation, multi-channel speech simulation, speed perturbation, front-end processing, and so on, which brought us a great performance improvement. Finally, in order to make full use of the performance complementary of different model architecture, we trained the standard conformer based joint CTC/Attention (Conformer) and U2++ ASR model with a bidirectional attention decoder, a modification of Conformer, to fuse their results. Comparing with the official baseline system, our system got a 12.22% absolute Character Error Rate (CER) reduction on the validation set and 12.11% on the test set.",
+    "arxiv_id": "2202.01614",
+    "authors": [
+      "Shuaishuai Ye",
+      "Peiyao Wang",
+      "Shunfei Chen",
+      "Xinhui Hu",
+      "Xinkang Xu"
+    ],
+    "categories": [
+      "cs.SD",
+      "eess.AS",
+      "stat.ML"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2202.01614v2",
+    "primary_category": "cs.SD",
+    "published": "2022-02-03T14:38:26Z",
+    "query": "(cat:eess.AS AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2202.01614v2",
+    "title": "The RoyalFlush System of Speech Recognition for M2MeT Challenge",
+    "updated": "2022-02-24T10:37:41Z",
+    "versioned_id": "2202.01614v2"
+  },
+  "reference_sha256": "772d57b68d41a2dca5e8ac6dc4f55ab0a61e84b31472d9e6779010eab0c5ea1d",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 851,
+    "final_quality_rank": 708,
+    "final_quality_score": 0.555752,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 5,
+      "aspect_ratio": 3.2653,
+      "category": "cs.SD",
+      "category_family": "cs",
+      "color_bin": 3,
+      "colorfulness": 0.359372,
+      "component_bin": 1,
+      "connector_bin": 2,
+      "difference_hash": "22ca32da33cb6c466c4e16469e58961c3601964d365e988c09cea64cf2512251",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 730,
+    "style_selection_score": 0.467207
+  },
+  "source_filename": "m2met_all.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "bf19f4fe611b43a36945038b20e8846c7bfe668ecd28218740f138c863d304fa",
+  "task_id": "task_0850",
+  "task_index": 850
+}

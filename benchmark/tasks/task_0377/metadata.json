@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2401.06788",
+  "candidate_id": "2401-06788_pdf_d1140e8e5f583369",
+  "caption": "(a) Detail structure of the ResNet3D Visual Frontend; (b) System overview of our VSR system.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 74,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1674,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 95,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1674,
+    "text_count": 21,
+    "vector_drawing_count": 74,
+    "vector_primitive_count": 1653
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2401.06788v2",
+    "abstract": "This paper delineates the visual speech recognition (VSR) system introduced by the NPU-ASLP-LiAuto (Team 237) in the first Chinese Continuous Visual Speech Recognition Challenge (CNVSRC) 2023, engaging in the fixed and open tracks of Single-Speaker VSR Task, and the open track of Multi-Speaker VSR Task. In terms of data processing, we leverage the lip motion extractor from the baseline1 to produce multi-scale video data. Besides, various augmentation techniques are applied during training, encompassing speed perturbation, random rotation, horizontal flipping, and color transformation. The VSR model adopts an end-to-end architecture with joint CTC/attention loss, comprising a ResNet3D visual frontend, an E-Branchformer encoder, and a Transformer decoder. Experiments show that our system achieves 34.76% CER for the Single-Speaker Task and 41.06% CER for the Multi-Speaker Task after multi-system fusion, ranking first place in all three tracks we participate.",
+    "arxiv_id": "2401.06788",
+    "authors": [
+      "He Wang",
+      "Pengcheng Guo",
+      "Wei Chen",
+      "Pan Zhou",
+      "Lei Xie"
+    ],
+    "categories": [
+      "eess.AS",
+      "cs.AI",
+      "cs.SD"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2401.06788v2",
+    "primary_category": "eess.AS",
+    "published": "2024-01-07T14:20:52Z",
+    "query": "(cat:eess.AS AND all:system) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2401.06788v2",
+    "title": "The NPU-ASLP-LiAuto System Description for Visual Speech Recognition in CNVSRC 2023",
+    "updated": "2024-02-29T18:09:40Z",
+    "versioned_id": "2401.06788v2"
+  },
+  "reference_sha256": "a355e20240afbe1693a8c79350bb19e7aeab08c03d39ee8a0760776441bec9d1",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 378,
+    "final_quality_rank": 466,
+    "final_quality_score": 0.605381,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.3506,
+      "category": "eess.AS",
+      "category_family": "eess",
+      "color_bin": 2,
+      "colorfulness": 0.221767,
+      "component_bin": 3,
+      "connector_bin": 2,
+      "difference_hash": "10e670a6f0e671e670aaf4380e388c388c380e38dc38f0b870b869b870943008",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 482,
+    "style_selection_score": 0.502753
+  },
+  "source_filename": "vsr_model.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "d1140e8e5f583369c36f021d0370ec36341d7bfcc17e4332f09f6d78745f7515",
+  "task_id": "task_0377",
+  "task_index": 377
+}

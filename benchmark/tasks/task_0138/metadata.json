@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2405.14716",
+  "candidate_id": "2405-14716_pdf_afa27583c36b7d04",
+  "caption": "A representation of fraction addition problem-solving knowledge in rule (left) and HTN formats (right), showing methods (ellipse) and operators (rectangle) for head tasks, with lettered callouts indicating equivalent steps in both frameworks.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 87,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 21238,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 198,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 21238,
+    "text_count": 111,
+    "vector_drawing_count": 87,
+    "vector_primitive_count": 21127
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2405.14716v2",
+    "abstract": "Intelligent tutors have shown success in delivering a personalized and adaptive learning experience. However, there exist challenges regarding the granularity of knowledge in existing frameworks and the resulting instructions they can provide. To address these issues, we propose HTN-based tutors, a new intelligent tutoring framework that represents expert models using Hierarchical Task Networks (HTNs). Like other tutoring frameworks, it allows flexible encoding of different problem-solving strategies while providing the additional benefit of a hierarchical knowledge organization. We leverage the latter to create tutors that can adapt the granularity of their scaffolding. This organization also aligns well with the compositional nature of skills.",
+    "arxiv_id": "2405.14716",
+    "authors": [
+      "Momin N. Siddiqui",
+      "Adit Gupta",
+      "Jennifer M. Reddig",
+      "Christopher J. MacLellan"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.HC"
+    ],
+    "doi": "10.1145/3657604",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2405.14716v2",
+    "primary_category": "cs.AI",
+    "published": "2024-05-23T15:46:42Z",
+    "query": "(cat:cs.HC AND all:framework) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2405.14716v2",
+    "title": "HTN-Based Tutors: A New Intelligent Tutoring Framework Based on Hierarchical Task Networks",
+    "updated": "2024-05-24T02:38:22Z",
+    "versioned_id": "2405.14716v2"
+  },
+  "reference_sha256": "d1769aeac63d2a1c8a1a57e10ea0753cbd918f6b78e50baeafe333a80e9d24d9",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 139,
+    "final_quality_rank": 106,
+    "final_quality_score": 0.701955,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.2141,
+      "category": "cs.AI",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.297447,
+      "component_bin": 6,
+      "connector_bin": 2,
+      "difference_hash": "64006407645f641a64db74dd64d866e27740674d74d974d864dd745964386404",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 161,
+    "style_selection_score": 0.568019
+  },
+  "source_filename": "newcogtutorVsHTN.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "afa27583c36b7d0456d5cb3b4793cc5aebaca9764f15d77316ac21f7386f94fc",
+  "task_id": "task_0138",
+  "task_index": 138
+}

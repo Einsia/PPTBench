@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2209.10379",
+  "candidate_id": "2209-10379_pdf_59f139ddb54e03bb",
+  "caption": "The full high throughput workflow proposed in this work to obtain the accurate magnetic properties of a 2D system using a combination of DFT+U and QMC.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 74,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 367,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 98,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 367,
+    "text_count": 20,
+    "vector_drawing_count": 78,
+    "vector_primitive_count": 347
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 394,
+    "full_pool_rank": 562,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 343,
+    "second_pass_review_rank": 394
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2209.10379v2",
+    "abstract": "The search for two-dimensional (2D) magnetic materials has attracted a great deal of attention because of the experimental synthesis of 2D CrI$_3$, which has a measured Curie temperature of 45 K. Often times, these monolayers have a higher degree of electron correlation and require more sophisticated methods beyond density functional theory (DFT). Diffusion Monte Carlo (DMC) is a correlated electronic structure method that has been demonstrated successful for calculating the electronic and magnetic properties of a wide variety of 2D and bulk systems, since it has a weaker dependence on the Hubbard parameter (U) and density functional. In this study we designed a workflow that combines DFT+U and DMC in order to treat 2D correlated magnetic systems. We chose monolayer CrX$_3$ (X = I, Br, Cl, F), with a stronger focus on CrI$_3$ and CrBr$_3$, as a case study due to the fact that they have been experimentally realized and have a finite critical temperature. With this DFT+U and DMC workflow and the analytical method of Torelli and Olsen, we estimated an upper bound of 43.56 K for the T$_c$ of CrI$_3$ and 20.78 K for the T$_c$ of CrBr$_3$, in addition to analyzing the spin densities and magnetic properties with DMC and DFT+U. We expect that running this workflow for a well-known material class will aid in the future discovery and characterization of lesser known and more complex correlated 2D magnetic materials.",
+    "arxiv_id": "2209.10379",
+    "authors": [
+      "Daniel Wines",
+      "Kamal Choudhary",
+      "Francesca Tavazza"
+    ],
+    "categories": [
+      "cond-mat.str-el",
+      "cond-mat.mtrl-sci"
+    ],
+    "doi": "10.1021/acs.jpcc.2c06733",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2209.10379v2",
+    "primary_category": "cond-mat.str-el",
+    "published": "2022-09-21T14:15:55Z",
+    "query": "(cat:cond-mat.mtrl-sci AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2209.10379v2",
+    "title": "Systematic DFT+U and Quantum Monte Carlo benchmark of magnetic two-dimensional (2D) CrX$_3$ (X = I, Br, Cl, F)",
+    "updated": "2023-01-13T16:48:22Z",
+    "versioned_id": "2209.10379v2"
+  },
+  "reference_sha256": "4d11bf28438e55660f73236d31fb5b2f2d25dbb4162cd5b25df62e8fb66c6f74",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 610,
+    "final_quality_rank": 801,
+    "final_quality_score": 0.522893,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 1,
+      "aspect_ratio": 0.8984,
+      "category": "cond-mat.str-el",
+      "category_family": "cond-mat",
+      "color_bin": 0,
+      "colorfulness": 0.0,
+      "component_bin": 1,
+      "connector_bin": 2,
+      "difference_hash": "0e000e200e400e4909290ec20666ce068e12999a1110991a8d12d9021c0e1900",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 184,
+    "style_selection_score": 0.558889
+  },
+  "source_filename": "Fig2.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "59f139ddb54e03bb2cfe0f708d4f17b7c3b4c41b9cccd5e1b8d48438324a1e9f",
+  "task_id": "task_0609",
+  "task_index": 609
+}

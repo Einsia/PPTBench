@@ -1,0 +1,78 @@
+[dataset]
+name = "pptbench-collection"
+output_dir = "data/pptbench-collection"
+target_figures = 200
+oversample_factor = 1.5
+random_seed = 2026
+
+[arxiv]
+queries = [
+  "all:flowchart",
+  "all:\"workflow diagram\"",
+  "all:\"block diagram\"",
+  "all:\"architecture diagram\"",
+  "all:\"system architecture\"",
+  "all:\"processing pipeline\"",
+  "all:\"method overview\"",
+  "all:\"model overview\"",
+  "all:schematic AND (cat:cs.CV OR cat:cs.AI OR cat:cs.LG OR cat:cs.CL)",
+  "all:pipeline AND (cat:cs.CV OR cat:cs.AI OR cat:cs.LG)",
+  "all:workflow AND (cat:cs.RO OR cat:eess.SY)",
+  "all:framework AND (cat:cs.CL OR cat:cs.HC)",
+  "all:\"flow diagram\"",
+  "all:\"data flow diagram\"",
+  "all:\"process diagram\"",
+  "all:\"network architecture\"",
+  "all:\"proposed framework\"",
+  "all:\"overall framework\"",
+  "all:\"overview diagram\"",
+  "all:\"system diagram\"",
+  "all:\"pipeline figure\"",
+  "all:\"workflow figure\"",
+  "all:\"architecture figure\"",
+  "all:\"schematic overview\"",
+  "all:\"proposed pipeline\"",
+  "all:\"overall architecture\"",
+  "all:\"model architecture\"",
+  "all:\"system workflow\"",
+  "all:\"processing framework\"",
+  "all:\"method pipeline\"",
+  "all:\"framework overview\"",
+  "all:\"architecture overview\"",
+  "all:\"block schematic\"",
+  "all:\"flow chart\"",
+  "all:\"pipeline diagram\"",
+  "all:\"framework diagram\"",
+  "all:\"method diagram\"",
+  "all:\"system overview\"",
+  "all:\"workflow overview\"",
+  "all:\"processing flow\"",
+  "all:\"data processing flow\"",
+  "all:\"experimental workflow\"",
+  "all:\"end-to-end pipeline\"",
+  "all:\"training pipeline\"",
+  "all:\"inference pipeline\"",
+]
+results_per_query = 600
+page_size = 80
+api_delay_seconds = 3.0
+download_delay_seconds = 1.0
+request_timeout_seconds = 90
+user_agent = "PPTBench/1.0 (https://github.com/Einsia/PPTBench)"
+submitted_after = "2022-01-01"
+submitted_before = ""
+
+[selection]
+max_figures_per_paper = 10
+dedupe_hamming_distance = 4
+
+[license]
+allowed_urls = [
+  "http://creativecommons.org/licenses/by/4.0/",
+  "https://creativecommons.org/licenses/by/4.0/",
+  "http://creativecommons.org/licenses/by-sa/4.0/",
+  "https://creativecommons.org/licenses/by-sa/4.0/",
+  "http://creativecommons.org/publicdomain/zero/1.0/",
+  "https://creativecommons.org/publicdomain/zero/1.0/",
+]
+allow_unknown_for_local_research = true

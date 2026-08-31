@@ -1,0 +1,90 @@
+{
+  "arxiv_id": "2205.11656",
+  "candidate_id": "2205-11656_pdf_60948ff74f3ebedc",
+  "caption": "Obtained FlexiBERT models after running the BOSHNAS pipeline: (a) FlexiBERT-Mini, and its design choices extrapolated to obtain (b) FlexiBERT-Large.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 128,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 4008,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 168,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 4008,
+    "text_count": 40,
+    "vector_drawing_count": 128,
+    "vector_primitive_count": 3968
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 766,
+    "full_pool_rank": 1315,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 669,
+    "second_pass_review_rank": 766
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2205.11656v1",
+    "abstract": "The existence of a plethora of language models makes the problem of selecting the best one for a custom task challenging. Most state-of-the-art methods leverage transformer-based models (e.g., BERT) or their variants. Training such models and exploring their hyperparameter space, however, is computationally expensive. Prior work proposes several neural architecture search (NAS) methods that employ performance predictors (e.g., surrogate models) to address this issue; however, analysis has been limited to homogeneous models that use fixed dimensionality throughout the network. This leads to sub-optimal architectures. To address this limitation, we propose a suite of heterogeneous and flexible models, namely FlexiBERT, that have varied encoder layers with a diverse set of possible operations and different hidden dimensions. For better-posed surrogate modeling in this expanded design space, we propose a new graph-similarity-based embedding scheme. We also propose a novel NAS policy, called BOSHNAS, that leverages this new scheme, Bayesian modeling, and second-order optimization, to quickly train and use a neural surrogate model to converge to the optimal architecture. A comprehensive set of experiments shows that the proposed policy, when applied to the FlexiBERT design space, pushes the performance frontier upwards compared to traditional models. FlexiBERT-Mini, one of our proposed models, has 3% fewer parameters than BERT-Mini and achieves 8.9% higher GLUE score. A FlexiBERT model with equivalent performance as the best homogeneous model achieves 2.6x smaller size. FlexiBERT-Large, another proposed model, achieves state-of-the-art results, outperforming the baseline models by at least 5.7% on the GLUE benchmark.",
+    "arxiv_id": "2205.11656",
+    "authors": [
+      "Shikhar Tuli",
+      "Bhishma Dedhia",
+      "Shreshth Tuli",
+      "Niraj K. Jha"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CL"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2205.11656v1",
+    "primary_category": "cs.LG",
+    "published": "2022-05-23T22:44:34Z",
+    "query": "(cat:cs.CL AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2205.11656v1",
+    "title": "FlexiBERT: Are Current Transformer Architectures too Homogeneous and Rigid?",
+    "updated": "2022-05-23T22:44:34Z",
+    "versioned_id": "2205.11656v1"
+  },
+  "reference_sha256": "fc305b305e72c6750bce81956ea54881193b796d170506475b39b79758a3224a",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 391,
+    "final_quality_rank": 288,
+    "final_quality_score": 0.643464,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 2,
+      "aspect_ratio": 1.0304,
+      "category": "cs.LG",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.291448,
+      "component_bin": 4,
+      "connector_bin": 2,
+      "difference_hash": "69b469b461b068b460a061b049a0e9f469b4e1f0e0b0e0b0e1b0d1e8e1f02010",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 513,
+    "style_selection_score": 0.516711
+  },
+  "source_filename": "flexibert_mini_large.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "60948ff74f3ebedca60a857f1cec988235741405eedeb22b6eaa28e45a926dd8",
+  "task_id": "task_0390",
+  "task_index": 390
+}

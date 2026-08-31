@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2507.08149",
+  "candidate_id": "2507-08149_pdf_42c165d23459c840",
+  "caption": "Comparing developer workflows with copilots and agents. We visualize abstracted user trajectories across three parts of the workflow: implementing functionality, setting up the environment, and debugging. We find that agentic workflows begin to shift more effort to the AI, aligning with the observed time saved.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 70,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 438,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 133,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 438,
+    "text_count": 53,
+    "vector_drawing_count": 80,
+    "vector_primitive_count": 385
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 993,
+    "full_pool_rank": 1760,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 877,
+    "second_pass_review_rank": 993
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2507.08149v2",
+    "abstract": "Developers now have access to a growing array of increasingly autonomous AI tools for software development. While many studies examine copilots that provide chat assistance or code completions, evaluations of coding agents -- which can automatically write files and run code -- still rely on static benchmarks. We present the first controlled study of developer interactions with coding agents, characterizing how more autonomous AI tools affect productivity and experience. We evaluate two leading copilot and agentic coding assistants, recruiting participants who regularly use the former. Our results show agents can assist developers in ways that surpass copilots (e.g., completing tasks humans may not have accomplished) and reduce the effort required to finish tasks. Yet challenges remain for broader adoption, including ensuring users adequately understand agent behaviors. Our findings reveal how workflows shift with coding agents and how interactions differ from copilots, motivating recommendations for researchers and highlighting challenges in adopting agentic systems.",
+    "arxiv_id": "2507.08149",
+    "authors": [
+      "Valerie Chen",
+      "Ameet Talwalkar",
+      "Robert Brennan",
+      "Graham Neubig"
+    ],
+    "categories": [
+      "cs.SE"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2507.08149v2",
+    "primary_category": "cs.SE",
+    "published": "2025-07-10T20:12:54Z",
+    "query": "(cat:cs.SE AND all:workflow) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2507.08149v2",
+    "title": "Code with Me or for Me? How Increasing AI Automation Transforms Developer Workflows",
+    "updated": "2025-09-13T14:59:53Z",
+    "versioned_id": "2507.08149v2"
+  },
+  "reference_sha256": "ed7b64b1fb8c0d5da2f8085da1b96c5f914535e8b036eefc2c8649ede1edcc8b",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 889,
+    "final_quality_rank": 746,
+    "final_quality_score": 0.543964,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.5578,
+      "category": "cs.SE",
+      "category_family": "cs",
+      "color_bin": 2,
+      "colorfulness": 0.254764,
+      "component_bin": 2,
+      "connector_bin": 2,
+      "difference_hash": "f05862b9f0e8d4caa2d6f2b1d269d0e968f4e8b4f2a8e0f0dcd2d4d207005610",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 830,
+    "style_selection_score": 0.442324
+  },
+  "source_filename": "comparing_trajectories.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "42c165d23459c8405a8cc2c43d4bdc870bb660bdb51c9d26a573a541063fae0a",
+  "task_id": "task_0888",
+  "task_index": 888
+}

@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2404.16304",
+  "candidate_id": "2404-16304_pdf_7520478e6a7c338a",
+  "caption": "The architecture of three different decoders.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 105,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 1075,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 343,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 1075,
+    "text_count": 198,
+    "vector_drawing_count": 145,
+    "vector_primitive_count": 877
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": null,
+    "full_pool_rank": null,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": null,
+    "second_pass_review_rank": null
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2404.16304v1",
+    "abstract": "Lane detection has made significant progress in recent years, but there is not a unified architecture for its two sub-tasks: 2D lane detection and 3D lane detection. To fill this gap, we introduce B\u00e9zierFormer, a unified 2D and 3D lane detection architecture based on B\u00e9zier curve lane representation. B\u00e9zierFormer formulate queries as B\u00e9zier control points and incorporate a novel B\u00e9zier curve attention mechanism. This attention mechanism enables comprehensive and accurate feature extraction for slender lane curves via sampling and fusing multiple reference points on each curve. In addition, we propose a novel Chamfer IoU-based loss which is more suitable for the B\u00e9zier control points regression. The state-of-the-art performance of B\u00e9zierFormer on widely-used 2D and 3D lane detection benchmarks verifies its effectiveness and suggests the worthiness of further exploration.",
+    "arxiv_id": "2404.16304",
+    "authors": [
+      "Zhiwei Dong",
+      "Xi Zhu",
+      "Xiya Cao",
+      "Ran Ding",
+      "Wei Li",
+      "Caifa Zhou",
+      "Yongliang Wang",
+      "Qiangbo Liu"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2404.16304v1",
+    "primary_category": "cs.CV",
+    "published": "2024-04-25T03:05:46Z",
+    "query": "(cat:cs.CV AND all:architecture) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2404.16304v1",
+    "title": "BezierFormer: A Unified Architecture for 2D and 3D Lane Detection",
+    "updated": "2024-04-25T03:05:46Z",
+    "versioned_id": "2404.16304v1"
+  },
+  "reference_sha256": "311eefa870b5ac669581ab006f947360f9de2eb062d8d2a23a1c3aca2bd36f02",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 651,
+    "final_quality_rank": 473,
+    "final_quality_score": 0.603054,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 2.2934,
+      "category": "cs.CV",
+      "category_family": "cs",
+      "color_bin": 1,
+      "colorfulness": 0.159541,
+      "component_bin": 3,
+      "connector_bin": 2,
+      "difference_hash": "c71ce718d21ac6188618961096528618c6188618c618c71892dad658c71cc718",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 801,
+    "style_selection_score": 0.482094
+  },
+  "source_filename": "appendix_poly_row_2.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "7520478e6a7c338acf4fbed5ad1c0a3590c5822aff85c2ab81d8ae6be62f69c4",
+  "task_id": "task_0650",
+  "task_index": 650
+}

@@ -1,0 +1,92 @@
+{
+  "arxiv_id": "2405.04690",
+  "candidate_id": "2405-04690_pdf_0efe7099d2e6d101",
+  "caption": "Process diagram for the Erebor algorithm. Each circle with ``P#'' indicates a separate process. Orange circles indicate processes that communicate with and use GPUs. P1, P2, and P3 communicate with one GPU each. P4 and P5 communicate with one GPU total between the two. File-related operations are in green. Separate but communicating modules are shown in yellow. Major algorithmic partitions are given in blue.",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 171,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 679,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 262,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 679,
+    "text_count": 91,
+    "vector_drawing_count": 171,
+    "vector_primitive_count": 588
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 979,
+    "full_pool_rank": 1731,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 863,
+    "second_pass_review_rank": 979
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2405.04690v2",
+    "abstract": "The large-scale analysis task of deciphering gravitational wave signals in the LISA data stream will be difficult, requiring a large amount of computational resources and extensive development of computational methods. Its high dimensionality, multiple model types, and complicated noise profile require a global fit to all parameters and input models simultaneously. In this work, we detail our global fit algorithm, called ``Erebor,'' designed to accomplish this challenging task. It is capable of analysing current state-of-the-art datasets and then growing into the future as more pieces of the pipeline are completed and added. We describe our pipeline strategy, the algorithmic setup, and the results from our analysis of the LDC2A Sangria dataset, which contains Massive Black Hole Binaries, compact Galactic Binaries, and a parameterized noise spectrum whose parameters are unknown to the user. The Erebor algorithm includes three unique and very useful contributions: GPU acceleration for enhanced computational efficiency; ensemble MCMC sampling with multiple MCMC walkers per temperature for better mixing and parallelized sample creation; and special online updates to reversible-jump (or trans-dimensional) sampling distributions to ensure sampler mixing and accurate initial estimates for detectable sources in the data. We recover posterior distributions for all 15 (6) of the injected MBHBs in the LDC2A training (hidden) dataset. We catalog $\\sim12000$ Galactic Binaries ($\\sim8000$ as high confidence detections) for both the training and hidden datasets. All of the sources and their posterior distributions are provided in publicly available catalogs.",
+    "arxiv_id": "2405.04690",
+    "authors": [
+      "Michael L. Katz",
+      "Nikolaos Karnesis",
+      "Natalia Korsakova",
+      "Jonathan R. Gair",
+      "Nikolaos Stergioulas"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.HE",
+      "astro-ph.IM"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2405.04690v2",
+    "primary_category": "gr-qc",
+    "published": "2024-05-07T22:04:53Z",
+    "query": "(cat:gr-qc AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2405.04690v2",
+    "title": "An efficient GPU-accelerated multi-source global fit pipeline for LISA data analysis",
+    "updated": "2024-12-11T15:36:46Z",
+    "versioned_id": "2405.04690v2"
+  },
+  "reference_sha256": "88dd098105e975fa5ef442807562adde43703dabc333d1e46d6036ea64438efd",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 414,
+    "final_quality_rank": 518,
+    "final_quality_score": 0.594891,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 3,
+      "aspect_ratio": 1.1622,
+      "category": "gr-qc",
+      "category_family": "gr-qc",
+      "color_bin": 2,
+      "colorfulness": 0.271353,
+      "component_bin": 2,
+      "connector_bin": 3,
+      "difference_hash": "86009e32d4099589354a155a9501d50c6d8bdb6b9b29366b248bb09690990090",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 365,
+    "style_selection_score": 0.523477
+  },
+  "source_filename": "Erebor_flowchart.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "0efe7099d2e6d10121c9991acc61154b69e77738e85b9e1725fb5261548445a6",
+  "task_id": "task_0413",
+  "task_index": 413
+}

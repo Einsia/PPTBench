@@ -1,0 +1,91 @@
+{
+  "arxiv_id": "2204.05436",
+  "candidate_id": "2204-05436_pdf_603d1d44a5a34d7f",
+  "caption": "The execution pipeline of involves the accelerator actively classifying a mini-batch into popular and non-popular -batches, then scheduling the popular -batch onto the GPU(s). Simultaneously, the accelerator gathers the working parameters for the non-popular -batch to schedule onto the GPU(s).",
+  "complexity": {
+    "confidence": "high",
+    "connector_count": 62,
+    "counting_method": "pdf-primitives-v2",
+    "editability_ratio": 1.0,
+    "editable_component_count": 389,
+    "embedded_image_count": 0,
+    "full_page_raster": false,
+    "is_editable_pdf": true,
+    "is_single_page": true,
+    "maximum_raster_coverage": 0.0,
+    "minimum_editability_ratio": 0.1,
+    "node_count": 0,
+    "object_component_count": 301,
+    "page_count": 1,
+    "raster_region_count": 0,
+    "subcomponent_count": 389,
+    "text_count": 113,
+    "vector_drawing_count": 188,
+    "vector_primitive_count": 276
+  },
+  "manual_review": {
+    "decision": "accept",
+    "first_pass_accepted_rank": 160,
+    "full_pool_rank": 211,
+    "review_protocol": "two visual passes in batches of ten",
+    "second_pass_accepted_rank": 142,
+    "second_pass_review_rank": 160
+  },
+  "paper": {
+    "abs_url": "https://arxiv.org/abs/2204.05436v2",
+    "abstract": "Recommendation models rely on deep learning networks and large embedding tables, resulting in computationally and memory-intensive processes. These models are typically trained using hybrid CPU-GPU or GPU-only configurations. The hybrid mode combines the GPU's neural network acceleration with the CPUs' memory storage and supply for embedding tables but may incur significant CPU-to-GPU transfer time. In contrast, the GPU-only mode utilizes High Bandwidth Memory (HBM) across multiple GPUs for storing embedding tables. However, this approach is expensive and presents scaling concerns. This paper introduces Hotline, a heterogeneous acceleration pipeline that addresses these concerns. Hotline develops a data-aware and model-aware scheduling pipeline by leveraging the insight that only a few embedding entries are frequently accessed (popular). This approach utilizes CPU main memory for non-popular embeddings and GPUs' HBM for popular embeddings. To achieve this, Hotline accelerator fragments a mini-batch into popular and non-popular micro-batches. It gathers the necessary working parameters for non-popular micro-batches from the CPU, while GPUs execute popular micro-batches. The hardware accelerator dynamically coordinates the execution of popular embeddings on GPUs and non-popular embeddings from the CPU's main memory. Real-world datasets and models confirm Hotline's effectiveness, reducing average end-to-end training time by 2.2x compared to Intel-optimized CPU-GPU DLRM baseline.",
+    "arxiv_id": "2204.05436",
+    "authors": [
+      "Muhammad Adnan",
+      "Yassaman Ebrahimzadeh Maboud",
+      "Divya Mahajan",
+      "Prashant J. Nair"
+    ],
+    "categories": [
+      "cs.AR",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "doi": "",
+    "journal_ref": "",
+    "license_url": "",
+    "pdf_url": "https://arxiv.org/pdf/2204.05436v2",
+    "primary_category": "cs.AR",
+    "published": "2022-04-11T23:10:41Z",
+    "query": "(cat:cs.AI AND all:pipeline) AND submittedDate:[202101010000 TO 999912312359]",
+    "source_url": "https://export.arxiv.org/e-print/2204.05436v2",
+    "title": "Heterogeneous Acceleration Pipeline for Recommendation System Training",
+    "updated": "2024-04-28T05:44:15Z",
+    "versioned_id": "2204.05436v2"
+  },
+  "reference_sha256": "ea630e316f8bab4e0b6ced40eff9e029b8f12f87e7c9f38eb885e380317441a0",
+  "schema": "pptbench-task-v1",
+  "selection": {
+    "diversity_order_rank": 479,
+    "final_quality_rank": 346,
+    "final_quality_score": 0.628531,
+    "maximum_tasks_per_paper": 1,
+    "paper_occurrence_rank": 1,
+    "preference": "complex, colorful, connector-rich editable diagram",
+    "style": {
+      "aspect_bin": 4,
+      "aspect_ratio": 1.6623,
+      "category": "cs.AR",
+      "category_family": "cs",
+      "color_bin": 4,
+      "colorfulness": 0.504275,
+      "component_bin": 1,
+      "connector_bin": 2,
+      "difference_hash": "0d791d3cdd345d345d30272e52c83248e8c472b06294e2b4e03069b4d9c8d208",
+      "raster_bin": 0
+    },
+    "style_selection_rank": 409,
+    "style_selection_score": 0.515193
+  },
+  "source_filename": "HotlineOverview_mod.pdf",
+  "source_kind": "pdf",
+  "source_origin": "latex-source",
+  "source_sha256": "603d1d44a5a34d7f52f036a3460c74e245b496ca51568218adee32eff64d9028",
+  "task_id": "task_0478",
+  "task_index": 478
+}
