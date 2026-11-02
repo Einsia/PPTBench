@@ -35,6 +35,8 @@ The complete [leaderboard](results/leaderboard.csv), [18,000 per-task scores](re
 [bootstrap analysis](results/bootstrap.json), and [generation metrics](results/generation-metrics.csv)
 are available in `results/`.
 
+Note that all results labeled `kimi-k3__high` refer to Kimi K3’s maximum reasoning effort (`max` in the official Moonshot API).
+
 ## Quickstart
 
 PPTBench targets **Linux or WSL2**, Python 3.10+, Bubblewrap, and LibreOffice. Official candidate
